@@ -5,7 +5,6 @@ x
 shit
 
 # data and build artifacts
-raw
 objs/*
 
 # dependencies
