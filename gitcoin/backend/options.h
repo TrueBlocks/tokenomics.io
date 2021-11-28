@@ -35,7 +35,7 @@ class COptions : public COptionsBase {
     CPayoutMap claims;
     CAccountNameArray grants;
     CRecordArray records;
-    uint32_t* tsMemMap; // not allocated
+    uint32_t* tsMemMap;  // not allocated
     size_t tsCnt;
 
     COptions(void);
@@ -50,6 +50,7 @@ class COptions : public COptionsBase {
     bool handle_csv_2_json(void);
     bool handle_audit(void);
     bool handle_summarize(void);
+    bool handle_pull(void);
 
     bool loadGrantList(void);
     bool loadPayouts(void);

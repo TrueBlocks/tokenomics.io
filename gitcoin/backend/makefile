@@ -9,6 +9,7 @@ src= \
 ./handle_audit.cpp \
 ./handle_json2csv.cpp \
 ./handle_csv2json.cpp \
+./handle_pull.cpp \
 ./classes/logentry_min.cpp \
 ./classes/donation.cpp \
 ./classes/balance.cpp \

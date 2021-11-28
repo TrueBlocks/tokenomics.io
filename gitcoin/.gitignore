@@ -1,5 +1,12 @@
+# temporary files
+file
+file.1
+x
+shit
+
+# data and build artifacts
+raw
 objs/*
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules

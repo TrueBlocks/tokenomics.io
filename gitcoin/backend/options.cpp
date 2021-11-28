@@ -25,6 +25,7 @@ static const COption params[] = {
     COption("csv2json", "c", "", OPT_SWITCH, "convert non-destructivly all csv files into json"),
     COption("summarize", "s", "", OPT_SWITCH, "if true produce summary data as well"),
     COption("bucketSize", "b", "<uint64>", OPT_FLAG, "the size of the buckets to summarize"),
+    COption("pull", "p", "", OPT_SWITCH, "pull grant data from GitCoin"),
     COption("audit", "a", "", OPT_SWITCH, "audit the data"),
     COption("", "", "", OPT_DESCRIPTION, "Handle pouch data in various ways."),
     // clang-format on
@@ -41,6 +42,7 @@ bool COptions::parseArguments(string_q& command) {
     bool freshen = false;
     bool json2csv = false;
     bool csv2json = false;
+    bool pull = false;
     bool audit = false;
     // END_CODE_LOCAL_INIT
 
@@ -67,6 +69,9 @@ bool COptions::parseArguments(string_q& command) {
             if (!confirmUint("bucketSize", bucketSize, arg))
                 return false;
 
+        } else if (arg == "-p" || arg == "--pull") {
+            pull = true;
+
         } else if (arg == "-a" || arg == "--audit") {
             audit = true;
 
@@ -86,6 +91,7 @@ bool COptions::parseArguments(string_q& command) {
     LOG_TEST_BOOL("csv2json", csv2json);
     LOG_TEST_BOOL("summarize", summarize);
     LOG_TEST("bucketSize", bucketSize, (bucketSize == 5000));
+    LOG_TEST_BOOL("pull", pull);
     LOG_TEST_BOOL("audit", audit);
     // END_DEBUG_DISPLAY
 
@@ -103,6 +109,9 @@ bool COptions::parseArguments(string_q& command) {
 
     if (summarize)
         return handle_summarize();
+
+    if (pull)
+        return handle_pull();
 
     if (audit)
         return handle_audit();

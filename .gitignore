@@ -1,5 +1,4 @@
 old.gitcoin
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
@@ -22,3 +21,4 @@ old.gitcoin
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+gitcoin/backend/handle_pull.cpp
