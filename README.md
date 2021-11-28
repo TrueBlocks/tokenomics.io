@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Tokenomics.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website and research platform associated with the TrueBlocks project.
 
 ## Available Scripts
 
