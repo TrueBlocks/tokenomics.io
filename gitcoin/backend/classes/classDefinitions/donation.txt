@@ -1,0 +1,12 @@
+[settings]
+class = CDonation
+fields = \
+    blknum block|\
+    blknum tx_id|\
+    blknum log_id|\
+    string date|\
+    string token|\
+    string amount|\
+    address recipient|\
+    address donor
+includes = etherlib.h
