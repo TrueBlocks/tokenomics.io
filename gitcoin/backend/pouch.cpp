@@ -92,10 +92,10 @@ int main(int argc, const char* argv[]) {
 bool COptions::freshen_loop(void) {
     // Before entering the loop, we figure out the list of monitored address and where we need to start the update
     // for (auto grant : grants) {
-    //     cout << 
+    //     cout <<
 
     // }
-    // uint64_t sizeBefore = 
+    // uint64_t sizeBefore =
     // CMonitor m;
     // CMonitorUpdater checkup;
     // forEveryFileInFolder(m.getMonitorPath(""), getLatestMonitoredBlock, &checkup);
@@ -112,42 +112,42 @@ bool COptions::freshen_loop(void) {
     // //        checkup.updateRange.second = latest;
     // //    }
     // return true;
-            if (!loadRecords()) {
-                LOG_INFO(cTeal, "Refreshing records...", cOff);
-                key = 1;
-                if (!updateAll())
-                    return usage("Could not load records.");
-            }
+    if (!loadRecords()) {
+        LOG_INFO(cTeal, "Refreshing records...", cOff);
+        key = 1;
+        if (!updateAll())
+            return usage("Could not load records.");
+    }
 
-            while (!shouldQuit()) {
-                ostringstream os;
-                os << "export const grantsData = [\n";
-                for (auto record : records) {
-                    ostringstream oss;
-                    bool first = true;
-                    for (auto balance : record.balances) {
-                        if (!first)
-                            oss << ",";
-                        oss << "[" << balance.Format(STR_BALANCE_OUTPUT) << "]";
-                        first = false;
-                    }
-                    os << substitute(record.Format(STR_OUTPUT), "++BALANCES++", oss.str()) << endl;
-                }
-                os << "];";
-                stringToAsciiFile("../src/grants-data.js", os.str());
-                //            cerr << "Sleeping for 28 seconds";
-                //            size_t cnt = 0;
-                //            while (++cnt < 28 && !shouldQuit())
-                //            {
-                //                cerr << ".";
-                //                cerr.flush();
-                //                sleep(1);
-                //            }
-                //            cerr << endl;
-                key = 1;
-                return 0;
+    while (!shouldQuit()) {
+        ostringstream os;
+        os << "export const grantsData = [\n";
+        for (auto record : records) {
+            ostringstream oss;
+            bool first = true;
+            for (auto balance : record.balances) {
+                if (!first)
+                    oss << ",";
+                oss << "[" << balance.Format(STR_BALANCE_OUTPUT) << "]";
+                first = false;
             }
-            return true;
+            os << substitute(record.Format(STR_OUTPUT), "++BALANCES++", oss.str()) << endl;
+        }
+        os << "];";
+        stringToAsciiFile("../src/grants-data.js", os.str());
+        //            cerr << "Sleeping for 28 seconds";
+        //            size_t cnt = 0;
+        //            while (++cnt < 28 && !shouldQuit())
+        //            {
+        //                cerr << ".";
+        //                cerr.flush();
+        //                sleep(1);
+        //            }
+        //            cerr << endl;
+        key = 1;
+        return 0;
+    }
+    return true;
 }
 
 //----------------------------------------------------------------
@@ -221,7 +221,7 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant) {
     string_q jsonFile = "./data/" + record.address + ".json";
     string_q csvFile = "./data/" + record.address + ".csv";
     string_q monFile = getCachePath("monitors/" + toLower(grant.address) + ".acct.bin");
-    record.tx_cnt = (fileExists(monFile) ? (fileSize(monFile) / sizeof(CAppearance_base)) : 0);
+    record.tx_cnt = (fileExists(monFile) ? (fileSize(monFile) / sizeof(CAppearance_mon)) : 0);
 
     if (fileExists(csvFile)) {
         record.log_cnt = str_2_Uint(doCommand("wc " + csvFile));
@@ -244,7 +244,7 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant) {
 }
 
 //----------------------------------------------------------------
- bool COptions::loadGrantList(void) {
+bool COptions::loadGrantList(void) {
     CAccountName name;
     string_q contents = asciiFileToString("./app-data/grants.json");
     while (name.parseJson3(contents)) {

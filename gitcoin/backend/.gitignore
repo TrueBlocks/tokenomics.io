@@ -1,4 +1,5 @@
-libs
+bin
 src
-objs*
+libs
+objs
 proj*

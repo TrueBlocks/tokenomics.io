@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------------------------------------
  * qblocks - fast, easily-accessible, fully-decentralized data from blockchains
- * copyright (c) 2018, 2019 TrueBlocks, LLC (http://trueblocks.io)
+ * copyright (c) 2016, 2021 TrueBlocks, LLC (http://trueblocks.io)
  *
  * This program is free software: you may redistribute it and/or modify it under the terms
  * of the GNU General Public License as published by the Free Software Foundation, either
@@ -11,8 +11,8 @@
  * Public License along with this program. If not, see http://www.gnu.org/licenses/.
  *-------------------------------------------------------------------------------------------*/
 /*
- * This file was generated with makeClass. Edit only those parts of the code inside
- * of 'EXISTING_CODE' tags.
+ * Parts of this file were generated with makeClass --run. Edit only those parts of
+ * the code inside of 'EXISTING_CODE' tags.
  */
 #include "donation.h"
 
@@ -22,7 +22,7 @@ namespace qblocks {
 IMPLEMENT_NODE(CDonation, CBaseNode);
 
 //---------------------------------------------------------------------------
-static string_q nextDonationChunk(const string_q& fieldIn, const void* dataPtr);
+extern string_q nextDonationChunk(const string_q& fieldIn, const void* dataPtr);
 static string_q nextDonationChunk_custom(const string_q& fieldIn, const void* dataPtr);
 
 //---------------------------------------------------------------------------
@@ -206,13 +206,15 @@ bool CDonation::Serialize(CArchive& archive) {
     archive >> amount;
     archive >> recipient;
     archive >> donor;
+    // EXISTING_CODE
+    // EXISTING_CODE
     finishParse();
     return true;
 }
 
 //---------------------------------------------------------------------------------------------------
 bool CDonation::SerializeC(CArchive& archive) const {
-    // Writing always write the latest version of the data
+    // Writing always writes the latest version of the data
     CBaseNode::SerializeC(archive);
 
     // EXISTING_CODE
@@ -225,7 +227,20 @@ bool CDonation::SerializeC(CArchive& archive) const {
     archive << amount;
     archive << recipient;
     archive << donor;
+    // EXISTING_CODE
+    // EXISTING_CODE
+    return true;
+}
 
+//---------------------------------------------------------------------------------------------------
+bool CDonation::Migrate(CArchive& archiveIn, CArchive& archiveOut) const {
+    ASSERT(archiveIn.isReading());
+    ASSERT(archiveOut.isWriting());
+    CDonation copy;
+    // EXISTING_CODE
+    // EXISTING_CODE
+    copy.Serialize(archiveIn);
+    copy.SerializeC(archiveOut);
     return true;
 }
 
@@ -305,12 +320,27 @@ string_q nextDonationChunk_custom(const string_q& fieldIn, const void* dataPtr) 
     return "";
 }
 
+// EXISTING_CODE
+// EXISTING_CODE
+
 //---------------------------------------------------------------------------
 bool CDonation::readBackLevel(CArchive& archive) {
     bool done = false;
     // EXISTING_CODE
     // EXISTING_CODE
     return done;
+}
+
+//---------------------------------------------------------------------------
+CArchive& operator<<(CArchive& archive, const CDonation& dona) {
+    dona.SerializeC(archive);
+    return archive;
+}
+
+//---------------------------------------------------------------------------
+CArchive& operator>>(CArchive& archive, CDonation& dona) {
+    dona.Serialize(archive);
+    return archive;
 }
 
 //-------------------------------------------------------------------------

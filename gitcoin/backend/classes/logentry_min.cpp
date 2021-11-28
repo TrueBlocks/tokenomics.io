@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------------------------------------
  * qblocks - fast, easily-accessible, fully-decentralized data from blockchains
- * copyright (c) 2018, 2019 TrueBlocks, LLC (http://trueblocks.io)
+ * copyright (c) 2016, 2021 TrueBlocks, LLC (http://trueblocks.io)
  *
  * This program is free software: you may redistribute it and/or modify it under the terms
  * of the GNU General Public License as published by the Free Software Foundation, either
@@ -11,8 +11,8 @@
  * Public License along with this program. If not, see http://www.gnu.org/licenses/.
  *-------------------------------------------------------------------------------------------*/
 /*
- * This file was generated with makeClass. Edit only those parts of the code inside
- * of 'EXISTING_CODE' tags.
+ * Parts of this file were generated with makeClass --run. Edit only those parts of
+ * the code inside of 'EXISTING_CODE' tags.
  */
 #include "logentry_min.h"
 #include "etherlib.h"
@@ -230,13 +230,15 @@ bool CLogEntry_min::Serialize(CArchive& archive) {
     archive >> articulatedLog;
     archive >> compressedLog;
     archive >> transactionIndex;
+    // EXISTING_CODE
+    // EXISTING_CODE
     finishParse();
     return true;
 }
 
 //---------------------------------------------------------------------------------------------------
 bool CLogEntry_min::SerializeC(CArchive& archive) const {
-    // Writing always write the latest version of the data
+    // Writing always writes the latest version of the data
     CBaseNode::SerializeC(archive);
 
     // EXISTING_CODE
@@ -249,7 +251,20 @@ bool CLogEntry_min::SerializeC(CArchive& archive) const {
     archive << articulatedLog;
     archive << compressedLog;
     archive << transactionIndex;
+    // EXISTING_CODE
+    // EXISTING_CODE
+    return true;
+}
 
+//---------------------------------------------------------------------------------------------------
+bool CLogEntry_min::Migrate(CArchive& archiveIn, CArchive& archiveOut) const {
+    ASSERT(archiveIn.isReading());
+    ASSERT(archiveOut.isWriting());
+    CLogEntry_min copy;
+    // EXISTING_CODE
+    // EXISTING_CODE
+    copy.Serialize(archiveIn);
+    copy.SerializeC(archiveOut);
     return true;
 }
 
@@ -322,7 +337,7 @@ string_q nextLogentry_MinChunk_custom(const string_q& fieldIn, const void* dataP
             // EXISTING_CODE
             case 'c':
                 if (fieldIn % "compressedLog")
-                    return stripWhitespace(log->articulatedLog.compressed());
+                    return stripWhitespace(log->articulatedLog.compressed(""));
                 break;
             case 't':
                 if (fieldIn % "topic0") {
@@ -354,6 +369,9 @@ string_q nextLogentry_MinChunk_custom(const string_q& fieldIn, const void* dataP
 
     return "";
 }
+
+// EXISTING_CODE
+// EXISTING_CODE
 
 //---------------------------------------------------------------------------
 bool CLogEntry_min::readBackLevel(CArchive& archive) {
@@ -387,8 +405,12 @@ ostream& operator<<(ostream& os, const CLogEntry_min& it) {
 
 //---------------------------------------------------------------------------
 const CBaseNode* CLogEntry_min::getObjectAt(const string_q& fieldName, size_t index) const {
+    // EXISTING_CODE
+    // EXISTING_CODE
     if (fieldName % "articulatedLog")
         return &articulatedLog;
+    // EXISTING_CODE
+    // EXISTING_CODE
 
     return NULL;
 }
