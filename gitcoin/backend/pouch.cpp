@@ -134,7 +134,7 @@ bool COptions::freshen_loop(void) {
             os << substitute(record.Format(STR_OUTPUT), "++BALANCES++", oss.str()) << endl;
         }
         os << "];";
-        stringToAsciiFile("../src/grants-data.js", os.str());
+        stringToAsciiFile("../ui/src/grants-data.js", os.str());
         //            cerr << "Sleeping for 28 seconds";
         //            size_t cnt = 0;
         //            while (++cnt < 28 && !shouldQuit())
