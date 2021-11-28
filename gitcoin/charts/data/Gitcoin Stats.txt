@@ -1,0 +1,71 @@
+		donation		other		rate (a+b)/a
+----------------------------------------------------------------------
+Grant 1		100     		0  		1.0
+Grant 2		100		100		200/100 = 2.0
+Grant 3		100		9000		10000/100 = 100.0
+
+For each address: 0xf503017d7baf7fbc0fff7492b751025c6a78179b
+
+Need Round ranges
+	Date start, date stop, block start, block stop
+
+Have History of appearances
+	bn, tx
+	bn, date
+	time series
+
+This account had 182 unique donations from possibly 182 different donors (or less)
+
+When the donors pushed "SEND" to send these 182 donations, (2113 - 182) other donations were also in the cart.
+
+Have event data
+	Type (donation, payout, claim)
+	
+	Donation
+		block, token type, amount, sender, receiver
+	PayoutAdded
+		block, token type (probably all DAI), amount, receiver, sender is GitCoin
+	PayoutClaimed
+		block, receiver, amount
+
+Old (pre round 6 contract)
+0xdf869fad6db91f437b59f1edefab319493d4c4ce
+      1 "Deposit
+      1 "Swap
+      1 "Sync
+      1 "compressedlog"
+      2 "Sent
+      3 "InvocationSuccess
+     34 "BalanceTransfer
+  17577 "Approval
+  31187 "Transfer
+
+Current Contract
+0x7d655c57f71464b6f83811c55d84009cd9f5221c
+      1 "BalanceTransfer
+      1 "compressedlog"
+      2 "ContractCalled
+      2 "InvocationSuccess
+      2 "MetaTxExecuted
+      2 "OwnershipTransferred
+      6 "DappLogicEntered
+     15 "DelegateVotesChanged
+     26 "Refund
+     32 "Received
+     59 "CalledContract
+     71 "Approved
+    130 "TransactionExecuted
+    521 ""
+    539 "Deposit
+  10580 "Approval
+  30484 "Transfer
+  46406 "DonationSent
+
+Payout Contract
+0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6
+      1 "Finalized
+      1 "Funded
+      1 "compressedlog"
+    167 "PayoutClaimed
+    168 "Transfer
+    364 "PayoutAdded
