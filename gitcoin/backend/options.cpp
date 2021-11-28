@@ -107,6 +107,9 @@ bool COptions::parseArguments(string_q& command) {
     if (audit)
         return handle_audit();
 
+    if (freshen)
+        return true;
+
     return true;
 }
 
