@@ -1,9 +1,0 @@
-num,group,tags,api_route,tool,command,hotkey,def_val,is_required,customizeable,core_visible,docs_visible,generate,option_kind,data_type,description
-1000,,,,./,freshen,f,,false,false,true,true,local,switch,<boolean>,freshen the database
-1050,,,,./,json2csv,j,,false,false,true,true,local,switch,<boolean>,convert non-destructivly all json files into csv
-1100,,,,./,csv2json,c,,false,false,true,true,local,switch,<boolean>,convert non-destructivly all csv files into json
-1150,,,,./,summarize,s,,false,false,true,true,header,switch,<boolean>,if true produce summary data as well
-1200,,,,./,bucketSize,b,5000,false,false,true,true,header,flag,<uint64>,the size of the buckets to summarize
-1250,,,,./,audit,a,,false,false,true,true,local,switch,<boolean>,audit the data
-1275,,,,./,pull,p,,false,false,true,true,local,switch,<boolean>,pull list of grants from gitcoin
-1300,,,,./,,,,false,false,true,true,--,description,,Handle pouch data in various ways.

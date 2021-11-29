@@ -1,2 +1,0 @@
-num ,group       ,is_visible ,is_visible_docs ,api_group ,api_route    ,tool                     ,summary              ,description
-01  ,Tools       ,true       ,true            ,tools     ,pouch        ,pouch                    ,Handle pouch         ,Handle pouch data in various ways.

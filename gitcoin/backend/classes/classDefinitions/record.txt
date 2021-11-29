@@ -1,4 +1,0 @@
-[settings]
-class = CRecord
-fields = record.csv
-includes = etherlib.h|balance.h

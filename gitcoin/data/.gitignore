@@ -1,1 +1,5 @@
 # place holder
+*.bin
+*.txt
+*.json
+*.csv

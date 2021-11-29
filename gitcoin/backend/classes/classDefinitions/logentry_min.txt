@@ -1,7 +1,0 @@
-[settings]
-class = CLogEntry_min
-fields = logentry_min.csv
-includes = utillib.h|abi.h
-cpp_includes = etherlib.h
-scope = extern
-serializable = true

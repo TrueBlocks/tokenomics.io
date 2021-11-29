@@ -1,4 +1,0 @@
-[settings]
-class = CBalance
-fields = balance.csv
-includes = etherlib.h

@@ -1,4 +1,0 @@
-[settings]
-class = CPayout
-fields = payout.csv
-includes = etherlib.h

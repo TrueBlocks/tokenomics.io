@@ -1,4 +1,0 @@
-name    ,type   ,strDefault ,object ,array ,nowrite ,omitempty ,minimal ,extra ,noaddfld ,doc ,disp ,example ,description
-asset   ,string ,           ,       ,      ,        ,          ,        ,      ,         ,    ,1    ,        ,
-balance ,string ,           ,       ,      ,        ,          ,        ,      ,         ,    ,2    ,        ,
-bn      ,blknum ,           ,       ,      ,        ,          ,        ,      ,         ,    ,3    ,        ,

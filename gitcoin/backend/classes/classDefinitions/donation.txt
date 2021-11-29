@@ -1,4 +1,0 @@
-[settings]
-class = CDonation
-fields = donation.csv
-includes = etherlib.h
