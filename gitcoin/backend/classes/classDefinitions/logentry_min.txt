@@ -1,15 +1,7 @@
 [settings]
 class = CLogEntry_min
-fields = address address|\
-        blknum blockNumber|\
-        blknum logIndex|\
-        CTopicArray topics|\
-        string data|\
-        CFunction articulatedLog|\
-        string compressedLog|\
-        blknum transactionIndex
+fields = logentry_min.csv
 includes = utillib.h|abi.h
 cpp_includes = etherlib.h
 scope = extern
 serializable = true
-display_str = blockNumber, transactionIndex, logIndex, address, topic0, topic1, topic2, topic3, data, type, compressedLog

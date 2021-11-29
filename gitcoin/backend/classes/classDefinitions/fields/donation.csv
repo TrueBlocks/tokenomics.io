@@ -1,0 +1,9 @@
+name      ,type    ,strDefault ,object ,array ,nowrite ,omitempty ,minimal ,extra ,noaddfld ,doc ,disp ,example ,description
+block     ,blknum  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,     ,        ,
+tx_id     ,blknum  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,     ,        ,
+log_id    ,blknum  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,     ,        ,
+date      ,string  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,     ,        ,
+token     ,string  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,     ,        ,
+amount    ,string  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,     ,        ,
+recipient ,address ,           ,       ,      ,        ,          ,        ,      ,         ,    ,     ,        ,
+donor     ,address ,           ,       ,      ,        ,          ,        ,      ,         ,    ,     ,        ,

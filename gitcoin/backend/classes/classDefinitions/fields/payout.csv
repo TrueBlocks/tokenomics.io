@@ -1,0 +1,7 @@
+name    ,type    ,strDefault ,object ,array ,nowrite ,omitempty ,minimal ,extra ,noaddfld ,doc ,disp ,example ,description
+address ,address ,           ,       ,      ,        ,          ,        ,      ,         ,    ,1     ,
+bn      ,blknum  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,2     ,
+txid    ,blknum  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,3     ,
+logid   ,blknum  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,4     ,
+type    ,string  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,5     ,
+amount  ,double  ,           ,       ,      ,        ,          ,        ,      ,         ,    ,6     ,

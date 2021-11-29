@@ -27,6 +27,7 @@ class CBalance : public CBaseNode {
   public:
     string_q asset;
     string_q balance;
+    blknum_t bn;
 
   public:
     CBalance(void);
@@ -91,6 +92,7 @@ inline void CBalance::initialize(void) {
 
     asset = "";
     balance = "";
+    bn = 0;
 
     // EXISTING_CODE
     // EXISTING_CODE
@@ -103,6 +105,7 @@ inline void CBalance::duplicate(const CBalance& ba) {
 
     asset = ba.asset;
     balance = ba.balance;
+    bn = ba.bn;
 
     // EXISTING_CODE
     // EXISTING_CODE

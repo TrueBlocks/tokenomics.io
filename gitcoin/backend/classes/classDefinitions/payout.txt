@@ -1,11 +1,4 @@
 [settings]
 class = CPayout
-fields = \
-    address address|\
-    blknum bn|\
-    blknum txid|\
-    blknum logid|\
-    string type|\
-    double amount
+fields = payout.csv
 includes = etherlib.h
-display_str = address, bn, txid, logid, type, amount

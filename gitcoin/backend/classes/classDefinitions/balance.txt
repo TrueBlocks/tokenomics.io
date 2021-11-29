@@ -1,7 +1,4 @@
 [settings]
 class = CBalance
-fields = \
-    string asset|\
-    string balance
+fields = balance.csv
 includes = etherlib.h
-display_str = asset, balance, bn

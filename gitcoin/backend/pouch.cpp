@@ -191,7 +191,7 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant) {
     record.slug = grant.source;
     record.core = contains(grant.tags, ":Core");
     ostringstream cmd;
-    cmd << "tail -1 data/" << record.address << ".csv | sed 's/\\\"//g' | cut -f1 -d, | sed 's/blocknumber/0/'";
+    cmd << "tail -1 data/apps/" << record.address << ".txt | sed 's/\\\"//g' | cut -f1 | sed 's/blocknumber/0/'";
     record.last_block = str_2_Uint(doCommand(cmd.str()));
     if (record.last_block == 0) {
         record.date = "n/a";
@@ -280,6 +280,8 @@ bool COptions::loadPayouts(void) {
 
 //----------------------------------------------------------------
 bool COptions::loadRecords(void) {
+    LOG_INFO("pwd: ", getCWD());
+    LOG_INFO("exists: ", fileExists("./data/records.bin"));
     CArchive archive(READING_ARCHIVE);
     if (archive.Lock("./data/records.bin", modeReadOnly, LOCK_NOWAIT)) {
         archive >> records;

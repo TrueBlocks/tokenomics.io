@@ -82,6 +82,9 @@ string_q CBalance::getValueByName(const string_q& fieldName) const {
             if (fieldName % "balance") {
                 return balance;
             }
+            if (fieldName % "bn") {
+                return uint_2_Str(bn);
+            }
             break;
         default:
             break;
@@ -114,6 +117,10 @@ bool CBalance::setValueByName(const string_q& fieldNameIn, const string_q& field
                 balance = fieldValue;
                 return true;
             }
+            if (fieldName % "bn") {
+                bn = str_2_Uint(fieldValue);
+                return true;
+            }
             break;
         default:
             break;
@@ -142,6 +149,7 @@ bool CBalance::Serialize(CArchive& archive) {
     // EXISTING_CODE
     archive >> asset;
     archive >> balance;
+    archive >> bn;
     // EXISTING_CODE
     // EXISTING_CODE
     finishParse();
@@ -157,6 +165,7 @@ bool CBalance::SerializeC(CArchive& archive) const {
     // EXISTING_CODE
     archive << asset;
     archive << balance;
+    archive << bn;
     // EXISTING_CODE
     // EXISTING_CODE
     return true;
@@ -208,6 +217,7 @@ void CBalance::registerClass(void) {
     ADD_FIELD(CBalance, "cname", T_TEXT, ++fieldNum);
     ADD_FIELD(CBalance, "asset", T_TEXT | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CBalance, "balance", T_TEXT | TS_OMITEMPTY, ++fieldNum);
+    ADD_FIELD(CBalance, "bn", T_BLOCKNUM, ++fieldNum);
 
     // Hide our internal fields, user can turn them on if they like
     HIDE_FIELD(CBalance, "schema");
