@@ -5,10 +5,14 @@
 package exportPkg
 
 import (
+	"encoding/binary"
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"os"
 	"strings"
+
+	"github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/rpcClient"
 )
 
 // Grant is one of the Gitcoin Grants
@@ -35,6 +39,7 @@ type Grant struct {
 	IsClrActive                   bool     `json:"is_clr_active"`
 	AmountReceivedInRound         string   `json:"amount_received_in_round"`
 	PositiveRoundContributorCount uint64   `json:"positive_round_contributor_count"`
+	Monitor                       Monitor  `json:"monitor"`
 }
 type Grants []Grant
 
@@ -108,4 +113,141 @@ func (g *Grant) GetGrant(grantId string) error {
 
 	// It's okay for the grant to be non-existant
 	return nil
+}
+
+type Balance struct {
+	Asset   string  `json:"asset"`
+	Balance float64 `json:"balance"`
+}
+type Balances []Balance
+
+type GrantSummary struct {
+	Key           uint64   `json:"key"`
+	Date          string   `json:"date"`
+	LastBlock     uint64   `json:"last_block"`
+	LastTs        uint64   `json:"last_ts"`
+	Type          string   `json:"type"`
+	Id            uint64   `json:"grant_id"`
+	Address       string   `json:"address"`
+	Name          string   `json:"name"`
+	Slug          string   `json:"slug"`
+	Logo          string   `json:"logo"`
+	TxCount       uint64   `json:"tx_cnt"`
+	LogCount      uint64   `json:"log_cnt"`
+	DonationCount uint64   `json:"donation_cnt"`
+	Matched       float64  `json:"matched"`
+	Claimed       float64  `json:"claimed"`
+	Balances      Balances `json:"balances"`
+	IsCore        bool     `json:"core"`
+}
+type GrantSummaries []GrantSummary
+
+func (g *GrantSummary) ToJSON() string {
+	str, err := json.Marshal(g)
+	if err != nil {
+		return ""
+	}
+	return string(str)
+}
+
+func properTitle(input string) string {
+	words := strings.Split(input, " ")
+	smallwords := " a an on the to "
+
+	for index, word := range words {
+		if strings.Contains(smallwords, " "+word+" ") && word != string(word[0]) {
+			words[index] = word
+		} else {
+			words[index] = strings.Title(word)
+		}
+	}
+	return strings.Join(words, " ")
+}
+
+func (s *GrantSummary) FromGrant(grant *Grant) {
+	s.Key = 0
+	s.Date = ""
+	s.LastBlock = 0
+	s.LastTs = 0
+	s.Type = "logs"
+	s.Id = grant.Id
+	s.Address = strings.ToLower(grant.AdminAddress)
+	s.Name = properTitle(grant.Title)
+	id := fmt.Sprintf("%d", grant.Id)
+	s.Slug = "https://gitcoin.co/grants/" + id + "/" + grant.Slug
+	s.Logo = ""
+	if grant.Logo != nil {
+		s.Logo = *grant.Logo
+	}
+	s.TxCount = 0
+	s.LogCount = 0
+	s.DonationCount = 0
+	s.Matched = 0
+	s.Claimed = 0
+	s.Balances = []Balance{Balance{Asset: "ETH", Balance: 1.0}}
+	s.IsCore = false
+}
+
+type Appearance struct {
+	Bn   uint32 `json:"bn"`
+	TxId uint32 `json:"tx_id"`
+}
+
+type Monitor struct {
+	Address    string     `json:"address"`
+	First      Appearance `json:"firstAppearance"`
+	Latest     Appearance `json:"latestAppearance"`
+	LastUpdate uint32     `json:"lastUpdated"`
+	Age        uint32     `json:"ageInBlocks"`
+	Range      uint32     `json:"blockRange"`
+	Size       int64      `json:"fileSize"`
+	Count      int64      `json:"appearanceCount"`
+	Neighbors  int64      `json:"neighborCount"`
+}
+
+func GetMonitorStats(grantId string, address string) (*Monitor, error) {
+	monitor := &Monitor{Address: address, First: Appearance{Bn: 10, TxId: 20}, Latest: Appearance{Bn: 30, TxId: 40}, Size: 100, Count: 222}
+	monitorPath := fmt.Sprintf("/Users/jrush/Library/Application Support/TrueBlocks/cache/monitors/%s.acct.bin", address)
+	fileStat, err := os.Stat(monitorPath)
+	if err != nil {
+		return nil, err
+	}
+	monitor.Size = fileStat.Size()
+	monitor.Count = fileStat.Size() / 8
+	monitorFile, err := os.Open(monitorPath)
+	if err != nil {
+		return nil, err
+	}
+	defer monitorFile.Close()
+
+	err = binary.Read(monitorFile, binary.LittleEndian, &monitor.First.Bn)
+	if err != nil {
+		return nil, err
+	}
+	err = binary.Read(monitorFile, binary.LittleEndian, &monitor.First.TxId)
+	if err != nil {
+		return nil, err
+	}
+	monitorFile.Seek(-8, 2)
+	err = binary.Read(monitorFile, binary.LittleEndian, &monitor.Latest.Bn)
+	if err != nil {
+		return nil, err
+	}
+	err = binary.Read(monitorFile, binary.LittleEndian, &monitor.Latest.TxId)
+	if err != nil {
+		return nil, err
+	}
+	monitor.Range = monitor.Latest.Bn - monitor.First.Bn + 1
+	var meta rpcClient.Meta
+	monitor.Age = uint32(meta.Latest()) - monitor.First.Bn
+
+	return monitor, nil
+}
+
+func (m *Monitor) ToJSON() string {
+	str, err := json.Marshal(m)
+	if err != nil {
+		return ""
+	}
+	return string(str)
 }
