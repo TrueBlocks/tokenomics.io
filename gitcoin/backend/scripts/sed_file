@@ -1,3 +1,4 @@
+s/\"key\"/key/
 s/\"date\"/date/
 s/\"last_block\"/last_block/
 s/\"last_ts\"/last_ts/
@@ -6,6 +7,7 @@ s/\"grant_id\"/grant_id/
 s/\"address\"/address/
 s/\"name\"/name/
 s/\"slug\"/slug/
+s/\"logo\"/logo/
 s/\"tx_cnt\"/tx_cnt/
 s/\"log_cnt\"/log_cnt/
 s/\"donation_cnt\"/donation_cnt/

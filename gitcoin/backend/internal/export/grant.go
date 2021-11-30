@@ -1,7 +1,14 @@
-package grants
+// Copyright 2021 The TrueBlocks Authors. All rights reserved.
+// Use of this source code is governed by a license that can
+// be found in the LICENSE file.
+
+package exportPkg
 
 import (
 	"encoding/json"
+	"io/ioutil"
+	"os"
+	"strings"
 )
 
 // Grant is one of the Gitcoin Grants
@@ -75,3 +82,30 @@ type Profiles []Profile
 // Love is donor comments on a Grant
 type Love map[string]uint64
 type Loves []Love
+
+func (g *Grant) GetGrant(grantId string) error {
+
+	jsonFile, err := os.Open(grantId)
+	if err != nil {
+		return err
+	}
+	defer jsonFile.Close()
+
+	byteData, _ := ioutil.ReadAll(jsonFile)
+
+	// data on disc is stored as an array, but only contains a single grant
+	var tmpArray Grants
+	err = json.Unmarshal(byteData, &tmpArray)
+	if err != nil {
+		return err
+
+	} else {
+		if len(tmpArray) > 0 {
+			*g = tmpArray[0]
+			g.AdminAddress = strings.ToLower(g.AdminAddress)
+		}
+	}
+
+	// It's okay for the grant to be non-existant
+	return nil
+}
