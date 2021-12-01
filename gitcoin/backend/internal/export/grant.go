@@ -8,11 +8,14 @@ import (
 	"bufio"
 	"encoding/binary"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/file"
 )
 
 // Grant is one of the Gitcoin Grants
@@ -163,10 +166,58 @@ type Monitor struct {
 	Core        bool     `json:"core"`
 }
 
+func (m *Monitor) ReadRangeAndAge(monitorPath string) error {
+	monitorFile, err := os.Open(monitorPath)
+	if err != nil {
+		return err
+	}
+	defer monitorFile.Close()
+
+	err = binary.Read(monitorFile, binary.LittleEndian, &m.First.Bn)
+	if err != nil {
+		return err
+	}
+	err = binary.Read(monitorFile, binary.LittleEndian, &m.First.TxId)
+	if err != nil {
+		return err
+	}
+	monitorFile.Seek(-8, 2)
+	err = binary.Read(monitorFile, binary.LittleEndian, &m.Latest.Bn)
+	if err != nil {
+		return err
+	}
+	err = binary.Read(monitorFile, binary.LittleEndian, &m.Latest.TxId)
+	if err != nil {
+		return err
+	}
+	m.Range = m.Latest.Bn - m.First.Bn + 1
+	// var meta rpcClient.Meta
+	// m.Age = uint32(meta.Latest()) - m.First.Bn
+	return nil
+}
+
+const path = "/Users/jrush/Library/Application Support/TrueBlocks/cache/monitors/"
+
 func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
-	monitor := &Monitor{Address: grant.AdminAddress, First: Appearance{Bn: 10, TxId: 20}, Latest: Appearance{Bn: 30, TxId: 40}, Size: 100, Count: 222}
-	path := "/Users/jrush/Library/Application Support/TrueBlocks/cache/monitors/"
+	monitor := &Monitor{
+		Address: grant.AdminAddress,
+		First: Appearance{
+			Bn:   10,
+			TxId: 20,
+		},
+		Latest: Appearance{
+			Bn:   30,
+			TxId: 40,
+		},
+		Size:  100,
+		Count: 222,
+	}
+
 	monitorPath := fmt.Sprintf(path+"%s.acct.bin", grant.AdminAddress)
+	if !file.FileExists(monitorPath) {
+		return nil, errors.New("file not exist")
+	}
+
 	fileStat, err := os.Stat(monitorPath)
 	if err != nil {
 		return nil, err
@@ -179,35 +230,13 @@ func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 	monitor.Types = "txs,logs,neighbors"
 	monitor.Size = fileStat.Size()
 	monitor.Count = fileStat.Size() / 8
-	monitorFile, err := os.Open(monitorPath)
-	if err != nil {
-		return nil, err
-	}
-	defer monitorFile.Close()
 
-	err = binary.Read(monitorFile, binary.LittleEndian, &monitor.First.Bn)
+	err = monitor.ReadRangeAndAge(monitorPath)
 	if err != nil {
 		return nil, err
 	}
-	err = binary.Read(monitorFile, binary.LittleEndian, &monitor.First.TxId)
-	if err != nil {
-		return nil, err
-	}
-	monitorFile.Seek(-8, 2)
-	err = binary.Read(monitorFile, binary.LittleEndian, &monitor.Latest.Bn)
-	if err != nil {
-		return nil, err
-	}
-	err = binary.Read(monitorFile, binary.LittleEndian, &monitor.Latest.TxId)
-	if err != nil {
-		return nil, err
-	}
-	monitor.Range = monitor.Latest.Bn - monitor.First.Bn + 1
-	// var meta rpcClient.Meta
-	// monitor.Age = uint32(meta.Latest()) - monitor.First.Bn
 
 	lastBlockPath := path + grant.AdminAddress + ".last.txt"
-	// fmt.Println(lastBlockPath)
 	file, err := os.Open(lastBlockPath)
 	if err != nil {
 		return nil, err
@@ -218,14 +247,11 @@ func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 	if err != nil {
 		return nil, err
 	}
-	// fmt.Println("line: ", str, "XXX")
 	val, err := strconv.Atoi(str)
 	if err != nil {
-		// fmt.Println("val error: ", val)
 		return nil, err
 	}
 	monitor.LastUpdate = uint64(val)
-	// fmt.Println("val: ", val)
 
 	return monitor, nil
 }

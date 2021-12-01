@@ -6,6 +6,7 @@ package exportPkg
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/progress"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/logger"
@@ -81,8 +82,16 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 		// var which []int = []int{743, 845, 1839, 1168, 779, 143, 472}
 		// for _, i := range which {
 		grantId := fmt.Sprintf("../data/raw/%04d.json", i)
+		fileStat, err := os.Stat(grantId)
+		if err != nil {
+			continue
+		}
+		if fileStat.Size() == 3 {
+			continue
+		}
+
 		var grant Grant
-		err := grant.GetGrant(grantId)
+		err = grant.GetGrant(grantId)
 		if err != nil {
 			progressChannel <- progress.ErrorMsg("Error processing grant "+grantId+" "+err.Error(), nil)
 		} else {
