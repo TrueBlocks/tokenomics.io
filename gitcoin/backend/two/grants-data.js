@@ -1,4 +1,4 @@
-[
+export const grantsData = [
   {
     grantId: 7,
     address: '0xaa42aa2e1888c5aa2861e970cb2720848b868c68',
@@ -7,23 +7,25 @@
     firstAppearance: {
       bn: 5575333,
       txId: 202,
-      timestamp: 0
+      timestamp: 1525744575,
+      date: '2018-05-08 01:56:15'
     },
     latestAppearance: {
       bn: 9501501,
       txId: 84,
-      timestamp: 0
+      timestamp: 1581954704,
+      date: '2020-02-17 15:51:44'
     },
     lastUpdated: 13711342,
     blockRange: 3926169,
     fileSize: 624,
     appearanceCount: 78,
-    neighborCount: 0,
+    neighborCount: 433,
     types: 'txs,logs,neighbors',
-    logCount: 0,
-    donationCount: 0,
-    matched: 0,
-    claimed: 0,
+    logCount: 2481,
+    donationCount: 10,
+    matched: 10,
+    claimed: 10,
     core: false
   },
   {
@@ -34,21 +36,23 @@
     firstAppearance: {
       bn: 4825959,
       txId: 206,
-      timestamp: 0
+      timestamp: 1514666217,
+      date: '2017-12-30 20:36:57'
     },
     latestAppearance: {
       bn: 13503897,
       txId: 141,
-      timestamp: 0
+      timestamp: 1635399477,
+      date: '2021-10-28 05:37:57'
     },
     lastUpdated: 13696836,
     blockRange: 8677939,
     fileSize: 6520,
     appearanceCount: 815,
-    neighborCount: 0,
+    neighborCount: 50,
     types: 'txs,logs,neighbors',
-    logCount: 0,
-    donationCount: 0,
+    logCount: 1264,
+    donationCount: 143,
     matched: 0,
     claimed: 0,
     core: false
