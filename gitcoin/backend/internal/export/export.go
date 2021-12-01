@@ -75,9 +75,11 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 		}
 	}
 
-	max := 20 // 4000
 	first := true
+	max := 4000
 	for i := 0; i < max; i++ {
+		// var which []int = []int{743, 845, 1839, 1168, 779, 143, 472}
+		// for _, i := range which {
 		grantId := fmt.Sprintf("../data/raw/%04d.json", i)
 		var grant Grant
 		err := grant.GetGrant(grantId)
@@ -86,21 +88,22 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 		} else {
 			progressChannel <- progress.UpdateMsg("Processing grant id: "+grantId, nil)
 			if Options.Stats {
-				monitor, err := GetMonitorStats(grantId, grant.AdminAddress)
+				monitor, err := GetMonitorStats(grantId, &grant)
 				if err != nil {
 					progressChannel <- progress.ErrorMsg("Error processing grant "+grantId+" "+err.Error(), nil)
 				} else {
+					grant.Monitor = *monitor
 					if Options.Format != "json" {
 						if Options.Format == "txt" {
-							fmt.Printf("%d\t%s\t%d\t%d\t%d.%d\t%d.%d\t%d\t%d\n", grant.Id, grant.AdminAddress, monitor.Size, monitor.Count, monitor.First.Bn, monitor.First.TxId, monitor.Latest.Bn, monitor.Latest.TxId, monitor.Range, monitor.Age)
+							fmt.Printf("%d\t%s\t%d\t%d\t%d.%d\t%d.%d\t%d\n", grant.Id, grant.AdminAddress, grant.Monitor.Size, grant.Monitor.Count, grant.Monitor.First.Bn, grant.Monitor.First.TxId, grant.Monitor.Latest.Bn, grant.Monitor.Latest.TxId, grant.Monitor.Range)
 						} else {
-							fmt.Printf("%d,%s,%d,%d,%d.%d,%d.%d,%d,%d\n", grant.Id, grant.AdminAddress, monitor.Size, monitor.Count, monitor.First.Bn, monitor.First.TxId, monitor.Latest.Bn, monitor.Latest.TxId, monitor.Range, monitor.Age)
+							fmt.Printf("%d,%s,%d,%d,%d.%d,%d.%d,%d\n", grant.Id, grant.AdminAddress, grant.Monitor.Size, grant.Monitor.Count, grant.Monitor.First.Bn, grant.Monitor.First.TxId, grant.Monitor.Latest.Bn, grant.Monitor.Latest.TxId, grant.Monitor.Range)
 						}
 					} else {
 						if !first {
 							fmt.Printf(",")
 						}
-						fmt.Printf("%s", monitor.ToJSON())
+						fmt.Printf("%s", grant.Monitor.ToJSON())
 						first = false
 					}
 				}

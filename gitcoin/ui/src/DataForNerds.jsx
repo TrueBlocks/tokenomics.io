@@ -1,12 +1,12 @@
 import React from 'react';
-import {Typography} from 'antd';
+import { Typography } from 'antd';
 
-const {Link} = Typography;
+const { Link } = Typography;
 
 export const DataForNerds = () => {
-  var record = { "tx_cnt": "1" };
+  // var record = { "appearanceCount": "1" };
   return (
-    <div style={{textAlign: 'left'}}>
+    <div style={{ textAlign: 'left' }}>
       <center>
         <h3>Coming soon...</h3>
         <a rel='noreferrer' target='_blank' href='https://github.com/TrueBlocks/tokenomics.io/issues'>

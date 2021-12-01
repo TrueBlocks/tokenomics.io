@@ -5,14 +5,14 @@
 package exportPkg
 
 import (
+	"bufio"
 	"encoding/binary"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"os"
+	"strconv"
 	"strings"
-
-	"github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/rpcClient"
 )
 
 // Grant is one of the Gitcoin Grants
@@ -121,35 +121,6 @@ type Balance struct {
 }
 type Balances []Balance
 
-type GrantSummary struct {
-	Key           uint64   `json:"key"`
-	Date          string   `json:"date"`
-	LastBlock     uint64   `json:"last_block"`
-	LastTs        uint64   `json:"last_ts"`
-	Type          string   `json:"type"`
-	Id            uint64   `json:"grant_id"`
-	Address       string   `json:"address"`
-	Name          string   `json:"name"`
-	Slug          string   `json:"slug"`
-	Logo          string   `json:"logo"`
-	TxCount       uint64   `json:"tx_cnt"`
-	LogCount      uint64   `json:"log_cnt"`
-	DonationCount uint64   `json:"donation_cnt"`
-	Matched       float64  `json:"matched"`
-	Claimed       float64  `json:"claimed"`
-	Balances      Balances `json:"balances"`
-	IsCore        bool     `json:"core"`
-}
-type GrantSummaries []GrantSummary
-
-func (g *GrantSummary) ToJSON() string {
-	str, err := json.Marshal(g)
-	if err != nil {
-		return ""
-	}
-	return string(str)
-}
-
 func properTitle(input string) string {
 	words := strings.Split(input, " ")
 	smallwords := " a an on the to "
@@ -164,54 +135,48 @@ func properTitle(input string) string {
 	return strings.Join(words, " ")
 }
 
-func (s *GrantSummary) FromGrant(grant *Grant) {
-	s.Key = 0
-	s.Date = ""
-	s.LastBlock = 0
-	s.LastTs = 0
-	s.Type = "logs"
-	s.Id = grant.Id
-	s.Address = strings.ToLower(grant.AdminAddress)
-	s.Name = properTitle(grant.Title)
-	id := fmt.Sprintf("%d", grant.Id)
-	s.Slug = "https://gitcoin.co/grants/" + id + "/" + grant.Slug
-	s.Logo = ""
-	if grant.Logo != nil {
-		s.Logo = *grant.Logo
-	}
-	s.TxCount = 0
-	s.LogCount = 0
-	s.DonationCount = 0
-	s.Matched = 0
-	s.Claimed = 0
-	s.Balances = []Balance{Balance{Asset: "ETH", Balance: 1.0}}
-	s.IsCore = false
-}
-
 type Appearance struct {
 	Bn   uint32 `json:"bn"`
-	TxId uint32 `json:"tx_id"`
+	TxId uint32 `json:"txId"`
+	Ts   uint64 `json:"timestamp"`
 }
 
 type Monitor struct {
+	Id         uint64     `json:"grantId"`
 	Address    string     `json:"address"`
+	Name       string     `json:"name"`
+	Slug       string     `json:"slug"`
 	First      Appearance `json:"firstAppearance"`
 	Latest     Appearance `json:"latestAppearance"`
-	LastUpdate uint32     `json:"lastUpdated"`
-	Age        uint32     `json:"ageInBlocks"`
-	Range      uint32     `json:"blockRange"`
-	Size       int64      `json:"fileSize"`
-	Count      int64      `json:"appearanceCount"`
-	Neighbors  int64      `json:"neighborCount"`
+	LastUpdate uint64     `json:"lastUpdated"`
+	// Age         uint32     `json:"ageInBlocks"`
+	Range       uint32   `json:"blockRange"`
+	Size        int64    `json:"fileSize"`
+	Count       int64    `json:"appearanceCount"`
+	Neighbors   int64    `json:"neighborCount"`
+	Types       string   `json:"types"`
+	LogCount    int64    `json:"logCount"`
+	DonationCnt int64    `json:"donationCount"`
+	Matched     float64  `json:"matched"`
+	Claimed     float64  `json:"claimed"`
+	Balances    Balances `json:"balances,omitempty"`
+	Core        bool     `json:"core"`
 }
 
-func GetMonitorStats(grantId string, address string) (*Monitor, error) {
-	monitor := &Monitor{Address: address, First: Appearance{Bn: 10, TxId: 20}, Latest: Appearance{Bn: 30, TxId: 40}, Size: 100, Count: 222}
-	monitorPath := fmt.Sprintf("/Users/jrush/Library/Application Support/TrueBlocks/cache/monitors/%s.acct.bin", address)
+func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
+	monitor := &Monitor{Address: grant.AdminAddress, First: Appearance{Bn: 10, TxId: 20}, Latest: Appearance{Bn: 30, TxId: 40}, Size: 100, Count: 222}
+	path := "/Users/jrush/Library/Application Support/TrueBlocks/cache/monitors/"
+	monitorPath := fmt.Sprintf(path+"%s.acct.bin", grant.AdminAddress)
 	fileStat, err := os.Stat(monitorPath)
 	if err != nil {
 		return nil, err
 	}
+
+	monitor.Slug = "https://gitcoin.co/grants/" + fmt.Sprintf("%d", grant.Id) + "/" + grant.Slug
+	monitor.Id = grant.Id
+	monitor.Core = false
+	monitor.Name = strings.Replace(grant.Title, "'", "", -1)
+	monitor.Types = "txs,logs,neighbors"
 	monitor.Size = fileStat.Size()
 	monitor.Count = fileStat.Size() / 8
 	monitorFile, err := os.Open(monitorPath)
@@ -238,8 +203,29 @@ func GetMonitorStats(grantId string, address string) (*Monitor, error) {
 		return nil, err
 	}
 	monitor.Range = monitor.Latest.Bn - monitor.First.Bn + 1
-	var meta rpcClient.Meta
-	monitor.Age = uint32(meta.Latest()) - monitor.First.Bn
+	// var meta rpcClient.Meta
+	// monitor.Age = uint32(meta.Latest()) - monitor.First.Bn
+
+	lastBlockPath := path + grant.AdminAddress + ".last.txt"
+	// fmt.Println(lastBlockPath)
+	file, err := os.Open(lastBlockPath)
+	if err != nil {
+		return nil, err
+	}
+	r := bufio.NewReader(file)
+	line, err := r.ReadBytes('\n')
+	str := strings.Replace(string(line), "\n", "", -1)
+	if err != nil {
+		return nil, err
+	}
+	// fmt.Println("line: ", str, "XXX")
+	val, err := strconv.Atoi(str)
+	if err != nil {
+		// fmt.Println("val error: ", val)
+		return nil, err
+	}
+	monitor.LastUpdate = uint64(val)
+	// fmt.Println("val: ", val)
 
 	return monitor, nil
 }
