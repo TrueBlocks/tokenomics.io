@@ -15,6 +15,7 @@ import (
 	"strconv"
 	"strings"
 
+	tslibPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/tslib"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/file"
 )
 
@@ -181,6 +182,8 @@ func (m *Monitor) ReadRangeAndAge(monitorPath string) error {
 	if err != nil {
 		return err
 	}
+	m.First.Ts, _ = tslibPkg.TsFromBn(uint64(m.First.Bn))
+
 	monitorFile.Seek(-8, 2)
 	err = binary.Read(monitorFile, binary.LittleEndian, &m.Latest.Bn)
 	if err != nil {
@@ -190,6 +193,8 @@ func (m *Monitor) ReadRangeAndAge(monitorPath string) error {
 	if err != nil {
 		return err
 	}
+	m.Latest.Ts, _ = tslibPkg.TsFromBn(uint64(m.Latest.Bn))
+
 	m.Range = m.Latest.Bn - m.First.Bn + 1
 	// var meta rpcClient.Meta
 	// m.Age = uint32(meta.Latest()) - m.First.Bn
@@ -241,6 +246,8 @@ func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 	if err != nil {
 		return nil, err
 	}
+	defer file.Close()
+
 	r := bufio.NewReader(file)
 	line, err := r.ReadBytes('\n')
 	str := strings.Replace(string(line), "\n", "", -1)

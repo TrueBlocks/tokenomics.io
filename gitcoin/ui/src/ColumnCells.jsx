@@ -18,6 +18,7 @@ export const DateCell = ({ record }) => {
           {dateDisplay(record.latestAppearance.bn)}
         </i>
       </small>
+      <div>{record.latestAppearance.timestamp}</div>
     </div >
   </div >
   );
