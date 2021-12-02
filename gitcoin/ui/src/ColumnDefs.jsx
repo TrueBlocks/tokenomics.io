@@ -1,5 +1,5 @@
 import { DownloadIcon } from './Utils';
-import { DateHeader, DateCell, TagHeader, TagCell, NameHeader, NameCell, MatchedHeader, MatchedCell, BalanceHeader, BalanceCell, AppearanceHeader, EventLogsHeader, NeighborsHeader } from "./ColumnCells"
+import { DateHeader, DateCell, TagHeader, TagCell, NameHeader, NameCell, MatchedHeader, MatchedCell, BalanceHeader, BalanceCell, AppearanceHeader, TransactionHeader, EventLogsHeader, NeighborsHeader } from "./ColumnCells"
 
 export const columns = [
   {
@@ -15,15 +15,15 @@ export const columns = [
       return <DateCell record={record} />
     },
   },
-  {
-    title: <TagHeader />,
-    dataIndex: 'types',
-    key: 'types',
-    width: '8%',
-    render: (u, record) => {
-      return (<TagCell record={record} />);
-    },
-  },
+  // {
+  //   title: <TagHeader />,
+  //   dataIndex: 'types',
+  //   key: 'types',
+  //   width: '8%',
+  //   render: (u, record) => {
+  //     return (<TagCell record={record} />);
+  //   },
+  // },
   {
     title: <NameHeader />,
     dataIndex: 'name',
@@ -78,7 +78,7 @@ export const columns = [
     title: <AppearanceHeader />,
     dataIndex: 'appearanceCount',
     key: 'appearanceCount',
-    width: '8%',
+    width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
@@ -87,14 +87,30 @@ export const columns = [
       },
     },
     render: function (text, record) {
-      return <DownloadIcon record={record} extra='apps/' type='txt' />
+      return <DownloadIcon address={record.address} count={record.appearanceCount} path='apps/' type='csv' />
+    },
+  },
+  {
+    title: <TransactionHeader />,
+    dataIndex: 'appearanceCount',
+    key: 'appearanceCount',
+    width: '6%',
+    align: 'right',
+    showSorterTooltip: false,
+    sorter: {
+      compare: (a, b) => {
+        return b.appearanceCount - a.appearanceCount;
+      },
+    },
+    render: function (text, record) {
+      return <DownloadIcon address={record.address} count={record.appearanceCount} path='txs/' type='csv' />
     },
   },
   {
     title: <EventLogsHeader />,
     dataIndex: 'logCount',
     key: 'logCount',
-    width: '8%',
+    width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
@@ -103,14 +119,14 @@ export const columns = [
       },
     },
     render: function (text, record) {
-      return <DownloadIcon record={record} extra='' type='csv' />;
+      return <DownloadIcon address={record.address} count={record.logCount} path='logs/' type='csv' />;
     },
   },
   {
     title: <NeighborsHeader />,
     dataIndex: 'logCount',
     key: 'logCount',
-    width: '8%',
+    width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
@@ -119,7 +135,7 @@ export const columns = [
       },
     },
     render: function (text, record) {
-      return <DownloadIcon record={record} extra='' type='csv' />;
+      return <DownloadIcon address={record.address} count={record.neighborCount} path='neighbors/' type='csv' />;
     },
   },
 ];

@@ -126,9 +126,17 @@ export const AppearanceHeader = () => (
 )
 
 //--------------------------------------------------
+export const TransactionHeader = () => (
+  <ColumnTitle
+    title='Transactions'
+    tooltip='Every transaction in which this address appears.'
+  />
+)
+
+//--------------------------------------------------
 export const EventLogsHeader = () => (
   <ColumnTitle
-    title='Event Logs'
+    title='Logs'
     tooltip='The number of GitCoin related logs in which this address appears.'
   />
 )

@@ -125,19 +125,19 @@ type Balance struct {
 }
 type Balances []Balance
 
-func properTitle(input string) string {
-	words := strings.Split(input, " ")
-	smallwords := " a an on the to "
+// func properTitle(input string) string {
+// 	words := strings.Split(input, " ")
+// 	smallwords := " a an on the to "
 
-	for index, word := range words {
-		if strings.Contains(smallwords, " "+word+" ") && word != string(word[0]) {
-			words[index] = word
-		} else {
-			words[index] = strings.Title(word)
-		}
-	}
-	return strings.Join(words, " ")
-}
+// 	for index, word := range words {
+// 		if strings.Contains(smallwords, " "+word+" ") && word != string(word[0]) {
+// 			words[index] = word
+// 		} else {
+// 			words[index] = strings.Title(word)
+// 		}
+// 	}
+// 	return strings.Join(words, " ")
+// }
 
 type Appearance struct {
 	Bn   uint32 `json:"bn"`
@@ -203,20 +203,29 @@ func (m *Monitor) ReadRangeAndAge(monitorPath string) error {
 
 const path = "/Users/jrush/Library/Application Support/TrueBlocks/cache/monitors/"
 
-func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
-	monitor := &Monitor{
-		Address: grant.AdminAddress,
-		First: Appearance{
-			Bn:   10,
-			TxId: 20,
-		},
-		Latest: Appearance{
-			Bn:   30,
-			TxId: 40,
-		},
-		Size:  100,
-		Count: 222,
+func (m *Monitor) getLastUpdate() (uint64, error) {
+	lastBlockPath := path + m.Address + ".last.txt"
+	file, err := os.Open(lastBlockPath)
+	if err != nil {
+		return 0, err
 	}
+	defer file.Close()
+
+	r := bufio.NewReader(file)
+	line, err := r.ReadBytes('\n')
+	str := strings.Replace(string(line), "\n", "", -1)
+	if err != nil {
+		return 0, err
+	}
+	val, err := strconv.Atoi(str)
+	if err != nil {
+		return 0, err
+	}
+	return uint64(val), nil
+}
+
+func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
+	monitor := &Monitor{Address: grant.AdminAddress}
 
 	monitorPath := fmt.Sprintf(path+"%s.acct.bin", grant.AdminAddress)
 	if !file.FileExists(monitorPath) {
@@ -228,37 +237,23 @@ func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 		return nil, err
 	}
 
-	monitor.Slug = "https://gitcoin.co/grants/" + fmt.Sprintf("%d", grant.Id) + "/" + grant.Slug
 	monitor.Id = grant.Id
-	monitor.Core = false
+	monitor.Slug = fmt.Sprintf("https://gitcoin.co/grants/%d/%s", grant.Id, grant.Slug)
 	monitor.Name = strings.Replace(grant.Title, "'", "", -1)
 	monitor.Types = "txs,logs,neighbors"
 	monitor.Size = fileStat.Size()
 	monitor.Count = fileStat.Size() / 8
+	monitor.Core = false
 
 	err = monitor.ReadRangeAndAge(monitorPath)
 	if err != nil {
 		return nil, err
 	}
 
-	lastBlockPath := path + grant.AdminAddress + ".last.txt"
-	file, err := os.Open(lastBlockPath)
+	monitor.LastUpdate, err = monitor.getLastUpdate()
 	if err != nil {
 		return nil, err
 	}
-	defer file.Close()
-
-	r := bufio.NewReader(file)
-	line, err := r.ReadBytes('\n')
-	str := strings.Replace(string(line), "\n", "", -1)
-	if err != nil {
-		return nil, err
-	}
-	val, err := strconv.Atoi(str)
-	if err != nil {
-		return nil, err
-	}
-	monitor.LastUpdate = uint64(val)
 
 	return monitor, nil
 }
