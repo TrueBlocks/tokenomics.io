@@ -11,3 +11,6 @@ tar -cvf zips/txs.tar txs
 cd zips
 gzip -v *
 ls -l
+
+cd ..
+./update_zips.sh
