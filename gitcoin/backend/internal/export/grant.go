@@ -157,17 +157,16 @@ type Monitor struct {
 	Latest     Appearance `json:"latestAppearance"`
 	LastUpdate uint64     `json:"lastUpdated"`
 	// Age         uint32     `json:"ageInBlocks"`
-	Range       uint32   `json:"blockRange"`
-	Size        int64    `json:"fileSize"`
-	Count       int64    `json:"appearanceCount"`
-	Neighbors   int64    `json:"neighborCount"`
-	Types       string   `json:"types"`
-	LogCount    int64    `json:"logCount"`
-	DonationCnt int64    `json:"donationCount"`
-	Matched     float64  `json:"matched"`
-	Claimed     float64  `json:"claimed"`
-	Balances    Balances `json:"balances,omitempty"`
-	Core        bool     `json:"core"`
+	Range     uint32   `json:"blockRange"`
+	Size      int64    `json:"fileSize"`
+	Count     int64    `json:"appearanceCount"`
+	Neighbors int64    `json:"neighborCount"`
+	Types     string   `json:"types"`
+	LogCount  int64    `json:"logCount"`
+	Matched   float64  `json:"matched"`
+	Claimed   float64  `json:"claimed"`
+	Balances  Balances `json:"balances,omitempty"`
+	Core      bool     `json:"core"`
 }
 
 func (m *Monitor) ReadRangeAndAge(monitorPath string) error {

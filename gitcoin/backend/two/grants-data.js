@@ -1,4 +1,4 @@
-export const grantsData = [
+[
   {
     grantId: 7,
     address: '0xaa42aa2e1888c5aa2861e970cb2720848b868c68',
@@ -20,12 +20,11 @@ export const grantsData = [
     blockRange: 3926169,
     fileSize: 624,
     appearanceCount: 78,
-    neighborCount: 433,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
-    logCount: 2481,
-    donationCount: 10,
-    matched: 10,
-    claimed: 10,
+    logCount: 0,
+    matched: 0,
+    claimed: 0,
     core: false
   },
   {
@@ -49,10 +48,9 @@ export const grantsData = [
     blockRange: 8677939,
     fileSize: 6520,
     appearanceCount: 815,
-    neighborCount: 50,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
-    logCount: 1264,
-    donationCount: 143,
+    logCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -81,7 +79,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -110,7 +107,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -139,7 +135,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -168,7 +163,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -197,7 +191,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -226,7 +219,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -255,7 +247,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -284,7 +275,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -313,7 +303,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -342,7 +331,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -371,7 +359,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -400,7 +387,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -429,7 +415,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -458,7 +443,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -487,7 +471,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -516,7 +499,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -545,7 +527,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -574,7 +555,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -603,7 +583,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -632,7 +611,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -661,7 +639,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -690,7 +667,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -719,7 +695,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -748,7 +723,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -777,7 +751,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -806,7 +779,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -835,7 +807,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -864,7 +835,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -893,7 +863,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -922,7 +891,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -951,7 +919,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -980,7 +947,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1009,7 +975,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1038,7 +1003,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1067,7 +1031,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1096,7 +1059,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1125,7 +1087,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1154,7 +1115,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1183,7 +1143,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1212,7 +1171,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1241,7 +1199,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1270,7 +1227,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1299,7 +1255,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1328,7 +1283,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1357,7 +1311,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1386,7 +1339,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1415,7 +1367,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1444,7 +1395,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1473,7 +1423,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1502,7 +1451,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1531,7 +1479,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1560,7 +1507,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1589,7 +1535,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1618,7 +1563,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1647,7 +1591,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1676,7 +1619,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1705,7 +1647,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1734,7 +1675,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1763,7 +1703,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1792,7 +1731,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1821,7 +1759,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1850,7 +1787,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1879,7 +1815,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1908,7 +1843,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1937,7 +1871,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1966,7 +1899,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -1995,7 +1927,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2024,7 +1955,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2053,7 +1983,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2082,7 +2011,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2111,7 +2039,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2140,7 +2067,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2169,7 +2095,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2198,7 +2123,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2227,7 +2151,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2256,7 +2179,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2285,7 +2207,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2314,7 +2235,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2343,7 +2263,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2372,7 +2291,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2401,7 +2319,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2430,7 +2347,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2459,7 +2375,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2488,7 +2403,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2517,7 +2431,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2546,7 +2459,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2575,7 +2487,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2604,7 +2515,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2633,7 +2543,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2662,7 +2571,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2691,7 +2599,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2720,7 +2627,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2749,7 +2655,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2778,7 +2683,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2807,7 +2711,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2836,7 +2739,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2865,7 +2767,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2894,7 +2795,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2923,7 +2823,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2952,7 +2851,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -2981,7 +2879,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3010,7 +2907,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3039,7 +2935,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3068,7 +2963,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3097,7 +2991,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3126,7 +3019,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3155,7 +3047,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3184,7 +3075,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3213,7 +3103,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3242,7 +3131,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3271,7 +3159,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3300,7 +3187,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3329,7 +3215,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3358,7 +3243,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3387,7 +3271,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3416,7 +3299,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3445,7 +3327,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3474,7 +3355,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3503,7 +3383,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3532,7 +3411,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3561,7 +3439,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3590,7 +3467,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3619,7 +3495,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3648,7 +3523,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3677,7 +3551,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3706,7 +3579,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3735,7 +3607,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3764,7 +3635,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3793,7 +3663,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3822,7 +3691,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3851,7 +3719,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3880,7 +3747,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3909,7 +3775,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3938,7 +3803,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3967,7 +3831,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -3996,7 +3859,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4025,7 +3887,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4054,7 +3915,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4083,7 +3943,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4112,7 +3971,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4141,7 +3999,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4170,7 +4027,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4199,7 +4055,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4228,7 +4083,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4257,7 +4111,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4286,7 +4139,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4315,7 +4167,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4344,7 +4195,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4373,7 +4223,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4402,7 +4251,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4431,7 +4279,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4460,7 +4307,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4489,7 +4335,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4518,7 +4363,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4547,7 +4391,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4576,7 +4419,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4605,7 +4447,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4634,7 +4475,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4663,7 +4503,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4692,7 +4531,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4721,7 +4559,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4750,7 +4587,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4779,7 +4615,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4808,7 +4643,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4837,7 +4671,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4866,7 +4699,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4895,7 +4727,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4924,7 +4755,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4953,7 +4783,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -4982,7 +4811,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5011,7 +4839,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5040,7 +4867,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5069,7 +4895,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5098,7 +4923,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5127,7 +4951,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5156,7 +4979,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5185,7 +5007,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5214,7 +5035,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5243,7 +5063,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5272,7 +5091,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5301,7 +5119,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5330,7 +5147,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5359,7 +5175,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5388,7 +5203,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5417,7 +5231,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5446,7 +5259,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5475,7 +5287,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5504,7 +5315,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5533,7 +5343,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5562,7 +5371,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5591,7 +5399,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5620,7 +5427,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5649,7 +5455,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5678,7 +5483,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5707,7 +5511,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5736,7 +5539,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5765,7 +5567,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5794,7 +5595,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5823,7 +5623,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5852,7 +5651,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5881,7 +5679,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5910,7 +5707,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5939,7 +5735,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5968,7 +5763,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -5997,7 +5791,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6026,7 +5819,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6055,7 +5847,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6084,7 +5875,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6113,7 +5903,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6142,7 +5931,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6171,7 +5959,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6200,7 +5987,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6229,7 +6015,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6258,7 +6043,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6287,7 +6071,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6316,7 +6099,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6345,7 +6127,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6374,7 +6155,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6403,7 +6183,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6432,7 +6211,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6461,7 +6239,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6490,7 +6267,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6519,7 +6295,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6548,7 +6323,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6577,7 +6351,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6606,7 +6379,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6635,7 +6407,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6664,7 +6435,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6693,7 +6463,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6722,7 +6491,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6751,7 +6519,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6780,7 +6547,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6809,7 +6575,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6838,7 +6603,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6867,7 +6631,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6896,7 +6659,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6925,7 +6687,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6954,7 +6715,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -6983,7 +6743,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7012,7 +6771,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7041,7 +6799,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7070,7 +6827,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7099,7 +6855,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7128,7 +6883,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7157,7 +6911,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7186,7 +6939,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7215,7 +6967,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7244,7 +6995,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7273,7 +7023,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7302,7 +7051,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7331,7 +7079,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7360,7 +7107,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7389,7 +7135,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7418,7 +7163,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7447,7 +7191,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7476,7 +7219,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7505,7 +7247,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7534,7 +7275,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7563,7 +7303,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7592,7 +7331,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7621,7 +7359,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7650,7 +7387,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7679,7 +7415,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7708,7 +7443,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7737,7 +7471,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7766,7 +7499,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7795,7 +7527,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7824,7 +7555,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7853,7 +7583,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7882,7 +7611,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7911,7 +7639,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7940,7 +7667,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7969,7 +7695,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -7998,7 +7723,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8027,7 +7751,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8056,7 +7779,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8085,7 +7807,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8114,7 +7835,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8143,7 +7863,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8172,7 +7891,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8201,7 +7919,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8230,7 +7947,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8259,7 +7975,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8288,7 +8003,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8317,7 +8031,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8346,7 +8059,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8375,7 +8087,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8404,7 +8115,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8433,7 +8143,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8462,7 +8171,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8491,7 +8199,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8520,7 +8227,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8549,7 +8255,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8578,7 +8283,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8607,7 +8311,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8636,7 +8339,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8665,7 +8367,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8694,7 +8395,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8723,7 +8423,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8752,7 +8451,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8781,7 +8479,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8810,7 +8507,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8839,7 +8535,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8868,7 +8563,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8897,7 +8591,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8926,7 +8619,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8955,7 +8647,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -8984,7 +8675,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9013,7 +8703,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9042,7 +8731,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9071,7 +8759,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9100,7 +8787,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9129,7 +8815,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9158,7 +8843,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9187,7 +8871,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9216,7 +8899,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9245,7 +8927,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9274,7 +8955,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9303,7 +8983,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9332,7 +9011,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9361,7 +9039,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9390,7 +9067,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9419,7 +9095,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9448,7 +9123,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9477,7 +9151,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9506,7 +9179,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9535,7 +9207,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9564,7 +9235,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9593,7 +9263,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9622,7 +9291,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9651,7 +9319,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9680,7 +9347,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9709,7 +9375,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9738,7 +9403,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9767,7 +9431,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9796,7 +9459,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9825,7 +9487,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9854,7 +9515,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9883,7 +9543,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9912,7 +9571,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9941,7 +9599,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9970,7 +9627,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -9999,7 +9655,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10028,7 +9683,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10057,7 +9711,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10086,7 +9739,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10115,7 +9767,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10144,7 +9795,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10173,7 +9823,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10202,7 +9851,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10231,7 +9879,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10260,7 +9907,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10289,7 +9935,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10318,7 +9963,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10347,7 +9991,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10376,7 +10019,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10405,7 +10047,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10434,7 +10075,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10463,7 +10103,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10492,7 +10131,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10521,7 +10159,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10550,7 +10187,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10579,7 +10215,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10608,7 +10243,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10637,7 +10271,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10666,7 +10299,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10695,7 +10327,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10724,7 +10355,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10753,7 +10383,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10782,7 +10411,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10811,7 +10439,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10840,7 +10467,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10869,7 +10495,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10898,7 +10523,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10927,7 +10551,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10956,7 +10579,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -10985,7 +10607,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11014,7 +10635,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11043,7 +10663,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11072,7 +10691,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11101,7 +10719,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11130,7 +10747,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11159,7 +10775,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11188,7 +10803,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11217,7 +10831,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11246,7 +10859,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11275,7 +10887,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11304,7 +10915,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11333,7 +10943,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11362,7 +10971,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11391,7 +10999,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11420,7 +11027,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11449,7 +11055,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11478,7 +11083,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11507,7 +11111,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11536,7 +11139,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11565,7 +11167,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11594,7 +11195,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11623,7 +11223,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11652,7 +11251,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11681,7 +11279,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11710,7 +11307,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11739,7 +11335,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11768,7 +11363,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11797,7 +11391,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11826,7 +11419,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11855,7 +11447,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11884,7 +11475,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11913,7 +11503,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11942,7 +11531,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -11971,7 +11559,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12000,7 +11587,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12029,7 +11615,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12058,7 +11643,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12087,7 +11671,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12116,7 +11699,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12145,7 +11727,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12174,7 +11755,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12203,7 +11783,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12232,7 +11811,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12261,7 +11839,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12290,7 +11867,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12319,7 +11895,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12348,7 +11923,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12377,7 +11951,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12406,7 +11979,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12435,7 +12007,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12464,7 +12035,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12493,7 +12063,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12522,7 +12091,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12551,7 +12119,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12580,7 +12147,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12609,7 +12175,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12638,7 +12203,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12667,7 +12231,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12696,7 +12259,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12725,7 +12287,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12754,7 +12315,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12783,7 +12343,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12812,7 +12371,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12841,7 +12399,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12870,7 +12427,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12899,7 +12455,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12928,7 +12483,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12957,7 +12511,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -12986,7 +12539,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13015,7 +12567,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13044,7 +12595,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13073,7 +12623,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13102,7 +12651,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13131,7 +12679,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13160,7 +12707,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13189,7 +12735,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13218,7 +12763,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13247,7 +12791,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13276,7 +12819,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13305,7 +12847,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13334,7 +12875,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13363,7 +12903,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13392,7 +12931,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13421,7 +12959,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13450,7 +12987,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13479,7 +13015,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13508,7 +13043,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13537,7 +13071,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13566,7 +13099,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13595,7 +13127,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13624,7 +13155,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13653,7 +13183,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13682,7 +13211,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13711,7 +13239,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13740,7 +13267,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13769,7 +13295,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13798,7 +13323,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13827,7 +13351,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13856,7 +13379,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13885,7 +13407,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13914,7 +13435,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13943,7 +13463,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -13972,7 +13491,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14001,7 +13519,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14030,7 +13547,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14059,7 +13575,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14088,7 +13603,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14117,7 +13631,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14146,7 +13659,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14175,7 +13687,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14204,7 +13715,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14233,7 +13743,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14262,7 +13771,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14291,7 +13799,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14320,7 +13827,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14349,7 +13855,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14378,7 +13883,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14407,7 +13911,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14436,7 +13939,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14465,7 +13967,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14494,7 +13995,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14523,7 +14023,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14552,7 +14051,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14581,7 +14079,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14610,7 +14107,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14639,7 +14135,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14668,7 +14163,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14697,7 +14191,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14726,7 +14219,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14755,7 +14247,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14784,7 +14275,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14813,7 +14303,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14842,7 +14331,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14871,7 +14359,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14900,7 +14387,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14929,7 +14415,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14958,7 +14443,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -14987,7 +14471,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15016,7 +14499,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15045,7 +14527,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15074,7 +14555,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15103,7 +14583,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15132,7 +14611,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15161,7 +14639,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15190,7 +14667,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15219,7 +14695,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15248,7 +14723,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15277,7 +14751,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15306,7 +14779,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15335,7 +14807,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15364,7 +14835,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15393,7 +14863,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15422,7 +14891,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15451,7 +14919,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15480,7 +14947,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15509,7 +14975,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15538,7 +15003,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15567,7 +15031,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15596,7 +15059,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15625,7 +15087,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15654,7 +15115,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15683,7 +15143,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15712,7 +15171,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15741,7 +15199,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15770,7 +15227,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15799,7 +15255,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15828,7 +15283,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15857,7 +15311,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15886,7 +15339,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15915,7 +15367,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15944,7 +15395,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -15973,7 +15423,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16002,7 +15451,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16031,7 +15479,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16060,7 +15507,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16089,7 +15535,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16118,7 +15563,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16147,7 +15591,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16176,7 +15619,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16205,7 +15647,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16234,7 +15675,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16263,7 +15703,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16292,7 +15731,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16321,7 +15759,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16350,7 +15787,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16379,7 +15815,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16408,7 +15843,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16437,7 +15871,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16466,7 +15899,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16495,7 +15927,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16524,7 +15955,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16553,7 +15983,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16582,7 +16011,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16611,7 +16039,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16640,7 +16067,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16669,7 +16095,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16698,7 +16123,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16727,7 +16151,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16756,7 +16179,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16785,7 +16207,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16814,7 +16235,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16843,7 +16263,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16872,7 +16291,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16901,7 +16319,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16930,7 +16347,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16959,7 +16375,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -16988,7 +16403,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17017,7 +16431,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17046,7 +16459,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17075,7 +16487,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17104,7 +16515,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17133,7 +16543,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17162,7 +16571,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17191,7 +16599,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17220,7 +16627,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17249,7 +16655,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17278,7 +16683,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17307,7 +16711,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17336,7 +16739,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17365,7 +16767,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17394,7 +16795,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17423,7 +16823,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17452,7 +16851,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17481,7 +16879,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17510,7 +16907,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17539,7 +16935,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17568,7 +16963,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17597,7 +16991,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17626,7 +17019,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17655,7 +17047,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17684,7 +17075,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17713,7 +17103,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17742,7 +17131,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17771,7 +17159,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17800,7 +17187,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17829,7 +17215,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17858,7 +17243,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17887,7 +17271,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17916,7 +17299,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17945,7 +17327,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -17974,7 +17355,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18003,7 +17383,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18032,7 +17411,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18061,7 +17439,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18090,7 +17467,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18119,7 +17495,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18148,7 +17523,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18177,7 +17551,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18206,7 +17579,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18235,7 +17607,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18264,7 +17635,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18293,7 +17663,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18322,7 +17691,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18351,7 +17719,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18380,7 +17747,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18409,7 +17775,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18438,7 +17803,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18467,7 +17831,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18496,7 +17859,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18525,7 +17887,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18554,7 +17915,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18583,7 +17943,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18612,7 +17971,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18641,7 +17999,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18670,7 +18027,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18699,7 +18055,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18728,7 +18083,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18757,7 +18111,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18786,7 +18139,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18815,7 +18167,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18844,7 +18195,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18873,7 +18223,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18902,7 +18251,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18931,7 +18279,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18960,7 +18307,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -18989,7 +18335,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19018,7 +18363,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19047,7 +18391,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19076,7 +18419,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19105,7 +18447,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19134,7 +18475,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19163,7 +18503,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19192,7 +18531,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19221,7 +18559,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19250,7 +18587,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19279,7 +18615,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19308,7 +18643,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19337,7 +18671,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19366,7 +18699,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19395,7 +18727,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19424,7 +18755,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19453,7 +18783,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19482,7 +18811,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19511,7 +18839,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19540,7 +18867,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19569,7 +18895,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19598,7 +18923,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19627,7 +18951,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19656,7 +18979,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19685,7 +19007,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19714,7 +19035,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19743,7 +19063,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19772,7 +19091,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19801,7 +19119,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19830,7 +19147,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19859,7 +19175,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19888,7 +19203,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19917,7 +19231,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19946,7 +19259,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -19975,7 +19287,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20004,7 +19315,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20033,7 +19343,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20062,7 +19371,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20091,7 +19399,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20120,7 +19427,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20149,7 +19455,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20178,7 +19483,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20207,7 +19511,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20236,7 +19539,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20265,7 +19567,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20294,7 +19595,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20323,7 +19623,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20352,7 +19651,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20381,7 +19679,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20410,7 +19707,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20439,7 +19735,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20468,7 +19763,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20497,7 +19791,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20526,7 +19819,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20555,7 +19847,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20584,7 +19875,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20613,7 +19903,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20642,7 +19931,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20671,7 +19959,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20700,7 +19987,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20729,7 +20015,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20758,7 +20043,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20787,7 +20071,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20816,7 +20099,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20845,7 +20127,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20874,7 +20155,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20903,7 +20183,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20932,7 +20211,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20961,7 +20239,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -20990,7 +20267,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21019,7 +20295,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21048,7 +20323,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21077,7 +20351,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21106,7 +20379,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21135,7 +20407,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21164,7 +20435,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21193,7 +20463,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21222,7 +20491,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21251,7 +20519,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21280,7 +20547,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21309,7 +20575,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21338,7 +20603,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21367,7 +20631,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21396,7 +20659,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21425,7 +20687,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21454,7 +20715,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21483,7 +20743,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21512,7 +20771,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21541,7 +20799,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21570,7 +20827,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21599,7 +20855,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21628,7 +20883,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21657,7 +20911,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21686,7 +20939,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21715,7 +20967,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21744,7 +20995,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21773,7 +21023,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21802,7 +21051,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21831,7 +21079,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21860,7 +21107,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21889,7 +21135,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21918,7 +21163,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21947,7 +21191,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -21976,7 +21219,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22005,7 +21247,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22034,7 +21275,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22063,7 +21303,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22092,7 +21331,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22121,7 +21359,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22150,7 +21387,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22179,7 +21415,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22208,7 +21443,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22237,7 +21471,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22266,7 +21499,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22295,7 +21527,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22324,7 +21555,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22353,7 +21583,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22382,7 +21611,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22411,7 +21639,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22440,7 +21667,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22469,7 +21695,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22498,7 +21723,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22527,7 +21751,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22556,7 +21779,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22585,7 +21807,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22614,7 +21835,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22643,7 +21863,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22672,7 +21891,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22701,7 +21919,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22730,7 +21947,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22759,7 +21975,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22788,7 +22003,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22817,7 +22031,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22846,7 +22059,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22875,7 +22087,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22904,7 +22115,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22933,7 +22143,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22962,7 +22171,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -22991,7 +22199,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23020,7 +22227,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23049,7 +22255,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23078,7 +22283,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23107,7 +22311,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23136,7 +22339,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23165,7 +22367,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23194,7 +22395,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23223,7 +22423,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23252,7 +22451,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23281,7 +22479,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23310,7 +22507,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23339,7 +22535,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23368,7 +22563,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23397,7 +22591,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23426,7 +22619,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23455,7 +22647,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23484,7 +22675,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23513,7 +22703,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23542,7 +22731,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23571,7 +22759,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23600,7 +22787,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23629,7 +22815,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23658,7 +22843,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23687,7 +22871,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23716,7 +22899,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23745,7 +22927,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23774,7 +22955,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23803,7 +22983,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23832,7 +23011,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23861,7 +23039,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23890,7 +23067,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23919,7 +23095,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23948,7 +23123,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -23977,7 +23151,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24006,7 +23179,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24035,7 +23207,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24064,7 +23235,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24093,7 +23263,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24122,7 +23291,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24151,7 +23319,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24180,7 +23347,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24209,7 +23375,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24238,7 +23403,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24267,7 +23431,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24296,7 +23459,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24325,7 +23487,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24354,7 +23515,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24383,7 +23543,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24412,7 +23571,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24441,7 +23599,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24470,7 +23627,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24499,7 +23655,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24528,7 +23683,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24557,7 +23711,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24586,7 +23739,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24615,7 +23767,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24644,7 +23795,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24673,7 +23823,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24702,7 +23851,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24731,7 +23879,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24760,7 +23907,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24789,7 +23935,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24818,7 +23963,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24847,7 +23991,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24876,7 +24019,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24905,7 +24047,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24934,7 +24075,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24963,7 +24103,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -24992,7 +24131,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25021,7 +24159,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25050,7 +24187,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25079,7 +24215,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25108,7 +24243,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25137,7 +24271,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25166,7 +24299,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25195,7 +24327,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25224,7 +24355,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25253,7 +24383,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25282,7 +24411,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25311,7 +24439,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25340,7 +24467,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25369,7 +24495,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25398,7 +24523,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25427,7 +24551,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25456,7 +24579,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25485,7 +24607,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25514,7 +24635,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25543,7 +24663,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25572,7 +24691,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25601,7 +24719,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25630,7 +24747,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25659,7 +24775,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25688,7 +24803,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25717,7 +24831,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25746,7 +24859,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25775,7 +24887,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25804,7 +24915,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25833,7 +24943,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25862,7 +24971,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25891,7 +24999,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25920,7 +25027,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25949,7 +25055,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -25978,7 +25083,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26007,7 +25111,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26036,7 +25139,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26065,7 +25167,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26094,7 +25195,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26123,7 +25223,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26152,7 +25251,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26181,7 +25279,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26210,7 +25307,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26239,7 +25335,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26268,7 +25363,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26297,7 +25391,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26326,7 +25419,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26355,7 +25447,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26384,7 +25475,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26413,7 +25503,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26442,7 +25531,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26471,7 +25559,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26500,7 +25587,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26529,7 +25615,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26558,7 +25643,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26587,7 +25671,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26616,7 +25699,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26645,7 +25727,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26674,7 +25755,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26703,7 +25783,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26732,7 +25811,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26761,7 +25839,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26790,7 +25867,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26819,7 +25895,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26848,7 +25923,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26877,7 +25951,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26906,7 +25979,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26935,7 +26007,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26964,7 +26035,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -26993,7 +26063,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27022,7 +26091,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27051,7 +26119,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27080,7 +26147,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27109,7 +26175,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27138,7 +26203,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27167,7 +26231,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27196,7 +26259,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27225,7 +26287,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27254,7 +26315,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27283,7 +26343,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27312,7 +26371,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27341,7 +26399,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27370,7 +26427,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27399,7 +26455,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27428,7 +26483,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27457,7 +26511,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27486,7 +26539,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27515,7 +26567,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27544,7 +26595,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27573,7 +26623,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27602,7 +26651,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27631,7 +26679,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27660,7 +26707,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27689,7 +26735,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27718,7 +26763,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27747,7 +26791,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27776,7 +26819,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27805,7 +26847,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27834,7 +26875,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27863,7 +26903,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27892,7 +26931,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27921,7 +26959,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27950,7 +26987,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -27979,7 +27015,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28008,7 +27043,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28037,7 +27071,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28066,7 +27099,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28095,7 +27127,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28124,7 +27155,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28153,7 +27183,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28182,7 +27211,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28211,7 +27239,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28240,7 +27267,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28269,7 +27295,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28298,7 +27323,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28327,7 +27351,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28356,7 +27379,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28385,7 +27407,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28414,7 +27435,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28443,7 +27463,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28472,7 +27491,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28501,7 +27519,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28530,7 +27547,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28559,7 +27575,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28588,7 +27603,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28617,7 +27631,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28646,7 +27659,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28675,7 +27687,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28704,7 +27715,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28733,7 +27743,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28762,7 +27771,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28791,7 +27799,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28820,7 +27827,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28849,7 +27855,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28878,7 +27883,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28907,7 +27911,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28936,7 +27939,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28965,7 +27967,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -28994,7 +27995,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29023,7 +28023,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29052,7 +28051,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29081,7 +28079,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29110,7 +28107,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29139,7 +28135,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29168,7 +28163,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29197,7 +28191,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29226,7 +28219,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29255,7 +28247,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29284,7 +28275,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29313,7 +28303,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29342,7 +28331,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29371,7 +28359,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29400,7 +28387,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29429,7 +28415,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29458,7 +28443,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29487,7 +28471,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29516,7 +28499,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29545,7 +28527,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29574,7 +28555,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29603,7 +28583,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29632,7 +28611,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29661,7 +28639,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29690,7 +28667,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29719,7 +28695,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29748,7 +28723,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29777,7 +28751,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29806,7 +28779,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29835,7 +28807,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29864,7 +28835,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29893,7 +28863,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29922,7 +28891,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29951,7 +28919,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -29980,7 +28947,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30009,7 +28975,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30038,7 +29003,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30067,7 +29031,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30096,7 +29059,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30125,7 +29087,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30154,7 +29115,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30183,7 +29143,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30212,7 +29171,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30241,7 +29199,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30270,7 +29227,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30299,7 +29255,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30328,7 +29283,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30357,7 +29311,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30386,7 +29339,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30415,7 +29367,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30444,7 +29395,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30473,7 +29423,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30502,7 +29451,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30531,7 +29479,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30560,7 +29507,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30589,7 +29535,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30618,7 +29563,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30647,7 +29591,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30676,7 +29619,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30705,7 +29647,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30734,7 +29675,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30763,7 +29703,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30792,7 +29731,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30821,7 +29759,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30850,7 +29787,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30879,7 +29815,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30908,7 +29843,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30937,7 +29871,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30966,7 +29899,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -30995,7 +29927,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31024,7 +29955,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31053,7 +29983,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31082,7 +30011,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31111,7 +30039,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31140,7 +30067,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31169,7 +30095,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31198,7 +30123,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31227,7 +30151,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31256,7 +30179,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31285,7 +30207,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31314,7 +30235,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31343,7 +30263,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31372,7 +30291,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31401,7 +30319,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31430,7 +30347,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31459,7 +30375,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31488,7 +30403,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31517,7 +30431,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31546,7 +30459,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31575,7 +30487,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31604,7 +30515,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31633,7 +30543,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31662,7 +30571,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31691,7 +30599,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31720,7 +30627,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31749,7 +30655,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31778,7 +30683,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31807,7 +30711,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31836,7 +30739,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31865,7 +30767,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31894,7 +30795,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31923,7 +30823,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31952,7 +30851,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -31981,7 +30879,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32010,7 +30907,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32039,7 +30935,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32068,7 +30963,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32097,7 +30991,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32126,7 +31019,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32155,7 +31047,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32184,7 +31075,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32213,7 +31103,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32242,7 +31131,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32271,7 +31159,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32300,7 +31187,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32329,7 +31215,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32358,7 +31243,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32387,7 +31271,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32416,7 +31299,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32445,7 +31327,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32474,7 +31355,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32503,7 +31383,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32532,7 +31411,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32561,7 +31439,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32590,7 +31467,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32619,7 +31495,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32648,7 +31523,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32677,7 +31551,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32706,7 +31579,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32735,7 +31607,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32764,7 +31635,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32793,7 +31663,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32822,7 +31691,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32851,7 +31719,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32880,7 +31747,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32909,7 +31775,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32938,7 +31803,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32967,7 +31831,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -32996,7 +31859,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33025,7 +31887,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33054,7 +31915,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33083,7 +31943,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33112,7 +31971,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33141,7 +31999,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33170,7 +32027,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33199,7 +32055,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33228,7 +32083,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33257,7 +32111,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33286,7 +32139,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33315,7 +32167,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33344,7 +32195,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33373,7 +32223,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33402,7 +32251,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33431,7 +32279,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33460,7 +32307,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33489,7 +32335,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33518,7 +32363,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33547,7 +32391,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33576,7 +32419,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33605,7 +32447,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33634,7 +32475,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33663,7 +32503,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33692,7 +32531,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33721,7 +32559,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33750,7 +32587,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33779,7 +32615,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33808,7 +32643,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33837,7 +32671,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33866,7 +32699,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33895,7 +32727,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33924,7 +32755,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33953,7 +32783,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -33982,7 +32811,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34011,7 +32839,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34040,7 +32867,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34069,7 +32895,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34098,7 +32923,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34127,7 +32951,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34156,7 +32979,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34185,7 +33007,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34214,7 +33035,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34243,7 +33063,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34272,7 +33091,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34301,7 +33119,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34330,7 +33147,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34359,7 +33175,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34388,7 +33203,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34417,7 +33231,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34446,7 +33259,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34475,7 +33287,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34504,7 +33315,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34533,7 +33343,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34562,7 +33371,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34591,7 +33399,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34620,7 +33427,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34649,7 +33455,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34678,7 +33483,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34707,7 +33511,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34736,7 +33539,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34765,7 +33567,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34794,7 +33595,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34823,7 +33623,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34852,7 +33651,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34881,7 +33679,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34910,7 +33707,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34939,7 +33735,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34968,7 +33763,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -34997,7 +33791,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35026,7 +33819,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35055,7 +33847,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35084,7 +33875,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35113,7 +33903,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35142,7 +33931,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35171,7 +33959,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35200,7 +33987,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35229,7 +34015,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35258,7 +34043,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35287,7 +34071,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35316,7 +34099,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35345,7 +34127,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35374,7 +34155,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35403,7 +34183,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35432,7 +34211,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35461,7 +34239,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35490,7 +34267,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35519,7 +34295,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35548,7 +34323,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35577,7 +34351,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35606,7 +34379,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35635,7 +34407,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35664,7 +34435,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35693,7 +34463,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35722,7 +34491,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35751,7 +34519,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35780,7 +34547,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35809,7 +34575,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35838,7 +34603,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35867,7 +34631,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35896,7 +34659,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35925,7 +34687,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35954,7 +34715,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -35983,7 +34743,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36012,7 +34771,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36041,7 +34799,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36070,7 +34827,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36099,7 +34855,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36128,7 +34883,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36157,7 +34911,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36186,7 +34939,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36215,7 +34967,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36244,7 +34995,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36273,7 +35023,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36302,7 +35051,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36331,7 +35079,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36360,7 +35107,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36389,7 +35135,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36418,7 +35163,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36447,7 +35191,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36476,7 +35219,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36505,7 +35247,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36534,7 +35275,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36563,7 +35303,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36592,7 +35331,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36621,7 +35359,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36650,7 +35387,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36679,7 +35415,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36708,7 +35443,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36737,7 +35471,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36766,7 +35499,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36795,7 +35527,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36824,7 +35555,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36853,7 +35583,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36882,7 +35611,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36911,7 +35639,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36940,7 +35667,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36969,7 +35695,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -36998,7 +35723,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37027,7 +35751,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37056,7 +35779,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37085,7 +35807,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37114,7 +35835,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37143,7 +35863,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37172,7 +35891,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37201,7 +35919,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37230,7 +35947,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37259,7 +35975,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37288,7 +36003,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37317,7 +36031,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37346,7 +36059,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37375,7 +36087,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37404,7 +36115,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37433,7 +36143,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37462,7 +36171,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37491,7 +36199,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37520,7 +36227,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37549,7 +36255,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37578,7 +36283,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37607,7 +36311,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37636,7 +36339,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37665,7 +36367,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37694,7 +36395,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37723,7 +36423,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37752,7 +36451,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37781,7 +36479,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37810,7 +36507,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37839,7 +36535,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37868,7 +36563,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37897,7 +36591,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37926,7 +36619,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37955,7 +36647,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -37984,7 +36675,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38013,7 +36703,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38042,7 +36731,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38071,7 +36759,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38100,7 +36787,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38129,7 +36815,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38158,7 +36843,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38187,7 +36871,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38216,7 +36899,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38245,7 +36927,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38274,7 +36955,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38303,7 +36983,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38332,7 +37011,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38361,7 +37039,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38390,7 +37067,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38419,7 +37095,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38448,7 +37123,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38477,7 +37151,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38506,7 +37179,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38535,7 +37207,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38564,7 +37235,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38593,7 +37263,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38622,7 +37291,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38651,7 +37319,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38680,7 +37347,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38709,7 +37375,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38738,7 +37403,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38767,7 +37431,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38796,7 +37459,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38825,7 +37487,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38854,7 +37515,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38883,7 +37543,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38912,7 +37571,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38941,7 +37599,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38970,7 +37627,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -38999,7 +37655,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39028,7 +37683,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39057,7 +37711,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39086,7 +37739,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39115,7 +37767,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39144,7 +37795,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39173,7 +37823,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39202,7 +37851,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39231,7 +37879,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39260,7 +37907,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39289,7 +37935,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39318,7 +37963,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39347,7 +37991,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39376,7 +38019,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39405,7 +38047,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39434,7 +38075,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39463,7 +38103,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39492,7 +38131,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39521,7 +38159,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39550,7 +38187,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39579,7 +38215,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39608,7 +38243,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39637,7 +38271,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39666,7 +38299,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39695,7 +38327,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39724,7 +38355,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39753,7 +38383,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39782,7 +38411,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39811,7 +38439,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39840,7 +38467,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39869,7 +38495,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39898,7 +38523,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39927,7 +38551,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39956,7 +38579,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -39985,7 +38607,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40014,7 +38635,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40043,7 +38663,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40072,7 +38691,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40101,7 +38719,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40130,7 +38747,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40159,7 +38775,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40188,7 +38803,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40217,7 +38831,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40246,7 +38859,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40275,7 +38887,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40304,7 +38915,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40333,7 +38943,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40362,7 +38971,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40391,7 +38999,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40420,7 +39027,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40449,7 +39055,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40478,7 +39083,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40507,7 +39111,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40536,7 +39139,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40565,7 +39167,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40594,7 +39195,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40623,7 +39223,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40652,7 +39251,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40681,7 +39279,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40710,7 +39307,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40739,7 +39335,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40768,7 +39363,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40797,7 +39391,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40826,7 +39419,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40855,7 +39447,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40884,7 +39475,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40913,7 +39503,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40942,7 +39531,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -40971,7 +39559,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41000,7 +39587,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41029,7 +39615,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41058,7 +39643,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41087,7 +39671,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41116,7 +39699,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41145,7 +39727,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41174,7 +39755,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41203,7 +39783,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41232,7 +39811,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41261,7 +39839,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41290,7 +39867,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41319,7 +39895,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41348,7 +39923,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41377,7 +39951,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41406,7 +39979,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41435,7 +40007,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41464,7 +40035,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41493,7 +40063,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41522,7 +40091,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41551,7 +40119,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41580,7 +40147,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41609,7 +40175,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41638,7 +40203,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41667,7 +40231,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41696,7 +40259,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41725,7 +40287,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41754,7 +40315,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41783,7 +40343,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41812,7 +40371,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41841,7 +40399,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41870,7 +40427,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41899,7 +40455,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41928,7 +40483,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41957,7 +40511,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -41986,7 +40539,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42015,7 +40567,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42044,7 +40595,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42073,7 +40623,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42102,7 +40651,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42131,7 +40679,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42160,7 +40707,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42189,7 +40735,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42218,7 +40763,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42247,7 +40791,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42276,7 +40819,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42305,7 +40847,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42334,7 +40875,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42363,7 +40903,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42392,7 +40931,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42421,7 +40959,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42450,7 +40987,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42479,7 +41015,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42508,7 +41043,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42537,7 +41071,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42566,7 +41099,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42595,7 +41127,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42624,7 +41155,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42653,7 +41183,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42682,7 +41211,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42711,7 +41239,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42740,7 +41267,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42769,7 +41295,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42798,7 +41323,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42827,7 +41351,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42856,7 +41379,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42885,7 +41407,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42914,7 +41435,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42943,7 +41463,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -42972,7 +41491,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43001,7 +41519,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43030,7 +41547,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43059,7 +41575,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43088,7 +41603,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43117,7 +41631,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43146,7 +41659,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43175,7 +41687,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43204,7 +41715,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43233,7 +41743,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43262,7 +41771,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43291,7 +41799,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43320,7 +41827,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43349,7 +41855,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43378,7 +41883,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43407,7 +41911,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43436,7 +41939,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43465,7 +41967,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43494,7 +41995,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43523,7 +42023,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43552,7 +42051,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43581,7 +42079,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43610,7 +42107,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43639,7 +42135,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43668,7 +42163,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43697,7 +42191,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43726,7 +42219,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43755,7 +42247,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43784,7 +42275,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43813,7 +42303,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43842,7 +42331,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43871,7 +42359,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43900,7 +42387,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43929,7 +42415,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43958,7 +42443,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -43987,7 +42471,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44016,7 +42499,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44045,7 +42527,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44074,7 +42555,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44103,7 +42583,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44132,7 +42611,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44161,7 +42639,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44190,7 +42667,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44219,7 +42695,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44248,7 +42723,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44277,7 +42751,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44306,7 +42779,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44335,7 +42807,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44364,7 +42835,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44393,7 +42863,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44422,7 +42891,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44451,7 +42919,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44480,7 +42947,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44509,7 +42975,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44538,7 +43003,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44567,7 +43031,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44596,7 +43059,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44625,7 +43087,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44654,7 +43115,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44683,7 +43143,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44712,7 +43171,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44741,7 +43199,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44770,7 +43227,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44799,7 +43255,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44828,7 +43283,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44857,7 +43311,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44886,7 +43339,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44915,7 +43367,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44944,7 +43395,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -44973,7 +43423,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45002,7 +43451,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45031,7 +43479,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45060,7 +43507,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45089,7 +43535,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45118,7 +43563,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45147,7 +43591,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45176,7 +43619,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45205,7 +43647,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45234,7 +43675,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45263,7 +43703,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45292,7 +43731,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45321,7 +43759,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45350,7 +43787,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45379,7 +43815,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45408,7 +43843,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45437,7 +43871,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45466,7 +43899,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45495,7 +43927,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45524,7 +43955,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45553,7 +43983,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45582,7 +44011,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45611,7 +44039,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45640,7 +44067,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45669,7 +44095,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45698,7 +44123,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45727,7 +44151,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45756,7 +44179,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45785,7 +44207,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45814,7 +44235,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45843,7 +44263,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45872,7 +44291,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45901,7 +44319,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45930,7 +44347,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45959,7 +44375,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -45988,7 +44403,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46017,7 +44431,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46046,7 +44459,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46075,7 +44487,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46104,7 +44515,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46133,7 +44543,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46162,7 +44571,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46191,7 +44599,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46220,7 +44627,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46249,7 +44655,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46278,7 +44683,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46307,7 +44711,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46336,7 +44739,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46365,7 +44767,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46394,7 +44795,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46423,7 +44823,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46452,7 +44851,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46481,7 +44879,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46510,7 +44907,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46539,7 +44935,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46568,7 +44963,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46597,7 +44991,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46626,7 +45019,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46655,7 +45047,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46684,7 +45075,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46713,7 +45103,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46742,7 +45131,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46771,7 +45159,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46800,7 +45187,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46829,7 +45215,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46858,7 +45243,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46887,7 +45271,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46916,7 +45299,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46945,7 +45327,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -46974,7 +45355,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47003,7 +45383,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47032,7 +45411,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47061,7 +45439,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47090,7 +45467,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47119,7 +45495,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47148,7 +45523,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47177,7 +45551,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47206,7 +45579,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47235,7 +45607,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47264,7 +45635,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47293,7 +45663,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47322,7 +45691,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47351,7 +45719,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47380,7 +45747,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47409,7 +45775,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47438,7 +45803,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47467,7 +45831,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47496,7 +45859,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47525,7 +45887,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47554,7 +45915,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47583,7 +45943,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47612,7 +45971,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47641,7 +45999,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47670,7 +46027,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47699,7 +46055,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47728,7 +46083,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47757,7 +46111,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47786,7 +46139,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47815,7 +46167,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47844,7 +46195,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47873,7 +46223,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47902,7 +46251,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47931,7 +46279,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47960,7 +46307,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -47989,7 +46335,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48018,7 +46363,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48047,7 +46391,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48076,7 +46419,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48105,7 +46447,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48134,7 +46475,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48163,7 +46503,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48192,7 +46531,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48221,7 +46559,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48250,7 +46587,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48279,7 +46615,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48308,7 +46643,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48337,7 +46671,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48366,7 +46699,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48395,7 +46727,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48424,7 +46755,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48453,7 +46783,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48482,7 +46811,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48511,7 +46839,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48540,7 +46867,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48569,7 +46895,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48598,7 +46923,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48627,7 +46951,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48656,7 +46979,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48685,7 +47007,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48714,7 +47035,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48743,7 +47063,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48772,7 +47091,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48801,7 +47119,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48830,7 +47147,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48859,7 +47175,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48888,7 +47203,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48917,7 +47231,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48946,7 +47259,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -48975,7 +47287,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49004,7 +47315,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49033,7 +47343,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49062,7 +47371,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49091,7 +47399,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49120,7 +47427,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49149,7 +47455,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49178,7 +47483,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49207,7 +47511,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49236,7 +47539,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49265,7 +47567,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49294,7 +47595,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49323,7 +47623,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49352,7 +47651,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49381,7 +47679,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49410,7 +47707,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49439,7 +47735,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49468,7 +47763,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49497,7 +47791,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49526,7 +47819,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49555,7 +47847,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49584,7 +47875,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49613,7 +47903,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49642,7 +47931,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49671,7 +47959,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49700,7 +47987,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49729,7 +48015,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49758,7 +48043,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49787,7 +48071,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49816,7 +48099,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49845,7 +48127,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49874,7 +48155,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49903,7 +48183,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49932,7 +48211,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49961,7 +48239,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -49990,7 +48267,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -50019,7 +48295,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -50048,7 +48323,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -50077,7 +48351,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -50106,7 +48379,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -50135,7 +48407,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -50164,7 +48435,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -50193,7 +48463,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -50222,7 +48491,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: false
@@ -50251,7 +48519,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: true
@@ -50280,7 +48547,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: true
@@ -50309,7 +48575,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: true
@@ -50338,7 +48603,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: true
@@ -50367,7 +48631,6 @@ export const grantsData = [
     neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
-    donationCount: 0,
     matched: 0,
     claimed: 0,
     core: true
