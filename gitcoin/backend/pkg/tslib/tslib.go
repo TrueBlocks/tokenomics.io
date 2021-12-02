@@ -9,12 +9,12 @@ import (
 	"time"
 )
 
+const tsPath = "/Users/jrush/Development/trueblocks-index/wild.0/unchained/ts.bin"
+
 type Timestamp struct {
 	Bn uint32 `json:"bn"`
 	Ts uint32 `json:"ts"`
 }
-
-const tsPath = "/Users/jrush/Development/trueblocks-index/wild.0/unchained/ts.bin"
 
 var recordCount uint64 = 0
 

@@ -13,6 +13,8 @@ import (
 	"github.com/spf13/cobra"
 )
 
+const pathToData = "../data/" // /Users/jrush/Development/tokenomics.io/gitcoin/data/"
+
 type ProcessOptions struct {
 	Stats  bool
 	Format string
@@ -76,14 +78,20 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 		}
 	}
 
-	first := true
+	var fileNames []string
 	max := 4000
 	for i := 0; i < max; i++ {
-		// var which []int = []int{743, 845, 1839, 1168, 779, 143, 472}
-		// for _, i := range which {
-		grantId := fmt.Sprintf("../data/raw/%04d.json", i)
+		fileNames = append(fileNames, fmt.Sprintf(pathToData+"raw/%04d.json", i))
+	}
+	for i := 0; i < 5; i++ {
+		fileNames = append(fileNames, fmt.Sprintf(pathToData+"raw/core-%04d.json", i))
+	}
+
+	first := true
+	for _, grantId := range fileNames {
 		fileStat, err := os.Stat(grantId)
 		if err != nil {
+			fmt.Println(err.Error())
 			continue
 		}
 		if fileStat.Size() == 3 {

@@ -19,6 +19,8 @@ import (
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/file"
 )
 
+const pathToMonitors = "/Users/jrush/Library/Application Support/TrueBlocks/cache/monitors/"
+
 // Grant is one of the Gitcoin Grants
 type Grant struct {
 	Id                            uint64   `json:"id"`
@@ -143,6 +145,7 @@ type Appearance struct {
 	Bn   uint32 `json:"bn"`
 	TxId uint32 `json:"txId"`
 	Ts   uint64 `json:"timestamp"`
+	Date string `json:"date",omitempty`
 }
 
 type Monitor struct {
@@ -183,6 +186,8 @@ func (m *Monitor) ReadRangeAndAge(monitorPath string) error {
 		return err
 	}
 	m.First.Ts, _ = tslibPkg.TsFromBn(uint64(m.First.Bn))
+	m.First.Date, _ = tslibPkg.DateFromTs(m.First.Ts)
+	m.First.Date = strings.Replace(m.First.Date, "T", " ", -1)
 
 	monitorFile.Seek(-8, 2)
 	err = binary.Read(monitorFile, binary.LittleEndian, &m.Latest.Bn)
@@ -194,6 +199,8 @@ func (m *Monitor) ReadRangeAndAge(monitorPath string) error {
 		return err
 	}
 	m.Latest.Ts, _ = tslibPkg.TsFromBn(uint64(m.Latest.Bn))
+	m.Latest.Date, _ = tslibPkg.DateFromTs(m.Latest.Ts)
+	m.Latest.Date = strings.Replace(m.Latest.Date, "T", " ", -1)
 
 	m.Range = m.Latest.Bn - m.First.Bn + 1
 	// var meta rpcClient.Meta
@@ -201,10 +208,8 @@ func (m *Monitor) ReadRangeAndAge(monitorPath string) error {
 	return nil
 }
 
-const path = "/Users/jrush/Library/Application Support/TrueBlocks/cache/monitors/"
-
 func (m *Monitor) getLastUpdate() (uint64, error) {
-	lastBlockPath := path + m.Address + ".last.txt"
+	lastBlockPath := pathToMonitors + m.Address + ".last.txt"
 	file, err := os.Open(lastBlockPath)
 	if err != nil {
 		return 0, err
@@ -227,9 +232,9 @@ func (m *Monitor) getLastUpdate() (uint64, error) {
 func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 	monitor := &Monitor{Address: grant.AdminAddress}
 
-	monitorPath := fmt.Sprintf(path+"%s.acct.bin", grant.AdminAddress)
+	monitorPath := fmt.Sprintf(pathToMonitors+"%s.acct.bin", grant.AdminAddress)
 	if !file.FileExists(monitorPath) {
-		return nil, errors.New("file not exist")
+		return nil, errors.New("file does not exist: " + monitorPath)
 	}
 
 	fileStat, err := os.Stat(monitorPath)
@@ -238,12 +243,14 @@ func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 	}
 
 	monitor.Id = grant.Id
-	monitor.Slug = fmt.Sprintf("https://gitcoin.co/grants/%d/%s", grant.Id, grant.Slug)
+	if len(grant.Slug) > 0 {
+		monitor.Slug = fmt.Sprintf("https://gitcoin.co/grants/%d/%s", grant.Id, grant.Slug)
+	}
 	monitor.Name = strings.Replace(grant.Title, "'", "", -1)
 	monitor.Types = "txs,logs,neighbors"
 	monitor.Size = fileStat.Size()
 	monitor.Count = fileStat.Size() / 8
-	monitor.Core = false
+	monitor.Core = strings.Contains(grantId, "core")
 
 	err = monitor.ReadRangeAndAge(monitorPath)
 	if err != nil {

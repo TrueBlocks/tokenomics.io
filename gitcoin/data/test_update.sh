@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+chifra when --timestamps
 ./test_apps.sh
 ./test_txs.sh
 ./test_logs.sh
