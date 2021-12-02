@@ -17,6 +17,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/rpcClient"
 	tslibPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/tslib"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/file"
 )
@@ -144,10 +145,10 @@ type Balances []Balance
 // }
 
 type Appearance struct {
-	Bn   uint32 `json:"bn"`
-	TxId uint32 `json:"txId"`
-	Ts   uint64 `json:"timestamp"`
-	Date string `json:"date",omitempty`
+	Bn      uint32 `json:"bn"`
+	TxId    uint32 `json:"txId"`
+	Ts      uint64 `json:"timestamp"`
+	DateStr string `json:"date",omitempty`
 }
 
 type Monitor struct {
@@ -216,8 +217,8 @@ func (m *Monitor) ReadRange(monitorPath string) error {
 		return err
 	}
 	m.First.Ts, _ = tslibPkg.TsFromBn(uint64(m.First.Bn))
-	m.First.Date, _ = tslibPkg.DateFromTs(m.First.Ts)
-	m.First.Date = strings.Replace(m.First.Date, "T", " ", -1)
+	m.First.DateStr, _ = tslibPkg.DateFromTs(m.First.Ts)
+	m.First.DateStr = strings.Replace(m.First.DateStr, "T", " ", -1)
 
 	monitorFile.Seek(-8, 2)
 	err = binary.Read(monitorFile, binary.LittleEndian, &m.Latest.Bn)
@@ -229,8 +230,8 @@ func (m *Monitor) ReadRange(monitorPath string) error {
 		return err
 	}
 	m.Latest.Ts, _ = tslibPkg.TsFromBn(uint64(m.Latest.Bn))
-	m.Latest.Date, _ = tslibPkg.DateFromTs(m.Latest.Ts)
-	m.Latest.Date = strings.Replace(m.Latest.Date, "T", " ", -1)
+	m.Latest.DateStr, _ = tslibPkg.DateFromTs(m.Latest.Ts)
+	m.Latest.DateStr = strings.Replace(m.Latest.DateStr, "T", " ", -1)
 
 	m.Range = m.Latest.Bn - m.First.Bn + 1
 	return nil
@@ -289,6 +290,9 @@ func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 	if monitor.LogCount > 0 {
 		monitor.LogCount -= 1 // for header
 	}
+	meta := rpcClient.GetMeta(false)
+	bal := rpcClient.GetBalanceInEth(monitor.Address, meta.Latest())
+	monitor.Balances = append(monitor.Balances, Balance{Asset: "ETH", Balance: bal})
 
 	err = monitor.ReadRange(monitorPath)
 	if err != nil {

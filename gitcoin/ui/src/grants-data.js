@@ -25,6 +25,12 @@ export const grantsData = [
     logCount: 1,
     matched: 10,
     claimed: 10,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00154728817953605
+      }
+    ],
     core: false
   },
   {
@@ -53,6 +59,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5693883640180953
+      }
+    ],
     core: false
   },
   {
@@ -81,6 +93,12 @@ export const grantsData = [
     logCount: 13954,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2773.2013559979755
+      }
+    ],
     core: false
   },
   {
@@ -109,6 +127,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6252806109881215
+      }
+    ],
     core: false
   },
   {
@@ -137,6 +161,12 @@ export const grantsData = [
     logCount: 17,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02663471619039103
+      }
+    ],
     core: false
   },
   {
@@ -165,6 +195,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.005137630158040532
+      }
+    ],
     core: false
   },
   {
@@ -193,6 +229,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1480019749434362
+      }
+    ],
     core: false
   },
   {
@@ -221,6 +263,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5693883640180953
+      }
+    ],
     core: false
   },
   {
@@ -249,6 +297,12 @@ export const grantsData = [
     logCount: 582,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 442.5259435870953
+      }
+    ],
     core: false
   },
   {
@@ -277,6 +331,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 13.461806693157973
+      }
+    ],
     core: false
   },
   {
@@ -305,6 +365,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2047769789588647
+      }
+    ],
     core: false
   },
   {
@@ -333,6 +399,12 @@ export const grantsData = [
     logCount: 25,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17139207
+      }
+    ],
     core: false
   },
   {
@@ -361,6 +433,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.6433566433566e-05
+      }
+    ],
     core: false
   },
   {
@@ -389,6 +467,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2069899923134139
+      }
+    ],
     core: false
   },
   {
@@ -417,6 +501,12 @@ export const grantsData = [
     logCount: 10,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00209445086256
+      }
+    ],
     core: false
   },
   {
@@ -445,6 +535,12 @@ export const grantsData = [
     logCount: 39,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.355241805
+      }
+    ],
     core: false
   },
   {
@@ -473,6 +569,12 @@ export const grantsData = [
     logCount: 20,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.6990366725858326
+      }
+    ],
     core: false
   },
   {
@@ -501,6 +603,12 @@ export const grantsData = [
     logCount: 302,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 6.955234176148469
+      }
+    ],
     core: false
   },
   {
@@ -529,6 +637,12 @@ export const grantsData = [
     logCount: 42,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.015312653485361195
+      }
+    ],
     core: false
   },
   {
@@ -557,6 +671,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.017300659969200455
+      }
+    ],
     core: false
   },
   {
@@ -585,6 +705,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -613,6 +739,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -641,6 +773,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002687334759261912
+      }
+    ],
     core: false
   },
   {
@@ -669,6 +807,12 @@ export const grantsData = [
     logCount: 11,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.748457221136893
+      }
+    ],
     core: false
   },
   {
@@ -697,6 +841,12 @@ export const grantsData = [
     logCount: 64,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3515018249495613
+      }
+    ],
     core: false
   },
   {
@@ -725,6 +875,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.014374993906739058
+      }
+    ],
     core: false
   },
   {
@@ -753,6 +909,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -781,6 +943,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -809,6 +977,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 9.5e-07
+      }
+    ],
     core: false
   },
   {
@@ -837,6 +1011,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.019542513311656205
+      }
+    ],
     core: false
   },
   {
@@ -865,6 +1045,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.21e-05
+      }
+    ],
     core: false
   },
   {
@@ -893,6 +1079,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3
+      }
+    ],
     core: false
   },
   {
@@ -921,6 +1113,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.6415486932484613
+      }
+    ],
     core: false
   },
   {
@@ -949,6 +1147,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.0731230173479465
+      }
+    ],
     core: false
   },
   {
@@ -977,6 +1181,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.5552045023966672
+      }
+    ],
     core: false
   },
   {
@@ -1005,6 +1215,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.051564437
+      }
+    ],
     core: false
   },
   {
@@ -1033,6 +1249,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.5552045023966672
+      }
+    ],
     core: false
   },
   {
@@ -1061,6 +1283,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.0378379158345363
+      }
+    ],
     core: false
   },
   {
@@ -1089,6 +1317,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.8761853158449298
+      }
+    ],
     core: false
   },
   {
@@ -1117,6 +1351,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0793312441010972
+      }
+    ],
     core: false
   },
   {
@@ -1145,6 +1385,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -1173,6 +1419,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0002613998
+      }
+    ],
     core: false
   },
   {
@@ -1201,6 +1453,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.037171884232771346
+      }
+    ],
     core: false
   },
   {
@@ -1229,6 +1487,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000660382608732
+      }
+    ],
     core: false
   },
   {
@@ -1257,6 +1521,12 @@ export const grantsData = [
     logCount: 36,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9681682495170072
+      }
+    ],
     core: false
   },
   {
@@ -1285,6 +1555,12 @@ export const grantsData = [
     logCount: 8,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01357
+      }
+    ],
     core: false
   },
   {
@@ -1313,6 +1589,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02
+      }
+    ],
     core: false
   },
   {
@@ -1341,6 +1623,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02038857528294096
+      }
+    ],
     core: false
   },
   {
@@ -1369,6 +1657,12 @@ export const grantsData = [
     logCount: 23,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.586224839357e-06
+      }
+    ],
     core: false
   },
   {
@@ -1397,6 +1691,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.345566075868705
+      }
+    ],
     core: false
   },
   {
@@ -1425,6 +1725,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0021143801
+      }
+    ],
     core: false
   },
   {
@@ -1453,6 +1759,12 @@ export const grantsData = [
     logCount: 20,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10.394690883582944
+      }
+    ],
     core: false
   },
   {
@@ -1481,6 +1793,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -1509,6 +1827,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1077283521511331
+      }
+    ],
     core: false
   },
   {
@@ -1537,6 +1861,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -1565,6 +1895,12 @@ export const grantsData = [
     logCount: 53,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.2605173278017725
+      }
+    ],
     core: false
   },
   {
@@ -1593,6 +1929,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.238620092815772
+      }
+    ],
     core: false
   },
   {
@@ -1621,6 +1963,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2220000000000056
+      }
+    ],
     core: false
   },
   {
@@ -1649,6 +1997,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 62.21034892759079
+      }
+    ],
     core: false
   },
   {
@@ -1677,6 +2031,12 @@ export const grantsData = [
     logCount: 48,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10.283940635962923
+      }
+    ],
     core: false
   },
   {
@@ -1705,6 +2065,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.13091096345596726
+      }
+    ],
     core: false
   },
   {
@@ -1733,6 +2099,12 @@ export const grantsData = [
     logCount: 527,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 12.914724243605226
+      }
+    ],
     core: false
   },
   {
@@ -1761,6 +2133,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 23.77056753
+      }
+    ],
     core: false
   },
   {
@@ -1789,6 +2167,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000953961609867
+      }
+    ],
     core: false
   },
   {
@@ -1817,6 +2201,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.33529899523721923
+      }
+    ],
     core: false
   },
   {
@@ -1845,6 +2235,12 @@ export const grantsData = [
     logCount: 55,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 64.11772050511942
+      }
+    ],
     core: false
   },
   {
@@ -1873,6 +2269,12 @@ export const grantsData = [
     logCount: 55,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 64.11772050511942
+      }
+    ],
     core: false
   },
   {
@@ -1901,6 +2303,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001290628031007
+      }
+    ],
     core: false
   },
   {
@@ -1929,6 +2337,12 @@ export const grantsData = [
     logCount: 682,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 58.015754094212824
+      }
+    ],
     core: false
   },
   {
@@ -1957,6 +2371,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -1985,6 +2405,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -2013,6 +2439,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6782981875143231
+      }
+    ],
     core: false
   },
   {
@@ -2041,6 +2473,12 @@ export const grantsData = [
     logCount: 11,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.573498001203625
+      }
+    ],
     core: false
   },
   {
@@ -2069,6 +2507,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.348725489330825
+      }
+    ],
     core: false
   },
   {
@@ -2097,6 +2541,12 @@ export const grantsData = [
     logCount: 43,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10546887564137152
+      }
+    ],
     core: false
   },
   {
@@ -2125,6 +2575,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 19.1751290787725
+      }
+    ],
     core: false
   },
   {
@@ -2153,6 +2609,12 @@ export const grantsData = [
     logCount: 84,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.548143347006029
+      }
+    ],
     core: false
   },
   {
@@ -2181,6 +2643,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00475
+      }
+    ],
     core: false
   },
   {
@@ -2209,6 +2677,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -2237,6 +2711,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -2265,6 +2745,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -2293,6 +2779,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03555280041949122
+      }
+    ],
     core: false
   },
   {
@@ -2321,6 +2813,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -2349,6 +2847,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07255359315746794
+      }
+    ],
     core: false
   },
   {
@@ -2377,6 +2881,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 210.07231123826
+      }
+    ],
     core: false
   },
   {
@@ -2405,6 +2915,12 @@ export const grantsData = [
     logCount: 345,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6898496672825313
+      }
+    ],
     core: false
   },
   {
@@ -2433,6 +2949,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.093236
+      }
+    ],
     core: false
   },
   {
@@ -2461,6 +2983,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003799165025227783
+      }
+    ],
     core: false
   },
   {
@@ -2489,6 +3017,12 @@ export const grantsData = [
     logCount: 37,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -2517,6 +3051,12 @@ export const grantsData = [
     logCount: 37,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -2545,6 +3085,12 @@ export const grantsData = [
     logCount: 37,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -2573,6 +3119,12 @@ export const grantsData = [
     logCount: 37,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -2601,6 +3153,12 @@ export const grantsData = [
     logCount: 206,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 37.33254410012082
+      }
+    ],
     core: false
   },
   {
@@ -2629,6 +3187,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.49004111600544187
+      }
+    ],
     core: false
   },
   {
@@ -2657,6 +3221,12 @@ export const grantsData = [
     logCount: 10,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.029740875169365622
+      }
+    ],
     core: false
   },
   {
@@ -2685,6 +3255,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007327946333206775
+      }
+    ],
     core: false
   },
   {
@@ -2713,6 +3289,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10.002394921840633
+      }
+    ],
     core: false
   },
   {
@@ -2741,6 +3323,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.052957209
+      }
+    ],
     core: false
   },
   {
@@ -2769,6 +3357,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.26712499844981374
+      }
+    ],
     core: false
   },
   {
@@ -2797,6 +3391,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003370317948998286
+      }
+    ],
     core: false
   },
   {
@@ -2825,6 +3425,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.495880606961204
+      }
+    ],
     core: false
   },
   {
@@ -2853,6 +3459,12 @@ export const grantsData = [
     logCount: 56,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.42320505440000006
+      }
+    ],
     core: false
   },
   {
@@ -2881,6 +3493,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08565432
+      }
+    ],
     core: false
   },
   {
@@ -2909,6 +3527,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.045256154418901434
+      }
+    ],
     core: false
   },
   {
@@ -2937,6 +3561,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007327946333206775
+      }
+    ],
     core: false
   },
   {
@@ -2965,6 +3595,12 @@ export const grantsData = [
     logCount: 252,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.519501616114606
+      }
+    ],
     core: false
   },
   {
@@ -2993,6 +3629,12 @@ export const grantsData = [
     logCount: 76,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 53.217469758122
+      }
+    ],
     core: false
   },
   {
@@ -3021,6 +3663,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001887852469645777
+      }
+    ],
     core: false
   },
   {
@@ -3049,6 +3697,12 @@ export const grantsData = [
     logCount: 222,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5819070097377181
+      }
+    ],
     core: false
   },
   {
@@ -3077,6 +3731,12 @@ export const grantsData = [
     logCount: 101,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.544707671027704
+      }
+    ],
     core: false
   },
   {
@@ -3105,6 +3765,12 @@ export const grantsData = [
     logCount: 101,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.544707671027704
+      }
+    ],
     core: false
   },
   {
@@ -3133,6 +3799,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -3161,6 +3833,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.005513822904095901
+      }
+    ],
     core: false
   },
   {
@@ -3189,6 +3867,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2008117165971186
+      }
+    ],
     core: false
   },
   {
@@ -3217,6 +3901,12 @@ export const grantsData = [
     logCount: 66,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.582769918313796
+      }
+    ],
     core: false
   },
   {
@@ -3245,6 +3935,12 @@ export const grantsData = [
     logCount: 17,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012722313583051093
+      }
+    ],
     core: false
   },
   {
@@ -3273,6 +3969,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.050430112567525394
+      }
+    ],
     core: false
   },
   {
@@ -3301,6 +4003,12 @@ export const grantsData = [
     logCount: 61,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1036019306009412
+      }
+    ],
     core: false
   },
   {
@@ -3329,6 +4037,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -3357,6 +4071,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04410972803009936
+      }
+    ],
     core: false
   },
   {
@@ -3385,6 +4105,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -3413,6 +4139,12 @@ export const grantsData = [
     logCount: 32,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.18719816699388
+      }
+    ],
     core: false
   },
   {
@@ -3441,6 +4173,12 @@ export const grantsData = [
     logCount: 49,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.0858160040625886
+      }
+    ],
     core: false
   },
   {
@@ -3469,6 +4207,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3902667251364644
+      }
+    ],
     core: false
   },
   {
@@ -3497,6 +4241,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.7941204339071959
+      }
+    ],
     core: false
   },
   {
@@ -3525,6 +4275,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.005896919643438
+      }
+    ],
     core: false
   },
   {
@@ -3553,6 +4309,12 @@ export const grantsData = [
     logCount: 8,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.756169414616902
+      }
+    ],
     core: false
   },
   {
@@ -3581,6 +4343,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09270183414333336
+      }
+    ],
     core: false
   },
   {
@@ -3609,6 +4377,12 @@ export const grantsData = [
     logCount: 59,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7665790304742308
+      }
+    ],
     core: false
   },
   {
@@ -3637,6 +4411,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.5108184896847074
+      }
+    ],
     core: false
   },
   {
@@ -3665,6 +4445,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.23079223479150068
+      }
+    ],
     core: false
   },
   {
@@ -3693,6 +4479,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001450982105470018
+      }
+    ],
     core: false
   },
   {
@@ -3721,6 +4513,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012687570292066052
+      }
+    ],
     core: false
   },
   {
@@ -3749,6 +4547,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.010651619690201739
+      }
+    ],
     core: false
   },
   {
@@ -3777,6 +4581,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9993476308390905
+      }
+    ],
     core: false
   },
   {
@@ -3805,6 +4615,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.045867495020320496
+      }
+    ],
     core: false
   },
   {
@@ -3833,6 +4649,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.4755696177929822
+      }
+    ],
     core: false
   },
   {
@@ -3861,6 +4683,12 @@ export const grantsData = [
     logCount: 19,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20584769660457794
+      }
+    ],
     core: false
   },
   {
@@ -3889,6 +4717,12 @@ export const grantsData = [
     logCount: 17,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17595189000371933
+      }
+    ],
     core: false
   },
   {
@@ -3917,6 +4751,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.8731795043013335
+      }
+    ],
     core: false
   },
   {
@@ -3945,6 +4785,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.4320055179671765
+      }
+    ],
     core: false
   },
   {
@@ -3973,6 +4819,12 @@ export const grantsData = [
     logCount: 19,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20584769660457794
+      }
+    ],
     core: false
   },
   {
@@ -4001,6 +4853,12 @@ export const grantsData = [
     logCount: 19,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20584769660457794
+      }
+    ],
     core: false
   },
   {
@@ -4029,6 +4887,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004270346829278107
+      }
+    ],
     core: false
   },
   {
@@ -4057,6 +4921,12 @@ export const grantsData = [
     logCount: 466,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 11.72023802920086
+      }
+    ],
     core: false
   },
   {
@@ -4085,6 +4955,12 @@ export const grantsData = [
     logCount: 54,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7896514902096244
+      }
+    ],
     core: false
   },
   {
@@ -4113,6 +4989,12 @@ export const grantsData = [
     logCount: 48,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03247086665421641
+      }
+    ],
     core: false
   },
   {
@@ -4141,6 +5023,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3094067711248189
+      }
+    ],
     core: false
   },
   {
@@ -4169,6 +5057,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -4197,6 +5091,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04028698476950454
+      }
+    ],
     core: false
   },
   {
@@ -4225,6 +5125,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.0641e-05
+      }
+    ],
     core: false
   },
   {
@@ -4253,6 +5159,12 @@ export const grantsData = [
     logCount: 29,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.595641560059282
+      }
+    ],
     core: false
   },
   {
@@ -4281,6 +5193,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -4309,6 +5227,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.0013776330368855
+      }
+    ],
     core: false
   },
   {
@@ -4337,6 +5261,12 @@ export const grantsData = [
     logCount: 241,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06483708816276122
+      }
+    ],
     core: false
   },
   {
@@ -4365,6 +5295,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2091502644304506
+      }
+    ],
     core: false
   },
   {
@@ -4393,6 +5329,12 @@ export const grantsData = [
     logCount: 10,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0095
+      }
+    ],
     core: false
   },
   {
@@ -4421,6 +5363,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10215008803905913
+      }
+    ],
     core: false
   },
   {
@@ -4449,6 +5397,12 @@ export const grantsData = [
     logCount: 77,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.074085
+      }
+    ],
     core: false
   },
   {
@@ -4477,6 +5431,12 @@ export const grantsData = [
     logCount: 342,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1844665081276981
+      }
+    ],
     core: false
   },
   {
@@ -4505,6 +5465,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -4533,6 +5499,12 @@ export const grantsData = [
     logCount: 134,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.26741437526877854
+      }
+    ],
     core: false
   },
   {
@@ -4561,6 +5533,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.28100656454290857
+      }
+    ],
     core: false
   },
   {
@@ -4589,6 +5567,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.005789157391577405
+      }
+    ],
     core: false
   },
   {
@@ -4617,6 +5601,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0097510672
+      }
+    ],
     core: false
   },
   {
@@ -4645,6 +5635,12 @@ export const grantsData = [
     logCount: 84,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.702642295809841
+      }
+    ],
     core: false
   },
   {
@@ -4673,6 +5669,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4900015306122948
+      }
+    ],
     core: false
   },
   {
@@ -4701,6 +5703,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000756
+      }
+    ],
     core: false
   },
   {
@@ -4729,6 +5737,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00438171
+      }
+    ],
     core: false
   },
   {
@@ -4757,6 +5771,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -4785,6 +5805,12 @@ export const grantsData = [
     logCount: 27,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8239581070324458
+      }
+    ],
     core: false
   },
   {
@@ -4813,6 +5839,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -4841,6 +5873,12 @@ export const grantsData = [
     logCount: 55,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0080310892183925
+      }
+    ],
     core: false
   },
   {
@@ -4869,6 +5907,12 @@ export const grantsData = [
     logCount: 27,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8239581070324458
+      }
+    ],
     core: false
   },
   {
@@ -4897,6 +5941,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -4925,6 +5975,12 @@ export const grantsData = [
     logCount: 61,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1805
+      }
+    ],
     core: false
   },
   {
@@ -4953,6 +6009,12 @@ export const grantsData = [
     logCount: 61,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1805
+      }
+    ],
     core: false
   },
   {
@@ -4981,6 +6043,12 @@ export const grantsData = [
     logCount: 11,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.024423908580812996
+      }
+    ],
     core: false
   },
   {
@@ -5009,6 +6077,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.34675940000000316
+      }
+    ],
     core: false
   },
   {
@@ -5037,6 +6111,12 @@ export const grantsData = [
     logCount: 120,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.8045305405816325
+      }
+    ],
     core: false
   },
   {
@@ -5065,6 +6145,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -5093,6 +6179,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2091502644304506
+      }
+    ],
     core: false
   },
   {
@@ -5121,6 +6213,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 11.404418620149377
+      }
+    ],
     core: false
   },
   {
@@ -5149,6 +6247,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003314761291430751
+      }
+    ],
     core: false
   },
   {
@@ -5177,6 +6281,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.032960718927928366
+      }
+    ],
     core: false
   },
   {
@@ -5205,6 +6315,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.020889378205803458
+      }
+    ],
     core: false
   },
   {
@@ -5233,6 +6349,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -5261,6 +6383,12 @@ export const grantsData = [
     logCount: 17,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17595189000371933
+      }
+    ],
     core: false
   },
   {
@@ -5289,6 +6417,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -5317,6 +6451,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6409677256434249
+      }
+    ],
     core: false
   },
   {
@@ -5345,6 +6485,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02202405574593015
+      }
+    ],
     core: false
   },
   {
@@ -5373,6 +6519,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.1345108317862262
+      }
+    ],
     core: false
   },
   {
@@ -5401,6 +6553,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -5429,6 +6587,12 @@ export const grantsData = [
     logCount: 20,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.6990366725858326
+      }
+    ],
     core: false
   },
   {
@@ -5457,6 +6621,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00165
+      }
+    ],
     core: false
   },
   {
@@ -5485,6 +6655,12 @@ export const grantsData = [
     logCount: 511,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05
+      }
+    ],
     core: false
   },
   {
@@ -5513,6 +6689,12 @@ export const grantsData = [
     logCount: 12,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8424398589651906
+      }
+    ],
     core: false
   },
   {
@@ -5541,6 +6723,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.0198775500791846
+      }
+    ],
     core: false
   },
   {
@@ -5569,6 +6757,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.21103166
+      }
+    ],
     core: false
   },
   {
@@ -5597,6 +6791,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.5588506038903773
+      }
+    ],
     core: false
   },
   {
@@ -5625,6 +6825,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.30433305139053674
+      }
+    ],
     core: false
   },
   {
@@ -5653,6 +6859,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.7612545447458907
+      }
+    ],
     core: false
   },
   {
@@ -5681,6 +6893,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001253830762373749
+      }
+    ],
     core: false
   },
   {
@@ -5709,6 +6927,12 @@ export const grantsData = [
     logCount: 90,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.3302764446126805
+      }
+    ],
     core: false
   },
   {
@@ -5737,6 +6961,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007420606
+      }
+    ],
     core: false
   },
   {
@@ -5765,6 +6995,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006343667512678652
+      }
+    ],
     core: false
   },
   {
@@ -5793,6 +7029,12 @@ export const grantsData = [
     logCount: 243,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20810353297644543
+      }
+    ],
     core: false
   },
   {
@@ -5821,6 +7063,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7838922432002167
+      }
+    ],
     core: false
   },
   {
@@ -5849,6 +7097,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -5877,6 +7131,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 22.551109972726493
+      }
+    ],
     core: false
   },
   {
@@ -5905,6 +7165,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6570001715691797
+      }
+    ],
     core: false
   },
   {
@@ -5933,6 +7199,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00109628
+      }
+    ],
     core: false
   },
   {
@@ -5961,6 +7233,12 @@ export const grantsData = [
     logCount: 83,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 28.279599801622496
+      }
+    ],
     core: false
   },
   {
@@ -5989,6 +7267,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0446135862539208
+      }
+    ],
     core: false
   },
   {
@@ -6017,6 +7301,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -6045,6 +7335,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.016050365160667265
+      }
+    ],
     core: false
   },
   {
@@ -6073,6 +7369,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06078110776202646
+      }
+    ],
     core: false
   },
   {
@@ -6101,6 +7403,12 @@ export const grantsData = [
     logCount: 212,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3677935207174843
+      }
+    ],
     core: false
   },
   {
@@ -6129,6 +7437,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.21399403700933647
+      }
+    ],
     core: false
   },
   {
@@ -6157,6 +7471,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.47684749594041453
+      }
+    ],
     core: false
   },
   {
@@ -6185,6 +7505,12 @@ export const grantsData = [
     logCount: 11,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2159422766246997
+      }
+    ],
     core: false
   },
   {
@@ -6213,6 +7539,12 @@ export const grantsData = [
     logCount: 26,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 9.51581016641706
+      }
+    ],
     core: false
   },
   {
@@ -6241,6 +7573,12 @@ export const grantsData = [
     logCount: 49,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.251873281
+      }
+    ],
     core: false
   },
   {
@@ -6269,6 +7607,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.090600936
+      }
+    ],
     core: false
   },
   {
@@ -6297,6 +7641,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.0213957131406877
+      }
+    ],
     core: false
   },
   {
@@ -6325,6 +7675,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07341614535366511
+      }
+    ],
     core: false
   },
   {
@@ -6353,6 +7709,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.3596717793818787
+      }
+    ],
     core: false
   },
   {
@@ -6381,6 +7743,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.048483086
+      }
+    ],
     core: false
   },
   {
@@ -6409,6 +7777,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 15.895772676590987
+      }
+    ],
     core: false
   },
   {
@@ -6437,6 +7811,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -6465,6 +7845,12 @@ export const grantsData = [
     logCount: 24,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.823765399234343
+      }
+    ],
     core: false
   },
   {
@@ -6493,6 +7879,12 @@ export const grantsData = [
     logCount: 357,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 25.03393469436794
+      }
+    ],
     core: false
   },
   {
@@ -6521,6 +7913,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07335167750479155
+      }
+    ],
     core: false
   },
   {
@@ -6549,6 +7947,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9073414531173785
+      }
+    ],
     core: false
   },
   {
@@ -6577,6 +7981,12 @@ export const grantsData = [
     logCount: 17,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5027589459058539
+      }
+    ],
     core: false
   },
   {
@@ -6605,6 +8015,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03151939443573738
+      }
+    ],
     core: false
   },
   {
@@ -6633,6 +8049,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.11158616336481482
+      }
+    ],
     core: false
   },
   {
@@ -6661,6 +8083,12 @@ export const grantsData = [
     logCount: 27,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.200506371
+      }
+    ],
     core: false
   },
   {
@@ -6689,6 +8117,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.093236
+      }
+    ],
     core: false
   },
   {
@@ -6717,6 +8151,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.093236
+      }
+    ],
     core: false
   },
   {
@@ -6745,6 +8185,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.093236
+      }
+    ],
     core: false
   },
   {
@@ -6773,6 +8219,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.093236
+      }
+    ],
     core: false
   },
   {
@@ -6801,6 +8253,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.093236
+      }
+    ],
     core: false
   },
   {
@@ -6829,6 +8287,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2885043901413493
+      }
+    ],
     core: false
   },
   {
@@ -6857,6 +8321,12 @@ export const grantsData = [
     logCount: 15,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10.717972798720119
+      }
+    ],
     core: false
   },
   {
@@ -6885,6 +8355,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.7892666662824848
+      }
+    ],
     core: false
   },
   {
@@ -6913,6 +8389,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -6941,6 +8423,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04197175353495566
+      }
+    ],
     core: false
   },
   {
@@ -6969,6 +8457,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0507063566202145
+      }
+    ],
     core: false
   },
   {
@@ -6997,6 +8491,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02391189170738696
+      }
+    ],
     core: false
   },
   {
@@ -7025,6 +8525,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02801824201234033
+      }
+    ],
     core: false
   },
   {
@@ -7053,6 +8559,12 @@ export const grantsData = [
     logCount: 21,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4687599440872592
+      }
+    ],
     core: false
   },
   {
@@ -7081,6 +8593,12 @@ export const grantsData = [
     logCount: 93,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6279779141802247
+      }
+    ],
     core: false
   },
   {
@@ -7109,6 +8627,12 @@ export const grantsData = [
     logCount: 35,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.086190014840301
+      }
+    ],
     core: false
   },
   {
@@ -7137,6 +8661,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.30433305139053674
+      }
+    ],
     core: false
   },
   {
@@ -7165,6 +8695,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.093236
+      }
+    ],
     core: false
   },
   {
@@ -7193,6 +8729,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1578042560973267
+      }
+    ],
     core: false
   },
   {
@@ -7221,6 +8763,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -7249,6 +8797,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0044585052
+      }
+    ],
     core: false
   },
   {
@@ -7277,6 +8831,12 @@ export const grantsData = [
     logCount: 11,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.1094109730786914
+      }
+    ],
     core: false
   },
   {
@@ -7305,6 +8865,12 @@ export const grantsData = [
     logCount: 132,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20388200114298916
+      }
+    ],
     core: false
   },
   {
@@ -7333,6 +8899,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.340990205
+      }
+    ],
     core: false
   },
   {
@@ -7361,6 +8933,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 46.73934326072517
+      }
+    ],
     core: false
   },
   {
@@ -7389,6 +8967,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09427163867891489
+      }
+    ],
     core: false
   },
   {
@@ -7417,6 +9001,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -7445,6 +9035,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04197175353495566
+      }
+    ],
     core: false
   },
   {
@@ -7473,6 +9069,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0095463698
+      }
+    ],
     core: false
   },
   {
@@ -7501,6 +9103,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4755169275998299
+      }
+    ],
     core: false
   },
   {
@@ -7529,6 +9137,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.353092169830432
+      }
+    ],
     core: false
   },
   {
@@ -7557,6 +9171,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.053408477402362944
+      }
+    ],
     core: false
   },
   {
@@ -7585,6 +9205,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -7613,6 +9239,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000312352111102242
+      }
+    ],
     core: false
   },
   {
@@ -7641,6 +9273,12 @@ export const grantsData = [
     logCount: 72,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09973957659705907
+      }
+    ],
     core: false
   },
   {
@@ -7669,6 +9307,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08172621496782942
+      }
+    ],
     core: false
   },
   {
@@ -7697,6 +9341,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.015235626976052085
+      }
+    ],
     core: false
   },
   {
@@ -7725,6 +9375,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -7753,6 +9409,12 @@ export const grantsData = [
     logCount: 37,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -7781,6 +9443,12 @@ export const grantsData = [
     logCount: 44,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1253773832179107
+      }
+    ],
     core: false
   },
   {
@@ -7809,6 +9477,12 @@ export const grantsData = [
     logCount: 29,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 84.87528183172043
+      }
+    ],
     core: false
   },
   {
@@ -7837,6 +9511,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -7865,6 +9545,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 7.837852571514968
+      }
+    ],
     core: false
   },
   {
@@ -7893,6 +9579,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.7338025949366664
+      }
+    ],
     core: false
   },
   {
@@ -7921,6 +9613,12 @@ export const grantsData = [
     logCount: 33,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8405041417256643
+      }
+    ],
     core: false
   },
   {
@@ -7949,6 +9647,12 @@ export const grantsData = [
     logCount: 246,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.743974340686851
+      }
+    ],
     core: false
   },
   {
@@ -7977,6 +9681,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -8005,6 +9715,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6954475650018366
+      }
+    ],
     core: false
   },
   {
@@ -8033,6 +9749,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.0332131994434388
+      }
+    ],
     core: false
   },
   {
@@ -8061,6 +9783,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -8089,6 +9817,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4039241345014403
+      }
+    ],
     core: false
   },
   {
@@ -8117,6 +9851,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08021409512505291
+      }
+    ],
     core: false
   },
   {
@@ -8145,6 +9885,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02214132522771531
+      }
+    ],
     core: false
   },
   {
@@ -8173,6 +9919,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17495458815475265
+      }
+    ],
     core: false
   },
   {
@@ -8201,6 +9953,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.3288595374661036
+      }
+    ],
     core: false
   },
   {
@@ -8229,6 +9987,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08444889562256912
+      }
+    ],
     core: false
   },
   {
@@ -8257,6 +10021,12 @@ export const grantsData = [
     logCount: 69,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7828643919567219
+      }
+    ],
     core: false
   },
   {
@@ -8285,6 +10055,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.166179428
+      }
+    ],
     core: false
   },
   {
@@ -8313,6 +10089,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04194291220408164
+      }
+    ],
     core: false
   },
   {
@@ -8341,6 +10123,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -8369,6 +10157,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001502737646885532
+      }
+    ],
     core: false
   },
   {
@@ -8397,6 +10191,12 @@ export const grantsData = [
     logCount: 1334,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 14.246418874306777
+      }
+    ],
     core: false
   },
   {
@@ -8425,6 +10225,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0299077294
+      }
+    ],
     core: false
   },
   {
@@ -8453,6 +10259,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009454
+      }
+    ],
     core: false
   },
   {
@@ -8481,6 +10293,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2845
+      }
+    ],
     core: false
   },
   {
@@ -8509,6 +10327,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0849021
+      }
+    ],
     core: false
   },
   {
@@ -8537,6 +10361,12 @@ export const grantsData = [
     logCount: 614,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2293058491121582
+      }
+    ],
     core: false
   },
   {
@@ -8565,6 +10395,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001637215
+      }
+    ],
     core: false
   },
   {
@@ -8593,6 +10429,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001760234
+      }
+    ],
     core: false
   },
   {
@@ -8621,6 +10463,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012
+      }
+    ],
     core: false
   },
   {
@@ -8649,6 +10497,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.515
+      }
+    ],
     core: false
   },
   {
@@ -8677,6 +10531,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -8705,6 +10565,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -8733,6 +10599,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -8761,6 +10633,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4903399002
+      }
+    ],
     core: false
   },
   {
@@ -8789,6 +10667,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3094067711248189
+      }
+    ],
     core: false
   },
   {
@@ -8817,6 +10701,12 @@ export const grantsData = [
     logCount: 37,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -8845,6 +10735,12 @@ export const grantsData = [
     logCount: 37,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -8873,6 +10769,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.880573451387213
+      }
+    ],
     core: false
   },
   {
@@ -8901,6 +10803,12 @@ export const grantsData = [
     logCount: 80,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.986847159968332
+      }
+    ],
     core: false
   },
   {
@@ -8929,6 +10837,12 @@ export const grantsData = [
     logCount: 22,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.44888570000000005
+      }
+    ],
     core: false
   },
   {
@@ -8957,6 +10871,12 @@ export const grantsData = [
     logCount: 168,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.523659620049028
+      }
+    ],
     core: false
   },
   {
@@ -8985,6 +10905,12 @@ export const grantsData = [
     logCount: 25,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0356
+      }
+    ],
     core: false
   },
   {
@@ -9013,6 +10939,12 @@ export const grantsData = [
     logCount: 72,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.27370501294063326
+      }
+    ],
     core: false
   },
   {
@@ -9041,6 +10973,12 @@ export const grantsData = [
     logCount: 322,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 15.39877613540396
+      }
+    ],
     core: false
   },
   {
@@ -9069,6 +11007,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 12285.38501951434
+      }
+    ],
     core: false
   },
   {
@@ -9097,6 +11041,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2641758815
+      }
+    ],
     core: false
   },
   {
@@ -9125,6 +11075,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 12285.38501951434
+      }
+    ],
     core: false
   },
   {
@@ -9153,6 +11109,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.523091605808
+      }
+    ],
     core: false
   },
   {
@@ -9181,6 +11143,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04364983230623067
+      }
+    ],
     core: false
   },
   {
@@ -9209,6 +11177,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.019670573
+      }
+    ],
     core: false
   },
   {
@@ -9237,6 +11211,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02779033310174082
+      }
+    ],
     core: false
   },
   {
@@ -9265,6 +11245,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05348242285197405
+      }
+    ],
     core: false
   },
   {
@@ -9293,6 +11279,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002471250554360492
+      }
+    ],
     core: false
   },
   {
@@ -9321,6 +11313,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.12516106545776537
+      }
+    ],
     core: false
   },
   {
@@ -9349,6 +11347,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03003437438899486
+      }
+    ],
     core: false
   },
   {
@@ -9377,6 +11381,12 @@ export const grantsData = [
     logCount: 89,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.40067742109773946
+      }
+    ],
     core: false
   },
   {
@@ -9405,6 +11415,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.0017287652854674
+      }
+    ],
     core: false
   },
   {
@@ -9433,6 +11449,12 @@ export const grantsData = [
     logCount: 31,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.12892624421685198
+      }
+    ],
     core: false
   },
   {
@@ -9461,6 +11483,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.8e-17
+      }
+    ],
     core: false
   },
   {
@@ -9489,6 +11517,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00779408
+      }
+    ],
     core: false
   },
   {
@@ -9517,6 +11551,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.023335307786433807
+      }
+    ],
     core: false
   },
   {
@@ -9545,6 +11585,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.27482598912915723
+      }
+    ],
     core: false
   },
   {
@@ -9573,6 +11619,12 @@ export const grantsData = [
     logCount: 17,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17595189000371933
+      }
+    ],
     core: false
   },
   {
@@ -9601,6 +11653,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.2656586174538176
+      }
+    ],
     core: false
   },
   {
@@ -9629,6 +11687,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.1914530653736146
+      }
+    ],
     core: false
   },
   {
@@ -9657,6 +11721,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001838564059324732
+      }
+    ],
     core: false
   },
   {
@@ -9685,6 +11755,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.5784571291846716
+      }
+    ],
     core: false
   },
   {
@@ -9713,6 +11789,12 @@ export const grantsData = [
     logCount: 22,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02166879482330432
+      }
+    ],
     core: false
   },
   {
@@ -9741,6 +11823,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5524316549168409
+      }
+    ],
     core: false
   },
   {
@@ -9769,6 +11857,12 @@ export const grantsData = [
     logCount: 80,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.753505678682923
+      }
+    ],
     core: false
   },
   {
@@ -9797,6 +11891,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.4022875651238695
+      }
+    ],
     core: false
   },
   {
@@ -9825,6 +11925,12 @@ export const grantsData = [
     logCount: 125,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.320642366362255
+      }
+    ],
     core: false
   },
   {
@@ -9853,6 +11959,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00134942066616
+      }
+    ],
     core: false
   },
   {
@@ -9881,6 +11993,12 @@ export const grantsData = [
     logCount: 559,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 70.62698550995947
+      }
+    ],
     core: false
   },
   {
@@ -9909,6 +12027,12 @@ export const grantsData = [
     logCount: 28,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5718593862934842
+      }
+    ],
     core: false
   },
   {
@@ -9937,6 +12061,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1107551700202234
+      }
+    ],
     core: false
   },
   {
@@ -9965,6 +12095,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1107551700202234
+      }
+    ],
     core: false
   },
   {
@@ -9993,6 +12129,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000170881131225
+      }
+    ],
     core: false
   },
   {
@@ -10021,6 +12163,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006
+      }
+    ],
     core: false
   },
   {
@@ -10049,6 +12197,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2367033214127916
+      }
+    ],
     core: false
   },
   {
@@ -10077,6 +12231,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 129.16821614738893
+      }
+    ],
     core: false
   },
   {
@@ -10105,6 +12265,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.47684749594041453
+      }
+    ],
     core: false
   },
   {
@@ -10133,6 +12299,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000674609549166
+      }
+    ],
     core: false
   },
   {
@@ -10161,6 +12333,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17088722509734855
+      }
+    ],
     core: false
   },
   {
@@ -10189,6 +12367,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.22456905359118037
+      }
+    ],
     core: false
   },
   {
@@ -10217,6 +12401,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.34675940000000316
+      }
+    ],
     core: false
   },
   {
@@ -10245,6 +12435,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.16440966611094393
+      }
+    ],
     core: false
   },
   {
@@ -10273,6 +12469,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -10301,6 +12503,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.9181655992935824
+      }
+    ],
     core: false
   },
   {
@@ -10329,6 +12537,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0088129838
+      }
+    ],
     core: false
   },
   {
@@ -10357,6 +12571,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.084904418
+      }
+    ],
     core: false
   },
   {
@@ -10385,6 +12605,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4996197873752313
+      }
+    ],
     core: false
   },
   {
@@ -10413,6 +12639,12 @@ export const grantsData = [
     logCount: 32,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.8742856847666896
+      }
+    ],
     core: false
   },
   {
@@ -10441,6 +12673,12 @@ export const grantsData = [
     logCount: 73,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01760152063693753
+      }
+    ],
     core: false
   },
   {
@@ -10469,6 +12707,12 @@ export const grantsData = [
     logCount: 27,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3364475589151961
+      }
+    ],
     core: false
   },
   {
@@ -10497,6 +12741,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0025
+      }
+    ],
     core: false
   },
   {
@@ -10525,6 +12775,12 @@ export const grantsData = [
     logCount: 84,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2515210676113808
+      }
+    ],
     core: false
   },
   {
@@ -10553,6 +12809,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1321785385583595
+      }
+    ],
     core: false
   },
   {
@@ -10581,6 +12843,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -10609,6 +12877,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3624140313830539
+      }
+    ],
     core: false
   },
   {
@@ -10637,6 +12911,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -10665,6 +12945,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -10693,6 +12979,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0011878187
+      }
+    ],
     core: false
   },
   {
@@ -10721,6 +13013,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.22091175437390073
+      }
+    ],
     core: false
   },
   {
@@ -10749,6 +13047,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -10777,6 +13081,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1107551700202234
+      }
+    ],
     core: false
   },
   {
@@ -10805,6 +13115,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.024654925
+      }
+    ],
     core: false
   },
   {
@@ -10833,6 +13149,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.023335307786433807
+      }
+    ],
     core: false
   },
   {
@@ -10861,6 +13183,12 @@ export const grantsData = [
     logCount: 81,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.029256506480239267
+      }
+    ],
     core: false
   },
   {
@@ -10889,6 +13217,12 @@ export const grantsData = [
     logCount: 21,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07538692962539728
+      }
+    ],
     core: false
   },
   {
@@ -10917,6 +13251,12 @@ export const grantsData = [
     logCount: 55,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.713727010047276
+      }
+    ],
     core: false
   },
   {
@@ -10945,6 +13285,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2367033214127916
+      }
+    ],
     core: false
   },
   {
@@ -10973,6 +13319,12 @@ export const grantsData = [
     logCount: 24,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000934968950916
+      }
+    ],
     core: false
   },
   {
@@ -11001,6 +13353,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.3366e-14
+      }
+    ],
     core: false
   },
   {
@@ -11029,6 +13387,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0858483745
+      }
+    ],
     core: false
   },
   {
@@ -11057,6 +13421,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.291191185
+      }
+    ],
     core: false
   },
   {
@@ -11085,6 +13455,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0088129838
+      }
+    ],
     core: false
   },
   {
@@ -11113,6 +13489,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2036648220220238
+      }
+    ],
     core: false
   },
   {
@@ -11141,6 +13523,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9467131615154747
+      }
+    ],
     core: false
   },
   {
@@ -11169,6 +13557,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9467131615154747
+      }
+    ],
     core: false
   },
   {
@@ -11197,6 +13591,12 @@ export const grantsData = [
     logCount: 241,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06483708816276122
+      }
+    ],
     core: false
   },
   {
@@ -11225,6 +13625,12 @@ export const grantsData = [
     logCount: 241,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06483708816276122
+      }
+    ],
     core: false
   },
   {
@@ -11253,6 +13659,12 @@ export const grantsData = [
     logCount: 54,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06296902423619516
+      }
+    ],
     core: false
   },
   {
@@ -11281,6 +13693,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8471978848953605
+      }
+    ],
     core: false
   },
   {
@@ -11309,6 +13727,12 @@ export const grantsData = [
     logCount: 49,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1878523067100079
+      }
+    ],
     core: false
   },
   {
@@ -11337,6 +13761,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00095
+      }
+    ],
     core: false
   },
   {
@@ -11365,6 +13795,12 @@ export const grantsData = [
     logCount: 18,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.7032587399451424
+      }
+    ],
     core: false
   },
   {
@@ -11393,6 +13829,12 @@ export const grantsData = [
     logCount: 11,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.14061231079393327
+      }
+    ],
     core: false
   },
   {
@@ -11421,6 +13863,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0063635633
+      }
+    ],
     core: false
   },
   {
@@ -11449,6 +13897,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0063635633
+      }
+    ],
     core: false
   },
   {
@@ -11477,6 +13931,12 @@ export const grantsData = [
     logCount: 27,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01975206280091178
+      }
+    ],
     core: false
   },
   {
@@ -11505,6 +13965,12 @@ export const grantsData = [
     logCount: 44,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1253773832179107
+      }
+    ],
     core: false
   },
   {
@@ -11533,6 +13999,12 @@ export const grantsData = [
     logCount: 19,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -11561,6 +14033,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07502283237726683
+      }
+    ],
     core: false
   },
   {
@@ -11589,6 +14067,12 @@ export const grantsData = [
     logCount: 14,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009094275
+      }
+    ],
     core: false
   },
   {
@@ -11617,6 +14101,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0004426992
+      }
+    ],
     core: false
   },
   {
@@ -11645,6 +14135,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.111195051971e-06
+      }
+    ],
     core: false
   },
   {
@@ -11673,6 +14169,12 @@ export const grantsData = [
     logCount: 20,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10.394690883582944
+      }
+    ],
     core: false
   },
   {
@@ -11701,6 +14203,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.11165
+      }
+    ],
     core: false
   },
   {
@@ -11729,6 +14237,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00765849499999998
+      }
+    ],
     core: false
   },
   {
@@ -11757,6 +14271,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.052675175
+      }
+    ],
     core: false
   },
   {
@@ -11785,6 +14305,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002503127849646
+      }
+    ],
     core: false
   },
   {
@@ -11813,6 +14339,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0011
+      }
+    ],
     core: false
   },
   {
@@ -11841,6 +14373,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -11869,6 +14407,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -11897,6 +14441,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006
+      }
+    ],
     core: false
   },
   {
@@ -11925,6 +14475,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07502283237726683
+      }
+    ],
     core: false
   },
   {
@@ -11953,6 +14509,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3938977178576477
+      }
+    ],
     core: false
   },
   {
@@ -11981,6 +14543,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001025241087444
+      }
+    ],
     core: false
   },
   {
@@ -12009,6 +14577,12 @@ export const grantsData = [
     logCount: 11,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9309493191928501
+      }
+    ],
     core: false
   },
   {
@@ -12037,6 +14611,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.024089365857680338
+      }
+    ],
     core: false
   },
   {
@@ -12065,6 +14645,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -12093,6 +14679,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.33947957050650934
+      }
+    ],
     core: false
   },
   {
@@ -12121,6 +14713,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00185872
+      }
+    ],
     core: false
   },
   {
@@ -12149,6 +14747,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000305357356458
+      }
+    ],
     core: false
   },
   {
@@ -12177,6 +14781,12 @@ export const grantsData = [
     logCount: 17,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.69309598716916
+      }
+    ],
     core: false
   },
   {
@@ -12205,6 +14815,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -12233,6 +14849,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 6.3995204284570715
+      }
+    ],
     core: false
   },
   {
@@ -12261,6 +14883,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09654144978412203
+      }
+    ],
     core: false
   },
   {
@@ -12289,6 +14917,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.13187475673159874
+      }
+    ],
     core: false
   },
   {
@@ -12317,6 +14951,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10.105567602546625
+      }
+    ],
     core: false
   },
   {
@@ -12345,6 +14985,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -12373,6 +15019,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00273094861444153
+      }
+    ],
     core: false
   },
   {
@@ -12401,6 +15053,12 @@ export const grantsData = [
     logCount: 443,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01033392247077834
+      }
+    ],
     core: false
   },
   {
@@ -12429,6 +15087,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 6.3995204284570715
+      }
+    ],
     core: false
   },
   {
@@ -12457,6 +15121,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 968.8213624881001
+      }
+    ],
     core: false
   },
   {
@@ -12485,6 +15155,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2513346482506151
+      }
+    ],
     core: false
   },
   {
@@ -12513,6 +15189,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9467131615154747
+      }
+    ],
     core: false
   },
   {
@@ -12541,6 +15223,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -12569,6 +15257,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0110736629
+      }
+    ],
     core: false
   },
   {
@@ -12597,6 +15291,12 @@ export const grantsData = [
     logCount: 14,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3480290333204679
+      }
+    ],
     core: false
   },
   {
@@ -12625,6 +15325,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -12653,6 +15359,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000223495445565
+      }
+    ],
     core: false
   },
   {
@@ -12681,6 +15393,12 @@ export const grantsData = [
     logCount: 15,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.8239423304097724
+      }
+    ],
     core: false
   },
   {
@@ -12709,6 +15427,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.021175669655870446
+      }
+    ],
     core: false
   },
   {
@@ -12737,6 +15461,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.41604821632176486
+      }
+    ],
     core: false
   },
   {
@@ -12765,6 +15495,12 @@ export const grantsData = [
     logCount: 241,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06483708816276122
+      }
+    ],
     core: false
   },
   {
@@ -12793,6 +15529,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -12821,6 +15563,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.515436790167264
+      }
+    ],
     core: false
   },
   {
@@ -12849,6 +15597,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.30754171984333806
+      }
+    ],
     core: false
   },
   {
@@ -12877,6 +15631,12 @@ export const grantsData = [
     logCount: 40,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05520357065129266
+      }
+    ],
     core: false
   },
   {
@@ -12905,6 +15665,12 @@ export const grantsData = [
     logCount: 10,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001715822318007
+      }
+    ],
     core: false
   },
   {
@@ -12933,6 +15699,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0006
+      }
+    ],
     core: false
   },
   {
@@ -12961,6 +15733,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.013169313
+      }
+    ],
     core: false
   },
   {
@@ -12989,6 +15767,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1317062463149362
+      }
+    ],
     core: false
   },
   {
@@ -13017,6 +15801,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -13045,6 +15835,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0118006874
+      }
+    ],
     core: false
   },
   {
@@ -13073,6 +15869,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.3749808305592282
+      }
+    ],
     core: false
   },
   {
@@ -13101,6 +15903,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 18.68951369900735
+      }
+    ],
     core: false
   },
   {
@@ -13129,6 +15937,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00285
+      }
+    ],
     core: false
   },
   {
@@ -13157,6 +15971,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.008733979689065434
+      }
+    ],
     core: false
   },
   {
@@ -13185,6 +16005,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.008421982
+      }
+    ],
     core: false
   },
   {
@@ -13213,6 +16039,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01
+      }
+    ],
     core: false
   },
   {
@@ -13241,6 +16073,12 @@ export const grantsData = [
     logCount: 42,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000475
+      }
+    ],
     core: false
   },
   {
@@ -13269,6 +16107,12 @@ export const grantsData = [
     logCount: 42,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000475
+      }
+    ],
     core: false
   },
   {
@@ -13297,6 +16141,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -13325,6 +16175,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.056428134396945405
+      }
+    ],
     core: false
   },
   {
@@ -13353,6 +16209,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0005278085
+      }
+    ],
     core: false
   },
   {
@@ -13381,6 +16243,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.025454175450980047
+      }
+    ],
     core: false
   },
   {
@@ -13409,6 +16277,12 @@ export const grantsData = [
     logCount: 50,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.9416988215871585
+      }
+    ],
     core: false
   },
   {
@@ -13437,6 +16311,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000515543640769191
+      }
+    ],
     core: false
   },
   {
@@ -13465,6 +16345,12 @@ export const grantsData = [
     logCount: 42,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000475
+      }
+    ],
     core: false
   },
   {
@@ -13493,6 +16379,12 @@ export const grantsData = [
     logCount: 82,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.9306374531979276
+      }
+    ],
     core: false
   },
   {
@@ -13521,6 +16413,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.018058109790244043
+      }
+    ],
     core: false
   },
   {
@@ -13549,6 +16447,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0014957176328
+      }
+    ],
     core: false
   },
   {
@@ -13577,6 +16481,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -13605,6 +16515,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -13633,6 +16549,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -13661,6 +16583,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6954475650018366
+      }
+    ],
     core: false
   },
   {
@@ -13689,6 +16617,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0366296535
+      }
+    ],
     core: false
   },
   {
@@ -13717,6 +16651,12 @@ export const grantsData = [
     logCount: 21,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004325
+      }
+    ],
     core: false
   },
   {
@@ -13745,6 +16685,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.013251907570742117
+      }
+    ],
     core: false
   },
   {
@@ -13773,6 +16719,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1
+      }
+    ],
     core: false
   },
   {
@@ -13801,6 +16753,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -13829,6 +16787,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -13857,6 +16821,12 @@ export const grantsData = [
     logCount: 243,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20810353297644543
+      }
+    ],
     core: false
   },
   {
@@ -13885,6 +16855,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 25.076038142136916
+      }
+    ],
     core: false
   },
   {
@@ -13913,6 +16889,12 @@ export const grantsData = [
     logCount: 56,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.12681525062465682
+      }
+    ],
     core: false
   },
   {
@@ -13941,6 +16923,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1036809469347995
+      }
+    ],
     core: false
   },
   {
@@ -13969,6 +16957,12 @@ export const grantsData = [
     logCount: 34,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10.901490524750008
+      }
+    ],
     core: false
   },
   {
@@ -13997,6 +16991,12 @@ export const grantsData = [
     logCount: 52,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.034208228
+      }
+    ],
     core: false
   },
   {
@@ -14025,6 +17025,12 @@ export const grantsData = [
     logCount: 121,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.0021707296411644
+      }
+    ],
     core: false
   },
   {
@@ -14053,6 +17059,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10265833341740703
+      }
+    ],
     core: false
   },
   {
@@ -14081,6 +17093,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.38352194584432997
+      }
+    ],
     core: false
   },
   {
@@ -14109,6 +17127,12 @@ export const grantsData = [
     logCount: 44,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 19.83977037987458
+      }
+    ],
     core: false
   },
   {
@@ -14137,6 +17161,12 @@ export const grantsData = [
     logCount: 35,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006
+      }
+    ],
     core: false
   },
   {
@@ -14165,6 +17195,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10550152441033125
+      }
+    ],
     core: false
   },
   {
@@ -14193,6 +17229,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.2104759510885157
+      }
+    ],
     core: false
   },
   {
@@ -14221,6 +17263,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.2104759510885157
+      }
+    ],
     core: false
   },
   {
@@ -14249,6 +17297,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.010998012944633834
+      }
+    ],
     core: false
   },
   {
@@ -14277,6 +17331,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004999999999999934
+      }
+    ],
     core: false
   },
   {
@@ -14305,6 +17365,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.11401477838429577
+      }
+    ],
     core: false
   },
   {
@@ -14333,6 +17399,12 @@ export const grantsData = [
     logCount: 103,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7689026525367144
+      }
+    ],
     core: false
   },
   {
@@ -14361,6 +17433,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -14389,6 +17467,12 @@ export const grantsData = [
     logCount: 32,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.011246253619793247
+      }
+    ],
     core: false
   },
   {
@@ -14417,6 +17501,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 7.545531147330622
+      }
+    ],
     core: false
   },
   {
@@ -14445,6 +17535,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.034642404
+      }
+    ],
     core: false
   },
   {
@@ -14473,6 +17569,12 @@ export const grantsData = [
     logCount: 35,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006
+      }
+    ],
     core: false
   },
   {
@@ -14501,6 +17603,12 @@ export const grantsData = [
     logCount: 40,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05520357065129266
+      }
+    ],
     core: false
   },
   {
@@ -14529,6 +17637,12 @@ export const grantsData = [
     logCount: 87,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7195084971605361
+      }
+    ],
     core: false
   },
   {
@@ -14557,6 +17671,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -14585,6 +17705,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.0238167980296144
+      }
+    ],
     core: false
   },
   {
@@ -14613,6 +17739,12 @@ export const grantsData = [
     logCount: 187,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4130569930106952
+      }
+    ],
     core: false
   },
   {
@@ -14641,6 +17773,12 @@ export const grantsData = [
     logCount: 192,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.395038153775926
+      }
+    ],
     core: false
   },
   {
@@ -14669,6 +17807,12 @@ export const grantsData = [
     logCount: 35,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006
+      }
+    ],
     core: false
   },
   {
@@ -14697,6 +17841,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.39978161987311994
+      }
+    ],
     core: false
   },
   {
@@ -14725,6 +17875,12 @@ export const grantsData = [
     logCount: 67,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -14753,6 +17909,12 @@ export const grantsData = [
     logCount: 95,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.783449154790642
+      }
+    ],
     core: false
   },
   {
@@ -14781,6 +17943,12 @@ export const grantsData = [
     logCount: 94,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7475575521268307
+      }
+    ],
     core: false
   },
   {
@@ -14809,6 +17977,12 @@ export const grantsData = [
     logCount: 31,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 19.48750202685128
+      }
+    ],
     core: false
   },
   {
@@ -14837,6 +18011,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 7.545531147330622
+      }
+    ],
     core: false
   },
   {
@@ -14865,6 +18045,12 @@ export const grantsData = [
     logCount: 298,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9995017946498619
+      }
+    ],
     core: false
   },
   {
@@ -14893,6 +18079,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -14921,6 +18113,12 @@ export const grantsData = [
     logCount: 34,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000186152679574391
+      }
+    ],
     core: false
   },
   {
@@ -14949,6 +18147,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000589512629001027
+      }
+    ],
     core: false
   },
   {
@@ -14977,6 +18181,12 @@ export const grantsData = [
     logCount: 122,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001130486770004924
+      }
+    ],
     core: false
   },
   {
@@ -15005,6 +18215,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05
+      }
+    ],
     core: false
   },
   {
@@ -15033,6 +18249,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05
+      }
+    ],
     core: false
   },
   {
@@ -15061,6 +18283,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00275689
+      }
+    ],
     core: false
   },
   {
@@ -15089,6 +18317,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2513346482506151
+      }
+    ],
     core: false
   },
   {
@@ -15117,6 +18351,12 @@ export const grantsData = [
     logCount: 14,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.11341973182603303
+      }
+    ],
     core: false
   },
   {
@@ -15145,6 +18385,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -15173,6 +18419,12 @@ export const grantsData = [
     logCount: 49,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2080428319233205
+      }
+    ],
     core: false
   },
   {
@@ -15201,6 +18453,12 @@ export const grantsData = [
     logCount: 52,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001758194
+      }
+    ],
     core: false
   },
   {
@@ -15229,6 +18487,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.011046487
+      }
+    ],
     core: false
   },
   {
@@ -15257,6 +18521,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.020889378205803458
+      }
+    ],
     core: false
   },
   {
@@ -15285,6 +18555,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.020889378205803458
+      }
+    ],
     core: false
   },
   {
@@ -15313,6 +18589,12 @@ export const grantsData = [
     logCount: 31,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 19.48750202685128
+      }
+    ],
     core: false
   },
   {
@@ -15341,6 +18623,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.36217760261620896
+      }
+    ],
     core: false
   },
   {
@@ -15369,6 +18657,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -15397,6 +18691,12 @@ export const grantsData = [
     logCount: 77,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.253011460360263
+      }
+    ],
     core: false
   },
   {
@@ -15425,6 +18725,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04118792968105387
+      }
+    ],
     core: false
   },
   {
@@ -15453,6 +18759,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.4075897444462941
+      }
+    ],
     core: false
   },
   {
@@ -15481,6 +18793,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 20.48098882068244
+      }
+    ],
     core: false
   },
   {
@@ -15509,6 +18827,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.170046178657859
+      }
+    ],
     core: false
   },
   {
@@ -15537,6 +18861,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.045043321665476324
+      }
+    ],
     core: false
   },
   {
@@ -15565,6 +18895,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.045043321665476324
+      }
+    ],
     core: false
   },
   {
@@ -15593,6 +18929,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02421417593070345
+      }
+    ],
     core: false
   },
   {
@@ -15621,6 +18963,12 @@ export const grantsData = [
     logCount: 43,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.046365309407958806
+      }
+    ],
     core: false
   },
   {
@@ -15649,6 +18997,12 @@ export const grantsData = [
     logCount: 12,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0910168620643272
+      }
+    ],
     core: false
   },
   {
@@ -15677,6 +19031,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10479099999999526
+      }
+    ],
     core: false
   },
   {
@@ -15705,6 +19065,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.014874458761315816
+      }
+    ],
     core: false
   },
   {
@@ -15733,6 +19099,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.2876153293344887
+      }
+    ],
     core: false
   },
   {
@@ -15761,6 +19133,12 @@ export const grantsData = [
     logCount: 80,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.986847159968332
+      }
+    ],
     core: false
   },
   {
@@ -15789,6 +19167,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09189018792412043
+      }
+    ],
     core: false
   },
   {
@@ -15817,6 +19201,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -15845,6 +19235,12 @@ export const grantsData = [
     logCount: 343,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.919056222527808
+      }
+    ],
     core: false
   },
   {
@@ -15873,6 +19269,12 @@ export const grantsData = [
     logCount: 22,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02166879482330432
+      }
+    ],
     core: false
   },
   {
@@ -15901,6 +19303,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.230150495173723
+      }
+    ],
     core: false
   },
   {
@@ -15929,6 +19337,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.2876153293344887
+      }
+    ],
     core: false
   },
   {
@@ -15957,6 +19371,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02267688538448859
+      }
+    ],
     core: false
   },
   {
@@ -15985,6 +19405,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10479099999999526
+      }
+    ],
     core: false
   },
   {
@@ -16013,6 +19439,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -16041,6 +19473,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.7801820674158e-05
+      }
+    ],
     core: false
   },
   {
@@ -16069,6 +19507,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -16097,6 +19541,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007214001067570353
+      }
+    ],
     core: false
   },
   {
@@ -16125,6 +19575,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.24786973524660694
+      }
+    ],
     core: false
   },
   {
@@ -16153,6 +19609,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.046694541822897194
+      }
+    ],
     core: false
   },
   {
@@ -16181,6 +19643,12 @@ export const grantsData = [
     logCount: 8,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.139091529143826
+      }
+    ],
     core: false
   },
   {
@@ -16209,6 +19677,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0236265
+      }
+    ],
     core: false
   },
   {
@@ -16237,6 +19711,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1218284702
+      }
+    ],
     core: false
   },
   {
@@ -16265,6 +19745,12 @@ export const grantsData = [
     logCount: 52,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.19952418704158736
+      }
+    ],
     core: false
   },
   {
@@ -16293,6 +19779,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.22124359093906995
+      }
+    ],
     core: false
   },
   {
@@ -16321,6 +19813,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004338703444637248
+      }
+    ],
     core: false
   },
   {
@@ -16349,6 +19847,12 @@ export const grantsData = [
     logCount: 241,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06483708816276122
+      }
+    ],
     core: false
   },
   {
@@ -16377,6 +19881,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.048517474085672904
+      }
+    ],
     core: false
   },
   {
@@ -16405,6 +19915,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03555280041949122
+      }
+    ],
     core: false
   },
   {
@@ -16433,6 +19949,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -16461,6 +19983,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -16489,6 +20017,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1126637746328836
+      }
+    ],
     core: false
   },
   {
@@ -16517,6 +20051,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.6226556077959233
+      }
+    ],
     core: false
   },
   {
@@ -16545,6 +20085,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -16573,6 +20119,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0574495809723313
+      }
+    ],
     core: false
   },
   {
@@ -16601,6 +20153,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08424336513236018
+      }
+    ],
     core: false
   },
   {
@@ -16629,6 +20187,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.050430112567525394
+      }
+    ],
     core: false
   },
   {
@@ -16657,6 +20221,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.9181655992935824
+      }
+    ],
     core: false
   },
   {
@@ -16685,6 +20255,12 @@ export const grantsData = [
     logCount: 33,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 6.955164067188039
+      }
+    ],
     core: false
   },
   {
@@ -16713,6 +20289,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03089559108529508
+      }
+    ],
     core: false
   },
   {
@@ -16741,6 +20323,12 @@ export const grantsData = [
     logCount: 10,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02371783495251372
+      }
+    ],
     core: false
   },
   {
@@ -16769,6 +20357,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -16797,6 +20391,12 @@ export const grantsData = [
     logCount: 10,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1169089455
+      }
+    ],
     core: false
   },
   {
@@ -16825,6 +20425,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08174044422812439
+      }
+    ],
     core: false
   },
   {
@@ -16853,6 +20459,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001191553364492616
+      }
+    ],
     core: false
   },
   {
@@ -16881,6 +20493,12 @@ export const grantsData = [
     logCount: 49,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1878523067100079
+      }
+    ],
     core: false
   },
   {
@@ -16909,6 +20527,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03447581974269586
+      }
+    ],
     core: false
   },
   {
@@ -16937,6 +20561,12 @@ export const grantsData = [
     logCount: 12,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08535293384246372
+      }
+    ],
     core: false
   },
   {
@@ -16965,6 +20595,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00718808
+      }
+    ],
     core: false
   },
   {
@@ -16993,6 +20629,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006072162976382324
+      }
+    ],
     core: false
   },
   {
@@ -17021,6 +20663,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000475530677853
+      }
+    ],
     core: false
   },
   {
@@ -17049,6 +20697,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -17077,6 +20731,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000587957882297563
+      }
+    ],
     core: false
   },
   {
@@ -17105,6 +20765,12 @@ export const grantsData = [
     logCount: 8,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.249758135824271
+      }
+    ],
     core: false
   },
   {
@@ -17133,6 +20799,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.0129069560656077
+      }
+    ],
     core: false
   },
   {
@@ -17161,6 +20833,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -17189,6 +20867,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009216201702261164
+      }
+    ],
     core: false
   },
   {
@@ -17217,6 +20901,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009216201702261164
+      }
+    ],
     core: false
   },
   {
@@ -17245,6 +20935,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -17273,6 +20969,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -17301,6 +21003,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.838608101992019
+      }
+    ],
     core: false
   },
   {
@@ -17329,6 +21037,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -17357,6 +21071,12 @@ export const grantsData = [
     logCount: 8,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04154885157109964
+      }
+    ],
     core: false
   },
   {
@@ -17385,6 +21105,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -17413,6 +21139,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012217863109936061
+      }
+    ],
     core: false
   },
   {
@@ -17441,6 +21173,12 @@ export const grantsData = [
     logCount: 95,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 13.576774712836942
+      }
+    ],
     core: false
   },
   {
@@ -17469,6 +21207,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08239388123101499
+      }
+    ],
     core: false
   },
   {
@@ -17497,6 +21241,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5109935620490551
+      }
+    ],
     core: false
   },
   {
@@ -17525,6 +21275,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -17553,6 +21309,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000283144
+      }
+    ],
     core: false
   },
   {
@@ -17581,6 +21343,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09581879796274115
+      }
+    ],
     core: false
   },
   {
@@ -17609,6 +21377,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09581879796274115
+      }
+    ],
     core: false
   },
   {
@@ -17637,6 +21411,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6954475650018366
+      }
+    ],
     core: false
   },
   {
@@ -17665,6 +21445,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4461125458324632
+      }
+    ],
     core: false
   },
   {
@@ -17693,6 +21479,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.25062512242465557
+      }
+    ],
     core: false
   },
   {
@@ -17721,6 +21513,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000847011136360347
+      }
+    ],
     core: false
   },
   {
@@ -17749,6 +21547,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -17777,6 +21581,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03555280041949122
+      }
+    ],
     core: false
   },
   {
@@ -17805,6 +21615,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00116
+      }
+    ],
     core: false
   },
   {
@@ -17833,6 +21649,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.28218756843402454
+      }
+    ],
     core: false
   },
   {
@@ -17861,6 +21683,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.80899273889896
+      }
+    ],
     core: false
   },
   {
@@ -17889,6 +21717,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4830946549603956
+      }
+    ],
     core: false
   },
   {
@@ -17917,6 +21751,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -17945,6 +21785,12 @@ export const grantsData = [
     logCount: 16,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 13.647327904658665
+      }
+    ],
     core: false
   },
   {
@@ -17973,6 +21819,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9147208255662223
+      }
+    ],
     core: false
   },
   {
@@ -18001,6 +21853,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9147208255662223
+      }
+    ],
     core: false
   },
   {
@@ -18029,6 +21887,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18057,6 +21921,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18085,6 +21955,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18113,6 +21989,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18141,6 +22023,12 @@ export const grantsData = [
     logCount: 71,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6485823180924848
+      }
+    ],
     core: false
   },
   {
@@ -18169,6 +22057,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1079.1507032170002
+      }
+    ],
     core: false
   },
   {
@@ -18197,6 +22091,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2513346482506151
+      }
+    ],
     core: false
   },
   {
@@ -18225,6 +22125,12 @@ export const grantsData = [
     logCount: 11,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.008196175
+      }
+    ],
     core: false
   },
   {
@@ -18253,6 +22159,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04080986811673767
+      }
+    ],
     core: false
   },
   {
@@ -18281,6 +22193,12 @@ export const grantsData = [
     logCount: 147,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8849450122959155
+      }
+    ],
     core: false
   },
   {
@@ -18309,6 +22227,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002166046
+      }
+    ],
     core: false
   },
   {
@@ -18337,6 +22261,12 @@ export const grantsData = [
     logCount: 39,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.39994018375286716
+      }
+    ],
     core: false
   },
   {
@@ -18365,6 +22295,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18393,6 +22329,12 @@ export const grantsData = [
     logCount: 10,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0541025
+      }
+    ],
     core: false
   },
   {
@@ -18421,6 +22363,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.029262124996577682
+      }
+    ],
     core: false
   },
   {
@@ -18449,6 +22397,12 @@ export const grantsData = [
     logCount: 79,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18477,6 +22431,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18505,6 +22465,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1116553675
+      }
+    ],
     core: false
   },
   {
@@ -18533,6 +22499,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18561,6 +22533,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18589,6 +22567,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.463045359813385
+      }
+    ],
     core: false
   },
   {
@@ -18617,6 +22601,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18645,6 +22635,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -18673,6 +22669,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10215008803905913
+      }
+    ],
     core: false
   },
   {
@@ -18701,6 +22703,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003286623253518811
+      }
+    ],
     core: false
   },
   {
@@ -18729,6 +22737,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.38394372876
+      }
+    ],
     core: false
   },
   {
@@ -18757,6 +22771,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.974953548233401
+      }
+    ],
     core: false
   },
   {
@@ -18785,6 +22805,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1941064062679576
+      }
+    ],
     core: false
   },
   {
@@ -18813,6 +22839,12 @@ export const grantsData = [
     logCount: 342,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10761733729535096
+      }
+    ],
     core: false
   },
   {
@@ -18841,6 +22873,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0837998433399871
+      }
+    ],
     core: false
   },
   {
@@ -18869,6 +22907,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4644993276893442
+      }
+    ],
     core: false
   },
   {
@@ -18897,6 +22941,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9224673069107249
+      }
+    ],
     core: false
   },
   {
@@ -18925,6 +22975,12 @@ export const grantsData = [
     logCount: 61,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1036019306009412
+      }
+    ],
     core: false
   },
   {
@@ -18953,6 +23009,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.586314764184426
+      }
+    ],
     core: false
   },
   {
@@ -18981,6 +23043,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0145086375
+      }
+    ],
     core: false
   },
   {
@@ -19009,6 +23077,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.014342988777624554
+      }
+    ],
     core: false
   },
   {
@@ -19037,6 +23111,12 @@ export const grantsData = [
     logCount: 29,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04411798022822114
+      }
+    ],
     core: false
   },
   {
@@ -19065,6 +23145,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -19093,6 +23179,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 16.268403060987417
+      }
+    ],
     core: false
   },
   {
@@ -19121,6 +23213,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0003
+      }
+    ],
     core: false
   },
   {
@@ -19149,6 +23247,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.33076771860929927
+      }
+    ],
     core: false
   },
   {
@@ -19177,6 +23281,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.36217760261620896
+      }
+    ],
     core: false
   },
   {
@@ -19205,6 +23315,12 @@ export const grantsData = [
     logCount: 67,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000847128608655
+      }
+    ],
     core: false
   },
   {
@@ -19233,6 +23349,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04138685
+      }
+    ],
     core: false
   },
   {
@@ -19261,6 +23383,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -19289,6 +23417,12 @@ export const grantsData = [
     logCount: 16,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000684758744061
+      }
+    ],
     core: false
   },
   {
@@ -19317,6 +23451,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04140660334245994
+      }
+    ],
     core: false
   },
   {
@@ -19345,6 +23485,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2469595254254
+      }
+    ],
     core: false
   },
   {
@@ -19373,6 +23519,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -19401,6 +23553,12 @@ export const grantsData = [
     logCount: 19,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.128179
+      }
+    ],
     core: false
   },
   {
@@ -19429,6 +23587,12 @@ export const grantsData = [
     logCount: 198,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.005643172334715
+      }
+    ],
     core: false
   },
   {
@@ -19457,6 +23621,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -19485,6 +23655,12 @@ export const grantsData = [
     logCount: 163,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04146837013833709
+      }
+    ],
     core: false
   },
   {
@@ -19513,6 +23689,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07335803276935572
+      }
+    ],
     core: false
   },
   {
@@ -19541,6 +23723,12 @@ export const grantsData = [
     logCount: 27,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -19569,6 +23757,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000972032
+      }
+    ],
     core: false
   },
   {
@@ -19597,6 +23791,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000880904
+      }
+    ],
     core: false
   },
   {
@@ -19625,6 +23825,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.15153782621941184
+      }
+    ],
     core: false
   },
   {
@@ -19653,6 +23859,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.091216078365811
+      }
+    ],
     core: false
   },
   {
@@ -19681,6 +23893,12 @@ export const grantsData = [
     logCount: 416,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 14.31807968426392
+      }
+    ],
     core: false
   },
   {
@@ -19709,6 +23927,12 @@ export const grantsData = [
     logCount: 82,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20387832282822085
+      }
+    ],
     core: false
   },
   {
@@ -19737,6 +23961,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -19765,6 +23995,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.021931727932375418
+      }
+    ],
     core: false
   },
   {
@@ -19793,6 +24029,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 11.719923159640418
+      }
+    ],
     core: false
   },
   {
@@ -19821,6 +24063,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004568517
+      }
+    ],
     core: false
   },
   {
@@ -19849,6 +24097,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.072972005
+      }
+    ],
     core: false
   },
   {
@@ -19877,6 +24131,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009485783442293064
+      }
+    ],
     core: false
   },
   {
@@ -19905,6 +24165,12 @@ export const grantsData = [
     logCount: 241,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06483708816276122
+      }
+    ],
     core: false
   },
   {
@@ -19933,6 +24199,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.0522701259061e-05
+      }
+    ],
     core: false
   },
   {
@@ -19961,6 +24233,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.091216078365811
+      }
+    ],
     core: false
   },
   {
@@ -19989,6 +24267,12 @@ export const grantsData = [
     logCount: 133,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.19768257109
+      }
+    ],
     core: false
   },
   {
@@ -20017,6 +24301,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -20045,6 +24335,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 7.049405456682332
+      }
+    ],
     core: false
   },
   {
@@ -20073,6 +24369,12 @@ export const grantsData = [
     logCount: 61,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.024683800005
+      }
+    ],
     core: false
   },
   {
@@ -20101,6 +24403,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -20129,6 +24437,12 @@ export const grantsData = [
     logCount: 51,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.008991573418447236
+      }
+    ],
     core: false
   },
   {
@@ -20157,6 +24471,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.928215126376843
+      }
+    ],
     core: false
   },
   {
@@ -20185,6 +24505,12 @@ export const grantsData = [
     logCount: 134,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8622982595
+      }
+    ],
     core: false
   },
   {
@@ -20213,6 +24539,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.8052048139568186
+      }
+    ],
     core: false
   },
   {
@@ -20241,6 +24573,12 @@ export const grantsData = [
     logCount: 46,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 49.76192885430991
+      }
+    ],
     core: false
   },
   {
@@ -20269,6 +24607,12 @@ export const grantsData = [
     logCount: 14,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.21705935898417777
+      }
+    ],
     core: false
   },
   {
@@ -20297,6 +24641,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.12037797776998599
+      }
+    ],
     core: false
   },
   {
@@ -20325,6 +24675,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -20353,6 +24709,12 @@ export const grantsData = [
     logCount: 177,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006971993538074884
+      }
+    ],
     core: false
   },
   {
@@ -20381,6 +24743,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -20409,6 +24777,12 @@ export const grantsData = [
     logCount: 82,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.16636275
+      }
+    ],
     core: false
   },
   {
@@ -20437,6 +24811,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006990073
+      }
+    ],
     core: false
   },
   {
@@ -20465,6 +24845,12 @@ export const grantsData = [
     logCount: 151,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 7.1454786878376035
+      }
+    ],
     core: false
   },
   {
@@ -20493,6 +24879,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 7.230751435484963
+      }
+    ],
     core: false
   },
   {
@@ -20521,6 +24913,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000736368
+      }
+    ],
     core: false
   },
   {
@@ -20549,6 +24947,12 @@ export const grantsData = [
     logCount: 149,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.744249771390861
+      }
+    ],
     core: false
   },
   {
@@ -20577,6 +24981,12 @@ export const grantsData = [
     logCount: 96,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.15737968199772448
+      }
+    ],
     core: false
   },
   {
@@ -20605,6 +25015,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.054556202272234136
+      }
+    ],
     core: false
   },
   {
@@ -20633,6 +25049,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.010063765805738877
+      }
+    ],
     core: false
   },
   {
@@ -20661,6 +25083,12 @@ export const grantsData = [
     logCount: 30,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10620097161565277
+      }
+    ],
     core: false
   },
   {
@@ -20689,6 +25117,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.019
+      }
+    ],
     core: false
   },
   {
@@ -20717,6 +25151,12 @@ export const grantsData = [
     logCount: 76,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.018913340361379576
+      }
+    ],
     core: false
   },
   {
@@ -20745,6 +25185,12 @@ export const grantsData = [
     logCount: 15,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.010883459762074494
+      }
+    ],
     core: false
   },
   {
@@ -20773,6 +25219,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17680886034892757
+      }
+    ],
     core: false
   },
   {
@@ -20801,6 +25253,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.008871814
+      }
+    ],
     core: false
   },
   {
@@ -20829,6 +25287,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 16.400536388092753
+      }
+    ],
     core: false
   },
   {
@@ -20857,6 +25321,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -20885,6 +25355,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.16018867389779504
+      }
+    ],
     core: false
   },
   {
@@ -20913,6 +25389,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1950671399279806
+      }
+    ],
     core: false
   },
   {
@@ -20941,6 +25423,12 @@ export const grantsData = [
     logCount: 8,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.446560917443276
+      }
+    ],
     core: false
   },
   {
@@ -20969,6 +25457,12 @@ export const grantsData = [
     logCount: 113,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6567592928131439
+      }
+    ],
     core: false
   },
   {
@@ -20997,6 +25491,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6614138306588218
+      }
+    ],
     core: false
   },
   {
@@ -21025,6 +25525,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3327173155316103
+      }
+    ],
     core: false
   },
   {
@@ -21053,6 +25559,12 @@ export const grantsData = [
     logCount: 19,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.005124108944756388
+      }
+    ],
     core: false
   },
   {
@@ -21081,6 +25593,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.005025710340532037
+      }
+    ],
     core: false
   },
   {
@@ -21109,6 +25627,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10880952386086323
+      }
+    ],
     core: false
   },
   {
@@ -21137,6 +25661,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00882
+      }
+    ],
     core: false
   },
   {
@@ -21165,6 +25695,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -21193,6 +25729,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07800010710726835
+      }
+    ],
     core: false
   },
   {
@@ -21221,6 +25763,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.1e-05
+      }
+    ],
     core: false
   },
   {
@@ -21249,6 +25797,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000219979358235
+      }
+    ],
     core: false
   },
   {
@@ -21277,6 +25831,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001645775675738699
+      }
+    ],
     core: false
   },
   {
@@ -21305,6 +25865,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3382115751318315
+      }
+    ],
     core: false
   },
   {
@@ -21333,6 +25899,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04495537502862789
+      }
+    ],
     core: false
   },
   {
@@ -21361,6 +25933,12 @@ export const grantsData = [
     logCount: 48,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7520884687092586
+      }
+    ],
     core: false
   },
   {
@@ -21389,6 +25967,12 @@ export const grantsData = [
     logCount: 33,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6885088957907505
+      }
+    ],
     core: false
   },
   {
@@ -21417,6 +26001,12 @@ export const grantsData = [
     logCount: 20,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.017270138222111528
+      }
+    ],
     core: false
   },
   {
@@ -21445,6 +26035,12 @@ export const grantsData = [
     logCount: 398,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1294073725856737
+      }
+    ],
     core: false
   },
   {
@@ -21473,6 +26069,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10111653920674128
+      }
+    ],
     core: false
   },
   {
@@ -21501,6 +26103,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002397598091781
+      }
+    ],
     core: false
   },
   {
@@ -21529,6 +26137,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003080752831143103
+      }
+    ],
     core: false
   },
   {
@@ -21557,6 +26171,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.72640293026491
+      }
+    ],
     core: false
   },
   {
@@ -21585,6 +26205,12 @@ export const grantsData = [
     logCount: 17,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9020945838712705
+      }
+    ],
     core: false
   },
   {
@@ -21613,6 +26239,12 @@ export const grantsData = [
     logCount: 63,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2878438989860167
+      }
+    ],
     core: false
   },
   {
@@ -21641,6 +26273,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05488070984082748
+      }
+    ],
     core: false
   },
   {
@@ -21669,6 +26307,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00475
+      }
+    ],
     core: false
   },
   {
@@ -21697,6 +26341,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3471505218783056
+      }
+    ],
     core: false
   },
   {
@@ -21725,6 +26375,12 @@ export const grantsData = [
     logCount: 38,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09937072899230051
+      }
+    ],
     core: false
   },
   {
@@ -21753,6 +26409,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01955
+      }
+    ],
     core: false
   },
   {
@@ -21781,6 +26443,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.013488242226869975
+      }
+    ],
     core: false
   },
   {
@@ -21809,6 +26477,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -21837,6 +26511,12 @@ export const grantsData = [
     logCount: 261,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9717799728414436
+      }
+    ],
     core: false
   },
   {
@@ -21865,6 +26545,12 @@ export const grantsData = [
     logCount: 31,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10478985273803773
+      }
+    ],
     core: false
   },
   {
@@ -21893,6 +26579,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1459055445756148
+      }
+    ],
     core: false
   },
   {
@@ -21921,6 +26613,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.198068
+      }
+    ],
     core: false
   },
   {
@@ -21949,6 +26647,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08931167800552751
+      }
+    ],
     core: false
   },
   {
@@ -21977,6 +26681,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.47514617915466895
+      }
+    ],
     core: false
   },
   {
@@ -22005,6 +26715,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.245470856269622
+      }
+    ],
     core: false
   },
   {
@@ -22033,6 +26749,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10749822339089049
+      }
+    ],
     core: false
   },
   {
@@ -22061,6 +26783,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -22089,6 +26817,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -22117,6 +26851,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -22145,6 +26885,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -22173,6 +26919,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -22201,6 +26953,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -22229,6 +26987,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -22257,6 +27021,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -22285,6 +27055,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -22313,6 +27089,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6289762050775034
+      }
+    ],
     core: false
   },
   {
@@ -22341,6 +27123,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00055
+      }
+    ],
     core: false
   },
   {
@@ -22369,6 +27157,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -22397,6 +27191,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007895706566080268
+      }
+    ],
     core: false
   },
   {
@@ -22425,6 +27225,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.14423507070411362
+      }
+    ],
     core: false
   },
   {
@@ -22453,6 +27259,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.16748054570336585
+      }
+    ],
     core: false
   },
   {
@@ -22481,6 +27293,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.806768036590785
+      }
+    ],
     core: false
   },
   {
@@ -22509,6 +27327,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012071124341982186
+      }
+    ],
     core: false
   },
   {
@@ -22537,6 +27361,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012071124341982186
+      }
+    ],
     core: false
   },
   {
@@ -22565,6 +27395,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012071124341982186
+      }
+    ],
     core: false
   },
   {
@@ -22593,6 +27429,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012071124341982186
+      }
+    ],
     core: false
   },
   {
@@ -22621,6 +27463,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012071124341982186
+      }
+    ],
     core: false
   },
   {
@@ -22649,6 +27497,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012071124341982186
+      }
+    ],
     core: false
   },
   {
@@ -22677,6 +27531,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2608547376810608
+      }
+    ],
     core: false
   },
   {
@@ -22705,6 +27565,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 7.545531147330622
+      }
+    ],
     core: false
   },
   {
@@ -22733,6 +27599,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.23010549308254674
+      }
+    ],
     core: false
   },
   {
@@ -22761,6 +27633,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9951427028927727
+      }
+    ],
     core: false
   },
   {
@@ -22789,6 +27667,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.845449158403553
+      }
+    ],
     core: false
   },
   {
@@ -22817,6 +27701,12 @@ export const grantsData = [
     logCount: 40,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.0034786730766683
+      }
+    ],
     core: false
   },
   {
@@ -22845,6 +27735,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.034722956
+      }
+    ],
     core: false
   },
   {
@@ -22873,6 +27769,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07490834713322457
+      }
+    ],
     core: false
   },
   {
@@ -22901,6 +27803,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -22929,6 +27837,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.010378629318827107
+      }
+    ],
     core: false
   },
   {
@@ -22957,6 +27871,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00431360390324331
+      }
+    ],
     core: false
   },
   {
@@ -22985,6 +27905,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.021316534810073465
+      }
+    ],
     core: false
   },
   {
@@ -23013,6 +27939,12 @@ export const grantsData = [
     logCount: 384,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.664732452132945
+      }
+    ],
     core: false
   },
   {
@@ -23041,6 +27973,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 16.37023866845497
+      }
+    ],
     core: false
   },
   {
@@ -23069,6 +28007,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.100393358
+      }
+    ],
     core: false
   },
   {
@@ -23097,6 +28041,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.010336993838228444
+      }
+    ],
     core: false
   },
   {
@@ -23125,6 +28075,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007343895516957
+      }
+    ],
     core: false
   },
   {
@@ -23153,6 +28109,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -23181,6 +28143,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.22589173312049327
+      }
+    ],
     core: false
   },
   {
@@ -23209,6 +28177,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.22589173312049327
+      }
+    ],
     core: false
   },
   {
@@ -23237,6 +28211,12 @@ export const grantsData = [
     logCount: 16,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07151875358697604
+      }
+    ],
     core: false
   },
   {
@@ -23265,6 +28245,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001149447878668014
+      }
+    ],
     core: false
   },
   {
@@ -23293,6 +28279,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06624969185197421
+      }
+    ],
     core: false
   },
   {
@@ -23321,6 +28313,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.304
+      }
+    ],
     core: false
   },
   {
@@ -23349,6 +28347,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.450440582093e-05
+      }
+    ],
     core: false
   },
   {
@@ -23377,6 +28381,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.019092895663517444
+      }
+    ],
     core: false
   },
   {
@@ -23405,6 +28415,12 @@ export const grantsData = [
     logCount: 69,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -23433,6 +28449,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -23461,6 +28483,12 @@ export const grantsData = [
     logCount: 248,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.58963737305089
+      }
+    ],
     core: false
   },
   {
@@ -23489,6 +28517,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09373890358672828
+      }
+    ],
     core: false
   },
   {
@@ -23517,6 +28551,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 16.268403060987417
+      }
+    ],
     core: false
   },
   {
@@ -23545,6 +28585,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 16.268403060987417
+      }
+    ],
     core: false
   },
   {
@@ -23573,6 +28619,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02444998583555463
+      }
+    ],
     core: false
   },
   {
@@ -23601,6 +28653,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -23629,6 +28687,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000567024207897
+      }
+    ],
     core: false
   },
   {
@@ -23657,6 +28721,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09552041620615663
+      }
+    ],
     core: false
   },
   {
@@ -23685,6 +28755,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03150817957022549
+      }
+    ],
     core: false
   },
   {
@@ -23713,6 +28789,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.845449158403553
+      }
+    ],
     core: false
   },
   {
@@ -23741,6 +28823,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00285
+      }
+    ],
     core: false
   },
   {
@@ -23769,6 +28857,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -23797,6 +28891,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07089011917905103
+      }
+    ],
     core: false
   },
   {
@@ -23825,6 +28925,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00332595
+      }
+    ],
     core: false
   },
   {
@@ -23853,6 +28959,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 16.865893960745144
+      }
+    ],
     core: false
   },
   {
@@ -23881,6 +28993,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -23909,6 +29027,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2547358536089181
+      }
+    ],
     core: false
   },
   {
@@ -23937,6 +29061,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.177757229995915
+      }
+    ],
     core: false
   },
   {
@@ -23965,6 +29095,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.845449158403553
+      }
+    ],
     core: false
   },
   {
@@ -23993,6 +29129,12 @@ export const grantsData = [
     logCount: 10,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1996245652
+      }
+    ],
     core: false
   },
   {
@@ -24021,6 +29163,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.9977439258368583
+      }
+    ],
     core: false
   },
   {
@@ -24049,6 +29197,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00091305806
+      }
+    ],
     core: false
   },
   {
@@ -24077,6 +29231,12 @@ export const grantsData = [
     logCount: 17,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.6531255312327846
+      }
+    ],
     core: false
   },
   {
@@ -24105,6 +29265,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -24133,6 +29299,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -24161,6 +29333,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09028301
+      }
+    ],
     core: false
   },
   {
@@ -24189,6 +29367,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.58389992276596
+      }
+    ],
     core: false
   },
   {
@@ -24217,6 +29401,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 9.639640036180282
+      }
+    ],
     core: false
   },
   {
@@ -24245,6 +29435,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.081894820019961
+      }
+    ],
     core: false
   },
   {
@@ -24273,6 +29469,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -24301,6 +29503,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5484234033914894
+      }
+    ],
     core: false
   },
   {
@@ -24329,6 +29537,12 @@ export const grantsData = [
     logCount: 305,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3869578
+      }
+    ],
     core: false
   },
   {
@@ -24357,6 +29571,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.0965908983547554
+      }
+    ],
     core: false
   },
   {
@@ -24385,6 +29605,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1295020053050745
+      }
+    ],
     core: false
   },
   {
@@ -24413,6 +29639,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02157729127772986
+      }
+    ],
     core: false
   },
   {
@@ -24441,6 +29673,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5210421861608906
+      }
+    ],
     core: false
   },
   {
@@ -24469,6 +29707,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001
+      }
+    ],
     core: false
   },
   {
@@ -24497,6 +29741,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007928472
+      }
+    ],
     core: false
   },
   {
@@ -24525,6 +29775,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000722
+      }
+    ],
     core: false
   },
   {
@@ -24553,6 +29809,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -24581,6 +29843,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.7536451190028925
+      }
+    ],
     core: false
   },
   {
@@ -24609,6 +29877,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -24637,6 +29911,12 @@ export const grantsData = [
     logCount: 37,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -24665,6 +29945,12 @@ export const grantsData = [
     logCount: 63,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.017794189080021
+      }
+    ],
     core: false
   },
   {
@@ -24693,6 +29979,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003321872
+      }
+    ],
     core: false
   },
   {
@@ -24721,6 +30013,12 @@ export const grantsData = [
     logCount: 330,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.364162657607986
+      }
+    ],
     core: false
   },
   {
@@ -24749,6 +30047,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000247294773096
+      }
+    ],
     core: false
   },
   {
@@ -24777,6 +30081,12 @@ export const grantsData = [
     logCount: 14,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -24805,6 +30115,12 @@ export const grantsData = [
     logCount: 44,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.026597446243841246
+      }
+    ],
     core: false
   },
   {
@@ -24833,6 +30149,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.65
+      }
+    ],
     core: false
   },
   {
@@ -24861,6 +30183,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 9.835902794616082
+      }
+    ],
     core: false
   },
   {
@@ -24889,6 +30217,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009633114755032174
+      }
+    ],
     core: false
   },
   {
@@ -24917,6 +30251,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.4494958543480376
+      }
+    ],
     core: false
   },
   {
@@ -24945,6 +30285,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002457
+      }
+    ],
     core: false
   },
   {
@@ -24973,6 +30319,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03648025778011357
+      }
+    ],
     core: false
   },
   {
@@ -25001,6 +30353,12 @@ export const grantsData = [
     logCount: 670,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.5199690590997748
+      }
+    ],
     core: false
   },
   {
@@ -25029,6 +30387,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0567455209562675
+      }
+    ],
     core: false
   },
   {
@@ -25057,6 +30421,12 @@ export const grantsData = [
     logCount: 183,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 28.34106451772403
+      }
+    ],
     core: false
   },
   {
@@ -25085,6 +30455,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004
+      }
+    ],
     core: false
   },
   {
@@ -25113,6 +30489,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.492866
+      }
+    ],
     core: false
   },
   {
@@ -25141,6 +30523,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05060441781757776
+      }
+    ],
     core: false
   },
   {
@@ -25169,6 +30557,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8980874242
+      }
+    ],
     core: false
   },
   {
@@ -25197,6 +30591,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0228
+      }
+    ],
     core: false
   },
   {
@@ -25225,6 +30625,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2207260500324651
+      }
+    ],
     core: false
   },
   {
@@ -25253,6 +30659,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3210870182564347
+      }
+    ],
     core: false
   },
   {
@@ -25281,6 +30693,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00019556390868
+      }
+    ],
     core: false
   },
   {
@@ -25309,6 +30727,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.007724092083729
+      }
+    ],
     core: false
   },
   {
@@ -25337,6 +30761,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 20.49684923260882
+      }
+    ],
     core: false
   },
   {
@@ -25365,6 +30795,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8487667038507255
+      }
+    ],
     core: false
   },
   {
@@ -25393,6 +30829,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.504618317276053
+      }
+    ],
     core: false
   },
   {
@@ -25421,6 +30863,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06218346650668857
+      }
+    ],
     core: false
   },
   {
@@ -25449,6 +30897,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8487667038507255
+      }
+    ],
     core: false
   },
   {
@@ -25477,6 +30931,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4093033879836886
+      }
+    ],
     core: false
   },
   {
@@ -25505,6 +30965,12 @@ export const grantsData = [
     logCount: 25,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5716206862748687
+      }
+    ],
     core: false
   },
   {
@@ -25533,6 +30999,12 @@ export const grantsData = [
     logCount: 24,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.362999127095
+      }
+    ],
     core: false
   },
   {
@@ -25561,6 +31033,12 @@ export const grantsData = [
     logCount: 170,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.0186892826669072
+      }
+    ],
     core: false
   },
   {
@@ -25589,6 +31067,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.023335307786433807
+      }
+    ],
     core: false
   },
   {
@@ -25617,6 +31101,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.050822292101952826
+      }
+    ],
     core: false
   },
   {
@@ -25645,6 +31135,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00118
+      }
+    ],
     core: false
   },
   {
@@ -25673,6 +31169,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.14356283010009743
+      }
+    ],
     core: false
   },
   {
@@ -25701,6 +31203,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7948084368819688
+      }
+    ],
     core: false
   },
   {
@@ -25729,6 +31237,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -25757,6 +31271,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7948084368819688
+      }
+    ],
     core: false
   },
   {
@@ -25785,6 +31305,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7948084368819688
+      }
+    ],
     core: false
   },
   {
@@ -25813,6 +31339,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00574235
+      }
+    ],
     core: false
   },
   {
@@ -25841,6 +31373,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -25869,6 +31407,12 @@ export const grantsData = [
     logCount: 137,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2754147857475701
+      }
+    ],
     core: false
   },
   {
@@ -25897,6 +31441,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.951477109865157
+      }
+    ],
     core: false
   },
   {
@@ -25925,6 +31475,12 @@ export const grantsData = [
     logCount: 95,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.783449154790642
+      }
+    ],
     core: false
   },
   {
@@ -25953,6 +31509,12 @@ export const grantsData = [
     logCount: 53,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.192383474585541
+      }
+    ],
     core: false
   },
   {
@@ -25981,6 +31543,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.36431646456796035
+      }
+    ],
     core: false
   },
   {
@@ -26009,6 +31577,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -26037,6 +31611,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20510280391622882
+      }
+    ],
     core: false
   },
   {
@@ -26065,6 +31645,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000864010593995736
+      }
+    ],
     core: false
   },
   {
@@ -26093,6 +31679,12 @@ export const grantsData = [
     logCount: 787,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 9.51095570175338
+      }
+    ],
     core: false
   },
   {
@@ -26121,6 +31713,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2591120284169722
+      }
+    ],
     core: false
   },
   {
@@ -26149,6 +31747,12 @@ export const grantsData = [
     logCount: 145,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03224603466282328
+      }
+    ],
     core: false
   },
   {
@@ -26177,6 +31781,12 @@ export const grantsData = [
     logCount: 42,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8274277126131672
+      }
+    ],
     core: false
   },
   {
@@ -26205,6 +31815,12 @@ export const grantsData = [
     logCount: 27,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09655
+      }
+    ],
     core: false
   },
   {
@@ -26233,6 +31849,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2591120284169722
+      }
+    ],
     core: false
   },
   {
@@ -26261,6 +31883,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003799165025227783
+      }
+    ],
     core: false
   },
   {
@@ -26289,6 +31917,12 @@ export const grantsData = [
     logCount: 12,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001174625
+      }
+    ],
     core: false
   },
   {
@@ -26317,6 +31951,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -26345,6 +31985,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.038281354
+      }
+    ],
     core: false
   },
   {
@@ -26373,6 +32019,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -26401,6 +32053,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -26429,6 +32087,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.310979898079781
+      }
+    ],
     core: false
   },
   {
@@ -26457,6 +32121,12 @@ export const grantsData = [
     logCount: 12,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002790347469317013
+      }
+    ],
     core: false
   },
   {
@@ -26485,6 +32155,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2101811675292327
+      }
+    ],
     core: false
   },
   {
@@ -26513,6 +32189,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001104065723775
+      }
+    ],
     core: false
   },
   {
@@ -26541,6 +32223,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2788683821732931
+      }
+    ],
     core: false
   },
   {
@@ -26569,6 +32257,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1336080930329948
+      }
+    ],
     core: false
   },
   {
@@ -26597,6 +32291,12 @@ export const grantsData = [
     logCount: 411,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6556975210333034
+      }
+    ],
     core: false
   },
   {
@@ -26625,6 +32325,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.23073302641196686
+      }
+    ],
     core: false
   },
   {
@@ -26653,6 +32359,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000129669
+      }
+    ],
     core: false
   },
   {
@@ -26681,6 +32393,12 @@ export const grantsData = [
     logCount: 811,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.036992070112024
+      }
+    ],
     core: false
   },
   {
@@ -26709,6 +32427,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002778511852075005
+      }
+    ],
     core: false
   },
   {
@@ -26737,6 +32461,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000984124899
+      }
+    ],
     core: false
   },
   {
@@ -26765,6 +32495,12 @@ export const grantsData = [
     logCount: 286,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3401653060523619
+      }
+    ],
     core: false
   },
   {
@@ -26793,6 +32529,12 @@ export const grantsData = [
     logCount: 151,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.6692914843568463
+      }
+    ],
     core: false
   },
   {
@@ -26821,6 +32563,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.504618317276053
+      }
+    ],
     core: false
   },
   {
@@ -26849,6 +32597,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 19.23357783254632
+      }
+    ],
     core: false
   },
   {
@@ -26877,6 +32631,12 @@ export const grantsData = [
     logCount: 46,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.37614111608402273
+      }
+    ],
     core: false
   },
   {
@@ -26905,6 +32665,12 @@ export const grantsData = [
     logCount: 8,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5856810639332104
+      }
+    ],
     core: false
   },
   {
@@ -26933,6 +32699,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05427572132060952
+      }
+    ],
     core: false
   },
   {
@@ -26961,6 +32733,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -26989,6 +32767,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001629598
+      }
+    ],
     core: false
   },
   {
@@ -27017,6 +32801,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27045,6 +32835,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27073,6 +32869,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02764068432394392
+      }
+    ],
     core: false
   },
   {
@@ -27101,6 +32903,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2168972196356382
+      }
+    ],
     core: false
   },
   {
@@ -27129,6 +32937,12 @@ export const grantsData = [
     logCount: 62,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.042536704469956686
+      }
+    ],
     core: false
   },
   {
@@ -27157,6 +32971,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27185,6 +33005,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 15.895772676590987
+      }
+    ],
     core: false
   },
   {
@@ -27213,6 +33039,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27241,6 +33073,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000383475893724
+      }
+    ],
     core: false
   },
   {
@@ -27269,6 +33107,12 @@ export const grantsData = [
     logCount: 36,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.38629088715228804
+      }
+    ],
     core: false
   },
   {
@@ -27297,6 +33141,12 @@ export const grantsData = [
     logCount: 323,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.312386125480028
+      }
+    ],
     core: false
   },
   {
@@ -27325,6 +33175,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7647388511692778
+      }
+    ],
     core: false
   },
   {
@@ -27353,6 +33209,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 21.175367167338006
+      }
+    ],
     core: false
   },
   {
@@ -27381,6 +33243,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.135245441
+      }
+    ],
     core: false
   },
   {
@@ -27409,6 +33277,12 @@ export const grantsData = [
     logCount: 42,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.30357
+      }
+    ],
     core: false
   },
   {
@@ -27437,6 +33311,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.0048022435050887
+      }
+    ],
     core: false
   },
   {
@@ -27465,6 +33345,12 @@ export const grantsData = [
     logCount: 47,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27493,6 +33379,12 @@ export const grantsData = [
     logCount: 14,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.3586509847407955
+      }
+    ],
     core: false
   },
   {
@@ -27521,6 +33413,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27549,6 +33447,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27577,6 +33481,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27605,6 +33515,12 @@ export const grantsData = [
     logCount: 14,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02489574716450499
+      }
+    ],
     core: false
   },
   {
@@ -27633,6 +33549,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27661,6 +33583,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.874428689
+      }
+    ],
     core: false
   },
   {
@@ -27689,6 +33617,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.5084809996765309
+      }
+    ],
     core: false
   },
   {
@@ -27717,6 +33651,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00091305806
+      }
+    ],
     core: false
   },
   {
@@ -27745,6 +33685,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 11.719923159640418
+      }
+    ],
     core: false
   },
   {
@@ -27773,6 +33719,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 14.822914410876255
+      }
+    ],
     core: false
   },
   {
@@ -27801,6 +33753,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27829,6 +33787,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27857,6 +33821,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0007315
+      }
+    ],
     core: false
   },
   {
@@ -27885,6 +33855,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27913,6 +33889,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000589512629001027
+      }
+    ],
     core: false
   },
   {
@@ -27941,6 +33923,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.975834598593114
+      }
+    ],
     core: false
   },
   {
@@ -27969,6 +33957,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -27997,6 +33991,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.018618
+      }
+    ],
     core: false
   },
   {
@@ -28025,6 +34025,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10866668201005568
+      }
+    ],
     core: false
   },
   {
@@ -28053,6 +34059,12 @@ export const grantsData = [
     logCount: 17,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.67154206e-10
+      }
+    ],
     core: false
   },
   {
@@ -28081,6 +34093,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.108769735
+      }
+    ],
     core: false
   },
   {
@@ -28109,6 +34127,12 @@ export const grantsData = [
     logCount: 34,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10.901490524750008
+      }
+    ],
     core: false
   },
   {
@@ -28137,6 +34161,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.0333942699540675
+      }
+    ],
     core: false
   },
   {
@@ -28165,6 +34195,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -28193,6 +34229,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009422298286099997
+      }
+    ],
     core: false
   },
   {
@@ -28221,6 +34263,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009422298286099997
+      }
+    ],
     core: false
   },
   {
@@ -28249,6 +34297,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10312066257010728
+      }
+    ],
     core: false
   },
   {
@@ -28277,6 +34331,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10312066257010728
+      }
+    ],
     core: false
   },
   {
@@ -28305,6 +34365,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -28333,6 +34399,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00920349207371839
+      }
+    ],
     core: false
   },
   {
@@ -28361,6 +34433,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.1680641437174764
+      }
+    ],
     core: false
   },
   {
@@ -28389,6 +34467,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000632015905752
+      }
+    ],
     core: false
   },
   {
@@ -28417,6 +34501,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.077
+      }
+    ],
     core: false
   },
   {
@@ -28445,6 +34535,12 @@ export const grantsData = [
     logCount: 31,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 19.48750202685128
+      }
+    ],
     core: false
   },
   {
@@ -28473,6 +34569,12 @@ export const grantsData = [
     logCount: 45,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3461926977059169
+      }
+    ],
     core: false
   },
   {
@@ -28501,6 +34603,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 7.0880038
+      }
+    ],
     core: false
   },
   {
@@ -28529,6 +34637,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000170881131225
+      }
+    ],
     core: false
   },
   {
@@ -28557,6 +34671,12 @@ export const grantsData = [
     logCount: 9,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2509518198407354
+      }
+    ],
     core: false
   },
   {
@@ -28585,6 +34705,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.011469615
+      }
+    ],
     core: false
   },
   {
@@ -28613,6 +34739,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00219041413533382
+      }
+    ],
     core: false
   },
   {
@@ -28641,6 +34773,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004811425
+      }
+    ],
     core: false
   },
   {
@@ -28669,6 +34807,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001382338127326
+      }
+    ],
     core: false
   },
   {
@@ -28697,6 +34841,12 @@ export const grantsData = [
     logCount: 10,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 6.249281057959459
+      }
+    ],
     core: false
   },
   {
@@ -28725,6 +34875,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -28753,6 +34909,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01955
+      }
+    ],
     core: false
   },
   {
@@ -28781,6 +34943,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03173302853
+      }
+    ],
     core: false
   },
   {
@@ -28809,6 +34977,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.806768036590785
+      }
+    ],
     core: false
   },
   {
@@ -28837,6 +35011,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001589124619084508
+      }
+    ],
     core: false
   },
   {
@@ -28865,6 +35045,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02940621059667264
+      }
+    ],
     core: false
   },
   {
@@ -28893,6 +35079,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.370739229844977
+      }
+    ],
     core: false
   },
   {
@@ -28921,6 +35113,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.1122508e-11
+      }
+    ],
     core: false
   },
   {
@@ -28949,6 +35147,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -28977,6 +35181,12 @@ export const grantsData = [
     logCount: 12,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7952416337034007
+      }
+    ],
     core: false
   },
   {
@@ -29005,6 +35215,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.44651920175297705
+      }
+    ],
     core: false
   },
   {
@@ -29033,6 +35249,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -29061,6 +35283,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.967175574999999
+      }
+    ],
     core: false
   },
   {
@@ -29089,6 +35317,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02580847223310868
+      }
+    ],
     core: false
   },
   {
@@ -29117,6 +35351,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -29145,6 +35385,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001518092249710982
+      }
+    ],
     core: false
   },
   {
@@ -29173,6 +35419,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01270029
+      }
+    ],
     core: false
   },
   {
@@ -29201,6 +35453,12 @@ export const grantsData = [
     logCount: 8,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002705504253523205
+      }
+    ],
     core: false
   },
   {
@@ -29229,6 +35487,12 @@ export const grantsData = [
     logCount: 32,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.19097361623603523
+      }
+    ],
     core: false
   },
   {
@@ -29257,6 +35521,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6335579550077521
+      }
+    ],
     core: false
   },
   {
@@ -29285,6 +35555,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.44875596242336613
+      }
+    ],
     core: false
   },
   {
@@ -29313,6 +35589,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7737956658730677
+      }
+    ],
     core: false
   },
   {
@@ -29341,6 +35623,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.027806833587934385
+      }
+    ],
     core: false
   },
   {
@@ -29369,6 +35657,12 @@ export const grantsData = [
     logCount: 338,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 9.926678843459442
+      }
+    ],
     core: false
   },
   {
@@ -29397,6 +35691,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -29425,6 +35725,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.4095429362825858
+      }
+    ],
     core: false
   },
   {
@@ -29453,6 +35759,12 @@ export const grantsData = [
     logCount: 7,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0794
+      }
+    ],
     core: false
   },
   {
@@ -29481,6 +35793,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -29509,6 +35827,12 @@ export const grantsData = [
     logCount: 20,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0306375
+      }
+    ],
     core: false
   },
   {
@@ -29537,6 +35861,12 @@ export const grantsData = [
     logCount: 15,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.005040874
+      }
+    ],
     core: false
   },
   {
@@ -29565,6 +35895,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00882
+      }
+    ],
     core: false
   },
   {
@@ -29593,6 +35929,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -29621,6 +35963,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -29649,6 +35997,12 @@ export const grantsData = [
     logCount: 49,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.13524327668690156
+      }
+    ],
     core: false
   },
   {
@@ -29677,6 +36031,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -29705,6 +36065,12 @@ export const grantsData = [
     logCount: 47,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.18051398015178735
+      }
+    ],
     core: false
   },
   {
@@ -29733,6 +36099,12 @@ export const grantsData = [
     logCount: 27,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.017478635043899425
+      }
+    ],
     core: false
   },
   {
@@ -29761,6 +36133,12 @@ export const grantsData = [
     logCount: 15,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0454650756134937
+      }
+    ],
     core: false
   },
   {
@@ -29789,6 +36167,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000489365935661405
+      }
+    ],
     core: false
   },
   {
@@ -29817,6 +36201,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09552041620615663
+      }
+    ],
     core: false
   },
   {
@@ -29845,6 +36235,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001806204
+      }
+    ],
     core: false
   },
   {
@@ -29873,6 +36269,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003106317040385911
+      }
+    ],
     core: false
   },
   {
@@ -29901,6 +36303,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.029950611085394173
+      }
+    ],
     core: false
   },
   {
@@ -29929,6 +36337,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -29957,6 +36371,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000470949758433
+      }
+    ],
     core: false
   },
   {
@@ -29985,6 +36405,12 @@ export const grantsData = [
     logCount: 11,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000711874052316
+      }
+    ],
     core: false
   },
   {
@@ -30013,6 +36439,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000189
+      }
+    ],
     core: false
   },
   {
@@ -30041,6 +36473,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.020949706
+      }
+    ],
     core: false
   },
   {
@@ -30069,6 +36507,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001476472338264754
+      }
+    ],
     core: false
   },
   {
@@ -30097,6 +36541,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000778025341
+      }
+    ],
     core: false
   },
   {
@@ -30125,6 +36575,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000778025341
+      }
+    ],
     core: false
   },
   {
@@ -30153,6 +36609,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.025921957859092095
+      }
+    ],
     core: false
   },
   {
@@ -30181,6 +36643,12 @@ export const grantsData = [
     logCount: 6,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00074347810194
+      }
+    ],
     core: false
   },
   {
@@ -30209,6 +36677,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.750193505236624
+      }
+    ],
     core: false
   },
   {
@@ -30237,6 +36711,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000829525158168
+      }
+    ],
     core: false
   },
   {
@@ -30265,6 +36745,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00475
+      }
+    ],
     core: false
   },
   {
@@ -30293,6 +36779,12 @@ export const grantsData = [
     logCount: 16,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.22916746147164502
+      }
+    ],
     core: false
   },
   {
@@ -30321,6 +36813,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2914158298537335
+      }
+    ],
     core: false
   },
   {
@@ -30349,6 +36847,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -30377,6 +36881,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -30405,6 +36915,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0818033089243622
+      }
+    ],
     core: false
   },
   {
@@ -30433,6 +36949,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04781557101003279
+      }
+    ],
     core: false
   },
   {
@@ -30461,6 +36983,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.47410008153099953
+      }
+    ],
     core: false
   },
   {
@@ -30489,6 +37017,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8487667038507255
+      }
+    ],
     core: false
   },
   {
@@ -30517,6 +37051,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0008911314
+      }
+    ],
     core: false
   },
   {
@@ -30545,6 +37085,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00082736324349
+      }
+    ],
     core: false
   },
   {
@@ -30573,6 +37119,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.39198973896499506
+      }
+    ],
     core: false
   },
   {
@@ -30601,6 +37153,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -30629,6 +37187,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1420166097765885
+      }
+    ],
     core: false
   },
   {
@@ -30657,6 +37221,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -30685,6 +37255,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.061434076482168594
+      }
+    ],
     core: false
   },
   {
@@ -30713,6 +37289,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.010750476509604
+      }
+    ],
     core: false
   },
   {
@@ -30741,6 +37323,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -30769,6 +37357,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -30797,6 +37391,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -30825,6 +37425,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10000441494523966
+      }
+    ],
     core: false
   },
   {
@@ -30853,6 +37459,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06637538337780576
+      }
+    ],
     core: false
   },
   {
@@ -30881,6 +37493,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001149447878668014
+      }
+    ],
     core: false
   },
   {
@@ -30909,6 +37527,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3260998192986532
+      }
+    ],
     core: false
   },
   {
@@ -30937,6 +37561,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000299636606556
+      }
+    ],
     core: false
   },
   {
@@ -30965,6 +37595,12 @@ export const grantsData = [
     logCount: 18,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.12159551647819754
+      }
+    ],
     core: false
   },
   {
@@ -30993,6 +37629,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -31021,6 +37663,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -31049,6 +37697,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001149447878668014
+      }
+    ],
     core: false
   },
   {
@@ -31077,6 +37731,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0020672
+      }
+    ],
     core: false
   },
   {
@@ -31105,6 +37765,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 191.74132999736284
+      }
+    ],
     core: false
   },
   {
@@ -31133,6 +37799,12 @@ export const grantsData = [
     logCount: 165,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.21152840429995753
+      }
+    ],
     core: false
   },
   {
@@ -31161,6 +37833,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -31189,6 +37867,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -31217,6 +37901,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07431475203844436
+      }
+    ],
     core: false
   },
   {
@@ -31245,6 +37935,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -31273,6 +37969,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.048192331888915016
+      }
+    ],
     core: false
   },
   {
@@ -31301,6 +38003,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -31329,6 +38037,12 @@ export const grantsData = [
     logCount: 37,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0869705
+      }
+    ],
     core: false
   },
   {
@@ -31357,6 +38071,12 @@ export const grantsData = [
     logCount: 5,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2914158298537335
+      }
+    ],
     core: false
   },
   {
@@ -31385,6 +38105,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -31413,6 +38139,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.463562628e-09
+      }
+    ],
     core: false
   },
   {
@@ -31441,6 +38173,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002497961657367906
+      }
+    ],
     core: false
   },
   {
@@ -31469,6 +38207,12 @@ export const grantsData = [
     logCount: 48,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04679674240784887
+      }
+    ],
     core: false
   },
   {
@@ -31497,6 +38241,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003948
+      }
+    ],
     core: false
   },
   {
@@ -31525,6 +38275,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -31553,6 +38309,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00895783203035753
+      }
+    ],
     core: false
   },
   {
@@ -31581,6 +38343,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8940522688835698
+      }
+    ],
     core: false
   },
   {
@@ -31609,6 +38377,12 @@ export const grantsData = [
     logCount: 16,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.014425856
+      }
+    ],
     core: false
   },
   {
@@ -31637,6 +38411,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -31665,6 +38445,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009619113930083174
+      }
+    ],
     core: false
   },
   {
@@ -31693,6 +38479,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05446298881749504
+      }
+    ],
     core: false
   },
   {
@@ -31721,6 +38513,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.539
+      }
+    ],
     core: false
   },
   {
@@ -31749,6 +38547,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.2e-05
+      }
+    ],
     core: false
   },
   {
@@ -31777,6 +38581,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00064707
+      }
+    ],
     core: false
   },
   {
@@ -31805,6 +38615,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -31833,6 +38649,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 32.60524247450246
+      }
+    ],
     core: false
   },
   {
@@ -31861,6 +38683,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03857269921761494
+      }
+    ],
     core: false
   },
   {
@@ -31889,6 +38717,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006315408807856626
+      }
+    ],
     core: false
   },
   {
@@ -31917,6 +38751,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000230735457498
+      }
+    ],
     core: false
   },
   {
@@ -31945,6 +38785,12 @@ export const grantsData = [
     logCount: 13,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0228975
+      }
+    ],
     core: false
   },
   {
@@ -31973,6 +38819,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.017442091333962163
+      }
+    ],
     core: false
   },
   {
@@ -32001,6 +38853,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0131537
+      }
+    ],
     core: false
   },
   {
@@ -32029,6 +38887,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -32057,6 +38921,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -32085,6 +38955,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.194258526
+      }
+    ],
     core: false
   },
   {
@@ -32113,6 +38989,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003065205458691146
+      }
+    ],
     core: false
   },
   {
@@ -32141,6 +39023,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -32169,6 +39057,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00200665
+      }
+    ],
     core: false
   },
   {
@@ -32197,6 +39091,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05657251714228446
+      }
+    ],
     core: false
   },
   {
@@ -32225,6 +39125,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003786142624219294
+      }
+    ],
     core: false
   },
   {
@@ -32253,6 +39159,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.80751058746e-07
+      }
+    ],
     core: false
   },
   {
@@ -32281,6 +39193,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0018
+      }
+    ],
     core: false
   },
   {
@@ -32309,6 +39227,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.739116305135754
+      }
+    ],
     core: false
   },
   {
@@ -32337,6 +39261,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -32365,6 +39295,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20494592239863527
+      }
+    ],
     core: false
   },
   {
@@ -32393,6 +39329,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6156243174553355
+      }
+    ],
     core: false
   },
   {
@@ -32421,6 +39363,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003286623253518811
+      }
+    ],
     core: false
   },
   {
@@ -32449,6 +39397,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.042760036827445724
+      }
+    ],
     core: false
   },
   {
@@ -32477,6 +39431,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -32505,6 +39465,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.032175925300214056
+      }
+    ],
     core: false
   },
   {
@@ -32533,6 +39499,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0210116909341143
+      }
+    ],
     core: false
   },
   {
@@ -32561,6 +39533,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08811599839513148
+      }
+    ],
     core: false
   },
   {
@@ -32589,6 +39567,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -32617,6 +39601,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -32645,6 +39635,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.010896646376109402
+      }
+    ],
     core: false
   },
   {
@@ -32673,6 +39669,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001715334881743617
+      }
+    ],
     core: false
   },
   {
@@ -32701,6 +39703,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -32729,6 +39737,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002374946030088299
+      }
+    ],
     core: false
   },
   {
@@ -32757,6 +39771,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.1674652129e-05
+      }
+    ],
     core: false
   },
   {
@@ -32785,6 +39805,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0518885
+      }
+    ],
     core: false
   },
   {
@@ -32813,6 +39839,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0275842147981666
+      }
+    ],
     core: false
   },
   {
@@ -32841,6 +39873,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -32869,6 +39907,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009344414243012415
+      }
+    ],
     core: false
   },
   {
@@ -32897,6 +39941,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001149447878668014
+      }
+    ],
     core: false
   },
   {
@@ -32925,6 +39975,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -32953,6 +40009,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.106419417861458
+      }
+    ],
     core: false
   },
   {
@@ -32981,6 +40043,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.157492702267238
+      }
+    ],
     core: false
   },
   {
@@ -33009,6 +40077,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001089182988646071
+      }
+    ],
     core: false
   },
   {
@@ -33037,6 +40111,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.696211696085812
+      }
+    ],
     core: false
   },
   {
@@ -33065,6 +40145,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.080719920735359
+      }
+    ],
     core: false
   },
   {
@@ -33093,6 +40179,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.382536373142961
+      }
+    ],
     core: false
   },
   {
@@ -33121,6 +40213,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3815271659917368
+      }
+    ],
     core: false
   },
   {
@@ -33149,6 +40247,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000721500000018
+      }
+    ],
     core: false
   },
   {
@@ -33177,6 +40281,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09469738309499826
+      }
+    ],
     core: false
   },
   {
@@ -33205,6 +40315,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10.194126754930199
+      }
+    ],
     core: false
   },
   {
@@ -33233,6 +40349,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04378305647342021
+      }
+    ],
     core: false
   },
   {
@@ -33261,6 +40383,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03813293108000424
+      }
+    ],
     core: false
   },
   {
@@ -33289,6 +40417,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 38.05803209239348
+      }
+    ],
     core: false
   },
   {
@@ -33317,6 +40451,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -33345,6 +40485,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0020672
+      }
+    ],
     core: false
   },
   {
@@ -33373,6 +40519,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01
+      }
+    ],
     core: false
   },
   {
@@ -33401,6 +40553,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0490518282330212
+      }
+    ],
     core: false
   },
   {
@@ -33429,6 +40587,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009808964323961077
+      }
+    ],
     core: false
   },
   {
@@ -33457,6 +40621,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.26345325
+      }
+    ],
     core: false
   },
   {
@@ -33485,6 +40655,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1
+      }
+    ],
     core: false
   },
   {
@@ -33513,6 +40689,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000490026178647946
+      }
+    ],
     core: false
   },
   {
@@ -33541,6 +40723,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3198890281284442
+      }
+    ],
     core: false
   },
   {
@@ -33569,6 +40757,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3198890281284442
+      }
+    ],
     core: false
   },
   {
@@ -33597,6 +40791,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000366049006365
+      }
+    ],
     core: false
   },
   {
@@ -33625,6 +40825,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01
+      }
+    ],
     core: false
   },
   {
@@ -33653,6 +40859,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -33681,6 +40893,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17578244905163462
+      }
+    ],
     core: false
   },
   {
@@ -33709,6 +40927,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -33737,6 +40961,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.030540307567100997
+      }
+    ],
     core: false
   },
   {
@@ -33765,6 +40995,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2351731634646336
+      }
+    ],
     core: false
   },
   {
@@ -33793,6 +41029,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00361
+      }
+    ],
     core: false
   },
   {
@@ -33821,6 +41063,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00036
+      }
+    ],
     core: false
   },
   {
@@ -33849,6 +41097,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.716450818774195
+      }
+    ],
     core: false
   },
   {
@@ -33877,6 +41131,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01145558679291563
+      }
+    ],
     core: false
   },
   {
@@ -33905,6 +41165,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 16.268403060987417
+      }
+    ],
     core: false
   },
   {
@@ -33933,6 +41199,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07946893826896276
+      }
+    ],
     core: false
   },
   {
@@ -33961,6 +41233,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 6.66516915932
+      }
+    ],
     core: false
   },
   {
@@ -33989,6 +41267,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00783157309931116
+      }
+    ],
     core: false
   },
   {
@@ -34017,6 +41301,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10870996935863465
+      }
+    ],
     core: false
   },
   {
@@ -34045,6 +41335,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -34073,6 +41369,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000319835698245
+      }
+    ],
     core: false
   },
   {
@@ -34101,6 +41403,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17683531371140473
+      }
+    ],
     core: false
   },
   {
@@ -34129,6 +41437,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09041405768918305
+      }
+    ],
     core: false
   },
   {
@@ -34157,6 +41471,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.0080081836857815
+      }
+    ],
     core: false
   },
   {
@@ -34185,6 +41505,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.43492859967913516
+      }
+    ],
     core: false
   },
   {
@@ -34213,6 +41539,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002940991554583434
+      }
+    ],
     core: false
   },
   {
@@ -34241,6 +41573,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00957655342561
+      }
+    ],
     core: false
   },
   {
@@ -34269,6 +41607,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03707766776701941
+      }
+    ],
     core: false
   },
   {
@@ -34297,6 +41641,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -34325,6 +41675,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.019321921634600094
+      }
+    ],
     core: false
   },
   {
@@ -34353,6 +41709,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10729755660333791
+      }
+    ],
     core: false
   },
   {
@@ -34381,6 +41743,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -34409,6 +41777,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9111053672265296
+      }
+    ],
     core: false
   },
   {
@@ -34437,6 +41811,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -34465,6 +41845,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2003034853910749
+      }
+    ],
     core: false
   },
   {
@@ -34493,6 +41879,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.5303185221032054
+      }
+    ],
     core: false
   },
   {
@@ -34521,6 +41913,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.032421715
+      }
+    ],
     core: false
   },
   {
@@ -34549,6 +41947,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 24.036748976579855
+      }
+    ],
     core: false
   },
   {
@@ -34577,6 +41981,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 7.818091208584255
+      }
+    ],
     core: false
   },
   {
@@ -34605,6 +42015,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000256552163114749
+      }
+    ],
     core: false
   },
   {
@@ -34633,6 +42049,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -34661,6 +42083,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7624779142631231
+      }
+    ],
     core: false
   },
   {
@@ -34689,6 +42117,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00141026062338
+      }
+    ],
     core: false
   },
   {
@@ -34717,6 +42151,12 @@ export const grantsData = [
     logCount: 338,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 9.926678843459442
+      }
+    ],
     core: false
   },
   {
@@ -34745,6 +42185,12 @@ export const grantsData = [
     logCount: 4,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006072162976382324
+      }
+    ],
     core: false
   },
   {
@@ -34773,6 +42219,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004185105066874102
+      }
+    ],
     core: false
   },
   {
@@ -34801,6 +42253,12 @@ export const grantsData = [
     logCount: 24,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -34829,6 +42287,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01653175
+      }
+    ],
     core: false
   },
   {
@@ -34857,6 +42321,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.028204585589348383
+      }
+    ],
     core: false
   },
   {
@@ -34885,6 +42355,12 @@ export const grantsData = [
     logCount: 330,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.364162657607986
+      }
+    ],
     core: false
   },
   {
@@ -34913,6 +42389,12 @@ export const grantsData = [
     logCount: 330,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.364162657607986
+      }
+    ],
     core: false
   },
   {
@@ -34941,6 +42423,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.9529157617412711
+      }
+    ],
     core: false
   },
   {
@@ -34969,6 +42457,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 59.31821987867755
+      }
+    ],
     core: false
   },
   {
@@ -34997,6 +42491,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05431974804385877
+      }
+    ],
     core: false
   },
   {
@@ -35025,6 +42525,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.42683285944972743
+      }
+    ],
     core: false
   },
   {
@@ -35053,6 +42559,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000148967595774862
+      }
+    ],
     core: false
   },
   {
@@ -35081,6 +42593,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000422939258826237
+      }
+    ],
     core: false
   },
   {
@@ -35109,6 +42627,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.2695996991908785
+      }
+    ],
     core: false
   },
   {
@@ -35137,6 +42661,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -35165,6 +42695,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007411337050323853
+      }
+    ],
     core: false
   },
   {
@@ -35193,6 +42729,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -35221,6 +42763,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08505044
+      }
+    ],
     core: false
   },
   {
@@ -35249,6 +42797,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8943348760030205
+      }
+    ],
     core: false
   },
   {
@@ -35277,6 +42831,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000213545808861931
+      }
+    ],
     core: false
   },
   {
@@ -35305,6 +42865,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3854415
+      }
+    ],
     core: false
   },
   {
@@ -35333,6 +42899,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.21329751505368905
+      }
+    ],
     core: false
   },
   {
@@ -35361,6 +42933,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10312066257010728
+      }
+    ],
     core: false
   },
   {
@@ -35389,6 +42967,12 @@ export const grantsData = [
     logCount: 14,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00095
+      }
+    ],
     core: false
   },
   {
@@ -35417,6 +43001,12 @@ export const grantsData = [
     logCount: 69,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7828643919567219
+      }
+    ],
     core: false
   },
   {
@@ -35445,6 +43035,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.110324
+      }
+    ],
     core: false
   },
   {
@@ -35473,6 +43069,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.25156700272419286
+      }
+    ],
     core: false
   },
   {
@@ -35501,6 +43103,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.23936
+      }
+    ],
     core: false
   },
   {
@@ -35529,6 +43137,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -35557,6 +43171,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00965
+      }
+    ],
     core: false
   },
   {
@@ -35585,6 +43205,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.027083497857443548
+      }
+    ],
     core: false
   },
   {
@@ -35613,6 +43239,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.276088038
+      }
+    ],
     core: false
   },
   {
@@ -35641,6 +43273,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6878643208920039
+      }
+    ],
     core: false
   },
   {
@@ -35669,6 +43307,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8619712334644314
+      }
+    ],
     core: false
   },
   {
@@ -35697,6 +43341,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05634286354531883
+      }
+    ],
     core: false
   },
   {
@@ -35725,6 +43375,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.21895577669134764
+      }
+    ],
     core: false
   },
   {
@@ -35753,6 +43409,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -35781,6 +43443,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.032421025
+      }
+    ],
     core: false
   },
   {
@@ -35809,6 +43477,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002802374180280006
+      }
+    ],
     core: false
   },
   {
@@ -35837,6 +43511,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0986632394700674
+      }
+    ],
     core: false
   },
   {
@@ -35865,6 +43545,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.8050534041246236
+      }
+    ],
     core: false
   },
   {
@@ -35893,6 +43579,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.15513525941046516
+      }
+    ],
     core: false
   },
   {
@@ -35921,6 +43613,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.061131264183299
+      }
+    ],
     core: false
   },
   {
@@ -35949,6 +43647,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3934278833689937
+      }
+    ],
     core: false
   },
   {
@@ -35977,6 +43681,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.4773816190288083
+      }
+    ],
     core: false
   },
   {
@@ -36005,6 +43715,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.4773816190288083
+      }
+    ],
     core: false
   },
   {
@@ -36033,6 +43749,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.845449158403553
+      }
+    ],
     core: false
   },
   {
@@ -36061,6 +43783,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9516051988134582
+      }
+    ],
     core: false
   },
   {
@@ -36089,6 +43817,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -36117,6 +43851,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.66262199581722
+      }
+    ],
     core: false
   },
   {
@@ -36145,6 +43885,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000476
+      }
+    ],
     core: false
   },
   {
@@ -36173,6 +43919,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.005645669390534214
+      }
+    ],
     core: false
   },
   {
@@ -36201,6 +43953,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -36229,6 +43987,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03568360293332395
+      }
+    ],
     core: false
   },
   {
@@ -36257,6 +44021,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03568360293332395
+      }
+    ],
     core: false
   },
   {
@@ -36285,6 +44055,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01955
+      }
+    ],
     core: false
   },
   {
@@ -36313,6 +44089,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000148967595774862
+      }
+    ],
     core: false
   },
   {
@@ -36341,6 +44123,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -36369,6 +44157,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.752601999746618
+      }
+    ],
     core: false
   },
   {
@@ -36397,6 +44191,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04834065299274297
+      }
+    ],
     core: false
   },
   {
@@ -36425,6 +44225,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.028808271899425236
+      }
+    ],
     core: false
   },
   {
@@ -36453,6 +44259,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.618739579435957
+      }
+    ],
     core: false
   },
   {
@@ -36481,6 +44293,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -36509,6 +44327,12 @@ export const grantsData = [
     logCount: 15,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.5152298685e-05
+      }
+    ],
     core: false
   },
   {
@@ -36537,6 +44361,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.054621296465508624
+      }
+    ],
     core: false
   },
   {
@@ -36565,6 +44395,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03351020069
+      }
+    ],
     core: false
   },
   {
@@ -36593,6 +44429,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01045
+      }
+    ],
     core: false
   },
   {
@@ -36621,6 +44463,12 @@ export const grantsData = [
     logCount: 44,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001191300460951
+      }
+    ],
     core: false
   },
   {
@@ -36649,6 +44497,12 @@ export const grantsData = [
     logCount: 241,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06483708816276122
+      }
+    ],
     core: false
   },
   {
@@ -36677,6 +44531,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -36705,6 +44565,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.066602608
+      }
+    ],
     core: false
   },
   {
@@ -36733,6 +44599,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07
+      }
+    ],
     core: false
   },
   {
@@ -36761,6 +44633,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002404983281553033
+      }
+    ],
     core: false
   },
   {
@@ -36789,6 +44667,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.010285974462247
+      }
+    ],
     core: false
   },
   {
@@ -36817,6 +44701,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.76247474170956
+      }
+    ],
     core: false
   },
   {
@@ -36845,6 +44735,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.463248164699382
+      }
+    ],
     core: false
   },
   {
@@ -36873,6 +44769,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -36901,6 +44803,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.012095052621985921
+      }
+    ],
     core: false
   },
   {
@@ -36929,6 +44837,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -36957,6 +44871,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -36985,6 +44905,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -37013,6 +44939,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09336112510005659
+      }
+    ],
     core: false
   },
   {
@@ -37041,6 +44973,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000115672404078
+      }
+    ],
     core: false
   },
   {
@@ -37069,6 +45007,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.022880489440429565
+      }
+    ],
     core: false
   },
   {
@@ -37097,6 +45041,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0035
+      }
+    ],
     core: false
   },
   {
@@ -37125,6 +45075,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01557931278509128
+      }
+    ],
     core: false
   },
   {
@@ -37153,6 +45109,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2532262375592473
+      }
+    ],
     core: false
   },
   {
@@ -37181,6 +45143,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.062069696879490543
+      }
+    ],
     core: false
   },
   {
@@ -37209,6 +45177,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1555151447594307
+      }
+    ],
     core: false
   },
   {
@@ -37237,6 +45211,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -37265,6 +45245,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000170881131225
+      }
+    ],
     core: false
   },
   {
@@ -37293,6 +45279,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02756425978974162
+      }
+    ],
     core: false
   },
   {
@@ -37321,6 +45313,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0116096
+      }
+    ],
     core: false
   },
   {
@@ -37349,6 +45347,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2037862788634216
+      }
+    ],
     core: false
   },
   {
@@ -37377,6 +45381,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01005
+      }
+    ],
     core: false
   },
   {
@@ -37405,6 +45415,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004883
+      }
+    ],
     core: false
   },
   {
@@ -37433,6 +45449,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04181579
+      }
+    ],
     core: false
   },
   {
@@ -37461,6 +45483,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00851363124843096
+      }
+    ],
     core: false
   },
   {
@@ -37489,6 +45517,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06296588091455142
+      }
+    ],
     core: false
   },
   {
@@ -37517,6 +45551,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.020275448754191114
+      }
+    ],
     core: false
   },
   {
@@ -37545,6 +45585,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001995
+      }
+    ],
     core: false
   },
   {
@@ -37573,6 +45619,12 @@ export const grantsData = [
     logCount: 330,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.364162657607986
+      }
+    ],
     core: false
   },
   {
@@ -37601,6 +45653,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -37629,6 +45687,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002583631220753219
+      }
+    ],
     core: false
   },
   {
@@ -37657,6 +45721,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0619530489259746
+      }
+    ],
     core: false
   },
   {
@@ -37685,6 +45755,12 @@ export const grantsData = [
     logCount: 12,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04148559699869563
+      }
+    ],
     core: false
   },
   {
@@ -37713,6 +45789,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000538017694662
+      }
+    ],
     core: false
   },
   {
@@ -37741,6 +45823,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -37769,6 +45857,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.71942726387841
+      }
+    ],
     core: false
   },
   {
@@ -37797,6 +45891,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.111409293743
+      }
+    ],
     core: false
   },
   {
@@ -37825,6 +45925,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.14505859335317636
+      }
+    ],
     core: false
   },
   {
@@ -37853,6 +45959,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000238970082834
+      }
+    ],
     core: false
   },
   {
@@ -37881,6 +45993,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0253541
+      }
+    ],
     core: false
   },
   {
@@ -37909,6 +46027,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.011490920311931
+      }
+    ],
     core: false
   },
   {
@@ -37937,6 +46061,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04374844855282755
+      }
+    ],
     core: false
   },
   {
@@ -37965,6 +46095,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -37993,6 +46129,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000741063655878
+      }
+    ],
     core: false
   },
   {
@@ -38021,6 +46163,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03555614
+      }
+    ],
     core: false
   },
   {
@@ -38049,6 +46197,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.212277859618e-06
+      }
+    ],
     core: false
   },
   {
@@ -38077,6 +46231,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00829987
+      }
+    ],
     core: false
   },
   {
@@ -38105,6 +46265,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -38133,6 +46299,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.16450044260419772
+      }
+    ],
     core: false
   },
   {
@@ -38161,6 +46333,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 191.74132999736284
+      }
+    ],
     core: false
   },
   {
@@ -38189,6 +46367,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -38217,6 +46401,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.4773816190288083
+      }
+    ],
     core: false
   },
   {
@@ -38245,6 +46435,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00187
+      }
+    ],
     core: false
   },
   {
@@ -38273,6 +46469,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.031990263
+      }
+    ],
     core: false
   },
   {
@@ -38301,6 +46503,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.34294025506960396
+      }
+    ],
     core: false
   },
   {
@@ -38329,6 +46537,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -38357,6 +46571,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04006884
+      }
+    ],
     core: false
   },
   {
@@ -38385,6 +46605,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -38413,6 +46639,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00309505
+      }
+    ],
     core: false
   },
   {
@@ -38441,6 +46673,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1875181679273359
+      }
+    ],
     core: false
   },
   {
@@ -38469,6 +46707,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01241487281908224
+      }
+    ],
     core: false
   },
   {
@@ -38497,6 +46741,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0166326
+      }
+    ],
     core: false
   },
   {
@@ -38525,6 +46775,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.13594538255478508
+      }
+    ],
     core: false
   },
   {
@@ -38553,6 +46809,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.448783462e-05
+      }
+    ],
     core: false
   },
   {
@@ -38581,6 +46843,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00046236514
+      }
+    ],
     core: false
   },
   {
@@ -38609,6 +46877,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -38637,6 +46911,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -38665,6 +46945,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.9935939150173776
+      }
+    ],
     core: false
   },
   {
@@ -38693,6 +46979,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0233495
+      }
+    ],
     core: false
   },
   {
@@ -38721,6 +47013,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -38749,6 +47047,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.15618084390480258
+      }
+    ],
     core: false
   },
   {
@@ -38777,6 +47081,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.8956364363306e-05
+      }
+    ],
     core: false
   },
   {
@@ -38805,6 +47115,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6170606537116325
+      }
+    ],
     core: false
   },
   {
@@ -38833,6 +47149,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00095
+      }
+    ],
     core: false
   },
   {
@@ -38861,6 +47183,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0059944
+      }
+    ],
     core: false
   },
   {
@@ -38889,6 +47217,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.034228
+      }
+    ],
     core: false
   },
   {
@@ -38917,6 +47251,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.1011280122504075
+      }
+    ],
     core: false
   },
   {
@@ -38945,6 +47285,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -38973,6 +47319,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8186898600598842
+      }
+    ],
     core: false
   },
   {
@@ -39001,6 +47353,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -39029,6 +47387,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09035114711537795
+      }
+    ],
     core: false
   },
   {
@@ -39057,6 +47421,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -39085,6 +47455,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -39113,6 +47489,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2911251845549028
+      }
+    ],
     core: false
   },
   {
@@ -39141,6 +47523,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.356509388787789
+      }
+    ],
     core: false
   },
   {
@@ -39169,6 +47557,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0220954035
+      }
+    ],
     core: false
   },
   {
@@ -39197,6 +47591,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 157.70330668733865
+      }
+    ],
     core: false
   },
   {
@@ -39225,6 +47625,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3295474899562871
+      }
+    ],
     core: false
   },
   {
@@ -39253,6 +47659,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2611942609588517
+      }
+    ],
     core: false
   },
   {
@@ -39281,6 +47693,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.982618151604571
+      }
+    ],
     core: false
   },
   {
@@ -39309,6 +47727,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2446385
+      }
+    ],
     core: false
   },
   {
@@ -39337,6 +47761,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000320364985647
+      }
+    ],
     core: false
   },
   {
@@ -39365,6 +47795,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000558946
+      }
+    ],
     core: false
   },
   {
@@ -39393,6 +47829,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07024675592707728
+      }
+    ],
     core: false
   },
   {
@@ -39421,6 +47863,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.12120908042020614
+      }
+    ],
     core: false
   },
   {
@@ -39449,6 +47897,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.19786711493637466
+      }
+    ],
     core: false
   },
   {
@@ -39477,6 +47931,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -39505,6 +47965,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1
+      }
+    ],
     core: false
   },
   {
@@ -39533,6 +47999,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00095
+      }
+    ],
     core: false
   },
   {
@@ -39561,6 +48033,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02024278833864803
+      }
+    ],
     core: false
   },
   {
@@ -39589,6 +48067,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000428588
+      }
+    ],
     core: false
   },
   {
@@ -39617,6 +48101,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -39645,6 +48135,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.008915125242891779
+      }
+    ],
     core: false
   },
   {
@@ -39673,6 +48169,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.029121722491648874
+      }
+    ],
     core: false
   },
   {
@@ -39701,6 +48203,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.9674669394047983
+      }
+    ],
     core: false
   },
   {
@@ -39729,6 +48237,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 6.5423683802178125
+      }
+    ],
     core: false
   },
   {
@@ -39757,6 +48271,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00305
+      }
+    ],
     core: false
   },
   {
@@ -39785,6 +48305,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3361232881
+      }
+    ],
     core: false
   },
   {
@@ -39813,6 +48339,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7699068286485934
+      }
+    ],
     core: false
   },
   {
@@ -39841,6 +48373,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.7338025949366664
+      }
+    ],
     core: false
   },
   {
@@ -39869,6 +48407,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000514040199687
+      }
+    ],
     core: false
   },
   {
@@ -39897,6 +48441,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006817876449987606
+      }
+    ],
     core: false
   },
   {
@@ -39925,6 +48475,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.014316305244037845
+      }
+    ],
     core: false
   },
   {
@@ -39953,6 +48509,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000457476022899
+      }
+    ],
     core: false
   },
   {
@@ -39981,6 +48543,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0196029
+      }
+    ],
     core: false
   },
   {
@@ -40009,6 +48577,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04201697196128631
+      }
+    ],
     core: false
   },
   {
@@ -40037,6 +48611,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -40065,6 +48645,12 @@ export const grantsData = [
     logCount: 163,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04146837013833709
+      }
+    ],
     core: false
   },
   {
@@ -40093,6 +48679,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000847440578586
+      }
+    ],
     core: false
   },
   {
@@ -40121,6 +48713,12 @@ export const grantsData = [
     logCount: 1,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 6.189647152100557
+      }
+    ],
     core: false
   },
   {
@@ -40149,6 +48747,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.30414148718341805
+      }
+    ],
     core: false
   },
   {
@@ -40177,6 +48781,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08644582274914646
+      }
+    ],
     core: false
   },
   {
@@ -40205,6 +48815,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0523580914861375
+      }
+    ],
     core: false
   },
   {
@@ -40233,6 +48849,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03571969183023827
+      }
+    ],
     core: false
   },
   {
@@ -40261,6 +48883,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.11589287538476524
+      }
+    ],
     core: false
   },
   {
@@ -40289,6 +48917,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001073946957552
+      }
+    ],
     core: false
   },
   {
@@ -40317,6 +48951,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.008298235244876115
+      }
+    ],
     core: false
   },
   {
@@ -40345,6 +48985,12 @@ export const grantsData = [
     logCount: 41,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.793353993115681
+      }
+    ],
     core: false
   },
   {
@@ -40373,6 +49019,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.21168301552063887
+      }
+    ],
     core: false
   },
   {
@@ -40401,6 +49053,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.21853569853479032
+      }
+    ],
     core: false
   },
   {
@@ -40429,6 +49087,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02646876495857363
+      }
+    ],
     core: false
   },
   {
@@ -40457,6 +49121,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000475
+      }
+    ],
     core: false
   },
   {
@@ -40485,6 +49155,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.3548629133855812
+      }
+    ],
     core: false
   },
   {
@@ -40513,6 +49189,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04082
+      }
+    ],
     core: false
   },
   {
@@ -40541,6 +49223,12 @@ export const grantsData = [
     logCount: 330,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.364162657607986
+      }
+    ],
     core: false
   },
   {
@@ -40569,6 +49257,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.027411773721780983
+      }
+    ],
     core: false
   },
   {
@@ -40597,6 +49291,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.021105483203589483
+      }
+    ],
     core: false
   },
   {
@@ -40625,6 +49325,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006343667512678652
+      }
+    ],
     core: false
   },
   {
@@ -40653,6 +49359,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.023845
+      }
+    ],
     core: false
   },
   {
@@ -40681,6 +49393,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0708139925
+      }
+    ],
     core: false
   },
   {
@@ -40709,6 +49427,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 59.737162737081135
+      }
+    ],
     core: false
   },
   {
@@ -40737,6 +49461,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.2859311660059562
+      }
+    ],
     core: false
   },
   {
@@ -40765,6 +49495,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.4e-05
+      }
+    ],
     core: false
   },
   {
@@ -40793,6 +49529,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1303720426875687
+      }
+    ],
     core: false
   },
   {
@@ -40821,6 +49563,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 4.748891731631031
+      }
+    ],
     core: false
   },
   {
@@ -40849,6 +49597,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -40877,6 +49631,12 @@ export const grantsData = [
     logCount: 42,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8274277126131672
+      }
+    ],
     core: false
   },
   {
@@ -40905,6 +49665,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05186248327830368
+      }
+    ],
     core: false
   },
   {
@@ -40933,6 +49699,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -40961,6 +49733,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.014950017401746209
+      }
+    ],
     core: false
   },
   {
@@ -40989,6 +49767,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.014952721951812395
+      }
+    ],
     core: false
   },
   {
@@ -41017,6 +49801,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.8467748456366184
+      }
+    ],
     core: false
   },
   {
@@ -41045,6 +49835,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02756425978974162
+      }
+    ],
     core: false
   },
   {
@@ -41073,6 +49869,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9407302467178521
+      }
+    ],
     core: false
   },
   {
@@ -41101,6 +49903,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000616483587880513
+      }
+    ],
     core: false
   },
   {
@@ -41129,6 +49937,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000256552163114749
+      }
+    ],
     core: false
   },
   {
@@ -41157,6 +49971,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.10431709118823583
+      }
+    ],
     core: false
   },
   {
@@ -41185,6 +50005,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.015119381
+      }
+    ],
     core: false
   },
   {
@@ -41213,6 +50039,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00286431
+      }
+    ],
     core: false
   },
   {
@@ -41241,6 +50073,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.005611222841253567
+      }
+    ],
     core: false
   },
   {
@@ -41269,6 +50107,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -41297,6 +50141,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.26006531562827856
+      }
+    ],
     core: false
   },
   {
@@ -41325,6 +50175,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0825654402237
+      }
+    ],
     core: false
   },
   {
@@ -41353,6 +50209,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00231420515441936
+      }
+    ],
     core: false
   },
   {
@@ -41381,6 +50243,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000241751832614835
+      }
+    ],
     core: false
   },
   {
@@ -41409,6 +50277,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.015451589943940974
+      }
+    ],
     core: false
   },
   {
@@ -41437,6 +50311,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00756095
+      }
+    ],
     core: false
   },
   {
@@ -41465,6 +50345,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04590800252029326
+      }
+    ],
     core: false
   },
   {
@@ -41493,6 +50379,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -41521,6 +50413,12 @@ export const grantsData = [
     logCount: 165,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20832054277706583
+      }
+    ],
     core: false
   },
   {
@@ -41549,6 +50447,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.018331284
+      }
+    ],
     core: false
   },
   {
@@ -41577,6 +50481,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.0635486789534
+      }
+    ],
     core: false
   },
   {
@@ -41605,6 +50515,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.255777685
+      }
+    ],
     core: false
   },
   {
@@ -41633,6 +50549,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2101811675292327
+      }
+    ],
     core: false
   },
   {
@@ -41661,6 +50583,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000367986554103
+      }
+    ],
     core: false
   },
   {
@@ -41689,6 +50617,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01813772686404474
+      }
+    ],
     core: false
   },
   {
@@ -41717,6 +50651,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0643
+      }
+    ],
     core: false
   },
   {
@@ -41745,6 +50685,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0009
+      }
+    ],
     core: false
   },
   {
@@ -41773,6 +50719,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4441674218068209
+      }
+    ],
     core: false
   },
   {
@@ -41801,6 +50753,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.032585
+      }
+    ],
     core: false
   },
   {
@@ -41829,6 +50787,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03619916942138775
+      }
+    ],
     core: false
   },
   {
@@ -41857,6 +50821,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -41885,6 +50855,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.397271284445494
+      }
+    ],
     core: false
   },
   {
@@ -41913,6 +50889,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.397271284445494
+      }
+    ],
     core: false
   },
   {
@@ -41941,6 +50923,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10.74168759893854
+      }
+    ],
     core: false
   },
   {
@@ -41969,6 +50957,12 @@ export const grantsData = [
     logCount: 163,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04146837013833709
+      }
+    ],
     core: false
   },
   {
@@ -41997,6 +50991,12 @@ export const grantsData = [
     logCount: 2,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -42025,6 +51025,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4235218257530109
+      }
+    ],
     core: false
   },
   {
@@ -42053,6 +51059,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003038191385572
+      }
+    ],
     core: false
   },
   {
@@ -42081,6 +51093,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -42109,6 +51127,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.005611222841253567
+      }
+    ],
     core: false
   },
   {
@@ -42137,6 +51161,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.748279649198985
+      }
+    ],
     core: false
   },
   {
@@ -42165,6 +51195,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3075646205712433
+      }
+    ],
     core: false
   },
   {
@@ -42193,6 +51229,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.448783462e-05
+      }
+    ],
     core: false
   },
   {
@@ -42221,6 +51263,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00095
+      }
+    ],
     core: false
   },
   {
@@ -42249,6 +51297,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -42277,6 +51331,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01
+      }
+    ],
     core: false
   },
   {
@@ -42305,6 +51365,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0097252367
+      }
+    ],
     core: false
   },
   {
@@ -42333,6 +51399,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.27225661436266896
+      }
+    ],
     core: false
   },
   {
@@ -42361,6 +51433,12 @@ export const grantsData = [
     logCount: 16,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07151875358697604
+      }
+    ],
     core: false
   },
   {
@@ -42389,6 +51467,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06296588091455142
+      }
+    ],
     core: false
   },
   {
@@ -42417,6 +51501,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0021257883252997
+      }
+    ],
     core: false
   },
   {
@@ -42445,6 +51535,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.49239910925381
+      }
+    ],
     core: false
   },
   {
@@ -42473,6 +51569,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01258874
+      }
+    ],
     core: false
   },
   {
@@ -42501,6 +51603,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4722250729396669
+      }
+    ],
     core: false
   },
   {
@@ -42529,6 +51637,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.139948875
+      }
+    ],
     core: false
   },
   {
@@ -42557,6 +51671,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.023325
+      }
+    ],
     core: false
   },
   {
@@ -42585,6 +51705,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.14144280212256857
+      }
+    ],
     core: false
   },
   {
@@ -42613,6 +51739,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03286105
+      }
+    ],
     core: false
   },
   {
@@ -42641,6 +51773,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.69191399e-06
+      }
+    ],
     core: false
   },
   {
@@ -42669,6 +51807,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002725344
+      }
+    ],
     core: false
   },
   {
@@ -42697,6 +51841,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04661475125705624
+      }
+    ],
     core: false
   },
   {
@@ -42725,6 +51875,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2954835062602649
+      }
+    ],
     core: false
   },
   {
@@ -42753,6 +51909,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0111
+      }
+    ],
     core: false
   },
   {
@@ -42781,6 +51943,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.12963318221930253
+      }
+    ],
     core: false
   },
   {
@@ -42809,6 +51977,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04844695062572008
+      }
+    ],
     core: false
   },
   {
@@ -42837,6 +52011,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0133375
+      }
+    ],
     core: false
   },
   {
@@ -42865,6 +52045,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.15556729380105883
+      }
+    ],
     core: false
   },
   {
@@ -42893,6 +52079,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4963019891281072
+      }
+    ],
     core: false
   },
   {
@@ -42921,6 +52113,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.18232894818460943
+      }
+    ],
     core: false
   },
   {
@@ -42949,6 +52147,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1353416579485043
+      }
+    ],
     core: false
   },
   {
@@ -42977,6 +52181,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000558452728979491
+      }
+    ],
     core: false
   },
   {
@@ -43005,6 +52215,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.017301826137694404
+      }
+    ],
     core: false
   },
   {
@@ -43033,6 +52249,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -43061,6 +52283,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.14144280212256857
+      }
+    ],
     core: false
   },
   {
@@ -43089,6 +52317,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007030684196020282
+      }
+    ],
     core: false
   },
   {
@@ -43117,6 +52351,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.19957470340713657
+      }
+    ],
     core: false
   },
   {
@@ -43145,6 +52385,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 11.240228
+      }
+    ],
     core: false
   },
   {
@@ -43173,6 +52419,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.05685139820923543
+      }
+    ],
     core: false
   },
   {
@@ -43201,6 +52453,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0010336
+      }
+    ],
     core: false
   },
   {
@@ -43229,6 +52487,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006238933796285881
+      }
+    ],
     core: false
   },
   {
@@ -43257,6 +52521,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -43285,6 +52555,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000745469702313
+      }
+    ],
     core: false
   },
   {
@@ -43313,6 +52589,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.2756665748351028
+      }
+    ],
     core: false
   },
   {
@@ -43341,6 +52623,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000515795748993
+      }
+    ],
     core: false
   },
   {
@@ -43369,6 +52657,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.07786058487000384
+      }
+    ],
     core: false
   },
   {
@@ -43397,6 +52691,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -43425,6 +52725,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.586314764184426
+      }
+    ],
     core: false
   },
   {
@@ -43453,6 +52759,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01885735343233377
+      }
+    ],
     core: false
   },
   {
@@ -43481,6 +52793,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 3.09617331348636
+      }
+    ],
     core: false
   },
   {
@@ -43509,6 +52827,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02
+      }
+    ],
     core: false
   },
   {
@@ -43537,6 +52861,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.8973713321511756
+      }
+    ],
     core: false
   },
   {
@@ -43565,6 +52895,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -43593,6 +52929,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002755
+      }
+    ],
     core: false
   },
   {
@@ -43621,6 +52963,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01183007817756155
+      }
+    ],
     core: false
   },
   {
@@ -43649,6 +52997,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08788881804138998
+      }
+    ],
     core: false
   },
   {
@@ -43677,6 +53031,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.19074841245176077
+      }
+    ],
     core: false
   },
   {
@@ -43705,6 +53065,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002293010858183873
+      }
+    ],
     core: false
   },
   {
@@ -43733,6 +53099,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0008835
+      }
+    ],
     core: false
   },
   {
@@ -43761,6 +53133,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.152370723034007
+      }
+    ],
     core: false
   },
   {
@@ -43789,6 +53167,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006880869690769701
+      }
+    ],
     core: false
   },
   {
@@ -43817,6 +53201,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7814808738926693
+      }
+    ],
     core: false
   },
   {
@@ -43845,6 +53235,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 21.591821964067744
+      }
+    ],
     core: false
   },
   {
@@ -43873,6 +53269,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17802934005416068
+      }
+    ],
     core: false
   },
   {
@@ -43901,6 +53303,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -43929,6 +53337,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0852425139097011
+      }
+    ],
     core: false
   },
   {
@@ -43957,6 +53371,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.25460717977031094
+      }
+    ],
     core: false
   },
   {
@@ -43985,6 +53405,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 9.931834887128492
+      }
+    ],
     core: false
   },
   {
@@ -44013,6 +53439,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000189
+      }
+    ],
     core: false
   },
   {
@@ -44041,6 +53473,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001
+      }
+    ],
     core: false
   },
   {
@@ -44069,6 +53507,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.5393970857215744
+      }
+    ],
     core: false
   },
   {
@@ -44097,6 +53541,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08291539810343938
+      }
+    ],
     core: false
   },
   {
@@ -44125,6 +53575,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00043111250973
+      }
+    ],
     core: false
   },
   {
@@ -44153,6 +53609,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3321678660567032
+      }
+    ],
     core: false
   },
   {
@@ -44181,6 +53643,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -44209,6 +53677,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0267
+      }
+    ],
     core: false
   },
   {
@@ -44237,6 +53711,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.675602088
+      }
+    ],
     core: false
   },
   {
@@ -44265,6 +53745,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000356233880688
+      }
+    ],
     core: false
   },
   {
@@ -44293,6 +53779,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.3512673644791537
+      }
+    ],
     core: false
   },
   {
@@ -44321,6 +53813,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -44349,6 +53847,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -44377,6 +53881,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -44405,6 +53915,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -44433,6 +53949,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00065
+      }
+    ],
     core: false
   },
   {
@@ -44461,6 +53983,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000853402090443
+      }
+    ],
     core: false
   },
   {
@@ -44489,6 +54017,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04866880382558991
+      }
+    ],
     core: false
   },
   {
@@ -44517,6 +54051,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.4137131873526876
+      }
+    ],
     core: false
   },
   {
@@ -44545,6 +54085,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -44573,6 +54119,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00029355
+      }
+    ],
     core: false
   },
   {
@@ -44601,6 +54153,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.13338048
+      }
+    ],
     core: false
   },
   {
@@ -44629,6 +54187,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.15098120444472993
+      }
+    ],
     core: false
   },
   {
@@ -44657,6 +54221,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7430062048868835
+      }
+    ],
     core: false
   },
   {
@@ -44685,6 +54255,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00285
+      }
+    ],
     core: false
   },
   {
@@ -44713,6 +54289,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004661155644332668
+      }
+    ],
     core: false
   },
   {
@@ -44741,6 +54323,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2629727
+      }
+    ],
     core: false
   },
   {
@@ -44769,6 +54357,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00285
+      }
+    ],
     core: false
   },
   {
@@ -44797,6 +54391,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00285
+      }
+    ],
     core: false
   },
   {
@@ -44825,6 +54425,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0041562
+      }
+    ],
     core: false
   },
   {
@@ -44853,6 +54459,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.15844016867588318
+      }
+    ],
     core: false
   },
   {
@@ -44881,6 +54493,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007437120109692
+      }
+    ],
     core: false
   },
   {
@@ -44909,6 +54527,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002446013233026695
+      }
+    ],
     core: false
   },
   {
@@ -44937,6 +54561,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.33945053961430516
+      }
+    ],
     core: false
   },
   {
@@ -44965,6 +54595,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03
+      }
+    ],
     core: false
   },
   {
@@ -44993,6 +54629,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1250629949047554
+      }
+    ],
     core: false
   },
   {
@@ -45021,6 +54663,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04811840390918222
+      }
+    ],
     core: false
   },
   {
@@ -45049,6 +54697,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.014950017401746209
+      }
+    ],
     core: false
   },
   {
@@ -45077,6 +54731,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.6829985518e-05
+      }
+    ],
     core: false
   },
   {
@@ -45105,6 +54765,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -45133,6 +54799,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0325
+      }
+    ],
     core: false
   },
   {
@@ -45161,6 +54833,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -45189,6 +54867,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01233
+      }
+    ],
     core: false
   },
   {
@@ -45217,6 +54901,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -45245,6 +54935,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0169134054101311
+      }
+    ],
     core: false
   },
   {
@@ -45273,6 +54969,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000416113334805
+      }
+    ],
     core: false
   },
   {
@@ -45301,6 +55003,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.28308808287707254
+      }
+    ],
     core: false
   },
   {
@@ -45329,6 +55037,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03571969183023827
+      }
+    ],
     core: false
   },
   {
@@ -45357,6 +55071,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.04190433470300362
+      }
+    ],
     core: false
   },
   {
@@ -45385,6 +55105,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00042706139784
+      }
+    ],
     core: false
   },
   {
@@ -45413,6 +55139,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.16195132378343968
+      }
+    ],
     core: false
   },
   {
@@ -45441,6 +55173,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.068904201
+      }
+    ],
     core: false
   },
   {
@@ -45469,6 +55207,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004
+      }
+    ],
     core: false
   },
   {
@@ -45497,6 +55241,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.006817876449987606
+      }
+    ],
     core: false
   },
   {
@@ -45525,6 +55275,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.337874653818365
+      }
+    ],
     core: false
   },
   {
@@ -45553,6 +55309,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.08062180213938996
+      }
+    ],
     core: false
   },
   {
@@ -45581,6 +55343,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.029243047475439654
+      }
+    ],
     core: false
   },
   {
@@ -45609,6 +55377,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7663679304197007
+      }
+    ],
     core: false
   },
   {
@@ -45637,6 +55411,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7663679304197007
+      }
+    ],
     core: false
   },
   {
@@ -45665,6 +55445,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -45693,6 +55479,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000538943557859847
+      }
+    ],
     core: false
   },
   {
@@ -45721,6 +55513,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0654001889038013
+      }
+    ],
     core: false
   },
   {
@@ -45749,6 +55547,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.022353936571975
+      }
+    ],
     core: false
   },
   {
@@ -45777,6 +55581,12 @@ export const grantsData = [
     logCount: 33,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6885088957907505
+      }
+    ],
     core: false
   },
   {
@@ -45805,6 +55615,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7663679304197007
+      }
+    ],
     core: false
   },
   {
@@ -45833,6 +55649,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.638768
+      }
+    ],
     core: false
   },
   {
@@ -45861,6 +55683,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0579840495656
+      }
+    ],
     core: false
   },
   {
@@ -45889,6 +55717,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -45917,6 +55751,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.056724597398594055
+      }
+    ],
     core: false
   },
   {
@@ -45945,6 +55785,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -45973,6 +55819,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.497039
+      }
+    ],
     core: false
   },
   {
@@ -46001,6 +55853,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.593235077438963
+      }
+    ],
     core: false
   },
   {
@@ -46029,6 +55887,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.09911853524797547
+      }
+    ],
     core: false
   },
   {
@@ -46057,6 +55921,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.015396
+      }
+    ],
     core: false
   },
   {
@@ -46085,6 +55955,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007108228394715776
+      }
+    ],
     core: false
   },
   {
@@ -46113,6 +55989,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1337
+      }
+    ],
     core: false
   },
   {
@@ -46141,6 +56023,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.010640054176729
+      }
+    ],
     core: false
   },
   {
@@ -46169,6 +56057,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.3824428324e-05
+      }
+    ],
     core: false
   },
   {
@@ -46197,6 +56091,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.6401013481254659
+      }
+    ],
     core: false
   },
   {
@@ -46225,6 +56125,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00243448
+      }
+    ],
     core: false
   },
   {
@@ -46253,6 +56159,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001320696658029
+      }
+    ],
     core: false
   },
   {
@@ -46281,6 +56193,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01557931278509128
+      }
+    ],
     core: false
   },
   {
@@ -46309,6 +56227,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0406164055
+      }
+    ],
     core: false
   },
   {
@@ -46337,6 +56261,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.635705385
+      }
+    ],
     core: false
   },
   {
@@ -46365,6 +56295,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.015
+      }
+    ],
     core: false
   },
   {
@@ -46393,6 +56329,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.16195132378343968
+      }
+    ],
     core: false
   },
   {
@@ -46421,6 +56363,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 16.268403060987417
+      }
+    ],
     core: false
   },
   {
@@ -46449,6 +56397,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00095
+      }
+    ],
     core: false
   },
   {
@@ -46477,6 +56431,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004086
+      }
+    ],
     core: false
   },
   {
@@ -46505,6 +56465,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00242349
+      }
+    ],
     core: false
   },
   {
@@ -46533,6 +56499,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -46561,6 +56533,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03265723235692816
+      }
+    ],
     core: false
   },
   {
@@ -46589,6 +56567,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002503398282940843
+      }
+    ],
     core: false
   },
   {
@@ -46617,6 +56601,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.007268288717209312
+      }
+    ],
     core: false
   },
   {
@@ -46645,6 +56635,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -46673,6 +56669,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.205337581473022
+      }
+    ],
     core: false
   },
   {
@@ -46701,6 +56703,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.2037862788634216
+      }
+    ],
     core: false
   },
   {
@@ -46729,6 +56737,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.1305352934399386
+      }
+    ],
     core: false
   },
   {
@@ -46757,6 +56771,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2.1773885976367082
+      }
+    ],
     core: false
   },
   {
@@ -46785,6 +56805,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0020742
+      }
+    ],
     core: false
   },
   {
@@ -46813,6 +56839,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.305174784926079
+      }
+    ],
     core: false
   },
   {
@@ -46841,6 +56873,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.43506874408066015
+      }
+    ],
     core: false
   },
   {
@@ -46869,6 +56907,12 @@ export const grantsData = [
     logCount: 8,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001735
+      }
+    ],
     core: false
   },
   {
@@ -46897,6 +56941,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.12339730548548916
+      }
+    ],
     core: false
   },
   {
@@ -46925,6 +56975,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001802836913047
+      }
+    ],
     core: false
   },
   {
@@ -46953,6 +57009,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0004
+      }
+    ],
     core: false
   },
   {
@@ -46981,6 +57043,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.20605370242577056
+      }
+    ],
     core: false
   },
   {
@@ -47009,6 +57077,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -47037,6 +57111,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001
+      }
+    ],
     core: false
   },
   {
@@ -47065,6 +57145,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0004
+      }
+    ],
     core: false
   },
   {
@@ -47093,6 +57179,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003038191385572
+      }
+    ],
     core: false
   },
   {
@@ -47121,6 +57213,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03871060985686629
+      }
+    ],
     core: false
   },
   {
@@ -47149,6 +57247,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 19.468075811042546
+      }
+    ],
     core: false
   },
   {
@@ -47177,6 +57281,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001
+      }
+    ],
     core: false
   },
   {
@@ -47205,6 +57315,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002735
+      }
+    ],
     core: false
   },
   {
@@ -47233,6 +57349,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.013293292709883086
+      }
+    ],
     core: false
   },
   {
@@ -47261,6 +57383,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -47289,6 +57417,12 @@ export const grantsData = [
     logCount: 3,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000299636606556
+      }
+    ],
     core: false
   },
   {
@@ -47317,6 +57451,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000446149389945
+      }
+    ],
     core: false
   },
   {
@@ -47345,6 +57485,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002920407972053207
+      }
+    ],
     core: false
   },
   {
@@ -47373,6 +57519,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 7.00764807420294
+      }
+    ],
     core: false
   },
   {
@@ -47401,6 +57553,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.00135
+      }
+    ],
     core: false
   },
   {
@@ -47429,6 +57587,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 5.035199889621307
+      }
+    ],
     core: false
   },
   {
@@ -47457,6 +57621,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.004743022
+      }
+    ],
     core: false
   },
   {
@@ -47485,6 +57655,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001
+      }
+    ],
     core: false
   },
   {
@@ -47513,6 +57689,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1445877027483043
+      }
+    ],
     core: false
   },
   {
@@ -47541,6 +57723,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.03893024974832598
+      }
+    ],
     core: false
   },
   {
@@ -47569,6 +57757,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4978060448455497
+      }
+    ],
     core: false
   },
   {
@@ -47597,6 +57791,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.4690992332287727
+      }
+    ],
     core: false
   },
   {
@@ -47625,6 +57825,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -47653,6 +57859,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.9969784750390668
+      }
+    ],
     core: false
   },
   {
@@ -47681,6 +57893,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -47709,6 +57927,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01
+      }
+    ],
     core: false
   },
   {
@@ -47737,6 +57961,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.06073753424930924
+      }
+    ],
     core: false
   },
   {
@@ -47765,6 +57995,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.044650936608957
+      }
+    ],
     core: false
   },
   {
@@ -47793,6 +58029,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001156940858787
+      }
+    ],
     core: false
   },
   {
@@ -47821,6 +58063,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.299847055e-09
+      }
+    ],
     core: false
   },
   {
@@ -47849,6 +58097,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001101282364180428
+      }
+    ],
     core: false
   },
   {
@@ -47877,6 +58131,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.47410008153099953
+      }
+    ],
     core: false
   },
   {
@@ -47905,6 +58165,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -47933,6 +58199,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.056714962306026
+      }
+    ],
     core: false
   },
   {
@@ -47961,6 +58233,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.016043674
+      }
+    ],
     core: false
   },
   {
@@ -47989,6 +58267,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.7663679304197007
+      }
+    ],
     core: false
   },
   {
@@ -48017,6 +58301,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 8.233231680644742
+      }
+    ],
     core: false
   },
   {
@@ -48045,6 +58335,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.15055361897755495
+      }
+    ],
     core: false
   },
   {
@@ -48073,6 +58369,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.009074165194180268
+      }
+    ],
     core: false
   },
   {
@@ -48101,6 +58403,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.060714767501446956
+      }
+    ],
     core: false
   },
   {
@@ -48129,6 +58437,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 11.042668393263197
+      }
+    ],
     core: false
   },
   {
@@ -48157,6 +58471,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000331818423048
+      }
+    ],
     core: false
   },
   {
@@ -48185,6 +58505,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.1399982491493155
+      }
+    ],
     core: false
   },
   {
@@ -48213,6 +58539,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -48241,6 +58573,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01
+      }
+    ],
     core: false
   },
   {
@@ -48269,6 +58607,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.142910368432026
+      }
+    ],
     core: false
   },
   {
@@ -48297,6 +58641,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 1.8868696978475517
+      }
+    ],
     core: false
   },
   {
@@ -48325,6 +58675,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -48353,6 +58709,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -48381,6 +58743,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -48409,6 +58777,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -48437,6 +58811,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.34062275038333145
+      }
+    ],
     core: false
   },
   {
@@ -48465,6 +58845,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: false
   },
   {
@@ -48493,6 +58879,12 @@ export const grantsData = [
     logCount: 0,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001623121402392
+      }
+    ],
     core: false
   },
   {
@@ -48521,6 +58913,12 @@ export const grantsData = [
     logCount: 132519,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: true
   },
   {
@@ -48549,6 +58947,12 @@ export const grantsData = [
     logCount: 705,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: true
   },
   {
@@ -48577,6 +58981,12 @@ export const grantsData = [
     logCount: 25102,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
     core: true
   },
   {
@@ -48605,6 +59015,12 @@ export const grantsData = [
     logCount: 13954,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 2773.2013559979755
+      }
+    ],
     core: true
   },
   {
@@ -48633,6 +59049,12 @@ export const grantsData = [
     logCount: 65216,
     matched: 0,
     claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 10529.34427244294
+      }
+    ],
     core: true
   }
 ]
