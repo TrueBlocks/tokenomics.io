@@ -153,6 +153,7 @@ type Appearance struct {
 
 type Monitor struct {
 	Id            uint64     `json:"grantId"`
+	Active        bool       `json:"active"`
 	Address       string     `json:"address"`
 	Name          string     `json:"name"`
 	Slug          string     `json:"slug"`
@@ -271,6 +272,7 @@ func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 	}
 
 	monitor.Id = grant.Id
+	monitor.Active = grant.Active
 	if len(grant.Slug) > 0 {
 		monitor.Slug = fmt.Sprintf("https://gitcoin.co/grants/%d/%s", grant.Id, grant.Slug)
 	}
@@ -292,12 +294,10 @@ func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 	meta := rpcClient.GetMeta(false)
 	bal := rpcClient.GetBalanceInEth(monitor.Address, meta.Latest())
 	monitor.Balances = append(monitor.Balances, Balance{Asset: "ETH", Balance: bal})
-
 	err = monitor.ReadRange(monitorPath)
 	if err != nil {
 		return nil, err
 	}
-
 	monitor.LastUpdate, err = monitor.getLastUpdate()
 	if err != nil {
 		return nil, err

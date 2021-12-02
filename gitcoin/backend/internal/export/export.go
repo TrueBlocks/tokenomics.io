@@ -7,6 +7,7 @@ package exportPkg
 import (
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/progress"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/logger"
@@ -16,8 +17,9 @@ import (
 const pathToData = "../data/" // /Users/jrush/Development/tokenomics.io/gitcoin/data/"
 
 type ProcessOptions struct {
-	Stats  bool
-	Format string
+	Stats   bool
+	Scripts bool
+	Format  string
 }
 
 var Options ProcessOptions
@@ -68,21 +70,6 @@ type LastUpdate struct {
 }
 
 func ProcessGrants(progressChannel chan<- *progress.Progress) {
-	progressChannel <- progress.StartMsg("Processing grants", nil)
-
-	if Options.Stats {
-		if Options.Format != "json" {
-			if Options.Format == "txt" {
-				fmt.Printf("GrantID\tAddress\tFileSize\tnAppearances\tFirst App\tLatest App\tBlockRange\tAgeInBlocks\n")
-
-			} else {
-				fmt.Printf("GrantID,Address,FileSize,nAppearances,First App,Latest App,BlockRange,AgeInBlocks\n")
-			}
-		} else {
-			fmt.Printf("[\n")
-		}
-	}
-
 	var fileNames []string
 	max := 4000
 	for i := 0; i < max; i++ {
@@ -92,7 +79,22 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 		fileNames = append(fileNames, fmt.Sprintf(pathToData+"raw/core-%04d.json", i))
 	}
 
-	var lastUpdates []LastUpdate
+	msg := fmt.Sprintf("Processing %d grants", len(fileNames))
+	progressChannel <- progress.StartMsg(msg, nil)
+
+	if Options.Format == "json" {
+		fmt.Printf("[\n")
+
+	} else {
+		header := "GrantID\tAddress\tFileSize\tnAppearances\tFirst App\tLatest App\tBlockRange\tAgeInBlocks\n"
+		if Options.Scripts {
+			header = "Address\tLastUpdate\n"
+		}
+		if Options.Format == "csv" {
+			header = strings.Replace(header, "\t", ",", -1)
+		}
+		fmt.Printf("%s", header)
+	}
 
 	first := true
 	for _, grantId := range fileNames {
@@ -111,7 +113,16 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 			progressChannel <- progress.ErrorMsg("Error processing grant "+grantId+" "+err.Error(), nil)
 		} else {
 			progressChannel <- progress.UpdateMsg("Processing grant id: "+grantId, nil)
-			if Options.Stats {
+			if Options.Scripts {
+				var monitor Monitor
+				monitor.Address = grant.AdminAddress
+				var update LastUpdate
+				update.Address = monitor.Address
+				update.Block, _ = monitor.getLastUpdate()
+				if len(update.Address) > 0 && update.Address != "0x0" {
+					fmt.Printf("%s,%d\n", update.Address, update.Block)
+				}
+			} else if Options.Stats {
 				monitor, err := GetMonitorStats(grantId, &grant)
 				if err != nil {
 					progressChannel <- progress.ErrorMsg("Error processing grant "+grantId+" "+err.Error(), nil)
@@ -133,18 +144,11 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 				}
 			}
 			progressChannel <- progress.DoneMsg("----------> "+grantId, grant)
-			lastUpdates = append(lastUpdates, LastUpdate{Address: grant.Monitor.Address, Block: grant.Monitor.LastUpdate})
 		}
-	}
-	if Options.Format == "json" {
-		fmt.Printf("]\n")
 	}
 
-	fmt.Fprintf(os.Stderr, "address,block\n")
-	for _, update := range lastUpdates {
-		if len(update.Address) > 0 {
-			fmt.Fprintf(os.Stderr, "%s,%d\n", update.Address, update.Block)
-		}
+	if Options.Format == "json" {
+		fmt.Printf("]\n")
 	}
 
 	progressChannel <- progress.FinishedMsg("Finished", nil)

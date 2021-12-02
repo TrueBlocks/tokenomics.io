@@ -19,6 +19,7 @@ var exportCmd = &cobra.Command{
 func init() {
 	rootCmd.AddCommand(exportCmd)
 	exportCmd.Flags().BoolVarP(&exportPkg.Options.Stats, "stats", "s", false, "produce only stats for the grants")
+	exportCmd.Flags().BoolVarP(&exportPkg.Options.Scripts, "scripts", "c", false, "produce update scripts given current state of scraper")
 	exportCmd.Flags().StringVarP(&exportPkg.Options.Format, "fmt", "x", "csv", "format for the export")
 	exportCmd.SetUsageTemplate(UsageText())
 }
