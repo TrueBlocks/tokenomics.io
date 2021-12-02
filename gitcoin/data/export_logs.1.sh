@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-echo "exporting $1"
 chifra export \
     --logs --articulate --relevant --cache --cache_traces \
     --emitter 0xdf869fad6db91f437b59f1edefab319493d4c4ce \

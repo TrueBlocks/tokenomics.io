@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-chifra when --timestamps
+# chifra when --timestamps
 ./export_apps.sh
 ./export_txs.sh
 ./export_logs.sh
