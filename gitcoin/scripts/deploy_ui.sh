@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-echo "Turned off"
-exit
+# echo "Turned off"
+# exit
 
 # build the site and deploy it to the website
 
