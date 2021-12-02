@@ -195,7 +195,6 @@ func LineCounter(r io.Reader) (int, error) {
 		case err == io.EOF:
 			return count, nil
 		case err != nil:
-			fmt.Println("I am here", err.Error())
 			return count, err
 		}
 	}

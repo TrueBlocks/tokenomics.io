@@ -62,6 +62,11 @@ func RunE(cmd *cobra.Command, args []string) {
 	}
 }
 
+type LastUpdate struct {
+	Address string `json:"address"`
+	Block   uint64 `json:"block"`
+}
+
 func ProcessGrants(progressChannel chan<- *progress.Progress) {
 	progressChannel <- progress.StartMsg("Processing grants", nil)
 
@@ -86,6 +91,8 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 	for i := 0; i < 5; i++ {
 		fileNames = append(fileNames, fmt.Sprintf(pathToData+"raw/core-%04d.json", i))
 	}
+
+	var lastUpdates []LastUpdate
 
 	first := true
 	for _, grantId := range fileNames {
@@ -126,10 +133,18 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 				}
 			}
 			progressChannel <- progress.DoneMsg("----------> "+grantId, grant)
+			lastUpdates = append(lastUpdates, LastUpdate{Address: grant.Monitor.Address, Block: grant.Monitor.LastUpdate})
 		}
 	}
 	if Options.Format == "json" {
 		fmt.Printf("]\n")
+	}
+
+	fmt.Fprintf(os.Stderr, "address,block\n")
+	for _, update := range lastUpdates {
+		if len(update.Address) > 0 {
+			fmt.Fprintf(os.Stderr, "%s,%d\n", update.Address, update.Block)
+		}
 	}
 
 	progressChannel <- progress.FinishedMsg("Finished", nil)

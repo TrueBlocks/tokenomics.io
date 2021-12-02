@@ -7,6 +7,8 @@ package rpcClient
 import (
 	"context"
 	"math/big"
+
+	"github.com/ethereum/go-ethereum/ethclient"
 )
 
 func ethFromWei(in big.Int) float64 {
@@ -18,9 +20,15 @@ func ethFromWei(in big.Int) float64 {
 	return f
 }
 
+var balanceClient ethclient.Client
+var clientLoaded = false
+
 func GetBalanceInEth(address string, bn uint64) float64 {
-	client := Get()
-	val, _ := client.BalanceAt(context.Background(), HexToAddress(address), nil)
+	if !clientLoaded {
+		balanceClient = Get()
+		clientLoaded = true
+	}
+	val, _ := balanceClient.BalanceAt(context.Background(), HexToAddress(address), nil)
 	if val == nil {
 		return 0.0
 	}

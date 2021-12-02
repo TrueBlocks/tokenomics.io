@@ -1,4 +1,4 @@
-[
+export const grantsData = [
   {
     grantId: 7,
     address: '0xaa42aa2e1888c5aa2861e970cb2720848b868c68',
@@ -96,7 +96,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 2773.2013559979755
+        balance: 2773.2015759979754
       }
     ],
     core: false
@@ -2000,7 +2000,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 62.21034892759079
+        balance: 62.21144892759079
       }
     ],
     core: false
@@ -5434,7 +5434,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1844665081276981
+        balance: 0.1855665081276981
       }
     ],
     core: false
@@ -9276,7 +9276,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 0.059205865989398414
+        balance: 0.010145999254996867
       }
     ],
     core: false
@@ -11554,7 +11554,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 0.023335307786433807
+        balance: 0.008686593553756798
       }
     ],
     core: false
@@ -13152,7 +13152,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 0.023335307786433807
+        balance: 0.008686593553756798
       }
     ],
     core: false
@@ -31070,7 +31070,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 0.023335307786433807
+        balance: 0.008686593553756798
       }
     ],
     core: false
@@ -34436,7 +34436,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 2.1680641437174764
+        balance: 2.1591605167600862
       }
     ],
     core: false
@@ -48206,7 +48206,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 2.9674669394047983
+        balance: 2.978566939404798
       }
     ],
     core: false
@@ -59018,7 +59018,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 2773.2013559979755
+        balance: 2773.2015759979754
       }
     ],
     core: true
@@ -59052,7 +59052,7 @@
     balances: [
       {
         asset: 'ETH',
-        balance: 10529.75527244294
+        balance: 10534.613365021667
       }
     ],
     core: true
