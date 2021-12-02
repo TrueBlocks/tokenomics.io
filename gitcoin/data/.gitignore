@@ -4,3 +4,4 @@
 *.json
 *.csv
 *.gz
+fixHeaders

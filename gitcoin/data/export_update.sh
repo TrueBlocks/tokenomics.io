@@ -5,4 +5,7 @@
 ./export_txs.sh
 ./export_logs.sh
 ./export_neighbors.sh
+
+./fixHeaders
+
 ./zipem.sh
