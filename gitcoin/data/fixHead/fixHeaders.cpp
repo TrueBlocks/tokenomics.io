@@ -16,7 +16,9 @@ bool fixHeader(const string_q& path, void *data) {
     if (endsWith(path, "/")) {
         return forEveryFileInFolder(path + "*", fixHeader, data);
     }
-    if (endsWith(path, ".csv")) {
+    if (endsWith(path, ".csv") && !contains(path, "combined")) {
+        cerr << "Fixing " << path << "                                                \r";
+        cerr.flush();
         CStringArray lines;
         asciiFileToLines(path, lines);
         if (lines.size() > 0) {
