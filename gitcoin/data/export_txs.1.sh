@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-chifra export --articulate --cache --cache_traces --fmt csv $1 >txs/$1.csv
+addr=`echo $1 | tr [:upper:] [:lower:]`
+chifra export --articulate --cache --cache_traces --fmt csv $addr >txs/$addr.csv

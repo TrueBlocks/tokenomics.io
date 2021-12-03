@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-chifra export --appearances --fmt csv $1 | cut -f2,3 -d',' >apps/$1.csv
+addr=`echo $1 | tr [:upper:] [:lower:]`
+chifra export --appearances --fmt csv $addr | cut -f2,3 -d',' >apps/$addr.csv

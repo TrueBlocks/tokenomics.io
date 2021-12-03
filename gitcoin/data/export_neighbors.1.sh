@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-chifra export --neighbors --cache --cache_traces --fmt csv $1 | \
-    sed 's/'$1'/-----------------self---------------------/' >neighbors/$1.csv
+addr=`echo $1 | tr [:upper:] [:lower:]`
+chifra export --neighbors --cache --cache_traces --fmt csv $addr | \
+    sed 's/'$addr'/-----------------self---------------------/' >neighbors/$addr.csv

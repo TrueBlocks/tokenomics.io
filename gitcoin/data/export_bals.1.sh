@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-chifra export --balances --fmt csv $1 >bals/$1.csv
+addr=`echo $1 | tr [:upper:] [:lower:]`
+chifra export --balances --fmt csv $addr >bals/$addr.csv
