@@ -12,42 +12,56 @@
  *-------------------------------------------------------------------------------------------*/
 #include "etherlib.h"
 
-bool fixHeader(const string_q& path, void *data) {
-    if (endsWith(path, "/")) {
+address_t only;
+bool fixHeader(const string_q &path, void *data);
+//----------------------------------------------------------------
+int main(int argc, const char *argv[])
+{
+    etherlib_init(quickQuitHandler);
+    if (argc > 1)
+    {
+        only = argv[1];
+    }
+    forEveryFileInFolder("./", fixHeader, nullptr);
+    etherlib_cleanup();
+    return 1;
+}
+
+//----------------------------------------------------------------
+bool fixHeader(const string_q &path, void *data)
+{
+    if (endsWith(path, "/"))
+    {
         return forEveryFileInFolder(path + "*", fixHeader, data);
     }
-    if (endsWith(path, ".csv") && !contains(path, "combined")) {
+
+    if ((only.empty() && endsWith(path, ".csv") && !contains(path, "combined")) || (contains(path, only)))
+    {
         cerr << "Fixing " << path << "                                                \r";
         cerr.flush();
         CStringArray lines;
         asciiFileToLines(path, lines);
-        if (lines.size() > 0) {
-            replace(lines[0], "\"blocknumber\"",      "\"blockNumber\"");
+        if (lines.size() > 0)
+        {
+            replace(lines[0], "\"blocknumber\"", "\"blockNumber\"");
             replace(lines[0], "\"transactionindex\"", "\"transactionIndex\"");
-            replace(lines[0], "\"logindex\"",         "\"logIndex\"");
-            replace(lines[0], "\"compressedlog\"",    "\"compressedLog\"");
-            replace(lines[0], "\"bn\"",               "\"blockNumber\"");
-            replace(lines[0], "\"tx\"",               "\"transactionIndex\"");
-            replace(lines[0], "\"tc\"",               "\"traceIndex\"");
-            replace(lines[0], "\"addr\"",             "\"neighbor\"");
-            replace(lines[0], "\"ethergasprice\"",    "\"ethGasPrice\"");
-            replace(lines[0], "\"gasused\"",          "\"gasUsed\"");
-            replace(lines[0], "\"iserror\"",          "\"isError\"");
-            replace(lines[0], "\"compressedtx\"",     "\"compressedTx\"");
+            replace(lines[0], "\"logindex\"", "\"logIndex\"");
+            replace(lines[0], "\"compressedlog\"", "\"compressedLog\"");
+            replace(lines[0], "\"bn\"", "\"blockNumber\"");
+            replace(lines[0], "\"tx\"", "\"transactionIndex\"");
+            replace(lines[0], "\"tc\"", "\"traceIndex\"");
+            replace(lines[0], "\"addr\"", "\"neighbor\"");
+            replace(lines[0], "\"ethergasprice\"", "\"ethGasPrice\"");
+            replace(lines[0], "\"gasused\"", "\"gasUsed\"");
+            replace(lines[0], "\"iserror\"", "\"isError\"");
+            replace(lines[0], "\"compressedtx\"", "\"compressedTx\"");
         }
         ostringstream os;
-        for (auto line : lines) {
+        for (auto line : lines)
+        {
             os << line << endl;
         }
         stringToAsciiFile(path, os.str());
     }
     return true;
-}
-
-//----------------------------------------------------------------
-int main(int argc, const char* argv[]) {
-    etherlib_init(quickQuitHandler);
-    forEveryFileInFolder("./", fixHeader, nullptr);
-    etherlib_cleanup();
-    return 1;
 }
