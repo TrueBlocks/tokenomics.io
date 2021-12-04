@@ -9,20 +9,22 @@ import (
 	"os"
 	"strings"
 
+	grantsPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/internal/grants"
 	"github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/progress"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/logger"
 	"github.com/spf13/cobra"
 )
 
+// TODO: why?
 const pathToData = "../data/" // /Users/jrush/Development/tokenomics.io/gitcoin/data/"
 
-type ProcessOptions struct {
+type ExportOptions struct {
 	Stats   bool
 	Scripts bool
 	Format  string
 }
 
-var Options ProcessOptions
+var Options ExportOptions
 
 func RunE(cmd *cobra.Command, args []string) {
 
@@ -33,7 +35,7 @@ func RunE(cmd *cobra.Command, args []string) {
 
 	var grantsDone uint
 	for event := range progressChannel {
-		grant, ok := event.Payload.(*Grant)
+		grant, ok := event.Payload.(*grantsPkg.Grant)
 		var fileName string
 		if ok {
 			fileName = grant.Title
@@ -107,23 +109,23 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 			continue
 		}
 
-		var grant Grant
+		var grant grantsPkg.Grant
 		err = grant.GetGrant(grantId)
 		if err != nil {
 			progressChannel <- progress.ErrorMsg("Error processing grant "+grantId+" "+err.Error(), nil)
 		} else {
 			progressChannel <- progress.UpdateMsg("Processing grant id: "+grantId, nil)
 			if Options.Scripts {
-				var monitor Monitor
+				var monitor grantsPkg.Monitor
 				monitor.Address = grant.AdminAddress
 				var update LastUpdate
 				update.Address = monitor.Address
-				update.Block, _ = monitor.getLastUpdate()
+				update.Block, _ = monitor.GetLastUpdate()
 				if len(update.Address) > 0 && update.Address != "0x0" {
 					fmt.Printf("%s,%d\n", update.Address, update.Block)
 				}
 			} else if Options.Stats {
-				monitor, err := GetMonitorStats(grantId, &grant)
+				monitor, err := grantsPkg.GetMonitorStats(grantId, &grant)
 				if err != nil {
 					progressChannel <- progress.ErrorMsg("Error processing grant "+grantId+" "+err.Error(), nil)
 				} else {

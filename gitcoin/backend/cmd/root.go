@@ -51,8 +51,8 @@ func initConfig() {
 }
 
 var helpText = `  General:
-    grants        produce grant-related data
-    monitors      produce monitor-related data
+    export        produce grant-related data
+    names         process name-related commands
   Flags:
     -h, --help    display this help screen
 
