@@ -2,7 +2,7 @@
 // Use of this source code is governed by a license that can
 // be found in the LICENSE file.
 
-package exportPkg
+package grantsPkg
 
 import (
 	"bufio"
@@ -22,7 +22,9 @@ import (
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/file"
 )
 
+// TODO: why?
 const pathToMonitors = "/Users/jrush/Library/Application Support/TrueBlocks/cache/monitors/"
+const pathToData = "../data/" // /Users/jrush/Development/tokenomics.io/gitcoin/data/"
 
 // Grant is one of the Gitcoin Grants
 type Grant struct {
@@ -237,7 +239,7 @@ func (m *Monitor) ReadRange(monitorPath string) error {
 	return nil
 }
 
-func (m *Monitor) getLastUpdate() (uint64, error) {
+func (m *Monitor) GetLastUpdate() (uint64, error) {
 	lastBlockPath := pathToMonitors + m.Address + ".last.txt"
 	file, err := os.Open(lastBlockPath)
 	if err != nil {
@@ -298,7 +300,7 @@ func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 	if err != nil {
 		return nil, err
 	}
-	monitor.LastUpdate, err = monitor.getLastUpdate()
+	monitor.LastUpdate, err = monitor.GetLastUpdate()
 	if err != nil {
 		return nil, err
 	}
