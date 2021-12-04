@@ -663,8 +663,10 @@ func RunE(cmd *cobra.Command, args []string) {
 					"0xffc18a4a0dcaa41ac42751a80d9e6c765136214c": true,
 					"0xffe0f0c57e858c8fccc83fe73fa668eef535dd73": true,
 				}
+				grant.Title = strings.Replace(grant.Title, "\"", "", -1)
+				grant.Title = strings.Replace(grant.Title, "”", "", -1)
 				if theMap[grant.AdminAddress] {
-					fmt.Printf("addName %s \"Grant %04d %s\" \"%s\", \"%s\"\n", grant.AdminAddress, grant.Id, grant.Title, tag, slug)
+					fmt.Printf("addName\t%s\t\"Grant %04d - %s\"\t\"%s\"\t\"%s\"\n", grant.AdminAddress, grant.Id, grant.Title, tag, slug)
 				}
 			}
 		}
