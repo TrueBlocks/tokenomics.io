@@ -56,7 +56,7 @@ export const NameCell = ({ record }) => {
   name = name.replace('&#39;', "'");
   if (!record.slug)
     return (
-      <pre>
+      <pre style={{ overflowX: "hidden" }}>
         <small>{name}</small>
         <br />
         <a target={'top'} href={'https://etherscan.io/address/' + record.address}>

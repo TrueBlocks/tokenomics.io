@@ -12,6 +12,8 @@ import { columns } from './ColumnDefs';
 
 import { DataForNerds } from './DataForNerds';
 
+import { lastUpdate } from './last-update';
+
 const { Content } = Layout;
 const { Search } = Input;
 const { TabPane } = Tabs;
@@ -76,7 +78,7 @@ export const HomePage = () => {
         <TabPane tab={tab1Title} key='2' style={{ paddingLeft: '8px' }}>
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
-        <TabPane tab={'Data for Nerds (API)'} key='3' style={{ paddingLeft: '8px' }}>
+        <TabPane tab={'Data for Nerds'} key='3' style={{ paddingLeft: '8px' }}>
           <DataForNerds />
         </TabPane>
         <TabPane tab='Charts' key='4' style={{ paddingLeft: '8px' }}>
@@ -91,7 +93,7 @@ export const HomePage = () => {
         </TabPane>
       </Tabs>
       <i>
-        <small>Last Updated: 2021-12-04 16:45:43 UTC (block 13727887)</small>
+        <small>{lastUpdate}</small>
       </i>
     </Content>
   );

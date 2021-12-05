@@ -7,7 +7,7 @@ export const columns = [
     title: <DateHeader />,
     dataIndex: 'date',
     key: 'date',
-    width: '12%',
+    width: '8%',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => a.latestAppearance.bn - b.latestAppearance.bn,
@@ -29,7 +29,7 @@ export const columns = [
     title: <NameHeader />,
     dataIndex: 'name',
     key: 'name',
-    width: '16%',
+    width: '20%',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => a.address - b.address,
@@ -88,7 +88,12 @@ export const columns = [
       },
     },
     render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.appearanceCount} path='apps/' type='csv' />
+      return (
+        <>
+          <small>{record.firstAppearance.bn}.{record.firstAppearance.txId}</small>
+          <DownloadIcon address={record.address} count={record.appearanceCount} path='apps/' type='csv' />
+        </>
+      )
     },
   },
   {
