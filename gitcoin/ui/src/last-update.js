@@ -1,0 +1,1 @@
+export const lastUpdate = "Last Updated: 2021-12-04 16:45:43 UTC (block 13727887)";
