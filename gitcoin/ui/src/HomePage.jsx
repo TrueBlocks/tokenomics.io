@@ -12,7 +12,7 @@ import { columns } from './ColumnDefs';
 
 import { DataForNerds } from './DataForNerds';
 
-import { lastUpdate } from './last-update';
+import { lastUpdate } from './last-update.js';
 
 const { Content } = Layout;
 const { Search } = Input;
