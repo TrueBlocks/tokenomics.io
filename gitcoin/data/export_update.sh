@@ -4,8 +4,6 @@
 ./export_apps.sh
 ./export_txs.sh
 ./export_logs.sh
-./export_neighbors.sh
-
-./fixHeaders
+#./export_neighbors.sh
 
 ./zipem.sh
