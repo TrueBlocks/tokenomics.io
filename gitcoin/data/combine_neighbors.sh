@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "\"address\",\"blockNumber\",\"transactionIndex\",\"traceIndex\",\"neighbor\",\"reason\"" | tee combined/neighbors.csv
+echo "\"address\",\"blockNumber\",\"transactionIndex\",\"neighbor\",\"reason\"" | tee combined/neighbors.csv
 
 ./combine_neighbors.1.sh 0x0000000fcdf5ba49794f4151d6daff4505bc47d1
 ./combine_neighbors.1.sh 0x000061a8f22a1e60ba0b3caadfa958e954fc2b6a
