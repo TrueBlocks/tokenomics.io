@@ -35,6 +35,10 @@ bool fixHeader(const string_q &path, void *data)
         return forEveryFileInFolder(path + "*", fixHeader, data);
     }
 
+    if (!endsWith(path, ".csv")) {
+        return true;
+    }
+
     if ((only.empty() && endsWith(path, ".csv") && !contains(path, "combined")) || (contains(path, only)))
     {
         cerr << "Fixing " << path << "                                                \r";
