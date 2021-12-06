@@ -21,7 +21,7 @@ export const grantsData = [
     blockRange: 3926169,
     fileSize: 624,
     appearanceCount: 78,
-    neighborCount: 432,
+    neighborCount: 752,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -56,7 +56,7 @@ export const grantsData = [
     blockRange: 8677939,
     fileSize: 6520,
     appearanceCount: 815,
-    neighborCount: 49,
+    neighborCount: 1305,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -82,24 +82,24 @@ export const grantsData = [
       date: '2020-08-28 04:26:01'
     },
     latestAppearance: {
-      bn: 13710620,
-      txId: 358,
-      timestamp: 1638217034,
-      date: '2021-11-29 20:17:14'
+      bn: 13748830,
+      txId: 42,
+      timestamp: 1638746321,
+      date: '2021-12-05 23:18:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 2963618,
-    fileSize: 120520,
-    appearanceCount: 15065,
-    neighborCount: 58639,
+    lastUpdated: 13749516,
+    blockRange: 3001828,
+    fileSize: 123176,
+    appearanceCount: 15397,
+    neighborCount: 186620,
     types: 'txs,logs,neighbors',
-    logCount: 14227,
+    logCount: 14429,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 2773.2520929529755
+        balance: 2791.917135421363
       }
     ],
     core: false
@@ -126,15 +126,15 @@ export const grantsData = [
     blockRange: 507223,
     fileSize: 1336,
     appearanceCount: 167,
-    neighborCount: 643,
+    neighborCount: 6887,
     types: 'txs,logs,neighbors',
-    logCount: 111,
+    logCount: 113,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.6752806109881215
+        balance: 0.6726511531116781
       }
     ],
     core: false
@@ -157,11 +157,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8051786,
     fileSize: 752,
     appearanceCount: 94,
-    neighborCount: 299,
+    neighborCount: 1806,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -192,11 +192,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8901353,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 566,
+    neighborCount: 2760,
     types: 'txs,logs,neighbors',
     logCount: 22,
     matched: 0,
@@ -231,7 +231,7 @@ export const grantsData = [
     blockRange: 6529406,
     fileSize: 1760,
     appearanceCount: 220,
-    neighborCount: 661,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -266,7 +266,7 @@ export const grantsData = [
     blockRange: 8677939,
     fileSize: 6520,
     appearanceCount: 815,
-    neighborCount: 49,
+    neighborCount: 1305,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -301,9 +301,9 @@ export const grantsData = [
     blockRange: 8318109,
     fileSize: 28976,
     appearanceCount: 3622,
-    neighborCount: 12548,
+    neighborCount: 73080,
     types: 'txs,logs,neighbors',
-    logCount: 2412,
+    logCount: 2418,
     matched: 0,
     claimed: 0,
     balances: [
@@ -327,18 +327,18 @@ export const grantsData = [
       date: '2021-04-02 20:20:21'
     },
     latestAppearance: {
-      bn: 13681906,
-      txId: 113,
-      timestamp: 1637821617,
-      date: '2021-11-25 06:26:57'
+      bn: 13745393,
+      txId: 200,
+      timestamp: 1638698041,
+      date: '2021-12-05 09:54:01'
     },
-    lastUpdated: 13711342,
-    blockRange: 1519668,
-    fileSize: 15296,
-    appearanceCount: 1912,
-    neighborCount: 7200,
+    lastUpdated: 13749516,
+    blockRange: 1583155,
+    fileSize: 15360,
+    appearanceCount: 1920,
+    neighborCount: 52416,
     types: 'txs,logs,neighbors',
-    logCount: 1800,
+    logCount: 1802,
     matched: 0,
     claimed: 0,
     balances: [
@@ -371,7 +371,7 @@ export const grantsData = [
     blockRange: 4750194,
     fileSize: 608,
     appearanceCount: 76,
-    neighborCount: 239,
+    neighborCount: 1101,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -406,9 +406,9 @@ export const grantsData = [
     blockRange: 5194232,
     fileSize: 864,
     appearanceCount: 108,
-    neighborCount: 362,
+    neighborCount: 2559,
     types: 'txs,logs,neighbors',
-    logCount: 39,
+    logCount: 42,
     matched: 0,
     claimed: 0,
     balances: [
@@ -441,7 +441,7 @@ export const grantsData = [
     blockRange: 6024912,
     fileSize: 2512,
     appearanceCount: 314,
-    neighborCount: 881,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -476,7 +476,7 @@ export const grantsData = [
     blockRange: 8555702,
     fileSize: 2728,
     appearanceCount: 341,
-    neighborCount: 1362,
+    neighborCount: 7669,
     types: 'txs,logs,neighbors',
     logCount: 102,
     matched: 0,
@@ -484,7 +484,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.2069899923134139
+        balance: 0.19219458835908385
       }
     ],
     core: false
@@ -511,7 +511,7 @@ export const grantsData = [
     blockRange: 6578606,
     fileSize: 1360,
     appearanceCount: 170,
-    neighborCount: 499,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -542,11 +542,11 @@ export const grantsData = [
       timestamp: 1635876487,
       date: '2021-11-02 18:08:07'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3915377,
     fileSize: 3472,
     appearanceCount: 434,
-    neighborCount: 1634,
+    neighborCount: 12345,
     types: 'txs,logs,neighbors',
     logCount: 354,
     matched: 0,
@@ -581,7 +581,7 @@ export const grantsData = [
     blockRange: 1547755,
     fileSize: 3728,
     appearanceCount: 466,
-    neighborCount: 1878,
+    neighborCount: 17989,
     types: 'txs,logs,neighbors',
     logCount: 405,
     matched: 0,
@@ -616,9 +616,9 @@ export const grantsData = [
     blockRange: 2366633,
     fileSize: 8456,
     appearanceCount: 1057,
-    neighborCount: 4230,
+    neighborCount: 31955,
     types: 'txs,logs,neighbors',
-    logCount: 909,
+    logCount: 910,
     matched: 0,
     claimed: 0,
     balances: [
@@ -651,7 +651,7 @@ export const grantsData = [
     blockRange: 6567995,
     fileSize: 3168,
     appearanceCount: 396,
-    neighborCount: 1465,
+    neighborCount: 8344,
     types: 'txs,logs,neighbors',
     logCount: 98,
     matched: 0,
@@ -659,7 +659,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.007518065631823929
+        balance: 0.051751999308920486
       }
     ],
     core: false
@@ -686,7 +686,7 @@ export const grantsData = [
     blockRange: 6390990,
     fileSize: 896,
     appearanceCount: 112,
-    neighborCount: 469,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -721,7 +721,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -752,11 +752,11 @@ export const grantsData = [
       timestamp: 1606854557,
       date: '2020-12-01 20:29:17'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4096779,
     fileSize: 320,
     appearanceCount: 40,
-    neighborCount: 133,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -787,11 +787,11 @@ export const grantsData = [
       timestamp: 1606854557,
       date: '2020-12-01 20:29:17'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4824056,
     fileSize: 736,
     appearanceCount: 92,
-    neighborCount: 267,
+    neighborCount: 595,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -826,7 +826,7 @@ export const grantsData = [
     blockRange: 1554105,
     fileSize: 400,
     appearanceCount: 50,
-    neighborCount: 171,
+    neighborCount: 2228,
     types: 'txs,logs,neighbors',
     logCount: 41,
     matched: 0,
@@ -852,16 +852,16 @@ export const grantsData = [
       date: '2019-04-15 03:40:03'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 5933784,
-    fileSize: 3920,
-    appearanceCount: 490,
-    neighborCount: 1704,
+    lastUpdated: 13749516,
+    blockRange: 6155837,
+    fileSize: 3928,
+    appearanceCount: 491,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 382,
     matched: 0,
@@ -892,11 +892,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 296323,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 14,
+    neighborCount: 543,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -927,11 +927,11 @@ export const grantsData = [
       timestamp: 1618864494,
       date: '2021-04-19 20:34:54'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4937432,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 71,
+    neighborCount: 133,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -966,7 +966,7 @@ export const grantsData = [
     blockRange: 3024203,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 75,
+    neighborCount: 316,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -997,11 +997,11 @@ export const grantsData = [
       timestamp: 1623987083,
       date: '2021-06-18 03:31:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4060578,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 85,
+    neighborCount: 258,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -1032,11 +1032,11 @@ export const grantsData = [
       timestamp: 1634532677,
       date: '2021-10-18 04:51:17'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8683872,
     fileSize: 2920,
     appearanceCount: 365,
-    neighborCount: 1718,
+    neighborCount: 2375,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -1067,11 +1067,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6053489,
     fileSize: 296,
     appearanceCount: 37,
-    neighborCount: 116,
+    neighborCount: 956,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -1106,7 +1106,7 @@ export const grantsData = [
     blockRange: 6051010,
     fileSize: 408,
     appearanceCount: 51,
-    neighborCount: 168,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -1132,16 +1132,16 @@ export const grantsData = [
       date: '2021-03-24 17:43:31'
     },
     latestAppearance: {
-      bn: 13455320,
-      txId: 351,
-      timestamp: 1634742393,
-      date: '2021-10-20 15:06:33'
+      bn: 13743723,
+      txId: 277,
+      timestamp: 1638675626,
+      date: '2021-12-05 03:40:26'
     },
-    lastUpdated: 13711342,
-    blockRange: 1352321,
-    fileSize: 13384,
-    appearanceCount: 1673,
-    neighborCount: 6200,
+    lastUpdated: 13749516,
+    blockRange: 1640724,
+    fileSize: 13400,
+    appearanceCount: 1675,
+    neighborCount: 24905,
     types: 'txs,logs,neighbors',
     logCount: 1700,
     matched: 0,
@@ -1149,7 +1149,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.6415486932484613
+        balance: 1.6457555932484613
       }
     ],
     core: false
@@ -1176,7 +1176,7 @@ export const grantsData = [
     blockRange: 8969966,
     fileSize: 3776,
     appearanceCount: 472,
-    neighborCount: 3803,
+    neighborCount: 42,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -1211,7 +1211,7 @@ export const grantsData = [
     blockRange: 8015396,
     fileSize: 10416,
     appearanceCount: 1302,
-    neighborCount: 3705,
+    neighborCount: 3360,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -1246,7 +1246,7 @@ export const grantsData = [
     blockRange: 2131233,
     fileSize: 336,
     appearanceCount: 42,
-    neighborCount: 125,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -1281,7 +1281,7 @@ export const grantsData = [
     blockRange: 8015396,
     fileSize: 10416,
     appearanceCount: 1302,
-    neighborCount: 3705,
+    neighborCount: 3360,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -1316,7 +1316,7 @@ export const grantsData = [
     blockRange: 5926396,
     fileSize: 696,
     appearanceCount: 87,
-    neighborCount: 256,
+    neighborCount: 1599,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -1347,11 +1347,11 @@ export const grantsData = [
       timestamp: 1636369995,
       date: '2021-11-08 11:13:15'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6034036,
     fileSize: 592,
     appearanceCount: 74,
-    neighborCount: 251,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -1386,7 +1386,7 @@ export const grantsData = [
     blockRange: 7650287,
     fileSize: 1472,
     appearanceCount: 184,
-    neighborCount: 432,
+    neighborCount: 1385,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -1421,7 +1421,7 @@ export const grantsData = [
     blockRange: 3746899,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 30,
+    neighborCount: 42,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -1452,11 +1452,11 @@ export const grantsData = [
       timestamp: 1606854556,
       date: '2020-12-01 20:29:16'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3692444,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 77,
+    neighborCount: 333,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -1487,11 +1487,11 @@ export const grantsData = [
       timestamp: 1636456913,
       date: '2021-11-09 11:21:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6462122,
     fileSize: 1480,
     appearanceCount: 185,
-    neighborCount: 669,
+    neighborCount: 1090,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -1526,7 +1526,7 @@ export const grantsData = [
     blockRange: 298054,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 49,
+    neighborCount: 607,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -1561,7 +1561,7 @@ export const grantsData = [
     blockRange: 7678935,
     fileSize: 16208,
     appearanceCount: 2026,
-    neighborCount: 8793,
+    neighborCount: 27982,
     types: 'txs,logs,neighbors',
     logCount: 54,
     matched: 0,
@@ -1569,7 +1569,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.9681682495170072
+        balance: 0.8082512603346425
       }
     ],
     core: false
@@ -1592,11 +1592,11 @@ export const grantsData = [
       timestamp: 1609292328,
       date: '2020-12-30 01:38:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3707012,
     fileSize: 6448,
     appearanceCount: 806,
-    neighborCount: 2209,
+    neighborCount: 3249,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -1631,7 +1631,7 @@ export const grantsData = [
     blockRange: 5554322,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 74,
+    neighborCount: 833,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -1666,7 +1666,7 @@ export const grantsData = [
     blockRange: 5564989,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 79,
+    neighborCount: 952,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -1701,7 +1701,7 @@ export const grantsData = [
     blockRange: 4796535,
     fileSize: 616,
     appearanceCount: 77,
-    neighborCount: 238,
+    neighborCount: 1186,
     types: 'txs,logs,neighbors',
     logCount: 24,
     matched: 0,
@@ -1727,16 +1727,16 @@ export const grantsData = [
       date: '2019-06-18 18:20:16'
     },
     latestAppearance: {
-      bn: 13706328,
-      txId: 331,
-      timestamp: 1638157198,
-      date: '2021-11-29 03:39:58'
+      bn: 13745616,
+      txId: 561,
+      timestamp: 1638701116,
+      date: '2021-12-05 10:45:16'
     },
-    lastUpdated: 13711342,
-    blockRange: 5722450,
-    fileSize: 1784,
-    appearanceCount: 223,
-    neighborCount: 890,
+    lastUpdated: 13749516,
+    blockRange: 5761738,
+    fileSize: 1864,
+    appearanceCount: 233,
+    neighborCount: 2186,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -1744,7 +1744,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 2.2422939115824647
+        balance: 2.223344567228207
       }
     ],
     core: false
@@ -1767,11 +1767,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5456493,
     fileSize: 352,
     appearanceCount: 44,
-    neighborCount: 143,
+    neighborCount: 875,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -1806,7 +1806,7 @@ export const grantsData = [
     blockRange: 3727382,
     fileSize: 488,
     appearanceCount: 61,
-    neighborCount: 243,
+    neighborCount: 2156,
     types: 'txs,logs,neighbors',
     logCount: 26,
     matched: 0,
@@ -1837,11 +1837,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2218845,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 17,
+    neighborCount: 967,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -1876,7 +1876,7 @@ export const grantsData = [
     blockRange: 2290055,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 122,
+    neighborCount: 176,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -1911,7 +1911,7 @@ export const grantsData = [
     blockRange: 74916,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 28,
+    neighborCount: 30,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -1942,11 +1942,11 @@ export const grantsData = [
       timestamp: 1625206474,
       date: '2021-07-02 06:14:34'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4473173,
     fileSize: 1384,
     appearanceCount: 173,
-    neighborCount: 553,
+    neighborCount: 2189,
     types: 'txs,logs,neighbors',
     logCount: 54,
     matched: 0,
@@ -1977,11 +1977,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5078344,
     fileSize: 184,
     appearanceCount: 23,
-    neighborCount: 91,
+    neighborCount: 629,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -2012,11 +2012,11 @@ export const grantsData = [
       timestamp: 1626818505,
       date: '2021-07-20 22:01:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 7149451,
     fileSize: 2608,
     appearanceCount: 326,
-    neighborCount: 887,
+    neighborCount: 2920,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -2051,7 +2051,7 @@ export const grantsData = [
     blockRange: 1373582,
     fileSize: 8328,
     appearanceCount: 1041,
-    neighborCount: 3994,
+    neighborCount: 32612,
     types: 'txs,logs,neighbors',
     logCount: 940,
     matched: 0,
@@ -2077,16 +2077,16 @@ export const grantsData = [
       date: '2019-06-29 11:28:28'
     },
     latestAppearance: {
-      bn: 13701395,
-      txId: 244,
-      timestamp: 1638088949,
-      date: '2021-11-28 08:42:29'
+      bn: 13741941,
+      txId: 156,
+      timestamp: 1638650627,
+      date: '2021-12-04 20:43:47'
     },
-    lastUpdated: 13711342,
-    blockRange: 5648891,
-    fileSize: 119336,
-    appearanceCount: 14917,
-    neighborCount: 197328,
+    lastUpdated: 13749516,
+    blockRange: 5689437,
+    fileSize: 119408,
+    appearanceCount: 14926,
+    neighborCount: 340559,
     types: 'txs,logs,neighbors',
     logCount: 819,
     matched: 0,
@@ -2094,7 +2094,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 10.283940635962923
+        balance: 10.27741204856282
       }
     ],
     core: false
@@ -2112,16 +2112,16 @@ export const grantsData = [
       date: '2019-05-10 01:35:32'
     },
     latestAppearance: {
-      bn: 13503893,
-      txId: 97,
-      timestamp: 1635399413,
-      date: '2021-10-28 05:36:53'
+      bn: 13740375,
+      txId: 231,
+      timestamp: 1638628935,
+      date: '2021-12-04 14:42:15'
     },
-    lastUpdated: 13711342,
-    blockRange: 5774008,
-    fileSize: 2256,
-    appearanceCount: 282,
-    neighborCount: 1355,
+    lastUpdated: 13749516,
+    blockRange: 6010490,
+    fileSize: 2264,
+    appearanceCount: 283,
+    neighborCount: 7347,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -2147,18 +2147,18 @@ export const grantsData = [
       date: '2019-08-31 17:48:56'
     },
     latestAppearance: {
-      bn: 13707984,
-      txId: 135,
-      timestamp: 1638180833,
-      date: '2021-11-29 10:13:53'
+      bn: 13733906,
+      txId: 368,
+      timestamp: 1638539055,
+      date: '2021-12-03 13:44:15'
     },
-    lastUpdated: 13711342,
-    blockRange: 5248574,
-    fileSize: 16920,
-    appearanceCount: 2115,
-    neighborCount: 7773,
+    lastUpdated: 13749516,
+    blockRange: 5274496,
+    fileSize: 16984,
+    appearanceCount: 2123,
+    neighborCount: 48084,
     types: 'txs,logs,neighbors',
-    logCount: 1441,
+    logCount: 1443,
     matched: 0,
     claimed: 0,
     balances: [
@@ -2191,7 +2191,7 @@ export const grantsData = [
     blockRange: 16672,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 54,
+    neighborCount: 184,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -2222,11 +2222,11 @@ export const grantsData = [
       timestamp: 1637442298,
       date: '2021-11-20 21:04:58'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1603624,
     fileSize: 328,
     appearanceCount: 41,
-    neighborCount: 108,
+    neighborCount: 727,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -2261,7 +2261,7 @@ export const grantsData = [
     blockRange: 1160196,
     fileSize: 384,
     appearanceCount: 48,
-    neighborCount: 193,
+    neighborCount: 961,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -2287,16 +2287,16 @@ export const grantsData = [
       date: '2016-11-16 22:01:38'
     },
     latestAppearance: {
-      bn: 13709455,
-      txId: 339,
-      timestamp: 1638200859,
-      date: '2021-11-29 15:47:39'
+      bn: 13748694,
+      txId: 270,
+      timestamp: 1638744285,
+      date: '2021-12-05 22:44:45'
     },
-    lastUpdated: 13711342,
-    blockRange: 11069562,
-    fileSize: 9952,
-    appearanceCount: 1244,
-    neighborCount: 4579,
+    lastUpdated: 13749516,
+    blockRange: 11108801,
+    fileSize: 10048,
+    appearanceCount: 1256,
+    neighborCount: 10151,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -2304,7 +2304,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 76.82358249736123
+        balance: 94.24763060120895
       }
     ],
     core: false
@@ -2322,16 +2322,16 @@ export const grantsData = [
       date: '2016-11-16 22:01:38'
     },
     latestAppearance: {
-      bn: 13709455,
-      txId: 339,
-      timestamp: 1638200859,
-      date: '2021-11-29 15:47:39'
+      bn: 13748694,
+      txId: 270,
+      timestamp: 1638744285,
+      date: '2021-12-05 22:44:45'
     },
-    lastUpdated: 13711342,
-    blockRange: 11069562,
-    fileSize: 9952,
-    appearanceCount: 1244,
-    neighborCount: 4579,
+    lastUpdated: 13749516,
+    blockRange: 11108801,
+    fileSize: 10048,
+    appearanceCount: 1256,
+    neighborCount: 10151,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -2339,7 +2339,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 76.82358249736123
+        balance: 94.24763060120895
       }
     ],
     core: false
@@ -2401,15 +2401,15 @@ export const grantsData = [
     blockRange: 5119989,
     fileSize: 24816,
     appearanceCount: 3102,
-    neighborCount: 11227,
+    neighborCount: 73126,
     types: 'txs,logs,neighbors',
-    logCount: 2596,
+    logCount: 2597,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 58.020754094212826
+        balance: 58.09875409421282
       }
     ],
     core: false
@@ -2432,11 +2432,11 @@ export const grantsData = [
       timestamp: 1594766687,
       date: '2020-07-14 22:44:47'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1667915,
     fileSize: 320,
     appearanceCount: 40,
-    neighborCount: 483,
+    neighborCount: 539,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -2471,7 +2471,7 @@ export const grantsData = [
     blockRange: 4752693,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 42,
+    neighborCount: 161,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -2506,7 +2506,7 @@ export const grantsData = [
     blockRange: 7133281,
     fileSize: 2240,
     appearanceCount: 280,
-    neighborCount: 1036,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 69,
     matched: 0,
@@ -2514,7 +2514,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.5410006545329701
+        balance: 0.5710006545329701
       }
     ],
     core: false
@@ -2541,7 +2541,7 @@ export const grantsData = [
     blockRange: 4884986,
     fileSize: 2560,
     appearanceCount: 320,
-    neighborCount: 1053,
+    neighborCount: 9827,
     types: 'txs,logs,neighbors',
     logCount: 103,
     matched: 0,
@@ -2549,7 +2549,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.573498001203625
+        balance: 3.4153079164489175
       }
     ],
     core: false
@@ -2567,16 +2567,16 @@ export const grantsData = [
       date: '2019-08-29 05:11:44'
     },
     latestAppearance: {
-      bn: 13666489,
-      txId: 373,
-      timestamp: 1637611235,
-      date: '2021-11-22 20:00:35'
+      bn: 13729356,
+      txId: 133,
+      timestamp: 1638476014,
+      date: '2021-12-02 20:13:34'
     },
-    lastUpdated: 13711342,
-    blockRange: 5223381,
-    fileSize: 33864,
-    appearanceCount: 4233,
-    neighborCount: 17787,
+    lastUpdated: 13749516,
+    blockRange: 5286248,
+    fileSize: 33896,
+    appearanceCount: 4237,
+    neighborCount: 49607,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -2611,7 +2611,7 @@ export const grantsData = [
     blockRange: 5047979,
     fileSize: 1920,
     appearanceCount: 240,
-    neighborCount: 770,
+    neighborCount: 4781,
     types: 'txs,logs,neighbors',
     logCount: 68,
     matched: 0,
@@ -2646,7 +2646,7 @@ export const grantsData = [
     blockRange: 546475,
     fileSize: 2064,
     appearanceCount: 258,
-    neighborCount: 983,
+    neighborCount: 2941,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -2672,16 +2672,16 @@ export const grantsData = [
       date: '2019-10-01 22:04:04'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 4844885,
-    fileSize: 6656,
-    appearanceCount: 832,
-    neighborCount: 3196,
+    lastUpdated: 13749516,
+    blockRange: 5074148,
+    fileSize: 6680,
+    appearanceCount: 835,
+    neighborCount: 19402,
     types: 'txs,logs,neighbors',
     logCount: 381,
     matched: 0,
@@ -2716,7 +2716,7 @@ export const grantsData = [
     blockRange: 604572,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 32,
+    neighborCount: 46,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -2751,7 +2751,7 @@ export const grantsData = [
     blockRange: 4017073,
     fileSize: 472,
     appearanceCount: 59,
-    neighborCount: 232,
+    neighborCount: 1201,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -2786,7 +2786,7 @@ export const grantsData = [
     blockRange: 4017073,
     fileSize: 472,
     appearanceCount: 59,
-    neighborCount: 232,
+    neighborCount: 1201,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -2821,7 +2821,7 @@ export const grantsData = [
     blockRange: 4017073,
     fileSize: 472,
     appearanceCount: 59,
-    neighborCount: 232,
+    neighborCount: 1201,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -2847,16 +2847,16 @@ export const grantsData = [
       date: '2019-06-28 13:35:42'
     },
     latestAppearance: {
-      bn: 12707674,
-      txId: 131,
-      timestamp: 1624683654,
-      date: '2021-06-26 05:00:54'
+      bn: 13733386,
+      txId: 35,
+      timestamp: 1638531251,
+      date: '2021-12-03 11:34:11'
     },
-    lastUpdated: 13711342,
-    blockRange: 4661058,
-    fileSize: 968,
-    appearanceCount: 121,
-    neighborCount: 502,
+    lastUpdated: 13749516,
+    blockRange: 5686770,
+    fileSize: 984,
+    appearanceCount: 123,
+    neighborCount: 2787,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -2891,7 +2891,7 @@ export const grantsData = [
     blockRange: 4017073,
     fileSize: 472,
     appearanceCount: 59,
-    neighborCount: 232,
+    neighborCount: 1201,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -2926,7 +2926,7 @@ export const grantsData = [
     blockRange: 1652251,
     fileSize: 1376,
     appearanceCount: 172,
-    neighborCount: 552,
+    neighborCount: 2391,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -2961,7 +2961,7 @@ export const grantsData = [
     blockRange: 5211102,
     fileSize: 798056,
     appearanceCount: 99757,
-    neighborCount: 579086,
+    neighborCount: 950202,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -2996,15 +2996,15 @@ export const grantsData = [
     blockRange: 6176491,
     fileSize: 8424,
     appearanceCount: 1053,
-    neighborCount: 3882,
+    neighborCount: 25836,
     types: 'txs,logs,neighbors',
-    logCount: 810,
+    logCount: 826,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.7788496672825312
+        balance: 0.7800496672825312
       }
     ],
     core: false
@@ -3027,11 +3027,11 @@ export const grantsData = [
       timestamp: 1636543279,
       date: '2021-11-10 11:21:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4691706,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 1456,
+    neighborCount: 2085,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -3066,7 +3066,7 @@ export const grantsData = [
     blockRange: 5706289,
     fileSize: 4768,
     appearanceCount: 596,
-    neighborCount: 3263,
+    neighborCount: 7361,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -3101,7 +3101,7 @@ export const grantsData = [
     blockRange: 8086004,
     fileSize: 3464,
     appearanceCount: 433,
-    neighborCount: 1632,
+    neighborCount: 7388,
     types: 'txs,logs,neighbors',
     logCount: 73,
     matched: 0,
@@ -3136,7 +3136,7 @@ export const grantsData = [
     blockRange: 8086004,
     fileSize: 3464,
     appearanceCount: 433,
-    neighborCount: 1632,
+    neighborCount: 7388,
     types: 'txs,logs,neighbors',
     logCount: 73,
     matched: 0,
@@ -3171,7 +3171,7 @@ export const grantsData = [
     blockRange: 8086004,
     fileSize: 3464,
     appearanceCount: 433,
-    neighborCount: 1632,
+    neighborCount: 7388,
     types: 'txs,logs,neighbors',
     logCount: 73,
     matched: 0,
@@ -3206,7 +3206,7 @@ export const grantsData = [
     blockRange: 8086004,
     fileSize: 3464,
     appearanceCount: 433,
-    neighborCount: 1632,
+    neighborCount: 7388,
     types: 'txs,logs,neighbors',
     logCount: 73,
     matched: 0,
@@ -3232,24 +3232,24 @@ export const grantsData = [
       date: '2019-11-01 20:18:58'
     },
     latestAppearance: {
-      bn: 13725338,
-      txId: 4,
-      timestamp: 1638420157,
-      date: '2021-12-02 04:42:37'
+      bn: 13745801,
+      txId: 54,
+      timestamp: 1638703635,
+      date: '2021-12-05 11:27:15'
     },
-    lastUpdated: 13733380,
-    blockRange: 4870616,
-    fileSize: 17176,
-    appearanceCount: 2147,
-    neighborCount: 8095,
+    lastUpdated: 13749516,
+    blockRange: 4891079,
+    fileSize: 17208,
+    appearanceCount: 2151,
+    neighborCount: 39110,
     types: 'txs,logs,neighbors',
-    logCount: 993,
+    logCount: 994,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 37.32899942337631
+        balance: 37.313507096717395
       }
     ],
     core: false
@@ -3272,11 +3272,11 @@ export const grantsData = [
       timestamp: 1638074002,
       date: '2021-11-28 04:33:22'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4848724,
     fileSize: 1608,
     appearanceCount: 201,
-    neighborCount: 837,
+    neighborCount: 2255,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -3307,11 +3307,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4679485,
     fileSize: 4544,
     appearanceCount: 568,
-    neighborCount: 1619,
+    neighborCount: 3421,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -3342,11 +3342,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4393082,
     fileSize: 648,
     appearanceCount: 81,
-    neighborCount: 241,
+    neighborCount: 2247,
     types: 'txs,logs,neighbors',
     logCount: 22,
     matched: 0,
@@ -3372,16 +3372,16 @@ export const grantsData = [
       date: '2017-11-11 04:45:44'
     },
     latestAppearance: {
-      bn: 13635078,
-      txId: 53,
-      timestamp: 1637180095,
-      date: '2021-11-17 20:14:55'
+      bn: 13729551,
+      txId: 145,
+      timestamp: 1638478671,
+      date: '2021-12-02 20:57:51'
     },
-    lastUpdated: 13711342,
-    blockRange: 9104740,
-    fileSize: 6504,
-    appearanceCount: 813,
-    neighborCount: 2830,
+    lastUpdated: 13749516,
+    blockRange: 9199213,
+    fileSize: 6544,
+    appearanceCount: 818,
+    neighborCount: 8388,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -3416,7 +3416,7 @@ export const grantsData = [
     blockRange: 4809503,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 53,
+    neighborCount: 201,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -3451,9 +3451,9 @@ export const grantsData = [
     blockRange: 1515172,
     fileSize: 19480,
     appearanceCount: 2435,
-    neighborCount: 9338,
+    neighborCount: 60866,
     types: 'txs,logs,neighbors',
-    logCount: 2276,
+    logCount: 2279,
     matched: 0,
     claimed: 0,
     balances: [
@@ -3486,7 +3486,7 @@ export const grantsData = [
     blockRange: 4508755,
     fileSize: 448,
     appearanceCount: 56,
-    neighborCount: 209,
+    neighborCount: 756,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -3521,7 +3521,7 @@ export const grantsData = [
     blockRange: 6650616,
     fileSize: 1456,
     appearanceCount: 182,
-    neighborCount: 665,
+    neighborCount: 5227,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -3552,11 +3552,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4600420,
     fileSize: 1704,
     appearanceCount: 213,
-    neighborCount: 714,
+    neighborCount: 7208,
     types: 'txs,logs,neighbors',
     logCount: 133,
     matched: 0,
@@ -3591,7 +3591,7 @@ export const grantsData = [
     blockRange: 2276637,
     fileSize: 408,
     appearanceCount: 51,
-    neighborCount: 171,
+    neighborCount: 711,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -3626,7 +3626,7 @@ export const grantsData = [
     blockRange: 4799106,
     fileSize: 232,
     appearanceCount: 29,
-    neighborCount: 109,
+    neighborCount: 123,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -3657,11 +3657,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4393082,
     fileSize: 648,
     appearanceCount: 81,
-    neighborCount: 241,
+    neighborCount: 2247,
     types: 'txs,logs,neighbors',
     logCount: 22,
     matched: 0,
@@ -3687,16 +3687,16 @@ export const grantsData = [
       date: '2019-08-30 17:54:34'
     },
     latestAppearance: {
-      bn: 13709057,
-      txId: 328,
-      timestamp: 1638195037,
-      date: '2021-11-29 14:10:37'
+      bn: 13739492,
+      txId: 241,
+      timestamp: 1638616385,
+      date: '2021-12-04 11:13:05'
     },
-    lastUpdated: 13711342,
-    blockRange: 5256056,
-    fileSize: 11184,
-    appearanceCount: 1398,
-    neighborCount: 4742,
+    lastUpdated: 13749516,
+    blockRange: 5286491,
+    fileSize: 11200,
+    appearanceCount: 1400,
+    neighborCount: 18176,
     types: 'txs,logs,neighbors',
     logCount: 501,
     matched: 0,
@@ -3731,7 +3731,7 @@ export const grantsData = [
     blockRange: 4511511,
     fileSize: 6840,
     appearanceCount: 855,
-    neighborCount: 3185,
+    neighborCount: 24608,
     types: 'txs,logs,neighbors',
     logCount: 645,
     matched: 0,
@@ -3766,7 +3766,7 @@ export const grantsData = [
     blockRange: 7510924,
     fileSize: 1528,
     appearanceCount: 191,
-    neighborCount: 667,
+    neighborCount: 6576,
     types: 'txs,logs,neighbors',
     logCount: 29,
     matched: 0,
@@ -3801,7 +3801,7 @@ export const grantsData = [
     blockRange: 4454746,
     fileSize: 4520,
     appearanceCount: 565,
-    neighborCount: 1858,
+    neighborCount: 8653,
     types: 'txs,logs,neighbors',
     logCount: 281,
     matched: 0,
@@ -3836,7 +3836,7 @@ export const grantsData = [
     blockRange: 8235655,
     fileSize: 40600,
     appearanceCount: 5075,
-    neighborCount: 19094,
+    neighborCount: 105605,
     types: 'txs,logs,neighbors',
     logCount: 111,
     matched: 0,
@@ -3844,7 +3844,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.4945654032441671
+        balance: 0.213289054747618
       }
     ],
     core: false
@@ -3871,7 +3871,7 @@ export const grantsData = [
     blockRange: 8235655,
     fileSize: 40600,
     appearanceCount: 5075,
-    neighborCount: 19094,
+    neighborCount: 105605,
     types: 'txs,logs,neighbors',
     logCount: 111,
     matched: 0,
@@ -3879,7 +3879,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.4945654032441671
+        balance: 0.213289054747618
       }
     ],
     core: false
@@ -3906,7 +3906,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -3941,7 +3941,7 @@ export const grantsData = [
     blockRange: 5915992,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 99,
+    neighborCount: 95,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -3967,16 +3967,16 @@ export const grantsData = [
       date: '2018-10-09 14:45:24'
     },
     latestAppearance: {
-      bn: 13600321,
-      txId: 161,
-      timestamp: 1636706376,
-      date: '2021-11-12 08:39:36'
+      bn: 13732393,
+      txId: 12,
+      timestamp: 1638518105,
+      date: '2021-12-03 07:55:05'
     },
-    lastUpdated: 13711342,
-    blockRange: 7117030,
-    fileSize: 3032,
-    appearanceCount: 379,
-    neighborCount: 1079,
+    lastUpdated: 13749516,
+    blockRange: 7249102,
+    fileSize: 3040,
+    appearanceCount: 380,
+    neighborCount: 3972,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -4002,16 +4002,16 @@ export const grantsData = [
       date: '2018-02-18 01:20:08'
     },
     latestAppearance: {
-      bn: 13574079,
-      txId: 164,
-      timestamp: 1636351065,
-      date: '2021-11-08 05:57:45'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 8464231,
-    fileSize: 3424,
-    appearanceCount: 428,
-    neighborCount: 1419,
+    lastUpdated: 13749516,
+    blockRange: 8623348,
+    fileSize: 3432,
+    appearanceCount: 429,
+    neighborCount: 13032,
     types: 'txs,logs,neighbors',
     logCount: 230,
     matched: 0,
@@ -4037,18 +4037,18 @@ export const grantsData = [
       date: '2019-02-11 14:21:46'
     },
     latestAppearance: {
-      bn: 13677277,
-      txId: 47,
-      timestamp: 1637757464,
-      date: '2021-11-24 12:37:44'
+      bn: 13732242,
+      txId: 237,
+      timestamp: 1638516173,
+      date: '2021-12-03 07:22:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 6470234,
-    fileSize: 2784,
-    appearanceCount: 348,
-    neighborCount: 1253,
+    lastUpdated: 13749516,
+    blockRange: 6525199,
+    fileSize: 2800,
+    appearanceCount: 350,
+    neighborCount: 8069,
     types: 'txs,logs,neighbors',
-    logCount: 73,
+    logCount: 74,
     matched: 0,
     claimed: 0,
     balances: [
@@ -4072,16 +4072,16 @@ export const grantsData = [
       date: '2021-04-07 01:49:49'
     },
     latestAppearance: {
-      bn: 13710008,
-      txId: 35,
-      timestamp: 1638208694,
-      date: '2021-11-29 17:58:14'
+      bn: 13747705,
+      txId: 94,
+      timestamp: 1638730492,
+      date: '2021-12-05 18:54:52'
     },
-    lastUpdated: 13711342,
-    blockRange: 1520220,
-    fileSize: 5032,
-    appearanceCount: 629,
-    neighborCount: 3585,
+    lastUpdated: 13749516,
+    blockRange: 1557917,
+    fileSize: 5144,
+    appearanceCount: 643,
+    neighborCount: 9437,
     types: 'txs,logs,neighbors',
     logCount: 83,
     matched: 0,
@@ -4089,7 +4089,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.050430112567525394
+        balance: 0.15640405751487732
       }
     ],
     core: false
@@ -4116,7 +4116,7 @@ export const grantsData = [
     blockRange: 5462807,
     fileSize: 2632,
     appearanceCount: 329,
-    neighborCount: 1441,
+    neighborCount: 5678,
     types: 'txs,logs,neighbors',
     logCount: 95,
     matched: 0,
@@ -4151,7 +4151,7 @@ export const grantsData = [
     blockRange: 4271663,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 99,
+    neighborCount: 624,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -4186,7 +4186,7 @@ export const grantsData = [
     blockRange: 5194988,
     fileSize: 208,
     appearanceCount: 26,
-    neighborCount: 133,
+    neighborCount: 778,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -4221,7 +4221,7 @@ export const grantsData = [
     blockRange: 3648032,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 61,
+    neighborCount: 565,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -4252,11 +4252,11 @@ export const grantsData = [
       timestamp: 1637872003,
       date: '2021-11-25 20:26:43'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6917384,
     fileSize: 2568,
     appearanceCount: 321,
-    neighborCount: 964,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 34,
     matched: 0,
@@ -4291,7 +4291,7 @@ export const grantsData = [
     blockRange: 7075499,
     fileSize: 6576,
     appearanceCount: 822,
-    neighborCount: 3669,
+    neighborCount: 11089,
     types: 'txs,logs,neighbors',
     logCount: 78,
     matched: 0,
@@ -4317,24 +4317,24 @@ export const grantsData = [
       date: '2021-04-02 20:20:21'
     },
     latestAppearance: {
-      bn: 13671481,
-      txId: 303,
-      timestamp: 1637679238,
-      date: '2021-11-23 14:53:58'
+      bn: 13749505,
+      txId: 181,
+      timestamp: 1638755714,
+      date: '2021-12-06 01:55:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 1509243,
-    fileSize: 4728,
-    appearanceCount: 591,
-    neighborCount: 2173,
+    lastUpdated: 13749516,
+    blockRange: 1587267,
+    fileSize: 4760,
+    appearanceCount: 595,
+    neighborCount: 22447,
     types: 'txs,logs,neighbors',
-    logCount: 513,
+    logCount: 514,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.41526672513646434
+        balance: 7.915266725136465
       }
     ],
     core: false
@@ -4361,7 +4361,7 @@ export const grantsData = [
     blockRange: 2759547,
     fileSize: 1424,
     appearanceCount: 178,
-    neighborCount: 646,
+    neighborCount: 4443,
     types: 'txs,logs,neighbors',
     logCount: 131,
     matched: 0,
@@ -4396,7 +4396,7 @@ export const grantsData = [
     blockRange: 8889787,
     fileSize: 10912,
     appearanceCount: 1364,
-    neighborCount: 4636,
+    neighborCount: 18612,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -4422,16 +4422,16 @@ export const grantsData = [
       date: '2019-08-05 19:05:57'
     },
     latestAppearance: {
-      bn: 13711291,
-      txId: 37,
-      timestamp: 1638226274,
-      date: '2021-11-29 22:51:14'
+      bn: 13749501,
+      txId: 29,
+      timestamp: 1638755659,
+      date: '2021-12-06 01:54:19'
     },
-    lastUpdated: 13711342,
-    blockRange: 5418873,
-    fileSize: 99336,
-    appearanceCount: 12417,
-    neighborCount: 89824,
+    lastUpdated: 13749516,
+    blockRange: 5457083,
+    fileSize: 100496,
+    appearanceCount: 12562,
+    neighborCount: 171648,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -4466,7 +4466,7 @@ export const grantsData = [
     blockRange: 6872446,
     fileSize: 12616,
     appearanceCount: 1577,
-    neighborCount: 5937,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 41,
     matched: 0,
@@ -4501,7 +4501,7 @@ export const grantsData = [
     blockRange: 4716717,
     fileSize: 3184,
     appearanceCount: 398,
-    neighborCount: 1456,
+    neighborCount: 13842,
     types: 'txs,logs,neighbors',
     logCount: 272,
     matched: 0,
@@ -4536,7 +4536,7 @@ export const grantsData = [
     blockRange: 11305173,
     fileSize: 2912,
     appearanceCount: 364,
-    neighborCount: 1948,
+    neighborCount: 6362,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -4571,7 +4571,7 @@ export const grantsData = [
     blockRange: 299899,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 522,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -4606,7 +4606,7 @@ export const grantsData = [
     blockRange: 4385915,
     fileSize: 200,
     appearanceCount: 25,
-    neighborCount: 133,
+    neighborCount: 895,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -4637,11 +4637,11 @@ export const grantsData = [
       timestamp: 1609002321,
       date: '2020-12-26 17:05:21'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2301453,
     fileSize: 576,
     appearanceCount: 72,
-    neighborCount: 276,
+    neighborCount: 446,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -4676,7 +4676,7 @@ export const grantsData = [
     blockRange: 4273172,
     fileSize: 840,
     appearanceCount: 105,
-    neighborCount: 494,
+    neighborCount: 1384,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -4711,7 +4711,7 @@ export const grantsData = [
     blockRange: 7119732,
     fileSize: 540056,
     appearanceCount: 67507,
-    neighborCount: 1887394,
+    neighborCount: 1177726,
     types: 'txs,logs,neighbors',
     logCount: 147,
     matched: 0,
@@ -4742,11 +4742,11 @@ export const grantsData = [
       timestamp: 1632335413,
       date: '2021-09-22 18:30:13'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 9133662,
     fileSize: 8560,
     appearanceCount: 1070,
-    neighborCount: 3878,
+    neighborCount: 10513,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -4781,7 +4781,7 @@ export const grantsData = [
     blockRange: 9856537,
     fileSize: 7064,
     appearanceCount: 883,
-    neighborCount: 3173,
+    neighborCount: 8516,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -4812,11 +4812,11 @@ export const grantsData = [
       timestamp: 1599280194,
       date: '2020-09-05 04:29:54'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2921990,
     fileSize: 1208,
     appearanceCount: 151,
-    neighborCount: 598,
+    neighborCount: 1880,
     types: 'txs,logs,neighbors',
     logCount: 19,
     matched: 0,
@@ -4842,16 +4842,16 @@ export const grantsData = [
       date: '2019-01-21 16:50:32'
     },
     latestAppearance: {
-      bn: 13710080,
-      txId: 189,
-      timestamp: 1638209738,
-      date: '2021-11-29 18:15:38'
+      bn: 13741797,
+      txId: 107,
+      timestamp: 1638648941,
+      date: '2021-12-04 20:15:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 6605467,
-    fileSize: 12128,
-    appearanceCount: 1516,
-    neighborCount: 13920,
+    lastUpdated: 13749516,
+    blockRange: 6637184,
+    fileSize: 12192,
+    appearanceCount: 1524,
+    neighborCount: 27953,
     types: 'txs,logs,neighbors',
     logCount: 24,
     matched: 0,
@@ -4859,7 +4859,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.17010898685501719
+        balance: 0.15201125264307241
       }
     ],
     core: false
@@ -4882,11 +4882,11 @@ export const grantsData = [
       timestamp: 1638023341,
       date: '2021-11-27 14:29:01'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5563177,
     fileSize: 19488,
     appearanceCount: 2436,
-    neighborCount: 19611,
+    neighborCount: 22651,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -4921,7 +4921,7 @@ export const grantsData = [
     blockRange: 7405853,
     fileSize: 4040,
     appearanceCount: 505,
-    neighborCount: 2105,
+    neighborCount: 3240,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -4952,11 +4952,11 @@ export const grantsData = [
       timestamp: 1599280194,
       date: '2020-09-05 04:29:54'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2921990,
     fileSize: 1208,
     appearanceCount: 151,
-    neighborCount: 598,
+    neighborCount: 1880,
     types: 'txs,logs,neighbors',
     logCount: 19,
     matched: 0,
@@ -4987,11 +4987,11 @@ export const grantsData = [
       timestamp: 1599280194,
       date: '2020-09-05 04:29:54'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2921990,
     fileSize: 1208,
     appearanceCount: 151,
-    neighborCount: 598,
+    neighborCount: 1880,
     types: 'txs,logs,neighbors',
     logCount: 19,
     matched: 0,
@@ -5022,11 +5022,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5242051,
     fileSize: 4192,
     appearanceCount: 524,
-    neighborCount: 1814,
+    neighborCount: 3156,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -5061,7 +5061,7 @@ export const grantsData = [
     blockRange: 3083363,
     fileSize: 15192,
     appearanceCount: 1899,
-    neighborCount: 6929,
+    neighborCount: 51362,
     types: 'txs,logs,neighbors',
     logCount: 1766,
     matched: 0,
@@ -5087,24 +5087,24 @@ export const grantsData = [
       date: '2017-11-29 15:36:12'
     },
     latestAppearance: {
-      bn: 13709873,
-      txId: 73,
-      timestamp: 1638206894,
-      date: '2021-11-29 17:28:14'
+      bn: 13741006,
+      txId: 236,
+      timestamp: 1638637534,
+      date: '2021-12-04 17:05:34'
     },
-    lastUpdated: 13711342,
-    blockRange: 9065176,
-    fileSize: 13248,
-    appearanceCount: 1656,
-    neighborCount: 9461,
+    lastUpdated: 13749516,
+    blockRange: 9096309,
+    fileSize: 13480,
+    appearanceCount: 1685,
+    neighborCount: 27024,
     types: 'txs,logs,neighbors',
-    logCount: 308,
+    logCount: 309,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.5197206243034155
+        balance: 0.6219139326639002
       }
     ],
     core: false
@@ -5131,7 +5131,7 @@ export const grantsData = [
     blockRange: 5340200,
     fileSize: 2304,
     appearanceCount: 288,
-    neighborCount: 963,
+    neighborCount: 2752,
     types: 'txs,logs,neighbors',
     logCount: 48,
     matched: 0,
@@ -5166,7 +5166,7 @@ export const grantsData = [
     blockRange: 1400666,
     fileSize: 1480,
     appearanceCount: 185,
-    neighborCount: 673,
+    neighborCount: 3424,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -5197,11 +5197,11 @@ export const grantsData = [
       timestamp: 1625387141,
       date: '2021-07-04 08:25:41'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3544909,
     fileSize: 1160,
     appearanceCount: 145,
-    neighborCount: 847,
+    neighborCount: 980,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -5236,7 +5236,7 @@ export const grantsData = [
     blockRange: 4589503,
     fileSize: 9536,
     appearanceCount: 1192,
-    neighborCount: 6602,
+    neighborCount: 11014,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -5271,7 +5271,7 @@ export const grantsData = [
     blockRange: 83047,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 22,
+    neighborCount: 397,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -5297,16 +5297,16 @@ export const grantsData = [
       date: '2017-06-21 14:58:52'
     },
     latestAppearance: {
-      bn: 13668611,
-      txId: 176,
-      timestamp: 1637639858,
-      date: '2021-11-23 03:57:38'
+      bn: 13727344,
+      txId: 321,
+      timestamp: 1638448041,
+      date: '2021-12-02 12:27:21'
     },
-    lastUpdated: 13711342,
-    blockRange: 9759967,
-    fileSize: 3336,
-    appearanceCount: 417,
-    neighborCount: 1934,
+    lastUpdated: 13749516,
+    blockRange: 9818700,
+    fileSize: 3352,
+    appearanceCount: 419,
+    neighborCount: 6934,
     types: 'txs,logs,neighbors',
     logCount: 60,
     matched: 0,
@@ -5341,7 +5341,7 @@ export const grantsData = [
     blockRange: 2725635,
     fileSize: 480,
     appearanceCount: 60,
-    neighborCount: 156,
+    neighborCount: 1631,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -5367,16 +5367,16 @@ export const grantsData = [
       date: '2017-12-15 03:14:28'
     },
     latestAppearance: {
-      bn: 13627163,
-      txId: 213,
-      timestamp: 1637073697,
-      date: '2021-11-16 14:41:37'
+      bn: 13732007,
+      txId: 138,
+      timestamp: 1638513011,
+      date: '2021-12-03 06:30:11'
     },
-    lastUpdated: 13711342,
-    blockRange: 8892515,
-    fileSize: 28472,
-    appearanceCount: 3559,
-    neighborCount: 30734,
+    lastUpdated: 13749516,
+    blockRange: 8997359,
+    fileSize: 28480,
+    appearanceCount: 3560,
+    neighborCount: 41603,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -5402,16 +5402,16 @@ export const grantsData = [
       date: '2020-01-08 20:26:45'
     },
     latestAppearance: {
-      bn: 13705360,
-      txId: 189,
-      timestamp: 1638143674,
-      date: '2021-11-28 23:54:34'
+      bn: 13736560,
+      txId: 181,
+      timestamp: 1638575109,
+      date: '2021-12-03 23:45:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 4463212,
-    fileSize: 10832,
-    appearanceCount: 1354,
-    neighborCount: 5426,
+    lastUpdated: 13749516,
+    blockRange: 4494412,
+    fileSize: 10872,
+    appearanceCount: 1359,
+    neighborCount: 26955,
     types: 'txs,logs,neighbors',
     logCount: 735,
     matched: 0,
@@ -5437,16 +5437,16 @@ export const grantsData = [
       date: '2019-10-23 05:04:59'
     },
     latestAppearance: {
-      bn: 13701690,
-      txId: 176,
-      timestamp: 1638092953,
-      date: '2021-11-28 09:49:13'
+      bn: 13725485,
+      txId: 94,
+      timestamp: 1638422431,
+      date: '2021-12-02 05:20:31'
     },
-    lastUpdated: 13711342,
-    blockRange: 4906963,
-    fileSize: 4608,
-    appearanceCount: 576,
-    neighborCount: 2011,
+    lastUpdated: 13749516,
+    blockRange: 4930758,
+    fileSize: 4616,
+    appearanceCount: 577,
+    neighborCount: 14721,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -5481,7 +5481,7 @@ export const grantsData = [
     blockRange: 4256568,
     fileSize: 240,
     appearanceCount: 30,
-    neighborCount: 135,
+    neighborCount: 1107,
     types: 'txs,logs,neighbors',
     logCount: 14,
     matched: 0,
@@ -5512,11 +5512,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1379260,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 52,
+    neighborCount: 856,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -5547,11 +5547,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4865854,
     fileSize: 3824,
     appearanceCount: 478,
-    neighborCount: 1764,
+    neighborCount: 8888,
     types: 'txs,logs,neighbors',
     logCount: 145,
     matched: 0,
@@ -5577,18 +5577,18 @@ export const grantsData = [
       date: '2020-10-09 14:56:03'
     },
     latestAppearance: {
-      bn: 13674687,
-      txId: 57,
-      timestamp: 1637722712,
-      date: '2021-11-24 02:58:32'
+      bn: 13731994,
+      txId: 174,
+      timestamp: 1638512793,
+      date: '2021-12-03 06:26:33'
     },
-    lastUpdated: 13711342,
-    blockRange: 2652747,
-    fileSize: 12600,
-    appearanceCount: 1575,
-    neighborCount: 5907,
+    lastUpdated: 13749516,
+    blockRange: 2710054,
+    fileSize: 12664,
+    appearanceCount: 1583,
+    neighborCount: 34661,
     types: 'txs,logs,neighbors',
-    logCount: 1393,
+    logCount: 1396,
     matched: 0,
     claimed: 0,
     balances: [
@@ -5617,11 +5617,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4808725,
     fileSize: 480,
     appearanceCount: 60,
-    neighborCount: 182,
+    neighborCount: 830,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -5656,7 +5656,7 @@ export const grantsData = [
     blockRange: 4520616,
     fileSize: 10952,
     appearanceCount: 1369,
-    neighborCount: 5103,
+    neighborCount: 32391,
     types: 'txs,logs,neighbors',
     logCount: 824,
     matched: 0,
@@ -5722,11 +5722,11 @@ export const grantsData = [
       timestamp: 1636771433,
       date: '2021-11-13 02:43:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4759195,
     fileSize: 632,
     appearanceCount: 79,
-    neighborCount: 304,
+    neighborCount: 1210,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -5757,11 +5757,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -5787,18 +5787,18 @@ export const grantsData = [
       date: '2019-09-24 06:40:53'
     },
     latestAppearance: {
-      bn: 13641133,
-      txId: 21,
-      timestamp: 1637262948,
-      date: '2021-11-18 19:15:48'
+      bn: 13736940,
+      txId: 99,
+      timestamp: 1638580580,
+      date: '2021-12-04 01:16:20'
     },
-    lastUpdated: 13711342,
-    blockRange: 5030903,
-    fileSize: 6024,
-    appearanceCount: 753,
-    neighborCount: 3022,
+    lastUpdated: 13749516,
+    blockRange: 5126710,
+    fileSize: 6072,
+    appearanceCount: 759,
+    neighborCount: 27675,
     types: 'txs,logs,neighbors',
-    logCount: 648,
+    logCount: 649,
     matched: 0,
     claimed: 0,
     balances: [
@@ -5831,7 +5831,7 @@ export const grantsData = [
     blockRange: 1308077,
     fileSize: 2216,
     appearanceCount: 277,
-    neighborCount: 990,
+    neighborCount: 11372,
     types: 'txs,logs,neighbors',
     logCount: 257,
     matched: 0,
@@ -5862,11 +5862,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4249818,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 125,
+    neighborCount: 897,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -5901,7 +5901,7 @@ export const grantsData = [
     blockRange: 4249339,
     fileSize: 384,
     appearanceCount: 48,
-    neighborCount: 183,
+    neighborCount: 1164,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -5936,7 +5936,7 @@ export const grantsData = [
     blockRange: 3146538,
     fileSize: 856,
     appearanceCount: 107,
-    neighborCount: 359,
+    neighborCount: 2402,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -5962,16 +5962,16 @@ export const grantsData = [
       date: '2019-05-13 00:19:41'
     },
     latestAppearance: {
-      bn: 13706377,
-      txId: 77,
-      timestamp: 1638157840,
-      date: '2021-11-29 03:50:40'
+      bn: 13744840,
+      txId: 14,
+      timestamp: 1638690245,
+      date: '2021-12-05 07:44:05'
     },
-    lastUpdated: 13711342,
-    blockRange: 5957530,
-    fileSize: 31608,
-    appearanceCount: 3951,
-    neighborCount: 27463,
+    lastUpdated: 13749516,
+    blockRange: 5995993,
+    fileSize: 31664,
+    appearanceCount: 3958,
+    neighborCount: 54024,
     types: 'txs,logs,neighbors',
     logCount: 33,
     matched: 0,
@@ -5979,7 +5979,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.4913242658158679
+        balance: 0.137180584476952
       }
     ],
     core: false
@@ -6002,11 +6002,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4267795,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 75,
+    neighborCount: 868,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -6041,7 +6041,7 @@ export const grantsData = [
     blockRange: 4441594,
     fileSize: 3272,
     appearanceCount: 409,
-    neighborCount: 1552,
+    neighborCount: 8755,
     types: 'txs,logs,neighbors',
     logCount: 70,
     matched: 0,
@@ -6067,16 +6067,16 @@ export const grantsData = [
       date: '2019-05-13 00:19:41'
     },
     latestAppearance: {
-      bn: 13706377,
-      txId: 77,
-      timestamp: 1638157840,
-      date: '2021-11-29 03:50:40'
+      bn: 13744840,
+      txId: 14,
+      timestamp: 1638690245,
+      date: '2021-12-05 07:44:05'
     },
-    lastUpdated: 13711342,
-    blockRange: 5957530,
-    fileSize: 31608,
-    appearanceCount: 3951,
-    neighborCount: 27463,
+    lastUpdated: 13749516,
+    blockRange: 5995993,
+    fileSize: 31664,
+    appearanceCount: 3958,
+    neighborCount: 54024,
     types: 'txs,logs,neighbors',
     logCount: 33,
     matched: 0,
@@ -6084,7 +6084,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.4913242658158679
+        balance: 0.137180584476952
       }
     ],
     core: false
@@ -6111,7 +6111,7 @@ export const grantsData = [
     blockRange: 3099087,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 129,
+    neighborCount: 1113,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -6142,11 +6142,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4398520,
     fileSize: 1952,
     appearanceCount: 244,
-    neighborCount: 1056,
+    neighborCount: 3481,
     types: 'txs,logs,neighbors',
     logCount: 62,
     matched: 0,
@@ -6177,11 +6177,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4398520,
     fileSize: 1952,
     appearanceCount: 244,
-    neighborCount: 1056,
+    neighborCount: 3481,
     types: 'txs,logs,neighbors',
     logCount: 62,
     matched: 0,
@@ -6216,7 +6216,7 @@ export const grantsData = [
     blockRange: 3780576,
     fileSize: 7648,
     appearanceCount: 956,
-    neighborCount: 4903,
+    neighborCount: 6328,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -6251,7 +6251,7 @@ export const grantsData = [
     blockRange: 7130425,
     fileSize: 20968,
     appearanceCount: 2621,
-    neighborCount: 55502,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 108,
     matched: 0,
@@ -6282,11 +6282,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3262810,
     fileSize: 1384,
     appearanceCount: 173,
-    neighborCount: 767,
+    neighborCount: 4877,
     types: 'txs,logs,neighbors',
     logCount: 138,
     matched: 0,
@@ -6317,11 +6317,11 @@ export const grantsData = [
       timestamp: 1594762680,
       date: '2020-07-14 21:38:00'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1193338,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 64,
+    neighborCount: 84,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -6347,16 +6347,16 @@ export const grantsData = [
       date: '2019-10-23 05:04:59'
     },
     latestAppearance: {
-      bn: 13701690,
-      txId: 176,
-      timestamp: 1638092953,
-      date: '2021-11-28 09:49:13'
+      bn: 13725485,
+      txId: 94,
+      timestamp: 1638422431,
+      date: '2021-12-02 05:20:31'
     },
-    lastUpdated: 13711342,
-    blockRange: 4906963,
-    fileSize: 4608,
-    appearanceCount: 576,
-    neighborCount: 2011,
+    lastUpdated: 13749516,
+    blockRange: 4930758,
+    fileSize: 4616,
+    appearanceCount: 577,
+    neighborCount: 14721,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -6391,7 +6391,7 @@ export const grantsData = [
     blockRange: 6340224,
     fileSize: 19560,
     appearanceCount: 2445,
-    neighborCount: 8630,
+    neighborCount: 24778,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -6399,7 +6399,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 11.398111763596074
+        balance: 23.111324442860333
       }
     ],
     core: false
@@ -6422,11 +6422,11 @@ export const grantsData = [
       timestamp: 1636321040,
       date: '2021-11-07 21:37:20'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8769242,
     fileSize: 13568,
     appearanceCount: 1696,
-    neighborCount: 6565,
+    neighborCount: 9240,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -6461,7 +6461,7 @@ export const grantsData = [
     blockRange: 5624551,
     fileSize: 1784,
     appearanceCount: 223,
-    neighborCount: 931,
+    neighborCount: 1768,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -6492,11 +6492,11 @@ export const grantsData = [
       timestamp: 1636452667,
       date: '2021-11-09 10:11:07'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1356794,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 113,
+    neighborCount: 649,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -6531,7 +6531,7 @@ export const grantsData = [
     blockRange: 2445792,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 46,
+    neighborCount: 52,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -6557,16 +6557,16 @@ export const grantsData = [
       date: '2019-01-21 16:50:32'
     },
     latestAppearance: {
-      bn: 13710080,
-      txId: 189,
-      timestamp: 1638209738,
-      date: '2021-11-29 18:15:38'
+      bn: 13741797,
+      txId: 107,
+      timestamp: 1638648941,
+      date: '2021-12-04 20:15:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 6605467,
-    fileSize: 12128,
-    appearanceCount: 1516,
-    neighborCount: 13920,
+    lastUpdated: 13749516,
+    blockRange: 6637184,
+    fileSize: 12192,
+    appearanceCount: 1524,
+    neighborCount: 27953,
     types: 'txs,logs,neighbors',
     logCount: 24,
     matched: 0,
@@ -6574,7 +6574,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.17010898685501719
+        balance: 0.15201125264307241
       }
     ],
     core: false
@@ -6601,7 +6601,7 @@ export const grantsData = [
     blockRange: 4230362,
     fileSize: 416,
     appearanceCount: 52,
-    neighborCount: 205,
+    neighborCount: 919,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -6636,7 +6636,7 @@ export const grantsData = [
     blockRange: 8414136,
     fileSize: 3568,
     appearanceCount: 446,
-    neighborCount: 1397,
+    neighborCount: 4910,
     types: 'txs,logs,neighbors',
     logCount: 27,
     matched: 0,
@@ -6644,7 +6644,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.15946978986687418
+        balance: 0.010939465296357276
       }
     ],
     core: false
@@ -6667,11 +6667,11 @@ export const grantsData = [
       timestamp: 1635429301,
       date: '2021-10-28 13:55:01'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 459159,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 38,
+    neighborCount: 52,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -6697,16 +6697,16 @@ export const grantsData = [
       date: '2019-12-31 15:42:56'
     },
     latestAppearance: {
-      bn: 13709608,
-      txId: 59,
-      timestamp: 1638203062,
-      date: '2021-11-29 16:24:22'
+      bn: 13747887,
+      txId: 46,
+      timestamp: 1638733204,
+      date: '2021-12-05 19:40:04'
     },
-    lastUpdated: 13711342,
-    blockRange: 4518078,
-    fileSize: 24248,
-    appearanceCount: 3031,
-    neighborCount: 19558,
+    lastUpdated: 13749516,
+    blockRange: 4556357,
+    fileSize: 24280,
+    appearanceCount: 3035,
+    neighborCount: 27352,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -6714,7 +6714,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.0781643331291106
+        balance: 2.220217974871565
       }
     ],
     core: false
@@ -6732,16 +6732,16 @@ export const grantsData = [
       date: '2019-03-20 14:06:19'
     },
     latestAppearance: {
-      bn: 13703351,
-      txId: 16,
-      timestamp: 1638115774,
-      date: '2021-11-28 16:09:34'
+      bn: 13740762,
+      txId: 89,
+      timestamp: 1638634329,
+      date: '2021-12-04 16:12:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 6297197,
-    fileSize: 1568,
-    appearanceCount: 196,
-    neighborCount: 685,
+    lastUpdated: 13749516,
+    blockRange: 6334608,
+    fileSize: 1608,
+    appearanceCount: 201,
+    neighborCount: 2677,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -6749,7 +6749,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0
+        balance: 0.00038617607238
       }
     ],
     core: false
@@ -6776,7 +6776,7 @@ export const grantsData = [
     blockRange: 1547755,
     fileSize: 3728,
     appearanceCount: 466,
-    neighborCount: 1878,
+    neighborCount: 17989,
     types: 'txs,logs,neighbors',
     logCount: 405,
     matched: 0,
@@ -6811,7 +6811,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 5,
+    neighborCount: 30,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -6846,9 +6846,9 @@ export const grantsData = [
     blockRange: 8178351,
     fileSize: 17528,
     appearanceCount: 2191,
-    neighborCount: 7707,
+    neighborCount: 52082,
     types: 'txs,logs,neighbors',
-    logCount: 1727,
+    logCount: 1728,
     matched: 0,
     claimed: 0,
     balances: [
@@ -6877,11 +6877,11 @@ export const grantsData = [
       timestamp: 1638092208,
       date: '2021-11-28 09:36:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5532833,
     fileSize: 2184,
     appearanceCount: 273,
-    neighborCount: 935,
+    neighborCount: 5668,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -6916,9 +6916,9 @@ export const grantsData = [
     blockRange: 351915,
     fileSize: 1168,
     appearanceCount: 146,
-    neighborCount: 554,
+    neighborCount: 5135,
     types: 'txs,logs,neighbors',
-    logCount: 125,
+    logCount: 128,
     matched: 0,
     claimed: 0,
     balances: [
@@ -6947,11 +6947,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 275304,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 18,
+    neighborCount: 627,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -6986,7 +6986,7 @@ export const grantsData = [
     blockRange: 1501160,
     fileSize: 184,
     appearanceCount: 23,
-    neighborCount: 61,
+    neighborCount: 1072,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -7017,11 +7017,11 @@ export const grantsData = [
       timestamp: 1637420516,
       date: '2021-11-20 15:01:56'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5271045,
     fileSize: 2880,
     appearanceCount: 360,
-    neighborCount: 1139,
+    neighborCount: 4528,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -7056,7 +7056,7 @@ export const grantsData = [
     blockRange: 6998603,
     fileSize: 40984,
     appearanceCount: 5123,
-    neighborCount: 16329,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -7087,11 +7087,11 @@ export const grantsData = [
       timestamp: 1603879135,
       date: '2020-10-28 09:58:55'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1862967,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 38,
+    neighborCount: 44,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -7126,7 +7126,7 @@ export const grantsData = [
     blockRange: 6013001,
     fileSize: 3496,
     appearanceCount: 437,
-    neighborCount: 1690,
+    neighborCount: 15029,
     types: 'txs,logs,neighbors',
     logCount: 318,
     matched: 0,
@@ -7135,6 +7135,41 @@ export const grantsData = [
       {
         asset: 'ETH',
         balance: 2.3302764446126805
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 348,
+    'active': true,
+    address: '0x24e8bb6a37774d8a0187e196beb29601ed5920bf',
+    name: 'EtherLoans - undercollateralized loans, unstoppable DeFi',
+    slug: 'https://gitcoin.co/grants/348/etherloans-undercollateralized-loans-unstoppable-',
+    firstAppearance: {
+      bn: 13725605,
+      txId: 203,
+      timestamp: 1638423933,
+      date: '2021-12-02 05:45:33'
+    },
+    latestAppearance: {
+      bn: 13725605,
+      txId: 203,
+      timestamp: 1638423933,
+      date: '2021-12-02 05:45:33'
+    },
+    lastUpdated: 13749516,
+    blockRange: 1,
+    fileSize: 8,
+    appearanceCount: 1,
+    neighborCount: 502,
+    types: 'txs,logs,neighbors',
+    logCount: 0,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.17140723810205402
       }
     ],
     core: false
@@ -7157,11 +7192,11 @@ export const grantsData = [
       timestamp: 1579572659,
       date: '2020-01-21 02:10:59'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 554112,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 14,
+    neighborCount: 23,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -7192,11 +7227,11 @@ export const grantsData = [
       timestamp: 1637598201,
       date: '2021-11-22 16:23:21'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4971336,
     fileSize: 1248,
     appearanceCount: 156,
-    neighborCount: 562,
+    neighborCount: 3055,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -7222,16 +7257,16 @@ export const grantsData = [
       date: '2020-01-14 21:57:51'
     },
     latestAppearance: {
-      bn: 13687073,
-      txId: 309,
-      timestamp: 1637892650,
-      date: '2021-11-26 02:10:50'
+      bn: 13717561,
+      txId: 144,
+      timestamp: 1638312636,
+      date: '2021-11-30 22:50:36'
     },
-    lastUpdated: 13711342,
-    blockRange: 4405346,
-    fileSize: 4696,
-    appearanceCount: 587,
-    neighborCount: 2144,
+    lastUpdated: 13749516,
+    blockRange: 4435834,
+    fileSize: 4704,
+    appearanceCount: 588,
+    neighborCount: 7202,
     types: 'txs,logs,neighbors',
     logCount: 270,
     matched: 0,
@@ -7262,11 +7297,11 @@ export const grantsData = [
       timestamp: 1612300320,
       date: '2021-02-02 21:12:00'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 67182,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 93,
+    neighborCount: 101,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -7297,11 +7332,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5849640,
     fileSize: 1352,
     appearanceCount: 169,
-    neighborCount: 412,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -7332,11 +7367,11 @@ export const grantsData = [
       timestamp: 1628673956,
       date: '2021-08-11 09:25:56'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3147192,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 70,
+    neighborCount: 78,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -7362,16 +7397,16 @@ export const grantsData = [
       date: '2018-06-11 17:44:23'
     },
     latestAppearance: {
-      bn: 13710266,
-      txId: 501,
-      timestamp: 1638212245,
-      date: '2021-11-29 18:57:25'
+      bn: 13749508,
+      txId: 247,
+      timestamp: 1638755760,
+      date: '2021-12-06 01:56:00'
     },
-    lastUpdated: 13711342,
-    blockRange: 7938791,
-    fileSize: 17128,
-    appearanceCount: 2141,
-    neighborCount: 19657,
+    lastUpdated: 13749516,
+    blockRange: 7978033,
+    fileSize: 17200,
+    appearanceCount: 2150,
+    neighborCount: 29180,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -7379,7 +7414,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.6570001715691797
+        balance: 0.4375867817686763
       }
     ],
     core: false
@@ -7402,11 +7437,11 @@ export const grantsData = [
       timestamp: 1585036939,
       date: '2020-03-24 08:02:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 681194,
     fileSize: 576,
     appearanceCount: 72,
-    neighborCount: 166,
+    neighborCount: 1214,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -7441,7 +7476,7 @@ export const grantsData = [
     blockRange: 8330301,
     fileSize: 11272,
     appearanceCount: 1409,
-    neighborCount: 4946,
+    neighborCount: 32392,
     types: 'txs,logs,neighbors',
     logCount: 989,
     matched: 0,
@@ -7476,7 +7511,7 @@ export const grantsData = [
     blockRange: 6655673,
     fileSize: 2656,
     appearanceCount: 332,
-    neighborCount: 1328,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -7511,7 +7546,7 @@ export const grantsData = [
     blockRange: 1606570,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 234,
+    neighborCount: 628,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -7546,7 +7581,7 @@ export const grantsData = [
     blockRange: 9475337,
     fileSize: 7880,
     appearanceCount: 985,
-    neighborCount: 3162,
+    neighborCount: 13429,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -7581,7 +7616,7 @@ export const grantsData = [
     blockRange: 6118365,
     fileSize: 6448,
     appearanceCount: 806,
-    neighborCount: 3660,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -7607,16 +7642,16 @@ export const grantsData = [
       date: '2020-01-15 18:10:01'
     },
     latestAppearance: {
-      bn: 13654487,
-      txId: 34,
-      timestamp: 1637447024,
-      date: '2021-11-20 22:23:44'
+      bn: 13737131,
+      txId: 111,
+      timestamp: 1638583161,
+      date: '2021-12-04 01:59:21'
     },
-    lastUpdated: 13711342,
-    blockRange: 4367218,
-    fileSize: 12592,
-    appearanceCount: 1574,
-    neighborCount: 6030,
+    lastUpdated: 13749516,
+    blockRange: 4449862,
+    fileSize: 12648,
+    appearanceCount: 1581,
+    neighborCount: 43912,
     types: 'txs,logs,neighbors',
     logCount: 684,
     matched: 0,
@@ -7624,7 +7659,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.5630316393009355
+        balance: 0.4755703798582577
       }
     ],
     core: false
@@ -7651,7 +7686,7 @@ export const grantsData = [
     blockRange: 2136227,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 41,
+    neighborCount: 1369,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -7686,7 +7721,7 @@ export const grantsData = [
     blockRange: 5943466,
     fileSize: 13440,
     appearanceCount: 1680,
-    neighborCount: 13508,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 19,
     matched: 0,
@@ -7694,7 +7729,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.389128690935379
+        balance: 2.3876328454211038
       }
     ],
     core: false
@@ -7712,16 +7747,16 @@ export const grantsData = [
       date: '2017-11-17 19:40:38'
     },
     latestAppearance: {
-      bn: 13695231,
-      txId: 157,
-      timestamp: 1638004398,
-      date: '2021-11-27 09:13:18'
+      bn: 13729985,
+      txId: 239,
+      timestamp: 1638484843,
+      date: '2021-12-02 22:40:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 9123686,
-    fileSize: 5368,
-    appearanceCount: 671,
-    neighborCount: 3113,
+    lastUpdated: 13749516,
+    blockRange: 9158440,
+    fileSize: 5456,
+    appearanceCount: 682,
+    neighborCount: 9614,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -7756,7 +7791,7 @@ export const grantsData = [
     blockRange: 6292819,
     fileSize: 13032,
     appearanceCount: 1629,
-    neighborCount: 5111,
+    neighborCount: 36459,
     types: 'txs,logs,neighbors',
     logCount: 41,
     matched: 0,
@@ -7787,11 +7822,11 @@ export const grantsData = [
       timestamp: 1635400138,
       date: '2021-10-28 05:48:58'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3199805,
     fileSize: 5128,
     appearanceCount: 641,
-    neighborCount: 2353,
+    neighborCount: 14355,
     types: 'txs,logs,neighbors',
     logCount: 572,
     matched: 0,
@@ -7822,11 +7857,11 @@ export const grantsData = [
       timestamp: 1606854542,
       date: '2020-12-01 20:29:02'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2068481,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 60,
+    neighborCount: 468,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -7852,16 +7887,16 @@ export const grantsData = [
       date: '2018-08-10 08:39:59'
     },
     latestAppearance: {
-      bn: 13682153,
-      txId: 76,
-      timestamp: 1637824923,
-      date: '2021-11-25 07:22:03'
+      bn: 13742357,
+      txId: 131,
+      timestamp: 1638656495,
+      date: '2021-12-04 22:21:35'
     },
-    lastUpdated: 13711342,
-    blockRange: 7560819,
-    fileSize: 4200,
-    appearanceCount: 525,
-    neighborCount: 1833,
+    lastUpdated: 13749516,
+    blockRange: 7621023,
+    fileSize: 4312,
+    appearanceCount: 539,
+    neighborCount: 4684,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -7869,7 +7904,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.07153948998371011
+        balance: 2.5415394899837103
       }
     ],
     core: false
@@ -7892,11 +7927,11 @@ export const grantsData = [
       timestamp: 1637526139,
       date: '2021-11-21 20:22:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 7810875,
     fileSize: 1384,
     appearanceCount: 173,
-    neighborCount: 423,
+    neighborCount: 712,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -7922,16 +7957,16 @@ export const grantsData = [
       date: '2017-07-10 05:40:54'
     },
     latestAppearance: {
-      bn: 13615759,
-      txId: 175,
-      timestamp: 1636917221,
-      date: '2021-11-14 19:13:41'
+      bn: 13732030,
+      txId: 186,
+      timestamp: 1638513335,
+      date: '2021-12-03 06:35:35'
     },
-    lastUpdated: 13711342,
-    blockRange: 9614023,
-    fileSize: 2880,
-    appearanceCount: 360,
-    neighborCount: 1576,
+    lastUpdated: 13749516,
+    blockRange: 9730294,
+    fileSize: 2896,
+    appearanceCount: 362,
+    neighborCount: 6145,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -7962,11 +7997,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4199929,
     fileSize: 280,
     appearanceCount: 35,
-    neighborCount: 143,
+    neighborCount: 1177,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -8001,7 +8036,7 @@ export const grantsData = [
     blockRange: 1501716,
     fileSize: 5064,
     appearanceCount: 633,
-    neighborCount: 2425,
+    neighborCount: 18348,
     types: 'txs,logs,neighbors',
     logCount: 532,
     matched: 0,
@@ -8032,11 +8067,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4581100,
     fileSize: 864,
     appearanceCount: 108,
-    neighborCount: 633,
+    neighborCount: 1409,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -8062,16 +8097,16 @@ export const grantsData = [
       date: '2020-01-18 09:52:12'
     },
     latestAppearance: {
-      bn: 13690020,
-      txId: 114,
-      timestamp: 1637933458,
-      date: '2021-11-26 13:30:58'
+      bn: 13725843,
+      txId: 51,
+      timestamp: 1638427141,
+      date: '2021-12-02 06:39:01'
     },
-    lastUpdated: 13711342,
-    blockRange: 4385500,
-    fileSize: 1304,
-    appearanceCount: 163,
-    neighborCount: 604,
+    lastUpdated: 13749516,
+    blockRange: 4421323,
+    fileSize: 1352,
+    appearanceCount: 169,
+    neighborCount: 5586,
     types: 'txs,logs,neighbors',
     logCount: 36,
     matched: 0,
@@ -8097,18 +8132,18 @@ export const grantsData = [
       date: '2020-03-25 05:59:36'
     },
     latestAppearance: {
-      bn: 13695287,
-      txId: 213,
-      timestamp: 1638005233,
-      date: '2021-11-27 09:27:13'
+      bn: 13728039,
+      txId: 159,
+      timestamp: 1638457910,
+      date: '2021-12-02 15:11:50'
     },
-    lastUpdated: 13711342,
-    blockRange: 3956524,
-    fileSize: 10368,
-    appearanceCount: 1296,
-    neighborCount: 4657,
+    lastUpdated: 13749516,
+    blockRange: 3989276,
+    fileSize: 10408,
+    appearanceCount: 1301,
+    neighborCount: 37112,
     types: 'txs,logs,neighbors',
-    logCount: 1135,
+    logCount: 1136,
     matched: 0,
     claimed: 0,
     balances: [
@@ -8132,16 +8167,16 @@ export const grantsData = [
       date: '2019-11-05 13:38:13'
     },
     latestAppearance: {
-      bn: 13698619,
-      txId: 236,
-      timestamp: 1638050666,
-      date: '2021-11-27 22:04:26'
+      bn: 13749195,
+      txId: 198,
+      timestamp: 1638751259,
+      date: '2021-12-06 00:40:59'
     },
-    lastUpdated: 13711342,
-    blockRange: 4820744,
-    fileSize: 2408,
-    appearanceCount: 301,
-    neighborCount: 837,
+    lastUpdated: 13749516,
+    blockRange: 4871320,
+    fileSize: 2448,
+    appearanceCount: 306,
+    neighborCount: 2954,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -8149,7 +8184,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.06827006917302636
+        balance: 0.009816026690287328
       }
     ],
     core: false
@@ -8176,7 +8211,7 @@ export const grantsData = [
     blockRange: 6345083,
     fileSize: 920,
     appearanceCount: 115,
-    neighborCount: 5601,
+    neighborCount: 2243,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -8202,16 +8237,16 @@ export const grantsData = [
       date: '2019-04-04 10:43:08'
     },
     latestAppearance: {
-      bn: 13630732,
-      txId: 78,
-      timestamp: 1637121912,
-      date: '2021-11-17 04:05:12'
+      bn: 13747358,
+      txId: 355,
+      timestamp: 1638725652,
+      date: '2021-12-05 17:34:12'
     },
-    lastUpdated: 13711342,
-    blockRange: 6129497,
-    fileSize: 5808,
-    appearanceCount: 726,
-    neighborCount: 2945,
+    lastUpdated: 13749516,
+    blockRange: 6246123,
+    fileSize: 5824,
+    appearanceCount: 728,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 33,
     matched: 0,
@@ -8219,7 +8254,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.48562563390585395
+        balance: 0.22722177804145544
       }
     ],
     core: false
@@ -8246,7 +8281,7 @@ export const grantsData = [
     blockRange: 4668284,
     fileSize: 296,
     appearanceCount: 37,
-    neighborCount: 153,
+    neighborCount: 862,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -8277,11 +8312,11 @@ export const grantsData = [
       timestamp: 1621871303,
       date: '2021-05-24 15:48:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 480450,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 40,
+    neighborCount: 43,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -8307,16 +8342,16 @@ export const grantsData = [
       date: '2018-05-23 09:26:48'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 7841632,
-    fileSize: 1664,
-    appearanceCount: 208,
-    neighborCount: 1436,
+    lastUpdated: 13749516,
+    blockRange: 8070895,
+    fileSize: 1672,
+    appearanceCount: 209,
+    neighborCount: 5520,
     types: 'txs,logs,neighbors',
     logCount: 78,
     matched: 0,
@@ -8347,11 +8382,11 @@ export const grantsData = [
       timestamp: 1636543279,
       date: '2021-11-10 11:21:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4691706,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 1456,
+    neighborCount: 2085,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -8382,11 +8417,11 @@ export const grantsData = [
       timestamp: 1636543279,
       date: '2021-11-10 11:21:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4691706,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 1456,
+    neighborCount: 2085,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -8417,11 +8452,11 @@ export const grantsData = [
       timestamp: 1636543279,
       date: '2021-11-10 11:21:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4691706,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 1456,
+    neighborCount: 2085,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -8452,11 +8487,11 @@ export const grantsData = [
       timestamp: 1636543279,
       date: '2021-11-10 11:21:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4691706,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 1456,
+    neighborCount: 2085,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -8487,11 +8522,11 @@ export const grantsData = [
       timestamp: 1636543279,
       date: '2021-11-10 11:21:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4691706,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 1456,
+    neighborCount: 2085,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -8526,7 +8561,7 @@ export const grantsData = [
     blockRange: 1389069,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 167,
+    neighborCount: 679,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -8552,24 +8587,24 @@ export const grantsData = [
       date: '2018-03-05 16:53:30'
     },
     latestAppearance: {
-      bn: 13568207,
-      txId: 104,
-      timestamp: 1636272397,
-      date: '2021-11-07 08:06:37'
+      bn: 13736940,
+      txId: 99,
+      timestamp: 1638580580,
+      date: '2021-12-04 01:16:20'
     },
-    lastUpdated: 13711342,
-    blockRange: 8366334,
-    fileSize: 1888,
-    appearanceCount: 236,
-    neighborCount: 806,
+    lastUpdated: 13749516,
+    blockRange: 8535067,
+    fileSize: 1912,
+    appearanceCount: 239,
+    neighborCount: 6896,
     types: 'txs,logs,neighbors',
-    logCount: 87,
+    logCount: 88,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 10.737972798720119
+        balance: 6.7362680627964515
       }
     ],
     core: false
@@ -8596,7 +8631,7 @@ export const grantsData = [
     blockRange: 9371052,
     fileSize: 1064,
     appearanceCount: 133,
-    neighborCount: 518,
+    neighborCount: 3143,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -8627,11 +8662,11 @@ export const grantsData = [
       timestamp: 1628065434,
       date: '2021-08-04 08:23:54'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3634507,
     fileSize: 624,
     appearanceCount: 78,
-    neighborCount: 271,
+    neighborCount: 1775,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -8666,7 +8701,7 @@ export const grantsData = [
     blockRange: 4255789,
     fileSize: 1248,
     appearanceCount: 156,
-    neighborCount: 541,
+    neighborCount: 8489,
     types: 'txs,logs,neighbors',
     logCount: 117,
     matched: 0,
@@ -8692,16 +8727,16 @@ export const grantsData = [
       date: '2021-04-12 06:50:06'
     },
     latestAppearance: {
-      bn: 13644142,
-      txId: 28,
-      timestamp: 1637304216,
-      date: '2021-11-19 06:43:36'
+      bn: 13739268,
+      txId: 123,
+      timestamp: 1638613384,
+      date: '2021-12-04 10:23:04'
     },
-    lastUpdated: 13711342,
-    blockRange: 1420411,
-    fileSize: 176,
-    appearanceCount: 22,
-    neighborCount: 172,
+    lastUpdated: 13749516,
+    blockRange: 1515537,
+    fileSize: 184,
+    appearanceCount: 23,
+    neighborCount: 203,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -8732,11 +8767,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 978918,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 68,
+    neighborCount: 601,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -8771,7 +8806,7 @@ export const grantsData = [
     blockRange: 4655114,
     fileSize: 992,
     appearanceCount: 124,
-    neighborCount: 366,
+    neighborCount: 2827,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -8806,7 +8841,7 @@ export const grantsData = [
     blockRange: 4306265,
     fileSize: 1096,
     appearanceCount: 137,
-    neighborCount: 544,
+    neighborCount: 3895,
     types: 'txs,logs,neighbors',
     logCount: 24,
     matched: 0,
@@ -8837,11 +8872,11 @@ export const grantsData = [
       timestamp: 1636463934,
       date: '2021-11-09 13:18:54'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4222293,
     fileSize: 2048,
     appearanceCount: 256,
-    neighborCount: 1013,
+    neighborCount: 11478,
     types: 'txs,logs,neighbors',
     logCount: 211,
     matched: 0,
@@ -8867,16 +8902,16 @@ export const grantsData = [
       date: '2020-09-24 11:11:49'
     },
     latestAppearance: {
-      bn: 13709093,
-      txId: 219,
-      timestamp: 1638195544,
-      date: '2021-11-29 14:19:04'
+      bn: 13747289,
+      txId: 3,
+      timestamp: 1638724593,
+      date: '2021-12-05 17:16:33'
     },
-    lastUpdated: 13711342,
-    blockRange: 2784137,
-    fileSize: 65872,
-    appearanceCount: 8234,
-    neighborCount: 54834,
+    lastUpdated: 13749516,
+    blockRange: 2822333,
+    fileSize: 66120,
+    appearanceCount: 8265,
+    neighborCount: 89423,
     types: 'txs,logs,neighbors',
     logCount: 76,
     matched: 0,
@@ -8884,7 +8919,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 7.826283642076957
+        balance: 7.77454645285048
       }
     ],
     core: false
@@ -8907,11 +8942,11 @@ export const grantsData = [
       timestamp: 1637420516,
       date: '2021-11-20 15:01:56'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5271045,
     fileSize: 2880,
     appearanceCount: 360,
-    neighborCount: 1139,
+    neighborCount: 4528,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -8942,11 +8977,11 @@ export const grantsData = [
       timestamp: 1636543279,
       date: '2021-11-10 11:21:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4691706,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 1456,
+    neighborCount: 2085,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -8977,11 +9012,11 @@ export const grantsData = [
       timestamp: 1637262360,
       date: '2021-11-18 19:06:00'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5460114,
     fileSize: 1088,
     appearanceCount: 136,
-    neighborCount: 412,
+    neighborCount: 1206,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -9012,11 +9047,11 @@ export const grantsData = [
       timestamp: 1594762209,
       date: '2020-07-14 21:30:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1057747,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 31,
+    neighborCount: 34,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -9047,11 +9082,11 @@ export const grantsData = [
       timestamp: 1629021752,
       date: '2021-08-15 10:02:32'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1122982,
     fileSize: 416,
     appearanceCount: 52,
-    neighborCount: 166,
+    neighborCount: 363,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -9077,16 +9112,16 @@ export const grantsData = [
       date: '2020-01-08 15:06:03'
     },
     latestAppearance: {
-      bn: 13596754,
-      txId: 223,
-      timestamp: 1636658602,
-      date: '2021-11-11 19:23:22'
+      bn: 13732367,
+      txId: 42,
+      timestamp: 1638517773,
+      date: '2021-12-03 07:49:33'
     },
-    lastUpdated: 13711342,
-    blockRange: 4356033,
-    fileSize: 4216,
-    appearanceCount: 527,
-    neighborCount: 1651,
+    lastUpdated: 13749516,
+    blockRange: 4491646,
+    fileSize: 4224,
+    appearanceCount: 528,
+    neighborCount: 4341,
     types: 'txs,logs,neighbors',
     logCount: 19,
     matched: 0,
@@ -9121,7 +9156,7 @@ export const grantsData = [
     blockRange: 4581799,
     fileSize: 56392,
     appearanceCount: 7049,
-    neighborCount: 43383,
+    neighborCount: 53763,
     types: 'txs,logs,neighbors',
     logCount: 136,
     matched: 0,
@@ -9152,11 +9187,11 @@ export const grantsData = [
       timestamp: 1627554241,
       date: '2021-07-29 10:24:01'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3455990,
     fileSize: 424,
     appearanceCount: 53,
-    neighborCount: 176,
+    neighborCount: 510,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -9187,11 +9222,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1341655,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 35,
+    neighborCount: 937,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -9226,7 +9261,7 @@ export const grantsData = [
     blockRange: 6258455,
     fileSize: 21896,
     appearanceCount: 2737,
-    neighborCount: 9609,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 26,
     matched: 0,
@@ -9234,7 +9269,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.03677490979014739
+        balance: 0.28142584496172657
       }
     ],
     core: false
@@ -9257,11 +9292,11 @@ export const grantsData = [
       timestamp: 1600388483,
       date: '2020-09-18 00:21:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1345094,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 35,
+    neighborCount: 39,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -9296,7 +9331,7 @@ export const grantsData = [
     blockRange: 4255789,
     fileSize: 1248,
     appearanceCount: 156,
-    neighborCount: 541,
+    neighborCount: 8489,
     types: 'txs,logs,neighbors',
     logCount: 117,
     matched: 0,
@@ -9327,11 +9362,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3067813,
     fileSize: 544,
     appearanceCount: 68,
-    neighborCount: 896,
+    neighborCount: 1426,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -9366,7 +9401,7 @@ export const grantsData = [
     blockRange: 5734276,
     fileSize: 288,
     appearanceCount: 36,
-    neighborCount: 103,
+    neighborCount: 196,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -9401,7 +9436,7 @@ export const grantsData = [
     blockRange: 7818128,
     fileSize: 632,
     appearanceCount: 79,
-    neighborCount: 203,
+    neighborCount: 2996,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -9432,11 +9467,11 @@ export const grantsData = [
       timestamp: 1637991762,
       date: '2021-11-27 05:42:42'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 170086,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 66,
+    neighborCount: 74,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -9467,11 +9502,11 @@ export const grantsData = [
       timestamp: 1622350542,
       date: '2021-05-30 04:55:42'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2972191,
     fileSize: 176,
     appearanceCount: 22,
-    neighborCount: 78,
+    neighborCount: 345,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -9502,11 +9537,11 @@ export const grantsData = [
       timestamp: 1593917547,
       date: '2020-07-05 02:52:27'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 875007,
     fileSize: 248,
     appearanceCount: 31,
-    neighborCount: 80,
+    neighborCount: 93,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -9532,16 +9567,16 @@ export const grantsData = [
       date: '2019-03-26 12:45:40'
     },
     latestAppearance: {
-      bn: 13684620,
-      txId: 297,
-      timestamp: 1637858783,
-      date: '2021-11-25 16:46:23'
+      bn: 13727231,
+      txId: 89,
+      timestamp: 1638446435,
+      date: '2021-12-02 12:00:35'
     },
-    lastUpdated: 13711342,
-    blockRange: 6240309,
-    fileSize: 13288,
-    appearanceCount: 1661,
-    neighborCount: 13110,
+    lastUpdated: 13749516,
+    blockRange: 6282920,
+    fileSize: 13344,
+    appearanceCount: 1668,
+    neighborCount: 4,
     types: 'txs,logs,neighbors',
     logCount: 80,
     matched: 0,
@@ -9567,16 +9602,16 @@ export const grantsData = [
       date: '2016-10-16 16:29:27'
     },
     latestAppearance: {
-      bn: 13709554,
-      txId: 66,
-      timestamp: 1638202345,
-      date: '2021-11-29 16:12:25'
+      bn: 13748634,
+      txId: 78,
+      timestamp: 1638743259,
+      date: '2021-12-05 22:27:39'
     },
-    lastUpdated: 13711342,
-    blockRange: 11257750,
-    fileSize: 19696,
-    appearanceCount: 2462,
-    neighborCount: 8693,
+    lastUpdated: 13749516,
+    blockRange: 11296830,
+    fileSize: 19720,
+    appearanceCount: 2465,
+    neighborCount: 17599,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -9584,7 +9619,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.08172621496782942
+        balance: 0.07510384184066664
       }
     ],
     core: false
@@ -9607,11 +9642,11 @@ export const grantsData = [
       timestamp: 1631294449,
       date: '2021-09-10 17:20:49'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3616160,
     fileSize: 456,
     appearanceCount: 57,
-    neighborCount: 172,
+    neighborCount: 238,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -9642,11 +9677,11 @@ export const grantsData = [
       timestamp: 1606854556,
       date: '2020-12-01 20:29:16'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1870485,
     fileSize: 1512,
     appearanceCount: 189,
-    neighborCount: 682,
+    neighborCount: 1045,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -9681,7 +9716,7 @@ export const grantsData = [
     blockRange: 8086004,
     fileSize: 3464,
     appearanceCount: 433,
-    neighborCount: 1632,
+    neighborCount: 7388,
     types: 'txs,logs,neighbors',
     logCount: 73,
     matched: 0,
@@ -9707,16 +9742,16 @@ export const grantsData = [
       date: '2019-12-06 20:35:18'
     },
     latestAppearance: {
-      bn: 13709231,
-      txId: 8,
-      timestamp: 1638197447,
-      date: '2021-11-29 14:50:47'
+      bn: 13741984,
+      txId: 250,
+      timestamp: 1638651206,
+      date: '2021-12-04 20:53:26'
     },
-    lastUpdated: 13711342,
-    blockRange: 4646850,
-    fileSize: 10296,
-    appearanceCount: 1287,
-    neighborCount: 11075,
+    lastUpdated: 13749516,
+    blockRange: 4679603,
+    fileSize: 10448,
+    appearanceCount: 1306,
+    neighborCount: 16247,
     types: 'txs,logs,neighbors',
     logCount: 45,
     matched: 0,
@@ -9724,7 +9759,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.11914248282778234
+        balance: 0.010829093522813056
       }
     ],
     core: false
@@ -9742,16 +9777,16 @@ export const grantsData = [
       date: '2018-01-01 21:09:58'
     },
     latestAppearance: {
-      bn: 13670045,
-      txId: 125,
-      timestamp: 1637659454,
-      date: '2021-11-23 09:24:14'
+      bn: 13725342,
+      txId: 115,
+      timestamp: 1638420196,
+      date: '2021-12-02 04:43:16'
     },
-    lastUpdated: 13711342,
-    blockRange: 8832138,
-    fileSize: 6432,
-    appearanceCount: 804,
-    neighborCount: 3056,
+    lastUpdated: 13749516,
+    blockRange: 8887435,
+    fileSize: 6440,
+    appearanceCount: 805,
+    neighborCount: 18862,
     types: 'txs,logs,neighbors',
     logCount: 35,
     matched: 0,
@@ -9786,7 +9821,7 @@ export const grantsData = [
     blockRange: 963829,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 122,
+    neighborCount: 2133,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -9812,16 +9847,16 @@ export const grantsData = [
       date: '2017-07-02 16:29:22'
     },
     latestAppearance: {
-      bn: 13704140,
-      txId: 234,
-      timestamp: 1638126698,
-      date: '2021-11-28 19:11:38'
+      bn: 13747656,
+      txId: 389,
+      timestamp: 1638729768,
+      date: '2021-12-05 18:42:48'
     },
-    lastUpdated: 13711342,
-    blockRange: 9740457,
-    fileSize: 1992,
-    appearanceCount: 249,
-    neighborCount: 782,
+    lastUpdated: 13749516,
+    blockRange: 9783973,
+    fileSize: 2008,
+    appearanceCount: 251,
+    neighborCount: 5572,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -9829,7 +9864,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 7.837852571514968
+        balance: 7.799709334727884
       }
     ],
     core: false
@@ -9856,7 +9891,7 @@ export const grantsData = [
     blockRange: 4817807,
     fileSize: 11000,
     appearanceCount: 1375,
-    neighborCount: 5992,
+    neighborCount: 21670,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -9864,7 +9899,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 4.361140216515625
+        balance: 1.9069684531761089
       }
     ],
     core: false
@@ -9887,11 +9922,11 @@ export const grantsData = [
       timestamp: 1637900982,
       date: '2021-11-26 04:29:42'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8403568,
     fileSize: 7088,
     appearanceCount: 886,
-    neighborCount: 4976,
+    neighborCount: 8888,
     types: 'txs,logs,neighbors',
     logCount: 39,
     matched: 0,
@@ -9926,7 +9961,7 @@ export const grantsData = [
     blockRange: 5009312,
     fileSize: 3192,
     appearanceCount: 399,
-    neighborCount: 1329,
+    neighborCount: 9589,
     types: 'txs,logs,neighbors',
     logCount: 355,
     matched: 0,
@@ -9961,7 +9996,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 21,
+    neighborCount: 23,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -9996,7 +10031,7 @@ export const grantsData = [
     blockRange: 5072639,
     fileSize: 2432,
     appearanceCount: 304,
-    neighborCount: 1197,
+    neighborCount: 2052,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -10027,11 +10062,11 @@ export const grantsData = [
       timestamp: 1629661883,
       date: '2021-08-22 19:51:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3407780,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 115,
+    neighborCount: 239,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -10057,16 +10092,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -10074,7 +10109,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -10097,11 +10132,11 @@ export const grantsData = [
       timestamp: 1637330020,
       date: '2021-11-19 13:53:40'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4126230,
     fileSize: 2448,
     appearanceCount: 306,
-    neighborCount: 886,
+    neighborCount: 2373,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -10132,11 +10167,11 @@ export const grantsData = [
       timestamp: 1634433529,
       date: '2021-10-17 01:18:49'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8820096,
     fileSize: 2136,
     appearanceCount: 267,
-    neighborCount: 675,
+    neighborCount: 738,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -10171,7 +10206,7 @@ export const grantsData = [
     blockRange: 7672777,
     fileSize: 464,
     appearanceCount: 58,
-    neighborCount: 159,
+    neighborCount: 163,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -10202,11 +10237,11 @@ export const grantsData = [
       timestamp: 1638207784,
       date: '2021-11-29 17:43:04'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6091874,
     fileSize: 1248,
     appearanceCount: 156,
-    neighborCount: 698,
+    neighborCount: 1646,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -10237,11 +10272,11 @@ export const grantsData = [
       timestamp: 1637843606,
       date: '2021-11-25 12:33:26'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1927418,
     fileSize: 768,
     appearanceCount: 96,
-    neighborCount: 357,
+    neighborCount: 3489,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -10276,7 +10311,7 @@ export const grantsData = [
     blockRange: 2834706,
     fileSize: 120,
     appearanceCount: 15,
-    neighborCount: 58,
+    neighborCount: 76,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -10311,7 +10346,7 @@ export const grantsData = [
     blockRange: 4098580,
     fileSize: 4728,
     appearanceCount: 591,
-    neighborCount: 2295,
+    neighborCount: 13909,
     types: 'txs,logs,neighbors',
     logCount: 256,
     matched: 0,
@@ -10342,11 +10377,11 @@ export const grantsData = [
       timestamp: 1593759733,
       date: '2020-07-03 07:02:13'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4196220,
     fileSize: 512,
     appearanceCount: 64,
-    neighborCount: 357,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -10381,7 +10416,7 @@ export const grantsData = [
     blockRange: 1341661,
     fileSize: 848,
     appearanceCount: 106,
-    neighborCount: 360,
+    neighborCount: 6707,
     types: 'txs,logs,neighbors',
     logCount: 93,
     matched: 0,
@@ -10412,11 +10447,11 @@ export const grantsData = [
       timestamp: 1628861926,
       date: '2021-08-13 13:38:46'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3732773,
     fileSize: 6064,
     appearanceCount: 758,
-    neighborCount: 2092,
+    neighborCount: 5304,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -10447,11 +10482,11 @@ export const grantsData = [
       timestamp: 1606854556,
       date: '2020-12-01 20:29:16'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1916836,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 72,
+    neighborCount: 430,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -10477,24 +10512,24 @@ export const grantsData = [
       date: '2020-03-17 20:07:52'
     },
     latestAppearance: {
-      bn: 13697085,
-      txId: 90,
-      timestamp: 1638030407,
-      date: '2021-11-27 16:26:47'
+      bn: 13745393,
+      txId: 200,
+      timestamp: 1638698041,
+      date: '2021-12-05 09:54:01'
     },
-    lastUpdated: 13711342,
-    blockRange: 4005944,
-    fileSize: 37536,
-    appearanceCount: 4692,
-    neighborCount: 16901,
+    lastUpdated: 13749516,
+    blockRange: 4054252,
+    fileSize: 37832,
+    appearanceCount: 4729,
+    neighborCount: 98943,
     types: 'txs,logs,neighbors',
-    logCount: 4223,
+    logCount: 4240,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 14.574418874306776
+        balance: 14.578618874306777
       }
     ],
     core: false
@@ -10517,11 +10552,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3812340,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 68,
+    neighborCount: 622,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -10552,11 +10587,11 @@ export const grantsData = [
       timestamp: 1637197507,
       date: '2021-11-18 01:05:07'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3937148,
     fileSize: 768,
     appearanceCount: 96,
-    neighborCount: 285,
+    neighborCount: 611,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -10591,7 +10626,7 @@ export const grantsData = [
     blockRange: 326614,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 17,
+    neighborCount: 128,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -10626,7 +10661,7 @@ export const grantsData = [
     blockRange: 1373887,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 94,
+    neighborCount: 100,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -10661,7 +10696,7 @@ export const grantsData = [
     blockRange: 4388160,
     fileSize: 18528,
     appearanceCount: 2316,
-    neighborCount: 9247,
+    neighborCount: 55742,
     types: 'txs,logs,neighbors',
     logCount: 1234,
     matched: 0,
@@ -10696,7 +10731,7 @@ export const grantsData = [
     blockRange: 1637893,
     fileSize: 432,
     appearanceCount: 54,
-    neighborCount: 160,
+    neighborCount: 323,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -10727,11 +10762,11 @@ export const grantsData = [
       timestamp: 1637090724,
       date: '2021-11-16 19:25:24'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3923654,
     fileSize: 376,
     appearanceCount: 47,
-    neighborCount: 152,
+    neighborCount: 303,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -10762,11 +10797,11 @@ export const grantsData = [
       timestamp: 1606503806,
       date: '2020-11-27 19:03:26'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1637285,
     fileSize: 392,
     appearanceCount: 49,
-    neighborCount: 138,
+    neighborCount: 298,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -10797,11 +10832,11 @@ export const grantsData = [
       timestamp: 1593759733,
       date: '2020-07-03 07:02:13'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 677868,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 41,
+    neighborCount: 49,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -10836,7 +10871,7 @@ export const grantsData = [
     blockRange: 3661088,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 37,
+    neighborCount: 563,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -10871,7 +10906,7 @@ export const grantsData = [
     blockRange: 1133981,
     fileSize: 232,
     appearanceCount: 29,
-    neighborCount: 83,
+    neighborCount: 100,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -10906,7 +10941,7 @@ export const grantsData = [
     blockRange: 1133981,
     fileSize: 232,
     appearanceCount: 29,
-    neighborCount: 83,
+    neighborCount: 100,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -10937,11 +10972,11 @@ export const grantsData = [
       timestamp: 1634635845,
       date: '2021-10-19 09:30:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3737610,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 25,
+    neighborCount: 29,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -10976,7 +11011,7 @@ export const grantsData = [
     blockRange: 1400666,
     fileSize: 1480,
     appearanceCount: 185,
-    neighborCount: 673,
+    neighborCount: 3424,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -11011,7 +11046,7 @@ export const grantsData = [
     blockRange: 8086004,
     fileSize: 3464,
     appearanceCount: 433,
-    neighborCount: 1632,
+    neighborCount: 7388,
     types: 'txs,logs,neighbors',
     logCount: 73,
     matched: 0,
@@ -11046,7 +11081,7 @@ export const grantsData = [
     blockRange: 8086004,
     fileSize: 3464,
     appearanceCount: 433,
-    neighborCount: 1632,
+    neighborCount: 7388,
     types: 'txs,logs,neighbors',
     logCount: 73,
     matched: 0,
@@ -11077,11 +11112,11 @@ export const grantsData = [
       timestamp: 1637689814,
       date: '2021-11-23 17:50:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 529079,
     fileSize: 288,
     appearanceCount: 36,
-    neighborCount: 123,
+    neighborCount: 872,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -11107,16 +11142,16 @@ export const grantsData = [
       date: '2018-05-10 13:36:20'
     },
     latestAppearance: {
-      bn: 13690796,
-      txId: 354,
-      timestamp: 1637943711,
-      date: '2021-11-26 16:21:51'
+      bn: 13742045,
+      txId: 369,
+      timestamp: 1638652012,
+      date: '2021-12-04 21:06:52'
     },
-    lastUpdated: 13711342,
-    blockRange: 8101241,
-    fileSize: 3008,
-    appearanceCount: 376,
-    neighborCount: 1394,
+    lastUpdated: 13749516,
+    blockRange: 8152490,
+    fileSize: 3016,
+    appearanceCount: 377,
+    neighborCount: 6237,
     types: 'txs,logs,neighbors',
     logCount: 104,
     matched: 0,
@@ -11124,7 +11159,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.986847159968332
+        balance: 3.884609375350935
       }
     ],
     core: false
@@ -11151,7 +11186,7 @@ export const grantsData = [
     blockRange: 3783173,
     fileSize: 1384,
     appearanceCount: 173,
-    neighborCount: 581,
+    neighborCount: 5811,
     types: 'txs,logs,neighbors',
     logCount: 64,
     matched: 0,
@@ -11186,7 +11221,7 @@ export const grantsData = [
     blockRange: 4424482,
     fileSize: 4528,
     appearanceCount: 566,
-    neighborCount: 1914,
+    neighborCount: 11500,
     types: 'txs,logs,neighbors',
     logCount: 262,
     matched: 0,
@@ -11221,7 +11256,7 @@ export const grantsData = [
     blockRange: 4884132,
     fileSize: 4952,
     appearanceCount: 619,
-    neighborCount: 5214,
+    neighborCount: 9211,
     types: 'txs,logs,neighbors',
     logCount: 30,
     matched: 0,
@@ -11252,11 +11287,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6670407,
     fileSize: 3128,
     appearanceCount: 391,
-    neighborCount: 1145,
+    neighborCount: 5358,
     types: 'txs,logs,neighbors',
     logCount: 77,
     matched: 0,
@@ -11282,18 +11317,18 @@ export const grantsData = [
       date: '2020-05-19 19:09:16'
     },
     latestAppearance: {
-      bn: 13633071,
-      txId: 516,
-      timestamp: 1637154331,
-      date: '2021-11-17 13:05:31'
+      bn: 13730371,
+      txId: 63,
+      timestamp: 1638490239,
+      date: '2021-12-03 00:10:39'
     },
-    lastUpdated: 13711342,
-    blockRange: 3534901,
-    fileSize: 16352,
-    appearanceCount: 2044,
-    neighborCount: 7772,
+    lastUpdated: 13749516,
+    blockRange: 3632201,
+    fileSize: 16368,
+    appearanceCount: 2046,
+    neighborCount: 54304,
     types: 'txs,logs,neighbors',
-    logCount: 1787,
+    logCount: 1788,
     matched: 0,
     claimed: 0,
     balances: [
@@ -11326,7 +11361,7 @@ export const grantsData = [
     blockRange: 1726987,
     fileSize: 12368,
     appearanceCount: 1546,
-    neighborCount: 9264,
+    neighborCount: 19464,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -11357,11 +11392,11 @@ export const grantsData = [
       timestamp: 1607899733,
       date: '2020-12-13 22:48:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2462615,
     fileSize: 1144,
     appearanceCount: 143,
-    neighborCount: 433,
+    neighborCount: 1594,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -11396,7 +11431,7 @@ export const grantsData = [
     blockRange: 1726987,
     fileSize: 12368,
     appearanceCount: 1546,
-    neighborCount: 9264,
+    neighborCount: 19464,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -11422,24 +11457,24 @@ export const grantsData = [
       date: '2019-04-26 14:32:15'
     },
     latestAppearance: {
-      bn: 13602582,
-      txId: 248,
-      timestamp: 1636737465,
-      date: '2021-11-12 17:17:45'
+      bn: 13745553,
+      txId: 99,
+      timestamp: 1638700361,
+      date: '2021-12-05 10:32:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 5959046,
-    fileSize: 4336,
-    appearanceCount: 542,
-    neighborCount: 4103,
+    lastUpdated: 13749516,
+    blockRange: 6102017,
+    fileSize: 4368,
+    appearanceCount: 546,
+    neighborCount: 12320,
     types: 'txs,logs,neighbors',
-    logCount: 180,
+    logCount: 181,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.528091605808
+        balance: 0.534470013808
       }
     ],
     core: false
@@ -11462,11 +11497,11 @@ export const grantsData = [
       timestamp: 1636520659,
       date: '2021-11-10 05:04:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3861464,
     fileSize: 1408,
     appearanceCount: 176,
-    neighborCount: 798,
+    neighborCount: 1601,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -11501,7 +11536,7 @@ export const grantsData = [
     blockRange: 5808317,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 49,
+    neighborCount: 59,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -11536,7 +11571,7 @@ export const grantsData = [
     blockRange: 803611,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 14,
+    neighborCount: 16,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -11567,11 +11602,11 @@ export const grantsData = [
       timestamp: 1631647653,
       date: '2021-09-14 19:27:33'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3907256,
     fileSize: 456,
     appearanceCount: 57,
-    neighborCount: 181,
+    neighborCount: 332,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -11602,11 +11637,11 @@ export const grantsData = [
       timestamp: 1594766040,
       date: '2020-07-14 22:34:00'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1305539,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 42,
+    neighborCount: 46,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -11641,9 +11676,9 @@ export const grantsData = [
     blockRange: 1381091,
     fileSize: 9000,
     appearanceCount: 1125,
-    neighborCount: 4256,
+    neighborCount: 34482,
     types: 'txs,logs,neighbors',
-    logCount: 819,
+    logCount: 820,
     matched: 0,
     claimed: 0,
     balances: [
@@ -11672,11 +11707,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3852656,
     fileSize: 680,
     appearanceCount: 85,
-    neighborCount: 294,
+    neighborCount: 1818,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -11711,7 +11746,7 @@ export const grantsData = [
     blockRange: 3234785,
     fileSize: 1416,
     appearanceCount: 177,
-    neighborCount: 640,
+    neighborCount: 6678,
     types: 'txs,logs,neighbors',
     logCount: 160,
     matched: 0,
@@ -11742,11 +11777,11 @@ export const grantsData = [
       timestamp: 1630247387,
       date: '2021-08-29 14:29:47'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8301004,
     fileSize: 1640,
     appearanceCount: 205,
-    neighborCount: 3438,
+    neighborCount: 4176,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -11777,11 +11812,11 @@ export const grantsData = [
       timestamp: 1636441554,
       date: '2021-11-09 07:05:54'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3852667,
     fileSize: 744,
     appearanceCount: 93,
-    neighborCount: 306,
+    neighborCount: 808,
     types: 'txs,logs,neighbors',
     logCount: 32,
     matched: 0,
@@ -11816,7 +11851,7 @@ export const grantsData = [
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -11851,7 +11886,7 @@ export const grantsData = [
     blockRange: 656652,
     fileSize: 1168,
     appearanceCount: 146,
-    neighborCount: 454,
+    neighborCount: 730,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -11886,7 +11921,7 @@ export const grantsData = [
     blockRange: 4247370,
     fileSize: 2968,
     appearanceCount: 371,
-    neighborCount: 940,
+    neighborCount: 3386,
     types: 'txs,logs,neighbors',
     logCount: 57,
     matched: 0,
@@ -11894,7 +11929,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.005585761823542976
+        balance: 0.003081999662934527
       }
     ],
     core: false
@@ -11921,7 +11956,7 @@ export const grantsData = [
     blockRange: 6798726,
     fileSize: 2608,
     appearanceCount: 326,
-    neighborCount: 1061,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -11947,16 +11982,16 @@ export const grantsData = [
       date: '2019-01-21 16:50:32'
     },
     latestAppearance: {
-      bn: 13710080,
-      txId: 189,
-      timestamp: 1638209738,
-      date: '2021-11-29 18:15:38'
+      bn: 13741797,
+      txId: 107,
+      timestamp: 1638648941,
+      date: '2021-12-04 20:15:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 6605467,
-    fileSize: 12128,
-    appearanceCount: 1516,
-    neighborCount: 13920,
+    lastUpdated: 13749516,
+    blockRange: 6637184,
+    fileSize: 12192,
+    appearanceCount: 1524,
+    neighborCount: 27953,
     types: 'txs,logs,neighbors',
     logCount: 24,
     matched: 0,
@@ -11964,7 +11999,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.17010898685501719
+        balance: 0.15201125264307241
       }
     ],
     core: false
@@ -11991,7 +12026,7 @@ export const grantsData = [
     blockRange: 588073,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 31,
+    neighborCount: 963,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -12017,16 +12052,16 @@ export const grantsData = [
       date: '2020-01-07 17:19:06'
     },
     latestAppearance: {
-      bn: 13690655,
-      txId: 108,
-      timestamp: 1637941634,
-      date: '2021-11-26 15:47:14'
+      bn: 13716697,
+      txId: 133,
+      timestamp: 1638301294,
+      date: '2021-11-30 19:41:34'
     },
-    lastUpdated: 13711342,
-    blockRange: 4455839,
-    fileSize: 1880,
-    appearanceCount: 235,
-    neighborCount: 1134,
+    lastUpdated: 13749516,
+    blockRange: 4481881,
+    fileSize: 1888,
+    appearanceCount: 236,
+    neighborCount: 2964,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -12061,7 +12096,7 @@ export const grantsData = [
     blockRange: 3775012,
     fileSize: 272,
     appearanceCount: 34,
-    neighborCount: 108,
+    neighborCount: 645,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -12096,7 +12131,7 @@ export const grantsData = [
     blockRange: 1419711,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 28,
+    neighborCount: 290,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -12127,11 +12162,11 @@ export const grantsData = [
       timestamp: 1631472893,
       date: '2021-09-12 18:54:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5107985,
     fileSize: 5304,
     appearanceCount: 663,
-    neighborCount: 3140,
+    neighborCount: 4541,
     types: 'txs,logs,neighbors',
     logCount: 23,
     matched: 0,
@@ -12157,16 +12192,16 @@ export const grantsData = [
       date: '2018-03-19 20:18:51'
     },
     latestAppearance: {
-      bn: 13710869,
-      txId: 34,
-      timestamp: 1638220492,
-      date: '2021-11-29 21:14:52'
+      bn: 13748423,
+      txId: 62,
+      timestamp: 1638740290,
+      date: '2021-12-05 21:38:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 8425681,
-    fileSize: 19272,
-    appearanceCount: 2409,
-    neighborCount: 13181,
+    lastUpdated: 13749516,
+    blockRange: 8463235,
+    fileSize: 19296,
+    appearanceCount: 2412,
+    neighborCount: 1418,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -12174,7 +12209,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.5524316549168409
+        balance: 0.6898316549168408
       }
     ],
     core: false
@@ -12201,7 +12236,7 @@ export const grantsData = [
     blockRange: 9032908,
     fileSize: 6352,
     appearanceCount: 794,
-    neighborCount: 2853,
+    neighborCount: 11794,
     types: 'txs,logs,neighbors',
     logCount: 222,
     matched: 0,
@@ -12209,7 +12244,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 4.753505678682923
+        balance: 3.916578679594497
       }
     ],
     core: false
@@ -12236,7 +12271,7 @@ export const grantsData = [
     blockRange: 1695873,
     fileSize: 536,
     appearanceCount: 67,
-    neighborCount: 341,
+    neighborCount: 2604,
     types: 'txs,logs,neighbors',
     logCount: 14,
     matched: 0,
@@ -12271,9 +12306,9 @@ export const grantsData = [
     blockRange: 3886645,
     fileSize: 5992,
     appearanceCount: 749,
-    neighborCount: 2625,
+    neighborCount: 25053,
     types: 'txs,logs,neighbors',
-    logCount: 538,
+    logCount: 539,
     matched: 0,
     claimed: 0,
     balances: [
@@ -12306,7 +12341,7 @@ export const grantsData = [
     blockRange: 3847451,
     fileSize: 272,
     appearanceCount: 34,
-    neighborCount: 124,
+    neighborCount: 787,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -12341,9 +12376,9 @@ export const grantsData = [
     blockRange: 5392258,
     fileSize: 15368,
     appearanceCount: 1921,
-    neighborCount: 6776,
+    neighborCount: 47551,
     types: 'txs,logs,neighbors',
-    logCount: 1346,
+    logCount: 1347,
     matched: 0,
     claimed: 0,
     balances: [
@@ -12376,7 +12411,7 @@ export const grantsData = [
     blockRange: 4401689,
     fileSize: 1832,
     appearanceCount: 229,
-    neighborCount: 867,
+    neighborCount: 3446,
     types: 'txs,logs,neighbors',
     logCount: 36,
     matched: 0,
@@ -12411,7 +12446,7 @@ export const grantsData = [
     blockRange: 1341363,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 127,
+    neighborCount: 1661,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -12446,7 +12481,7 @@ export const grantsData = [
     blockRange: 1341363,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 127,
+    neighborCount: 1661,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -12481,7 +12516,7 @@ export const grantsData = [
     blockRange: 128084,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 36,
+    neighborCount: 371,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -12512,11 +12547,11 @@ export const grantsData = [
       timestamp: 1604945409,
       date: '2020-11-09 18:10:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1493718,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 113,
+    neighborCount: 156,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -12551,7 +12586,7 @@ export const grantsData = [
     blockRange: 4066151,
     fileSize: 11712,
     appearanceCount: 1464,
-    neighborCount: 5925,
+    neighborCount: 9475,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -12559,7 +12594,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.5491152358509905
+        balance: 1.5416199818509906
       }
     ],
     core: false
@@ -12582,11 +12617,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6149268,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 132,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -12621,7 +12656,7 @@ export const grantsData = [
     blockRange: 5943466,
     fileSize: 13440,
     appearanceCount: 1680,
-    neighborCount: 13508,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 19,
     matched: 0,
@@ -12629,7 +12664,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.389128690935379
+        balance: 2.3876328454211038
       }
     ],
     core: false
@@ -12656,7 +12691,7 @@ export const grantsData = [
     blockRange: 5341900,
     fileSize: 3664,
     appearanceCount: 458,
-    neighborCount: 1379,
+    neighborCount: 2183,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -12691,7 +12726,7 @@ export const grantsData = [
     blockRange: 6119779,
     fileSize: 3696,
     appearanceCount: 462,
-    neighborCount: 1649,
+    neighborCount: 9685,
     types: 'txs,logs,neighbors',
     logCount: 41,
     matched: 0,
@@ -12726,7 +12761,7 @@ export const grantsData = [
     blockRange: 7394234,
     fileSize: 616,
     appearanceCount: 77,
-    neighborCount: 301,
+    neighborCount: 940,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -12761,7 +12796,7 @@ export const grantsData = [
     blockRange: 7130425,
     fileSize: 20968,
     appearanceCount: 2621,
-    neighborCount: 55502,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 108,
     matched: 0,
@@ -12796,7 +12831,7 @@ export const grantsData = [
     blockRange: 1539562,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 65,
+    neighborCount: 920,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -12827,11 +12862,11 @@ export const grantsData = [
       timestamp: 1611155264,
       date: '2021-01-20 15:07:44'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2040714,
     fileSize: 472,
     appearanceCount: 59,
-    neighborCount: 215,
+    neighborCount: 242,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -12866,7 +12901,7 @@ export const grantsData = [
     blockRange: 798105,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 21,
+    neighborCount: 540,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -12901,7 +12936,7 @@ export const grantsData = [
     blockRange: 280517,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 17,
+    neighborCount: 613,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -12932,11 +12967,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 9171957,
     fileSize: 640,
     appearanceCount: 80,
-    neighborCount: 258,
+    neighborCount: 4206,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -12967,11 +13002,11 @@ export const grantsData = [
       timestamp: 1636418402,
       date: '2021-11-09 00:40:02'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3989212,
     fileSize: 1416,
     appearanceCount: 177,
-    neighborCount: 572,
+    neighborCount: 1094,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -13006,9 +13041,9 @@ export const grantsData = [
     blockRange: 4350746,
     fileSize: 14624,
     appearanceCount: 1828,
-    neighborCount: 6810,
+    neighborCount: 47367,
     types: 'txs,logs,neighbors',
-    logCount: 1693,
+    logCount: 1695,
     matched: 0,
     claimed: 0,
     balances: [
@@ -13032,16 +13067,16 @@ export const grantsData = [
       date: '2019-12-30 18:41:56'
     },
     latestAppearance: {
-      bn: 13710967,
-      txId: 129,
-      timestamp: 1638221788,
-      date: '2021-11-29 21:36:28'
+      bn: 13716282,
+      txId: 306,
+      timestamp: 1638295868,
+      date: '2021-11-30 18:11:08'
     },
-    lastUpdated: 13711342,
-    blockRange: 4523805,
-    fileSize: 16888,
-    appearanceCount: 2111,
-    neighborCount: 10734,
+    lastUpdated: 13749516,
+    blockRange: 4529120,
+    fileSize: 16912,
+    appearanceCount: 2114,
+    neighborCount: 44047,
     types: 'txs,logs,neighbors',
     logCount: 74,
     matched: 0,
@@ -13072,11 +13107,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6085550,
     fileSize: 896,
     appearanceCount: 112,
-    neighborCount: 344,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 30,
     matched: 0,
@@ -13107,11 +13142,11 @@ export const grantsData = [
       timestamp: 1594763789,
       date: '2020-07-14 21:56:29'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 719065,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 30,
+    neighborCount: 32,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -13142,11 +13177,11 @@ export const grantsData = [
       timestamp: 1637506927,
       date: '2021-11-21 15:02:07'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8536593,
     fileSize: 10224,
     appearanceCount: 1278,
-    neighborCount: 7799,
+    neighborCount: 22492,
     types: 'txs,logs,neighbors',
     logCount: 84,
     matched: 0,
@@ -13177,11 +13212,11 @@ export const grantsData = [
       timestamp: 1637193781,
       date: '2021-11-18 00:03:01'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3991163,
     fileSize: 1336,
     appearanceCount: 167,
-    neighborCount: 656,
+    neighborCount: 1453,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -13212,11 +13247,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3763959,
     fileSize: 224,
     appearanceCount: 28,
-    neighborCount: 104,
+    neighborCount: 647,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -13251,7 +13286,7 @@ export const grantsData = [
     blockRange: 4028811,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 147,
+    neighborCount: 847,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -13282,11 +13317,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4073384,
     fileSize: 856,
     appearanceCount: 107,
-    neighborCount: 460,
+    neighborCount: 1079,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -13317,11 +13352,11 @@ export const grantsData = [
       timestamp: 1613597015,
       date: '2021-02-17 21:23:35'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2250279,
     fileSize: 280,
     appearanceCount: 35,
-    neighborCount: 143,
+    neighborCount: 172,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -13352,11 +13387,11 @@ export const grantsData = [
       timestamp: 1594770807,
       date: '2020-07-14 23:53:27'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5544430,
     fileSize: 536,
     appearanceCount: 67,
-    neighborCount: 175,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -13387,11 +13422,11 @@ export const grantsData = [
       timestamp: 1636435687,
       date: '2021-11-09 05:28:07'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3830969,
     fileSize: 856,
     appearanceCount: 107,
-    neighborCount: 380,
+    neighborCount: 679,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -13426,7 +13461,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 22,
+    neighborCount: 24,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -13461,7 +13496,7 @@ export const grantsData = [
     blockRange: 1341363,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 127,
+    neighborCount: 1661,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -13496,7 +13531,7 @@ export const grantsData = [
     blockRange: 1064062,
     fileSize: 424,
     appearanceCount: 53,
-    neighborCount: 323,
+    neighborCount: 2472,
     types: 'txs,logs,neighbors',
     logCount: 31,
     matched: 0,
@@ -13531,7 +13566,7 @@ export const grantsData = [
     blockRange: 4247370,
     fileSize: 2968,
     appearanceCount: 371,
-    neighborCount: 940,
+    neighborCount: 3386,
     types: 'txs,logs,neighbors',
     logCount: 57,
     matched: 0,
@@ -13539,7 +13574,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.005585761823542976
+        balance: 0.003081999662934527
       }
     ],
     core: false
@@ -13557,16 +13592,16 @@ export const grantsData = [
       date: '2020-03-28 15:15:26'
     },
     latestAppearance: {
-      bn: 13709809,
-      txId: 330,
-      timestamp: 1638205947,
-      date: '2021-11-29 17:12:27'
+      bn: 13715303,
+      txId: 155,
+      timestamp: 1638282638,
+      date: '2021-11-30 14:30:38'
     },
-    lastUpdated: 13711342,
-    blockRange: 3949069,
-    fileSize: 4112,
-    appearanceCount: 514,
-    neighborCount: 2038,
+    lastUpdated: 13749516,
+    blockRange: 3954563,
+    fileSize: 4128,
+    appearanceCount: 516,
+    neighborCount: 4674,
     types: 'txs,logs,neighbors',
     logCount: 81,
     matched: 0,
@@ -13601,7 +13636,7 @@ export const grantsData = [
     blockRange: 8488713,
     fileSize: 8248,
     appearanceCount: 1031,
-    neighborCount: 5999,
+    neighborCount: 13008,
     types: 'txs,logs,neighbors',
     logCount: 21,
     matched: 0,
@@ -13636,7 +13671,7 @@ export const grantsData = [
     blockRange: 6390049,
     fileSize: 3936,
     appearanceCount: 492,
-    neighborCount: 1395,
+    neighborCount: 4564,
     types: 'txs,logs,neighbors',
     logCount: 58,
     matched: 0,
@@ -13671,7 +13706,7 @@ export const grantsData = [
     blockRange: 4066151,
     fileSize: 11712,
     appearanceCount: 1464,
-    neighborCount: 5925,
+    neighborCount: 9475,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -13679,7 +13714,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.5491152358509905
+        balance: 1.5416199818509906
       }
     ],
     core: false
@@ -13706,7 +13741,7 @@ export const grantsData = [
     blockRange: 3748420,
     fileSize: 1600,
     appearanceCount: 200,
-    neighborCount: 623,
+    neighborCount: 2955,
     types: 'txs,logs,neighbors',
     logCount: 33,
     matched: 0,
@@ -13737,11 +13772,11 @@ export const grantsData = [
       timestamp: 1626531487,
       date: '2021-07-17 14:18:07'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8630831,
     fileSize: 4064,
     appearanceCount: 508,
-    neighborCount: 1758,
+    neighborCount: 4461,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -13776,7 +13811,7 @@ export const grantsData = [
     blockRange: 3747889,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 82,
+    neighborCount: 604,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -13807,11 +13842,11 @@ export const grantsData = [
       timestamp: 1633178741,
       date: '2021-10-02 12:45:41'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3583122,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 139,
+    neighborCount: 161,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -13846,7 +13881,7 @@ export const grantsData = [
     blockRange: 280517,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 17,
+    neighborCount: 613,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -13872,16 +13907,16 @@ export const grantsData = [
       date: '2020-01-31 05:06:22'
     },
     latestAppearance: {
-      bn: 13537264,
-      txId: 250,
-      timestamp: 1635852495,
-      date: '2021-11-02 11:28:15'
+      bn: 13712297,
+      txId: 66,
+      timestamp: 1638240162,
+      date: '2021-11-30 02:42:42'
     },
-    lastUpdated: 13711342,
-    blockRange: 4149200,
-    fileSize: 49600,
-    appearanceCount: 6200,
-    neighborCount: 61209,
+    lastUpdated: 13749516,
+    blockRange: 4324233,
+    fileSize: 49664,
+    appearanceCount: 6208,
+    neighborCount: 71809,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -13916,7 +13951,7 @@ export const grantsData = [
     blockRange: 3743748,
     fileSize: 4224,
     appearanceCount: 528,
-    neighborCount: 3567,
+    neighborCount: 4580,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -13924,7 +13959,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.9241683732534657
+        balance: 0.8908981429205381
       }
     ],
     core: false
@@ -13951,7 +13986,7 @@ export const grantsData = [
     blockRange: 3743748,
     fileSize: 4224,
     appearanceCount: 528,
-    neighborCount: 3567,
+    neighborCount: 4580,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -13959,7 +13994,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.9241683732534657
+        balance: 0.8908981429205381
       }
     ],
     core: false
@@ -13977,16 +14012,16 @@ export const grantsData = [
       date: '2020-01-08 20:26:45'
     },
     latestAppearance: {
-      bn: 13705360,
-      txId: 189,
-      timestamp: 1638143674,
-      date: '2021-11-28 23:54:34'
+      bn: 13736560,
+      txId: 181,
+      timestamp: 1638575109,
+      date: '2021-12-03 23:45:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 4463212,
-    fileSize: 10832,
-    appearanceCount: 1354,
-    neighborCount: 5426,
+    lastUpdated: 13749516,
+    blockRange: 4494412,
+    fileSize: 10872,
+    appearanceCount: 1359,
+    neighborCount: 26955,
     types: 'txs,logs,neighbors',
     logCount: 735,
     matched: 0,
@@ -14012,16 +14047,16 @@ export const grantsData = [
       date: '2020-01-08 20:26:45'
     },
     latestAppearance: {
-      bn: 13705360,
-      txId: 189,
-      timestamp: 1638143674,
-      date: '2021-11-28 23:54:34'
+      bn: 13736560,
+      txId: 181,
+      timestamp: 1638575109,
+      date: '2021-12-03 23:45:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 4463212,
-    fileSize: 10832,
-    appearanceCount: 1354,
-    neighborCount: 5426,
+    lastUpdated: 13749516,
+    blockRange: 4494412,
+    fileSize: 10872,
+    appearanceCount: 1359,
+    neighborCount: 26955,
     types: 'txs,logs,neighbors',
     logCount: 735,
     matched: 0,
@@ -14052,11 +14087,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1494731,
     fileSize: 1232,
     appearanceCount: 154,
-    neighborCount: 543,
+    neighborCount: 7849,
     types: 'txs,logs,neighbors',
     logCount: 142,
     matched: 0,
@@ -14082,16 +14117,16 @@ export const grantsData = [
       date: '2019-10-20 18:02:08'
     },
     latestAppearance: {
-      bn: 13693884,
-      txId: 77,
-      timestamp: 1637986179,
-      date: '2021-11-27 04:09:39'
+      bn: 13748915,
+      txId: 178,
+      timestamp: 1638747389,
+      date: '2021-12-05 23:36:29'
     },
-    lastUpdated: 13711342,
-    blockRange: 4914788,
-    fileSize: 5208,
-    appearanceCount: 651,
-    neighborCount: 1869,
+    lastUpdated: 13749516,
+    blockRange: 4969819,
+    fileSize: 5232,
+    appearanceCount: 654,
+    neighborCount: 3838,
     types: 'txs,logs,neighbors',
     logCount: 37,
     matched: 0,
@@ -14099,7 +14134,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.8471978848953605
+        balance: 0.48048783450109467
       }
     ],
     core: false
@@ -14126,7 +14161,7 @@ export const grantsData = [
     blockRange: 5600416,
     fileSize: 11424,
     appearanceCount: 1428,
-    neighborCount: 6112,
+    neighborCount: 12242,
     types: 'txs,logs,neighbors',
     logCount: 236,
     matched: 0,
@@ -14134,7 +14169,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1878523067100079
+        balance: 0.1842243314163877
       }
     ],
     core: false
@@ -14157,11 +14192,11 @@ export const grantsData = [
       timestamp: 1625206474,
       date: '2021-07-02 06:14:34'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2361644,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 33,
+    neighborCount: 69,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -14196,7 +14231,7 @@ export const grantsData = [
     blockRange: 5779882,
     fileSize: 7528,
     appearanceCount: 941,
-    neighborCount: 6997,
+    neighborCount: 17448,
     types: 'txs,logs,neighbors',
     logCount: 18,
     matched: 0,
@@ -14231,7 +14266,7 @@ export const grantsData = [
     blockRange: 5522170,
     fileSize: 3912,
     appearanceCount: 489,
-    neighborCount: 1566,
+    neighborCount: 5664,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -14239,7 +14274,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.14061231079393327
+        balance: 0.03695655079393327
       }
     ],
     core: false
@@ -14266,7 +14301,7 @@ export const grantsData = [
     blockRange: 695309,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 60,
+    neighborCount: 70,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -14301,7 +14336,7 @@ export const grantsData = [
     blockRange: 695309,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 60,
+    neighborCount: 70,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -14332,11 +14367,11 @@ export const grantsData = [
       timestamp: 1636553752,
       date: '2021-11-10 14:15:52'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3851905,
     fileSize: 856,
     appearanceCount: 107,
-    neighborCount: 340,
+    neighborCount: 1592,
     types: 'txs,logs,neighbors',
     logCount: 27,
     matched: 0,
@@ -14362,16 +14397,16 @@ export const grantsData = [
       date: '2019-12-06 20:35:18'
     },
     latestAppearance: {
-      bn: 13709231,
-      txId: 8,
-      timestamp: 1638197447,
-      date: '2021-11-29 14:50:47'
+      bn: 13741984,
+      txId: 250,
+      timestamp: 1638651206,
+      date: '2021-12-04 20:53:26'
     },
-    lastUpdated: 13711342,
-    blockRange: 4646850,
-    fileSize: 10296,
-    appearanceCount: 1287,
-    neighborCount: 11075,
+    lastUpdated: 13749516,
+    blockRange: 4679603,
+    fileSize: 10448,
+    appearanceCount: 1306,
+    neighborCount: 16247,
     types: 'txs,logs,neighbors',
     logCount: 45,
     matched: 0,
@@ -14379,7 +14414,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.11914248282778234
+        balance: 0.010829093522813056
       }
     ],
     core: false
@@ -14402,11 +14437,11 @@ export const grantsData = [
       timestamp: 1632137982,
       date: '2021-09-20 11:39:42'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3480409,
     fileSize: 456,
     appearanceCount: 57,
-    neighborCount: 174,
+    neighborCount: 635,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -14441,7 +14476,7 @@ export const grantsData = [
     blockRange: 3833775,
     fileSize: 912,
     appearanceCount: 114,
-    neighborCount: 309,
+    neighborCount: 405,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -14472,11 +14507,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3731817,
     fileSize: 584,
     appearanceCount: 73,
-    neighborCount: 238,
+    neighborCount: 2393,
     types: 'txs,logs,neighbors',
     logCount: 23,
     matched: 0,
@@ -14507,11 +14542,11 @@ export const grantsData = [
       timestamp: 1606854542,
       date: '2020-12-01 20:29:02'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1594707,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 106,
+    neighborCount: 392,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -14546,7 +14581,7 @@ export const grantsData = [
     blockRange: 828163,
     fileSize: 440,
     appearanceCount: 55,
-    neighborCount: 301,
+    neighborCount: 412,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -14581,7 +14616,7 @@ export const grantsData = [
     blockRange: 3727382,
     fileSize: 488,
     appearanceCount: 61,
-    neighborCount: 243,
+    neighborCount: 2156,
     types: 'txs,logs,neighbors',
     logCount: 26,
     matched: 0,
@@ -14612,11 +14647,11 @@ export const grantsData = [
       timestamp: 1638152863,
       date: '2021-11-29 02:27:43'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1005158,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 48,
+    neighborCount: 49,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -14647,11 +14682,11 @@ export const grantsData = [
       timestamp: 1599770989,
       date: '2020-09-10 20:49:49'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1056673,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 68,
+    neighborCount: 85,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -14682,11 +14717,11 @@ export const grantsData = [
       timestamp: 1607392107,
       date: '2020-12-08 01:48:27'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1629428,
     fileSize: 432,
     appearanceCount: 54,
-    neighborCount: 162,
+    neighborCount: 337,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -14712,16 +14747,16 @@ export const grantsData = [
       date: '2018-09-10 02:42:16'
     },
     latestAppearance: {
-      bn: 13604788,
-      txId: 45,
-      timestamp: 1636767234,
-      date: '2021-11-13 01:33:54'
+      bn: 13748051,
+      txId: 70,
+      timestamp: 1638735622,
+      date: '2021-12-05 20:20:22'
     },
-    lastUpdated: 13711342,
-    blockRange: 7301201,
-    fileSize: 67464,
-    appearanceCount: 8433,
-    neighborCount: 27246,
+    lastUpdated: 13749516,
+    blockRange: 7444464,
+    fileSize: 67496,
+    appearanceCount: 8437,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -14729,7 +14764,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.052503127849646
+        balance: 0.058618703716183884
       }
     ],
     core: false
@@ -14756,7 +14791,7 @@ export const grantsData = [
     blockRange: 3756459,
     fileSize: 384,
     appearanceCount: 48,
-    neighborCount: 210,
+    neighborCount: 1047,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -14787,11 +14822,11 @@ export const grantsData = [
       timestamp: 1600364532,
       date: '2020-09-17 17:42:12'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6043265,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 50,
+    neighborCount: 188,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -14822,11 +14857,11 @@ export const grantsData = [
       timestamp: 1594767206,
       date: '2020-07-14 22:53:26'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 639601,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 49,
+    neighborCount: 61,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -14857,11 +14892,11 @@ export const grantsData = [
       timestamp: 1604945409,
       date: '2020-11-09 18:10:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1442436,
     fileSize: 320,
     appearanceCount: 40,
-    neighborCount: 118,
+    neighborCount: 266,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -14896,7 +14931,7 @@ export const grantsData = [
     blockRange: 3833775,
     fileSize: 912,
     appearanceCount: 114,
-    neighborCount: 309,
+    neighborCount: 405,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -14931,7 +14966,7 @@ export const grantsData = [
     blockRange: 2070392,
     fileSize: 1200,
     appearanceCount: 150,
-    neighborCount: 450,
+    neighborCount: 683,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -14966,7 +15001,7 @@ export const grantsData = [
     blockRange: 1618419,
     fileSize: 2048,
     appearanceCount: 256,
-    neighborCount: 921,
+    neighborCount: 6828,
     types: 'txs,logs,neighbors',
     logCount: 270,
     matched: 0,
@@ -15001,7 +15036,7 @@ export const grantsData = [
     blockRange: 4501111,
     fileSize: 23080,
     appearanceCount: 2885,
-    neighborCount: 12656,
+    neighborCount: 20156,
     types: 'txs,logs,neighbors',
     logCount: 53,
     matched: 0,
@@ -15036,7 +15071,7 @@ export const grantsData = [
     blockRange: 1446817,
     fileSize: 264,
     appearanceCount: 33,
-    neighborCount: 299,
+    neighborCount: 1636,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -15071,7 +15106,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -15102,11 +15137,11 @@ export const grantsData = [
       timestamp: 1636817570,
       date: '2021-11-13 15:32:50'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4144651,
     fileSize: 344,
     appearanceCount: 43,
-    neighborCount: 141,
+    neighborCount: 410,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -15141,7 +15176,7 @@ export const grantsData = [
     blockRange: 2964992,
     fileSize: 2512,
     appearanceCount: 314,
-    neighborCount: 1133,
+    neighborCount: 1749,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -15176,7 +15211,7 @@ export const grantsData = [
     blockRange: 3575405,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 27,
+    neighborCount: 51,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -15207,11 +15242,11 @@ export const grantsData = [
       timestamp: 1637672589,
       date: '2021-11-23 13:03:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3875282,
     fileSize: 984,
     appearanceCount: 123,
-    neighborCount: 391,
+    neighborCount: 1132,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -15242,11 +15277,11 @@ export const grantsData = [
       timestamp: 1630172635,
       date: '2021-08-28 17:43:55'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8417476,
     fileSize: 512,
     appearanceCount: 64,
-    neighborCount: 203,
+    neighborCount: 2062,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -15272,16 +15307,16 @@ export const grantsData = [
       date: '2018-03-22 05:28:17'
     },
     latestAppearance: {
-      bn: 13650739,
-      txId: 351,
-      timestamp: 1637395567,
-      date: '2021-11-20 08:06:07'
+      bn: 13738088,
+      txId: 28,
+      timestamp: 1638596649,
+      date: '2021-12-04 05:44:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 8351337,
-    fileSize: 43984,
-    appearanceCount: 5498,
-    neighborCount: 17376,
+    lastUpdated: 13749516,
+    blockRange: 8438686,
+    fileSize: 44016,
+    appearanceCount: 5502,
+    neighborCount: 12033,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -15307,16 +15342,16 @@ export const grantsData = [
       date: '2017-10-31 04:11:08'
     },
     latestAppearance: {
-      bn: 13707611,
-      txId: 143,
-      timestamp: 1638175581,
-      date: '2021-11-29 08:46:21'
+      bn: 13745732,
+      txId: 319,
+      timestamp: 1638702857,
+      date: '2021-12-05 11:14:17'
     },
-    lastUpdated: 13711342,
-    blockRange: 9245804,
-    fileSize: 8384,
-    appearanceCount: 1048,
-    neighborCount: 7508,
+    lastUpdated: 13749516,
+    blockRange: 9283925,
+    fileSize: 8424,
+    appearanceCount: 1053,
+    neighborCount: 21546,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -15351,7 +15386,7 @@ export const grantsData = [
     blockRange: 1436644,
     fileSize: 632,
     appearanceCount: 79,
-    neighborCount: 339,
+    neighborCount: 1468,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -15386,7 +15421,7 @@ export const grantsData = [
     blockRange: 1589677,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 133,
+    neighborCount: 180,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -15421,7 +15456,7 @@ export const grantsData = [
     blockRange: 3461874,
     fileSize: 464,
     appearanceCount: 58,
-    neighborCount: 156,
+    neighborCount: 381,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -15452,11 +15487,11 @@ export const grantsData = [
       timestamp: 1633343126,
       date: '2021-10-04 10:25:26'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3550580,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 30,
+    neighborCount: 32,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -15491,7 +15526,7 @@ export const grantsData = [
     blockRange: 3284181,
     fileSize: 11760,
     appearanceCount: 1470,
-    neighborCount: 5559,
+    neighborCount: 38573,
     types: 'txs,logs,neighbors',
     logCount: 1249,
     matched: 0,
@@ -15517,16 +15552,16 @@ export const grantsData = [
       date: '2018-03-22 05:28:17'
     },
     latestAppearance: {
-      bn: 13650739,
-      txId: 351,
-      timestamp: 1637395567,
-      date: '2021-11-20 08:06:07'
+      bn: 13738088,
+      txId: 28,
+      timestamp: 1638596649,
+      date: '2021-12-04 05:44:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 8351337,
-    fileSize: 43984,
-    appearanceCount: 5498,
-    neighborCount: 17376,
+    lastUpdated: 13749516,
+    blockRange: 8438686,
+    fileSize: 44016,
+    appearanceCount: 5502,
+    neighborCount: 12033,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -15561,7 +15596,7 @@ export const grantsData = [
     blockRange: 5887182,
     fileSize: 26648,
     appearanceCount: 3331,
-    neighborCount: 12046,
+    neighborCount: 19245,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -15569,7 +15604,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 968.8470652421901
+        balance: 969.30796024194
       }
     ],
     core: false
@@ -15596,7 +15631,7 @@ export const grantsData = [
     blockRange: 4501739,
     fileSize: 800,
     appearanceCount: 100,
-    neighborCount: 294,
+    neighborCount: 668,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -15631,7 +15666,7 @@ export const grantsData = [
     blockRange: 3743748,
     fileSize: 4224,
     appearanceCount: 528,
-    neighborCount: 3567,
+    neighborCount: 4580,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -15639,7 +15674,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.9241683732534657
+        balance: 0.8908981429205381
       }
     ],
     core: false
@@ -15657,16 +15692,16 @@ export const grantsData = [
       date: '2020-04-03 22:46:11'
     },
     latestAppearance: {
-      bn: 12492119,
-      txId: 82,
-      timestamp: 1621793450,
-      date: '2021-05-23 18:10:50'
+      bn: 13739398,
+      txId: 360,
+      timestamp: 1638615076,
+      date: '2021-12-04 10:51:16'
     },
-    lastUpdated: 13711342,
-    blockRange: 2690279,
-    fileSize: 400,
-    appearanceCount: 50,
-    neighborCount: 151,
+    lastUpdated: 13749516,
+    blockRange: 3937558,
+    fileSize: 416,
+    appearanceCount: 52,
+    neighborCount: 2189,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -15701,7 +15736,7 @@ export const grantsData = [
     blockRange: 7781415,
     fileSize: 336,
     appearanceCount: 42,
-    neighborCount: 134,
+    neighborCount: 705,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -15736,7 +15771,7 @@ export const grantsData = [
     blockRange: 8773876,
     fileSize: 2016,
     appearanceCount: 252,
-    neighborCount: 1039,
+    neighborCount: 4067,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -15806,7 +15841,7 @@ export const grantsData = [
     blockRange: 7780304,
     fileSize: 544,
     appearanceCount: 68,
-    neighborCount: 222,
+    neighborCount: 997,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -15841,7 +15876,7 @@ export const grantsData = [
     blockRange: 6381994,
     fileSize: 480,
     appearanceCount: 60,
-    neighborCount: 197,
+    neighborCount: 636,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -15872,11 +15907,11 @@ export const grantsData = [
       timestamp: 1593756973,
       date: '2020-07-03 06:16:13'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 565405,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 26,
+    neighborCount: 31,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -15911,7 +15946,7 @@ export const grantsData = [
     blockRange: 8079572,
     fileSize: 288,
     appearanceCount: 36,
-    neighborCount: 134,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -15937,16 +15972,16 @@ export const grantsData = [
       date: '2020-01-08 20:26:45'
     },
     latestAppearance: {
-      bn: 13705360,
-      txId: 189,
-      timestamp: 1638143674,
-      date: '2021-11-28 23:54:34'
+      bn: 13736560,
+      txId: 181,
+      timestamp: 1638575109,
+      date: '2021-12-03 23:45:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 4463212,
-    fileSize: 10832,
-    appearanceCount: 1354,
-    neighborCount: 5426,
+    lastUpdated: 13749516,
+    blockRange: 4494412,
+    fileSize: 10872,
+    appearanceCount: 1359,
+    neighborCount: 26955,
     types: 'txs,logs,neighbors',
     logCount: 735,
     matched: 0,
@@ -15981,7 +16016,7 @@ export const grantsData = [
     blockRange: 602980,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 37,
+    neighborCount: 57,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -16016,7 +16051,7 @@ export const grantsData = [
     blockRange: 5763666,
     fileSize: 10040,
     appearanceCount: 1255,
-    neighborCount: 11441,
+    neighborCount: 20389,
     types: 'txs,logs,neighbors',
     logCount: 14,
     matched: 0,
@@ -16051,7 +16086,7 @@ export const grantsData = [
     blockRange: 3820976,
     fileSize: 344,
     appearanceCount: 43,
-    neighborCount: 121,
+    neighborCount: 688,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -16059,7 +16094,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.30754171984333806
+        balance: 0.3018100456145465
       }
     ],
     core: false
@@ -16086,7 +16121,7 @@ export const grantsData = [
     blockRange: 4287362,
     fileSize: 41936,
     appearanceCount: 5242,
-    neighborCount: 18265,
+    neighborCount: 91358,
     types: 'txs,logs,neighbors',
     logCount: 40,
     matched: 0,
@@ -16117,11 +16152,11 @@ export const grantsData = [
       timestamp: 1631541906,
       date: '2021-09-13 14:05:06'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4425937,
     fileSize: 6808,
     appearanceCount: 851,
-    neighborCount: 2595,
+    neighborCount: 5618,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -16152,11 +16187,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2645586,
     fileSize: 2696,
     appearanceCount: 337,
-    neighborCount: 1392,
+    neighborCount: 6849,
     types: 'txs,logs,neighbors',
     logCount: 283,
     matched: 0,
@@ -16191,7 +16226,7 @@ export const grantsData = [
     blockRange: 3666622,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 91,
+    neighborCount: 855,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -16222,7 +16257,7 @@ export const grantsData = [
       timestamp: 1616623838,
       date: '2021-03-24 22:10:38'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2835659,
     fileSize: 48,
     appearanceCount: 6,
@@ -16257,11 +16292,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3657292,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 40,
+    neighborCount: 791,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -16296,7 +16331,7 @@ export const grantsData = [
     blockRange: 1051055,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 39,
+    neighborCount: 286,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -16322,16 +16357,16 @@ export const grantsData = [
       date: '2019-11-06 23:21:53'
     },
     latestAppearance: {
-      bn: 13689627,
-      txId: 48,
-      timestamp: 1637928559,
-      date: '2021-11-26 12:09:19'
+      bn: 13749150,
+      txId: 201,
+      timestamp: 1638750513,
+      date: '2021-12-06 00:28:33'
     },
-    lastUpdated: 13711342,
-    blockRange: 4802995,
-    fileSize: 3400,
-    appearanceCount: 425,
-    neighborCount: 2161,
+    lastUpdated: 13749516,
+    blockRange: 4862518,
+    fileSize: 3448,
+    appearanceCount: 431,
+    neighborCount: 8866,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -16339,7 +16374,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.32132800637186
+        balance: 1.3141476428227208
       }
     ],
     core: false
@@ -16366,7 +16401,7 @@ export const grantsData = [
     blockRange: 8682468,
     fileSize: 736,
     appearanceCount: 92,
-    neighborCount: 346,
+    neighborCount: 1785,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -16401,7 +16436,7 @@ export const grantsData = [
     blockRange: 3598247,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 77,
+    neighborCount: 824,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -16432,11 +16467,11 @@ export const grantsData = [
       timestamp: 1636674841,
       date: '2021-11-11 23:54:01'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 9495685,
     fileSize: 7736,
     appearanceCount: 967,
-    neighborCount: 2570,
+    neighborCount: 4000,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -16471,7 +16506,7 @@ export const grantsData = [
     blockRange: 3382621,
     fileSize: 912,
     appearanceCount: 114,
-    neighborCount: 270,
+    neighborCount: 528,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -16502,11 +16537,11 @@ export const grantsData = [
       timestamp: 1599250306,
       date: '2020-09-04 20:11:46'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 859772,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 62,
+    neighborCount: 88,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -16541,7 +16576,7 @@ export const grantsData = [
     blockRange: 1482512,
     fileSize: 544,
     appearanceCount: 68,
-    neighborCount: 298,
+    neighborCount: 1624,
     types: 'txs,logs,neighbors',
     logCount: 44,
     matched: 0,
@@ -16576,7 +16611,7 @@ export const grantsData = [
     blockRange: 1482512,
     fileSize: 544,
     appearanceCount: 68,
-    neighborCount: 298,
+    neighborCount: 1624,
     types: 'txs,logs,neighbors',
     logCount: 44,
     matched: 0,
@@ -16611,7 +16646,7 @@ export const grantsData = [
     blockRange: 3553120,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 52,
+    neighborCount: 664,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -16642,11 +16677,11 @@ export const grantsData = [
       timestamp: 1620945918,
       date: '2021-05-13 22:45:18'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2499271,
     fileSize: 288,
     appearanceCount: 36,
-    neighborCount: 121,
+    neighborCount: 637,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -16681,7 +16716,7 @@ export const grantsData = [
     blockRange: 3542003,
     fileSize: 416,
     appearanceCount: 52,
-    neighborCount: 165,
+    neighborCount: 3514,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -16712,11 +16747,11 @@ export const grantsData = [
       timestamp: 1635114703,
       date: '2021-10-24 22:31:43'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4032065,
     fileSize: 368,
     appearanceCount: 46,
-    neighborCount: 147,
+    neighborCount: 426,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -16742,16 +16777,16 @@ export const grantsData = [
       date: '2019-01-14 12:09:07'
     },
     latestAppearance: {
-      bn: 13708377,
-      txId: 175,
-      timestamp: 1638185625,
-      date: '2021-11-29 11:33:45'
+      bn: 13725587,
+      txId: 38,
+      timestamp: 1638423724,
+      date: '2021-12-02 05:42:04'
     },
-    lastUpdated: 13711342,
-    blockRange: 6643719,
-    fileSize: 6704,
-    appearanceCount: 838,
-    neighborCount: 3600,
+    lastUpdated: 13749516,
+    blockRange: 6660929,
+    fileSize: 6712,
+    appearanceCount: 839,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 64,
     matched: 0,
@@ -16782,11 +16817,11 @@ export const grantsData = [
       timestamp: 1595882335,
       date: '2020-07-27 20:38:55'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 590611,
     fileSize: 1184,
     appearanceCount: 148,
-    neighborCount: 728,
+    neighborCount: 827,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -16821,7 +16856,7 @@ export const grantsData = [
     blockRange: 1482512,
     fileSize: 544,
     appearanceCount: 68,
-    neighborCount: 298,
+    neighborCount: 1624,
     types: 'txs,logs,neighbors',
     logCount: 44,
     matched: 0,
@@ -16856,7 +16891,7 @@ export const grantsData = [
     blockRange: 8539889,
     fileSize: 74560,
     appearanceCount: 9320,
-    neighborCount: 36621,
+    neighborCount: 63542,
     types: 'txs,logs,neighbors',
     logCount: 82,
     matched: 0,
@@ -16864,7 +16899,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.6344634099795954
+        balance: 1.8810440545190121
       }
     ],
     core: false
@@ -16891,7 +16926,7 @@ export const grantsData = [
     blockRange: 1504059,
     fileSize: 3944,
     appearanceCount: 493,
-    neighborCount: 2008,
+    neighborCount: 9437,
     types: 'txs,logs,neighbors',
     logCount: 22,
     matched: 0,
@@ -16926,7 +16961,7 @@ export const grantsData = [
     blockRange: 9497444,
     fileSize: 1000,
     appearanceCount: 125,
-    neighborCount: 345,
+    neighborCount: 930,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -16957,11 +16992,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3193619,
     fileSize: 432,
     appearanceCount: 54,
-    neighborCount: 141,
+    neighborCount: 675,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -16992,11 +17027,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3193619,
     fileSize: 432,
     appearanceCount: 54,
-    neighborCount: 141,
+    neighborCount: 675,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -17027,11 +17062,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3193619,
     fileSize: 432,
     appearanceCount: 54,
-    neighborCount: 141,
+    neighborCount: 675,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -17066,7 +17101,7 @@ export const grantsData = [
     blockRange: 5072639,
     fileSize: 2432,
     appearanceCount: 304,
-    neighborCount: 1197,
+    neighborCount: 2052,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -17101,7 +17136,7 @@ export const grantsData = [
     blockRange: 3305224,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 19,
+    neighborCount: 540,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -17136,7 +17171,7 @@ export const grantsData = [
     blockRange: 3290609,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 138,
+    neighborCount: 900,
     types: 'txs,logs,neighbors',
     logCount: 22,
     matched: 0,
@@ -17167,11 +17202,11 @@ export const grantsData = [
       timestamp: 1636432865,
       date: '2021-11-09 04:41:05'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 9508056,
     fileSize: 2184,
     appearanceCount: 273,
-    neighborCount: 1516,
+    neighborCount: 2243,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -17206,7 +17241,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -17237,11 +17272,11 @@ export const grantsData = [
       timestamp: 1606854557,
       date: '2020-12-01 20:29:17'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6363833,
     fileSize: 288,
     appearanceCount: 36,
-    neighborCount: 163,
+    neighborCount: 436,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -17276,7 +17311,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -17302,16 +17337,16 @@ export const grantsData = [
       date: '2020-01-14 21:57:51'
     },
     latestAppearance: {
-      bn: 13687073,
-      txId: 309,
-      timestamp: 1637892650,
-      date: '2021-11-26 02:10:50'
+      bn: 13717561,
+      txId: 144,
+      timestamp: 1638312636,
+      date: '2021-11-30 22:50:36'
     },
-    lastUpdated: 13711342,
-    blockRange: 4405346,
-    fileSize: 4696,
-    appearanceCount: 587,
-    neighborCount: 2144,
+    lastUpdated: 13749516,
+    blockRange: 4435834,
+    fileSize: 4704,
+    appearanceCount: 588,
+    neighborCount: 7202,
     types: 'txs,logs,neighbors',
     logCount: 270,
     matched: 0,
@@ -17346,7 +17381,7 @@ export const grantsData = [
     blockRange: 3810329,
     fileSize: 7576,
     appearanceCount: 947,
-    neighborCount: 3030,
+    neighborCount: 15785,
     types: 'txs,logs,neighbors',
     logCount: 343,
     matched: 0,
@@ -17354,7 +17389,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 27.00670223958178
+        balance: 20.50158873958178
       }
     ],
     core: false
@@ -17372,16 +17407,16 @@ export const grantsData = [
       date: '2017-06-13 03:10:38'
     },
     latestAppearance: {
-      bn: 13682917,
-      txId: 25,
-      timestamp: 1637836120,
-      date: '2021-11-25 10:28:40'
+      bn: 13732562,
+      txId: 33,
+      timestamp: 1638520593,
+      date: '2021-12-03 08:36:33'
     },
-    lastUpdated: 13711342,
-    blockRange: 9818788,
-    fileSize: 7456,
-    appearanceCount: 932,
-    neighborCount: 4294,
+    lastUpdated: 13749516,
+    blockRange: 9868433,
+    fileSize: 7464,
+    appearanceCount: 933,
+    neighborCount: 12364,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -17416,7 +17451,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -17451,15 +17486,15 @@ export const grantsData = [
     blockRange: 5092609,
     fileSize: 26256,
     appearanceCount: 3282,
-    neighborCount: 12325,
+    neighborCount: 63146,
     types: 'txs,logs,neighbors',
-    logCount: 42,
+    logCount: 44,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 14.389628990966422
+        balance: 14.96344650674634
       }
     ],
     core: false
@@ -17486,7 +17521,7 @@ export const grantsData = [
     blockRange: 7692688,
     fileSize: 2128,
     appearanceCount: 266,
-    neighborCount: 715,
+    neighborCount: 2444,
     types: 'txs,logs,neighbors',
     logCount: 52,
     matched: 0,
@@ -17512,16 +17547,16 @@ export const grantsData = [
       date: '2020-06-11 20:41:46'
     },
     latestAppearance: {
-      bn: 13684102,
-      txId: 36,
-      timestamp: 1637851771,
-      date: '2021-11-25 14:49:31'
+      bn: 13722105,
+      txId: 126,
+      timestamp: 1638376038,
+      date: '2021-12-01 16:27:18'
     },
-    lastUpdated: 13711342,
-    blockRange: 3437468,
-    fileSize: 6440,
-    appearanceCount: 805,
-    neighborCount: 2834,
+    lastUpdated: 13749516,
+    blockRange: 3475471,
+    fileSize: 6456,
+    appearanceCount: 807,
+    neighborCount: 18779,
     types: 'txs,logs,neighbors',
     logCount: 420,
     matched: 0,
@@ -17556,7 +17591,7 @@ export const grantsData = [
     blockRange: 5418117,
     fileSize: 3272,
     appearanceCount: 409,
-    neighborCount: 1192,
+    neighborCount: 7781,
     types: 'txs,logs,neighbors',
     logCount: 49,
     matched: 0,
@@ -17591,7 +17626,7 @@ export const grantsData = [
     blockRange: 4184269,
     fileSize: 6376,
     appearanceCount: 797,
-    neighborCount: 2965,
+    neighborCount: 25440,
     types: 'txs,logs,neighbors',
     logCount: 721,
     matched: 0,
@@ -17617,18 +17652,18 @@ export const grantsData = [
       date: '2020-05-04 23:31:25'
     },
     latestAppearance: {
-      bn: 13675771,
-      txId: 11,
-      timestamp: 1637737022,
-      date: '2021-11-24 06:57:02'
+      bn: 13747297,
+      txId: 119,
+      timestamp: 1638724778,
+      date: '2021-12-05 17:19:38'
     },
-    lastUpdated: 13711342,
-    blockRange: 3673056,
-    fileSize: 3448,
-    appearanceCount: 431,
-    neighborCount: 1532,
+    lastUpdated: 13749516,
+    blockRange: 3744582,
+    fileSize: 3488,
+    appearanceCount: 436,
+    neighborCount: 10543,
     types: 'txs,logs,neighbors',
-    logCount: 182,
+    logCount: 184,
     matched: 0,
     claimed: 0,
     balances: [
@@ -17661,7 +17696,7 @@ export const grantsData = [
     blockRange: 1568227,
     fileSize: 648,
     appearanceCount: 81,
-    neighborCount: 248,
+    neighborCount: 1409,
     types: 'txs,logs,neighbors',
     logCount: 35,
     matched: 0,
@@ -17696,7 +17731,7 @@ export const grantsData = [
     blockRange: 3613956,
     fileSize: 1088,
     appearanceCount: 136,
-    neighborCount: 554,
+    neighborCount: 6177,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -17722,16 +17757,16 @@ export const grantsData = [
       date: '2021-04-06 02:08:29'
     },
     latestAppearance: {
-      bn: 13696321,
-      txId: 247,
-      timestamp: 1638019736,
-      date: '2021-11-27 13:28:56'
+      bn: 13742667,
+      txId: 34,
+      timestamp: 1638660614,
+      date: '2021-12-04 23:30:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 1512973,
-    fileSize: 1952,
-    appearanceCount: 244,
-    neighborCount: 865,
+    lastUpdated: 13749516,
+    blockRange: 1559319,
+    fileSize: 1984,
+    appearanceCount: 248,
+    neighborCount: 4964,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -17739,7 +17774,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 2.2104759510885157
+        balance: 2.4088886117480857
       }
     ],
     core: false
@@ -17757,16 +17792,16 @@ export const grantsData = [
       date: '2021-04-06 02:08:29'
     },
     latestAppearance: {
-      bn: 13696321,
-      txId: 247,
-      timestamp: 1638019736,
-      date: '2021-11-27 13:28:56'
+      bn: 13742667,
+      txId: 34,
+      timestamp: 1638660614,
+      date: '2021-12-04 23:30:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 1512973,
-    fileSize: 1952,
-    appearanceCount: 244,
-    neighborCount: 865,
+    lastUpdated: 13749516,
+    blockRange: 1559319,
+    fileSize: 1984,
+    appearanceCount: 248,
+    neighborCount: 4964,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -17774,7 +17809,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 2.2104759510885157
+        balance: 2.4088886117480857
       }
     ],
     core: false
@@ -17792,16 +17827,16 @@ export const grantsData = [
       date: '2021-11-15 04:29:34'
     },
     latestAppearance: {
-      bn: 13701698,
-      txId: 57,
-      timestamp: 1638093013,
-      date: '2021-11-28 09:50:13'
+      bn: 13725551,
+      txId: 34,
+      timestamp: 1638423207,
+      date: '2021-12-02 05:33:27'
     },
-    lastUpdated: 13711342,
-    blockRange: 83466,
-    fileSize: 56,
-    appearanceCount: 7,
-    neighborCount: 22,
+    lastUpdated: 13749516,
+    blockRange: 107319,
+    fileSize: 80,
+    appearanceCount: 10,
+    neighborCount: 46,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -17836,15 +17871,15 @@ export const grantsData = [
     blockRange: 1522173,
     fileSize: 5936,
     appearanceCount: 742,
-    neighborCount: 2920,
+    neighborCount: 25776,
     types: 'txs,logs,neighbors',
-    logCount: 672,
+    logCount: 674,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.009999999999999934
+        balance: 0.014999999999999934
       }
     ],
     core: false
@@ -17867,11 +17902,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3029402,
     fileSize: 1184,
     appearanceCount: 148,
-    neighborCount: 477,
+    neighborCount: 1873,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -17906,9 +17941,9 @@ export const grantsData = [
     blockRange: 3237556,
     fileSize: 1408,
     appearanceCount: 176,
-    neighborCount: 682,
+    neighborCount: 6870,
     types: 'txs,logs,neighbors',
-    logCount: 155,
+    logCount: 156,
     matched: 0,
     claimed: 0,
     balances: [
@@ -17941,7 +17976,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -17976,7 +18011,7 @@ export const grantsData = [
     blockRange: 4383593,
     fileSize: 3648,
     appearanceCount: 456,
-    neighborCount: 1593,
+    neighborCount: 13528,
     types: 'txs,logs,neighbors',
     logCount: 322,
     matched: 0,
@@ -18011,7 +18046,7 @@ export const grantsData = [
     blockRange: 3574130,
     fileSize: 2632,
     appearanceCount: 329,
-    neighborCount: 871,
+    neighborCount: 2938,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -18042,11 +18077,11 @@ export const grantsData = [
       timestamp: 1614964728,
       date: '2021-03-05 17:18:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2768059,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 114,
+    neighborCount: 242,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -18081,7 +18116,7 @@ export const grantsData = [
     blockRange: 1568227,
     fileSize: 648,
     appearanceCount: 81,
-    neighborCount: 248,
+    neighborCount: 1409,
     types: 'txs,logs,neighbors',
     logCount: 35,
     matched: 0,
@@ -18116,7 +18151,7 @@ export const grantsData = [
     blockRange: 4287362,
     fileSize: 41936,
     appearanceCount: 5242,
-    neighborCount: 18265,
+    neighborCount: 91358,
     types: 'txs,logs,neighbors',
     logCount: 40,
     matched: 0,
@@ -18142,16 +18177,16 @@ export const grantsData = [
       date: '2020-05-09 18:58:45'
     },
     latestAppearance: {
-      bn: 13618326,
-      txId: 179,
-      timestamp: 1636951798,
-      date: '2021-11-15 04:49:58'
+      bn: 13739262,
+      txId: 119,
+      timestamp: 1638613280,
+      date: '2021-12-04 10:21:20'
     },
-    lastUpdated: 13711342,
-    blockRange: 3584566,
-    fileSize: 4160,
-    appearanceCount: 520,
-    neighborCount: 2872,
+    lastUpdated: 13749516,
+    blockRange: 3705502,
+    fileSize: 4248,
+    appearanceCount: 531,
+    neighborCount: 14448,
     types: 'txs,logs,neighbors',
     logCount: 142,
     matched: 0,
@@ -18186,7 +18221,7 @@ export const grantsData = [
     blockRange: 4847066,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 43,
+    neighborCount: 553,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -18212,16 +18247,16 @@ export const grantsData = [
       date: '2021-02-17 22:33:46'
     },
     latestAppearance: {
-      bn: 13703763,
-      txId: 63,
-      timestamp: 1638121388,
-      date: '2021-11-28 17:43:08'
+      bn: 13740086,
+      txId: 312,
+      timestamp: 1638625052,
+      date: '2021-12-04 13:37:32'
     },
-    lastUpdated: 13711342,
-    blockRange: 1826678,
-    fileSize: 912,
-    appearanceCount: 114,
-    neighborCount: 491,
+    lastUpdated: 13749516,
+    blockRange: 1863001,
+    fileSize: 960,
+    appearanceCount: 120,
+    neighborCount: 1485,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -18229,7 +18264,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.9975766372824038
+        balance: 1.982308100387769
       }
     ],
     core: false
@@ -18252,11 +18287,11 @@ export const grantsData = [
       timestamp: 1632377835,
       date: '2021-09-23 06:17:15'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3010421,
     fileSize: 1696,
     appearanceCount: 212,
-    neighborCount: 705,
+    neighborCount: 3238,
     types: 'txs,logs,neighbors',
     logCount: 189,
     matched: 0,
@@ -18291,7 +18326,7 @@ export const grantsData = [
     blockRange: 4617759,
     fileSize: 22288,
     appearanceCount: 2786,
-    neighborCount: 13618,
+    neighborCount: 68023,
     types: 'txs,logs,neighbors',
     logCount: 320,
     matched: 0,
@@ -18299,7 +18334,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 2.3739587272834908
+        balance: 2.311930454100882
       }
     ],
     core: false
@@ -18322,11 +18357,11 @@ export const grantsData = [
       timestamp: 1604945409,
       date: '2020-11-09 18:10:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 954923,
     fileSize: 536,
     appearanceCount: 67,
-    neighborCount: 218,
+    neighborCount: 950,
     types: 'txs,logs,neighbors',
     logCount: 35,
     matched: 0,
@@ -18352,16 +18387,16 @@ export const grantsData = [
       date: '2018-03-10 21:26:04'
     },
     latestAppearance: {
-      bn: 13710093,
-      txId: 175,
-      timestamp: 1638209836,
-      date: '2021-11-29 18:17:16'
+      bn: 13746174,
+      txId: 57,
+      timestamp: 1638708516,
+      date: '2021-12-05 12:48:36'
     },
-    lastUpdated: 13711342,
-    blockRange: 8477701,
-    fileSize: 10136,
-    appearanceCount: 1267,
-    neighborCount: 4252,
+    lastUpdated: 13749516,
+    blockRange: 8513782,
+    fileSize: 10216,
+    appearanceCount: 1277,
+    neighborCount: 40636,
     types: 'txs,logs,neighbors',
     logCount: 25,
     matched: 0,
@@ -18369,7 +18404,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.5555744105537379
+        balance: 0.5453656882968134
       }
     ],
     core: false
@@ -18396,7 +18431,7 @@ export const grantsData = [
     blockRange: 1339758,
     fileSize: 656,
     appearanceCount: 82,
-    neighborCount: 276,
+    neighborCount: 1491,
     types: 'txs,logs,neighbors',
     logCount: 67,
     matched: 0,
@@ -18431,7 +18466,7 @@ export const grantsData = [
     blockRange: 3494808,
     fileSize: 2776,
     appearanceCount: 347,
-    neighborCount: 1373,
+    neighborCount: 5921,
     types: 'txs,logs,neighbors',
     logCount: 186,
     matched: 0,
@@ -18457,16 +18492,16 @@ export const grantsData = [
       date: '2020-03-23 10:41:33'
     },
     latestAppearance: {
-      bn: 13688881,
-      txId: 234,
-      timestamp: 1637918197,
-      date: '2021-11-26 09:16:37'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 3961629,
-    fileSize: 2752,
-    appearanceCount: 344,
-    neighborCount: 1199,
+    lastUpdated: 13749516,
+    blockRange: 3998734,
+    fileSize: 2768,
+    appearanceCount: 346,
+    neighborCount: 9775,
     types: 'txs,logs,neighbors',
     logCount: 186,
     matched: 0,
@@ -18497,11 +18532,11 @@ export const grantsData = [
       timestamp: 1636416497,
       date: '2021-11-09 00:08:17'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4637840,
     fileSize: 488,
     appearanceCount: 61,
-    neighborCount: 205,
+    neighborCount: 3482,
     types: 'txs,logs,neighbors',
     logCount: 32,
     matched: 0,
@@ -18536,7 +18571,7 @@ export const grantsData = [
     blockRange: 3574130,
     fileSize: 2632,
     appearanceCount: 329,
-    neighborCount: 871,
+    neighborCount: 2938,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -18571,15 +18606,15 @@ export const grantsData = [
     blockRange: 2271875,
     fileSize: 15136,
     appearanceCount: 1892,
-    neighborCount: 6949,
+    neighborCount: 51456,
     types: 'txs,logs,neighbors',
-    logCount: 1725,
+    logCount: 1740,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 1.0785017946498618
+        balance: 1.079701794649862
       }
     ],
     core: false
@@ -18606,7 +18641,7 @@ export const grantsData = [
     blockRange: 1717862,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 38,
+    neighborCount: 43,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -18637,11 +18672,11 @@ export const grantsData = [
       timestamp: 1612800942,
       date: '2021-02-08 16:15:42'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1540911,
     fileSize: 488,
     appearanceCount: 61,
-    neighborCount: 162,
+    neighborCount: 757,
     types: 'txs,logs,neighbors',
     logCount: 34,
     matched: 0,
@@ -18676,7 +18711,7 @@ export const grantsData = [
     blockRange: 3392293,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 37,
+    neighborCount: 543,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -18711,7 +18746,7 @@ export const grantsData = [
     blockRange: 3228149,
     fileSize: 1368,
     appearanceCount: 171,
-    neighborCount: 586,
+    neighborCount: 2696,
     types: 'txs,logs,neighbors',
     logCount: 135,
     matched: 0,
@@ -18746,7 +18781,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -18781,7 +18816,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -18812,11 +18847,11 @@ export const grantsData = [
       timestamp: 1606504929,
       date: '2020-11-27 19:22:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1070628,
     fileSize: 592,
     appearanceCount: 74,
-    neighborCount: 226,
+    neighborCount: 1069,
     types: 'txs,logs,neighbors',
     logCount: 41,
     matched: 0,
@@ -18851,7 +18886,7 @@ export const grantsData = [
     blockRange: 4501739,
     fileSize: 800,
     appearanceCount: 100,
-    neighborCount: 294,
+    neighborCount: 668,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -18877,16 +18912,16 @@ export const grantsData = [
       date: '2019-05-25 14:02:26'
     },
     latestAppearance: {
-      bn: 13696619,
-      txId: 173,
-      timestamp: 1638023987,
-      date: '2021-11-27 14:39:47'
+      bn: 13746536,
+      txId: 70,
+      timestamp: 1638713827,
+      date: '2021-12-05 14:17:07'
     },
-    lastUpdated: 13711342,
-    blockRange: 5867412,
-    fileSize: 10056,
-    appearanceCount: 1257,
-    neighborCount: 5426,
+    lastUpdated: 13749516,
+    blockRange: 5917329,
+    fileSize: 10128,
+    appearanceCount: 1266,
+    neighborCount: 10104,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -18894,7 +18929,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.0215230849155008
+        balance: 0.21497052478204207
       }
     ],
     core: false
@@ -18921,7 +18956,7 @@ export const grantsData = [
     blockRange: 2932992,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 37,
+    neighborCount: 357,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -18956,7 +18991,7 @@ export const grantsData = [
     blockRange: 3196008,
     fileSize: 552,
     appearanceCount: 69,
-    neighborCount: 251,
+    neighborCount: 1550,
     types: 'txs,logs,neighbors',
     logCount: 50,
     matched: 0,
@@ -18991,7 +19026,7 @@ export const grantsData = [
     blockRange: 1063077,
     fileSize: 656,
     appearanceCount: 82,
-    neighborCount: 298,
+    neighborCount: 1329,
     types: 'txs,logs,neighbors',
     logCount: 52,
     matched: 0,
@@ -19022,11 +19057,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3632655,
     fileSize: 320,
     appearanceCount: 40,
-    neighborCount: 183,
+    neighborCount: 1910,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -19057,11 +19092,11 @@ export const grantsData = [
       timestamp: 1636452667,
       date: '2021-11-09 10:11:07'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1356794,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 113,
+    neighborCount: 649,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -19092,11 +19127,11 @@ export const grantsData = [
       timestamp: 1636452667,
       date: '2021-11-09 10:11:07'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1356794,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 113,
+    neighborCount: 649,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -19127,11 +19162,11 @@ export const grantsData = [
       timestamp: 1636416497,
       date: '2021-11-09 00:08:17'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4637840,
     fileSize: 488,
     appearanceCount: 61,
-    neighborCount: 205,
+    neighborCount: 3482,
     types: 'txs,logs,neighbors',
     logCount: 32,
     matched: 0,
@@ -19162,11 +19197,11 @@ export const grantsData = [
       timestamp: 1637069452,
       date: '2021-11-16 13:30:52'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13752324,
     blockRange: 8644133,
     fileSize: 904,
     appearanceCount: 113,
-    neighborCount: 340,
+    neighborCount: 467,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -19201,7 +19236,7 @@ export const grantsData = [
     blockRange: 269860,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 30,
+    neighborCount: 266,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -19236,7 +19271,7 @@ export const grantsData = [
     blockRange: 3381386,
     fileSize: 7712,
     appearanceCount: 964,
-    neighborCount: 3937,
+    neighborCount: 10716,
     types: 'txs,logs,neighbors',
     logCount: 111,
     matched: 0,
@@ -19244,7 +19279,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 2.253011460360263
+        balance: 2.2421640557574527
       }
     ],
     core: false
@@ -19271,7 +19306,7 @@ export const grantsData = [
     blockRange: 9170783,
     fileSize: 1224,
     appearanceCount: 153,
-    neighborCount: 437,
+    neighborCount: 2575,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -19297,16 +19332,16 @@ export const grantsData = [
       date: '2019-10-23 04:20:35'
     },
     latestAppearance: {
-      bn: 13701658,
-      txId: 249,
-      timestamp: 1638092532,
-      date: '2021-11-28 09:42:12'
+      bn: 13732006,
+      txId: 59,
+      timestamp: 1638512995,
+      date: '2021-12-03 06:29:55'
     },
-    lastUpdated: 13711342,
-    blockRange: 4907115,
-    fileSize: 5368,
-    appearanceCount: 671,
-    neighborCount: 3023,
+    lastUpdated: 13749516,
+    blockRange: 4937463,
+    fileSize: 5416,
+    appearanceCount: 677,
+    neighborCount: 16646,
     types: 'txs,logs,neighbors',
     logCount: 22,
     matched: 0,
@@ -19341,7 +19376,7 @@ export const grantsData = [
     blockRange: 766207,
     fileSize: 1592,
     appearanceCount: 199,
-    neighborCount: 698,
+    neighborCount: 3745,
     types: 'txs,logs,neighbors',
     logCount: 132,
     matched: 0,
@@ -19367,16 +19402,16 @@ export const grantsData = [
       date: '2021-04-06 18:52:39'
     },
     latestAppearance: {
-      bn: 13630775,
-      txId: 178,
-      timestamp: 1637122537,
-      date: '2021-11-17 04:15:37'
+      bn: 13728481,
+      txId: 244,
+      timestamp: 1638463750,
+      date: '2021-12-02 16:49:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 1442856,
-    fileSize: 488,
-    appearanceCount: 61,
-    neighborCount: 222,
+    lastUpdated: 13749516,
+    blockRange: 1540562,
+    fileSize: 512,
+    appearanceCount: 64,
+    neighborCount: 989,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -19407,11 +19442,11 @@ export const grantsData = [
       timestamp: 1637280869,
       date: '2021-11-19 00:14:29'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4031162,
     fileSize: 5888,
     appearanceCount: 736,
-    neighborCount: 4092,
+    neighborCount: 7088,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -19442,11 +19477,11 @@ export const grantsData = [
       timestamp: 1637280869,
       date: '2021-11-19 00:14:29'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4031162,
     fileSize: 5888,
     appearanceCount: 736,
-    neighborCount: 4092,
+    neighborCount: 7088,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -19472,16 +19507,16 @@ export const grantsData = [
       date: '2017-10-30 21:19:17'
     },
     latestAppearance: {
-      bn: 13651882,
-      txId: 60,
-      timestamp: 1637411230,
-      date: '2021-11-20 12:27:10'
+      bn: 13748190,
+      txId: 225,
+      timestamp: 1638737168,
+      date: '2021-12-05 20:46:08'
     },
-    lastUpdated: 13711342,
-    blockRange: 9191795,
-    fileSize: 11872,
-    appearanceCount: 1484,
-    neighborCount: 4857,
+    lastUpdated: 13749516,
+    blockRange: 9288103,
+    fileSize: 11920,
+    appearanceCount: 1490,
+    neighborCount: 18624,
     types: 'txs,logs,neighbors',
     logCount: 185,
     matched: 0,
@@ -19489,7 +19524,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.016041284288718708
+        balance: 0.008815517133383785
       }
     ],
     core: false
@@ -19516,7 +19551,7 @@ export const grantsData = [
     blockRange: 7426351,
     fileSize: 2184,
     appearanceCount: 273,
-    neighborCount: 934,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 43,
     matched: 0,
@@ -19551,7 +19586,7 @@ export const grantsData = [
     blockRange: 3484626,
     fileSize: 168,
     appearanceCount: 21,
-    neighborCount: 61,
+    neighborCount: 397,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -19582,11 +19617,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -19617,11 +19652,11 @@ export const grantsData = [
       timestamp: 1636567366,
       date: '2021-11-10 18:02:46'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4507704,
     fileSize: 3256,
     appearanceCount: 407,
-    neighborCount: 5797,
+    neighborCount: 8289,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -19656,7 +19691,7 @@ export const grantsData = [
     blockRange: 76139,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 8,
+    neighborCount: 836,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -19682,16 +19717,16 @@ export const grantsData = [
       date: '2018-05-10 13:36:20'
     },
     latestAppearance: {
-      bn: 13690796,
-      txId: 354,
-      timestamp: 1637943711,
-      date: '2021-11-26 16:21:51'
+      bn: 13742045,
+      txId: 369,
+      timestamp: 1638652012,
+      date: '2021-12-04 21:06:52'
     },
-    lastUpdated: 13711342,
-    blockRange: 8101241,
-    fileSize: 3008,
-    appearanceCount: 376,
-    neighborCount: 1394,
+    lastUpdated: 13749516,
+    blockRange: 8152490,
+    fileSize: 3016,
+    appearanceCount: 377,
+    neighborCount: 6237,
     types: 'txs,logs,neighbors',
     logCount: 104,
     matched: 0,
@@ -19699,7 +19734,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.986847159968332
+        balance: 3.884609375350935
       }
     ],
     core: false
@@ -19722,11 +19757,11 @@ export const grantsData = [
       timestamp: 1636604928,
       date: '2021-11-11 04:28:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4061641,
     fileSize: 1672,
     appearanceCount: 209,
-    neighborCount: 1586,
+    neighborCount: 4214,
     types: 'txs,logs,neighbors',
     logCount: 18,
     matched: 0,
@@ -19757,11 +19792,11 @@ export const grantsData = [
       timestamp: 1594843269,
       date: '2020-07-15 20:01:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 168718,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 40,
+    neighborCount: 58,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -19796,7 +19831,7 @@ export const grantsData = [
     blockRange: 4820020,
     fileSize: 17608,
     appearanceCount: 2201,
-    neighborCount: 8697,
+    neighborCount: 41959,
     types: 'txs,logs,neighbors',
     logCount: 1188,
     matched: 0,
@@ -19804,7 +19839,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 5.919056222527808
+        balance: 5.833072870046479
       }
     ],
     core: false
@@ -19827,11 +19862,11 @@ export const grantsData = [
       timestamp: 1631472893,
       date: '2021-09-12 18:54:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5107985,
     fileSize: 5304,
     appearanceCount: 663,
-    neighborCount: 3140,
+    neighborCount: 4541,
     types: 'txs,logs,neighbors',
     logCount: 23,
     matched: 0,
@@ -19862,11 +19897,11 @@ export const grantsData = [
       timestamp: 1635400138,
       date: '2021-10-28 05:48:58'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1407537,
     fileSize: 1656,
     appearanceCount: 207,
-    neighborCount: 773,
+    neighborCount: 6814,
     types: 'txs,logs,neighbors',
     logCount: 163,
     matched: 0,
@@ -19901,7 +19936,7 @@ export const grantsData = [
     blockRange: 76139,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 8,
+    neighborCount: 836,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -19932,11 +19967,11 @@ export const grantsData = [
       timestamp: 1636444200,
       date: '2021-11-09 07:50:00'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3285366,
     fileSize: 568,
     appearanceCount: 71,
-    neighborCount: 269,
+    neighborCount: 1499,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -19967,11 +20002,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -20002,11 +20037,11 @@ export const grantsData = [
       timestamp: 1594843269,
       date: '2020-07-15 20:01:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 168718,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 40,
+    neighborCount: 58,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -20037,11 +20072,11 @@ export const grantsData = [
       timestamp: 1599621981,
       date: '2020-09-09 03:26:21'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 796662,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 79,
+    neighborCount: 83,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -20072,11 +20107,11 @@ export const grantsData = [
       timestamp: 1594843269,
       date: '2020-07-15 20:01:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 168718,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 40,
+    neighborCount: 58,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -20107,11 +20142,11 @@ export const grantsData = [
       timestamp: 1634270075,
       date: '2021-10-15 03:54:35'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3227260,
     fileSize: 1624,
     appearanceCount: 203,
-    neighborCount: 689,
+    neighborCount: 1352,
     types: 'txs,logs,neighbors',
     logCount: 47,
     matched: 0,
@@ -20137,16 +20172,16 @@ export const grantsData = [
       date: '2019-10-28 14:21:49'
     },
     latestAppearance: {
-      bn: 13710043,
-      txId: 499,
-      timestamp: 1638209231,
-      date: '2021-11-29 18:07:11'
+      bn: 13734643,
+      txId: 206,
+      timestamp: 1638549369,
+      date: '2021-12-03 16:36:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 4881703,
-    fileSize: 2160,
-    appearanceCount: 270,
-    neighborCount: 1094,
+    lastUpdated: 13749516,
+    blockRange: 4906303,
+    fileSize: 2248,
+    appearanceCount: 281,
+    neighborCount: 7867,
     types: 'txs,logs,neighbors',
     logCount: 51,
     matched: 0,
@@ -20154,7 +20189,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.21662543085624889
+        balance: 0.19670003764823518
       }
     ],
     core: false
@@ -20216,7 +20251,7 @@ export const grantsData = [
     blockRange: 8168747,
     fileSize: 1928,
     appearanceCount: 241,
-    neighborCount: 1637,
+    neighborCount: 3324,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -20242,16 +20277,16 @@ export const grantsData = [
       date: '2019-12-10 13:04:15'
     },
     latestAppearance: {
-      bn: 12915847,
-      txId: 48,
-      timestamp: 1627495024,
-      date: '2021-07-28 17:57:04'
+      bn: 13714463,
+      txId: 326,
+      timestamp: 1638271216,
+      date: '2021-11-30 11:20:16'
     },
-    lastUpdated: 13711342,
-    blockRange: 3832579,
-    fileSize: 1184,
-    appearanceCount: 148,
-    neighborCount: 1334,
+    lastUpdated: 13749516,
+    blockRange: 4631195,
+    fileSize: 1192,
+    appearanceCount: 149,
+    neighborCount: 3697,
     types: 'txs,logs,neighbors',
     logCount: 61,
     matched: 0,
@@ -20286,7 +20321,7 @@ export const grantsData = [
     blockRange: 3156940,
     fileSize: 1120,
     appearanceCount: 140,
-    neighborCount: 516,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -20321,7 +20356,7 @@ export const grantsData = [
     blockRange: 5547988,
     fileSize: 5672,
     appearanceCount: 709,
-    neighborCount: 2407,
+    neighborCount: 9332,
     types: 'txs,logs,neighbors',
     logCount: 99,
     matched: 0,
@@ -20347,16 +20382,16 @@ export const grantsData = [
       date: '2020-01-21 20:20:31'
     },
     latestAppearance: {
-      bn: 13593553,
-      txId: 11,
-      timestamp: 1636615297,
-      date: '2021-11-11 07:21:37'
+      bn: 13728017,
+      txId: 150,
+      timestamp: 1638457497,
+      date: '2021-12-02 15:04:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 4266555,
-    fileSize: 888,
-    appearanceCount: 111,
-    neighborCount: 1192,
+    lastUpdated: 13749516,
+    blockRange: 4401019,
+    fileSize: 896,
+    appearanceCount: 112,
+    neighborCount: 3118,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -20391,7 +20426,7 @@ export const grantsData = [
     blockRange: 2929411,
     fileSize: 560,
     appearanceCount: 70,
-    neighborCount: 275,
+    neighborCount: 782,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -20417,16 +20452,16 @@ export const grantsData = [
       date: '2020-01-08 20:26:45'
     },
     latestAppearance: {
-      bn: 13705360,
-      txId: 189,
-      timestamp: 1638143674,
-      date: '2021-11-28 23:54:34'
+      bn: 13736560,
+      txId: 181,
+      timestamp: 1638575109,
+      date: '2021-12-03 23:45:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 4463212,
-    fileSize: 10832,
-    appearanceCount: 1354,
-    neighborCount: 5426,
+    lastUpdated: 13749516,
+    blockRange: 4494412,
+    fileSize: 10872,
+    appearanceCount: 1359,
+    neighborCount: 26955,
     types: 'txs,logs,neighbors',
     logCount: 735,
     matched: 0,
@@ -20457,11 +20492,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4561275,
     fileSize: 352,
     appearanceCount: 44,
-    neighborCount: 190,
+    neighborCount: 3080,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -20487,16 +20522,16 @@ export const grantsData = [
       date: '2019-06-28 13:35:42'
     },
     latestAppearance: {
-      bn: 12707674,
-      txId: 131,
-      timestamp: 1624683654,
-      date: '2021-06-26 05:00:54'
+      bn: 13733386,
+      txId: 35,
+      timestamp: 1638531251,
+      date: '2021-12-03 11:34:11'
     },
-    lastUpdated: 13711342,
-    blockRange: 4661058,
-    fileSize: 968,
-    appearanceCount: 121,
-    neighborCount: 502,
+    lastUpdated: 13749516,
+    blockRange: 5686770,
+    fileSize: 984,
+    appearanceCount: 123,
+    neighborCount: 2787,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -20527,11 +20562,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3175391,
     fileSize: 552,
     appearanceCount: 69,
-    neighborCount: 212,
+    neighborCount: 896,
     types: 'txs,logs,neighbors',
     logCount: 21,
     matched: 0,
@@ -20562,11 +20597,11 @@ export const grantsData = [
       timestamp: 1593754280,
       date: '2020-07-03 05:31:20'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 48234,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 62,
+    neighborCount: 68,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -20597,11 +20632,11 @@ export const grantsData = [
       timestamp: 1636485438,
       date: '2021-11-09 19:17:18'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4054617,
     fileSize: 1560,
     appearanceCount: 195,
-    neighborCount: 940,
+    neighborCount: 2609,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -20636,7 +20671,7 @@ export const grantsData = [
     blockRange: 4544874,
     fileSize: 11040,
     appearanceCount: 1380,
-    neighborCount: 10191,
+    neighborCount: 22042,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -20644,7 +20679,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.6145295517959233
+        balance: 3.6050190417959236
       }
     ],
     core: false
@@ -20671,7 +20706,7 @@ export const grantsData = [
     blockRange: 3119335,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 68,
+    neighborCount: 689,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -20697,16 +20732,16 @@ export const grantsData = [
       date: '2019-07-19 13:37:30'
     },
     latestAppearance: {
-      bn: 13121070,
-      txId: 171,
-      timestamp: 1630249563,
-      date: '2021-08-29 15:06:03'
+      bn: 13727959,
+      txId: 409,
+      timestamp: 1638456728,
+      date: '2021-12-02 14:52:08'
     },
-    lastUpdated: 13711342,
-    blockRange: 4939685,
-    fileSize: 1208,
-    appearanceCount: 151,
-    neighborCount: 442,
+    lastUpdated: 13749516,
+    blockRange: 5546574,
+    fileSize: 1240,
+    appearanceCount: 155,
+    neighborCount: 929,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -20732,16 +20767,16 @@ export const grantsData = [
       date: '2020-06-04 15:37:08'
     },
     latestAppearance: {
-      bn: 13711256,
-      txId: 67,
-      timestamp: 1638225776,
-      date: '2021-11-29 22:42:56'
+      bn: 13722303,
+      txId: 22,
+      timestamp: 1638378912,
+      date: '2021-12-01 17:15:12'
     },
-    lastUpdated: 13711342,
-    blockRange: 3511085,
-    fileSize: 400,
-    appearanceCount: 50,
-    neighborCount: 207,
+    lastUpdated: 13749516,
+    blockRange: 3522132,
+    fileSize: 456,
+    appearanceCount: 57,
+    neighborCount: 283,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -20767,16 +20802,16 @@ export const grantsData = [
       date: '2021-04-07 01:49:49'
     },
     latestAppearance: {
-      bn: 13710008,
-      txId: 35,
-      timestamp: 1638208694,
-      date: '2021-11-29 17:58:14'
+      bn: 13747705,
+      txId: 94,
+      timestamp: 1638730492,
+      date: '2021-12-05 18:54:52'
     },
-    lastUpdated: 13711342,
-    blockRange: 1520220,
-    fileSize: 5032,
-    appearanceCount: 629,
-    neighborCount: 3585,
+    lastUpdated: 13749516,
+    blockRange: 1557917,
+    fileSize: 5144,
+    appearanceCount: 643,
+    neighborCount: 9437,
     types: 'txs,logs,neighbors',
     logCount: 83,
     matched: 0,
@@ -20784,7 +20819,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.050430112567525394
+        balance: 0.15640405751487732
       }
     ],
     core: false
@@ -20811,7 +20846,7 @@ export const grantsData = [
     blockRange: 798105,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 21,
+    neighborCount: 540,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -20842,11 +20877,11 @@ export const grantsData = [
       timestamp: 1638187859,
       date: '2021-11-29 12:10:59'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3974671,
     fileSize: 3552,
     appearanceCount: 444,
-    neighborCount: 2802,
+    neighborCount: 9405,
     types: 'txs,logs,neighbors',
     logCount: 33,
     matched: 0,
@@ -20881,7 +20916,7 @@ export const grantsData = [
     blockRange: 346140,
     fileSize: 296,
     appearanceCount: 37,
-    neighborCount: 127,
+    neighborCount: 162,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -20889,7 +20924,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.03089559108529508
+        balance: 0.019173999909975346
       }
     ],
     core: false
@@ -20916,7 +20951,7 @@ export const grantsData = [
     blockRange: 3173763,
     fileSize: 936,
     appearanceCount: 117,
-    neighborCount: 482,
+    neighborCount: 6203,
     types: 'txs,logs,neighbors',
     logCount: 94,
     matched: 0,
@@ -20951,7 +20986,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 59,
+    neighborCount: 61,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -20977,16 +21012,16 @@ export const grantsData = [
       date: '2020-06-25 13:49:47'
     },
     latestAppearance: {
-      bn: 13690000,
-      txId: 325,
-      timestamp: 1637933113,
-      date: '2021-11-26 13:25:13'
+      bn: 13726776,
+      txId: 377,
+      timestamp: 1638440114,
+      date: '2021-12-02 10:15:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 3354728,
-    fileSize: 352,
-    appearanceCount: 44,
-    neighborCount: 210,
+    lastUpdated: 13749516,
+    blockRange: 3391504,
+    fileSize: 376,
+    appearanceCount: 47,
+    neighborCount: 1810,
     types: 'txs,logs,neighbors',
     logCount: 30,
     matched: 0,
@@ -21021,7 +21056,7 @@ export const grantsData = [
     blockRange: 3826157,
     fileSize: 1184,
     appearanceCount: 148,
-    neighborCount: 596,
+    neighborCount: 2207,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -21091,7 +21126,7 @@ export const grantsData = [
     blockRange: 5600416,
     fileSize: 11424,
     appearanceCount: 1428,
-    neighborCount: 6112,
+    neighborCount: 12242,
     types: 'txs,logs,neighbors',
     logCount: 236,
     matched: 0,
@@ -21099,7 +21134,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1878523067100079
+        balance: 0.1842243314163877
       }
     ],
     core: false
@@ -21117,16 +21152,16 @@ export const grantsData = [
       date: '2017-01-07 16:04:57'
     },
     latestAppearance: {
-      bn: 13710671,
-      txId: 142,
-      timestamp: 1638217761,
-      date: '2021-11-29 20:29:21'
+      bn: 13744396,
+      txId: 180,
+      timestamp: 1638684768,
+      date: '2021-12-05 06:12:48'
     },
-    lastUpdated: 13711342,
-    blockRange: 10757713,
-    fileSize: 122416,
-    appearanceCount: 15302,
-    neighborCount: 62572,
+    lastUpdated: 13749516,
+    blockRange: 10791438,
+    fileSize: 122464,
+    appearanceCount: 15308,
+    neighborCount: 93277,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -21161,7 +21196,7 @@ export const grantsData = [
     blockRange: 1451185,
     fileSize: 544,
     appearanceCount: 68,
-    neighborCount: 225,
+    neighborCount: 3271,
     types: 'txs,logs,neighbors',
     logCount: 61,
     matched: 0,
@@ -21192,11 +21227,11 @@ export const grantsData = [
       timestamp: 1622046851,
       date: '2021-05-26 16:34:11'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2554494,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 72,
+    neighborCount: 74,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -21231,7 +21266,7 @@ export const grantsData = [
     blockRange: 6349362,
     fileSize: 944,
     appearanceCount: 118,
-    neighborCount: 398,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -21262,11 +21297,11 @@ export const grantsData = [
       timestamp: 1636881632,
       date: '2021-11-14 09:20:32'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 153598,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 35,
+    neighborCount: 539,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -21297,11 +21332,11 @@ export const grantsData = [
       timestamp: 1593754280,
       date: '2020-07-03 05:31:20'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 59,
+    neighborCount: 61,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -21327,16 +21362,16 @@ export const grantsData = [
       date: '2020-10-02 23:32:05'
     },
     latestAppearance: {
-      bn: 13678433,
-      txId: 212,
-      timestamp: 1637773996,
-      date: '2021-11-24 17:13:16'
+      bn: 13729505,
+      txId: 352,
+      timestamp: 1638478010,
+      date: '2021-12-02 20:46:50'
     },
-    lastUpdated: 13711342,
-    blockRange: 2698888,
-    fileSize: 184,
-    appearanceCount: 23,
-    neighborCount: 197,
+    lastUpdated: 13749516,
+    blockRange: 2749960,
+    fileSize: 200,
+    appearanceCount: 25,
+    neighborCount: 286,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -21371,7 +21406,7 @@ export const grantsData = [
     blockRange: 3275447,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 73,
+    neighborCount: 205,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -21402,11 +21437,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3153632,
     fileSize: 1056,
     appearanceCount: 132,
-    neighborCount: 659,
+    neighborCount: 3912,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -21441,7 +21476,7 @@ export const grantsData = [
     blockRange: 1044749,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 41,
+    neighborCount: 300,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -21472,11 +21507,11 @@ export const grantsData = [
       timestamp: 1636435153,
       date: '2021-11-09 05:19:13'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 32,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 8,
+    neighborCount: 11,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -21507,11 +21542,11 @@ export const grantsData = [
       timestamp: 1636435153,
       date: '2021-11-09 05:19:13'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 32,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 8,
+    neighborCount: 11,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -21616,7 +21651,7 @@ export const grantsData = [
     blockRange: 3429668,
     fileSize: 12208,
     appearanceCount: 1526,
-    neighborCount: 11832,
+    neighborCount: 20625,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -21647,11 +21682,11 @@ export const grantsData = [
       timestamp: 1605457011,
       date: '2020-11-15 16:16:51'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 899848,
     fileSize: 648,
     appearanceCount: 81,
-    neighborCount: 209,
+    neighborCount: 605,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -21686,7 +21721,7 @@ export const grantsData = [
     blockRange: 2621475,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 110,
+    neighborCount: 891,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -21717,11 +21752,11 @@ export const grantsData = [
       timestamp: 1636195429,
       date: '2021-11-06 10:43:49'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 7416195,
     fileSize: 2512,
     appearanceCount: 314,
-    neighborCount: 807,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -21756,7 +21791,7 @@ export const grantsData = [
     blockRange: 401042,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 36,
+    neighborCount: 40,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -21782,18 +21817,18 @@ export const grantsData = [
       date: '2020-07-02 01:31:24'
     },
     latestAppearance: {
-      bn: 13692810,
-      txId: 356,
-      timestamp: 1637972129,
-      date: '2021-11-27 00:15:29'
+      bn: 13732372,
+      txId: 92,
+      timestamp: 1638517843,
+      date: '2021-12-03 07:50:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 3315736,
-    fileSize: 3856,
-    appearanceCount: 482,
-    neighborCount: 1742,
+    lastUpdated: 13749516,
+    blockRange: 3355298,
+    fileSize: 3888,
+    appearanceCount: 486,
+    neighborCount: 18020,
     types: 'txs,logs,neighbors',
-    logCount: 418,
+    logCount: 419,
     matched: 0,
     claimed: 0,
     balances: [
@@ -21826,7 +21861,7 @@ export const grantsData = [
     blockRange: 4138070,
     fileSize: 2856,
     appearanceCount: 357,
-    neighborCount: 1319,
+    neighborCount: 29724,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -21861,7 +21896,7 @@ export const grantsData = [
     blockRange: 3990355,
     fileSize: 8440,
     appearanceCount: 1055,
-    neighborCount: 3460,
+    neighborCount: 9710,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -21869,7 +21904,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.5090113209462084
+        balance: 0.11994061482662337
       }
     ],
     core: false
@@ -21892,11 +21927,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 812454,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 24,
+    neighborCount: 2153,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -21927,11 +21962,11 @@ export const grantsData = [
       timestamp: 1594036412,
       date: '2020-07-06 11:53:32'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 26427,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 15,
+    neighborCount: 18,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -21962,11 +21997,11 @@ export const grantsData = [
       timestamp: 1627205151,
       date: '2021-07-25 09:25:51'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4056603,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 1539,
+    neighborCount: 1817,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -21997,11 +22032,11 @@ export const grantsData = [
       timestamp: 1627205151,
       date: '2021-07-25 09:25:51'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4056603,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 1539,
+    neighborCount: 1817,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -22036,7 +22071,7 @@ export const grantsData = [
     blockRange: 5072639,
     fileSize: 2432,
     appearanceCount: 304,
-    neighborCount: 1197,
+    neighborCount: 2052,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -22071,7 +22106,7 @@ export const grantsData = [
     blockRange: 9437020,
     fileSize: 5616,
     appearanceCount: 702,
-    neighborCount: 2094,
+    neighborCount: 13832,
     types: 'txs,logs,neighbors',
     logCount: 49,
     matched: 0,
@@ -22079,7 +22114,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.4461125458324632
+        balance: 0.24292308500850818
       }
     ],
     core: false
@@ -22106,7 +22141,7 @@ export const grantsData = [
     blockRange: 9009696,
     fileSize: 10104,
     appearanceCount: 1263,
-    neighborCount: 4648,
+    neighborCount: 24526,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -22141,7 +22176,7 @@ export const grantsData = [
     blockRange: 1861313,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 40,
+    neighborCount: 294,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -22176,7 +22211,7 @@ export const grantsData = [
     blockRange: 985168,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 162,
+    neighborCount: 208,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -22202,16 +22237,16 @@ export const grantsData = [
       date: '2019-06-28 13:35:42'
     },
     latestAppearance: {
-      bn: 12707674,
-      txId: 131,
-      timestamp: 1624683654,
-      date: '2021-06-26 05:00:54'
+      bn: 13733386,
+      txId: 35,
+      timestamp: 1638531251,
+      date: '2021-12-03 11:34:11'
     },
-    lastUpdated: 13711342,
-    blockRange: 4661058,
-    fileSize: 968,
-    appearanceCount: 121,
-    neighborCount: 502,
+    lastUpdated: 13749516,
+    blockRange: 5686770,
+    fileSize: 984,
+    appearanceCount: 123,
+    neighborCount: 2787,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -22272,16 +22307,16 @@ export const grantsData = [
       date: '2018-06-30 05:08:35'
     },
     latestAppearance: {
-      bn: 13693944,
-      txId: 236,
-      timestamp: 1637986934,
-      date: '2021-11-27 04:22:14'
+      bn: 13711792,
+      txId: 261,
+      timestamp: 1638233111,
+      date: '2021-11-30 00:45:11'
     },
-    lastUpdated: 13711342,
-    blockRange: 7815071,
-    fileSize: 3736,
-    appearanceCount: 467,
-    neighborCount: 2635,
+    lastUpdated: 13749516,
+    blockRange: 7832919,
+    fileSize: 3752,
+    appearanceCount: 469,
+    neighborCount: 4329,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -22307,16 +22342,16 @@ export const grantsData = [
       date: '2018-06-27 01:49:13'
     },
     latestAppearance: {
-      bn: 13689984,
-      txId: 105,
-      timestamp: 1637932956,
-      date: '2021-11-26 13:22:36'
+      bn: 13715111,
+      txId: 225,
+      timestamp: 1638280068,
+      date: '2021-11-30 13:47:48'
     },
-    lastUpdated: 13711342,
-    blockRange: 7829300,
-    fileSize: 984,
-    appearanceCount: 123,
-    neighborCount: 405,
+    lastUpdated: 13749516,
+    blockRange: 7854427,
+    fileSize: 992,
+    appearanceCount: 124,
+    neighborCount: 791,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -22342,16 +22377,16 @@ export const grantsData = [
       date: '2017-07-02 22:06:41'
     },
     latestAppearance: {
-      bn: 13709690,
-      txId: 64,
-      timestamp: 1638204375,
-      date: '2021-11-29 16:46:15'
+      bn: 13741080,
+      txId: 129,
+      timestamp: 1638638390,
+      date: '2021-12-04 17:19:50'
     },
-    lastUpdated: 13711342,
-    blockRange: 9744890,
-    fileSize: 10472,
-    appearanceCount: 1309,
-    neighborCount: 4037,
+    lastUpdated: 13749516,
+    blockRange: 9776280,
+    fileSize: 10576,
+    appearanceCount: 1322,
+    neighborCount: 11269,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -22359,7 +22394,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.4625177567995868
+        balance: 0.4372626674987065
       }
     ],
     core: false
@@ -22386,7 +22421,7 @@ export const grantsData = [
     blockRange: 2518887,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 8,
+    neighborCount: 10,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -22412,16 +22447,16 @@ export const grantsData = [
       date: '2018-05-03 10:28:17'
     },
     latestAppearance: {
-      bn: 13707138,
-      txId: 99,
-      timestamp: 1638168684,
-      date: '2021-11-29 06:51:24'
+      bn: 13733432,
+      txId: 190,
+      timestamp: 1638531941,
+      date: '2021-12-03 11:45:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 8158497,
-    fileSize: 15920,
-    appearanceCount: 1990,
-    neighborCount: 6631,
+    lastUpdated: 13749516,
+    blockRange: 8184791,
+    fileSize: 15960,
+    appearanceCount: 1995,
+    neighborCount: 13317,
     types: 'txs,logs,neighbors',
     logCount: 18,
     matched: 0,
@@ -22429,7 +22464,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 13.647327904658665
+        balance: 13.603708474758866
       }
     ],
     core: false
@@ -22447,16 +22482,16 @@ export const grantsData = [
       date: '2021-06-04 03:34:12'
     },
     latestAppearance: {
-      bn: 13707180,
-      txId: 286,
-      timestamp: 1638169345,
-      date: '2021-11-29 07:02:25'
+      bn: 13732374,
+      txId: 74,
+      timestamp: 1638517878,
+      date: '2021-12-03 07:51:18'
     },
-    lastUpdated: 13711342,
-    blockRange: 1141624,
-    fileSize: 1312,
-    appearanceCount: 164,
-    neighborCount: 515,
+    lastUpdated: 13749516,
+    blockRange: 1166818,
+    fileSize: 1320,
+    appearanceCount: 165,
+    neighborCount: 3722,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -22482,16 +22517,16 @@ export const grantsData = [
       date: '2021-06-04 03:34:12'
     },
     latestAppearance: {
-      bn: 13707180,
-      txId: 286,
-      timestamp: 1638169345,
-      date: '2021-11-29 07:02:25'
+      bn: 13732374,
+      txId: 74,
+      timestamp: 1638517878,
+      date: '2021-12-03 07:51:18'
     },
-    lastUpdated: 13711342,
-    blockRange: 1141624,
-    fileSize: 1312,
-    appearanceCount: 164,
-    neighborCount: 515,
+    lastUpdated: 13749516,
+    blockRange: 1166818,
+    fileSize: 1320,
+    appearanceCount: 165,
+    neighborCount: 3722,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -22526,7 +22561,7 @@ export const grantsData = [
     blockRange: 1776434,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 14,
+    neighborCount: 165,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -22557,11 +22592,11 @@ export const grantsData = [
       timestamp: 1631977618,
       date: '2021-09-18 15:06:58'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2998259,
     fileSize: 7296,
     appearanceCount: 912,
-    neighborCount: 2451,
+    neighborCount: 13282,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -22592,11 +22627,11 @@ export const grantsData = [
       timestamp: 1636439986,
       date: '2021-11-09 06:39:46'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3223948,
     fileSize: 264,
     appearanceCount: 33,
-    neighborCount: 229,
+    neighborCount: 318,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -22631,7 +22666,7 @@ export const grantsData = [
     blockRange: 1819306,
     fileSize: 216,
     appearanceCount: 27,
-    neighborCount: 66,
+    neighborCount: 73,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -22666,7 +22701,7 @@ export const grantsData = [
     blockRange: 3277251,
     fileSize: 8808,
     appearanceCount: 1101,
-    neighborCount: 5735,
+    neighborCount: 10217,
     types: 'txs,logs,neighbors',
     logCount: 76,
     matched: 0,
@@ -22674,7 +22709,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.6485823180924848
+        balance: 0.6042015590275018
       }
     ],
     core: false
@@ -22692,16 +22727,16 @@ export const grantsData = [
       date: '2020-07-08 05:52:21'
     },
     latestAppearance: {
-      bn: 13508989,
-      txId: 202,
-      timestamp: 1635467712,
-      date: '2021-10-29 00:35:12'
+      bn: 13749013,
+      txId: 6,
+      timestamp: 1638748656,
+      date: '2021-12-05 23:57:36'
     },
-    lastUpdated: 13711342,
-    blockRange: 3091911,
-    fileSize: 7576,
-    appearanceCount: 947,
-    neighborCount: 17515,
+    lastUpdated: 13749516,
+    blockRange: 3331935,
+    fileSize: 7632,
+    appearanceCount: 954,
+    neighborCount: 24212,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -22709,7 +22744,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1079.6261507007557
+        balance: 1080.4079828183278
       }
     ],
     core: false
@@ -22736,7 +22771,7 @@ export const grantsData = [
     blockRange: 4501739,
     fileSize: 800,
     appearanceCount: 100,
-    neighborCount: 294,
+    neighborCount: 668,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -22767,11 +22802,11 @@ export const grantsData = [
       timestamp: 1605861190,
       date: '2020-11-20 08:33:10'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 393315,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 48,
+    neighborCount: 121,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -22802,11 +22837,11 @@ export const grantsData = [
       timestamp: 1636419625,
       date: '2021-11-09 01:00:25'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8639753,
     fileSize: 8024,
     appearanceCount: 1003,
-    neighborCount: 3915,
+    neighborCount: 7014,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -22832,16 +22867,16 @@ export const grantsData = [
       date: '2020-08-01 12:17:00'
     },
     latestAppearance: {
-      bn: 13709380,
-      txId: 312,
-      timestamp: 1638199713,
-      date: '2021-11-29 15:28:33'
+      bn: 13747941,
+      txId: 160,
+      timestamp: 1638733795,
+      date: '2021-12-05 19:49:55'
     },
-    lastUpdated: 13711342,
-    blockRange: 3135564,
-    fileSize: 2176,
-    appearanceCount: 272,
-    neighborCount: 741,
+    lastUpdated: 13749516,
+    blockRange: 3174125,
+    fileSize: 2200,
+    appearanceCount: 275,
+    neighborCount: 2073,
     types: 'txs,logs,neighbors',
     logCount: 150,
     matched: 0,
@@ -22849,7 +22884,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.8849450122959155
+        balance: 0.860177427867528
       }
     ],
     core: false
@@ -22872,11 +22907,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5377696,
     fileSize: 528,
     appearanceCount: 66,
-    neighborCount: 149,
+    neighborCount: 758,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -22911,7 +22946,7 @@ export const grantsData = [
     blockRange: 9410387,
     fileSize: 18104,
     appearanceCount: 2263,
-    neighborCount: 6711,
+    neighborCount: 10025,
     types: 'txs,logs,neighbors',
     logCount: 65,
     matched: 0,
@@ -22946,7 +22981,7 @@ export const grantsData = [
     blockRange: 3205040,
     fileSize: 5592,
     appearanceCount: 699,
-    neighborCount: 2312,
+    neighborCount: 7838,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -22977,11 +23012,11 @@ export const grantsData = [
       timestamp: 1632137982,
       date: '2021-09-20 11:39:42'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6545141,
     fileSize: 6616,
     appearanceCount: 827,
-    neighborCount: 2091,
+    neighborCount: 3155,
     types: 'txs,logs,neighbors',
     logCount: 29,
     matched: 0,
@@ -23016,7 +23051,7 @@ export const grantsData = [
     blockRange: 2321047,
     fileSize: 1264,
     appearanceCount: 158,
-    neighborCount: 515,
+    neighborCount: 6305,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -23051,7 +23086,7 @@ export const grantsData = [
     blockRange: 2420604,
     fileSize: 744,
     appearanceCount: 93,
-    neighborCount: 276,
+    neighborCount: 1197,
     types: 'txs,logs,neighbors',
     logCount: 81,
     matched: 0,
@@ -23086,7 +23121,7 @@ export const grantsData = [
     blockRange: 2063275,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 39,
+    neighborCount: 48,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -23121,7 +23156,7 @@ export const grantsData = [
     blockRange: 7272279,
     fileSize: 272,
     appearanceCount: 34,
-    neighborCount: 90,
+    neighborCount: 909,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -23217,16 +23252,16 @@ export const grantsData = [
       date: '2021-08-23 13:42:13'
     },
     latestAppearance: {
-      bn: 13711160,
-      txId: 196,
-      timestamp: 1638224509,
-      date: '2021-11-29 22:21:49'
+      bn: 13741978,
+      txId: 107,
+      timestamp: 1638651104,
+      date: '2021-12-04 20:51:44'
     },
-    lastUpdated: 13711342,
-    blockRange: 629274,
-    fileSize: 2152,
-    appearanceCount: 269,
-    neighborCount: 950,
+    lastUpdated: 13749516,
+    blockRange: 660092,
+    fileSize: 2240,
+    appearanceCount: 280,
+    neighborCount: 9640,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -23234,7 +23269,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 2.533514458763875
+        balance: 2.507101690431955
       }
     ],
     core: false
@@ -23261,7 +23296,7 @@ export const grantsData = [
     blockRange: 2773355,
     fileSize: 656,
     appearanceCount: 82,
-    neighborCount: 639,
+    neighborCount: 748,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -23327,11 +23362,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1379260,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 52,
+    neighborCount: 856,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -23366,7 +23401,7 @@ export const grantsData = [
     blockRange: 286830,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 23,
+    neighborCount: 722,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -23397,11 +23432,11 @@ export const grantsData = [
       timestamp: 1621331918,
       date: '2021-05-18 09:58:38'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2307610,
     fileSize: 848,
     appearanceCount: 106,
-    neighborCount: 516,
+    neighborCount: 2733,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -23436,7 +23471,7 @@ export const grantsData = [
     blockRange: 3530462,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 33,
+    neighborCount: 50,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -23471,7 +23506,7 @@ export const grantsData = [
     blockRange: 3458537,
     fileSize: 536,
     appearanceCount: 67,
-    neighborCount: 242,
+    neighborCount: 892,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -23502,11 +23537,11 @@ export const grantsData = [
       timestamp: 1637454424,
       date: '2021-11-21 00:27:04'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3054499,
     fileSize: 5784,
     appearanceCount: 723,
-    neighborCount: 2634,
+    neighborCount: 16554,
     types: 'txs,logs,neighbors',
     logCount: 626,
     matched: 0,
@@ -23537,11 +23572,11 @@ export const grantsData = [
       timestamp: 1636253404,
       date: '2021-11-07 02:50:04'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2557313,
     fileSize: 736,
     appearanceCount: 92,
-    neighborCount: 348,
+    neighborCount: 4726,
     types: 'txs,logs,neighbors',
     logCount: 64,
     matched: 0,
@@ -23576,7 +23611,7 @@ export const grantsData = [
     blockRange: 5701111,
     fileSize: 18976,
     appearanceCount: 2372,
-    neighborCount: 7471,
+    neighborCount: 2156,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -23611,7 +23646,7 @@ export const grantsData = [
     blockRange: 435116,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 36,
+    neighborCount: 425,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -23646,7 +23681,7 @@ export const grantsData = [
     blockRange: 5462807,
     fileSize: 2632,
     appearanceCount: 329,
-    neighborCount: 1441,
+    neighborCount: 5678,
     types: 'txs,logs,neighbors',
     logCount: 95,
     matched: 0,
@@ -23672,16 +23707,16 @@ export const grantsData = [
       date: '2020-01-22 20:00:19'
     },
     latestAppearance: {
-      bn: 12915825,
-      txId: 45,
-      timestamp: 1627494773,
-      date: '2021-07-28 17:52:53'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 3582367,
-    fileSize: 104,
-    appearanceCount: 13,
-    neighborCount: 33,
+    lastUpdated: 13749516,
+    blockRange: 4392528,
+    fileSize: 112,
+    appearanceCount: 14,
+    neighborCount: 477,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -23712,11 +23747,11 @@ export const grantsData = [
       timestamp: 1607349069,
       date: '2020-12-07 13:51:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 216529,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 17,
+    neighborCount: 19,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -23747,11 +23782,11 @@ export const grantsData = [
       timestamp: 1638030859,
       date: '2021-11-27 16:34:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 7973296,
     fileSize: 6248,
     appearanceCount: 781,
-    neighborCount: 1647,
+    neighborCount: 1170,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -23786,7 +23821,7 @@ export const grantsData = [
     blockRange: 3067527,
     fileSize: 275952,
     appearanceCount: 34494,
-    neighborCount: 175649,
+    neighborCount: 225042,
     types: 'txs,logs,neighbors',
     logCount: 61,
     matched: 0,
@@ -23856,7 +23891,7 @@ export const grantsData = [
     blockRange: 561793,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 21,
+    neighborCount: 86,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -23891,7 +23926,7 @@ export const grantsData = [
     blockRange: 4718658,
     fileSize: 11216,
     appearanceCount: 1402,
-    neighborCount: 4977,
+    neighborCount: 38685,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -23899,7 +23934,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.0003
+        balance: 0.034642190319305606
       }
     ],
     core: false
@@ -23922,11 +23957,11 @@ export const grantsData = [
       timestamp: 1638029351,
       date: '2021-11-27 16:09:11'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2687355,
     fileSize: 592,
     appearanceCount: 74,
-    neighborCount: 448,
+    neighborCount: 1558,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -23957,11 +23992,11 @@ export const grantsData = [
       timestamp: 1637069452,
       date: '2021-11-16 13:30:52'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13752324,
     blockRange: 8644133,
     fileSize: 904,
     appearanceCount: 113,
-    neighborCount: 340,
+    neighborCount: 467,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -23992,11 +24027,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2842123,
     fileSize: 1488,
     appearanceCount: 186,
-    neighborCount: 716,
+    neighborCount: 7966,
     types: 'txs,logs,neighbors',
     logCount: 109,
     matched: 0,
@@ -24031,7 +24066,7 @@ export const grantsData = [
     blockRange: 537665,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 29,
+    neighborCount: 101,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -24066,7 +24101,7 @@ export const grantsData = [
     blockRange: 1819306,
     fileSize: 216,
     appearanceCount: 27,
-    neighborCount: 66,
+    neighborCount: 73,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -24097,11 +24132,11 @@ export const grantsData = [
       timestamp: 1634680862,
       date: '2021-10-19 22:01:02'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 9214539,
     fileSize: 8144,
     appearanceCount: 1018,
-    neighborCount: 3552,
+    neighborCount: 6935,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -24136,7 +24171,7 @@ export const grantsData = [
     blockRange: 2030575,
     fileSize: 272,
     appearanceCount: 34,
-    neighborCount: 104,
+    neighborCount: 3098,
     types: 'txs,logs,neighbors',
     logCount: 23,
     matched: 0,
@@ -24171,7 +24206,7 @@ export const grantsData = [
     blockRange: 1539079,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 59,
+    neighborCount: 209,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -24179,7 +24214,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.2469595254254
+        balance: 0.2207693159212915
       }
     ],
     core: false
@@ -24206,7 +24241,7 @@ export const grantsData = [
     blockRange: 972920,
     fileSize: 224,
     appearanceCount: 28,
-    neighborCount: 80,
+    neighborCount: 105,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -24237,11 +24272,11 @@ export const grantsData = [
       timestamp: 1636667612,
       date: '2021-11-11 21:53:32'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2866866,
     fileSize: 1224,
     appearanceCount: 153,
-    neighborCount: 486,
+    neighborCount: 2297,
     types: 'txs,logs,neighbors',
     logCount: 25,
     matched: 0,
@@ -24267,16 +24302,16 @@ export const grantsData = [
       date: '2019-01-22 16:40:32'
     },
     latestAppearance: {
-      bn: 13643380,
-      txId: 228,
-      timestamp: 1637293490,
-      date: '2021-11-19 03:44:50'
+      bn: 13744241,
+      txId: 120,
+      timestamp: 1638682589,
+      date: '2021-12-05 05:36:29'
     },
-    lastUpdated: 13711342,
-    blockRange: 6533688,
-    fileSize: 4552,
-    appearanceCount: 569,
-    neighborCount: 2434,
+    lastUpdated: 13749516,
+    blockRange: 6634549,
+    fileSize: 4600,
+    appearanceCount: 575,
+    neighborCount: 5995,
     types: 'txs,logs,neighbors',
     logCount: 222,
     matched: 0,
@@ -24284,7 +24319,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.005643172334715
+        balance: 0.9814449542870315
       }
     ],
     core: false
@@ -24311,7 +24346,7 @@ export const grantsData = [
     blockRange: 2755084,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 14,
+    neighborCount: 512,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -24337,16 +24372,16 @@ export const grantsData = [
       date: '2020-04-02 16:47:21'
     },
     latestAppearance: {
-      bn: 13709226,
-      txId: 13,
-      timestamp: 1638197354,
-      date: '2021-11-29 14:49:14'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 3915539,
-    fileSize: 10672,
-    appearanceCount: 1334,
-    neighborCount: 4965,
+    lastUpdated: 13749516,
+    blockRange: 3939509,
+    fileSize: 10696,
+    appearanceCount: 1337,
+    neighborCount: 33225,
     types: 'txs,logs,neighbors',
     logCount: 1051,
     matched: 0,
@@ -24381,7 +24416,7 @@ export const grantsData = [
     blockRange: 286278,
     fileSize: 280,
     appearanceCount: 35,
-    neighborCount: 128,
+    neighborCount: 1086,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -24412,11 +24447,11 @@ export const grantsData = [
       timestamp: 1621422897,
       date: '2021-05-19 11:14:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1571024,
     fileSize: 464,
     appearanceCount: 58,
-    neighborCount: 171,
+    neighborCount: 326,
     types: 'txs,logs,neighbors',
     logCount: 27,
     matched: 0,
@@ -24451,7 +24486,7 @@ export const grantsData = [
     blockRange: 108624,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 13,
+    neighborCount: 17,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -24486,7 +24521,7 @@ export const grantsData = [
     blockRange: 2217142,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 17,
+    neighborCount: 21,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -24521,7 +24556,7 @@ export const grantsData = [
     blockRange: 4035680,
     fileSize: 2304,
     appearanceCount: 288,
-    neighborCount: 717,
+    neighborCount: 1716,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -24552,11 +24587,11 @@ export const grantsData = [
       timestamp: 1636549704,
       date: '2021-11-10 13:08:24'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2817327,
     fileSize: 1656,
     appearanceCount: 207,
-    neighborCount: 1224,
+    neighborCount: 3851,
     types: 'txs,logs,neighbors',
     logCount: 62,
     matched: 0,
@@ -24591,9 +24626,9 @@ export const grantsData = [
     blockRange: 3586743,
     fileSize: 11296,
     appearanceCount: 1412,
-    neighborCount: 5343,
+    neighborCount: 41180,
     types: 'txs,logs,neighbors',
-    logCount: 1271,
+    logCount: 1272,
     matched: 0,
     claimed: 0,
     balances: [
@@ -24626,7 +24661,7 @@ export const grantsData = [
     blockRange: 2733915,
     fileSize: 2304,
     appearanceCount: 288,
-    neighborCount: 1008,
+    neighborCount: 9644,
     types: 'txs,logs,neighbors',
     logCount: 268,
     matched: 0,
@@ -24661,7 +24696,7 @@ export const grantsData = [
     blockRange: 58466,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 12,
+    neighborCount: 61,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -24696,7 +24731,7 @@ export const grantsData = [
     blockRange: 10023303,
     fileSize: 1512,
     appearanceCount: 189,
-    neighborCount: 805,
+    neighborCount: 3863,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -24731,7 +24766,7 @@ export const grantsData = [
     blockRange: 2882355,
     fileSize: 14296,
     appearanceCount: 1787,
-    neighborCount: 6784,
+    neighborCount: 47162,
     types: 'txs,logs,neighbors',
     logCount: 1620,
     matched: 0,
@@ -24739,7 +24774,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 11.719923159640418
+        balance: 11.529626802438287
       }
     ],
     core: false
@@ -24762,7 +24797,7 @@ export const grantsData = [
       timestamp: 1602180050,
       date: '2020-10-08 18:00:50'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4173679,
     fileSize: 72,
     appearanceCount: 9,
@@ -24801,7 +24836,7 @@ export const grantsData = [
     blockRange: 1440497,
     fileSize: 1776,
     appearanceCount: 222,
-    neighborCount: 908,
+    neighborCount: 12538,
     types: 'txs,logs,neighbors',
     logCount: 182,
     matched: 0,
@@ -24836,7 +24871,7 @@ export const grantsData = [
     blockRange: 555632,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 13,
+    neighborCount: 18,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -24862,16 +24897,16 @@ export const grantsData = [
       date: '2020-01-08 20:26:45'
     },
     latestAppearance: {
-      bn: 13705360,
-      txId: 189,
-      timestamp: 1638143674,
-      date: '2021-11-28 23:54:34'
+      bn: 13736560,
+      txId: 181,
+      timestamp: 1638575109,
+      date: '2021-12-03 23:45:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 4463212,
-    fileSize: 10832,
-    appearanceCount: 1354,
-    neighborCount: 5426,
+    lastUpdated: 13749516,
+    blockRange: 4494412,
+    fileSize: 10872,
+    appearanceCount: 1359,
+    neighborCount: 26955,
     types: 'txs,logs,neighbors',
     logCount: 735,
     matched: 0,
@@ -24902,7 +24937,7 @@ export const grantsData = [
       timestamp: 1600903367,
       date: '2020-09-23 23:22:47'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
@@ -24937,11 +24972,11 @@ export const grantsData = [
       timestamp: 1636549704,
       date: '2021-11-10 13:08:24'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2817327,
     fileSize: 1656,
     appearanceCount: 207,
-    neighborCount: 1224,
+    neighborCount: 3851,
     types: 'txs,logs,neighbors',
     logCount: 62,
     matched: 0,
@@ -24967,18 +25002,18 @@ export const grantsData = [
       date: '2020-09-18 17:00:01'
     },
     latestAppearance: {
-      bn: 13710978,
-      txId: 109,
-      timestamp: 1638221864,
-      date: '2021-11-29 21:37:44'
+      bn: 13736940,
+      txId: 99,
+      timestamp: 1638580580,
+      date: '2021-12-04 01:16:20'
     },
-    lastUpdated: 13711342,
-    blockRange: 2823605,
-    fileSize: 2920,
-    appearanceCount: 365,
-    neighborCount: 1430,
+    lastUpdated: 13749516,
+    blockRange: 2849567,
+    fileSize: 2960,
+    appearanceCount: 370,
+    neighborCount: 11895,
     types: 'txs,logs,neighbors',
-    logCount: 296,
+    logCount: 297,
     matched: 0,
     claimed: 0,
     balances: [
@@ -25007,11 +25042,11 @@ export const grantsData = [
       timestamp: 1623979521,
       date: '2021-06-18 01:25:21'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1778903,
     fileSize: 200,
     appearanceCount: 25,
-    neighborCount: 180,
+    neighborCount: 810,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -25042,11 +25077,11 @@ export const grantsData = [
       timestamp: 1635430912,
       date: '2021-10-28 14:21:52'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4042786,
     fileSize: 10656,
     appearanceCount: 1332,
-    neighborCount: 13652,
+    neighborCount: 29949,
     types: 'txs,logs,neighbors',
     logCount: 66,
     matched: 0,
@@ -25077,11 +25112,11 @@ export const grantsData = [
       timestamp: 1635482266,
       date: '2021-10-29 04:37:46'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2556379,
     fileSize: 872,
     appearanceCount: 109,
-    neighborCount: 399,
+    neighborCount: 3980,
     types: 'txs,logs,neighbors',
     logCount: 70,
     matched: 0,
@@ -25147,11 +25182,11 @@ export const grantsData = [
       timestamp: 1637653439,
       date: '2021-11-23 07:43:59'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3849185,
     fileSize: 1768,
     appearanceCount: 221,
-    neighborCount: 787,
+    neighborCount: 4426,
     types: 'txs,logs,neighbors',
     logCount: 61,
     matched: 0,
@@ -25177,16 +25212,16 @@ export const grantsData = [
       date: '2017-11-08 12:24:41'
     },
     latestAppearance: {
-      bn: 13709654,
-      txId: 347,
-      timestamp: 1638203684,
-      date: '2021-11-29 16:34:44'
+      bn: 13749478,
+      txId: 339,
+      timestamp: 1638755413,
+      date: '2021-12-06 01:50:13'
     },
-    lastUpdated: 13711342,
-    blockRange: 9196007,
-    fileSize: 36048,
-    appearanceCount: 4506,
-    neighborCount: 9495,
+    lastUpdated: 13749516,
+    blockRange: 9235831,
+    fileSize: 36280,
+    appearanceCount: 4535,
+    neighborCount: 20778,
     types: 'txs,logs,neighbors',
     logCount: 103,
     matched: 0,
@@ -25194,7 +25229,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 11.928215126376843
+        balance: 11.618162117137842
       }
     ],
     core: false
@@ -25221,7 +25256,7 @@ export const grantsData = [
     blockRange: 2760290,
     fileSize: 2032,
     appearanceCount: 254,
-    neighborCount: 884,
+    neighborCount: 7584,
     types: 'txs,logs,neighbors',
     logCount: 213,
     matched: 0,
@@ -25256,7 +25291,7 @@ export const grantsData = [
     blockRange: 950,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 15,
+    neighborCount: 16,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -25291,15 +25326,15 @@ export const grantsData = [
     blockRange: 7695976,
     fileSize: 9696,
     appearanceCount: 1212,
-    neighborCount: 5038,
+    neighborCount: 35427,
     types: 'txs,logs,neighbors',
-    logCount: 874,
+    logCount: 889,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 49.84892885430991
+        balance: 49.87512885430991
       }
     ],
     core: false
@@ -25317,16 +25352,16 @@ export const grantsData = [
       date: '2020-03-28 00:56:36'
     },
     latestAppearance: {
-      bn: 13686765,
-      txId: 284,
-      timestamp: 1637888338,
-      date: '2021-11-26 00:58:58'
+      bn: 13742750,
+      txId: 120,
+      timestamp: 1638661694,
+      date: '2021-12-04 23:48:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 3929906,
-    fileSize: 4768,
-    appearanceCount: 596,
-    neighborCount: 1923,
+    lastUpdated: 13749516,
+    blockRange: 3985891,
+    fileSize: 4776,
+    appearanceCount: 597,
+    neighborCount: 12154,
     types: 'txs,logs,neighbors',
     logCount: 95,
     matched: 0,
@@ -25334,7 +25369,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.21705935898417777
+        balance: 0.20780375634251377
       }
     ],
     core: false
@@ -25361,7 +25396,7 @@ export const grantsData = [
     blockRange: 1041720,
     fileSize: 336,
     appearanceCount: 42,
-    neighborCount: 138,
+    neighborCount: 3119,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -25392,11 +25427,11 @@ export const grantsData = [
       timestamp: 1629045441,
       date: '2021-08-15 16:37:21'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3427046,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 152,
+    neighborCount: 161,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -25422,16 +25457,16 @@ export const grantsData = [
       date: '2017-12-18 15:30:19'
     },
     latestAppearance: {
-      bn: 13701954,
-      txId: 65,
-      timestamp: 1638096312,
-      date: '2021-11-28 10:45:12'
+      bn: 13738802,
+      txId: 140,
+      timestamp: 1638606756,
+      date: '2021-12-04 08:32:36'
     },
-    lastUpdated: 13711342,
-    blockRange: 8946888,
-    fileSize: 6880,
-    appearanceCount: 860,
-    neighborCount: 3174,
+    lastUpdated: 13749516,
+    blockRange: 8983736,
+    fileSize: 6920,
+    appearanceCount: 865,
+    neighborCount: 27127,
     types: 'txs,logs,neighbors',
     logCount: 709,
     matched: 0,
@@ -25462,7 +25497,7 @@ export const grantsData = [
       timestamp: 1600469744,
       date: '2020-09-18 22:55:44'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6600,
     fileSize: 16,
     appearanceCount: 2,
@@ -25501,7 +25536,7 @@ export const grantsData = [
     blockRange: 2845930,
     fileSize: 1744,
     appearanceCount: 218,
-    neighborCount: 751,
+    neighborCount: 9791,
     types: 'txs,logs,neighbors',
     logCount: 184,
     matched: 0,
@@ -25536,7 +25571,7 @@ export const grantsData = [
     blockRange: 2884872,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 55,
+    neighborCount: 311,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -25571,7 +25606,7 @@ export const grantsData = [
     blockRange: 2803442,
     fileSize: 6360,
     appearanceCount: 795,
-    neighborCount: 2805,
+    neighborCount: 21853,
     types: 'txs,logs,neighbors',
     logCount: 736,
     matched: 0,
@@ -25579,7 +25614,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 7.1454786878376035
+        balance: 7.155478687837603
       }
     ],
     core: false
@@ -25606,7 +25641,7 @@ export const grantsData = [
     blockRange: 4192800,
     fileSize: 3336,
     appearanceCount: 417,
-    neighborCount: 1979,
+    neighborCount: 10659,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -25641,7 +25676,7 @@ export const grantsData = [
     blockRange: 174154,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 40,
+    neighborCount: 47,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -25676,9 +25711,9 @@ export const grantsData = [
     blockRange: 2749781,
     fileSize: 9832,
     appearanceCount: 1229,
-    neighborCount: 4511,
+    neighborCount: 34610,
     types: 'txs,logs,neighbors',
-    logCount: 1132,
+    logCount: 1134,
     matched: 0,
     claimed: 0,
     balances: [
@@ -25702,16 +25737,16 @@ export const grantsData = [
       date: '2019-02-25 09:04:06'
     },
     latestAppearance: {
-      bn: 13691203,
-      txId: 224,
-      timestamp: 1637949131,
-      date: '2021-11-26 17:52:11'
+      bn: 13745740,
+      txId: 138,
+      timestamp: 1638702964,
+      date: '2021-12-05 11:16:04'
     },
-    lastUpdated: 13711342,
-    blockRange: 6425899,
-    fileSize: 1632,
-    appearanceCount: 204,
-    neighborCount: 814,
+    lastUpdated: 13749516,
+    blockRange: 6480436,
+    fileSize: 1640,
+    appearanceCount: 205,
+    neighborCount: 8432,
     types: 'txs,logs,neighbors',
     logCount: 144,
     matched: 0,
@@ -25742,11 +25777,11 @@ export const grantsData = [
       timestamp: 1636291170,
       date: '2021-11-07 13:19:30'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3745448,
     fileSize: 1176,
     appearanceCount: 147,
-    neighborCount: 380,
+    neighborCount: 544,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -25777,11 +25812,11 @@ export const grantsData = [
       timestamp: 1608048746,
       date: '2020-12-15 16:12:26'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 593892,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 26,
+    neighborCount: 32,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -25812,11 +25847,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2561706,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 133,
+    neighborCount: 1570,
     types: 'txs,logs,neighbors',
     logCount: 32,
     matched: 0,
@@ -25847,11 +25882,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2057085,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 25,
+    neighborCount: 1589,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -25882,11 +25917,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1490512,
     fileSize: 1984,
     appearanceCount: 248,
-    neighborCount: 908,
+    neighborCount: 8166,
     types: 'txs,logs,neighbors',
     logCount: 170,
     matched: 0,
@@ -25912,16 +25947,16 @@ export const grantsData = [
       date: '2021-02-02 08:50:23'
     },
     latestAppearance: {
-      bn: 13682723,
-      txId: 176,
-      timestamp: 1637833303,
-      date: '2021-11-25 09:41:43'
+      bn: 13747957,
+      txId: 141,
+      timestamp: 1638733931,
+      date: '2021-12-05 19:52:11'
     },
-    lastUpdated: 13711342,
-    blockRange: 1906877,
-    fileSize: 2736,
-    appearanceCount: 342,
-    neighborCount: 1327,
+    lastUpdated: 13749516,
+    blockRange: 1972111,
+    fileSize: 2800,
+    appearanceCount: 350,
+    neighborCount: 8521,
     types: 'txs,logs,neighbors',
     logCount: 118,
     matched: 0,
@@ -25929,7 +25964,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.006382661028900371
+        balance: 0.3831785409336607
       }
     ],
     core: false
@@ -25956,7 +25991,7 @@ export const grantsData = [
     blockRange: 1524279,
     fileSize: 10640,
     appearanceCount: 1330,
-    neighborCount: 6089,
+    neighborCount: 15421,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -25991,7 +26026,7 @@ export const grantsData = [
     blockRange: 1219917,
     fileSize: 528,
     appearanceCount: 66,
-    neighborCount: 259,
+    neighborCount: 662,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -26026,7 +26061,7 @@ export const grantsData = [
     blockRange: 194235,
     fileSize: 504,
     appearanceCount: 63,
-    neighborCount: 452,
+    neighborCount: 1243,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -26034,7 +26069,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 16.932992304496207
+        balance: 17.85835786825209
       }
     ],
     core: false
@@ -26057,11 +26092,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -26087,16 +26122,16 @@ export const grantsData = [
       date: '2020-12-22 18:27:20'
     },
     latestAppearance: {
-      bn: 13586136,
-      txId: 178,
-      timestamp: 1636515130,
-      date: '2021-11-10 03:32:10'
+      bn: 13730797,
+      txId: 272,
+      timestamp: 1638496340,
+      date: '2021-12-03 01:52:20'
     },
-    lastUpdated: 13711342,
-    blockRange: 2081230,
-    fileSize: 520,
-    appearanceCount: 65,
-    neighborCount: 219,
+    lastUpdated: 13749516,
+    blockRange: 2225891,
+    fileSize: 528,
+    appearanceCount: 66,
+    neighborCount: 1041,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -26127,11 +26162,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 181578,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 18,
+    neighborCount: 621,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -26166,7 +26201,7 @@ export const grantsData = [
     blockRange: 3549324,
     fileSize: 392,
     appearanceCount: 49,
-    neighborCount: 125,
+    neighborCount: 985,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -26197,11 +26232,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2634062,
     fileSize: 2424,
     appearanceCount: 303,
-    neighborCount: 1118,
+    neighborCount: 11312,
     types: 'txs,logs,neighbors',
     logCount: 243,
     matched: 0,
@@ -26236,7 +26271,7 @@ export const grantsData = [
     blockRange: 1489419,
     fileSize: 11288,
     appearanceCount: 1411,
-    neighborCount: 5875,
+    neighborCount: 18179,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -26244,7 +26279,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.6614138306588218
+        balance: 0.4092150391921878
       }
     ],
     core: false
@@ -26271,7 +26306,7 @@ export const grantsData = [
     blockRange: 4310560,
     fileSize: 10696,
     appearanceCount: 1337,
-    neighborCount: 5706,
+    neighborCount: 19525,
     types: 'txs,logs,neighbors',
     logCount: 546,
     matched: 0,
@@ -26306,7 +26341,7 @@ export const grantsData = [
     blockRange: 2952143,
     fileSize: 6296,
     appearanceCount: 787,
-    neighborCount: 4778,
+    neighborCount: 15639,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -26337,11 +26372,11 @@ export const grantsData = [
       timestamp: 1636522939,
       date: '2021-11-10 05:42:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4312640,
     fileSize: 824,
     appearanceCount: 103,
-    neighborCount: 285,
+    neighborCount: 406,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -26376,7 +26411,7 @@ export const grantsData = [
     blockRange: 2875889,
     fileSize: 20480,
     appearanceCount: 2560,
-    neighborCount: 8499,
+    neighborCount: 14571,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -26384,7 +26419,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.10880952386086323
+        balance: 0.10362222386086324
       }
     ],
     core: false
@@ -26407,11 +26442,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -26442,11 +26477,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -26477,11 +26512,11 @@ export const grantsData = [
       timestamp: 1636784525,
       date: '2021-11-13 06:22:05'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2933671,
     fileSize: 3072,
     appearanceCount: 384,
-    neighborCount: 1529,
+    neighborCount: 14711,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -26512,11 +26547,11 @@ export const grantsData = [
       timestamp: 1622311680,
       date: '2021-05-29 18:08:00'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1083217,
     fileSize: 1024,
     appearanceCount: 128,
-    neighborCount: 299,
+    neighborCount: 1185,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -26547,11 +26582,11 @@ export const grantsData = [
       timestamp: 1638191568,
       date: '2021-11-29 13:12:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 7725206,
     fileSize: 3496,
     appearanceCount: 437,
-    neighborCount: 1115,
+    neighborCount: 5979,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -26621,7 +26656,7 @@ export const grantsData = [
     blockRange: 4604268,
     fileSize: 2912,
     appearanceCount: 364,
-    neighborCount: 839,
+    neighborCount: 1560,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -26629,7 +26664,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.28972402287263543
+        balance: 0.27858515845737647
       }
     ],
     core: false
@@ -26691,7 +26726,7 @@ export const grantsData = [
     blockRange: 2746237,
     fileSize: 3008,
     appearanceCount: 376,
-    neighborCount: 1404,
+    neighborCount: 9257,
     types: 'txs,logs,neighbors',
     logCount: 333,
     matched: 0,
@@ -26722,11 +26757,11 @@ export const grantsData = [
       timestamp: 1636463916,
       date: '2021-11-09 13:18:36'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4287931,
     fileSize: 2320,
     appearanceCount: 290,
-    neighborCount: 1243,
+    neighborCount: 2700,
     types: 'txs,logs,neighbors',
     logCount: 45,
     matched: 0,
@@ -26757,11 +26792,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2604796,
     fileSize: 568,
     appearanceCount: 71,
-    neighborCount: 231,
+    neighborCount: 3564,
     types: 'txs,logs,neighbors',
     logCount: 57,
     matched: 0,
@@ -26796,7 +26831,7 @@ export const grantsData = [
     blockRange: 1801530,
     fileSize: 4736,
     appearanceCount: 592,
-    neighborCount: 2997,
+    neighborCount: 10257,
     types: 'txs,logs,neighbors',
     logCount: 506,
     matched: 0,
@@ -26827,11 +26862,11 @@ export const grantsData = [
       timestamp: 1637156873,
       date: '2021-11-17 13:47:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5808258,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 71,
+    neighborCount: 380,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -26862,11 +26897,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4215350,
     fileSize: 1240,
     appearanceCount: 155,
-    neighborCount: 533,
+    neighborCount: 7895,
     types: 'txs,logs,neighbors',
     logCount: 119,
     matched: 0,
@@ -26901,7 +26936,7 @@ export const grantsData = [
     blockRange: 37687,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 20,
+    neighborCount: 609,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -26927,24 +26962,24 @@ export const grantsData = [
       date: '2021-04-09 16:03:04'
     },
     latestAppearance: {
-      bn: 13710453,
-      txId: 315,
-      timestamp: 1638214946,
-      date: '2021-11-29 19:42:26'
+      bn: 13746444,
+      txId: 141,
+      timestamp: 1638712501,
+      date: '2021-12-05 13:55:01'
     },
-    lastUpdated: 13711342,
-    blockRange: 1503863,
-    fileSize: 9056,
-    appearanceCount: 1132,
-    neighborCount: 4855,
+    lastUpdated: 13749516,
+    blockRange: 1539854,
+    fileSize: 9136,
+    appearanceCount: 1142,
+    neighborCount: 24187,
     types: 'txs,logs,neighbors',
-    logCount: 174,
+    logCount: 175,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 3.718026287803847
+        balance: 1.577680086108815
       }
     ],
     core: false
@@ -26967,11 +27002,11 @@ export const grantsData = [
       timestamp: 1637696543,
       date: '2021-11-23 19:42:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3110532,
     fileSize: 2528,
     appearanceCount: 316,
-    neighborCount: 951,
+    neighborCount: 3892,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -27002,11 +27037,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2613567,
     fileSize: 1088,
     appearanceCount: 136,
-    neighborCount: 434,
+    neighborCount: 2301,
     types: 'txs,logs,neighbors',
     logCount: 63,
     matched: 0,
@@ -27041,7 +27076,7 @@ export const grantsData = [
     blockRange: 4875898,
     fileSize: 672,
     appearanceCount: 84,
-    neighborCount: 248,
+    neighborCount: 1293,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -27076,7 +27111,7 @@ export const grantsData = [
     blockRange: 846793,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 27,
+    neighborCount: 1363,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -27111,9 +27146,9 @@ export const grantsData = [
     blockRange: 1497640,
     fileSize: 1368,
     appearanceCount: 171,
-    neighborCount: 720,
+    neighborCount: 8928,
     types: 'txs,logs,neighbors',
-    logCount: 144,
+    logCount: 146,
     matched: 0,
     claimed: 0,
     balances: [
@@ -27146,7 +27181,7 @@ export const grantsData = [
     blockRange: 1167671,
     fileSize: 328,
     appearanceCount: 41,
-    neighborCount: 188,
+    neighborCount: 804,
     types: 'txs,logs,neighbors',
     logCount: 39,
     matched: 0,
@@ -27177,11 +27212,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2754061,
     fileSize: 280,
     appearanceCount: 35,
-    neighborCount: 250,
+    neighborCount: 2148,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -27216,7 +27251,7 @@ export const grantsData = [
     blockRange: 1697178,
     fileSize: 1504,
     appearanceCount: 188,
-    neighborCount: 1261,
+    neighborCount: 1567,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -27251,7 +27286,7 @@ export const grantsData = [
     blockRange: 2552509,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 15,
+    neighborCount: 515,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -27277,16 +27312,16 @@ export const grantsData = [
       date: '2020-09-20 20:13:40'
     },
     latestAppearance: {
-      bn: 13641133,
-      txId: 21,
-      timestamp: 1637262948,
-      date: '2021-11-18 19:15:48'
+      bn: 13732372,
+      txId: 92,
+      timestamp: 1638517843,
+      date: '2021-12-03 07:50:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 2739772,
-    fileSize: 3576,
-    appearanceCount: 447,
-    neighborCount: 1716,
+    lastUpdated: 13749516,
+    blockRange: 2831011,
+    fileSize: 3584,
+    appearanceCount: 448,
+    neighborCount: 10744,
     types: 'txs,logs,neighbors',
     logCount: 399,
     matched: 0,
@@ -27317,11 +27352,11 @@ export const grantsData = [
       timestamp: 1635882387,
       date: '2021-11-02 19:46:27'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6776732,
     fileSize: 2344,
     appearanceCount: 293,
-    neighborCount: 1023,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 35,
     matched: 0,
@@ -27352,11 +27387,11 @@ export const grantsData = [
       timestamp: 1635089310,
       date: '2021-10-24 15:28:30'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2570634,
     fileSize: 624,
     appearanceCount: 78,
-    neighborCount: 310,
+    neighborCount: 2626,
     types: 'txs,logs,neighbors',
     logCount: 41,
     matched: 0,
@@ -27387,11 +27422,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2588090,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 31,
+    neighborCount: 573,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -27426,7 +27461,7 @@ export const grantsData = [
     blockRange: 5451148,
     fileSize: 864,
     appearanceCount: 108,
-    neighborCount: 332,
+    neighborCount: 1720,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -27461,7 +27496,7 @@ export const grantsData = [
     blockRange: 2716536,
     fileSize: 280,
     appearanceCount: 35,
-    neighborCount: 73,
+    neighborCount: 137,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -27496,7 +27531,7 @@ export const grantsData = [
     blockRange: 3728222,
     fileSize: 5616,
     appearanceCount: 702,
-    neighborCount: 2703,
+    neighborCount: 10794,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -27531,7 +27566,7 @@ export const grantsData = [
     blockRange: 1608343,
     fileSize: 488,
     appearanceCount: 61,
-    neighborCount: 310,
+    neighborCount: 1735,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -27557,16 +27592,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -27574,7 +27609,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -27592,16 +27627,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -27609,7 +27644,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -27627,16 +27662,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -27644,7 +27679,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -27662,16 +27697,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -27679,7 +27714,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -27697,16 +27732,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -27714,7 +27749,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -27732,16 +27767,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -27749,7 +27784,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -27767,16 +27802,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -27784,7 +27819,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -27802,16 +27837,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -27819,7 +27854,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -27837,16 +27872,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -27854,7 +27889,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -27877,11 +27912,11 @@ export const grantsData = [
       timestamp: 1637608288,
       date: '2021-11-22 19:11:28'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2751204,
     fileSize: 680,
     appearanceCount: 85,
-    neighborCount: 320,
+    neighborCount: 849,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -27912,11 +27947,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2983225,
     fileSize: 448,
     appearanceCount: 56,
-    neighborCount: 385,
+    neighborCount: 2558,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -27951,7 +27986,7 @@ export const grantsData = [
     blockRange: 2870205,
     fileSize: 21440,
     appearanceCount: 2680,
-    neighborCount: 17826,
+    neighborCount: 24963,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -27982,11 +28017,11 @@ export const grantsData = [
       timestamp: 1601041503,
       date: '2020-09-25 13:45:03'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3332,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 18,
+    neighborCount: 23,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28017,11 +28052,11 @@ export const grantsData = [
       timestamp: 1638151373,
       date: '2021-11-29 02:02:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2766917,
     fileSize: 456,
     appearanceCount: 57,
-    neighborCount: 256,
+    neighborCount: 2212,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -28056,7 +28091,7 @@ export const grantsData = [
     blockRange: 5731815,
     fileSize: 1896,
     appearanceCount: 237,
-    neighborCount: 824,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28091,7 +28126,7 @@ export const grantsData = [
     blockRange: 933325,
     fileSize: 728,
     appearanceCount: 91,
-    neighborCount: 301,
+    neighborCount: 3117,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -28099,7 +28134,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 5.806768036590785
+        balance: 5.7968678831011236
       }
     ],
     core: false
@@ -28117,16 +28152,16 @@ export const grantsData = [
       date: '2018-11-28 14:40:50'
     },
     latestAppearance: {
-      bn: 13606958,
-      txId: 57,
-      timestamp: 1636796770,
-      date: '2021-11-13 09:46:10'
+      bn: 13732115,
+      txId: 202,
+      timestamp: 1638514290,
+      date: '2021-12-03 06:51:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 6818238,
-    fileSize: 1544,
-    appearanceCount: 193,
-    neighborCount: 510,
+    lastUpdated: 13749516,
+    blockRange: 6943395,
+    fileSize: 1552,
+    appearanceCount: 194,
+    neighborCount: 1188,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28152,16 +28187,16 @@ export const grantsData = [
       date: '2018-11-28 14:40:50'
     },
     latestAppearance: {
-      bn: 13606958,
-      txId: 57,
-      timestamp: 1636796770,
-      date: '2021-11-13 09:46:10'
+      bn: 13732115,
+      txId: 202,
+      timestamp: 1638514290,
+      date: '2021-12-03 06:51:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 6818238,
-    fileSize: 1544,
-    appearanceCount: 193,
-    neighborCount: 510,
+    lastUpdated: 13749516,
+    blockRange: 6943395,
+    fileSize: 1552,
+    appearanceCount: 194,
+    neighborCount: 1188,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28187,16 +28222,16 @@ export const grantsData = [
       date: '2018-11-28 14:40:50'
     },
     latestAppearance: {
-      bn: 13606958,
-      txId: 57,
-      timestamp: 1636796770,
-      date: '2021-11-13 09:46:10'
+      bn: 13732115,
+      txId: 202,
+      timestamp: 1638514290,
+      date: '2021-12-03 06:51:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 6818238,
-    fileSize: 1544,
-    appearanceCount: 193,
-    neighborCount: 510,
+    lastUpdated: 13749516,
+    blockRange: 6943395,
+    fileSize: 1552,
+    appearanceCount: 194,
+    neighborCount: 1188,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28222,16 +28257,16 @@ export const grantsData = [
       date: '2018-11-28 14:40:50'
     },
     latestAppearance: {
-      bn: 13606958,
-      txId: 57,
-      timestamp: 1636796770,
-      date: '2021-11-13 09:46:10'
+      bn: 13732115,
+      txId: 202,
+      timestamp: 1638514290,
+      date: '2021-12-03 06:51:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 6818238,
-    fileSize: 1544,
-    appearanceCount: 193,
-    neighborCount: 510,
+    lastUpdated: 13749516,
+    blockRange: 6943395,
+    fileSize: 1552,
+    appearanceCount: 194,
+    neighborCount: 1188,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28257,16 +28292,16 @@ export const grantsData = [
       date: '2018-11-28 14:40:50'
     },
     latestAppearance: {
-      bn: 13606958,
-      txId: 57,
-      timestamp: 1636796770,
-      date: '2021-11-13 09:46:10'
+      bn: 13732115,
+      txId: 202,
+      timestamp: 1638514290,
+      date: '2021-12-03 06:51:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 6818238,
-    fileSize: 1544,
-    appearanceCount: 193,
-    neighborCount: 510,
+    lastUpdated: 13749516,
+    blockRange: 6943395,
+    fileSize: 1552,
+    appearanceCount: 194,
+    neighborCount: 1188,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28292,16 +28327,16 @@ export const grantsData = [
       date: '2018-11-28 14:40:50'
     },
     latestAppearance: {
-      bn: 13606958,
-      txId: 57,
-      timestamp: 1636796770,
-      date: '2021-11-13 09:46:10'
+      bn: 13732115,
+      txId: 202,
+      timestamp: 1638514290,
+      date: '2021-12-03 06:51:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 6818238,
-    fileSize: 1544,
-    appearanceCount: 193,
-    neighborCount: 510,
+    lastUpdated: 13749516,
+    blockRange: 6943395,
+    fileSize: 1552,
+    appearanceCount: 194,
+    neighborCount: 1188,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28336,7 +28371,7 @@ export const grantsData = [
     blockRange: 300961,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 53,
+    neighborCount: 195,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28371,7 +28406,7 @@ export const grantsData = [
     blockRange: 3574130,
     fileSize: 2632,
     appearanceCount: 329,
-    neighborCount: 871,
+    neighborCount: 2938,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -28402,11 +28437,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2558203,
     fileSize: 544,
     appearanceCount: 68,
-    neighborCount: 241,
+    neighborCount: 4416,
     types: 'txs,logs,neighbors',
     logCount: 53,
     matched: 0,
@@ -28437,11 +28472,11 @@ export const grantsData = [
       timestamp: 1633647128,
       date: '2021-10-07 22:52:08'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 36,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 5,
+    neighborCount: 6,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28467,16 +28502,16 @@ export const grantsData = [
       date: '2020-07-05 19:13:42'
     },
     latestAppearance: {
-      bn: 13697074,
-      txId: 336,
-      timestamp: 1638030298,
-      date: '2021-11-27 16:24:58'
+      bn: 13722583,
+      txId: 347,
+      timestamp: 1638382603,
+      date: '2021-12-01 18:16:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 3295884,
-    fileSize: 3208,
-    appearanceCount: 401,
-    neighborCount: 1511,
+    lastUpdated: 13749516,
+    blockRange: 3321393,
+    fileSize: 3232,
+    appearanceCount: 404,
+    neighborCount: 3877,
     types: 'txs,logs,neighbors',
     logCount: 57,
     matched: 0,
@@ -28502,16 +28537,16 @@ export const grantsData = [
       date: '2017-01-08 03:16:06'
     },
     latestAppearance: {
-      bn: 13679971,
-      txId: 204,
-      timestamp: 1637794746,
-      date: '2021-11-24 22:59:06'
+      bn: 13732367,
+      txId: 42,
+      timestamp: 1638517773,
+      date: '2021-12-03 07:49:33'
     },
-    lastUpdated: 13711342,
-    blockRange: 10724210,
-    fileSize: 3504,
-    appearanceCount: 438,
-    neighborCount: 1523,
+    lastUpdated: 13749516,
+    blockRange: 10776606,
+    fileSize: 3512,
+    appearanceCount: 439,
+    neighborCount: 10595,
     types: 'txs,logs,neighbors',
     logCount: 43,
     matched: 0,
@@ -28546,7 +28581,7 @@ export const grantsData = [
     blockRange: 165284,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 14,
+    neighborCount: 22,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -28577,11 +28612,11 @@ export const grantsData = [
       timestamp: 1636588898,
       date: '2021-11-11 00:01:38'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2618841,
     fileSize: 200,
     appearanceCount: 25,
-    neighborCount: 81,
+    neighborCount: 1228,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -28616,7 +28651,7 @@ export const grantsData = [
     blockRange: 2291931,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 232,
+    neighborCount: 301,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28647,11 +28682,11 @@ export const grantsData = [
       timestamp: 1635983002,
       date: '2021-11-03 23:43:22'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2860644,
     fileSize: 760,
     appearanceCount: 95,
-    neighborCount: 290,
+    neighborCount: 921,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28682,11 +28717,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2566714,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 23,
+    neighborCount: 528,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -28717,11 +28752,11 @@ export const grantsData = [
       timestamp: 1636565555,
       date: '2021-11-10 17:32:35'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3689560,
     fileSize: 560,
     appearanceCount: 70,
-    neighborCount: 309,
+    neighborCount: 747,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -28747,24 +28782,24 @@ export const grantsData = [
       date: '2020-12-08 20:02:22'
     },
     latestAppearance: {
-      bn: 13625157,
-      txId: 331,
-      timestamp: 1637045958,
-      date: '2021-11-16 06:59:18'
+      bn: 13746563,
+      txId: 8,
+      timestamp: 1638714177,
+      date: '2021-12-05 14:22:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 2211000,
-    fileSize: 13288,
-    appearanceCount: 1661,
-    neighborCount: 5913,
+    lastUpdated: 13749516,
+    blockRange: 2332406,
+    fileSize: 13368,
+    appearanceCount: 1671,
+    neighborCount: 44282,
     types: 'txs,logs,neighbors',
-    logCount: 1480,
+    logCount: 1487,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 1.819732452132945
+        balance: 1.8545668652404548
       }
     ],
     core: false
@@ -28791,7 +28826,7 @@ export const grantsData = [
     blockRange: 4017207,
     fileSize: 1264,
     appearanceCount: 158,
-    neighborCount: 442,
+    neighborCount: 1268,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -28822,11 +28857,11 @@ export const grantsData = [
       timestamp: 1631931489,
       date: '2021-09-18 02:18:09'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3060085,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 49,
+    neighborCount: 929,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -28857,11 +28892,11 @@ export const grantsData = [
       timestamp: 1635160481,
       date: '2021-10-25 11:14:41'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5578513,
     fileSize: 1368,
     appearanceCount: 171,
-    neighborCount: 1225,
+    neighborCount: 1783,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -28896,7 +28931,7 @@ export const grantsData = [
     blockRange: 2395471,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 23,
+    neighborCount: 214,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -28927,11 +28962,11 @@ export const grantsData = [
       timestamp: 1630846138,
       date: '2021-09-05 12:48:58'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2161836,
     fileSize: 600,
     appearanceCount: 75,
-    neighborCount: 215,
+    neighborCount: 1429,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29027,24 +29062,24 @@ export const grantsData = [
       date: '2020-09-16 14:12:10'
     },
     latestAppearance: {
-      bn: 13682470,
-      txId: 208,
-      timestamp: 1637829632,
-      date: '2021-11-25 08:40:32'
+      bn: 13746194,
+      txId: 31,
+      timestamp: 1638708696,
+      date: '2021-12-05 12:51:36'
     },
-    lastUpdated: 13711342,
-    blockRange: 2808842,
-    fileSize: 1048,
-    appearanceCount: 131,
-    neighborCount: 399,
+    lastUpdated: 13749516,
+    blockRange: 2872566,
+    fileSize: 1072,
+    appearanceCount: 134,
+    neighborCount: 3201,
     types: 'txs,logs,neighbors',
-    logCount: 26,
+    logCount: 27,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.07151875358697604
+        balance: 0.06816106523384408
       }
     ],
     core: false
@@ -29071,7 +29106,7 @@ export const grantsData = [
     blockRange: 748838,
     fileSize: 376,
     appearanceCount: 47,
-    neighborCount: 141,
+    neighborCount: 357,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29106,7 +29141,7 @@ export const grantsData = [
     blockRange: 1547222,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 24,
+    neighborCount: 27,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29141,7 +29176,7 @@ export const grantsData = [
     blockRange: 2480693,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 13,
+    neighborCount: 517,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -29172,11 +29207,11 @@ export const grantsData = [
       timestamp: 1631241323,
       date: '2021-09-10 02:35:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3057715,
     fileSize: 3032,
     appearanceCount: 379,
-    neighborCount: 1149,
+    neighborCount: 2777,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29207,11 +29242,11 @@ export const grantsData = [
       timestamp: 1636568137,
       date: '2021-11-10 18:15:37'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1568254,
     fileSize: 336,
     appearanceCount: 42,
-    neighborCount: 132,
+    neighborCount: 2379,
     types: 'txs,logs,neighbors',
     logCount: 14,
     matched: 0,
@@ -29242,11 +29277,11 @@ export const grantsData = [
       timestamp: 1632131016,
       date: '2021-09-20 09:43:36'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2284916,
     fileSize: 808,
     appearanceCount: 101,
-    neighborCount: 272,
+    neighborCount: 604,
     types: 'txs,logs,neighbors',
     logCount: 72,
     matched: 0,
@@ -29281,7 +29316,7 @@ export const grantsData = [
     blockRange: 1412472,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 19,
+    neighborCount: 521,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29312,11 +29347,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2600268,
     fileSize: 2712,
     appearanceCount: 339,
-    neighborCount: 1336,
+    neighborCount: 8033,
     types: 'txs,logs,neighbors',
     logCount: 291,
     matched: 0,
@@ -29351,7 +29386,7 @@ export const grantsData = [
     blockRange: 5536814,
     fileSize: 6208,
     appearanceCount: 776,
-    neighborCount: 2994,
+    neighborCount: 6236,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -29359,7 +29394,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.02217606851405819
+        balance: 0.007784325889115176
       }
     ],
     core: false
@@ -29386,7 +29421,7 @@ export const grantsData = [
     blockRange: 561793,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 21,
+    neighborCount: 86,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -29421,7 +29456,7 @@ export const grantsData = [
     blockRange: 561793,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 21,
+    neighborCount: 86,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -29452,11 +29487,11 @@ export const grantsData = [
       timestamp: 1637820401,
       date: '2021-11-25 06:06:41'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6382196,
     fileSize: 904,
     appearanceCount: 113,
-    neighborCount: 360,
+    neighborCount: 1113,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -29491,7 +29526,7 @@ export const grantsData = [
     blockRange: 1548082,
     fileSize: 344,
     appearanceCount: 43,
-    neighborCount: 187,
+    neighborCount: 349,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -29522,11 +29557,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1057976,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 99,
+    neighborCount: 621,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29557,11 +29592,11 @@ export const grantsData = [
       timestamp: 1636370378,
       date: '2021-11-08 11:19:38'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6646643,
     fileSize: 2800,
     appearanceCount: 350,
-    neighborCount: 912,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29596,7 +29631,7 @@ export const grantsData = [
     blockRange: 440314,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 51,
+    neighborCount: 200,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29622,16 +29657,16 @@ export const grantsData = [
       date: '2020-07-05 19:13:42'
     },
     latestAppearance: {
-      bn: 13697074,
-      txId: 336,
-      timestamp: 1638030298,
-      date: '2021-11-27 16:24:58'
+      bn: 13722583,
+      txId: 347,
+      timestamp: 1638382603,
+      date: '2021-12-01 18:16:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 3295884,
-    fileSize: 3208,
-    appearanceCount: 401,
-    neighborCount: 1511,
+    lastUpdated: 13749516,
+    blockRange: 3321393,
+    fileSize: 3232,
+    appearanceCount: 404,
+    neighborCount: 3877,
     types: 'txs,logs,neighbors',
     logCount: 57,
     matched: 0,
@@ -29662,11 +29697,11 @@ export const grantsData = [
       timestamp: 1613578840,
       date: '2021-02-17 16:20:40'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 584569,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 12,
+    neighborCount: 62,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -29697,11 +29732,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29732,11 +29767,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29771,7 +29806,7 @@ export const grantsData = [
     blockRange: 224964,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 20,
+    neighborCount: 397,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -29806,7 +29841,7 @@ export const grantsData = [
     blockRange: 2934248,
     fileSize: 1064,
     appearanceCount: 133,
-    neighborCount: 528,
+    neighborCount: 967,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -29841,7 +29876,7 @@ export const grantsData = [
     blockRange: 5033981,
     fileSize: 536,
     appearanceCount: 67,
-    neighborCount: 165,
+    neighborCount: 190,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29872,11 +29907,11 @@ export const grantsData = [
       timestamp: 1638216753,
       date: '2021-11-29 20:12:33'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2784174,
     fileSize: 496,
     appearanceCount: 62,
-    neighborCount: 194,
+    neighborCount: 337,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -29884,7 +29919,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.2547358536089181
+        balance: 0.2881867162184865
       }
     ],
     core: false
@@ -29911,7 +29946,7 @@ export const grantsData = [
     blockRange: 2854978,
     fileSize: 1864,
     appearanceCount: 233,
-    neighborCount: 812,
+    neighborCount: 3598,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -29937,16 +29972,16 @@ export const grantsData = [
       date: '2020-07-05 19:13:42'
     },
     latestAppearance: {
-      bn: 13697074,
-      txId: 336,
-      timestamp: 1638030298,
-      date: '2021-11-27 16:24:58'
+      bn: 13722583,
+      txId: 347,
+      timestamp: 1638382603,
+      date: '2021-12-01 18:16:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 3295884,
-    fileSize: 3208,
-    appearanceCount: 401,
-    neighborCount: 1511,
+    lastUpdated: 13749516,
+    blockRange: 3321393,
+    fileSize: 3232,
+    appearanceCount: 404,
+    neighborCount: 3877,
     types: 'txs,logs,neighbors',
     logCount: 57,
     matched: 0,
@@ -29977,11 +30012,11 @@ export const grantsData = [
       timestamp: 1619584627,
       date: '2021-04-28 04:37:07'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1141119,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 52,
+    neighborCount: 164,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -30007,16 +30042,16 @@ export const grantsData = [
       date: '2020-10-27 22:34:35'
     },
     latestAppearance: {
-      bn: 13586405,
-      txId: 339,
-      timestamp: 1636518984,
-      date: '2021-11-10 04:36:24'
+      bn: 13733837,
+      txId: 63,
+      timestamp: 1638537986,
+      date: '2021-12-03 13:26:26'
     },
-    lastUpdated: 13711342,
-    blockRange: 2445053,
-    fileSize: 496,
-    appearanceCount: 62,
-    neighborCount: 277,
+    lastUpdated: 13749516,
+    blockRange: 2592485,
+    fileSize: 504,
+    appearanceCount: 63,
+    neighborCount: 627,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30051,7 +30086,7 @@ export const grantsData = [
     blockRange: 2528905,
     fileSize: 640,
     appearanceCount: 80,
-    neighborCount: 356,
+    neighborCount: 4836,
     types: 'txs,logs,neighbors',
     logCount: 55,
     matched: 0,
@@ -30086,7 +30121,7 @@ export const grantsData = [
     blockRange: 5410361,
     fileSize: 992,
     appearanceCount: 124,
-    neighborCount: 368,
+    neighborCount: 2984,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -30117,11 +30152,11 @@ export const grantsData = [
       timestamp: 1619097023,
       date: '2021-04-22 13:10:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1021159,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 22,
+    neighborCount: 27,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30156,7 +30191,7 @@ export const grantsData = [
     blockRange: 1831334,
     fileSize: 560,
     appearanceCount: 70,
-    neighborCount: 188,
+    neighborCount: 1017,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30187,11 +30222,11 @@ export const grantsData = [
       timestamp: 1636689177,
       date: '2021-11-12 03:52:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2034469,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 14,
+    neighborCount: 358,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30226,7 +30261,7 @@ export const grantsData = [
     blockRange: 512180,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 57,
+    neighborCount: 595,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -30252,16 +30287,16 @@ export const grantsData = [
       date: '2019-12-11 01:25:08'
     },
     latestAppearance: {
-      bn: 13470321,
-      txId: 34,
-      timestamp: 1634944771,
-      date: '2021-10-22 23:19:31'
+      bn: 13734278,
+      txId: 75,
+      timestamp: 1638544296,
+      date: '2021-12-03 15:11:36'
     },
-    lastUpdated: 13711342,
-    blockRange: 4384138,
-    fileSize: 424,
-    appearanceCount: 53,
-    neighborCount: 144,
+    lastUpdated: 13749516,
+    blockRange: 4648095,
+    fileSize: 432,
+    appearanceCount: 54,
+    neighborCount: 475,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30292,11 +30327,11 @@ export const grantsData = [
       timestamp: 1622411228,
       date: '2021-05-30 21:47:08'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6790613,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 37,
+    neighborCount: 156,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30331,7 +30366,7 @@ export const grantsData = [
     blockRange: 310627,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 28,
+    neighborCount: 29,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30357,16 +30392,16 @@ export const grantsData = [
       date: '2021-04-07 20:36:18'
     },
     latestAppearance: {
-      bn: 13608144,
-      txId: 328,
-      timestamp: 1636812878,
-      date: '2021-11-13 14:14:38'
+      bn: 13725862,
+      txId: 139,
+      timestamp: 1638427476,
+      date: '2021-12-02 06:44:36'
     },
-    lastUpdated: 13711342,
-    blockRange: 1413270,
-    fileSize: 392,
-    appearanceCount: 49,
-    neighborCount: 148,
+    lastUpdated: 13749516,
+    blockRange: 1530988,
+    fileSize: 400,
+    appearanceCount: 50,
+    neighborCount: 890,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30401,9 +30436,9 @@ export const grantsData = [
     blockRange: 2203246,
     fileSize: 6240,
     appearanceCount: 780,
-    neighborCount: 3104,
+    neighborCount: 21377,
     types: 'txs,logs,neighbors',
-    logCount: 671,
+    logCount: 673,
     matched: 0,
     claimed: 0,
     balances: [
@@ -30427,16 +30462,16 @@ export const grantsData = [
       date: '2020-11-16 04:13:30'
     },
     latestAppearance: {
-      bn: 13679924,
-      txId: 183,
-      timestamp: 1637794154,
-      date: '2021-11-24 22:49:14'
+      bn: 13724720,
+      txId: 18,
+      timestamp: 1638411712,
+      date: '2021-12-02 02:21:52'
     },
-    lastUpdated: 13711342,
-    blockRange: 2413219,
-    fileSize: 1864,
-    appearanceCount: 233,
-    neighborCount: 1403,
+    lastUpdated: 13749516,
+    blockRange: 2458015,
+    fileSize: 1912,
+    appearanceCount: 239,
+    neighborCount: 1799,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30462,16 +30497,16 @@ export const grantsData = [
       date: '2021-09-22 14:59:40'
     },
     latestAppearance: {
-      bn: 13706019,
-      txId: 112,
-      timestamp: 1638152839,
-      date: '2021-11-29 02:27:19'
+      bn: 13748874,
+      txId: 72,
+      timestamp: 1638746865,
+      date: '2021-12-05 23:27:45'
     },
-    lastUpdated: 13711342,
-    blockRange: 429792,
-    fileSize: 352,
-    appearanceCount: 44,
-    neighborCount: 178,
+    lastUpdated: 13749516,
+    blockRange: 472647,
+    fileSize: 424,
+    appearanceCount: 53,
+    neighborCount: 798,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30479,7 +30514,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.9005358941430568
+        balance: 0.7950698167773832
       }
     ],
     core: false
@@ -30506,7 +30541,7 @@ export const grantsData = [
     blockRange: 2511239,
     fileSize: 1352,
     appearanceCount: 169,
-    neighborCount: 605,
+    neighborCount: 2144,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -30541,7 +30576,7 @@ export const grantsData = [
     blockRange: 2231820,
     fileSize: 432,
     appearanceCount: 54,
-    neighborCount: 247,
+    neighborCount: 519,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30572,11 +30607,11 @@ export const grantsData = [
       timestamp: 1619300862,
       date: '2021-04-24 21:47:42'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1121020,
     fileSize: 208,
     appearanceCount: 26,
-    neighborCount: 92,
+    neighborCount: 241,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -30611,7 +30646,7 @@ export const grantsData = [
     blockRange: 4265710,
     fileSize: 184,
     appearanceCount: 23,
-    neighborCount: 61,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -30646,7 +30681,7 @@ export const grantsData = [
     blockRange: 433584,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 13,
+    neighborCount: 27,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -30677,11 +30712,11 @@ export const grantsData = [
       timestamp: 1618095626,
       date: '2021-04-10 23:00:26'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 17,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -30716,7 +30751,7 @@ export const grantsData = [
     blockRange: 1607465,
     fileSize: 1136,
     appearanceCount: 142,
-    neighborCount: 635,
+    neighborCount: 4328,
     types: 'txs,logs,neighbors',
     logCount: 31,
     matched: 0,
@@ -30751,7 +30786,7 @@ export const grantsData = [
     blockRange: 8075,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 50,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -30786,7 +30821,7 @@ export const grantsData = [
     blockRange: 8086004,
     fileSize: 3464,
     appearanceCount: 433,
-    neighborCount: 1632,
+    neighborCount: 7388,
     types: 'txs,logs,neighbors',
     logCount: 73,
     matched: 0,
@@ -30817,11 +30852,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2290934,
     fileSize: 2024,
     appearanceCount: 253,
-    neighborCount: 903,
+    neighborCount: 9585,
     types: 'txs,logs,neighbors',
     logCount: 227,
     matched: 0,
@@ -30856,7 +30891,7 @@ export const grantsData = [
     blockRange: 773602,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 34,
+    neighborCount: 174,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -30882,16 +30917,16 @@ export const grantsData = [
       date: '2020-08-29 07:40:57'
     },
     latestAppearance: {
-      bn: 13701430,
-      txId: 341,
-      timestamp: 1638089411,
-      date: '2021-11-28 08:50:11'
+      bn: 13746756,
+      txId: 377,
+      timestamp: 1638716933,
+      date: '2021-12-05 15:08:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 2947084,
-    fileSize: 21720,
-    appearanceCount: 2715,
-    neighborCount: 11360,
+    lastUpdated: 13749516,
+    blockRange: 2992410,
+    fileSize: 21832,
+    appearanceCount: 2729,
+    neighborCount: 49151,
     types: 'txs,logs,neighbors',
     logCount: 1465,
     matched: 0,
@@ -30899,7 +30934,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.364162657607986
+        balance: 0.8414164814307441
       }
     ],
     core: false
@@ -30926,7 +30961,7 @@ export const grantsData = [
     blockRange: 7265317,
     fileSize: 8752,
     appearanceCount: 1094,
-    neighborCount: 3940,
+    neighborCount: 5524,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -30961,7 +30996,7 @@ export const grantsData = [
     blockRange: 2106292,
     fileSize: 264,
     appearanceCount: 33,
-    neighborCount: 100,
+    neighborCount: 2444,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -30987,16 +31022,16 @@ export const grantsData = [
       date: '2015-08-27 02:34:38'
     },
     latestAppearance: {
-      bn: 13689143,
-      txId: 156,
-      timestamp: 1637922110,
-      date: '2021-11-26 10:21:50'
+      bn: 13714652,
+      txId: 325,
+      timestamp: 1638273975,
+      date: '2021-11-30 12:06:15'
     },
-    lastUpdated: 13711342,
-    blockRange: 13540215,
-    fileSize: 1224,
-    appearanceCount: 153,
-    neighborCount: 483,
+    lastUpdated: 13749516,
+    blockRange: 13565724,
+    fileSize: 1232,
+    appearanceCount: 154,
+    neighborCount: 2793,
     types: 'txs,logs,neighbors',
     logCount: 45,
     matched: 0,
@@ -31027,11 +31062,11 @@ export const grantsData = [
       timestamp: 1614795644,
       date: '2021-03-03 18:20:44'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 7,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -31062,11 +31097,11 @@ export const grantsData = [
       timestamp: 1631468268,
       date: '2021-09-12 17:37:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1983461,
     fileSize: 240,
     appearanceCount: 30,
-    neighborCount: 81,
+    neighborCount: 708,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -31097,11 +31132,11 @@ export const grantsData = [
       timestamp: 1637772330,
       date: '2021-11-24 16:45:30'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8788929,
     fileSize: 1752,
     appearanceCount: 219,
-    neighborCount: 715,
+    neighborCount: 2441,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -31132,11 +31167,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 976120,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 40,
+    neighborCount: 592,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -31167,11 +31202,11 @@ export const grantsData = [
       timestamp: 1610522197,
       date: '2021-01-13 07:16:37'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 413923,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 14,
+    neighborCount: 150,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -31206,7 +31241,7 @@ export const grantsData = [
     blockRange: 2242101,
     fileSize: 2384,
     appearanceCount: 298,
-    neighborCount: 1153,
+    neighborCount: 1644,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -31237,11 +31272,11 @@ export const grantsData = [
       timestamp: 1637515318,
       date: '2021-11-21 17:21:58'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2412987,
     fileSize: 12768,
     appearanceCount: 1596,
-    neighborCount: 5532,
+    neighborCount: 36457,
     types: 'txs,logs,neighbors',
     logCount: 1425,
     matched: 0,
@@ -31272,11 +31307,11 @@ export const grantsData = [
       timestamp: 1633476608,
       date: '2021-10-05 23:30:08'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4830620,
     fileSize: 920,
     appearanceCount: 115,
-    neighborCount: 336,
+    neighborCount: 360,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -31302,16 +31337,16 @@ export const grantsData = [
       date: '2020-11-28 14:46:24'
     },
     latestAppearance: {
-      bn: 13667614,
-      txId: 188,
-      timestamp: 1637626236,
-      date: '2021-11-23 00:10:36'
+      bn: 13726504,
+      txId: 792,
+      timestamp: 1638436253,
+      date: '2021-12-02 09:10:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 2319977,
-    fileSize: 8328,
-    appearanceCount: 1041,
-    neighborCount: 3791,
+    lastUpdated: 13749516,
+    blockRange: 2378867,
+    fileSize: 8392,
+    appearanceCount: 1049,
+    neighborCount: 30596,
     types: 'txs,logs,neighbors',
     logCount: 836,
     matched: 0,
@@ -31342,7 +31377,7 @@ export const grantsData = [
       timestamp: 1602277990,
       date: '2020-10-09 21:13:10'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 180655,
     fileSize: 32,
     appearanceCount: 4,
@@ -31377,11 +31412,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2227692,
     fileSize: 288,
     appearanceCount: 36,
-    neighborCount: 124,
+    neighborCount: 2103,
     types: 'txs,logs,neighbors',
     logCount: 27,
     matched: 0,
@@ -31412,11 +31447,11 @@ export const grantsData = [
       timestamp: 1638047744,
       date: '2021-11-27 21:15:44'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1098260,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 13,
+    neighborCount: 126,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -31424,7 +31459,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.05060441781757776
+        balance: 0.04596242417950676
       }
     ],
     core: false
@@ -31447,11 +31482,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2189057,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 14,
+    neighborCount: 517,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -31486,7 +31521,7 @@ export const grantsData = [
     blockRange: 1514751,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 34,
+    neighborCount: 763,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -31517,11 +31552,11 @@ export const grantsData = [
       timestamp: 1636843006,
       date: '2021-11-13 22:36:46'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2344532,
     fileSize: 272,
     appearanceCount: 34,
-    neighborCount: 134,
+    neighborCount: 2816,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -31552,11 +31587,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2495545,
     fileSize: 208,
     appearanceCount: 26,
-    neighborCount: 86,
+    neighborCount: 833,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -31591,7 +31626,7 @@ export const grantsData = [
     blockRange: 2277361,
     fileSize: 8888,
     appearanceCount: 1111,
-    neighborCount: 3637,
+    neighborCount: 26341,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -31617,16 +31652,16 @@ export const grantsData = [
       date: '2021-01-28 08:41:31'
     },
     latestAppearance: {
-      bn: 13676466,
-      txId: 212,
-      timestamp: 1637746617,
-      date: '2021-11-24 09:36:57'
+      bn: 13726348,
+      txId: 5,
+      timestamp: 1638434215,
+      date: '2021-12-02 08:36:55'
     },
-    lastUpdated: 13711342,
-    blockRange: 1933171,
-    fileSize: 2104,
-    appearanceCount: 263,
-    neighborCount: 1291,
+    lastUpdated: 13749516,
+    blockRange: 1983053,
+    fileSize: 2136,
+    appearanceCount: 267,
+    neighborCount: 7115,
     types: 'txs,logs,neighbors',
     logCount: 86,
     matched: 0,
@@ -31661,7 +31696,7 @@ export const grantsData = [
     blockRange: 1784332,
     fileSize: 768,
     appearanceCount: 96,
-    neighborCount: 614,
+    neighborCount: 1754,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -31696,7 +31731,7 @@ export const grantsData = [
     blockRange: 1356392,
     fileSize: 552,
     appearanceCount: 69,
-    neighborCount: 204,
+    neighborCount: 2171,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -31722,16 +31757,16 @@ export const grantsData = [
       date: '2021-07-31 22:59:33'
     },
     latestAppearance: {
-      bn: 13701701,
-      txId: 61,
-      timestamp: 1638093069,
-      date: '2021-11-28 09:51:09'
+      bn: 13747972,
+      txId: 393,
+      timestamp: 1638734172,
+      date: '2021-12-05 19:56:12'
     },
-    lastUpdated: 13711342,
-    blockRange: 765644,
-    fileSize: 704,
-    appearanceCount: 88,
-    neighborCount: 306,
+    lastUpdated: 13749516,
+    blockRange: 811915,
+    fileSize: 744,
+    appearanceCount: 93,
+    neighborCount: 3490,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -31762,11 +31797,11 @@ export const grantsData = [
       timestamp: 1636536740,
       date: '2021-11-10 09:32:20'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2239930,
     fileSize: 336,
     appearanceCount: 42,
-    neighborCount: 248,
+    neighborCount: 509,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -31801,7 +31836,7 @@ export const grantsData = [
     blockRange: 1356392,
     fileSize: 552,
     appearanceCount: 69,
-    neighborCount: 204,
+    neighborCount: 2171,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -31836,9 +31871,9 @@ export const grantsData = [
     blockRange: 674379,
     fileSize: 360,
     appearanceCount: 45,
-    neighborCount: 158,
+    neighborCount: 2101,
     types: 'txs,logs,neighbors',
-    logCount: 32,
+    logCount: 39,
     matched: 0,
     claimed: 0,
     balances: [
@@ -31871,7 +31906,7 @@ export const grantsData = [
     blockRange: 2656763,
     fileSize: 936,
     appearanceCount: 117,
-    neighborCount: 425,
+    neighborCount: 2727,
     types: 'txs,logs,neighbors',
     logCount: 30,
     matched: 0,
@@ -31902,11 +31937,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2299696,
     fileSize: 904,
     appearanceCount: 113,
-    neighborCount: 537,
+    neighborCount: 5910,
     types: 'txs,logs,neighbors',
     logCount: 72,
     matched: 0,
@@ -31932,18 +31967,18 @@ export const grantsData = [
       date: '2020-12-03 03:10:19'
     },
     latestAppearance: {
-      bn: 13503893,
-      txId: 97,
-      timestamp: 1635399413,
-      date: '2021-10-28 05:36:53'
+      bn: 13732242,
+      txId: 237,
+      timestamp: 1638516173,
+      date: '2021-12-03 07:22:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 2126796,
-    fileSize: 3520,
-    appearanceCount: 440,
-    neighborCount: 1532,
+    lastUpdated: 13749516,
+    blockRange: 2355145,
+    fileSize: 3528,
+    appearanceCount: 441,
+    neighborCount: 12431,
     types: 'txs,logs,neighbors',
-    logCount: 409,
+    logCount: 410,
     matched: 0,
     claimed: 0,
     balances: [
@@ -31976,7 +32011,7 @@ export const grantsData = [
     blockRange: 4247370,
     fileSize: 2968,
     appearanceCount: 371,
-    neighborCount: 940,
+    neighborCount: 3386,
     types: 'txs,logs,neighbors',
     logCount: 57,
     matched: 0,
@@ -31984,7 +32019,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.005585761823542976
+        balance: 0.003081999662934527
       }
     ],
     core: false
@@ -32011,7 +32046,7 @@ export const grantsData = [
     blockRange: 1118,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 31,
+    neighborCount: 49,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -32046,7 +32081,7 @@ export const grantsData = [
     blockRange: 908691,
     fileSize: 168,
     appearanceCount: 21,
-    neighborCount: 48,
+    neighborCount: 53,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -32072,18 +32107,18 @@ export const grantsData = [
       date: '2021-06-11 02:23:57'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13732242,
+      txId: 237,
+      timestamp: 1638516173,
+      date: '2021-12-03 07:22:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 893394,
-    fileSize: 1720,
-    appearanceCount: 215,
-    neighborCount: 770,
+    lastUpdated: 13749516,
+    blockRange: 1121703,
+    fileSize: 1744,
+    appearanceCount: 218,
+    neighborCount: 9771,
     types: 'txs,logs,neighbors',
-    logCount: 203,
+    logCount: 204,
     matched: 0,
     claimed: 0,
     balances: [
@@ -32116,7 +32151,7 @@ export const grantsData = [
     blockRange: 300716,
     fileSize: 632,
     appearanceCount: 79,
-    neighborCount: 569,
+    neighborCount: 756,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -32124,7 +32159,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.7518882102852412
+        balance: 0.7329989363208039
       }
     ],
     core: false
@@ -32151,7 +32186,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 17,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -32186,7 +32221,7 @@ export const grantsData = [
     blockRange: 300716,
     fileSize: 632,
     appearanceCount: 79,
-    neighborCount: 569,
+    neighborCount: 756,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -32194,7 +32229,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.7518882102852412
+        balance: 0.7329989363208039
       }
     ],
     core: false
@@ -32221,7 +32256,7 @@ export const grantsData = [
     blockRange: 300716,
     fileSize: 632,
     appearanceCount: 79,
-    neighborCount: 569,
+    neighborCount: 756,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -32229,7 +32264,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.7518882102852412
+        balance: 0.7329989363208039
       }
     ],
     core: false
@@ -32252,11 +32287,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 854759,
     fileSize: 336,
     appearanceCount: 42,
-    neighborCount: 144,
+    neighborCount: 4162,
     types: 'txs,logs,neighbors',
     logCount: 34,
     matched: 0,
@@ -32291,7 +32326,7 @@ export const grantsData = [
     blockRange: 2102801,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 36,
+    neighborCount: 1616,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -32326,9 +32361,9 @@ export const grantsData = [
     blockRange: 2951707,
     fileSize: 8480,
     appearanceCount: 1060,
-    neighborCount: 4580,
+    neighborCount: 32024,
     types: 'txs,logs,neighbors',
-    logCount: 613,
+    logCount: 614,
     matched: 0,
     claimed: 0,
     balances: [
@@ -32357,11 +32392,11 @@ export const grantsData = [
       timestamp: 1637469183,
       date: '2021-11-21 04:33:03'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1460403,
     fileSize: 344,
     appearanceCount: 43,
-    neighborCount: 140,
+    neighborCount: 580,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -32396,7 +32431,7 @@ export const grantsData = [
     blockRange: 3494808,
     fileSize: 2776,
     appearanceCount: 347,
-    neighborCount: 1373,
+    neighborCount: 5921,
     types: 'txs,logs,neighbors',
     logCount: 186,
     matched: 0,
@@ -32431,7 +32466,7 @@ export const grantsData = [
     blockRange: 2230112,
     fileSize: 976,
     appearanceCount: 122,
-    neighborCount: 458,
+    neighborCount: 4524,
     types: 'txs,logs,neighbors',
     logCount: 74,
     matched: 0,
@@ -32466,7 +32501,7 @@ export const grantsData = [
     blockRange: 2762415,
     fileSize: 1448,
     appearanceCount: 181,
-    neighborCount: 721,
+    neighborCount: 994,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -32501,7 +32536,7 @@ export const grantsData = [
     blockRange: 588087,
     fileSize: 456,
     appearanceCount: 57,
-    neighborCount: 235,
+    neighborCount: 3121,
     types: 'txs,logs,neighbors',
     logCount: 46,
     matched: 0,
@@ -32532,11 +32567,11 @@ export const grantsData = [
       timestamp: 1629606835,
       date: '2021-08-22 04:33:55'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2794386,
     fileSize: 472,
     appearanceCount: 59,
-    neighborCount: 338,
+    neighborCount: 817,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -32567,11 +32602,11 @@ export const grantsData = [
       timestamp: 1636994136,
       date: '2021-11-15 16:35:36'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2635825,
     fileSize: 1816,
     appearanceCount: 227,
-    neighborCount: 761,
+    neighborCount: 2152,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -32606,15 +32641,15 @@ export const grantsData = [
     blockRange: 2756337,
     fileSize: 52304,
     appearanceCount: 6538,
-    neighborCount: 22118,
+    neighborCount: 59976,
     types: 'txs,logs,neighbors',
-    logCount: 2032,
+    logCount: 2037,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 9.54625570175338
+        balance: 9.66025570175338
       }
     ],
     core: false
@@ -32637,11 +32672,11 @@ export const grantsData = [
       timestamp: 1636565385,
       date: '2021-11-10 17:29:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2432488,
     fileSize: 6272,
     appearanceCount: 784,
-    neighborCount: 2899,
+    neighborCount: 5927,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -32676,9 +32711,9 @@ export const grantsData = [
     blockRange: 2961508,
     fileSize: 3632,
     appearanceCount: 454,
-    neighborCount: 1753,
+    neighborCount: 10508,
     types: 'txs,logs,neighbors',
-    logCount: 361,
+    logCount: 362,
     matched: 0,
     claimed: 0,
     balances: [
@@ -32711,15 +32746,15 @@ export const grantsData = [
     blockRange: 2607053,
     fileSize: 12440,
     appearanceCount: 1555,
-    neighborCount: 5833,
+    neighborCount: 41925,
     types: 'txs,logs,neighbors',
-    logCount: 1313,
+    logCount: 1317,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.9904277126131672
+        balance: 1.010427712613167
       }
     ],
     core: false
@@ -32742,11 +32777,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2123465,
     fileSize: 432,
     appearanceCount: 54,
-    neighborCount: 193,
+    neighborCount: 3656,
     types: 'txs,logs,neighbors',
     logCount: 41,
     matched: 0,
@@ -32777,11 +32812,11 @@ export const grantsData = [
       timestamp: 1636565385,
       date: '2021-11-10 17:29:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2432488,
     fileSize: 6272,
     appearanceCount: 784,
-    neighborCount: 2899,
+    neighborCount: 5927,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -32816,7 +32851,7 @@ export const grantsData = [
     blockRange: 5706289,
     fileSize: 4768,
     appearanceCount: 596,
-    neighborCount: 3263,
+    neighborCount: 7361,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -32847,11 +32882,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2265756,
     fileSize: 272,
     appearanceCount: 34,
-    neighborCount: 251,
+    neighborCount: 2266,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -32882,11 +32917,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -32912,16 +32947,16 @@ export const grantsData = [
       date: '2021-01-18 22:45:22'
     },
     latestAppearance: {
-      bn: 13539595,
-      txId: 349,
-      timestamp: 1635884233,
-      date: '2021-11-02 20:17:13'
+      bn: 13733867,
+      txId: 264,
+      timestamp: 1638538375,
+      date: '2021-12-03 13:32:55'
     },
-    lastUpdated: 13711342,
-    blockRange: 1857593,
-    fileSize: 80,
-    appearanceCount: 10,
-    neighborCount: 49,
+    lastUpdated: 13749516,
+    blockRange: 2051865,
+    fileSize: 88,
+    appearanceCount: 11,
+    neighborCount: 635,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -32952,7 +32987,7 @@ export const grantsData = [
       timestamp: 1615495009,
       date: '2021-03-11 20:36:49'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 290726,
     fileSize: 24,
     appearanceCount: 3,
@@ -32987,11 +33022,11 @@ export const grantsData = [
       timestamp: 1609845974,
       date: '2021-01-05 11:26:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 89316,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 127,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -33017,16 +33052,16 @@ export const grantsData = [
       date: '2020-02-08 03:42:15'
     },
     latestAppearance: {
-      bn: 13690155,
-      txId: 162,
-      timestamp: 1637935236,
-      date: '2021-11-26 14:00:36'
+      bn: 13741441,
+      txId: 242,
+      timestamp: 1638643826,
+      date: '2021-12-04 18:50:26'
     },
-    lastUpdated: 13711342,
-    blockRange: 4250439,
-    fileSize: 2800,
-    appearanceCount: 350,
-    neighborCount: 1385,
+    lastUpdated: 13749516,
+    blockRange: 4301725,
+    fileSize: 2832,
+    appearanceCount: 354,
+    neighborCount: 14214,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -33034,7 +33069,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.310979898079781
+        balance: 3.245356342743736
       }
     ],
     core: false
@@ -33057,11 +33092,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2099651,
     fileSize: 576,
     appearanceCount: 72,
-    neighborCount: 271,
+    neighborCount: 4592,
     types: 'txs,logs,neighbors',
     logCount: 26,
     matched: 0,
@@ -33096,7 +33131,7 @@ export const grantsData = [
     blockRange: 1542589,
     fileSize: 4256,
     appearanceCount: 532,
-    neighborCount: 1976,
+    neighborCount: 10333,
     types: 'txs,logs,neighbors',
     logCount: 207,
     matched: 0,
@@ -33131,7 +33166,7 @@ export const grantsData = [
     blockRange: 1507827,
     fileSize: 448,
     appearanceCount: 56,
-    neighborCount: 177,
+    neighborCount: 204,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -33157,18 +33192,18 @@ export const grantsData = [
       date: '2021-04-02 20:20:14'
     },
     latestAppearance: {
-      bn: 13648503,
-      txId: 69,
-      timestamp: 1637364975,
-      date: '2021-11-19 23:36:15'
+      bn: 13732372,
+      txId: 92,
+      timestamp: 1638517843,
+      date: '2021-12-03 07:50:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 1486267,
-    fileSize: 432,
-    appearanceCount: 54,
-    neighborCount: 196,
+    lastUpdated: 13749516,
+    blockRange: 1570136,
+    fileSize: 480,
+    appearanceCount: 60,
+    neighborCount: 3286,
     types: 'txs,logs,neighbors',
-    logCount: 26,
+    logCount: 28,
     matched: 0,
     claimed: 0,
     balances: [
@@ -33201,7 +33236,7 @@ export const grantsData = [
     blockRange: 753587,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 16,
+    neighborCount: 952,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -33236,7 +33271,7 @@ export const grantsData = [
     blockRange: 4527220,
     fileSize: 23752,
     appearanceCount: 2969,
-    neighborCount: 11289,
+    neighborCount: 50983,
     types: 'txs,logs,neighbors',
     logCount: 1483,
     matched: 0,
@@ -33267,11 +33302,11 @@ export const grantsData = [
       timestamp: 1637714466,
       date: '2021-11-24 00:41:06'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1100467,
     fileSize: 1656,
     appearanceCount: 207,
-    neighborCount: 728,
+    neighborCount: 7128,
     types: 'txs,logs,neighbors',
     logCount: 104,
     matched: 0,
@@ -33306,7 +33341,7 @@ export const grantsData = [
     blockRange: 4246165,
     fileSize: 760,
     appearanceCount: 95,
-    neighborCount: 257,
+    neighborCount: 955,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -33332,24 +33367,24 @@ export const grantsData = [
       date: '2020-12-03 15:47:05'
     },
     latestAppearance: {
-      bn: 13550128,
-      txId: 375,
-      timestamp: 1636028081,
-      date: '2021-11-04 12:14:41'
+      bn: 13747330,
+      txId: 293,
+      timestamp: 1638725245,
+      date: '2021-12-05 17:27:25'
     },
-    lastUpdated: 13711342,
-    blockRange: 2169573,
-    fileSize: 9064,
-    appearanceCount: 1133,
-    neighborCount: 3927,
+    lastUpdated: 13749516,
+    blockRange: 2366775,
+    fileSize: 9672,
+    appearanceCount: 1209,
+    neighborCount: 16203,
     types: 'txs,logs,neighbors',
-    logCount: 980,
+    logCount: 1027,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 10.259513498873101
+        balance: 11.1720134988731
       }
     ],
     core: false
@@ -33372,11 +33407,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 955051,
     fileSize: 280,
     appearanceCount: 35,
-    neighborCount: 108,
+    neighborCount: 3286,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -33407,11 +33442,11 @@ export const grantsData = [
       timestamp: 1630119795,
       date: '2021-08-28 03:03:15'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2004369,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 42,
+    neighborCount: 50,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -33437,24 +33472,24 @@ export const grantsData = [
       date: '2020-12-03 17:02:28'
     },
     latestAppearance: {
-      bn: 13639688,
-      txId: 144,
-      timestamp: 1637243341,
-      date: '2021-11-18 13:49:01'
+      bn: 13745393,
+      txId: 200,
+      timestamp: 1638698041,
+      date: '2021-12-05 09:54:01'
     },
-    lastUpdated: 13711342,
-    blockRange: 2258797,
-    fileSize: 5256,
-    appearanceCount: 657,
-    neighborCount: 3494,
+    lastUpdated: 13749516,
+    blockRange: 2364502,
+    fileSize: 6032,
+    appearanceCount: 754,
+    neighborCount: 13230,
     types: 'txs,logs,neighbors',
-    logCount: 481,
+    logCount: 567,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 14.88818228262335
+        balance: 14.88818238262335
       }
     ],
     core: false
@@ -33481,7 +33516,7 @@ export const grantsData = [
     blockRange: 2121805,
     fileSize: 10832,
     appearanceCount: 1354,
-    neighborCount: 4968,
+    neighborCount: 37473,
     types: 'txs,logs,neighbors',
     logCount: 1257,
     matched: 0,
@@ -33507,16 +33542,16 @@ export const grantsData = [
       date: '2021-07-31 22:59:33'
     },
     latestAppearance: {
-      bn: 13701701,
-      txId: 61,
-      timestamp: 1638093069,
-      date: '2021-11-28 09:51:09'
+      bn: 13747972,
+      txId: 393,
+      timestamp: 1638734172,
+      date: '2021-12-05 19:56:12'
     },
-    lastUpdated: 13711342,
-    blockRange: 765644,
-    fileSize: 704,
-    appearanceCount: 88,
-    neighborCount: 306,
+    lastUpdated: 13749516,
+    blockRange: 811915,
+    fileSize: 744,
+    appearanceCount: 93,
+    neighborCount: 3490,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -33551,7 +33586,7 @@ export const grantsData = [
     blockRange: 6305758,
     fileSize: 584,
     appearanceCount: 73,
-    neighborCount: 655,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -33577,18 +33612,18 @@ export const grantsData = [
       date: '2020-12-05 05:19:14'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13741918,
+      txId: 378,
+      timestamp: 1638650383,
+      date: '2021-12-04 20:39:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 2113236,
-    fileSize: 1256,
-    appearanceCount: 157,
-    neighborCount: 575,
+    lastUpdated: 13749516,
+    blockRange: 2351221,
+    fileSize: 1296,
+    appearanceCount: 162,
+    neighborCount: 8532,
     types: 'txs,logs,neighbors',
-    logCount: 144,
+    logCount: 145,
     matched: 0,
     claimed: 0,
     balances: [
@@ -33617,11 +33652,11 @@ export const grantsData = [
       timestamp: 1638030443,
       date: '2021-11-27 16:27:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6586358,
     fileSize: 728,
     appearanceCount: 91,
-    neighborCount: 410,
+    neighborCount: 3564,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -33647,16 +33682,16 @@ export const grantsData = [
       date: '2021-11-23 14:09:23'
     },
     latestAppearance: {
-      bn: 13671302,
-      txId: 165,
-      timestamp: 1637676563,
-      date: '2021-11-23 14:09:23'
+      bn: 13741774,
+      txId: 57,
+      timestamp: 1638648630,
+      date: '2021-12-04 20:10:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 1,
-    fileSize: 8,
-    appearanceCount: 1,
-    neighborCount: 5,
+    lastUpdated: 13749516,
+    blockRange: 70473,
+    fileSize: 32,
+    appearanceCount: 4,
+    neighborCount: 1013,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -33664,7 +33699,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.05427572132060952
+        balance: 0.05066623050139629
       }
     ],
     core: false
@@ -33687,11 +33722,11 @@ export const grantsData = [
       timestamp: 1606385153,
       date: '2020-11-26 10:05:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 775314,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 58,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -33722,11 +33757,11 @@ export const grantsData = [
       timestamp: 1638197447,
       date: '2021-11-29 14:50:47'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2249110,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 22,
+    neighborCount: 2066,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -33761,7 +33796,7 @@ export const grantsData = [
     blockRange: 54486,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 146,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -33796,7 +33831,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -33831,7 +33866,7 @@ export const grantsData = [
     blockRange: 3504203,
     fileSize: 3880,
     appearanceCount: 485,
-    neighborCount: 1432,
+    neighborCount: 4808,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -33839,7 +33874,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.015152337558793978
+        balance: 0.07925189994883726
       }
     ],
     core: false
@@ -33866,7 +33901,7 @@ export const grantsData = [
     blockRange: 2010866,
     fileSize: 728,
     appearanceCount: 91,
-    neighborCount: 525,
+    neighborCount: 697,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -33897,11 +33932,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2396942,
     fileSize: 1824,
     appearanceCount: 228,
-    neighborCount: 896,
+    neighborCount: 3912,
     types: 'txs,logs,neighbors',
     logCount: 124,
     matched: 0,
@@ -33932,11 +33967,11 @@ export const grantsData = [
       timestamp: 1610836732,
       date: '2021-01-16 22:38:52'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 441086,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 107,
+    neighborCount: 128,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -33971,7 +34006,7 @@ export const grantsData = [
     blockRange: 1501716,
     fileSize: 5064,
     appearanceCount: 633,
-    neighborCount: 2425,
+    neighborCount: 18348,
     types: 'txs,logs,neighbors',
     logCount: 532,
     matched: 0,
@@ -34006,7 +34041,7 @@ export const grantsData = [
     blockRange: 1410919,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 19,
+    neighborCount: 1393,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -34041,7 +34076,7 @@ export const grantsData = [
     blockRange: 2603592,
     fileSize: 416,
     appearanceCount: 52,
-    neighborCount: 140,
+    neighborCount: 161,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -34072,11 +34107,11 @@ export const grantsData = [
       timestamp: 1632073345,
       date: '2021-09-19 17:42:25'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5588758,
     fileSize: 576,
     appearanceCount: 72,
-    neighborCount: 221,
+    neighborCount: 1770,
     types: 'txs,logs,neighbors',
     logCount: 39,
     matched: 0,
@@ -34111,7 +34146,7 @@ export const grantsData = [
     blockRange: 2271925,
     fileSize: 3664,
     appearanceCount: 458,
-    neighborCount: 1543,
+    neighborCount: 8611,
     types: 'txs,logs,neighbors',
     logCount: 376,
     matched: 0,
@@ -34146,7 +34181,7 @@ export const grantsData = [
     blockRange: 955297,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 31,
+    neighborCount: 935,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -34172,16 +34207,16 @@ export const grantsData = [
       date: '2019-06-14 05:05:40'
     },
     latestAppearance: {
-      bn: 13711038,
-      txId: 450,
-      timestamp: 1638222697,
-      date: '2021-11-29 21:51:37'
+      bn: 13746675,
+      txId: 290,
+      timestamp: 1638715828,
+      date: '2021-12-05 14:50:28'
     },
-    lastUpdated: 13711342,
-    blockRange: 5756234,
-    fileSize: 47336,
-    appearanceCount: 5917,
-    neighborCount: 28573,
+    lastUpdated: 13749516,
+    blockRange: 5791871,
+    fileSize: 47952,
+    appearanceCount: 5994,
+    neighborCount: 49499,
     types: 'txs,logs,neighbors',
     logCount: 45,
     matched: 0,
@@ -34189,7 +34224,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 20.510712058941074
+        balance: 20.485351075684868
       }
     ],
     core: false
@@ -34207,16 +34242,16 @@ export const grantsData = [
       date: '2021-04-16 00:09:47'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13725899,
+      txId: 52,
+      timestamp: 1638428121,
+      date: '2021-12-02 06:55:21'
     },
-    lastUpdated: 13711342,
-    blockRange: 1256085,
-    fileSize: 1992,
-    appearanceCount: 249,
-    neighborCount: 875,
+    lastUpdated: 13749516,
+    blockRange: 1478051,
+    fileSize: 2000,
+    appearanceCount: 250,
+    neighborCount: 9445,
     types: 'txs,logs,neighbors',
     logCount: 221,
     matched: 0,
@@ -34251,7 +34286,7 @@ export const grantsData = [
     blockRange: 3271509,
     fileSize: 560,
     appearanceCount: 70,
-    neighborCount: 505,
+    neighborCount: 1921,
     types: 'txs,logs,neighbors',
     logCount: 42,
     matched: 0,
@@ -34286,7 +34321,7 @@ export const grantsData = [
     blockRange: 2792740,
     fileSize: 5904,
     appearanceCount: 738,
-    neighborCount: 2651,
+    neighborCount: 10881,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -34321,7 +34356,7 @@ export const grantsData = [
     blockRange: 1524761,
     fileSize: 792,
     appearanceCount: 99,
-    neighborCount: 440,
+    neighborCount: 2961,
     types: 'txs,logs,neighbors',
     logCount: 53,
     matched: 0,
@@ -34356,7 +34391,7 @@ export const grantsData = [
     blockRange: 2228037,
     fileSize: 344,
     appearanceCount: 43,
-    neighborCount: 140,
+    neighborCount: 1614,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -34391,7 +34426,7 @@ export const grantsData = [
     blockRange: 1711507,
     fileSize: 840,
     appearanceCount: 105,
-    neighborCount: 269,
+    neighborCount: 757,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -34422,11 +34457,11 @@ export const grantsData = [
       timestamp: 1608661640,
       date: '2020-12-22 18:27:20'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 104426,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 139,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -34457,11 +34492,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1998987,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 626,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -34487,24 +34522,24 @@ export const grantsData = [
       date: '2020-05-06 13:52:56'
     },
     latestAppearance: {
-      bn: 13711007,
-      txId: 4,
-      timestamp: 1638222357,
-      date: '2021-11-29 21:45:57'
+      bn: 13745393,
+      txId: 200,
+      timestamp: 1638698041,
+      date: '2021-12-05 09:54:01'
     },
-    lastUpdated: 13711342,
-    blockRange: 3697915,
-    fileSize: 15064,
-    appearanceCount: 1883,
-    neighborCount: 7418,
+    lastUpdated: 13749516,
+    blockRange: 3732301,
+    fileSize: 15160,
+    appearanceCount: 1895,
+    neighborCount: 41353,
     types: 'txs,logs,neighbors',
-    logCount: 695,
+    logCount: 700,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.02789574716450499
+        balance: 0.04289574716450499
       }
     ],
     core: false
@@ -34531,7 +34566,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -34557,16 +34592,16 @@ export const grantsData = [
       date: '2021-05-14 05:23:17'
     },
     latestAppearance: {
-      bn: 13678596,
-      txId: 160,
-      timestamp: 1637776086,
-      date: '2021-11-24 17:48:06'
+      bn: 13732371,
+      txId: 73,
+      timestamp: 1638517837,
+      date: '2021-12-03 07:50:37'
     },
-    lastUpdated: 13711342,
-    blockRange: 1247978,
-    fileSize: 880,
-    appearanceCount: 110,
-    neighborCount: 384,
+    lastUpdated: 13749516,
+    blockRange: 1301753,
+    fileSize: 896,
+    appearanceCount: 112,
+    neighborCount: 2838,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -34597,11 +34632,11 @@ export const grantsData = [
       timestamp: 1637208912,
       date: '2021-11-18 04:15:12'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5130444,
     fileSize: 592,
     appearanceCount: 74,
-    neighborCount: 345,
+    neighborCount: 1778,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -34636,7 +34671,7 @@ export const grantsData = [
     blockRange: 2528905,
     fileSize: 640,
     appearanceCount: 80,
-    neighborCount: 356,
+    neighborCount: 4836,
     types: 'txs,logs,neighbors',
     logCount: 55,
     matched: 0,
@@ -34671,7 +34706,7 @@ export const grantsData = [
     blockRange: 2882355,
     fileSize: 14296,
     appearanceCount: 1787,
-    neighborCount: 6784,
+    neighborCount: 47162,
     types: 'txs,logs,neighbors',
     logCount: 1620,
     matched: 0,
@@ -34679,7 +34714,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 11.719923159640418
+        balance: 11.529626802438287
       }
     ],
     core: false
@@ -34706,7 +34741,7 @@ export const grantsData = [
     blockRange: 2894864,
     fileSize: 896,
     appearanceCount: 112,
-    neighborCount: 357,
+    neighborCount: 1550,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -34737,11 +34772,11 @@ export const grantsData = [
       timestamp: 1608661640,
       date: '2020-12-22 18:27:20'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 101897,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 127,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -34776,7 +34811,7 @@ export const grantsData = [
     blockRange: 468097,
     fileSize: 984,
     appearanceCount: 123,
-    neighborCount: 285,
+    neighborCount: 400,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -34811,7 +34846,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 6,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -34842,11 +34877,11 @@ export const grantsData = [
       timestamp: 1611046198,
       date: '2021-01-19 08:49:58'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 320437,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 48,
+    neighborCount: 185,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -34881,7 +34916,7 @@ export const grantsData = [
     blockRange: 3392293,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 37,
+    neighborCount: 543,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -34916,7 +34951,7 @@ export const grantsData = [
     blockRange: 2735948,
     fileSize: 136152,
     appearanceCount: 17019,
-    neighborCount: 96632,
+    neighborCount: 99429,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -34951,7 +34986,7 @@ export const grantsData = [
     blockRange: 55062,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 126,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -34982,11 +35017,11 @@ export const grantsData = [
       timestamp: 1601494459,
       date: '2020-09-30 19:34:19'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8207715,
     fileSize: 200,
     appearanceCount: 25,
-    neighborCount: 72,
+    neighborCount: 1196,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -35021,7 +35056,7 @@ export const grantsData = [
     blockRange: 1285251,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 105,
+    neighborCount: 249,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -35052,11 +35087,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2076557,
     fileSize: 184,
     appearanceCount: 23,
-    neighborCount: 65,
+    neighborCount: 782,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -35091,7 +35126,7 @@ export const grantsData = [
     blockRange: 2096782,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 68,
+    neighborCount: 1306,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -35126,15 +35161,15 @@ export const grantsData = [
     blockRange: 5092609,
     fileSize: 26256,
     appearanceCount: 3282,
-    neighborCount: 12325,
+    neighborCount: 63146,
     types: 'txs,logs,neighbors',
-    logCount: 42,
+    logCount: 44,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 14.389628990966422
+        balance: 14.96344650674634
       }
     ],
     core: false
@@ -35161,7 +35196,7 @@ export const grantsData = [
     blockRange: 2092939,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 12,
+    neighborCount: 631,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -35192,11 +35227,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2092845,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 88,
+    neighborCount: 1867,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -35227,11 +35262,11 @@ export const grantsData = [
       timestamp: 1632095538,
       date: '2021-09-19 23:52:18'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 266614,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 62,
+    neighborCount: 66,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -35262,11 +35297,11 @@ export const grantsData = [
       timestamp: 1632095538,
       date: '2021-09-19 23:52:18'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 266614,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 62,
+    neighborCount: 66,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -35301,7 +35336,7 @@ export const grantsData = [
     blockRange: 2636782,
     fileSize: 12288,
     appearanceCount: 1536,
-    neighborCount: 5107,
+    neighborCount: 25578,
     types: 'txs,logs,neighbors',
     logCount: 1750,
     matched: 0,
@@ -35336,7 +35371,7 @@ export const grantsData = [
     blockRange: 2636782,
     fileSize: 12288,
     appearanceCount: 1536,
-    neighborCount: 5107,
+    neighborCount: 25578,
     types: 'txs,logs,neighbors',
     logCount: 1750,
     matched: 0,
@@ -35367,11 +35402,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -35402,11 +35437,11 @@ export const grantsData = [
       timestamp: 1632666757,
       date: '2021-09-26 14:32:37'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1729651,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 59,
+    neighborCount: 618,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -35441,7 +35476,7 @@ export const grantsData = [
     blockRange: 9301614,
     fileSize: 3488,
     appearanceCount: 436,
-    neighborCount: 1765,
+    neighborCount: 4324,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -35449,7 +35484,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 2.1591605167600862
+        balance: 2.0998274112720545
       }
     ],
     core: false
@@ -35472,11 +35507,11 @@ export const grantsData = [
       timestamp: 1635875770,
       date: '2021-11-02 17:56:10'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2034076,
     fileSize: 512,
     appearanceCount: 64,
-    neighborCount: 224,
+    neighborCount: 1462,
     types: 'txs,logs,neighbors',
     logCount: 35,
     matched: 0,
@@ -35507,11 +35542,11 @@ export const grantsData = [
       timestamp: 1614127744,
       date: '2021-02-24 00:49:04'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 535254,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 33,
+    neighborCount: 43,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -35542,11 +35577,11 @@ export const grantsData = [
       timestamp: 1636416497,
       date: '2021-11-09 00:08:17'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4637840,
     fileSize: 488,
     appearanceCount: 61,
-    neighborCount: 205,
+    neighborCount: 3482,
     types: 'txs,logs,neighbors',
     logCount: 32,
     matched: 0,
@@ -35581,7 +35616,7 @@ export const grantsData = [
     blockRange: 2900962,
     fileSize: 10712,
     appearanceCount: 1339,
-    neighborCount: 5625,
+    neighborCount: 17545,
     types: 'txs,logs,neighbors',
     logCount: 81,
     matched: 0,
@@ -35589,7 +35624,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.3461926977059169
+        balance: 0.3395778671273305
       }
     ],
     core: false
@@ -35612,11 +35647,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4801728,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 43,
+    neighborCount: 722,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -35651,7 +35686,7 @@ export const grantsData = [
     blockRange: 128084,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 36,
+    neighborCount: 371,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -35682,11 +35717,11 @@ export const grantsData = [
       timestamp: 1638184912,
       date: '2021-11-29 11:21:52'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4309889,
     fileSize: 1352,
     appearanceCount: 169,
-    neighborCount: 588,
+    neighborCount: 1546,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -35717,11 +35752,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 848592,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 102,
+    neighborCount: 3585,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -35752,11 +35787,11 @@ export const grantsData = [
       timestamp: 1630770563,
       date: '2021-09-04 15:49:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5083183,
     fileSize: 2008,
     appearanceCount: 251,
-    neighborCount: 945,
+    neighborCount: 1278,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -35791,7 +35826,7 @@ export const grantsData = [
     blockRange: 162650,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 44,
+    neighborCount: 171,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -35822,11 +35857,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2049753,
     fileSize: 536,
     appearanceCount: 67,
-    neighborCount: 177,
+    neighborCount: 1663,
     types: 'txs,logs,neighbors',
     logCount: 23,
     matched: 0,
@@ -35857,11 +35892,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1546520,
     fileSize: 1512,
     appearanceCount: 189,
-    neighborCount: 957,
+    neighborCount: 6219,
     types: 'txs,logs,neighbors',
     logCount: 88,
     matched: 0,
@@ -35892,11 +35927,11 @@ export const grantsData = [
       timestamp: 1611785124,
       date: '2021-01-27 22:05:24'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 335165,
     fileSize: 328,
     appearanceCount: 41,
-    neighborCount: 231,
+    neighborCount: 2618,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -35927,11 +35962,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2754061,
     fileSize: 280,
     appearanceCount: 35,
-    neighborCount: 250,
+    neighborCount: 2148,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -35966,7 +36001,7 @@ export const grantsData = [
     blockRange: 977029,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 25,
+    neighborCount: 28,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -36001,7 +36036,7 @@ export const grantsData = [
     blockRange: 933325,
     fileSize: 728,
     appearanceCount: 91,
-    neighborCount: 301,
+    neighborCount: 3117,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -36009,7 +36044,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 5.806768036590785
+        balance: 5.7968678831011236
       }
     ],
     core: false
@@ -36036,7 +36071,7 @@ export const grantsData = [
     blockRange: 391795,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 22,
+    neighborCount: 32,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -36062,16 +36097,16 @@ export const grantsData = [
       date: '2021-10-31 14:41:30'
     },
     latestAppearance: {
-      bn: 13700806,
-      txId: 324,
-      timestamp: 1638080814,
-      date: '2021-11-28 06:26:54'
+      bn: 13745321,
+      txId: 547,
+      timestamp: 1638697081,
+      date: '2021-12-05 09:38:01'
     },
-    lastUpdated: 13711342,
-    blockRange: 175425,
-    fileSize: 144,
-    appearanceCount: 18,
-    neighborCount: 180,
+    lastUpdated: 13749516,
+    blockRange: 219940,
+    fileSize: 256,
+    appearanceCount: 32,
+    neighborCount: 345,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -36079,7 +36114,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.09679344166008963
+        balance: 0.09543052024622321
       }
     ],
     core: false
@@ -36106,7 +36141,7 @@ export const grantsData = [
     blockRange: 611585,
     fileSize: 1736,
     appearanceCount: 217,
-    neighborCount: 875,
+    neighborCount: 3401,
     types: 'txs,logs,neighbors',
     logCount: 31,
     matched: 0,
@@ -36114,7 +36149,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.370739229844977
+        balance: 0.1495514862900536
       }
     ],
     core: false
@@ -36137,7 +36172,7 @@ export const grantsData = [
       timestamp: 1608848554,
       date: '2020-12-24 22:22:34'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 339277,
     fileSize: 232,
     appearanceCount: 29,
@@ -36176,7 +36211,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -36211,7 +36246,7 @@ export const grantsData = [
     blockRange: 3808140,
     fileSize: 3840,
     appearanceCount: 480,
-    neighborCount: 1316,
+    neighborCount: 4949,
     types: 'txs,logs,neighbors',
     logCount: 120,
     matched: 0,
@@ -36237,16 +36272,16 @@ export const grantsData = [
       date: '2020-06-14 00:23:31'
     },
     latestAppearance: {
-      bn: 13683234,
-      txId: 203,
-      timestamp: 1637840367,
-      date: '2021-11-25 11:39:27'
+      bn: 13718213,
+      txId: 273,
+      timestamp: 1638321985,
+      date: '2021-12-01 01:26:25'
     },
-    lastUpdated: 13711342,
-    blockRange: 3422654,
-    fileSize: 3976,
-    appearanceCount: 497,
-    neighborCount: 3536,
+    lastUpdated: 13749516,
+    blockRange: 3457633,
+    fileSize: 3984,
+    appearanceCount: 498,
+    neighborCount: 6766,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -36254,7 +36289,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.44651920175297705
+        balance: 0.5440883280017531
       }
     ],
     core: false
@@ -36277,11 +36312,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 725005,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 15,
+    neighborCount: 425,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -36312,11 +36347,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1998987,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 59,
+    neighborCount: 1557,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -36351,7 +36386,7 @@ export const grantsData = [
     blockRange: 1407401,
     fileSize: 1384,
     appearanceCount: 173,
-    neighborCount: 682,
+    neighborCount: 1899,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -36386,7 +36421,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -36421,7 +36456,7 @@ export const grantsData = [
     blockRange: 2438323,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 42,
+    neighborCount: 639,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -36452,11 +36487,11 @@ export const grantsData = [
       timestamp: 1627413809,
       date: '2021-07-27 19:23:29'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2187907,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 43,
+    neighborCount: 87,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -36487,11 +36522,11 @@ export const grantsData = [
       timestamp: 1635485377,
       date: '2021-10-29 05:29:37'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6899214,
     fileSize: 1320,
     appearanceCount: 165,
-    neighborCount: 522,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -36526,7 +36561,7 @@ export const grantsData = [
     blockRange: 2224917,
     fileSize: 568,
     appearanceCount: 71,
-    neighborCount: 277,
+    neighborCount: 1845,
     types: 'txs,logs,neighbors',
     logCount: 81,
     matched: 0,
@@ -36561,7 +36596,7 @@ export const grantsData = [
     blockRange: 6494487,
     fileSize: 22312,
     appearanceCount: 2789,
-    neighborCount: 14648,
+    neighborCount: 29531,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -36569,7 +36604,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 10.152546590153003
+        balance: 0.5153123832959966
       }
     ],
     core: false
@@ -36592,11 +36627,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2045002,
     fileSize: 408,
     appearanceCount: 51,
-    neighborCount: 228,
+    neighborCount: 3560,
     types: 'txs,logs,neighbors',
     logCount: 39,
     matched: 0,
@@ -36631,7 +36666,7 @@ export const grantsData = [
     blockRange: 3061255,
     fileSize: 2776,
     appearanceCount: 347,
-    neighborCount: 1534,
+    neighborCount: 10666,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -36666,7 +36701,7 @@ export const grantsData = [
     blockRange: 2410906,
     fileSize: 1576,
     appearanceCount: 197,
-    neighborCount: 600,
+    neighborCount: 1111,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -36692,16 +36727,16 @@ export const grantsData = [
       date: '2020-10-02 23:31:16'
     },
     latestAppearance: {
-      bn: 13709997,
-      txId: 238,
-      timestamp: 1638208497,
-      date: '2021-11-29 17:54:57'
+      bn: 13744628,
+      txId: 105,
+      timestamp: 1638687574,
+      date: '2021-12-05 06:59:34'
     },
-    lastUpdated: 13711342,
-    blockRange: 2730457,
-    fileSize: 61304,
-    appearanceCount: 7663,
-    neighborCount: 29238,
+    lastUpdated: 13749516,
+    blockRange: 2765088,
+    fileSize: 61360,
+    appearanceCount: 7670,
+    neighborCount: 47975,
     types: 'txs,logs,neighbors',
     logCount: 631,
     matched: 0,
@@ -36709,7 +36744,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 9.926678843459442
+        balance: 9.626295308699717
       }
     ],
     core: false
@@ -36727,16 +36762,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -36744,7 +36779,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -36762,24 +36797,24 @@ export const grantsData = [
       date: '2020-07-20 13:18:14'
     },
     latestAppearance: {
-      bn: 13676925,
-      txId: 85,
-      timestamp: 1637752703,
-      date: '2021-11-24 11:18:23'
+      bn: 13748315,
+      txId: 30,
+      timestamp: 1638738779,
+      date: '2021-12-05 21:12:59'
     },
-    lastUpdated: 13711342,
-    blockRange: 3180333,
-    fileSize: 6408,
-    appearanceCount: 801,
-    neighborCount: 3223,
+    lastUpdated: 13749516,
+    blockRange: 3251723,
+    fileSize: 6552,
+    appearanceCount: 819,
+    neighborCount: 15173,
     types: 'txs,logs,neighbors',
-    logCount: 416,
+    logCount: 420,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 2.6515429362825857
+        balance: 2.9435429362825856
       }
     ],
     core: false
@@ -36802,11 +36837,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2037668,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 41,
+    neighborCount: 1062,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -36837,11 +36872,11 @@ export const grantsData = [
       timestamp: 1637180866,
       date: '2021-11-17 20:27:46'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2612497,
     fileSize: 1632,
     appearanceCount: 204,
-    neighborCount: 511,
+    neighborCount: 4288,
     types: 'txs,logs,neighbors',
     logCount: 25,
     matched: 0,
@@ -36876,7 +36911,7 @@ export const grantsData = [
     blockRange: 549350,
     fileSize: 168,
     appearanceCount: 21,
-    neighborCount: 70,
+    neighborCount: 209,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -36907,11 +36942,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2037781,
     fileSize: 512,
     appearanceCount: 64,
-    neighborCount: 210,
+    neighborCount: 3885,
     types: 'txs,logs,neighbors',
     logCount: 45,
     matched: 0,
@@ -36942,11 +36977,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -36981,7 +37016,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -37016,7 +37051,7 @@ export const grantsData = [
     blockRange: 1341657,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 756,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -37051,7 +37086,7 @@ export const grantsData = [
     blockRange: 2123934,
     fileSize: 1312,
     appearanceCount: 164,
-    neighborCount: 528,
+    neighborCount: 5037,
     types: 'txs,logs,neighbors',
     logCount: 122,
     matched: 0,
@@ -37086,7 +37121,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -37117,11 +37152,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2042507,
     fileSize: 752,
     appearanceCount: 94,
-    neighborCount: 321,
+    neighborCount: 4393,
     types: 'txs,logs,neighbors',
     logCount: 80,
     matched: 0,
@@ -37156,7 +37191,7 @@ export const grantsData = [
     blockRange: 5317930,
     fileSize: 2208,
     appearanceCount: 276,
-    neighborCount: 1282,
+    neighborCount: 6050,
     types: 'txs,logs,neighbors',
     logCount: 28,
     matched: 0,
@@ -37182,16 +37217,16 @@ export const grantsData = [
       date: '2018-05-12 18:55:34'
     },
     latestAppearance: {
-      bn: 13435302,
-      txId: 117,
-      timestamp: 1634472076,
-      date: '2021-10-17 12:01:16'
+      bn: 13732372,
+      txId: 92,
+      timestamp: 1638517843,
+      date: '2021-12-03 07:50:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 7833079,
-    fileSize: 10408,
-    appearanceCount: 1301,
-    neighborCount: 3822,
+    lastUpdated: 13749516,
+    blockRange: 8130149,
+    fileSize: 10416,
+    appearanceCount: 1302,
+    neighborCount: 9437,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -37222,11 +37257,11 @@ export const grantsData = [
       timestamp: 1629528182,
       date: '2021-08-21 06:43:02'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2156607,
     fileSize: 608,
     appearanceCount: 76,
-    neighborCount: 256,
+    neighborCount: 731,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -37257,11 +37292,11 @@ export const grantsData = [
       timestamp: 1636370378,
       date: '2021-11-08 11:19:38'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6646643,
     fileSize: 2800,
     appearanceCount: 350,
-    neighborCount: 912,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -37296,7 +37331,7 @@ export const grantsData = [
     blockRange: 1197653,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 26,
+    neighborCount: 412,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -37327,11 +37362,11 @@ export const grantsData = [
       timestamp: 1637888822,
       date: '2021-11-26 01:07:02'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 7860402,
     fileSize: 1328,
     appearanceCount: 166,
-    neighborCount: 393,
+    neighborCount: 883,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -37366,7 +37401,7 @@ export const grantsData = [
     blockRange: 1521822,
     fileSize: 4888,
     appearanceCount: 611,
-    neighborCount: 2072,
+    neighborCount: 6982,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -37397,11 +37432,11 @@ export const grantsData = [
       timestamp: 1634937800,
       date: '2021-10-22 21:23:20'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2587703,
     fileSize: 1448,
     appearanceCount: 181,
-    neighborCount: 489,
+    neighborCount: 964,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -37436,7 +37471,7 @@ export const grantsData = [
     blockRange: 2169458,
     fileSize: 3200,
     appearanceCount: 400,
-    neighborCount: 1619,
+    neighborCount: 6144,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -37471,7 +37506,7 @@ export const grantsData = [
     blockRange: 1855284,
     fileSize: 360,
     appearanceCount: 45,
-    neighborCount: 132,
+    neighborCount: 2642,
     types: 'txs,logs,neighbors',
     logCount: 30,
     matched: 0,
@@ -37506,7 +37541,7 @@ export const grantsData = [
     blockRange: 228262,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 61,
+    neighborCount: 616,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -37514,7 +37549,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.000189
+        balance: 0.000156012842328
       }
     ],
     core: false
@@ -37541,7 +37576,7 @@ export const grantsData = [
     blockRange: 1488664,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 26,
+    neighborCount: 29,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -37572,11 +37607,11 @@ export const grantsData = [
       timestamp: 1637987585,
       date: '2021-11-27 04:33:05'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 7132179,
     fileSize: 10480,
     appearanceCount: 1310,
-    neighborCount: 3304,
+    neighborCount: 1626,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -37607,11 +37642,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 720404,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 17,
+    neighborCount: 593,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -37642,11 +37677,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 720404,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 17,
+    neighborCount: 593,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -37681,7 +37716,7 @@ export const grantsData = [
     blockRange: 2054847,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 24,
+    neighborCount: 276,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -37716,7 +37751,7 @@ export const grantsData = [
     blockRange: 2035598,
     fileSize: 616,
     appearanceCount: 77,
-    neighborCount: 221,
+    neighborCount: 293,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -37751,7 +37786,7 @@ export const grantsData = [
     blockRange: 7065723,
     fileSize: 9400,
     appearanceCount: 1175,
-    neighborCount: 14196,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -37759,7 +37794,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 2.7400922815506528
+        balance: 2.6857408231254283
       }
     ],
     core: false
@@ -37782,11 +37817,11 @@ export const grantsData = [
       timestamp: 1636426306,
       date: '2021-11-09 02:51:46'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 9341195,
     fileSize: 760,
     appearanceCount: 95,
-    neighborCount: 320,
+    neighborCount: 3198,
     types: 'txs,logs,neighbors',
     logCount: 23,
     matched: 0,
@@ -37817,11 +37852,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1493323,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 18,
+    neighborCount: 851,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -37856,7 +37891,7 @@ export const grantsData = [
     blockRange: 1492378,
     fileSize: 912,
     appearanceCount: 114,
-    neighborCount: 408,
+    neighborCount: 7662,
     types: 'txs,logs,neighbors',
     logCount: 100,
     matched: 0,
@@ -37882,16 +37917,16 @@ export const grantsData = [
       date: '2020-12-17 02:46:17'
     },
     latestAppearance: {
-      bn: 13503940,
-      txId: 132,
-      timestamp: 1635400138,
-      date: '2021-10-28 05:48:58'
+      bn: 13728930,
+      txId: 288,
+      timestamp: 1638470038,
+      date: '2021-12-02 18:33:58'
     },
-    lastUpdated: 13711342,
-    blockRange: 2035920,
-    fileSize: 1448,
-    appearanceCount: 181,
-    neighborCount: 466,
+    lastUpdated: 13749516,
+    blockRange: 2260910,
+    fileSize: 1456,
+    appearanceCount: 182,
+    neighborCount: 2007,
     types: 'txs,logs,neighbors',
     logCount: 34,
     matched: 0,
@@ -37926,7 +37961,7 @@ export const grantsData = [
     blockRange: 1855685,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 35,
+    neighborCount: 795,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -37957,11 +37992,11 @@ export const grantsData = [
       timestamp: 1629480537,
       date: '2021-08-20 17:28:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2136516,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 70,
+    neighborCount: 1441,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -37992,11 +38027,11 @@ export const grantsData = [
       timestamp: 1636318739,
       date: '2021-11-07 20:58:59'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2650398,
     fileSize: 1248,
     appearanceCount: 156,
-    neighborCount: 423,
+    neighborCount: 2133,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -38031,7 +38066,7 @@ export const grantsData = [
     blockRange: 2091942,
     fileSize: 616,
     appearanceCount: 77,
-    neighborCount: 254,
+    neighborCount: 3883,
     types: 'txs,logs,neighbors',
     logCount: 58,
     matched: 0,
@@ -38062,11 +38097,11 @@ export const grantsData = [
       timestamp: 1635512183,
       date: '2021-10-29 12:56:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1834016,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 36,
+    neighborCount: 1602,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38101,7 +38136,7 @@ export const grantsData = [
     blockRange: 1356392,
     fileSize: 552,
     appearanceCount: 69,
-    neighborCount: 204,
+    neighborCount: 2171,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -38136,7 +38171,7 @@ export const grantsData = [
     blockRange: 3299480,
     fileSize: 288,
     appearanceCount: 36,
-    neighborCount: 81,
+    neighborCount: 180,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38206,9 +38241,9 @@ export const grantsData = [
     blockRange: 2148,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 9,
+    neighborCount: 47,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 1,
     matched: 0,
     claimed: 0,
     balances: [
@@ -38237,11 +38272,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38276,7 +38311,7 @@ export const grantsData = [
     blockRange: 1023226,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 30,
+    neighborCount: 43,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38307,11 +38342,11 @@ export const grantsData = [
       timestamp: 1622859841,
       date: '2021-06-05 02:24:01'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2810466,
     fileSize: 4352,
     appearanceCount: 544,
-    neighborCount: 3465,
+    neighborCount: 4819,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -38337,16 +38372,16 @@ export const grantsData = [
       date: '2020-04-26 19:04:54'
     },
     latestAppearance: {
-      bn: 13701000,
-      txId: 57,
-      timestamp: 1638083560,
-      date: '2021-11-28 07:12:40'
+      bn: 13722479,
+      txId: 313,
+      timestamp: 1638381341,
+      date: '2021-12-01 17:55:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 3751094,
-    fileSize: 2800,
-    appearanceCount: 350,
-    neighborCount: 1078,
+    lastUpdated: 13749516,
+    blockRange: 3772573,
+    fileSize: 2816,
+    appearanceCount: 352,
+    neighborCount: 9452,
     types: 'txs,logs,neighbors',
     logCount: 84,
     matched: 0,
@@ -38354,7 +38389,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.061434076482168594
+        balance: 0.000787954846704591
       }
     ],
     core: false
@@ -38381,7 +38416,7 @@ export const grantsData = [
     blockRange: 3132606,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 46,
+    neighborCount: 301,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38412,11 +38447,11 @@ export const grantsData = [
       timestamp: 1617486298,
       date: '2021-04-03 21:44:58'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 551583,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 7,
+    neighborCount: 256,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38451,7 +38486,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38486,7 +38521,7 @@ export const grantsData = [
     blockRange: 510955,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 20,
+    neighborCount: 311,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38521,7 +38556,7 @@ export const grantsData = [
     blockRange: 1787364,
     fileSize: 432,
     appearanceCount: 54,
-    neighborCount: 241,
+    neighborCount: 1623,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38556,7 +38591,7 @@ export const grantsData = [
     blockRange: 1416870,
     fileSize: 120,
     appearanceCount: 15,
-    neighborCount: 47,
+    neighborCount: 593,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -38591,7 +38626,7 @@ export const grantsData = [
     blockRange: 748838,
     fileSize: 376,
     appearanceCount: 47,
-    neighborCount: 141,
+    neighborCount: 357,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38617,16 +38652,16 @@ export const grantsData = [
       date: '2021-04-15 09:35:18'
     },
     latestAppearance: {
-      bn: 13682096,
-      txId: 69,
-      timestamp: 1637824295,
-      date: '2021-11-25 07:11:35'
+      bn: 13720006,
+      txId: 224,
+      timestamp: 1638347175,
+      date: '2021-12-01 08:26:15'
     },
-    lastUpdated: 13711342,
-    blockRange: 1438242,
-    fileSize: 80,
-    appearanceCount: 10,
-    neighborCount: 26,
+    lastUpdated: 13749516,
+    blockRange: 1476152,
+    fileSize: 88,
+    appearanceCount: 11,
+    neighborCount: 530,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38657,11 +38692,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2895837,
     fileSize: 688,
     appearanceCount: 86,
-    neighborCount: 362,
+    neighborCount: 5604,
     types: 'txs,logs,neighbors',
     logCount: 45,
     matched: 0,
@@ -38692,11 +38727,11 @@ export const grantsData = [
       timestamp: 1638188952,
       date: '2021-11-29 12:29:12'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2304548,
     fileSize: 3024,
     appearanceCount: 378,
-    neighborCount: 1037,
+    neighborCount: 4053,
     types: 'txs,logs,neighbors',
     logCount: 23,
     matched: 0,
@@ -38731,7 +38766,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38766,7 +38801,7 @@ export const grantsData = [
     blockRange: 1043473,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 106,
+    neighborCount: 2522,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -38801,7 +38836,7 @@ export const grantsData = [
     blockRange: 748838,
     fileSize: 376,
     appearanceCount: 47,
-    neighborCount: 141,
+    neighborCount: 357,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38832,11 +38867,11 @@ export const grantsData = [
       timestamp: 1632302072,
       date: '2021-09-22 09:14:32'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3630943,
     fileSize: 320,
     appearanceCount: 40,
-    neighborCount: 115,
+    neighborCount: 2073,
     types: 'txs,logs,neighbors',
     logCount: 25,
     matched: 0,
@@ -38862,16 +38897,16 @@ export const grantsData = [
       date: '2020-07-21 03:10:10'
     },
     latestAppearance: {
-      bn: 13711269,
-      txId: 200,
-      timestamp: 1638225954,
-      date: '2021-11-29 22:45:54'
+      bn: 13749469,
+      txId: 188,
+      timestamp: 1638755261,
+      date: '2021-12-06 01:47:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 3210968,
-    fileSize: 65648,
-    appearanceCount: 8206,
-    neighborCount: 106191,
+    lastUpdated: 13749516,
+    blockRange: 3249168,
+    fileSize: 67496,
+    appearanceCount: 8437,
+    neighborCount: 151041,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -38906,7 +38941,7 @@ export const grantsData = [
     blockRange: 1790373,
     fileSize: 2808,
     appearanceCount: 351,
-    neighborCount: 1305,
+    neighborCount: 8314,
     types: 'txs,logs,neighbors',
     logCount: 209,
     matched: 0,
@@ -38941,7 +38976,7 @@ export const grantsData = [
     blockRange: 1065349,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 11,
+    neighborCount: 12,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -38972,11 +39007,11 @@ export const grantsData = [
       timestamp: 1614127744,
       date: '2021-02-24 00:49:04'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 12,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -39007,11 +39042,11 @@ export const grantsData = [
       timestamp: 1632790907,
       date: '2021-09-28 01:01:47'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3092406,
     fileSize: 1000,
     appearanceCount: 125,
-    neighborCount: 389,
+    neighborCount: 1874,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -39019,7 +39054,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.07431475203844436
+        balance: 0.05937870906153869
       }
     ],
     core: false
@@ -39042,11 +39077,11 @@ export const grantsData = [
       timestamp: 1622176440,
       date: '2021-05-28 04:34:00'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 846095,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 7,
+    neighborCount: 256,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -39077,11 +39112,11 @@ export const grantsData = [
       timestamp: 1630441965,
       date: '2021-08-31 20:32:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1055133,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 21,
+    neighborCount: 282,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -39112,11 +39147,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 7079292,
     fileSize: 120,
     appearanceCount: 15,
-    neighborCount: 57,
+    neighborCount: 301,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -39147,11 +39182,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1487314,
     fileSize: 1512,
     appearanceCount: 189,
-    neighborCount: 621,
+    neighborCount: 8798,
     types: 'txs,logs,neighbors',
     logCount: 173,
     matched: 0,
@@ -39177,16 +39212,16 @@ export const grantsData = [
       date: '2020-12-17 02:46:17'
     },
     latestAppearance: {
-      bn: 13503940,
-      txId: 132,
-      timestamp: 1635400138,
-      date: '2021-10-28 05:48:58'
+      bn: 13728930,
+      txId: 288,
+      timestamp: 1638470038,
+      date: '2021-12-02 18:33:58'
     },
-    lastUpdated: 13711342,
-    blockRange: 2035920,
-    fileSize: 1448,
-    appearanceCount: 181,
-    neighborCount: 466,
+    lastUpdated: 13749516,
+    blockRange: 2260910,
+    fileSize: 1456,
+    appearanceCount: 182,
+    neighborCount: 2007,
     types: 'txs,logs,neighbors',
     logCount: 34,
     matched: 0,
@@ -39252,11 +39287,11 @@ export const grantsData = [
       timestamp: 1615152162,
       date: '2021-03-07 21:22:42'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 7527931,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 42,
+    neighborCount: 33,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -39291,7 +39326,7 @@ export const grantsData = [
     blockRange: 1793329,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 48,
+    neighborCount: 1044,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -39317,16 +39352,16 @@ export const grantsData = [
       date: '2021-01-24 13:55:05'
     },
     latestAppearance: {
-      bn: 13683301,
-      txId: 105,
-      timestamp: 1637841176,
-      date: '2021-11-25 11:52:56'
+      bn: 13746179,
+      txId: 92,
+      timestamp: 1638708555,
+      date: '2021-12-05 12:49:15'
     },
-    lastUpdated: 13711342,
-    blockRange: 1964596,
-    fileSize: 1608,
-    appearanceCount: 201,
-    neighborCount: 729,
+    lastUpdated: 13749516,
+    blockRange: 2027474,
+    fileSize: 1648,
+    appearanceCount: 206,
+    neighborCount: 4394,
     types: 'txs,logs,neighbors',
     logCount: 163,
     matched: 0,
@@ -39334,7 +39369,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.04679674240784887
+        balance: 0.047396742407848864
       }
     ],
     core: false
@@ -39361,7 +39396,7 @@ export const grantsData = [
     blockRange: 1783871,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 48,
+    neighborCount: 2231,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -39387,18 +39422,18 @@ export const grantsData = [
       date: '2020-12-10 21:52:45'
     },
     latestAppearance: {
-      bn: 12915825,
-      txId: 45,
-      timestamp: 1627494773,
-      date: '2021-07-28 17:52:53'
+      bn: 13732242,
+      txId: 237,
+      timestamp: 1638516173,
+      date: '2021-12-03 07:22:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 1488099,
-    fileSize: 552,
-    appearanceCount: 69,
-    neighborCount: 171,
+    lastUpdated: 13749516,
+    blockRange: 2304516,
+    fileSize: 568,
+    appearanceCount: 71,
+    neighborCount: 2288,
     types: 'txs,logs,neighbors',
-    logCount: 13,
+    logCount: 15,
     matched: 0,
     claimed: 0,
     balances: [
@@ -39427,11 +39462,11 @@ export const grantsData = [
       timestamp: 1638034967,
       date: '2021-11-27 17:42:47'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1535211,
     fileSize: 320,
     appearanceCount: 40,
-    neighborCount: 117,
+    neighborCount: 1002,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -39466,7 +39501,7 @@ export const grantsData = [
     blockRange: 1306800,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 37,
+    neighborCount: 304,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -39501,7 +39536,7 @@ export const grantsData = [
     blockRange: 3770407,
     fileSize: 632,
     appearanceCount: 79,
-    neighborCount: 272,
+    neighborCount: 5347,
     types: 'txs,logs,neighbors',
     logCount: 60,
     matched: 0,
@@ -39536,7 +39571,7 @@ export const grantsData = [
     blockRange: 1315457,
     fileSize: 1240,
     appearanceCount: 155,
-    neighborCount: 414,
+    neighborCount: 3490,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -39571,7 +39606,7 @@ export const grantsData = [
     blockRange: 3833950,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 87,
+    neighborCount: 3111,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -39606,7 +39641,7 @@ export const grantsData = [
     blockRange: 2921325,
     fileSize: 2520,
     appearanceCount: 315,
-    neighborCount: 864,
+    neighborCount: 2649,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -39614,7 +39649,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.05446298881749504
+        balance: 0.049444776517758915
       }
     ],
     core: false
@@ -39641,7 +39676,7 @@ export const grantsData = [
     blockRange: 1585454,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 65,
+    neighborCount: 593,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -39672,11 +39707,11 @@ export const grantsData = [
       timestamp: 1626630203,
       date: '2021-07-18 17:43:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 689779,
     fileSize: 168,
     appearanceCount: 21,
-    neighborCount: 78,
+    neighborCount: 2294,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -39711,7 +39746,7 @@ export const grantsData = [
     blockRange: 910790,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 14,
+    neighborCount: 23,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -39746,7 +39781,7 @@ export const grantsData = [
     blockRange: 808847,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 12,
+    neighborCount: 262,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -39781,7 +39816,7 @@ export const grantsData = [
     blockRange: 1462972,
     fileSize: 1512,
     appearanceCount: 189,
-    neighborCount: 804,
+    neighborCount: 1796,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -39789,7 +39824,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 32.64909547450246
+        balance: 32.86228147450246
       }
     ],
     core: false
@@ -39816,7 +39851,7 @@ export const grantsData = [
     blockRange: 9454064,
     fileSize: 2272,
     appearanceCount: 284,
-    neighborCount: 825,
+    neighborCount: 2467,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -39847,11 +39882,11 @@ export const grantsData = [
       timestamp: 1637743315,
       date: '2021-11-24 08:41:55'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2095569,
     fileSize: 272,
     appearanceCount: 34,
-    neighborCount: 93,
+    neighborCount: 2510,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -39882,11 +39917,11 @@ export const grantsData = [
       timestamp: 1637467218,
       date: '2021-11-21 04:00:18'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1882090,
     fileSize: 360,
     appearanceCount: 45,
-    neighborCount: 110,
+    neighborCount: 1851,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -39921,7 +39956,7 @@ export const grantsData = [
     blockRange: 1711660,
     fileSize: 472,
     appearanceCount: 59,
-    neighborCount: 199,
+    neighborCount: 4702,
     types: 'txs,logs,neighbors',
     logCount: 48,
     matched: 0,
@@ -39952,11 +39987,11 @@ export const grantsData = [
       timestamp: 1633838166,
       date: '2021-10-10 03:56:06'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1836865,
     fileSize: 808,
     appearanceCount: 101,
-    neighborCount: 414,
+    neighborCount: 971,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -39982,16 +40017,16 @@ export const grantsData = [
       date: '2021-03-21 14:42:15'
     },
     latestAppearance: {
-      bn: 13503897,
-      txId: 141,
-      timestamp: 1635399477,
-      date: '2021-10-28 05:37:57'
+      bn: 13748233,
+      txId: 275,
+      timestamp: 1638737635,
+      date: '2021-12-05 20:53:55'
     },
-    lastUpdated: 13711342,
-    blockRange: 1421167,
-    fileSize: 336,
-    appearanceCount: 42,
-    neighborCount: 151,
+    lastUpdated: 13749516,
+    blockRange: 1665503,
+    fileSize: 344,
+    appearanceCount: 43,
+    neighborCount: 2710,
     types: 'txs,logs,neighbors',
     logCount: 25,
     matched: 0,
@@ -40022,11 +40057,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5082606,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 47,
+    neighborCount: 1296,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -40061,7 +40096,7 @@ export const grantsData = [
     blockRange: 892154,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 10,
+    neighborCount: 13,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -40092,11 +40127,11 @@ export const grantsData = [
       timestamp: 1637702958,
       date: '2021-11-23 21:29:18'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2754268,
     fileSize: 384,
     appearanceCount: 48,
-    neighborCount: 126,
+    neighborCount: 2268,
     types: 'txs,logs,neighbors',
     logCount: 19,
     matched: 0,
@@ -40127,11 +40162,11 @@ export const grantsData = [
       timestamp: 1614127744,
       date: '2021-02-24 00:49:04'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3613397,
     fileSize: 576,
     appearanceCount: 72,
-    neighborCount: 173,
+    neighborCount: 212,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -40166,7 +40201,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -40197,11 +40232,11 @@ export const grantsData = [
       timestamp: 1616560015,
       date: '2021-03-24 04:26:55'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 224599,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 8,
+    neighborCount: 26,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -40236,7 +40271,7 @@ export const grantsData = [
     blockRange: 1795027,
     fileSize: 1096,
     appearanceCount: 137,
-    neighborCount: 390,
+    neighborCount: 736,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -40267,11 +40302,11 @@ export const grantsData = [
       timestamp: 1636861124,
       date: '2021-11-14 03:38:44'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 12025768,
     fileSize: 5880,
     appearanceCount: 735,
-    neighborCount: 3454,
+    neighborCount: 7369,
     types: 'txs,logs,neighbors',
     logCount: 28,
     matched: 0,
@@ -40279,7 +40314,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.003786142624219294
+        balance: 0.2037861426242193
       }
     ],
     core: false
@@ -40306,7 +40341,7 @@ export const grantsData = [
     blockRange: 2283546,
     fileSize: 640,
     appearanceCount: 80,
-    neighborCount: 226,
+    neighborCount: 826,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -40341,7 +40376,7 @@ export const grantsData = [
     blockRange: 1586126,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 40,
+    neighborCount: 913,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -40367,16 +40402,16 @@ export const grantsData = [
       date: '2021-09-02 23:02:33'
     },
     latestAppearance: {
-      bn: 13701491,
-      txId: 46,
-      timestamp: 1638090416,
-      date: '2021-11-28 09:06:56'
+      bn: 13741961,
+      txId: 308,
+      timestamp: 1638650901,
+      date: '2021-12-04 20:48:21'
     },
-    lastUpdated: 13711342,
-    blockRange: 552335,
-    fileSize: 1512,
-    appearanceCount: 189,
-    neighborCount: 695,
+    lastUpdated: 13749516,
+    blockRange: 592805,
+    fileSize: 1576,
+    appearanceCount: 197,
+    neighborCount: 3857,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -40384,7 +40419,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.723840405135754
+        balance: 3.692181405135754
       }
     ],
     core: false
@@ -40407,11 +40442,11 @@ export const grantsData = [
       timestamp: 1631447458,
       date: '2021-09-12 11:50:58'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1290362,
     fileSize: 448,
     appearanceCount: 56,
-    neighborCount: 154,
+    neighborCount: 311,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -40437,16 +40472,16 @@ export const grantsData = [
       date: '2021-03-07 06:56:47'
     },
     latestAppearance: {
-      bn: 13665904,
-      txId: 76,
-      timestamp: 1637603502,
-      date: '2021-11-22 17:51:42'
+      bn: 13716037,
+      txId: 152,
+      timestamp: 1638292617,
+      date: '2021-11-30 17:16:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 1676052,
-    fileSize: 1120,
-    appearanceCount: 140,
-    neighborCount: 453,
+    lastUpdated: 13749516,
+    blockRange: 1726185,
+    fileSize: 1128,
+    appearanceCount: 141,
+    neighborCount: 1955,
     types: 'txs,logs,neighbors',
     logCount: 34,
     matched: 0,
@@ -40472,16 +40507,16 @@ export const grantsData = [
       date: '2021-06-16 22:10:44'
     },
     latestAppearance: {
-      bn: 13503893,
-      txId: 97,
-      timestamp: 1635399413,
-      date: '2021-10-28 05:36:53'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 855810,
-    fileSize: 1856,
-    appearanceCount: 232,
-    neighborCount: 842,
+    lastUpdated: 13749516,
+    blockRange: 1077903,
+    fileSize: 1880,
+    appearanceCount: 235,
+    neighborCount: 10649,
     types: 'txs,logs,neighbors',
     logCount: 223,
     matched: 0,
@@ -40516,7 +40551,7 @@ export const grantsData = [
     blockRange: 286830,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 23,
+    neighborCount: 722,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -40547,11 +40582,11 @@ export const grantsData = [
       timestamp: 1636457324,
       date: '2021-11-09 11:28:44'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1566342,
     fileSize: 208,
     appearanceCount: 26,
-    neighborCount: 89,
+    neighborCount: 425,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -40582,11 +40617,11 @@ export const grantsData = [
       timestamp: 1617394821,
       date: '2021-04-02 20:20:21'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 94564,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 12,
+    neighborCount: 326,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -40621,7 +40656,7 @@ export const grantsData = [
     blockRange: 2597328,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 67,
+    neighborCount: 477,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -40656,7 +40691,7 @@ export const grantsData = [
     blockRange: 1675341,
     fileSize: 4664,
     appearanceCount: 583,
-    neighborCount: 2510,
+    neighborCount: 6039,
     types: 'txs,logs,neighbors',
     logCount: 75,
     matched: 0,
@@ -40691,7 +40726,7 @@ export const grantsData = [
     blockRange: 757382,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 30,
+    neighborCount: 341,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -40726,7 +40761,7 @@ export const grantsData = [
     blockRange: 1206653,
     fileSize: 184,
     appearanceCount: 23,
-    neighborCount: 76,
+    neighborCount: 416,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -40761,7 +40796,7 @@ export const grantsData = [
     blockRange: 195332,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 17,
+    neighborCount: 304,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -40792,11 +40827,11 @@ export const grantsData = [
       timestamp: 1637988057,
       date: '2021-11-27 04:40:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1045891,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 34,
+    neighborCount: 38,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -40831,7 +40866,7 @@ export const grantsData = [
     blockRange: 733178,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 7,
+    neighborCount: 133,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -40840,6 +40875,41 @@ export const grantsData = [
       {
         asset: 'ETH',
         balance: 0.001715334881743617
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 2026,
+    'active': true,
+    address: '0xf190018bb2c96891dd8fcf4e23e8646642fc462d',
+    name: 'Bump Galaxy - Mental Healthcare Metaverse',
+    slug: 'https://gitcoin.co/grants/2026/bump-galaxy-mental-healthcare-metaverse',
+    firstAppearance: {
+      bn: 13728466,
+      txId: 227,
+      timestamp: 1638463520,
+      date: '2021-12-02 16:45:20'
+    },
+    latestAppearance: {
+      bn: 13728910,
+      txId: 167,
+      timestamp: 1638469758,
+      date: '2021-12-02 18:29:18'
+    },
+    lastUpdated: 13749516,
+    blockRange: 445,
+    fileSize: 72,
+    appearanceCount: 9,
+    neighborCount: 38,
+    types: 'txs,logs,neighbors',
+    logCount: 0,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.4359249007969958
       }
     ],
     core: false
@@ -40866,7 +40936,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -40901,7 +40971,7 @@ export const grantsData = [
     blockRange: 435156,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 40,
+    neighborCount: 563,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -40932,7 +41002,7 @@ export const grantsData = [
       timestamp: 1638080413,
       date: '2021-11-28 06:20:13'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
@@ -40967,11 +41037,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1481164,
     fileSize: 168,
     appearanceCount: 21,
-    neighborCount: 72,
+    neighborCount: 1297,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -40997,16 +41067,16 @@ export const grantsData = [
       date: '2021-06-13 05:42:11'
     },
     latestAppearance: {
-      bn: 13635876,
-      txId: 93,
-      timestamp: 1637191626,
-      date: '2021-11-17 23:27:06'
+      bn: 13712892,
+      txId: 114,
+      timestamp: 1638248359,
+      date: '2021-11-30 04:59:19'
     },
-    lastUpdated: 13711342,
-    blockRange: 1011583,
-    fileSize: 760,
-    appearanceCount: 95,
-    neighborCount: 394,
+    lastUpdated: 13749516,
+    blockRange: 1088599,
+    fileSize: 768,
+    appearanceCount: 96,
+    neighborCount: 3633,
     types: 'txs,logs,neighbors',
     logCount: 63,
     matched: 0,
@@ -41037,11 +41107,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41076,7 +41146,7 @@ export const grantsData = [
     blockRange: 2101160,
     fileSize: 400,
     appearanceCount: 50,
-    neighborCount: 136,
+    neighborCount: 1626,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -41111,7 +41181,7 @@ export const grantsData = [
     blockRange: 748838,
     fileSize: 376,
     appearanceCount: 47,
-    neighborCount: 141,
+    neighborCount: 357,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41142,11 +41212,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 753589,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 12,
+    neighborCount: 1361,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -41172,16 +41242,16 @@ export const grantsData = [
       date: '2021-11-08 00:50:04'
     },
     latestAppearance: {
-      bn: 13696283,
-      txId: 364,
-      timestamp: 1638019068,
-      date: '2021-11-27 13:17:48'
+      bn: 13746291,
+      txId: 229,
+      timestamp: 1638710279,
+      date: '2021-12-05 13:17:59'
     },
-    lastUpdated: 13711342,
-    blockRange: 123559,
-    fileSize: 536,
-    appearanceCount: 67,
-    neighborCount: 287,
+    lastUpdated: 13749516,
+    blockRange: 173567,
+    fileSize: 560,
+    appearanceCount: 70,
+    neighborCount: 1349,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41189,7 +41259,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.106419417861458
+        balance: 3.2147123075879387
       }
     ],
     core: false
@@ -41212,11 +41282,11 @@ export const grantsData = [
       timestamp: 1638057052,
       date: '2021-11-27 23:50:52'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 24100,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 12,
+    neighborCount: 14,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41251,7 +41321,7 @@ export const grantsData = [
     blockRange: 753589,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 15,
+    neighborCount: 1365,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -41282,11 +41352,11 @@ export const grantsData = [
       timestamp: 1638173022,
       date: '2021-11-29 08:03:42'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 174883,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 51,
+    neighborCount: 231,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41317,11 +41387,11 @@ export const grantsData = [
       timestamp: 1636662099,
       date: '2021-11-11 20:21:39'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4094,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 14,
+    neighborCount: 20,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41352,11 +41422,11 @@ export const grantsData = [
       timestamp: 1636726325,
       date: '2021-11-12 14:12:05'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1937666,
     fileSize: 456,
     appearanceCount: 57,
-    neighborCount: 207,
+    neighborCount: 2426,
     types: 'txs,logs,neighbors',
     logCount: 36,
     matched: 0,
@@ -41364,7 +41434,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 2.382536373142961
+        balance: 3.2621078851647756
       }
     ],
     core: false
@@ -41387,11 +41457,11 @@ export const grantsData = [
       timestamp: 1638180520,
       date: '2021-11-29 10:08:40'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 222461,
     fileSize: 216,
     appearanceCount: 27,
-    neighborCount: 80,
+    neighborCount: 311,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41422,11 +41492,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 195332,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 10,
+    neighborCount: 263,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -41461,7 +41531,7 @@ export const grantsData = [
     blockRange: 994013,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 73,
+    neighborCount: 2569,
     types: 'txs,logs,neighbors',
     logCount: 14,
     matched: 0,
@@ -41487,16 +41557,16 @@ export const grantsData = [
       date: '2021-03-02 01:09:16'
     },
     latestAppearance: {
-      bn: 13697070,
-      txId: 289,
-      timestamp: 1638030251,
-      date: '2021-11-27 16:24:11'
+      bn: 13729082,
+      txId: 215,
+      timestamp: 1638472259,
+      date: '2021-12-02 19:10:59'
     },
-    lastUpdated: 13711342,
-    blockRange: 1741309,
-    fileSize: 4552,
-    appearanceCount: 569,
-    neighborCount: 2035,
+    lastUpdated: 13749516,
+    blockRange: 1773321,
+    fileSize: 4568,
+    appearanceCount: 571,
+    neighborCount: 8673,
     types: 'txs,logs,neighbors',
     logCount: 481,
     matched: 0,
@@ -41531,7 +41601,7 @@ export const grantsData = [
     blockRange: 488000,
     fileSize: 216,
     appearanceCount: 27,
-    neighborCount: 116,
+    neighborCount: 1352,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41562,11 +41632,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1681887,
     fileSize: 456,
     appearanceCount: 57,
-    neighborCount: 317,
+    neighborCount: 4749,
     types: 'txs,logs,neighbors',
     logCount: 30,
     matched: 0,
@@ -41592,16 +41662,16 @@ export const grantsData = [
       date: '2021-09-30 04:36:52'
     },
     latestAppearance: {
-      bn: 13697116,
-      txId: 58,
-      timestamp: 1638030751,
-      date: '2021-11-27 16:32:31'
+      bn: 13723784,
+      txId: 34,
+      timestamp: 1638398977,
+      date: '2021-12-01 22:49:37'
     },
-    lastUpdated: 13711342,
-    blockRange: 372143,
-    fileSize: 56,
-    appearanceCount: 7,
-    neighborCount: 23,
+    lastUpdated: 13749516,
+    blockRange: 398811,
+    fileSize: 64,
+    appearanceCount: 8,
+    neighborCount: 542,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -41632,11 +41702,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1341661,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 756,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41667,11 +41737,11 @@ export const grantsData = [
       timestamp: 1632302072,
       date: '2021-09-22 09:14:32'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3630943,
     fileSize: 320,
     appearanceCount: 40,
-    neighborCount: 115,
+    neighborCount: 2073,
     types: 'txs,logs,neighbors',
     logCount: 25,
     matched: 0,
@@ -41702,11 +41772,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41737,11 +41807,11 @@ export const grantsData = [
       timestamp: 1636587783,
       date: '2021-11-10 23:43:03'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1561304,
     fileSize: 248,
     appearanceCount: 31,
-    neighborCount: 96,
+    neighborCount: 2021,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -41772,11 +41842,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5134245,
     fileSize: 1544,
     appearanceCount: 193,
-    neighborCount: 662,
+    neighborCount: 6920,
     types: 'txs,logs,neighbors',
     logCount: 127,
     matched: 0,
@@ -41811,7 +41881,7 @@ export const grantsData = [
     blockRange: 774661,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 39,
+    neighborCount: 1206,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -41842,7 +41912,7 @@ export const grantsData = [
       timestamp: 1619587154,
       date: '2021-04-28 05:19:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4,
     fileSize: 16,
     appearanceCount: 2,
@@ -41881,7 +41951,7 @@ export const grantsData = [
     blockRange: 2294991,
     fileSize: 176,
     appearanceCount: 22,
-    neighborCount: 61,
+    neighborCount: 2361,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -41912,11 +41982,11 @@ export const grantsData = [
       timestamp: 1629303639,
       date: '2021-08-18 16:20:39'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8751628,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 59,
+    neighborCount: 1601,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41947,11 +42017,11 @@ export const grantsData = [
       timestamp: 1629303639,
       date: '2021-08-18 16:20:39'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8751628,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 59,
+    neighborCount: 1601,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -41986,7 +42056,7 @@ export const grantsData = [
     blockRange: 680624,
     fileSize: 224,
     appearanceCount: 28,
-    neighborCount: 92,
+    neighborCount: 1007,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -42021,7 +42091,7 @@ export const grantsData = [
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42056,7 +42126,7 @@ export const grantsData = [
     blockRange: 1448942,
     fileSize: 616,
     appearanceCount: 77,
-    neighborCount: 248,
+    neighborCount: 3539,
     types: 'txs,logs,neighbors',
     logCount: 41,
     matched: 0,
@@ -42091,7 +42161,7 @@ export const grantsData = [
     blockRange: 711065,
     fileSize: 240,
     appearanceCount: 30,
-    neighborCount: 118,
+    neighborCount: 1104,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -42126,7 +42196,7 @@ export const grantsData = [
     blockRange: 1448942,
     fileSize: 616,
     appearanceCount: 77,
-    neighborCount: 248,
+    neighborCount: 3539,
     types: 'txs,logs,neighbors',
     logCount: 41,
     matched: 0,
@@ -42161,7 +42231,7 @@ export const grantsData = [
     blockRange: 2127861,
     fileSize: 352,
     appearanceCount: 44,
-    neighborCount: 197,
+    neighborCount: 2101,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -42192,11 +42262,11 @@ export const grantsData = [
       timestamp: 1636976125,
       date: '2021-11-15 11:35:25'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3019338,
     fileSize: 1464,
     appearanceCount: 183,
-    neighborCount: 508,
+    neighborCount: 924,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42227,11 +42297,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1341657,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 41,
+    neighborCount: 2056,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -42266,7 +42336,7 @@ export const grantsData = [
     blockRange: 288097,
     fileSize: 280,
     appearanceCount: 35,
-    neighborCount: 106,
+    neighborCount: 2117,
     types: 'txs,logs,neighbors',
     logCount: 32,
     matched: 0,
@@ -42301,7 +42371,7 @@ export const grantsData = [
     blockRange: 198784,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 52,
+    neighborCount: 330,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42336,7 +42406,7 @@ export const grantsData = [
     blockRange: 644906,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 49,
+    neighborCount: 59,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42371,7 +42441,7 @@ export const grantsData = [
     blockRange: 561793,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 21,
+    neighborCount: 86,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -42406,7 +42476,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42441,7 +42511,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 4,
+    neighborCount: 237,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -42502,16 +42572,16 @@ export const grantsData = [
       date: '2021-09-18 05:38:48'
     },
     latestAppearance: {
-      bn: 13705944,
-      txId: 275,
-      timestamp: 1638151700,
-      date: '2021-11-29 02:08:20'
+      bn: 13729227,
+      txId: 87,
+      timestamp: 1638474194,
+      date: '2021-12-02 19:43:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 458104,
-    fileSize: 760,
-    appearanceCount: 95,
-    neighborCount: 301,
+    lastUpdated: 13749516,
+    blockRange: 481387,
+    fileSize: 856,
+    appearanceCount: 107,
+    neighborCount: 426,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42542,11 +42612,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1437047,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 24,
+    neighborCount: 1666,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -42577,11 +42647,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 199571,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 19,
+    neighborCount: 529,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42616,7 +42686,7 @@ export const grantsData = [
     blockRange: 363,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 4,
+    neighborCount: 6,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42651,7 +42721,7 @@ export const grantsData = [
     blockRange: 1186042,
     fileSize: 800,
     appearanceCount: 100,
-    neighborCount: 326,
+    neighborCount: 2941,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -42686,7 +42756,7 @@ export const grantsData = [
     blockRange: 3354089,
     fileSize: 1152,
     appearanceCount: 144,
-    neighborCount: 469,
+    neighborCount: 5137,
     types: 'txs,logs,neighbors',
     logCount: 82,
     matched: 0,
@@ -42721,7 +42791,7 @@ export const grantsData = [
     blockRange: 775460,
     fileSize: 400,
     appearanceCount: 50,
-    neighborCount: 202,
+    neighborCount: 1465,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42752,11 +42822,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 854188,
     fileSize: 232,
     appearanceCount: 29,
-    neighborCount: 107,
+    neighborCount: 1179,
     types: 'txs,logs,neighbors',
     logCount: 22,
     matched: 0,
@@ -42817,16 +42887,16 @@ export const grantsData = [
       date: '2020-08-05 18:47:23'
     },
     latestAppearance: {
-      bn: 13678627,
-      txId: 236,
-      timestamp: 1637776456,
-      date: '2021-11-24 17:54:16'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 3077182,
-    fileSize: 8864,
-    appearanceCount: 1108,
-    neighborCount: 3955,
+    lastUpdated: 13749516,
+    blockRange: 3131751,
+    fileSize: 8880,
+    appearanceCount: 1110,
+    neighborCount: 23283,
     types: 'txs,logs,neighbors',
     logCount: 266,
     matched: 0,
@@ -42857,11 +42927,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42892,11 +42962,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 517089,
     fileSize: 272,
     appearanceCount: 34,
-    neighborCount: 144,
+    neighborCount: 718,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -42927,11 +42997,11 @@ export const grantsData = [
       timestamp: 1637824477,
       date: '2021-11-25 07:14:37'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2783694,
     fileSize: 7200,
     appearanceCount: 900,
-    neighborCount: 2357,
+    neighborCount: 5663,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42957,16 +43027,16 @@ export const grantsData = [
       date: '2020-07-17 07:58:42'
     },
     latestAppearance: {
-      bn: 13618678,
-      txId: 93,
-      timestamp: 1636956582,
-      date: '2021-11-15 06:09:42'
+      bn: 13718010,
+      txId: 18,
+      timestamp: 1638319572,
+      date: '2021-12-01 00:46:12'
     },
-    lastUpdated: 13711342,
-    blockRange: 3142943,
-    fileSize: 720,
-    appearanceCount: 90,
-    neighborCount: 410,
+    lastUpdated: 13749516,
+    blockRange: 3242275,
+    fileSize: 728,
+    appearanceCount: 91,
+    neighborCount: 733,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -42992,16 +43062,16 @@ export const grantsData = [
       date: '2021-05-04 14:41:32'
     },
     latestAppearance: {
-      bn: 13709999,
-      txId: 1,
-      timestamp: 1638208531,
-      date: '2021-11-29 17:55:31'
+      bn: 13743453,
+      txId: 8,
+      timestamp: 1638672019,
+      date: '2021-12-05 02:40:19'
     },
-    lastUpdated: 13711342,
-    blockRange: 1341627,
-    fileSize: 2464,
-    appearanceCount: 308,
-    neighborCount: 1052,
+    lastUpdated: 13749516,
+    blockRange: 1375081,
+    fileSize: 2536,
+    appearanceCount: 317,
+    neighborCount: 6304,
     types: 'txs,logs,neighbors',
     logCount: 55,
     matched: 0,
@@ -43036,7 +43106,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 796,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -43071,7 +43141,7 @@ export const grantsData = [
     blockRange: 290035,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 67,
+    neighborCount: 34218,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -43079,7 +43149,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.2003034853910749
+        balance: 0.17417102823873465
       }
     ],
     core: false
@@ -43106,7 +43176,7 @@ export const grantsData = [
     blockRange: 3712,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 31,
+    neighborCount: 52,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -43114,7 +43184,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.4815598641032053
+        balance: 1.4788298641032052
       }
     ],
     core: false
@@ -43141,7 +43211,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -43172,11 +43242,11 @@ export const grantsData = [
       timestamp: 1636951909,
       date: '2021-11-15 04:51:49'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1530046,
     fileSize: 584,
     appearanceCount: 73,
-    neighborCount: 289,
+    neighborCount: 2959,
     types: 'txs,logs,neighbors',
     logCount: 29,
     matched: 0,
@@ -43207,11 +43277,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1492812,
     fileSize: 1688,
     appearanceCount: 211,
-    neighborCount: 745,
+    neighborCount: 6990,
     types: 'txs,logs,neighbors',
     logCount: 181,
     matched: 0,
@@ -43246,7 +43316,7 @@ export const grantsData = [
     blockRange: 778706,
     fileSize: 184,
     appearanceCount: 23,
-    neighborCount: 79,
+    neighborCount: 1566,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -43277,11 +43347,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1462690,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 43,
+    neighborCount: 1330,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -43316,7 +43386,7 @@ export const grantsData = [
     blockRange: 1257318,
     fileSize: 240,
     appearanceCount: 30,
-    neighborCount: 109,
+    neighborCount: 2750,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -43351,7 +43421,7 @@ export const grantsData = [
     blockRange: 215771,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 12,
+    neighborCount: 511,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -43377,16 +43447,16 @@ export const grantsData = [
       date: '2020-10-02 23:31:16'
     },
     latestAppearance: {
-      bn: 13709997,
-      txId: 238,
-      timestamp: 1638208497,
-      date: '2021-11-29 17:54:57'
+      bn: 13744628,
+      txId: 105,
+      timestamp: 1638687574,
+      date: '2021-12-05 06:59:34'
     },
-    lastUpdated: 13711342,
-    blockRange: 2730457,
-    fileSize: 61304,
-    appearanceCount: 7663,
-    neighborCount: 29238,
+    lastUpdated: 13749516,
+    blockRange: 2765088,
+    fileSize: 61360,
+    appearanceCount: 7670,
+    neighborCount: 47975,
     types: 'txs,logs,neighbors',
     logCount: 631,
     matched: 0,
@@ -43394,7 +43464,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 9.926678843459442
+        balance: 9.626295308699717
       }
     ],
     core: false
@@ -43421,7 +43491,7 @@ export const grantsData = [
     blockRange: 6349362,
     fileSize: 944,
     appearanceCount: 118,
-    neighborCount: 398,
+    neighborCount: 0,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -43456,7 +43526,7 @@ export const grantsData = [
     blockRange: 1511843,
     fileSize: 816,
     appearanceCount: 102,
-    neighborCount: 361,
+    neighborCount: 1690,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -43491,7 +43561,7 @@ export const grantsData = [
     blockRange: 712727,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 121,
+    neighborCount: 886,
     types: 'txs,logs,neighbors',
     logCount: 24,
     matched: 0,
@@ -43526,7 +43596,7 @@ export const grantsData = [
     blockRange: 893358,
     fileSize: 368,
     appearanceCount: 46,
-    neighborCount: 165,
+    neighborCount: 3452,
     types: 'txs,logs,neighbors',
     logCount: 38,
     matched: 0,
@@ -43561,7 +43631,7 @@ export const grantsData = [
     blockRange: 2255687,
     fileSize: 352,
     appearanceCount: 44,
-    neighborCount: 155,
+    neighborCount: 1233,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -43587,16 +43657,16 @@ export const grantsData = [
       date: '2020-08-29 07:40:57'
     },
     latestAppearance: {
-      bn: 13701430,
-      txId: 341,
-      timestamp: 1638089411,
-      date: '2021-11-28 08:50:11'
+      bn: 13746756,
+      txId: 377,
+      timestamp: 1638716933,
+      date: '2021-12-05 15:08:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 2947084,
-    fileSize: 21720,
-    appearanceCount: 2715,
-    neighborCount: 11360,
+    lastUpdated: 13749516,
+    blockRange: 2992410,
+    fileSize: 21832,
+    appearanceCount: 2729,
+    neighborCount: 49151,
     types: 'txs,logs,neighbors',
     logCount: 1465,
     matched: 0,
@@ -43604,7 +43674,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.364162657607986
+        balance: 0.8414164814307441
       }
     ],
     core: false
@@ -43622,16 +43692,16 @@ export const grantsData = [
       date: '2020-08-29 07:40:57'
     },
     latestAppearance: {
-      bn: 13701430,
-      txId: 341,
-      timestamp: 1638089411,
-      date: '2021-11-28 08:50:11'
+      bn: 13746756,
+      txId: 377,
+      timestamp: 1638716933,
+      date: '2021-12-05 15:08:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 2947084,
-    fileSize: 21720,
-    appearanceCount: 2715,
-    neighborCount: 11360,
+    lastUpdated: 13749516,
+    blockRange: 2992410,
+    fileSize: 21832,
+    appearanceCount: 2729,
+    neighborCount: 49151,
     types: 'txs,logs,neighbors',
     logCount: 1465,
     matched: 0,
@@ -43639,7 +43709,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.364162657607986
+        balance: 0.8414164814307441
       }
     ],
     core: false
@@ -43666,7 +43736,7 @@ export const grantsData = [
     blockRange: 1537300,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 57,
+    neighborCount: 351,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -43692,16 +43762,16 @@ export const grantsData = [
       date: '2021-09-16 09:45:35'
     },
     latestAppearance: {
-      bn: 13710764,
-      txId: 193,
-      timestamp: 1638219075,
-      date: '2021-11-29 20:51:15'
+      bn: 13735567,
+      txId: 35,
+      timestamp: 1638561870,
+      date: '2021-12-03 20:04:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 474730,
-    fileSize: 656,
-    appearanceCount: 82,
-    neighborCount: 1073,
+    lastUpdated: 13749516,
+    blockRange: 499533,
+    fileSize: 680,
+    appearanceCount: 85,
+    neighborCount: 2079,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -43732,11 +43802,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44370,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -43771,7 +43841,7 @@ export const grantsData = [
     blockRange: 511337,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 39,
+    neighborCount: 659,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -43779,7 +43849,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.42683285944972743
+        balance: 0.36265823167392575
       }
     ],
     core: false
@@ -43802,11 +43872,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -43837,11 +43907,11 @@ export const grantsData = [
       timestamp: 1637936760,
       date: '2021-11-26 14:26:00'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 442947,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 69,
+    neighborCount: 76,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -43876,7 +43946,7 @@ export const grantsData = [
     blockRange: 2785881,
     fileSize: 2720,
     appearanceCount: 340,
-    neighborCount: 1418,
+    neighborCount: 4601,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -43884,7 +43954,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.7546793136837179
+        balance: 0.7403673918641867
       }
     ],
     core: false
@@ -43902,16 +43972,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -43919,7 +43989,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -43946,7 +44016,7 @@ export const grantsData = [
     blockRange: 229758,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 38,
+    neighborCount: 546,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -43981,7 +44051,7 @@ export const grantsData = [
     blockRange: 808847,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 12,
+    neighborCount: 262,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44012,11 +44082,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1480214,
     fileSize: 1160,
     appearanceCount: 145,
-    neighborCount: 487,
+    neighborCount: 7389,
     types: 'txs,logs,neighbors',
     logCount: 128,
     matched: 0,
@@ -44051,7 +44121,7 @@ export const grantsData = [
     blockRange: 11333,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 27,
+    neighborCount: 92,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44059,7 +44129,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.8943348760030205
+        balance: 0.7905405598937826
       }
     ],
     core: false
@@ -44082,11 +44152,11 @@ export const grantsData = [
       timestamp: 1635249146,
       date: '2021-10-26 11:52:26'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 34156,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 14,
+    neighborCount: 49,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44121,7 +44191,7 @@ export const grantsData = [
     blockRange: 1474602,
     fileSize: 176,
     appearanceCount: 22,
-    neighborCount: 106,
+    neighborCount: 1478,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -44156,7 +44226,7 @@ export const grantsData = [
     blockRange: 1056012,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 134,
+    neighborCount: 2936,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -44191,7 +44261,7 @@ export const grantsData = [
     blockRange: 2636782,
     fileSize: 12288,
     appearanceCount: 1536,
-    neighborCount: 5107,
+    neighborCount: 25578,
     types: 'txs,logs,neighbors',
     logCount: 1750,
     matched: 0,
@@ -44222,11 +44292,11 @@ export const grantsData = [
       timestamp: 1627495024,
       date: '2021-07-28 17:57:04'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 897055,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 61,
+    neighborCount: 2438,
     types: 'txs,logs,neighbors',
     logCount: 14,
     matched: 0,
@@ -44261,7 +44331,7 @@ export const grantsData = [
     blockRange: 4098580,
     fileSize: 4728,
     appearanceCount: 591,
-    neighborCount: 2295,
+    neighborCount: 13909,
     types: 'txs,logs,neighbors',
     logCount: 256,
     matched: 0,
@@ -44296,7 +44366,7 @@ export const grantsData = [
     blockRange: 198035,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 21,
+    neighborCount: 241,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -44327,11 +44397,11 @@ export const grantsData = [
       timestamp: 1636971744,
       date: '2021-11-15 10:22:24'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 435630,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 13,
+    neighborCount: 17,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44362,11 +44432,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1480361,
     fileSize: 176,
     appearanceCount: 22,
-    neighborCount: 76,
+    neighborCount: 1309,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -44397,11 +44467,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44436,7 +44506,7 @@ export const grantsData = [
     blockRange: 308117,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 25,
+    neighborCount: 704,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -44467,11 +44537,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4048557,
     fileSize: 680,
     appearanceCount: 85,
-    neighborCount: 296,
+    neighborCount: 3285,
     types: 'txs,logs,neighbors',
     logCount: 58,
     matched: 0,
@@ -44506,7 +44576,7 @@ export const grantsData = [
     blockRange: 1933321,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 34,
+    neighborCount: 841,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44541,7 +44611,7 @@ export const grantsData = [
     blockRange: 231958,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 28,
+    neighborCount: 529,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44576,9 +44646,9 @@ export const grantsData = [
     blockRange: 383286,
     fileSize: 952,
     appearanceCount: 119,
-    neighborCount: 404,
+    neighborCount: 3814,
     types: 'txs,logs,neighbors',
-    logCount: 103,
+    logCount: 104,
     matched: 0,
     claimed: 0,
     balances: [
@@ -44611,7 +44681,7 @@ export const grantsData = [
     blockRange: 6546,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 14,
+    neighborCount: 1021,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44646,7 +44716,7 @@ export const grantsData = [
     blockRange: 970042,
     fileSize: 120,
     appearanceCount: 15,
-    neighborCount: 47,
+    neighborCount: 881,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -44681,7 +44751,7 @@ export const grantsData = [
     blockRange: 807663,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 18,
+    neighborCount: 1082,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -44716,7 +44786,7 @@ export const grantsData = [
     blockRange: 307360,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 12,
+    neighborCount: 727,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -44747,11 +44817,11 @@ export const grantsData = [
       timestamp: 1637570790,
       date: '2021-11-22 08:46:30'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 2,
+    neighborCount: 3,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44786,7 +44856,7 @@ export const grantsData = [
     blockRange: 2733506,
     fileSize: 456,
     appearanceCount: 57,
-    neighborCount: 159,
+    neighborCount: 1571,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -44794,7 +44864,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.0986632394700674
+        balance: 0.0867894675812373
       }
     ],
     core: false
@@ -44821,15 +44891,50 @@ export const grantsData = [
     blockRange: 860547,
     fileSize: 864,
     appearanceCount: 108,
-    neighborCount: 389,
+    neighborCount: 2982,
     types: 'txs,logs,neighbors',
-    logCount: 2,
+    logCount: 3,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
         balance: 1.7994786427555944
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 2232,
+    'active': true,
+    address: '0x232e7a04a30f1f6f30e895a42c4358a1af36b976',
+    name: 'coinerchat--chat at blockchain',
+    slug: 'https://gitcoin.co/grants/2232/coinerchat-chat-at-blockchain',
+    firstAppearance: {
+      bn: 12162237,
+      txId: 19,
+      timestamp: 1617394814,
+      date: '2021-04-02 20:20:14'
+    },
+    latestAppearance: {
+      bn: 12915825,
+      txId: 45,
+      timestamp: 1627494773,
+      date: '2021-07-28 17:52:53'
+    },
+    lastUpdated: 13749516,
+    blockRange: 753589,
+    fileSize: 64,
+    appearanceCount: 8,
+    neighborCount: 0,
+    types: 'txs,logs,neighbors',
+    logCount: 0,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.0004465
       }
     ],
     core: false
@@ -44856,7 +44961,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 505,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44891,7 +44996,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 292,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -44926,9 +45031,9 @@ export const grantsData = [
     blockRange: 223169,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 35,
+    neighborCount: 380,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 1,
     matched: 0,
     claimed: 0,
     balances: [
@@ -44961,15 +45066,15 @@ export const grantsData = [
     blockRange: 2112212,
     fileSize: 4280,
     appearanceCount: 535,
-    neighborCount: 2032,
+    neighborCount: 15268,
     types: 'txs,logs,neighbors',
-    logCount: 111,
+    logCount: 114,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 1.5416523865215797
+        balance: 1.5666523865215796
       }
     ],
     core: false
@@ -44996,15 +45101,15 @@ export const grantsData = [
     blockRange: 2112212,
     fileSize: 4280,
     appearanceCount: 535,
-    neighborCount: 2032,
+    neighborCount: 15268,
     types: 'txs,logs,neighbors',
-    logCount: 111,
+    logCount: 114,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 1.5416523865215797
+        balance: 1.5666523865215796
       }
     ],
     core: false
@@ -45022,16 +45127,16 @@ export const grantsData = [
       date: '2020-07-05 19:13:42'
     },
     latestAppearance: {
-      bn: 13697074,
-      txId: 336,
-      timestamp: 1638030298,
-      date: '2021-11-27 16:24:58'
+      bn: 13722583,
+      txId: 347,
+      timestamp: 1638382603,
+      date: '2021-12-01 18:16:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 3295884,
-    fileSize: 3208,
-    appearanceCount: 401,
-    neighborCount: 1511,
+    lastUpdated: 13749516,
+    blockRange: 3321393,
+    fileSize: 3232,
+    appearanceCount: 404,
+    neighborCount: 3877,
     types: 'txs,logs,neighbors',
     logCount: 57,
     matched: 0,
@@ -45062,11 +45167,11 @@ export const grantsData = [
       timestamp: 1634467787,
       date: '2021-10-17 10:49:47'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 7838661,
     fileSize: 248,
     appearanceCount: 31,
-    neighborCount: 132,
+    neighborCount: 3469,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -45101,7 +45206,7 @@ export const grantsData = [
     blockRange: 1341657,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 756,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -45136,7 +45241,7 @@ export const grantsData = [
     blockRange: 104564,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 13,
+    neighborCount: 18,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -45167,11 +45272,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1209578,
     fileSize: 264,
     appearanceCount: 33,
-    neighborCount: 81,
+    neighborCount: 1858,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -45202,11 +45307,11 @@ export const grantsData = [
       timestamp: 1638030407,
       date: '2021-11-27 16:26:47'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 6909192,
     fileSize: 4000,
     appearanceCount: 500,
-    neighborCount: 1016,
+    neighborCount: 4415,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -45237,11 +45342,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -45272,11 +45377,11 @@ export const grantsData = [
       timestamp: 1637775616,
       date: '2021-11-24 17:40:16'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 95802,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 12,
+    neighborCount: 16,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -45307,11 +45412,11 @@ export const grantsData = [
       timestamp: 1637775616,
       date: '2021-11-24 17:40:16'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 95802,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 12,
+    neighborCount: 16,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -45342,11 +45447,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2754061,
     fileSize: 280,
     appearanceCount: 35,
-    neighborCount: 250,
+    neighborCount: 2148,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -45377,11 +45482,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -45416,7 +45521,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -45442,16 +45547,16 @@ export const grantsData = [
       date: '2021-04-28 07:18:36'
     },
     latestAppearance: {
-      bn: 13693941,
-      txId: 239,
-      timestamp: 1637986882,
-      date: '2021-11-27 04:21:22'
+      bn: 13725639,
+      txId: 172,
+      timestamp: 1638424327,
+      date: '2021-12-02 05:52:07'
     },
-    lastUpdated: 13711342,
-    blockRange: 1366430,
-    fileSize: 312,
-    appearanceCount: 39,
-    neighborCount: 178,
+    lastUpdated: 13749516,
+    blockRange: 1398128,
+    fileSize: 320,
+    appearanceCount: 40,
+    neighborCount: 2131,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -45512,16 +45617,16 @@ export const grantsData = [
       date: '2021-09-10 07:08:10'
     },
     latestAppearance: {
-      bn: 13707713,
-      txId: 443,
-      timestamp: 1638176854,
-      date: '2021-11-29 09:07:34'
+      bn: 13744569,
+      txId: 34,
+      timestamp: 1638686880,
+      date: '2021-12-05 06:48:00'
     },
-    lastUpdated: 13711342,
-    blockRange: 511140,
-    fileSize: 568,
-    appearanceCount: 71,
-    neighborCount: 279,
+    lastUpdated: 13749516,
+    blockRange: 547996,
+    fileSize: 664,
+    appearanceCount: 83,
+    neighborCount: 2649,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -45556,7 +45661,7 @@ export const grantsData = [
     blockRange: 2145297,
     fileSize: 488,
     appearanceCount: 61,
-    neighborCount: 188,
+    neighborCount: 2502,
     types: 'txs,logs,neighbors',
     logCount: 42,
     matched: 0,
@@ -45591,7 +45696,7 @@ export const grantsData = [
     blockRange: 261265,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 13,
+    neighborCount: 266,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -45626,7 +45731,7 @@ export const grantsData = [
     blockRange: 2709051,
     fileSize: 2576,
     appearanceCount: 322,
-    neighborCount: 1303,
+    neighborCount: 13304,
     types: 'txs,logs,neighbors',
     logCount: 242,
     matched: 0,
@@ -45657,11 +45762,11 @@ export const grantsData = [
       timestamp: 1637094205,
       date: '2021-11-16 20:23:25'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 719204,
     fileSize: 608,
     appearanceCount: 76,
-    neighborCount: 253,
+    neighborCount: 1796,
     types: 'txs,logs,neighbors',
     logCount: 30,
     matched: 0,
@@ -45692,11 +45797,11 @@ export const grantsData = [
       timestamp: 1634056924,
       date: '2021-10-12 16:42:04'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1242557,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 120,
+    neighborCount: 2527,
     types: 'txs,logs,neighbors',
     logCount: 14,
     matched: 0,
@@ -45731,7 +45836,7 @@ export const grantsData = [
     blockRange: 1037974,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 315,
+    neighborCount: 1159,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -45762,11 +45867,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 5071192,
     fileSize: 1448,
     appearanceCount: 181,
-    neighborCount: 1164,
+    neighborCount: 4399,
     types: 'txs,logs,neighbors',
     logCount: 63,
     matched: 0,
@@ -45792,16 +45897,16 @@ export const grantsData = [
       date: '2020-01-08 20:26:45'
     },
     latestAppearance: {
-      bn: 13705360,
-      txId: 189,
-      timestamp: 1638143674,
-      date: '2021-11-28 23:54:34'
+      bn: 13736560,
+      txId: 181,
+      timestamp: 1638575109,
+      date: '2021-12-03 23:45:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 4463212,
-    fileSize: 10832,
-    appearanceCount: 1354,
-    neighborCount: 5426,
+    lastUpdated: 13749516,
+    blockRange: 4494412,
+    fileSize: 10872,
+    appearanceCount: 1359,
+    neighborCount: 26955,
     types: 'txs,logs,neighbors',
     logCount: 735,
     matched: 0,
@@ -45836,7 +45941,7 @@ export const grantsData = [
     blockRange: 1007954,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 16,
+    neighborCount: 764,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -45871,7 +45976,7 @@ export const grantsData = [
     blockRange: 81354,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 282,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -45906,7 +46011,7 @@ export const grantsData = [
     blockRange: 298433,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 46,
+    neighborCount: 555,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -45941,7 +46046,7 @@ export const grantsData = [
     blockRange: 1317165,
     fileSize: 232,
     appearanceCount: 29,
-    neighborCount: 97,
+    neighborCount: 3127,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -45976,7 +46081,7 @@ export const grantsData = [
     blockRange: 505008,
     fileSize: 344,
     appearanceCount: 43,
-    neighborCount: 178,
+    neighborCount: 1647,
     types: 'txs,logs,neighbors',
     logCount: 18,
     matched: 0,
@@ -46002,16 +46107,16 @@ export const grantsData = [
       date: '2021-11-29 10:00:50'
     },
     latestAppearance: {
-      bn: 13708766,
-      txId: 244,
-      timestamp: 1638191034,
-      date: '2021-11-29 13:03:54'
+      bn: 13744132,
+      txId: 357,
+      timestamp: 1638680995,
+      date: '2021-12-05 05:09:55'
     },
-    lastUpdated: 13711342,
-    blockRange: 844,
-    fileSize: 24,
-    appearanceCount: 3,
-    neighborCount: 12,
+    lastUpdated: 13749516,
+    blockRange: 36210,
+    fileSize: 64,
+    appearanceCount: 8,
+    neighborCount: 49,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -46019,7 +46124,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.5269917543289044
+        balance: 4.774391754328905
       }
     ],
     core: false
@@ -46042,11 +46147,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3959284,
     fileSize: 568,
     appearanceCount: 71,
-    neighborCount: 566,
+    neighborCount: 2408,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -46081,7 +46186,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -46116,7 +46221,7 @@ export const grantsData = [
     blockRange: 913525,
     fileSize: 336,
     appearanceCount: 42,
-    neighborCount: 163,
+    neighborCount: 1801,
     types: 'txs,logs,neighbors',
     logCount: 29,
     matched: 0,
@@ -46151,7 +46256,7 @@ export const grantsData = [
     blockRange: 588069,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 756,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -46186,7 +46291,7 @@ export const grantsData = [
     blockRange: 1425513,
     fileSize: 224,
     appearanceCount: 28,
-    neighborCount: 92,
+    neighborCount: 1582,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -46221,7 +46326,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -46256,7 +46361,7 @@ export const grantsData = [
     blockRange: 382963,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 74,
+    neighborCount: 632,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -46287,11 +46392,11 @@ export const grantsData = [
       timestamp: 1636372277,
       date: '2021-11-08 11:51:17'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1106598,
     fileSize: 368,
     appearanceCount: 46,
-    neighborCount: 158,
+    neighborCount: 1065,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -46326,7 +46431,7 @@ export const grantsData = [
     blockRange: 1846160,
     fileSize: 464,
     appearanceCount: 58,
-    neighborCount: 256,
+    neighborCount: 2285,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -46352,16 +46457,16 @@ export const grantsData = [
       date: '2021-03-22 07:10:57'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13736940,
+      txId: 99,
+      timestamp: 1638580580,
+      date: '2021-12-04 01:16:20'
     },
-    lastUpdated: 13711342,
-    blockRange: 1416759,
-    fileSize: 152,
-    appearanceCount: 19,
-    neighborCount: 60,
+    lastUpdated: 13749516,
+    blockRange: 1649766,
+    fileSize: 160,
+    appearanceCount: 20,
+    neighborCount: 1714,
     types: 'txs,logs,neighbors',
     logCount: 14,
     matched: 0,
@@ -46396,9 +46501,9 @@ export const grantsData = [
     blockRange: 342820,
     fileSize: 920,
     appearanceCount: 115,
-    neighborCount: 419,
+    neighborCount: 3822,
     types: 'txs,logs,neighbors',
-    logCount: 90,
+    logCount: 101,
     matched: 0,
     claimed: 0,
     balances: [
@@ -46422,16 +46527,16 @@ export const grantsData = [
       date: '2021-07-01 05:30:41'
     },
     latestAppearance: {
-      bn: 13642727,
-      txId: 247,
-      timestamp: 1637284425,
-      date: '2021-11-19 01:13:45'
+      bn: 13735700,
+      txId: 88,
+      timestamp: 1638563670,
+      date: '2021-12-03 20:34:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 902818,
-    fileSize: 368,
-    appearanceCount: 46,
-    neighborCount: 145,
+    lastUpdated: 13749516,
+    blockRange: 995791,
+    fileSize: 384,
+    appearanceCount: 48,
+    neighborCount: 1019,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -46466,15 +46571,15 @@ export const grantsData = [
     blockRange: 1312084,
     fileSize: 12184,
     appearanceCount: 1523,
-    neighborCount: 5513,
+    neighborCount: 39534,
     types: 'txs,logs,neighbors',
-    logCount: 1412,
+    logCount: 1435,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 1.2040696968794906
+        balance: 1.2082696968794906
       }
     ],
     core: false
@@ -46501,7 +46606,7 @@ export const grantsData = [
     blockRange: 138299,
     fileSize: 232,
     appearanceCount: 29,
-    neighborCount: 90,
+    neighborCount: 463,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -46532,11 +46637,11 @@ export const grantsData = [
       timestamp: 1617394814,
       date: '2021-04-02 20:20:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -46571,7 +46676,7 @@ export const grantsData = [
     blockRange: 128084,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 36,
+    neighborCount: 371,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -46606,7 +46711,7 @@ export const grantsData = [
     blockRange: 1653998,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 126,
+    neighborCount: 1763,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -46641,7 +46746,7 @@ export const grantsData = [
     blockRange: 358874,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 7,
+    neighborCount: 277,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -46676,7 +46781,7 @@ export const grantsData = [
     blockRange: 794275,
     fileSize: 176,
     appearanceCount: 22,
-    neighborCount: 71,
+    neighborCount: 899,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -46684,7 +46789,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.2037862788634216
+        balance: 0.004210492708048577
       }
     ],
     core: false
@@ -46711,7 +46816,7 @@ export const grantsData = [
     blockRange: 1659761,
     fileSize: 560,
     appearanceCount: 70,
-    neighborCount: 405,
+    neighborCount: 2106,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -46746,7 +46851,7 @@ export const grantsData = [
     blockRange: 251266,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 19,
+    neighborCount: 583,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -46781,7 +46886,7 @@ export const grantsData = [
     blockRange: 1427382,
     fileSize: 448,
     appearanceCount: 56,
-    neighborCount: 217,
+    neighborCount: 2691,
     types: 'txs,logs,neighbors',
     logCount: 49,
     matched: 0,
@@ -46816,7 +46921,7 @@ export const grantsData = [
     blockRange: 1395420,
     fileSize: 1072,
     appearanceCount: 134,
-    neighborCount: 411,
+    neighborCount: 1509,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -46851,7 +46956,7 @@ export const grantsData = [
     blockRange: 349679,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 198,
+    neighborCount: 1333,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -46859,7 +46964,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.06296588091455142
+        balance: 0.043621135177095254
       }
     ],
     core: false
@@ -46882,11 +46987,11 @@ export const grantsData = [
       timestamp: 1629295708,
       date: '2021-08-18 14:08:28'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 392727,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 23,
+    neighborCount: 841,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -46921,7 +47026,7 @@ export const grantsData = [
     blockRange: 753611,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 31,
+    neighborCount: 1660,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -46947,16 +47052,16 @@ export const grantsData = [
       date: '2020-08-29 07:40:57'
     },
     latestAppearance: {
-      bn: 13701430,
-      txId: 341,
-      timestamp: 1638089411,
-      date: '2021-11-28 08:50:11'
+      bn: 13746756,
+      txId: 377,
+      timestamp: 1638716933,
+      date: '2021-12-05 15:08:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 2947084,
-    fileSize: 21720,
-    appearanceCount: 2715,
-    neighborCount: 11360,
+    lastUpdated: 13749516,
+    blockRange: 2992410,
+    fileSize: 21832,
+    appearanceCount: 2729,
+    neighborCount: 49151,
     types: 'txs,logs,neighbors',
     logCount: 1465,
     matched: 0,
@@ -46964,7 +47069,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.364162657607986
+        balance: 0.8414164814307441
       }
     ],
     core: false
@@ -47022,11 +47127,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 702972,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 36,
+    neighborCount: 712,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -47061,7 +47166,7 @@ export const grantsData = [
     blockRange: 2806677,
     fileSize: 264,
     appearanceCount: 33,
-    neighborCount: 117,
+    neighborCount: 1653,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -47092,11 +47197,11 @@ export const grantsData = [
       timestamp: 1635903447,
       date: '2021-11-03 01:37:27'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1449356,
     fileSize: 200,
     appearanceCount: 25,
-    neighborCount: 77,
+    neighborCount: 2219,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -47131,7 +47236,7 @@ export const grantsData = [
     blockRange: 1475598,
     fileSize: 184,
     appearanceCount: 23,
-    neighborCount: 73,
+    neighborCount: 2430,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -47162,11 +47267,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 269468,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 13,
+    neighborCount: 847,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -47192,16 +47297,16 @@ export const grantsData = [
       date: '2020-11-04 03:08:04'
     },
     latestAppearance: {
-      bn: 13698866,
-      txId: 229,
-      timestamp: 1638054073,
-      date: '2021-11-27 23:01:13'
+      bn: 13725843,
+      txId: 51,
+      timestamp: 1638427141,
+      date: '2021-12-02 06:39:01'
     },
-    lastUpdated: 13711342,
-    blockRange: 2510705,
-    fileSize: 6080,
-    appearanceCount: 760,
-    neighborCount: 3407,
+    lastUpdated: 13749516,
+    blockRange: 2537682,
+    fileSize: 6120,
+    appearanceCount: 765,
+    neighborCount: 9678,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -47227,16 +47332,16 @@ export const grantsData = [
       date: '2021-06-28 10:49:12'
     },
     latestAppearance: {
-      bn: 13503897,
-      txId: 141,
-      timestamp: 1635399477,
-      date: '2021-10-28 05:37:57'
+      bn: 13732372,
+      txId: 92,
+      timestamp: 1638517843,
+      date: '2021-12-03 07:50:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 781824,
-    fileSize: 392,
-    appearanceCount: 49,
-    neighborCount: 217,
+    lastUpdated: 13749516,
+    blockRange: 1010299,
+    fileSize: 400,
+    appearanceCount: 50,
+    neighborCount: 2587,
     types: 'txs,logs,neighbors',
     logCount: 38,
     matched: 0,
@@ -47262,16 +47367,16 @@ export const grantsData = [
       date: '2021-08-12 12:02:05'
     },
     latestAppearance: {
-      bn: 13531724,
-      txId: 158,
-      timestamp: 1635777317,
-      date: '2021-11-01 14:35:17'
+      bn: 13746015,
+      txId: 125,
+      timestamp: 1638706438,
+      date: '2021-12-05 12:13:58'
     },
-    lastUpdated: 13711342,
-    blockRange: 521498,
-    fileSize: 288,
-    appearanceCount: 36,
-    neighborCount: 171,
+    lastUpdated: 13749516,
+    blockRange: 735789,
+    fileSize: 376,
+    appearanceCount: 47,
+    neighborCount: 1003,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -47279,7 +47384,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.14303415918008638
+        balance: 0.07020043862087248
       }
     ],
     core: false
@@ -47306,7 +47411,7 @@ export const grantsData = [
     blockRange: 90196,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 21,
+    neighborCount: 65,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -47341,9 +47446,9 @@ export const grantsData = [
     blockRange: 1353831,
     fileSize: 264,
     appearanceCount: 33,
-    neighborCount: 115,
+    neighborCount: 2077,
     types: 'txs,logs,neighbors',
-    logCount: 24,
+    logCount: 25,
     matched: 0,
     claimed: 0,
     balances: [
@@ -47376,7 +47481,7 @@ export const grantsData = [
     blockRange: 3002269,
     fileSize: 10048,
     appearanceCount: 1256,
-    neighborCount: 4594,
+    neighborCount: 10236,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -47411,7 +47516,7 @@ export const grantsData = [
     blockRange: 1076514,
     fileSize: 424,
     appearanceCount: 53,
-    neighborCount: 159,
+    neighborCount: 3183,
     types: 'txs,logs,neighbors',
     logCount: 26,
     matched: 0,
@@ -47446,7 +47551,7 @@ export const grantsData = [
     blockRange: 1424252,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 37,
+    neighborCount: 1299,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -47472,16 +47577,16 @@ export const grantsData = [
       date: '2021-10-21 06:57:59'
     },
     latestAppearance: {
-      bn: 13580562,
-      txId: 195,
-      timestamp: 1636438890,
-      date: '2021-11-09 06:21:30'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 121007,
-    fileSize: 96,
-    appearanceCount: 12,
-    neighborCount: 32,
+    lastUpdated: 13749516,
+    blockRange: 273641,
+    fileSize: 104,
+    appearanceCount: 13,
+    neighborCount: 574,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -47516,7 +47621,7 @@ export const grantsData = [
     blockRange: 1410793,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 13,
+    neighborCount: 1113,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -47547,11 +47652,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1129157,
     fileSize: 1216,
     appearanceCount: 152,
-    neighborCount: 372,
+    neighborCount: 1625,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -47586,7 +47691,7 @@ export const grantsData = [
     blockRange: 530609,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 14,
+    neighborCount: 1114,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -47617,11 +47722,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 258878,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 21,
+    neighborCount: 1953,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -47656,7 +47761,7 @@ export const grantsData = [
     blockRange: 56580,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 4,
+    neighborCount: 10,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -47682,16 +47787,16 @@ export const grantsData = [
       date: '2020-07-21 03:10:10'
     },
     latestAppearance: {
-      bn: 13711269,
-      txId: 200,
-      timestamp: 1638225954,
-      date: '2021-11-29 22:45:54'
+      bn: 13749469,
+      txId: 188,
+      timestamp: 1638755261,
+      date: '2021-12-06 01:47:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 3210968,
-    fileSize: 65648,
-    appearanceCount: 8206,
-    neighborCount: 106191,
+    lastUpdated: 13749516,
+    blockRange: 3249168,
+    fileSize: 67496,
+    appearanceCount: 8437,
+    neighborCount: 151041,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -47722,11 +47827,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 827629,
     fileSize: 272,
     appearanceCount: 34,
-    neighborCount: 153,
+    neighborCount: 2221,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -47761,15 +47866,15 @@ export const grantsData = [
     blockRange: 2112212,
     fileSize: 4280,
     appearanceCount: 535,
-    neighborCount: 2032,
+    neighborCount: 15268,
     types: 'txs,logs,neighbors',
-    logCount: 111,
+    logCount: 114,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 1.5416523865215797
+        balance: 1.5666523865215796
       }
     ],
     core: false
@@ -47792,11 +47897,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -47862,11 +47967,11 @@ export const grantsData = [
       timestamp: 1636481214,
       date: '2021-11-09 18:06:54'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2367306,
     fileSize: 496,
     appearanceCount: 62,
-    neighborCount: 181,
+    neighborCount: 2342,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -47897,11 +48002,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 257904,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 1109,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -47932,11 +48037,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1294177,
     fileSize: 176,
     appearanceCount: 22,
-    neighborCount: 66,
+    neighborCount: 2115,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -47971,7 +48076,7 @@ export const grantsData = [
     blockRange: 240863,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 20,
+    neighborCount: 28,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -47997,16 +48102,16 @@ export const grantsData = [
       date: '2021-05-08 03:41:21'
     },
     latestAppearance: {
-      bn: 13503897,
-      txId: 141,
-      timestamp: 1635399477,
-      date: '2021-10-28 05:37:57'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 1112625,
-    fileSize: 144,
-    appearanceCount: 18,
-    neighborCount: 58,
+    lastUpdated: 13749516,
+    blockRange: 1334714,
+    fileSize: 152,
+    appearanceCount: 19,
+    neighborCount: 2928,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -48037,11 +48142,11 @@ export const grantsData = [
       timestamp: 1637625904,
       date: '2021-11-23 00:05:04'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1353152,
     fileSize: 320,
     appearanceCount: 40,
-    neighborCount: 125,
+    neighborCount: 2835,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -48076,7 +48181,7 @@ export const grantsData = [
     blockRange: 569574,
     fileSize: 392,
     appearanceCount: 49,
-    neighborCount: 132,
+    neighborCount: 151,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -48111,7 +48216,7 @@ export const grantsData = [
     blockRange: 558864,
     fileSize: 352,
     appearanceCount: 44,
-    neighborCount: 134,
+    neighborCount: 2262,
     types: 'txs,logs,neighbors',
     logCount: 42,
     matched: 0,
@@ -48142,11 +48247,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1254518,
     fileSize: 200,
     appearanceCount: 25,
-    neighborCount: 74,
+    neighborCount: 3033,
     types: 'txs,logs,neighbors',
     logCount: 14,
     matched: 0,
@@ -48181,7 +48286,7 @@ export const grantsData = [
     blockRange: 281226,
     fileSize: 200,
     appearanceCount: 25,
-    neighborCount: 58,
+    neighborCount: 565,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -48189,7 +48294,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 8.448783462e-05
+        balance: 0.018641041919387
       }
     ],
     core: false
@@ -48216,7 +48321,7 @@ export const grantsData = [
     blockRange: 267790,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 33,
+    neighborCount: 1510,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -48247,11 +48352,11 @@ export const grantsData = [
       timestamp: 1635461207,
       date: '2021-10-28 22:46:47'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1272963,
     fileSize: 656,
     appearanceCount: 82,
-    neighborCount: 237,
+    neighborCount: 3281,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -48286,7 +48391,7 @@ export const grantsData = [
     blockRange: 2214953,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 36,
+    neighborCount: 1704,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -48321,7 +48426,7 @@ export const grantsData = [
     blockRange: 92327,
     fileSize: 424,
     appearanceCount: 53,
-    neighborCount: 212,
+    neighborCount: 542,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -48329,7 +48434,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.988296962687436
+        balance: 3.4941622861267074
       }
     ],
     core: false
@@ -48352,11 +48457,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -48391,7 +48496,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -48417,16 +48522,16 @@ export const grantsData = [
       date: '2021-04-26 22:09:37'
     },
     latestAppearance: {
-      bn: 13564763,
-      txId: 124,
-      timestamp: 1636225890,
-      date: '2021-11-06 19:11:30'
+      bn: 13716663,
+      txId: 311,
+      timestamp: 1638300745,
+      date: '2021-11-30 19:32:25'
     },
-    lastUpdated: 13711342,
-    blockRange: 1246193,
-    fileSize: 5800,
-    appearanceCount: 725,
-    neighborCount: 2960,
+    lastUpdated: 13749516,
+    blockRange: 1398093,
+    fileSize: 5808,
+    appearanceCount: 726,
+    neighborCount: 21984,
     types: 'txs,logs,neighbors',
     logCount: 517,
     matched: 0,
@@ -48461,7 +48566,7 @@ export const grantsData = [
     blockRange: 224368,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 686,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -48496,7 +48601,7 @@ export const grantsData = [
     blockRange: 1517547,
     fileSize: 544,
     appearanceCount: 68,
-    neighborCount: 215,
+    neighborCount: 1934,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -48531,7 +48636,7 @@ export const grantsData = [
     blockRange: 576115,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 13,
+    neighborCount: 1255,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -48566,7 +48671,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -48597,11 +48702,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 684287,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 15,
+    neighborCount: 1115,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -48636,7 +48741,7 @@ export const grantsData = [
     blockRange: 1036057,
     fileSize: 408,
     appearanceCount: 51,
-    neighborCount: 157,
+    neighborCount: 2215,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -48671,7 +48776,7 @@ export const grantsData = [
     blockRange: 257904,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 12,
+    neighborCount: 1112,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -48697,16 +48802,16 @@ export const grantsData = [
       date: '2020-06-30 01:05:23'
     },
     latestAppearance: {
-      bn: 13693037,
-      txId: 100,
-      timestamp: 1637975076,
-      date: '2021-11-27 01:04:36'
+      bn: 13745355,
+      txId: 144,
+      timestamp: 1638697434,
+      date: '2021-12-05 09:43:54'
     },
-    lastUpdated: 13711342,
-    blockRange: 3328960,
-    fileSize: 3320,
-    appearanceCount: 415,
-    neighborCount: 1197,
+    lastUpdated: 13749516,
+    blockRange: 3381278,
+    fileSize: 3328,
+    appearanceCount: 416,
+    neighborCount: 3198,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -48741,7 +48846,7 @@ export const grantsData = [
     blockRange: 63570,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 20,
+    neighborCount: 519,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -48767,16 +48872,16 @@ export const grantsData = [
       date: '2020-06-22 21:44:12'
     },
     latestAppearance: {
-      bn: 13629332,
-      txId: 230,
-      timestamp: 1637103081,
-      date: '2021-11-16 22:51:21'
+      bn: 13746917,
+      txId: 52,
+      timestamp: 1638719216,
+      date: '2021-12-05 15:46:56'
     },
-    lastUpdated: 13711342,
-    blockRange: 3311272,
-    fileSize: 3224,
-    appearanceCount: 403,
-    neighborCount: 3775,
+    lastUpdated: 13749516,
+    blockRange: 3428857,
+    fileSize: 3232,
+    appearanceCount: 404,
+    neighborCount: 12319,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -48784,7 +48889,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.09035114711537795
+        balance: 0.04303802711537795
       }
     ],
     core: false
@@ -48807,11 +48912,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -48846,7 +48951,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -48881,7 +48986,7 @@ export const grantsData = [
     blockRange: 409977,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 79,
+    neighborCount: 1777,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -48889,7 +48994,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.3608869645549027
+        balance: 1.5294684060006298
       }
     ],
     core: false
@@ -48907,24 +49012,24 @@ export const grantsData = [
       date: '2021-05-04 18:33:08'
     },
     latestAppearance: {
-      bn: 13653580,
-      txId: 183,
-      timestamp: 1637433934,
-      date: '2021-11-20 18:45:34'
+      bn: 13748288,
+      txId: 187,
+      timestamp: 1638738319,
+      date: '2021-12-05 21:05:19'
     },
-    lastUpdated: 13711342,
-    blockRange: 1284188,
-    fileSize: 5632,
-    appearanceCount: 704,
-    neighborCount: 2641,
+    lastUpdated: 13749516,
+    blockRange: 1378896,
+    fileSize: 5696,
+    appearanceCount: 712,
+    neighborCount: 22431,
     types: 'txs,logs,neighbors',
-    logCount: 617,
+    logCount: 621,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 2.356729388787789
+        balance: 2.2657723126533615
       }
     ],
     core: false
@@ -48951,7 +49056,7 @@ export const grantsData = [
     blockRange: 1339127,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 98,
+    neighborCount: 2141,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -48977,18 +49082,18 @@ export const grantsData = [
       date: '2021-10-28 05:37:57'
     },
     latestAppearance: {
-      bn: 13666852,
-      txId: 122,
-      timestamp: 1637615945,
-      date: '2021-11-22 21:19:05'
+      bn: 13738776,
+      txId: 144,
+      timestamp: 1638606437,
+      date: '2021-12-04 08:27:17'
     },
-    lastUpdated: 13711342,
-    blockRange: 162956,
-    fileSize: 48,
-    appearanceCount: 6,
-    neighborCount: 13,
+    lastUpdated: 13749516,
+    blockRange: 234880,
+    fileSize: 104,
+    appearanceCount: 13,
+    neighborCount: 457,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 6,
     matched: 0,
     claimed: 0,
     balances: [
@@ -49021,7 +49126,7 @@ export const grantsData = [
     blockRange: 636020,
     fileSize: 992,
     appearanceCount: 124,
-    neighborCount: 685,
+    neighborCount: 1995,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -49056,7 +49161,7 @@ export const grantsData = [
     blockRange: 1329652,
     fileSize: 344,
     appearanceCount: 43,
-    neighborCount: 124,
+    neighborCount: 1028,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -49082,16 +49187,16 @@ export const grantsData = [
       date: '2019-04-07 18:14:40'
     },
     latestAppearance: {
-      bn: 13711328,
-      txId: 182,
-      timestamp: 1638226690,
-      date: '2021-11-29 22:58:10'
+      bn: 13749149,
+      txId: 37,
+      timestamp: 1638750510,
+      date: '2021-12-06 00:28:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 6188764,
-    fileSize: 29528,
-    appearanceCount: 3691,
-    neighborCount: 35326,
+    lastUpdated: 13749516,
+    blockRange: 6226585,
+    fileSize: 29712,
+    appearanceCount: 3714,
+    neighborCount: 43359,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -49099,7 +49204,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 3.926931434371707
+        balance: 3.864592799748131
       }
     ],
     core: false
@@ -49122,11 +49227,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1640637,
     fileSize: 248,
     appearanceCount: 31,
-    neighborCount: 112,
+    neighborCount: 2652,
     types: 'txs,logs,neighbors',
     logCount: 18,
     matched: 0,
@@ -49152,16 +49257,16 @@ export const grantsData = [
       date: '2021-01-15 01:27:46'
     },
     latestAppearance: {
-      bn: 13707636,
-      txId: 158,
-      timestamp: 1638175911,
-      date: '2021-11-29 08:51:51'
+      bn: 13732645,
+      txId: 227,
+      timestamp: 1638521644,
+      date: '2021-12-03 08:54:04'
     },
-    lastUpdated: 13711342,
-    blockRange: 2050968,
-    fileSize: 392,
-    appearanceCount: 49,
-    neighborCount: 138,
+    lastUpdated: 13749516,
+    blockRange: 2075977,
+    fileSize: 456,
+    appearanceCount: 57,
+    neighborCount: 2962,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -49196,7 +49301,7 @@ export const grantsData = [
     blockRange: 853504,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 35,
+    neighborCount: 1971,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -49231,7 +49336,7 @@ export const grantsData = [
     blockRange: 9774,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 35,
+    neighborCount: 39,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -49266,7 +49371,7 @@ export const grantsData = [
     blockRange: 60398,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 17,
+    neighborCount: 41,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -49292,16 +49397,16 @@ export const grantsData = [
       date: '2021-05-27 23:54:54'
     },
     latestAppearance: {
-      bn: 13601462,
-      txId: 146,
-      timestamp: 1636722293,
-      date: '2021-11-12 13:04:53'
+      bn: 13743054,
+      txId: 90,
+      timestamp: 1638666141,
+      date: '2021-12-05 01:02:21'
     },
-    lastUpdated: 13711342,
-    blockRange: 1082039,
-    fileSize: 2200,
-    appearanceCount: 275,
-    neighborCount: 1047,
+    lastUpdated: 13749516,
+    blockRange: 1223631,
+    fileSize: 2208,
+    appearanceCount: 276,
+    neighborCount: 8790,
     types: 'txs,logs,neighbors',
     logCount: 219,
     matched: 0,
@@ -49336,7 +49441,7 @@ export const grantsData = [
     blockRange: 1279071,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 76,
+    neighborCount: 1182,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -49367,11 +49472,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 396742,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 29,
+    neighborCount: 2095,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -49402,11 +49507,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 310667,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 13,
+    neighborCount: 1122,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -49437,11 +49542,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -49450,6 +49555,41 @@ export const grantsData = [
       {
         asset: 'ETH',
         balance: 0.02024278833864803
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 2648,
+    'active': true,
+    address: '0xef6ebd32d53285710345df899b3a6758f037c313',
+    name: 'El leñador crypto.tools',
+    slug: 'https://gitcoin.co/grants/2648/el-lenador-cryptotools',
+    firstAppearance: {
+      bn: 13747940,
+      txId: 372,
+      timestamp: 1638733777,
+      date: '2021-12-05 19:49:37'
+    },
+    latestAppearance: {
+      bn: 13747940,
+      txId: 372,
+      timestamp: 1638733777,
+      date: '2021-12-05 19:49:37'
+    },
+    lastUpdated: 13749516,
+    blockRange: 1,
+    fileSize: 8,
+    appearanceCount: 1,
+    neighborCount: 2,
+    types: 'txs,logs,neighbors',
+    logCount: 0,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.002297325539184968
       }
     ],
     core: false
@@ -49476,7 +49616,7 @@ export const grantsData = [
     blockRange: 259413,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 29,
+    neighborCount: 1133,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -49511,7 +49651,7 @@ export const grantsData = [
     blockRange: 588069,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 756,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -49546,7 +49686,7 @@ export const grantsData = [
     blockRange: 779473,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 449,
+    neighborCount: 1217,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -49572,16 +49712,16 @@ export const grantsData = [
       date: '2021-05-29 21:02:00'
     },
     latestAppearance: {
-      bn: 13546003,
-      txId: 377,
-      timestamp: 1635970522,
-      date: '2021-11-03 20:15:22'
+      bn: 13741940,
+      txId: 90,
+      timestamp: 1638650617,
+      date: '2021-12-04 20:43:37'
     },
-    lastUpdated: 13711342,
-    blockRange: 1014442,
-    fileSize: 176,
-    appearanceCount: 22,
-    neighborCount: 69,
+    lastUpdated: 13749516,
+    blockRange: 1210379,
+    fileSize: 200,
+    appearanceCount: 25,
+    neighborCount: 1697,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -49589,7 +49729,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.029121722491648874
+        balance: 0.03938955552184542
       }
     ],
     core: false
@@ -49616,15 +49756,15 @@ export const grantsData = [
     blockRange: 1137508,
     fileSize: 7240,
     appearanceCount: 905,
-    neighborCount: 3162,
+    neighborCount: 20368,
     types: 'txs,logs,neighbors',
-    logCount: 801,
+    logCount: 821,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 3.071200939404798
+        balance: 3.074700939404798
       }
     ],
     core: false
@@ -49651,7 +49791,7 @@ export const grantsData = [
     blockRange: 1209569,
     fileSize: 1232,
     appearanceCount: 154,
-    neighborCount: 624,
+    neighborCount: 3100,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -49659,7 +49799,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 6.499723896292246
+        balance: 6.4802994202156405
       }
     ],
     core: false
@@ -49686,7 +49826,7 @@ export const grantsData = [
     blockRange: 454361,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 31,
+    neighborCount: 733,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -49721,7 +49861,7 @@ export const grantsData = [
     blockRange: 291207,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 31,
+    neighborCount: 642,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -49747,16 +49887,16 @@ export const grantsData = [
       date: '2021-06-04 21:41:38'
     },
     latestAppearance: {
-      bn: 13684232,
-      txId: 145,
-      timestamp: 1637853756,
-      date: '2021-11-25 15:22:36'
+      bn: 13725629,
+      txId: 102,
+      timestamp: 1638424166,
+      date: '2021-12-02 05:49:26'
     },
-    lastUpdated: 13711342,
-    blockRange: 1113734,
-    fileSize: 824,
-    appearanceCount: 103,
-    neighborCount: 625,
+    lastUpdated: 13749516,
+    blockRange: 1155131,
+    fileSize: 832,
+    appearanceCount: 104,
+    neighborCount: 5350,
     types: 'txs,logs,neighbors',
     logCount: 31,
     matched: 0,
@@ -49791,7 +49931,7 @@ export const grantsData = [
     blockRange: 4817807,
     fileSize: 11000,
     appearanceCount: 1375,
-    neighborCount: 5992,
+    neighborCount: 21670,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -49799,7 +49939,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 4.361140216515625
+        balance: 1.9069684531761089
       }
     ],
     core: false
@@ -49817,16 +49957,16 @@ export const grantsData = [
       date: '2021-10-28 05:47:45'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13748233,
+      txId: 275,
+      timestamp: 1638737635,
+      date: '2021-12-05 20:53:55'
     },
-    lastUpdated: 13711342,
-    blockRange: 1,
-    fileSize: 8,
-    appearanceCount: 1,
-    neighborCount: 3,
+    lastUpdated: 13749516,
+    blockRange: 244301,
+    fileSize: 24,
+    appearanceCount: 3,
+    neighborCount: 356,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -49861,7 +50001,7 @@ export const grantsData = [
     blockRange: 1556651,
     fileSize: 1232,
     appearanceCount: 154,
-    neighborCount: 546,
+    neighborCount: 3927,
     types: 'txs,logs,neighbors',
     logCount: 34,
     matched: 0,
@@ -49896,7 +50036,7 @@ export const grantsData = [
     blockRange: 399886,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 14,
+    neighborCount: 1115,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -49931,7 +50071,7 @@ export const grantsData = [
     blockRange: 1545498,
     fileSize: 728,
     appearanceCount: 91,
-    neighborCount: 209,
+    neighborCount: 2803,
     types: 'txs,logs,neighbors',
     logCount: 19,
     matched: 0,
@@ -49962,11 +50102,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 246906,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 22,
+    neighborCount: 654,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -49997,11 +50137,11 @@ export const grantsData = [
       timestamp: 1638070191,
       date: '2021-11-28 03:29:51'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1086727,
     fileSize: 408,
     appearanceCount: 51,
-    neighborCount: 149,
+    neighborCount: 4219,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -50032,11 +50172,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 812454,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 56,
+    neighborCount: 2251,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -50062,16 +50202,16 @@ export const grantsData = [
       date: '2020-04-02 16:47:21'
     },
     latestAppearance: {
-      bn: 13709226,
-      txId: 13,
-      timestamp: 1638197354,
-      date: '2021-11-29 14:49:14'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 3915539,
-    fileSize: 10672,
-    appearanceCount: 1334,
-    neighborCount: 4965,
+    lastUpdated: 13749516,
+    blockRange: 3939509,
+    fileSize: 10696,
+    appearanceCount: 1337,
+    neighborCount: 33225,
     types: 'txs,logs,neighbors',
     logCount: 1051,
     matched: 0,
@@ -50102,11 +50242,11 @@ export const grantsData = [
       timestamp: 1636426716,
       date: '2021-11-09 02:58:36'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 964913,
     fileSize: 784,
     appearanceCount: 98,
-    neighborCount: 344,
+    neighborCount: 1509,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -50132,16 +50272,16 @@ export const grantsData = [
       date: '2017-12-26 07:02:17'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13741918,
+      txId: 378,
+      timestamp: 1638650383,
+      date: '2021-12-04 20:39:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 8704801,
-    fileSize: 4336,
-    appearanceCount: 542,
-    neighborCount: 2009,
+    lastUpdated: 13749516,
+    blockRange: 8942786,
+    fileSize: 4352,
+    appearanceCount: 544,
+    neighborCount: 19448,
     types: 'txs,logs,neighbors',
     logCount: 489,
     matched: 0,
@@ -50167,16 +50307,16 @@ export const grantsData = [
       date: '2021-04-09 14:31:57'
     },
     latestAppearance: {
-      bn: 13665014,
-      txId: 141,
-      timestamp: 1637591258,
-      date: '2021-11-22 14:27:38'
+      bn: 13733893,
+      txId: 320,
+      timestamp: 1638538793,
+      date: '2021-12-03 13:39:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 1458843,
-    fileSize: 704,
-    appearanceCount: 88,
-    neighborCount: 362,
+    lastUpdated: 13749516,
+    blockRange: 1527722,
+    fileSize: 744,
+    appearanceCount: 93,
+    neighborCount: 3497,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -50211,7 +50351,7 @@ export const grantsData = [
     blockRange: 1006093,
     fileSize: 1576,
     appearanceCount: 197,
-    neighborCount: 666,
+    neighborCount: 7118,
     types: 'txs,logs,neighbors',
     logCount: 147,
     matched: 0,
@@ -50219,7 +50359,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.08644582274914646
+        balance: 0.0694951877201691
       }
     ],
     core: false
@@ -50246,7 +50386,7 @@ export const grantsData = [
     blockRange: 2934740,
     fileSize: 432,
     appearanceCount: 54,
-    neighborCount: 259,
+    neighborCount: 3681,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -50277,11 +50417,11 @@ export const grantsData = [
       timestamp: 1637659709,
       date: '2021-11-23 09:28:29'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 464219,
     fileSize: 384,
     appearanceCount: 48,
-    neighborCount: 152,
+    neighborCount: 1182,
     types: 'txs,logs,neighbors',
     logCount: 26,
     matched: 0,
@@ -50316,7 +50456,7 @@ export const grantsData = [
     blockRange: 1285154,
     fileSize: 400,
     appearanceCount: 50,
-    neighborCount: 191,
+    neighborCount: 2434,
     types: 'txs,logs,neighbors',
     logCount: 26,
     matched: 0,
@@ -50351,7 +50491,7 @@ export const grantsData = [
     blockRange: 133011,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 18,
+    neighborCount: 524,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -50382,11 +50522,11 @@ export const grantsData = [
       timestamp: 1637562403,
       date: '2021-11-22 06:26:43'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 509038,
     fileSize: 432,
     appearanceCount: 54,
-    neighborCount: 188,
+    neighborCount: 1893,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -50412,16 +50552,16 @@ export const grantsData = [
       date: '2017-10-18 17:04:29'
     },
     latestAppearance: {
-      bn: 13709615,
-      txId: 222,
-      timestamp: 1638203133,
-      date: '2021-11-29 16:25:33'
+      bn: 13747564,
+      txId: 41,
+      timestamp: 1638728457,
+      date: '2021-12-05 18:20:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 9325303,
-    fileSize: 44472,
-    appearanceCount: 5559,
-    neighborCount: 19391,
+    lastUpdated: 13749516,
+    blockRange: 9363252,
+    fileSize: 44616,
+    appearanceCount: 5577,
+    neighborCount: 85090,
     types: 'txs,logs,neighbors',
     logCount: 56,
     matched: 0,
@@ -50429,7 +50569,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.1224164960464753
+        balance: 0.03495278157968222
       }
     ],
     core: false
@@ -50447,16 +50587,16 @@ export const grantsData = [
       date: '2017-10-02 00:15:25'
     },
     latestAppearance: {
-      bn: 13705589,
-      txId: 124,
-      timestamp: 1638146835,
-      date: '2021-11-29 00:47:15'
+      bn: 13732437,
+      txId: 75,
+      timestamp: 1638518535,
+      date: '2021-12-03 08:02:15'
     },
-    lastUpdated: 13711342,
-    blockRange: 9376644,
-    fileSize: 4192,
-    appearanceCount: 524,
-    neighborCount: 1394,
+    lastUpdated: 13749516,
+    blockRange: 9403492,
+    fileSize: 4208,
+    appearanceCount: 526,
+    neighborCount: 9114,
     types: 'txs,logs,neighbors',
     logCount: 37,
     matched: 0,
@@ -50491,7 +50631,7 @@ export const grantsData = [
     blockRange: 407031,
     fileSize: 488,
     appearanceCount: 61,
-    neighborCount: 240,
+    neighborCount: 2339,
     types: 'txs,logs,neighbors',
     logCount: 38,
     matched: 0,
@@ -50522,11 +50662,11 @@ export const grantsData = [
       timestamp: 1636779271,
       date: '2021-11-13 04:54:31'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1015472,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 58,
+    neighborCount: 1907,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -50561,7 +50701,7 @@ export const grantsData = [
     blockRange: 850290,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 26,
+    neighborCount: 1875,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -50592,11 +50732,11 @@ export const grantsData = [
       timestamp: 1638194298,
       date: '2021-11-29 13:58:18'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2181978,
     fileSize: 2800,
     appearanceCount: 350,
-    neighborCount: 1152,
+    neighborCount: 3424,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -50631,9 +50771,9 @@ export const grantsData = [
     blockRange: 523218,
     fileSize: 2192,
     appearanceCount: 274,
-    neighborCount: 959,
+    neighborCount: 7879,
     types: 'txs,logs,neighbors',
-    logCount: 215,
+    logCount: 218,
     matched: 0,
     claimed: 0,
     balances: [
@@ -50657,16 +50797,16 @@ export const grantsData = [
       date: '2020-08-29 07:40:57'
     },
     latestAppearance: {
-      bn: 13701430,
-      txId: 341,
-      timestamp: 1638089411,
-      date: '2021-11-28 08:50:11'
+      bn: 13746756,
+      txId: 377,
+      timestamp: 1638716933,
+      date: '2021-12-05 15:08:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 2947084,
-    fileSize: 21720,
-    appearanceCount: 2715,
-    neighborCount: 11360,
+    lastUpdated: 13749516,
+    blockRange: 2992410,
+    fileSize: 21832,
+    appearanceCount: 2729,
+    neighborCount: 49151,
     types: 'txs,logs,neighbors',
     logCount: 1465,
     matched: 0,
@@ -50674,7 +50814,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 1.364162657607986
+        balance: 0.8414164814307441
       }
     ],
     core: false
@@ -50701,7 +50841,7 @@ export const grantsData = [
     blockRange: 1750756,
     fileSize: 1792,
     appearanceCount: 224,
-    neighborCount: 723,
+    neighborCount: 5479,
     types: 'txs,logs,neighbors',
     logCount: 62,
     matched: 0,
@@ -50709,7 +50849,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.06968034871445121
+        balance: 0.007633067031648214
       }
     ],
     core: false
@@ -50727,16 +50867,16 @@ export const grantsData = [
       date: '2021-05-28 04:13:30'
     },
     latestAppearance: {
-      bn: 13687617,
-      txId: 148,
-      timestamp: 1637900465,
-      date: '2021-11-26 04:21:05'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 1167018,
-    fileSize: 832,
-    appearanceCount: 104,
-    neighborCount: 282,
+    lastUpdated: 13749516,
+    blockRange: 1205387,
+    fileSize: 840,
+    appearanceCount: 105,
+    neighborCount: 3763,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -50767,11 +50907,11 @@ export const grantsData = [
       timestamp: 1637598201,
       date: '2021-11-22 16:23:21'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4971336,
     fileSize: 1248,
     appearanceCount: 156,
-    neighborCount: 562,
+    neighborCount: 3055,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -50802,11 +50942,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 812414,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 38,
+    neighborCount: 1666,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -50832,16 +50972,16 @@ export const grantsData = [
       date: '2021-09-10 07:08:10'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 307360,
-    fileSize: 56,
-    appearanceCount: 7,
-    neighborCount: 30,
+    lastUpdated: 13749516,
+    blockRange: 536623,
+    fileSize: 64,
+    appearanceCount: 8,
+    neighborCount: 851,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -50872,11 +51012,11 @@ export const grantsData = [
       timestamp: 1638161093,
       date: '2021-11-29 04:44:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2554872,
     fileSize: 13832,
     appearanceCount: 1729,
-    neighborCount: 7379,
+    neighborCount: 10790,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -50884,7 +51024,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 59.737162737081135
+        balance: 59.237162737081135
       }
     ],
     core: false
@@ -50907,11 +51047,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1187249,
     fileSize: 296,
     appearanceCount: 37,
-    neighborCount: 137,
+    neighborCount: 2836,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -50942,11 +51082,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 439454,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 57,
+    neighborCount: 735,
     types: 'txs,logs,neighbors',
     logCount: 11,
     matched: 0,
@@ -50972,24 +51112,24 @@ export const grantsData = [
       date: '2021-06-22 19:31:37'
     },
     latestAppearance: {
-      bn: 13688352,
-      txId: 47,
-      timestamp: 1637910527,
-      date: '2021-11-26 07:08:47'
+      bn: 13745940,
+      txId: 39,
+      timestamp: 1638705519,
+      date: '2021-12-05 11:58:39'
     },
-    lastUpdated: 13711342,
-    blockRange: 1002441,
-    fileSize: 168,
-    appearanceCount: 21,
-    neighborCount: 73,
+    lastUpdated: 13749516,
+    blockRange: 1060029,
+    fileSize: 208,
+    appearanceCount: 26,
+    neighborCount: 1400,
     types: 'txs,logs,neighbors',
-    logCount: 8,
+    logCount: 9,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 1.1561709726875686
+        balance: 0.003899228786509481
       }
     ],
     core: false
@@ -51007,16 +51147,16 @@ export const grantsData = [
       date: '2020-12-09 03:28:13'
     },
     latestAppearance: {
-      bn: 13622979,
-      txId: 210,
-      timestamp: 1637015666,
-      date: '2021-11-15 22:34:26'
+      bn: 13741475,
+      txId: 80,
+      timestamp: 1638644319,
+      date: '2021-12-04 18:58:39'
     },
-    lastUpdated: 13711342,
-    blockRange: 2206745,
-    fileSize: 1288,
-    appearanceCount: 161,
-    neighborCount: 572,
+    lastUpdated: 13749516,
+    blockRange: 2325241,
+    fileSize: 1304,
+    appearanceCount: 163,
+    neighborCount: 4418,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -51024,7 +51164,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 4.748891731631031
+        balance: 4.524343000130701
       }
     ],
     core: false
@@ -51047,11 +51187,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 257904,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 1109,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -51086,15 +51226,15 @@ export const grantsData = [
     blockRange: 2607053,
     fileSize: 12440,
     appearanceCount: 1555,
-    neighborCount: 5833,
+    neighborCount: 41925,
     types: 'txs,logs,neighbors',
-    logCount: 1313,
+    logCount: 1317,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.9904277126131672
+        balance: 1.010427712613167
       }
     ],
     core: false
@@ -51117,11 +51257,11 @@ export const grantsData = [
       timestamp: 1638197260,
       date: '2021-11-29 14:47:40'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4263703,
     fileSize: 1648,
     appearanceCount: 206,
-    neighborCount: 748,
+    neighborCount: 6041,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -51152,11 +51292,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -51191,7 +51331,7 @@ export const grantsData = [
     blockRange: 139614,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 63,
+    neighborCount: 233,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -51199,7 +51339,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.014950017401746209
+        balance: 0.005805147032304208
       }
     ],
     core: false
@@ -51226,7 +51366,7 @@ export const grantsData = [
     blockRange: 262461,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 71,
+    neighborCount: 990,
     types: 'txs,logs,neighbors',
     logCount: 18,
     matched: 0,
@@ -51261,7 +51401,7 @@ export const grantsData = [
     blockRange: 730171,
     fileSize: 464,
     appearanceCount: 58,
-    neighborCount: 245,
+    neighborCount: 2147,
     types: 'txs,logs,neighbors',
     logCount: 24,
     matched: 0,
@@ -51296,7 +51436,7 @@ export const grantsData = [
     blockRange: 1653998,
     fileSize: 312,
     appearanceCount: 39,
-    neighborCount: 126,
+    neighborCount: 1763,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -51322,16 +51462,16 @@ export const grantsData = [
       date: '2021-10-28 05:48:58'
     },
     latestAppearance: {
-      bn: 13675440,
-      txId: 98,
-      timestamp: 1637732424,
-      date: '2021-11-24 05:40:24'
+      bn: 13742948,
+      txId: 340,
+      timestamp: 1638664668,
+      date: '2021-12-05 00:37:48'
     },
-    lastUpdated: 13711342,
-    blockRange: 171501,
-    fileSize: 48,
-    appearanceCount: 6,
-    neighborCount: 21,
+    lastUpdated: 13749516,
+    blockRange: 239009,
+    fileSize: 72,
+    appearanceCount: 9,
+    neighborCount: 270,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -51366,7 +51506,7 @@ export const grantsData = [
     blockRange: 1583994,
     fileSize: 368,
     appearanceCount: 46,
-    neighborCount: 122,
+    neighborCount: 163,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -51401,7 +51541,7 @@ export const grantsData = [
     blockRange: 778706,
     fileSize: 184,
     appearanceCount: 23,
-    neighborCount: 79,
+    neighborCount: 1566,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -51436,7 +51576,7 @@ export const grantsData = [
     blockRange: 1353448,
     fileSize: 712,
     appearanceCount: 89,
-    neighborCount: 320,
+    neighborCount: 4438,
     types: 'txs,logs,neighbors',
     logCount: 35,
     matched: 0,
@@ -51471,7 +51611,7 @@ export const grantsData = [
     blockRange: 1004658,
     fileSize: 200,
     appearanceCount: 25,
-    neighborCount: 82,
+    neighborCount: 2597,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -51506,7 +51646,7 @@ export const grantsData = [
     blockRange: 978739,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 57,
+    neighborCount: 1595,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -51515,6 +51655,41 @@ export const grantsData = [
       {
         asset: 'ETH',
         balance: 0.00286431
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 2896,
+    'active': true,
+    address: '0xbc8c0e6bbb3d332867f9e4da74908f47eba9fb2a',
+    name: 'Gringotts: Easiest way to get paid with crypto!',
+    slug: 'https://gitcoin.co/grants/2896/gringotts-easiest-way-to-get-paid-with-crypto',
+    firstAppearance: {
+      bn: 13748496,
+      txId: 459,
+      timestamp: 1638741397,
+      date: '2021-12-05 21:56:37'
+    },
+    latestAppearance: {
+      bn: 13748496,
+      txId: 459,
+      timestamp: 1638741397,
+      date: '2021-12-05 21:56:37'
+    },
+    lastUpdated: 13749516,
+    blockRange: 1,
+    fileSize: 8,
+    appearanceCount: 1,
+    neighborCount: 52,
+    types: 'txs,logs,neighbors',
+    logCount: 0,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.003
       }
     ],
     core: false
@@ -51532,16 +51707,16 @@ export const grantsData = [
       date: '2021-05-31 09:31:09'
     },
     latestAppearance: {
-      bn: 13610794,
-      txId: 126,
-      timestamp: 1636849121,
-      date: '2021-11-14 00:18:41'
+      bn: 13745367,
+      txId: 224,
+      timestamp: 1638697654,
+      date: '2021-12-05 09:47:34'
     },
-    lastUpdated: 13711342,
-    blockRange: 1069429,
-    fileSize: 560,
-    appearanceCount: 70,
-    neighborCount: 214,
+    lastUpdated: 13749516,
+    blockRange: 1204002,
+    fileSize: 568,
+    appearanceCount: 71,
+    neighborCount: 1680,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -51549,7 +51724,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.005611222841253567
+        balance: 0.002023092152477492
       }
     ],
     core: false
@@ -51572,11 +51747,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 224346,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 26,
+    neighborCount: 727,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -51611,7 +51786,7 @@ export const grantsData = [
     blockRange: 189558,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 25,
+    neighborCount: 1912,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -51646,7 +51821,7 @@ export const grantsData = [
     blockRange: 999986,
     fileSize: 2936,
     appearanceCount: 367,
-    neighborCount: 1403,
+    neighborCount: 13818,
     types: 'txs,logs,neighbors',
     logCount: 293,
     matched: 0,
@@ -51681,7 +51856,7 @@ export const grantsData = [
     blockRange: 1862737,
     fileSize: 168,
     appearanceCount: 21,
-    neighborCount: 165,
+    neighborCount: 1325,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -51712,11 +51887,11 @@ export const grantsData = [
       timestamp: 1633791031,
       date: '2021-10-09 14:50:31'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 693687,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 22,
+    neighborCount: 702,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -51747,11 +51922,11 @@ export const grantsData = [
       timestamp: 1636796776,
       date: '2021-11-13 09:46:16'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 3991880,
     fileSize: 808,
     appearanceCount: 101,
-    neighborCount: 334,
+    neighborCount: 5519,
     types: 'txs,logs,neighbors',
     logCount: 77,
     matched: 0,
@@ -51782,11 +51957,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -51821,7 +51996,7 @@ export const grantsData = [
     blockRange: 360506,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 48,
+    neighborCount: 677,
     types: 'txs,logs,neighbors',
     logCount: 10,
     matched: 0,
@@ -51852,11 +52027,11 @@ export const grantsData = [
       timestamp: 1628728986,
       date: '2021-08-12 00:43:06'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 336613,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 43,
+    neighborCount: 821,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -51882,16 +52057,16 @@ export const grantsData = [
       date: '2019-07-16 18:41:17'
     },
     latestAppearance: {
-      bn: 13664624,
-      txId: 81,
-      timestamp: 1637585916,
-      date: '2021-11-22 12:58:36'
+      bn: 13720613,
+      txId: 338,
+      timestamp: 1638355647,
+      date: '2021-12-01 10:47:27'
     },
-    lastUpdated: 13711342,
-    blockRange: 5501081,
-    fileSize: 5248,
-    appearanceCount: 656,
-    neighborCount: 2399,
+    lastUpdated: 13749516,
+    blockRange: 5557070,
+    fileSize: 5280,
+    appearanceCount: 660,
+    neighborCount: 10724,
     types: 'txs,logs,neighbors',
     logCount: 218,
     matched: 0,
@@ -51922,11 +52097,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -51935,6 +52110,41 @@ export const grantsData = [
       {
         asset: 'ETH',
         balance: 0.018331284
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 2916,
+    'active': true,
+    address: '0xf26d1bb347a59f6c283c53156519cc1b1abaca51',
+    name: 'BanklessDAO',
+    slug: 'https://gitcoin.co/grants/2916/banklessdao',
+    firstAppearance: {
+      bn: 12344300,
+      txId: 14,
+      timestamp: 1619819111,
+      date: '2021-04-30 21:45:11'
+    },
+    latestAppearance: {
+      bn: 13745393,
+      txId: 200,
+      timestamp: 1638698041,
+      date: '2021-12-05 09:54:01'
+    },
+    lastUpdated: 13749516,
+    blockRange: 1401094,
+    fileSize: 4312,
+    appearanceCount: 539,
+    neighborCount: 0,
+    types: 'txs,logs,neighbors',
+    logCount: 0,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 37.3405592571189
       }
     ],
     core: false
@@ -51961,7 +52171,7 @@ export const grantsData = [
     blockRange: 364390,
     fileSize: 448,
     appearanceCount: 56,
-    neighborCount: 213,
+    neighborCount: 2167,
     types: 'txs,logs,neighbors',
     logCount: 43,
     matched: 0,
@@ -51996,7 +52206,7 @@ export const grantsData = [
     blockRange: 44370,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -52031,7 +52241,7 @@ export const grantsData = [
     blockRange: 1542589,
     fileSize: 4256,
     appearanceCount: 532,
-    neighborCount: 1976,
+    neighborCount: 10333,
     types: 'txs,logs,neighbors',
     logCount: 207,
     matched: 0,
@@ -52062,11 +52272,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 812418,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 28,
+    neighborCount: 1432,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -52097,11 +52307,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1899283,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 62,
+    neighborCount: 1391,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -52132,11 +52342,11 @@ export const grantsData = [
       timestamp: 1637522333,
       date: '2021-11-21 19:18:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 159846,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 17,
+    neighborCount: 21,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -52167,11 +52377,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 812418,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 28,
+    neighborCount: 1241,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -52206,7 +52416,7 @@ export const grantsData = [
     blockRange: 372047,
     fileSize: 688,
     appearanceCount: 86,
-    neighborCount: 305,
+    neighborCount: 773,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -52232,16 +52442,16 @@ export const grantsData = [
       date: '2021-09-16 00:19:16'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 270433,
-    fileSize: 88,
-    appearanceCount: 11,
-    neighborCount: 37,
+    lastUpdated: 13749516,
+    blockRange: 492486,
+    fileSize: 96,
+    appearanceCount: 12,
+    neighborCount: 959,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -52276,7 +52486,7 @@ export const grantsData = [
     blockRange: 916999,
     fileSize: 120,
     appearanceCount: 15,
-    neighborCount: 48,
+    neighborCount: 1239,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -52311,7 +52521,7 @@ export const grantsData = [
     blockRange: 224346,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 12,
+    neighborCount: 693,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -52337,16 +52547,16 @@ export const grantsData = [
       date: '2021-11-16 03:21:18'
     },
     latestAppearance: {
-      bn: 13645164,
-      txId: 357,
-      timestamp: 1637318737,
-      date: '2021-11-19 10:45:37'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 20926,
-    fileSize: 88,
-    appearanceCount: 11,
-    neighborCount: 52,
+    lastUpdated: 13749516,
+    blockRange: 101748,
+    fileSize: 96,
+    appearanceCount: 12,
+    neighborCount: 196,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -52372,16 +52582,16 @@ export const grantsData = [
       date: '2021-11-16 03:21:18'
     },
     latestAppearance: {
-      bn: 13645164,
-      txId: 357,
-      timestamp: 1637318737,
-      date: '2021-11-19 10:45:37'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 20926,
-    fileSize: 88,
-    appearanceCount: 11,
-    neighborCount: 52,
+    lastUpdated: 13749516,
+    blockRange: 101748,
+    fileSize: 96,
+    appearanceCount: 12,
+    neighborCount: 196,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -52416,7 +52626,7 @@ export const grantsData = [
     blockRange: 972776,
     fileSize: 856,
     appearanceCount: 107,
-    neighborCount: 350,
+    neighborCount: 2373,
     types: 'txs,logs,neighbors',
     logCount: 43,
     matched: 0,
@@ -52442,16 +52652,16 @@ export const grantsData = [
       date: '2020-04-02 16:47:21'
     },
     latestAppearance: {
-      bn: 13709226,
-      txId: 13,
-      timestamp: 1638197354,
-      date: '2021-11-29 14:49:14'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 3915539,
-    fileSize: 10672,
-    appearanceCount: 1334,
-    neighborCount: 4965,
+    lastUpdated: 13749516,
+    blockRange: 3939509,
+    fileSize: 10696,
+    appearanceCount: 1337,
+    neighborCount: 33225,
     types: 'txs,logs,neighbors',
     logCount: 1051,
     matched: 0,
@@ -52486,7 +52696,7 @@ export const grantsData = [
     blockRange: 1043473,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 106,
+    neighborCount: 2522,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -52521,7 +52731,7 @@ export const grantsData = [
     blockRange: 145662,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 38,
+    neighborCount: 46,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -52552,11 +52762,11 @@ export const grantsData = [
       timestamp: 1636919461,
       date: '2021-11-14 19:51:01'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 112040,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 7,
+    neighborCount: 256,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -52591,7 +52801,7 @@ export const grantsData = [
     blockRange: 63570,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 20,
+    neighborCount: 519,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -52617,16 +52827,16 @@ export const grantsData = [
       date: '2021-05-31 09:31:09'
     },
     latestAppearance: {
-      bn: 13610794,
-      txId: 126,
-      timestamp: 1636849121,
-      date: '2021-11-14 00:18:41'
+      bn: 13745367,
+      txId: 224,
+      timestamp: 1638697654,
+      date: '2021-12-05 09:47:34'
     },
-    lastUpdated: 13711342,
-    blockRange: 1069429,
-    fileSize: 560,
-    appearanceCount: 70,
-    neighborCount: 214,
+    lastUpdated: 13749516,
+    blockRange: 1204002,
+    fileSize: 568,
+    appearanceCount: 71,
+    neighborCount: 1680,
     types: 'txs,logs,neighbors',
     logCount: 13,
     matched: 0,
@@ -52634,7 +52844,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.005611222841253567
+        balance: 0.002023092152477492
       }
     ],
     core: false
@@ -52652,18 +52862,18 @@ export const grantsData = [
       date: '2021-05-17 12:53:45'
     },
     latestAppearance: {
-      bn: 13700069,
-      txId: 84,
-      timestamp: 1638071101,
-      date: '2021-11-28 03:45:01'
+      bn: 13732372,
+      txId: 92,
+      timestamp: 1638517843,
+      date: '2021-12-03 07:50:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 1248078,
-    fileSize: 1376,
-    appearanceCount: 172,
-    neighborCount: 631,
+    lastUpdated: 13749516,
+    blockRange: 1280381,
+    fileSize: 1408,
+    appearanceCount: 176,
+    neighborCount: 7100,
     types: 'txs,logs,neighbors',
-    logCount: 93,
+    logCount: 95,
     matched: 0,
     claimed: 0,
     balances: [
@@ -52696,7 +52906,7 @@ export const grantsData = [
     blockRange: 892115,
     fileSize: 520,
     appearanceCount: 65,
-    neighborCount: 224,
+    neighborCount: 2445,
     types: 'txs,logs,neighbors',
     logCount: 43,
     matched: 0,
@@ -52731,7 +52941,7 @@ export const grantsData = [
     blockRange: 281226,
     fileSize: 200,
     appearanceCount: 25,
-    neighborCount: 58,
+    neighborCount: 565,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -52739,7 +52949,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 8.448783462e-05
+        balance: 0.018641041919387
       }
     ],
     core: false
@@ -52762,11 +52972,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -52801,7 +53011,7 @@ export const grantsData = [
     blockRange: 812939,
     fileSize: 392,
     appearanceCount: 49,
-    neighborCount: 130,
+    neighborCount: 1542,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -52832,11 +53042,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 184297,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 12,
+    neighborCount: 311,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -52867,11 +53077,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1241219,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 26,
+    neighborCount: 1449,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -52897,16 +53107,16 @@ export const grantsData = [
       date: '2020-07-12 21:37:46'
     },
     latestAppearance: {
-      bn: 13626405,
-      txId: 197,
-      timestamp: 1637063078,
-      date: '2021-11-16 11:44:38'
+      bn: 13725899,
+      txId: 52,
+      timestamp: 1638428121,
+      date: '2021-12-02 06:55:21'
     },
-    lastUpdated: 13711342,
-    blockRange: 3179223,
-    fileSize: 2480,
-    appearanceCount: 310,
-    neighborCount: 1139,
+    lastUpdated: 13749516,
+    blockRange: 3278717,
+    fileSize: 2488,
+    appearanceCount: 311,
+    neighborCount: 10886,
     types: 'txs,logs,neighbors',
     logCount: 244,
     matched: 0,
@@ -52932,24 +53142,24 @@ export const grantsData = [
       date: '2020-09-16 14:12:10'
     },
     latestAppearance: {
-      bn: 13682470,
-      txId: 208,
-      timestamp: 1637829632,
-      date: '2021-11-25 08:40:32'
+      bn: 13746194,
+      txId: 31,
+      timestamp: 1638708696,
+      date: '2021-12-05 12:51:36'
     },
-    lastUpdated: 13711342,
-    blockRange: 2808842,
-    fileSize: 1048,
-    appearanceCount: 131,
-    neighborCount: 399,
+    lastUpdated: 13749516,
+    blockRange: 2872566,
+    fileSize: 1072,
+    appearanceCount: 134,
+    neighborCount: 3201,
     types: 'txs,logs,neighbors',
-    logCount: 26,
+    logCount: 27,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.07151875358697604
+        balance: 0.06816106523384408
       }
     ],
     core: false
@@ -52976,7 +53186,7 @@ export const grantsData = [
     blockRange: 349679,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 198,
+    neighborCount: 1333,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -52984,7 +53194,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.06296588091455142
+        balance: 0.043621135177095254
       }
     ],
     core: false
@@ -53007,11 +53217,11 @@ export const grantsData = [
       timestamp: 1636526126,
       date: '2021-11-10 06:35:26'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 914349,
     fileSize: 208,
     appearanceCount: 26,
-    neighborCount: 83,
+    neighborCount: 2494,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -53046,15 +53256,15 @@ export const grantsData = [
     blockRange: 1002714,
     fileSize: 4792,
     appearanceCount: 599,
-    neighborCount: 2252,
+    neighborCount: 19230,
     types: 'txs,logs,neighbors',
-    logCount: 481,
+    logCount: 482,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 2.49239910925381
+        balance: 2.48436517224855
       }
     ],
     core: false
@@ -53077,11 +53287,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 813281,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 29,
+    neighborCount: 1250,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -53107,18 +53317,18 @@ export const grantsData = [
       date: '2021-03-11 20:52:42'
     },
     latestAppearance: {
-      bn: 13587276,
-      txId: 213,
-      timestamp: 1636531021,
-      date: '2021-11-10 07:57:01'
+      bn: 13736940,
+      txId: 99,
+      timestamp: 1638580580,
+      date: '2021-12-04 01:16:20'
     },
-    lastUpdated: 13711342,
-    blockRange: 1567753,
-    fileSize: 544,
-    appearanceCount: 68,
-    neighborCount: 295,
+    lastUpdated: 13749516,
+    blockRange: 1717417,
+    fileSize: 584,
+    appearanceCount: 73,
+    neighborCount: 2522,
     types: 'txs,logs,neighbors',
-    logCount: 17,
+    logCount: 20,
     matched: 0,
     claimed: 0,
     balances: [
@@ -53142,16 +53352,16 @@ export const grantsData = [
       date: '2021-09-22 08:29:16'
     },
     latestAppearance: {
-      bn: 13503940,
-      txId: 132,
-      timestamp: 1635400138,
-      date: '2021-10-28 05:48:58'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 229431,
-    fileSize: 792,
-    appearanceCount: 99,
-    neighborCount: 370,
+    lastUpdated: 13749516,
+    blockRange: 458687,
+    fileSize: 800,
+    appearanceCount: 100,
+    neighborCount: 3047,
     types: 'txs,logs,neighbors',
     logCount: 85,
     matched: 0,
@@ -53182,11 +53392,11 @@ export const grantsData = [
       timestamp: 1636682275,
       date: '2021-11-12 01:57:55'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 994616,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 121,
+    neighborCount: 1732,
     types: 'txs,logs,neighbors',
     logCount: 14,
     matched: 0,
@@ -53221,7 +53431,7 @@ export const grantsData = [
     blockRange: 278046,
     fileSize: 728,
     appearanceCount: 91,
-    neighborCount: 294,
+    neighborCount: 3161,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -53229,7 +53439,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.06024642994246655
+        balance: 0.007018292710241224
       }
     ],
     core: false
@@ -53256,7 +53466,7 @@ export const grantsData = [
     blockRange: 795881,
     fileSize: 392,
     appearanceCount: 49,
-    neighborCount: 175,
+    neighborCount: 2329,
     types: 'txs,logs,neighbors',
     logCount: 41,
     matched: 0,
@@ -53287,11 +53497,11 @@ export const grantsData = [
       timestamp: 1636351340,
       date: '2021-11-08 06:02:20'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 985443,
     fileSize: 576,
     appearanceCount: 72,
-    neighborCount: 218,
+    neighborCount: 2438,
     types: 'txs,logs,neighbors',
     logCount: 35,
     matched: 0,
@@ -53326,7 +53536,7 @@ export const grantsData = [
     blockRange: 264809,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 10,
+    neighborCount: 691,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -53352,16 +53562,16 @@ export const grantsData = [
       date: '2021-06-29 04:01:07'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 777231,
-    fileSize: 488,
-    appearanceCount: 61,
-    neighborCount: 208,
+    lastUpdated: 13749516,
+    blockRange: 1006494,
+    fileSize: 496,
+    appearanceCount: 62,
+    neighborCount: 3107,
     types: 'txs,logs,neighbors',
     logCount: 54,
     matched: 0,
@@ -53392,11 +53602,11 @@ export const grantsData = [
       timestamp: 1637847708,
       date: '2021-11-25 13:41:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1057341,
     fileSize: 208,
     appearanceCount: 26,
-    neighborCount: 83,
+    neighborCount: 2528,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -53427,11 +53637,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 812418,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 36,
+    neighborCount: 1434,
     types: 'txs,logs,neighbors',
     logCount: 6,
     matched: 0,
@@ -53462,11 +53672,11 @@ export const grantsData = [
       timestamp: 1637262948,
       date: '2021-11-18 19:15:48'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 5,
+    neighborCount: 58,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -53501,7 +53711,7 @@ export const grantsData = [
     blockRange: 1329,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 4,
+    neighborCount: 5,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -53527,16 +53737,16 @@ export const grantsData = [
       date: '2021-06-22 20:20:21'
     },
     latestAppearance: {
-      bn: 13503897,
-      txId: 141,
-      timestamp: 1635399477,
-      date: '2021-10-28 05:37:57'
+      bn: 13733196,
+      txId: 10,
+      timestamp: 1638528794,
+      date: '2021-12-03 10:53:14'
     },
-    lastUpdated: 13711342,
-    blockRange: 817753,
-    fileSize: 168,
-    appearanceCount: 21,
-    neighborCount: 74,
+    lastUpdated: 13749516,
+    blockRange: 1047052,
+    fileSize: 176,
+    appearanceCount: 22,
+    neighborCount: 1937,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -53562,16 +53772,16 @@ export const grantsData = [
       date: '2021-06-18 17:45:54'
     },
     latestAppearance: {
-      bn: 13674068,
-      txId: 88,
-      timestamp: 1637714115,
-      date: '2021-11-24 00:35:15'
+      bn: 13727279,
+      txId: 244,
+      timestamp: 1638447106,
+      date: '2021-12-02 12:11:46'
     },
-    lastUpdated: 13711342,
-    blockRange: 1014226,
-    fileSize: 3176,
-    appearanceCount: 397,
-    neighborCount: 1484,
+    lastUpdated: 13749516,
+    blockRange: 1067437,
+    fileSize: 3216,
+    appearanceCount: 402,
+    neighborCount: 11684,
     types: 'txs,logs,neighbors',
     logCount: 289,
     matched: 0,
@@ -53606,9 +53816,9 @@ export const grantsData = [
     blockRange: 466467,
     fileSize: 1592,
     appearanceCount: 199,
-    neighborCount: 799,
+    neighborCount: 5269,
     types: 'txs,logs,neighbors',
-    logCount: 130,
+    logCount: 137,
     matched: 0,
     claimed: 0,
     balances: [
@@ -53641,7 +53851,7 @@ export const grantsData = [
     blockRange: 405750,
     fileSize: 768,
     appearanceCount: 96,
-    neighborCount: 372,
+    neighborCount: 2964,
     types: 'txs,logs,neighbors',
     logCount: 59,
     matched: 0,
@@ -53676,7 +53886,7 @@ export const grantsData = [
     blockRange: 601888,
     fileSize: 2256,
     appearanceCount: 282,
-    neighborCount: 1047,
+    neighborCount: 4607,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -53684,7 +53894,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.04554406102075344
+        balance: 0.27224717066682436
       }
     ],
     core: false
@@ -53711,7 +53921,7 @@ export const grantsData = [
     blockRange: 1894181,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 64,
+    neighborCount: 1104,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -53746,7 +53956,7 @@ export const grantsData = [
     blockRange: 697768,
     fileSize: 5400,
     appearanceCount: 675,
-    neighborCount: 2826,
+    neighborCount: 47500,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -53754,7 +53964,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.017301826137694404
+        balance: 1.237446233160257
       }
     ],
     core: false
@@ -53781,7 +53991,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -53816,7 +54026,7 @@ export const grantsData = [
     blockRange: 278046,
     fileSize: 728,
     appearanceCount: 91,
-    neighborCount: 294,
+    neighborCount: 3161,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -53824,7 +54034,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.06024642994246655
+        balance: 0.007018292710241224
       }
     ],
     core: false
@@ -53847,11 +54057,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 889254,
     fileSize: 352,
     appearanceCount: 44,
-    neighborCount: 157,
+    neighborCount: 2301,
     types: 'txs,logs,neighbors',
     logCount: 25,
     matched: 0,
@@ -53882,11 +54092,11 @@ export const grantsData = [
       timestamp: 1636576694,
       date: '2021-11-10 20:38:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 913653,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 46,
+    neighborCount: 823,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -53912,16 +54122,16 @@ export const grantsData = [
       date: '2021-06-24 10:06:11'
     },
     latestAppearance: {
-      bn: 13692678,
-      txId: 68,
-      timestamp: 1637970216,
-      date: '2021-11-26 23:43:36'
+      bn: 13748830,
+      txId: 42,
+      timestamp: 1638746321,
+      date: '2021-12-05 23:18:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 996467,
-    fileSize: 360,
-    appearanceCount: 45,
-    neighborCount: 186,
+    lastUpdated: 13749516,
+    blockRange: 1052619,
+    fileSize: 368,
+    appearanceCount: 46,
+    neighborCount: 1851,
     types: 'txs,logs,neighbors',
     logCount: 37,
     matched: 0,
@@ -53929,7 +54139,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 11.240228
+        balance: 11.290228
       }
     ],
     core: false
@@ -53956,15 +54166,15 @@ export const grantsData = [
     blockRange: 2518697,
     fileSize: 712,
     appearanceCount: 89,
-    neighborCount: 322,
+    neighborCount: 4288,
     types: 'txs,logs,neighbors',
-    logCount: 80,
+    logCount: 98,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.6582513982092354
+        balance: 1.2002513982092353
       }
     ],
     core: false
@@ -53991,7 +54201,7 @@ export const grantsData = [
     blockRange: 827226,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 61,
+    neighborCount: 1439,
     types: 'txs,logs,neighbors',
     logCount: 4,
     matched: 0,
@@ -54022,11 +54232,11 @@ export const grantsData = [
       timestamp: 1638186317,
       date: '2021-11-29 11:45:17'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1005829,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 64,
+    neighborCount: 1410,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -54061,7 +54271,7 @@ export const grantsData = [
     blockRange: 588073,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 15,
+    neighborCount: 909,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -54087,16 +54297,16 @@ export const grantsData = [
       date: '2021-05-07 15:45:45'
     },
     latestAppearance: {
-      bn: 13503893,
-      txId: 97,
-      timestamp: 1635399413,
-      date: '2021-10-28 05:36:53'
+      bn: 13732412,
+      txId: 242,
+      timestamp: 1638518305,
+      date: '2021-12-03 07:58:25'
     },
-    lastUpdated: 13711342,
-    blockRange: 1115874,
-    fileSize: 192,
-    appearanceCount: 24,
-    neighborCount: 72,
+    lastUpdated: 13749516,
+    blockRange: 1344393,
+    fileSize: 208,
+    appearanceCount: 26,
+    neighborCount: 1186,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -54127,11 +54337,11 @@ export const grantsData = [
       timestamp: 1637084603,
       date: '2021-11-16 17:43:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 168412,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 8,
+    neighborCount: 506,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -54166,7 +54376,7 @@ export const grantsData = [
     blockRange: 870015,
     fileSize: 2912,
     appearanceCount: 364,
-    neighborCount: 1390,
+    neighborCount: 9227,
     types: 'txs,logs,neighbors',
     logCount: 289,
     matched: 0,
@@ -54201,7 +54411,7 @@ export const grantsData = [
     blockRange: 412372,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 58,
+    neighborCount: 800,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -54232,11 +54442,11 @@ export const grantsData = [
       timestamp: 1627494773,
       date: '2021-07-28 17:52:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 202511,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 526,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -54245,6 +54455,41 @@ export const grantsData = [
       {
         asset: 'ETH',
         balance: 0
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 3091,
+    'active': true,
+    address: '0xc291aa03d4a0782a60d38701d0e9fade5a938d01',
+    name: 'Blockchain Infrastructure Carbon Offset Working Group',
+    slug: 'https://gitcoin.co/grants/3091/blockchain-infrastructure-carbon-offset-working-g',
+    firstAppearance: {
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
+    },
+    latestAppearance: {
+      bn: 13729776,
+      txId: 56,
+      timestamp: 1638482068,
+      date: '2021-12-02 21:54:28'
+    },
+    lastUpdated: 13749516,
+    blockRange: 3791,
+    fileSize: 40,
+    appearanceCount: 5,
+    neighborCount: 163,
+    types: 'txs,logs,neighbors',
+    logCount: 4,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.077545
       }
     ],
     core: false
@@ -54262,16 +54507,16 @@ export const grantsData = [
       date: '2020-01-22 20:00:19'
     },
     latestAppearance: {
-      bn: 12915825,
-      txId: 45,
-      timestamp: 1627494773,
-      date: '2021-07-28 17:52:53'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 3582367,
-    fileSize: 104,
-    appearanceCount: 13,
-    neighborCount: 33,
+    lastUpdated: 13749516,
+    blockRange: 4392528,
+    fileSize: 112,
+    appearanceCount: 14,
+    neighborCount: 477,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -54306,7 +54551,7 @@ export const grantsData = [
     blockRange: 467271,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 34,
+    neighborCount: 184,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -54337,11 +54582,11 @@ export const grantsData = [
       timestamp: 1637970188,
       date: '2021-11-26 23:43:08'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 37,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 12,
+    neighborCount: 13,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -54372,11 +54617,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 780408,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 38,
+    neighborCount: 860,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -54402,16 +54647,16 @@ export const grantsData = [
       date: '2017-11-21 06:24:24'
     },
     latestAppearance: {
-      bn: 13709218,
-      txId: 28,
-      timestamp: 1638197260,
-      date: '2021-11-29 14:47:40'
+      bn: 13714095,
+      txId: 88,
+      timestamp: 1638266155,
+      date: '2021-11-30 09:55:55'
     },
-    lastUpdated: 13711342,
-    blockRange: 9116311,
-    fileSize: 3232,
-    appearanceCount: 404,
-    neighborCount: 1306,
+    lastUpdated: 13749516,
+    blockRange: 9121188,
+    fileSize: 3240,
+    appearanceCount: 405,
+    neighborCount: 8862,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -54446,7 +54691,7 @@ export const grantsData = [
     blockRange: 187618,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 9,
+    neighborCount: 264,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -54481,7 +54726,7 @@ export const grantsData = [
     blockRange: 771174,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 32,
+    neighborCount: 952,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -54512,11 +54757,11 @@ export const grantsData = [
       timestamp: 1636761617,
       date: '2021-11-13 00:00:17'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1199022,
     fileSize: 232,
     appearanceCount: 29,
-    neighborCount: 103,
+    neighborCount: 755,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -54547,11 +54792,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 588069,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 756,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -54577,16 +54822,16 @@ export const grantsData = [
       date: '2021-04-27 17:07:37'
     },
     latestAppearance: {
-      bn: 13693396,
-      txId: 391,
-      timestamp: 1637979768,
-      date: '2021-11-27 02:22:48'
+      bn: 13738334,
+      txId: 111,
+      timestamp: 1638600152,
+      date: '2021-12-04 06:42:32'
     },
-    lastUpdated: 13711342,
-    blockRange: 1369693,
-    fileSize: 2944,
-    appearanceCount: 368,
-    neighborCount: 1348,
+    lastUpdated: 13749516,
+    blockRange: 1414631,
+    fileSize: 3096,
+    appearanceCount: 387,
+    neighborCount: 5099,
     types: 'txs,logs,neighbors',
     logCount: 21,
     matched: 0,
@@ -54617,11 +54862,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 781351,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 67,
+    neighborCount: 842,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -54656,7 +54901,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -54691,15 +54936,15 @@ export const grantsData = [
     blockRange: 1205547,
     fileSize: 5632,
     appearanceCount: 704,
-    neighborCount: 2598,
+    neighborCount: 17529,
     types: 'txs,logs,neighbors',
-    logCount: 587,
+    logCount: 607,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.06043896777604229
+        balance: 0.2646389677760423
       }
     ],
     core: false
@@ -54726,7 +54971,7 @@ export const grantsData = [
     blockRange: 45027,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 20,
+    neighborCount: 27,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -54757,11 +55002,11 @@ export const grantsData = [
       timestamp: 1636593213,
       date: '2021-11-11 01:13:33'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4128217,
     fileSize: 6128,
     appearanceCount: 766,
-    neighborCount: 4237,
+    neighborCount: 17596,
     types: 'txs,logs,neighbors',
     logCount: 50,
     matched: 0,
@@ -54787,16 +55032,16 @@ export const grantsData = [
       date: '2021-06-29 18:14:35'
     },
     latestAppearance: {
-      bn: 13684450,
-      txId: 396,
-      timestamp: 1637856591,
-      date: '2021-11-25 16:09:51'
+      bn: 13740515,
+      txId: 15,
+      timestamp: 1638630931,
+      date: '2021-12-04 15:15:31'
     },
-    lastUpdated: 13711342,
-    blockRange: 953978,
-    fileSize: 504,
-    appearanceCount: 63,
-    neighborCount: 204,
+    lastUpdated: 13749516,
+    blockRange: 1010043,
+    fileSize: 736,
+    appearanceCount: 92,
+    neighborCount: 2343,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -54804,7 +55049,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 56.16102685991556
+        balance: 51.91802371057436
       }
     ],
     core: false
@@ -54831,7 +55076,7 @@ export const grantsData = [
     blockRange: 660220,
     fileSize: 2936,
     appearanceCount: 367,
-    neighborCount: 1280,
+    neighborCount: 3768,
     types: 'txs,logs,neighbors',
     logCount: 23,
     matched: 0,
@@ -54839,7 +55084,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.11519804033864368
+        balance: 0.06329209621598769
       }
     ],
     core: false
@@ -54862,11 +55107,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -54901,7 +55146,7 @@ export const grantsData = [
     blockRange: 1476045,
     fileSize: 1560,
     appearanceCount: 195,
-    neighborCount: 693,
+    neighborCount: 1443,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -54932,11 +55177,11 @@ export const grantsData = [
       timestamp: 1637804683,
       date: '2021-11-25 01:44:43'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1030616,
     fileSize: 760,
     appearanceCount: 95,
-    neighborCount: 376,
+    neighborCount: 1629,
     types: 'txs,logs,neighbors',
     logCount: 19,
     matched: 0,
@@ -54971,7 +55216,7 @@ export const grantsData = [
     blockRange: 236032,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 19,
+    neighborCount: 525,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -55006,7 +55251,7 @@ export const grantsData = [
     blockRange: 228262,
     fileSize: 152,
     appearanceCount: 19,
-    neighborCount: 61,
+    neighborCount: 616,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -55014,7 +55259,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.000189
+        balance: 0.000156012842328
       }
     ],
     core: false
@@ -55041,7 +55286,7 @@ export const grantsData = [
     blockRange: 240994,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 10,
+    neighborCount: 511,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -55067,18 +55312,18 @@ export const grantsData = [
       date: '2021-04-01 03:26:29'
     },
     latestAppearance: {
-      bn: 13698907,
-      txId: 114,
-      timestamp: 1638054686,
-      date: '2021-11-27 23:11:26'
+      bn: 13736940,
+      txId: 99,
+      timestamp: 1638580580,
+      date: '2021-12-04 01:16:20'
     },
-    lastUpdated: 13711342,
-    blockRange: 1547718,
-    fileSize: 2128,
-    appearanceCount: 266,
-    neighborCount: 997,
+    lastUpdated: 13749516,
+    blockRange: 1585751,
+    fileSize: 2160,
+    appearanceCount: 270,
+    neighborCount: 7863,
     types: 'txs,logs,neighbors',
-    logCount: 184,
+    logCount: 185,
     matched: 0,
     claimed: 0,
     balances: [
@@ -55107,11 +55352,11 @@ export const grantsData = [
       timestamp: 1637304933,
       date: '2021-11-19 06:55:33'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 811915,
     fileSize: 616,
     appearanceCount: 77,
-    neighborCount: 270,
+    neighborCount: 2222,
     types: 'txs,logs,neighbors',
     logCount: 68,
     matched: 0,
@@ -55146,7 +55391,7 @@ export const grantsData = [
     blockRange: 308153,
     fileSize: 1272,
     appearanceCount: 159,
-    neighborCount: 645,
+    neighborCount: 4880,
     types: 'txs,logs,neighbors',
     logCount: 96,
     matched: 0,
@@ -55181,7 +55426,7 @@ export const grantsData = [
     blockRange: 6735,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 13,
+    neighborCount: 18,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -55216,7 +55461,7 @@ export const grantsData = [
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -55251,7 +55496,7 @@ export const grantsData = [
     blockRange: 312546,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 27,
+    neighborCount: 776,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -55277,16 +55522,16 @@ export const grantsData = [
       date: '2021-09-23 15:03:24'
     },
     latestAppearance: {
-      bn: 13503940,
-      txId: 132,
-      timestamp: 1635400138,
-      date: '2021-10-28 05:48:58'
+      bn: 13727279,
+      txId: 244,
+      timestamp: 1638447106,
+      date: '2021-12-02 12:11:46'
     },
-    lastUpdated: 13711342,
-    blockRange: 221228,
-    fileSize: 256,
-    appearanceCount: 32,
-    neighborCount: 110,
+    lastUpdated: 13749516,
+    blockRange: 444567,
+    fileSize: 272,
+    appearanceCount: 34,
+    neighborCount: 769,
     types: 'txs,logs,neighbors',
     logCount: 30,
     matched: 0,
@@ -55321,7 +55566,7 @@ export const grantsData = [
     blockRange: 283530,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 17,
+    neighborCount: 546,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -55356,7 +55601,7 @@ export const grantsData = [
     blockRange: 1433162,
     fileSize: 424,
     appearanceCount: 53,
-    neighborCount: 184,
+    neighborCount: 732,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -55391,7 +55636,7 @@ export const grantsData = [
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -55422,11 +55667,11 @@ export const grantsData = [
       timestamp: 1631415996,
       date: '2021-09-12 03:06:36'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 54,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -55457,11 +55702,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 8020470,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 507,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -55492,11 +55737,11 @@ export const grantsData = [
       timestamp: 1638224249,
       date: '2021-11-29 22:17:29'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 502720,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 13,
+    neighborCount: 562,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -55527,11 +55772,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 409566,
     fileSize: 160,
     appearanceCount: 20,
-    neighborCount: 71,
+    neighborCount: 1174,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -55566,15 +55811,15 @@ export const grantsData = [
     blockRange: 316897,
     fileSize: 1568,
     appearanceCount: 196,
-    neighborCount: 734,
+    neighborCount: 5996,
     types: 'txs,logs,neighbors',
-    logCount: 162,
+    logCount: 168,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.043853402090443
+        balance: 0.015
       }
     ],
     core: false
@@ -55601,7 +55846,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 7,
+    neighborCount: 12,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -55609,7 +55854,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.04866880382558991
+        balance: 0.04351030359132141
       }
     ],
     core: false
@@ -55632,11 +55877,11 @@ export const grantsData = [
       timestamp: 1638043598,
       date: '2021-11-27 20:06:38'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 607860,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 46,
+    neighborCount: 617,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -55667,11 +55912,11 @@ export const grantsData = [
       timestamp: 1628753721,
       date: '2021-08-12 07:35:21'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 8,
+    neighborCount: 9,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -55702,11 +55947,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 489670,
     fileSize: 40,
     appearanceCount: 5,
-    neighborCount: 19,
+    neighborCount: 523,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -55741,9 +55986,9 @@ export const grantsData = [
     blockRange: 661339,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 133,
+    neighborCount: 503,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 3,
     matched: 0,
     claimed: 0,
     balances: [
@@ -55772,11 +56017,11 @@ export const grantsData = [
       timestamp: 1636646490,
       date: '2021-11-11 16:01:30'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 724986,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 58,
+    neighborCount: 613,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -55811,7 +56056,7 @@ export const grantsData = [
     blockRange: 141711,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 42,
+    neighborCount: 116,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -55837,18 +56082,18 @@ export const grantsData = [
       date: '2021-08-19 23:12:56'
     },
     latestAppearance: {
-      bn: 13503897,
-      txId: 141,
-      timestamp: 1635399477,
-      date: '2021-10-28 05:37:57'
+      bn: 13734305,
+      txId: 320,
+      timestamp: 1638544605,
+      date: '2021-12-03 15:16:45'
     },
-    lastUpdated: 13711342,
-    blockRange: 445251,
-    fileSize: 48,
-    appearanceCount: 6,
-    neighborCount: 20,
+    lastUpdated: 13749516,
+    blockRange: 675659,
+    fileSize: 64,
+    appearanceCount: 8,
+    neighborCount: 757,
     types: 'txs,logs,neighbors',
-    logCount: 3,
+    logCount: 4,
     matched: 0,
     claimed: 0,
     balances: [
@@ -55872,16 +56117,16 @@ export const grantsData = [
       date: '2021-09-16 13:09:40'
     },
     latestAppearance: {
-      bn: 13643574,
-      txId: 80,
-      timestamp: 1637296148,
-      date: '2021-11-19 04:29:08'
+      bn: 13744769,
+      txId: 85,
+      timestamp: 1638689357,
+      date: '2021-12-05 07:29:17'
     },
-    lastUpdated: 13711342,
-    blockRange: 406629,
-    fileSize: 256,
-    appearanceCount: 32,
-    neighborCount: 159,
+    lastUpdated: 13749516,
+    blockRange: 507824,
+    fileSize: 272,
+    appearanceCount: 34,
+    neighborCount: 1023,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -55889,7 +56134,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.004661155644332668
+        balance: 0.006774634200935342
       }
     ],
     core: false
@@ -55907,18 +56152,18 @@ export const grantsData = [
       date: '2021-08-16 14:38:37'
     },
     latestAppearance: {
-      bn: 13651350,
-      txId: 105,
-      timestamp: 1637404058,
-      date: '2021-11-20 10:27:38'
+      bn: 13731896,
+      txId: 117,
+      timestamp: 1638511530,
+      date: '2021-12-03 06:05:30'
     },
-    lastUpdated: 13711342,
-    blockRange: 614507,
-    fileSize: 1152,
-    appearanceCount: 144,
-    neighborCount: 585,
+    lastUpdated: 13749516,
+    blockRange: 695053,
+    fileSize: 1176,
+    appearanceCount: 147,
+    neighborCount: 3438,
     types: 'txs,logs,neighbors',
-    logCount: 122,
+    logCount: 124,
     matched: 0,
     claimed: 0,
     balances: [
@@ -55947,11 +56192,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 445251,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 11,
+    neighborCount: 519,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -55982,11 +56227,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 445247,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 14,
+    neighborCount: 523,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -56021,15 +56266,50 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 421,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 1,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
         balance: 0.0041562
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 3374,
+    'active': true,
+    address: '0xf2df9c7dbd6181bac491274388727539970be501',
+    name: 'CryptoAvisos',
+    slug: 'https://gitcoin.co/grants/3374/cryptoavisos',
+    firstAppearance: {
+      bn: 13723217,
+      txId: 256,
+      timestamp: 1638391358,
+      date: '2021-12-01 20:42:38'
+    },
+    latestAppearance: {
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
+    },
+    lastUpdated: 13749516,
+    blockRange: 2770,
+    fileSize: 16,
+    appearanceCount: 2,
+    neighborCount: 142,
+    types: 'txs,logs,neighbors',
+    logCount: 1,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.01640626472074634
       }
     ],
     core: false
@@ -56056,7 +56336,7 @@ export const grantsData = [
     blockRange: 511595,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 50,
+    neighborCount: 618,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -56091,7 +56371,7 @@ export const grantsData = [
     blockRange: 1401422,
     fileSize: 336,
     appearanceCount: 42,
-    neighborCount: 86,
+    neighborCount: 584,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -56126,7 +56406,7 @@ export const grantsData = [
     blockRange: 2042317,
     fileSize: 136,
     appearanceCount: 17,
-    neighborCount: 55,
+    neighborCount: 565,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -56152,18 +56432,18 @@ export const grantsData = [
       date: '2021-09-09 09:16:41'
     },
     latestAppearance: {
-      bn: 13664656,
-      txId: 187,
-      timestamp: 1637586332,
-      date: '2021-11-22 13:05:32'
+      bn: 13745393,
+      txId: 200,
+      timestamp: 1638698041,
+      date: '2021-12-05 09:54:01'
     },
-    lastUpdated: 13711342,
-    blockRange: 473992,
-    fileSize: 792,
-    appearanceCount: 99,
-    neighborCount: 401,
+    lastUpdated: 13749516,
+    blockRange: 554729,
+    fileSize: 888,
+    appearanceCount: 111,
+    neighborCount: 3703,
     types: 'txs,logs,neighbors',
-    logCount: 67,
+    logCount: 69,
     matched: 0,
     claimed: 0,
     balances: [
@@ -56187,18 +56467,18 @@ export const grantsData = [
       date: '2021-11-15 10:16:24'
     },
     latestAppearance: {
-      bn: 13676169,
-      txId: 88,
-      timestamp: 1637742398,
-      date: '2021-11-24 08:26:38'
+      bn: 13739326,
+      txId: 99,
+      timestamp: 1638614047,
+      date: '2021-12-04 10:34:07'
     },
-    lastUpdated: 13711342,
-    blockRange: 56406,
-    fileSize: 32,
-    appearanceCount: 4,
-    neighborCount: 13,
+    lastUpdated: 13749516,
+    blockRange: 119563,
+    fileSize: 80,
+    appearanceCount: 10,
+    neighborCount: 207,
     types: 'txs,logs,neighbors',
-    logCount: 1,
+    logCount: 5,
     matched: 0,
     claimed: 0,
     balances: [
@@ -56227,11 +56507,11 @@ export const grantsData = [
       timestamp: 1638120099,
       date: '2021-11-28 17:21:39'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 559366,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 48,
+    neighborCount: 557,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -56266,7 +56546,7 @@ export const grantsData = [
     blockRange: 756808,
     fileSize: 472,
     appearanceCount: 59,
-    neighborCount: 193,
+    neighborCount: 2563,
     types: 'txs,logs,neighbors',
     logCount: 16,
     matched: 0,
@@ -56301,7 +56581,7 @@ export const grantsData = [
     blockRange: 139614,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 63,
+    neighborCount: 233,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -56309,7 +56589,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.014950017401746209
+        balance: 0.005805147032304208
       }
     ],
     core: false
@@ -56332,11 +56612,11 @@ export const grantsData = [
       timestamp: 1636927551,
       date: '2021-11-14 22:05:51'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 298592,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 30,
+    neighborCount: 528,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -56371,9 +56651,44 @@ export const grantsData = [
     blockRange: 3717076,
     fileSize: 560,
     appearanceCount: 70,
-    neighborCount: 196,
+    neighborCount: 1098,
     types: 'txs,logs,neighbors',
     logCount: 0,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 3408,
+    'active': true,
+    address: '0xcd4db18b6664a9662123d4307b074ae968535388',
+    name: '🎨 ART Library for Python',
+    slug: 'https://gitcoin.co/grants/3408/art-library-for-python',
+    firstAppearance: {
+      bn: 13731994,
+      txId: 174,
+      timestamp: 1638512793,
+      date: '2021-12-03 06:26:33'
+    },
+    latestAppearance: {
+      bn: 13731994,
+      txId: 174,
+      timestamp: 1638512793,
+      date: '2021-12-03 06:26:33'
+    },
+    lastUpdated: 13749516,
+    blockRange: 1,
+    fileSize: 8,
+    appearanceCount: 1,
+    neighborCount: 30,
+    types: 'txs,logs,neighbors',
+    logCount: 1,
     matched: 0,
     claimed: 0,
     balances: [
@@ -56406,7 +56721,7 @@ export const grantsData = [
     blockRange: 228281,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 10,
+    neighborCount: 522,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -56432,16 +56747,16 @@ export const grantsData = [
       date: '2021-08-22 21:43:38'
     },
     latestAppearance: {
-      bn: 13520254,
-      txId: 71,
-      timestamp: 1635621066,
-      date: '2021-10-30 19:11:06'
+      bn: 13745464,
+      txId: 117,
+      timestamp: 1638698914,
+      date: '2021-12-05 10:08:34'
     },
-    lastUpdated: 13711342,
-    blockRange: 442619,
-    fileSize: 1552,
-    appearanceCount: 194,
-    neighborCount: 1057,
+    lastUpdated: 13749516,
+    blockRange: 667829,
+    fileSize: 1568,
+    appearanceCount: 196,
+    neighborCount: 4863,
     types: 'txs,logs,neighbors',
     logCount: 37,
     matched: 0,
@@ -56467,16 +56782,16 @@ export const grantsData = [
       date: '2021-09-12 03:06:36'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13748233,
+      txId: 275,
+      timestamp: 1638737635,
+      date: '2021-12-05 20:53:55'
     },
-    lastUpdated: 13711342,
-    blockRange: 295522,
-    fileSize: 48,
-    appearanceCount: 6,
-    neighborCount: 27,
+    lastUpdated: 13749516,
+    blockRange: 539822,
+    fileSize: 80,
+    appearanceCount: 10,
+    neighborCount: 656,
     types: 'txs,logs,neighbors',
     logCount: 5,
     matched: 0,
@@ -56511,7 +56826,7 @@ export const grantsData = [
     blockRange: 898939,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 11,
+    neighborCount: 510,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -56546,7 +56861,7 @@ export const grantsData = [
     blockRange: 459015,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 31,
+    neighborCount: 665,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -56581,7 +56896,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 11,
+    neighborCount: 45,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -56607,18 +56922,18 @@ export const grantsData = [
       date: '2021-02-15 23:35:24'
     },
     latestAppearance: {
-      bn: 13697374,
-      txId: 402,
-      timestamp: 1638034029,
-      date: '2021-11-27 17:27:09'
+      bn: 13732242,
+      txId: 237,
+      timestamp: 1638516173,
+      date: '2021-12-03 07:22:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 1833055,
-    fileSize: 3152,
-    appearanceCount: 394,
-    neighborCount: 1180,
+    lastUpdated: 13749516,
+    blockRange: 1867923,
+    fileSize: 3176,
+    appearanceCount: 397,
+    neighborCount: 5485,
     types: 'txs,logs,neighbors',
-    logCount: 29,
+    logCount: 31,
     matched: 0,
     claimed: 0,
     balances: [
@@ -56647,11 +56962,11 @@ export const grantsData = [
       timestamp: 1637659709,
       date: '2021-11-23 09:28:29'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 464219,
     fileSize: 384,
     appearanceCount: 48,
-    neighborCount: 152,
+    neighborCount: 1182,
     types: 'txs,logs,neighbors',
     logCount: 26,
     matched: 0,
@@ -56686,7 +57001,7 @@ export const grantsData = [
     blockRange: 498832,
     fileSize: 632,
     appearanceCount: 79,
-    neighborCount: 275,
+    neighborCount: 3268,
     types: 'txs,logs,neighbors',
     logCount: 61,
     matched: 0,
@@ -56712,16 +57027,16 @@ export const grantsData = [
       date: '2021-08-25 04:30:09'
     },
     latestAppearance: {
-      bn: 13503893,
-      txId: 97,
-      timestamp: 1635399413,
-      date: '2021-10-28 05:36:53'
+      bn: 13724565,
+      txId: 77,
+      timestamp: 1638409445,
+      date: '2021-12-02 01:44:05'
     },
-    lastUpdated: 13711342,
-    blockRange: 411497,
-    fileSize: 912,
-    appearanceCount: 114,
-    neighborCount: 541,
+    lastUpdated: 13749516,
+    blockRange: 632169,
+    fileSize: 928,
+    appearanceCount: 116,
+    neighborCount: 1667,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -56756,9 +57071,9 @@ export const grantsData = [
     blockRange: 875315,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 24,
+    neighborCount: 901,
     types: 'txs,logs,neighbors',
-    logCount: 3,
+    logCount: 4,
     matched: 0,
     claimed: 0,
     balances: [
@@ -56782,18 +57097,18 @@ export const grantsData = [
       date: '2021-09-08 23:55:13'
     },
     latestAppearance: {
-      bn: 13701602,
-      txId: 154,
-      timestamp: 1638091712,
-      date: '2021-11-28 09:28:32'
+      bn: 13729029,
+      txId: 243,
+      timestamp: 1638471611,
+      date: '2021-12-02 19:00:11'
     },
-    lastUpdated: 13711342,
-    blockRange: 513411,
-    fileSize: 144,
-    appearanceCount: 18,
-    neighborCount: 67,
+    lastUpdated: 13749516,
+    blockRange: 540838,
+    fileSize: 160,
+    appearanceCount: 20,
+    neighborCount: 1296,
     types: 'txs,logs,neighbors',
-    logCount: 15,
+    logCount: 16,
     matched: 0,
     claimed: 0,
     balances: [
@@ -56826,7 +57141,7 @@ export const grantsData = [
     blockRange: 224219,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 10,
+    neighborCount: 537,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -56861,7 +57176,7 @@ export const grantsData = [
     blockRange: 1556651,
     fileSize: 1232,
     appearanceCount: 154,
-    neighborCount: 546,
+    neighborCount: 3927,
     types: 'txs,logs,neighbors',
     logCount: 34,
     matched: 0,
@@ -56896,7 +57211,7 @@ export const grantsData = [
     blockRange: 1017339,
     fileSize: 232,
     appearanceCount: 29,
-    neighborCount: 103,
+    neighborCount: 699,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -56931,7 +57246,7 @@ export const grantsData = [
     blockRange: 239034,
     fileSize: 72,
     appearanceCount: 9,
-    neighborCount: 25,
+    neighborCount: 671,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -56939,7 +57254,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.08062180213938996
+        balance: 0.0758962574410338
       }
     ],
     core: false
@@ -56957,16 +57272,16 @@ export const grantsData = [
       date: '2021-09-10 14:20:47'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13741443,
+      txId: 45,
+      timestamp: 1638643847,
+      date: '2021-12-04 18:50:47'
     },
-    lastUpdated: 13711342,
-    blockRange: 305397,
-    fileSize: 112,
-    appearanceCount: 14,
-    neighborCount: 51,
+    lastUpdated: 13749516,
+    blockRange: 542907,
+    fileSize: 160,
+    appearanceCount: 20,
+    neighborCount: 775,
     types: 'txs,logs,neighbors',
     logCount: 12,
     matched: 0,
@@ -56974,7 +57289,42 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.029243047475439654
+        balance: 0.05264304747543966
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 3479,
+    'active': true,
+    address: '0xe25457dfdfa299df27c7648943ec4283933d07fa',
+    name: 'Crypto-Educate & Feed the Needy.',
+    slug: 'https://gitcoin.co/grants/3479/crypto-educate-feed-the-needy',
+    firstAppearance: {
+      bn: 13723794,
+      txId: 42,
+      timestamp: 1638399126,
+      date: '2021-12-01 22:52:06'
+    },
+    latestAppearance: {
+      bn: 13723794,
+      txId: 42,
+      timestamp: 1638399126,
+      date: '2021-12-01 22:52:06'
+    },
+    lastUpdated: 13749516,
+    blockRange: 1,
+    fileSize: 8,
+    appearanceCount: 1,
+    neighborCount: 25,
+    types: 'txs,logs,neighbors',
+    logCount: 1,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.000363636189987
       }
     ],
     core: false
@@ -56992,24 +57342,24 @@ export const grantsData = [
       date: '2021-08-23 09:02:33'
     },
     latestAppearance: {
-      bn: 13637686,
-      txId: 314,
-      timestamp: 1637216488,
-      date: '2021-11-18 06:21:28'
+      bn: 13748830,
+      txId: 42,
+      timestamp: 1638746321,
+      date: '2021-12-05 23:18:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 557051,
-    fileSize: 2168,
-    appearanceCount: 271,
-    neighborCount: 974,
+    lastUpdated: 13749516,
+    blockRange: 668195,
+    fileSize: 2248,
+    appearanceCount: 281,
+    neighborCount: 8595,
     types: 'txs,logs,neighbors',
-    logCount: 227,
+    logCount: 230,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.7663679304197007
+        balance: 0.5805943053068999
       }
     ],
     core: false
@@ -57027,24 +57377,24 @@ export const grantsData = [
       date: '2021-08-23 09:02:33'
     },
     latestAppearance: {
-      bn: 13637686,
-      txId: 314,
-      timestamp: 1637216488,
-      date: '2021-11-18 06:21:28'
+      bn: 13748830,
+      txId: 42,
+      timestamp: 1638746321,
+      date: '2021-12-05 23:18:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 557051,
-    fileSize: 2168,
-    appearanceCount: 271,
-    neighborCount: 974,
+    lastUpdated: 13749516,
+    blockRange: 668195,
+    fileSize: 2248,
+    appearanceCount: 281,
+    neighborCount: 8595,
     types: 'txs,logs,neighbors',
-    logCount: 227,
+    logCount: 230,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.7663679304197007
+        balance: 0.5805943053068999
       }
     ],
     core: false
@@ -57071,7 +57421,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 4,
+    neighborCount: 41,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -57106,7 +57456,7 @@ export const grantsData = [
     blockRange: 595526,
     fileSize: 192,
     appearanceCount: 24,
-    neighborCount: 67,
+    neighborCount: 85,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -57132,18 +57482,18 @@ export const grantsData = [
       date: '2021-09-11 21:57:02'
     },
     latestAppearance: {
-      bn: 13613092,
-      txId: 287,
-      timestamp: 1636881070,
-      date: '2021-11-14 09:11:10'
+      bn: 13729105,
+      txId: 31,
+      timestamp: 1638472558,
+      date: '2021-12-02 19:15:58'
     },
-    lastUpdated: 13711342,
-    blockRange: 406081,
-    fileSize: 136,
-    appearanceCount: 17,
-    neighborCount: 56,
+    lastUpdated: 13749516,
+    blockRange: 522094,
+    fileSize: 144,
+    appearanceCount: 18,
+    neighborCount: 961,
     types: 'txs,logs,neighbors',
-    logCount: 11,
+    logCount: 12,
     matched: 0,
     claimed: 0,
     balances: [
@@ -57176,7 +57526,7 @@ export const grantsData = [
     blockRange: 2036726,
     fileSize: 4352,
     appearanceCount: 544,
-    neighborCount: 1699,
+    neighborCount: 3603,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -57184,7 +57534,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.034140422368614
+        balance: 0.011503454769682
       }
     ],
     core: false
@@ -57207,11 +57557,11 @@ export const grantsData = [
       timestamp: 1636463916,
       date: '2021-11-09 13:18:36'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4287931,
     fileSize: 2320,
     appearanceCount: 290,
-    neighborCount: 1243,
+    neighborCount: 2700,
     types: 'txs,logs,neighbors',
     logCount: 45,
     matched: 0,
@@ -57237,24 +57587,24 @@ export const grantsData = [
       date: '2021-08-23 09:02:33'
     },
     latestAppearance: {
-      bn: 13637686,
-      txId: 314,
-      timestamp: 1637216488,
-      date: '2021-11-18 06:21:28'
+      bn: 13748830,
+      txId: 42,
+      timestamp: 1638746321,
+      date: '2021-12-05 23:18:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 557051,
-    fileSize: 2168,
-    appearanceCount: 271,
-    neighborCount: 974,
+    lastUpdated: 13749516,
+    blockRange: 668195,
+    fileSize: 2248,
+    appearanceCount: 281,
+    neighborCount: 8595,
     types: 'txs,logs,neighbors',
-    logCount: 227,
+    logCount: 230,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.7663679304197007
+        balance: 0.5805943053068999
       }
     ],
     core: false
@@ -57281,7 +57631,7 @@ export const grantsData = [
     blockRange: 315389,
     fileSize: 1128,
     appearanceCount: 141,
-    neighborCount: 503,
+    neighborCount: 4270,
     types: 'txs,logs,neighbors',
     logCount: 118,
     matched: 0,
@@ -57307,18 +57657,18 @@ export const grantsData = [
       date: '2021-09-11 11:58:20'
     },
     latestAppearance: {
-      bn: 13540268,
-      txId: 140,
-      timestamp: 1635893215,
-      date: '2021-11-02 22:46:55'
+      bn: 13732946,
+      txId: 149,
+      timestamp: 1638525729,
+      date: '2021-12-03 10:02:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 335952,
-    fileSize: 392,
-    appearanceCount: 49,
-    neighborCount: 189,
+    lastUpdated: 13749516,
+    blockRange: 528630,
+    fileSize: 408,
+    appearanceCount: 51,
+    neighborCount: 2021,
     types: 'txs,logs,neighbors',
-    logCount: 41,
+    logCount: 42,
     matched: 0,
     claimed: 0,
     balances: [
@@ -57347,11 +57697,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44356,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -57386,7 +57736,7 @@ export const grantsData = [
     blockRange: 178225,
     fileSize: 120,
     appearanceCount: 15,
-    neighborCount: 55,
+    neighborCount: 89,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -57417,11 +57767,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -57456,9 +57806,9 @@ export const grantsData = [
     blockRange: 784294,
     fileSize: 144,
     appearanceCount: 18,
-    neighborCount: 75,
+    neighborCount: 871,
     types: 'txs,logs,neighbors',
-    logCount: 5,
+    logCount: 6,
     matched: 0,
     claimed: 0,
     balances: [
@@ -57491,7 +57841,7 @@ export const grantsData = [
     blockRange: 65181,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 10,
+    neighborCount: 31,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -57526,7 +57876,7 @@ export const grantsData = [
     blockRange: 525071,
     fileSize: 184,
     appearanceCount: 23,
-    neighborCount: 80,
+    neighborCount: 595,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -57552,16 +57902,16 @@ export const grantsData = [
       date: '2021-06-21 21:23:41'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13725899,
+      txId: 52,
+      timestamp: 1638428121,
+      date: '2021-12-02 06:55:21'
     },
-    lastUpdated: 13711342,
-    blockRange: 823912,
-    fileSize: 288,
-    appearanceCount: 36,
-    neighborCount: 122,
+    lastUpdated: 13749516,
+    blockRange: 1045878,
+    fileSize: 296,
+    appearanceCount: 37,
+    neighborCount: 1994,
     types: 'txs,logs,neighbors',
     logCount: 23,
     matched: 0,
@@ -57587,16 +57937,16 @@ export const grantsData = [
       date: '2021-09-11 06:15:29'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13736940,
+      txId: 99,
+      timestamp: 1638580580,
+      date: '2021-12-04 01:16:20'
     },
-    lastUpdated: 13711342,
-    blockRange: 301151,
-    fileSize: 48,
-    appearanceCount: 6,
-    neighborCount: 20,
+    lastUpdated: 13749516,
+    blockRange: 534158,
+    fileSize: 64,
+    appearanceCount: 8,
+    neighborCount: 811,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -57622,16 +57972,16 @@ export const grantsData = [
       date: '2021-09-10 07:04:00'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13723252,
+      txId: 41,
+      timestamp: 1638391832,
+      date: '2021-12-01 20:50:32'
     },
-    lastUpdated: 13711342,
-    blockRange: 307375,
-    fileSize: 32,
-    appearanceCount: 4,
-    neighborCount: 13,
+    lastUpdated: 13749516,
+    blockRange: 526694,
+    fileSize: 40,
+    appearanceCount: 5,
+    neighborCount: 600,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -57657,16 +58007,16 @@ export const grantsData = [
       date: '2021-08-13 21:26:43'
     },
     latestAppearance: {
-      bn: 13647685,
-      txId: 367,
-      timestamp: 1637354158,
-      date: '2021-11-19 20:35:58'
+      bn: 13730635,
+      txId: 394,
+      timestamp: 1638493745,
+      date: '2021-12-03 01:09:05'
     },
-    lastUpdated: 13711342,
-    blockRange: 628418,
-    fileSize: 256,
-    appearanceCount: 32,
-    neighborCount: 125,
+    lastUpdated: 13749516,
+    blockRange: 711368,
+    fileSize: 264,
+    appearanceCount: 33,
+    neighborCount: 800,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -57701,7 +58051,7 @@ export const grantsData = [
     blockRange: 420963,
     fileSize: 1512,
     appearanceCount: 189,
-    neighborCount: 712,
+    neighborCount: 4575,
     types: 'txs,logs,neighbors',
     logCount: 125,
     matched: 0,
@@ -57727,16 +58077,16 @@ export const grantsData = [
       date: '2021-11-19 23:47:00'
     },
     latestAppearance: {
-      bn: 13683449,
-      txId: 399,
-      timestamp: 1637843050,
-      date: '2021-11-25 12:24:10'
+      bn: 13748069,
+      txId: 288,
+      timestamp: 1638735821,
+      date: '2021-12-05 20:23:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 34887,
-    fileSize: 120,
-    appearanceCount: 15,
-    neighborCount: 54,
+    lastUpdated: 13749516,
+    blockRange: 99507,
+    fileSize: 152,
+    appearanceCount: 19,
+    neighborCount: 90,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -57744,7 +58094,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.6401013481254659
+        balance: 0.619574242595284
       }
     ],
     core: false
@@ -57797,16 +58147,16 @@ export const grantsData = [
       date: '2021-11-26 07:46:01'
     },
     latestAppearance: {
-      bn: 13689214,
-      txId: 209,
-      timestamp: 1637922952,
-      date: '2021-11-26 10:35:52'
+      bn: 13740807,
+      txId: 248,
+      timestamp: 1638634989,
+      date: '2021-12-04 16:23:09'
     },
-    lastUpdated: 13711342,
-    blockRange: 700,
-    fileSize: 24,
-    appearanceCount: 3,
-    neighborCount: 6,
+    lastUpdated: 13749516,
+    blockRange: 52293,
+    fileSize: 32,
+    appearanceCount: 4,
+    neighborCount: 68,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -57841,9 +58191,9 @@ export const grantsData = [
     blockRange: 342820,
     fileSize: 920,
     appearanceCount: 115,
-    neighborCount: 419,
+    neighborCount: 3822,
     types: 'txs,logs,neighbors',
-    logCount: 90,
+    logCount: 101,
     matched: 0,
     claimed: 0,
     balances: [
@@ -57872,11 +58222,11 @@ export const grantsData = [
       timestamp: 1637483576,
       date: '2021-11-21 08:32:56'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 448269,
     fileSize: 128,
     appearanceCount: 16,
-    neighborCount: 62,
+    neighborCount: 993,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -57902,18 +58252,18 @@ export const grantsData = [
       date: '2021-10-02 20:59:18'
     },
     latestAppearance: {
-      bn: 13698339,
-      txId: 141,
-      timestamp: 1638046904,
-      date: '2021-11-27 21:01:44'
+      bn: 13736995,
+      txId: 182,
+      timestamp: 1638581347,
+      date: '2021-12-04 01:29:07'
     },
-    lastUpdated: 13711342,
-    blockRange: 356182,
-    fileSize: 96,
-    appearanceCount: 12,
-    neighborCount: 78,
+    lastUpdated: 13749516,
+    blockRange: 394838,
+    fileSize: 160,
+    appearanceCount: 20,
+    neighborCount: 597,
     types: 'txs,logs,neighbors',
-    logCount: 3,
+    logCount: 6,
     matched: 0,
     claimed: 0,
     balances: [
@@ -57942,11 +58292,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 313238,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 34,
+    neighborCount: 609,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -57981,9 +58331,9 @@ export const grantsData = [
     blockRange: 875315,
     fileSize: 64,
     appearanceCount: 8,
-    neighborCount: 24,
+    neighborCount: 901,
     types: 'txs,logs,neighbors',
-    logCount: 3,
+    logCount: 4,
     matched: 0,
     claimed: 0,
     balances: [
@@ -58016,7 +58366,7 @@ export const grantsData = [
     blockRange: 561793,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 21,
+    neighborCount: 86,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -58047,11 +58397,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -58086,7 +58436,7 @@ export const grantsData = [
     blockRange: 318069,
     fileSize: 200,
     appearanceCount: 25,
-    neighborCount: 81,
+    neighborCount: 1421,
     types: 'txs,logs,neighbors',
     logCount: 17,
     matched: 0,
@@ -58117,11 +58467,11 @@ export const grantsData = [
       timestamp: 1637937614,
       date: '2021-11-26 14:40:14'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 230793,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 8,
+    neighborCount: 506,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -58147,16 +58497,16 @@ export const grantsData = [
       date: '2021-06-10 17:42:27'
     },
     latestAppearance: {
-      bn: 13503897,
-      txId: 141,
-      timestamp: 1635399477,
-      date: '2021-10-28 05:37:57'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 895703,
-    fileSize: 32,
-    appearanceCount: 4,
-    neighborCount: 13,
+    lastUpdated: 13749516,
+    blockRange: 1117792,
+    fileSize: 40,
+    appearanceCount: 5,
+    neighborCount: 699,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -58191,7 +58541,7 @@ export const grantsData = [
     blockRange: 504645,
     fileSize: 184,
     appearanceCount: 23,
-    neighborCount: 109,
+    neighborCount: 801,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -58226,9 +58576,9 @@ export const grantsData = [
     blockRange: 1026723,
     fileSize: 768,
     appearanceCount: 96,
-    neighborCount: 342,
+    neighborCount: 2722,
     types: 'txs,logs,neighbors',
-    logCount: 55,
+    logCount: 57,
     matched: 0,
     claimed: 0,
     balances: [
@@ -58252,18 +58602,18 @@ export const grantsData = [
       date: '2021-09-09 10:39:40'
     },
     latestAppearance: {
-      bn: 13610645,
-      txId: 44,
-      timestamp: 1636847274,
-      date: '2021-11-13 23:47:54'
+      bn: 13732372,
+      txId: 92,
+      timestamp: 1638517843,
+      date: '2021-12-03 07:50:43'
     },
-    lastUpdated: 13711342,
-    blockRange: 419599,
-    fileSize: 5440,
-    appearanceCount: 680,
-    neighborCount: 2707,
+    lastUpdated: 13749516,
+    blockRange: 541326,
+    fileSize: 5488,
+    appearanceCount: 686,
+    neighborCount: 14345,
     types: 'txs,logs,neighbors',
-    logCount: 573,
+    logCount: 577,
     matched: 0,
     claimed: 0,
     balances: [
@@ -58287,16 +58637,16 @@ export const grantsData = [
       date: '2021-10-21 06:57:59'
     },
     latestAppearance: {
-      bn: 13629113,
-      txId: 263,
-      timestamp: 1637100027,
-      date: '2021-11-16 22:00:27'
+      bn: 13725986,
+      txId: 125,
+      timestamp: 1638429490,
+      date: '2021-12-02 07:18:10'
     },
-    lastUpdated: 13711342,
-    blockRange: 169558,
-    fileSize: 112,
-    appearanceCount: 14,
-    neighborCount: 42,
+    lastUpdated: 13749516,
+    blockRange: 266431,
+    fileSize: 120,
+    appearanceCount: 15,
+    neighborCount: 703,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -58331,7 +58681,7 @@ export const grantsData = [
     blockRange: 772176,
     fileSize: 248,
     appearanceCount: 31,
-    neighborCount: 119,
+    neighborCount: 763,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -58366,7 +58716,7 @@ export const grantsData = [
     blockRange: 794275,
     fileSize: 176,
     appearanceCount: 22,
-    neighborCount: 71,
+    neighborCount: 899,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -58374,7 +58724,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.2037862788634216
+        balance: 0.004210492708048577
       }
     ],
     core: false
@@ -58392,24 +58742,24 @@ export const grantsData = [
       date: '2021-09-10 20:52:59'
     },
     latestAppearance: {
-      bn: 13708903,
-      txId: 139,
-      timestamp: 1638193089,
-      date: '2021-11-29 13:38:09'
+      bn: 13744407,
+      txId: 348,
+      timestamp: 1638684907,
+      date: '2021-12-05 06:15:07'
     },
-    lastUpdated: 13711342,
-    blockRange: 508632,
-    fileSize: 2912,
-    appearanceCount: 364,
-    neighborCount: 1325,
+    lastUpdated: 13749516,
+    blockRange: 544136,
+    fileSize: 3024,
+    appearanceCount: 378,
+    neighborCount: 8631,
     types: 'txs,logs,neighbors',
-    logCount: 330,
+    logCount: 332,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 1.1305352934399386
+        balance: 1.1335352934399388
       }
     ],
     core: false
@@ -58436,7 +58786,7 @@ export const grantsData = [
     blockRange: 1888038,
     fileSize: 4280,
     appearanceCount: 535,
-    neighborCount: 1789,
+    neighborCount: 3071,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -58462,18 +58812,18 @@ export const grantsData = [
       date: '2021-10-16 11:08:56'
     },
     latestAppearance: {
-      bn: 13584021,
-      txId: 172,
-      timestamp: 1636486016,
-      date: '2021-11-09 19:26:56'
+      bn: 13732242,
+      txId: 257,
+      timestamp: 1638516173,
+      date: '2021-12-03 07:22:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 155353,
-    fileSize: 64,
-    appearanceCount: 8,
-    neighborCount: 26,
+    lastUpdated: 13749516,
+    blockRange: 303574,
+    fileSize: 72,
+    appearanceCount: 9,
+    neighborCount: 529,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 1,
     matched: 0,
     claimed: 0,
     balances: [
@@ -58497,16 +58847,16 @@ export const grantsData = [
       date: '2021-11-01 08:26:35'
     },
     latestAppearance: {
-      bn: 13692012,
-      txId: 34,
-      timestamp: 1637960400,
-      date: '2021-11-26 21:00:00'
+      bn: 13745547,
+      txId: 69,
+      timestamp: 1638700272,
+      date: '2021-12-05 10:31:12'
     },
-    lastUpdated: 13711342,
-    blockRange: 161879,
-    fileSize: 96,
-    appearanceCount: 12,
-    neighborCount: 73,
+    lastUpdated: 13749516,
+    blockRange: 215414,
+    fileSize: 160,
+    appearanceCount: 20,
+    neighborCount: 197,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -58514,7 +58864,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 8.305174784926079
+        balance: 8.316074784926078
       }
     ],
     core: false
@@ -58541,9 +58891,9 @@ export const grantsData = [
     blockRange: 157042,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 33,
+    neighborCount: 201,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 1,
     matched: 0,
     claimed: 0,
     balances: [
@@ -58572,11 +58922,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 288323,
     fileSize: 88,
     appearanceCount: 11,
-    neighborCount: 38,
+    neighborCount: 863,
     types: 'txs,logs,neighbors',
     logCount: 8,
     matched: 0,
@@ -58611,7 +58961,7 @@ export const grantsData = [
     blockRange: 390029,
     fileSize: 256,
     appearanceCount: 32,
-    neighborCount: 130,
+    neighborCount: 1442,
     types: 'txs,logs,neighbors',
     logCount: 15,
     matched: 0,
@@ -58642,11 +58992,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 857992,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 27,
+    neighborCount: 571,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -58681,7 +59031,7 @@ export const grantsData = [
     blockRange: 305651,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 25,
+    neighborCount: 616,
     types: 'txs,logs,neighbors',
     logCount: 2,
     matched: 0,
@@ -58712,11 +59062,11 @@ export const grantsData = [
       timestamp: 1636468609,
       date: '2021-11-09 14:36:49'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1227082,
     fileSize: 176,
     appearanceCount: 22,
-    neighborCount: 83,
+    neighborCount: 613,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -58747,11 +59097,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44342,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -58782,11 +59132,11 @@ export const grantsData = [
       timestamp: 1634799479,
       date: '2021-10-21 06:57:59'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 230023,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 7,
+    neighborCount: 258,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -58812,16 +59162,16 @@ export const grantsData = [
       date: '2021-09-23 20:53:56'
     },
     latestAppearance: {
-      bn: 13503933,
-      txId: 271,
-      timestamp: 1635400065,
-      date: '2021-10-28 05:47:45'
+      bn: 13748233,
+      txId: 275,
+      timestamp: 1638737635,
+      date: '2021-12-05 20:53:55'
     },
-    lastUpdated: 13711342,
-    blockRange: 219699,
-    fileSize: 24,
-    appearanceCount: 3,
-    neighborCount: 10,
+    lastUpdated: 13749516,
+    blockRange: 463999,
+    fileSize: 40,
+    appearanceCount: 5,
+    neighborCount: 581,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -58852,11 +59202,11 @@ export const grantsData = [
       timestamp: 1636919461,
       date: '2021-11-14 19:51:01'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 112040,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 7,
+    neighborCount: 256,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -58887,11 +59237,11 @@ export const grantsData = [
       timestamp: 1626231136,
       date: '2021-07-14 02:52:16'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 4603913,
     fileSize: 816,
     appearanceCount: 102,
-    neighborCount: 266,
+    neighborCount: 333,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -58926,7 +59276,7 @@ export const grantsData = [
     blockRange: 121393,
     fileSize: 272,
     appearanceCount: 34,
-    neighborCount: 129,
+    neighborCount: 1819,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -58934,7 +59284,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 18.545210703596577
+        balance: 17.636538694575922
       }
     ],
     core: false
@@ -58961,7 +59311,7 @@ export const grantsData = [
     blockRange: 266210,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 9,
+    neighborCount: 509,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -58996,7 +59346,7 @@ export const grantsData = [
     blockRange: 321659,
     fileSize: 104,
     appearanceCount: 13,
-    neighborCount: 42,
+    neighborCount: 894,
     types: 'txs,logs,neighbors',
     logCount: 7,
     matched: 0,
@@ -59062,11 +59412,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 44352,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 504,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -59097,11 +59447,11 @@ export const grantsData = [
       timestamp: 1635399477,
       date: '2021-10-28 05:37:57'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2895837,
     fileSize: 688,
     appearanceCount: 86,
-    neighborCount: 362,
+    neighborCount: 5604,
     types: 'txs,logs,neighbors',
     logCount: 45,
     matched: 0,
@@ -59127,24 +59477,24 @@ export const grantsData = [
       date: '2021-11-09 07:20:25'
     },
     latestAppearance: {
-      bn: 13614284,
-      txId: 224,
-      timestamp: 1636896966,
-      date: '2021-11-14 13:36:06'
+      bn: 13742742,
+      txId: 245,
+      timestamp: 1638661589,
+      date: '2021-12-04 23:46:29'
     },
-    lastUpdated: 13711342,
-    blockRange: 33464,
-    fileSize: 128,
-    appearanceCount: 16,
-    neighborCount: 38,
+    lastUpdated: 13749516,
+    blockRange: 161922,
+    fileSize: 160,
+    appearanceCount: 20,
+    neighborCount: 143,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 2,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.030446149389945
+        balance: 0.000515376599115
       }
     ],
     core: false
@@ -59171,7 +59521,7 @@ export const grantsData = [
     blockRange: 1041098,
     fileSize: 360,
     appearanceCount: 45,
-    neighborCount: 109,
+    neighborCount: 862,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -59202,11 +59552,11 @@ export const grantsData = [
       timestamp: 1637922110,
       date: '2021-11-26 10:21:50'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 800321,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 25,
+    neighborCount: 560,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -59232,24 +59582,24 @@ export const grantsData = [
       date: '2021-09-18 00:53:10'
     },
     latestAppearance: {
-      bn: 13503897,
-      txId: 141,
-      timestamp: 1635399477,
-      date: '2021-10-28 05:37:57'
+      bn: 13744226,
+      txId: 9,
+      timestamp: 1638682405,
+      date: '2021-12-05 05:33:25'
     },
-    lastUpdated: 13711342,
-    blockRange: 257288,
-    fileSize: 32,
-    appearanceCount: 4,
-    neighborCount: 15,
+    lastUpdated: 13749516,
+    blockRange: 497617,
+    fileSize: 112,
+    appearanceCount: 14,
+    neighborCount: 814,
     types: 'txs,logs,neighbors',
-    logCount: 2,
+    logCount: 10,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.04435
+        balance: 0.10435
       }
     ],
     core: false
@@ -59267,16 +59617,16 @@ export const grantsData = [
       date: '2021-09-21 09:29:29'
     },
     latestAppearance: {
-      bn: 13690721,
-      txId: 416,
-      timestamp: 1637942459,
-      date: '2021-11-26 16:00:59'
+      bn: 13733874,
+      txId: 194,
+      timestamp: 1638538493,
+      date: '2021-12-03 13:34:53'
     },
-    lastUpdated: 13711342,
-    blockRange: 422414,
-    fileSize: 592,
-    appearanceCount: 74,
-    neighborCount: 317,
+    lastUpdated: 13749516,
+    blockRange: 465567,
+    fileSize: 640,
+    appearanceCount: 80,
+    neighborCount: 1287,
     types: 'txs,logs,neighbors',
     logCount: 20,
     matched: 0,
@@ -59311,9 +59661,9 @@ export const grantsData = [
     blockRange: 762960,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 28,
+    neighborCount: 677,
     types: 'txs,logs,neighbors',
-    logCount: 1,
+    logCount: 4,
     matched: 0,
     claimed: 0,
     balances: [
@@ -59346,7 +59696,7 @@ export const grantsData = [
     blockRange: 248628,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 10,
+    neighborCount: 513,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -59377,11 +59727,11 @@ export const grantsData = [
       timestamp: 1636018843,
       date: '2021-11-04 09:40:43'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 388606,
     fileSize: 760,
     appearanceCount: 95,
-    neighborCount: 313,
+    neighborCount: 940,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -59412,11 +59762,11 @@ export const grantsData = [
       timestamp: 1635400065,
       date: '2021-10-28 05:47:45'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 2635711,
     fileSize: 224,
     appearanceCount: 28,
-    neighborCount: 105,
+    neighborCount: 817,
     types: 'txs,logs,neighbors',
     logCount: 9,
     matched: 0,
@@ -59451,7 +59801,7 @@ export const grantsData = [
     blockRange: 242512,
     fileSize: 504,
     appearanceCount: 63,
-    neighborCount: 200,
+    neighborCount: 2511,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -59460,6 +59810,41 @@ export const grantsData = [
       {
         asset: 'ETH',
         balance: 0.4978060448455497
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 3652,
+    'active': true,
+    address: '0xf4e7a50fb1c0af0c555919676ca4d7e064057242',
+    name: '@eliasimos Dune Analytics dashboard suite',
+    slug: 'https://gitcoin.co/grants/3652/eliasimos-dune-analytics-dashboard-suite',
+    firstAppearance: {
+      bn: 13743054,
+      txId: 90,
+      timestamp: 1638666141,
+      date: '2021-12-05 01:02:21'
+    },
+    latestAppearance: {
+      bn: 13743054,
+      txId: 90,
+      timestamp: 1638666141,
+      date: '2021-12-05 01:02:21'
+    },
+    lastUpdated: 13749516,
+    blockRange: 1,
+    fileSize: 8,
+    appearanceCount: 1,
+    neighborCount: 6,
+    types: 'txs,logs,neighbors',
+    logCount: 0,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.15
       }
     ],
     core: false
@@ -59477,16 +59862,16 @@ export const grantsData = [
       date: '2021-10-21 06:55:39'
     },
     latestAppearance: {
-      bn: 13689213,
-      txId: 17,
-      timestamp: 1637922950,
-      date: '2021-11-26 10:35:50'
+      bn: 13738935,
+      txId: 301,
+      timestamp: 1638608799,
+      date: '2021-12-04 09:06:39'
     },
-    lastUpdated: 13711342,
-    blockRange: 229672,
-    fileSize: 576,
-    appearanceCount: 72,
-    neighborCount: 267,
+    lastUpdated: 13749516,
+    blockRange: 279394,
+    fileSize: 640,
+    appearanceCount: 80,
+    neighborCount: 971,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -59521,7 +59906,7 @@ export const grantsData = [
     blockRange: 280242,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 14,
+    neighborCount: 529,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -59556,7 +59941,7 @@ export const grantsData = [
     blockRange: 388849,
     fileSize: 792,
     appearanceCount: 99,
-    neighborCount: 417,
+    neighborCount: 2023,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -59587,11 +59972,11 @@ export const grantsData = [
       timestamp: 1635399413,
       date: '2021-10-28 05:36:53'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 57425,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 6,
+    neighborCount: 271,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -59626,7 +60011,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 252,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -59661,7 +60046,7 @@ export const grantsData = [
     blockRange: 334114,
     fileSize: 80,
     appearanceCount: 10,
-    neighborCount: 33,
+    neighborCount: 695,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -59696,7 +60081,7 @@ export const grantsData = [
     blockRange: 35,
     fileSize: 24,
     appearanceCount: 3,
-    neighborCount: 28,
+    neighborCount: 44,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -59727,11 +60112,11 @@ export const grantsData = [
       timestamp: 1636049650,
       date: '2021-11-04 18:14:10'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 956986,
     fileSize: 168,
     appearanceCount: 21,
-    neighborCount: 74,
+    neighborCount: 123,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -59757,16 +60142,16 @@ export const grantsData = [
       date: '2020-07-29 17:05:07'
     },
     latestAppearance: {
-      bn: 13557159,
-      txId: 167,
-      timestamp: 1636122905,
-      date: '2021-11-05 14:35:05'
+      bn: 13721719,
+      txId: 77,
+      timestamp: 1638370682,
+      date: '2021-12-01 14:58:02'
     },
-    lastUpdated: 13711342,
-    blockRange: 3001384,
-    fileSize: 192,
-    appearanceCount: 24,
-    neighborCount: 94,
+    lastUpdated: 13749516,
+    blockRange: 3165944,
+    fileSize: 208,
+    appearanceCount: 26,
+    neighborCount: 116,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -59792,16 +60177,16 @@ export const grantsData = [
       date: '2021-04-05 23:18:17'
     },
     latestAppearance: {
-      bn: 13629526,
-      txId: 244,
-      timestamp: 1637105902,
-      date: '2021-11-16 23:38:22'
+      bn: 13730260,
+      txId: 355,
+      timestamp: 1638488447,
+      date: '2021-12-02 23:40:47'
     },
-    lastUpdated: 13711342,
-    blockRange: 1446912,
-    fileSize: 864,
-    appearanceCount: 108,
-    neighborCount: 375,
+    lastUpdated: 13749516,
+    blockRange: 1547646,
+    fileSize: 880,
+    appearanceCount: 110,
+    neighborCount: 517,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -59832,11 +60217,11 @@ export const grantsData = [
       timestamp: 1635512183,
       date: '2021-10-29 12:56:23'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1834016,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 36,
+    neighborCount: 1602,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -59867,11 +60252,11 @@ export const grantsData = [
       timestamp: 1634623069,
       date: '2021-10-19 05:57:49'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 3,
+    neighborCount: 19,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -59897,24 +60282,59 @@ export const grantsData = [
       date: '2021-07-27 19:32:15'
     },
     latestAppearance: {
-      bn: 13701144,
-      txId: 80,
-      timestamp: 1638085494,
-      date: '2021-11-28 07:44:54'
+      bn: 13748830,
+      txId: 42,
+      timestamp: 1638746321,
+      date: '2021-12-05 23:18:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 791194,
-    fileSize: 96,
-    appearanceCount: 12,
-    neighborCount: 45,
+    lastUpdated: 13749516,
+    blockRange: 838880,
+    fileSize: 112,
+    appearanceCount: 14,
+    neighborCount: 139,
     types: 'txs,logs,neighbors',
-    logCount: 2,
+    logCount: 3,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 8.056934962306027
+        balance: 8.210434962306028
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 3775,
+    'active': true,
+    address: '0xeb0e54c600ad1637d79071adde81a477cbf4e729',
+    name: 'Jukebox',
+    slug: 'https://gitcoin.co/grants/3775/jukebox',
+    firstAppearance: {
+      bn: 13723252,
+      txId: 41,
+      timestamp: 1638391832,
+      date: '2021-12-01 20:50:32'
+    },
+    latestAppearance: {
+      bn: 13723252,
+      txId: 41,
+      timestamp: 1638391832,
+      date: '2021-12-01 20:50:32'
+    },
+    lastUpdated: 13749516,
+    blockRange: 1,
+    fileSize: 8,
+    appearanceCount: 1,
+    neighborCount: 37,
+    types: 'txs,logs,neighbors',
+    logCount: 1,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
       }
     ],
     core: false
@@ -59937,11 +60357,11 @@ export const grantsData = [
       timestamp: 1635899307,
       date: '2021-11-03 00:28:27'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 376,
     fileSize: 16,
     appearanceCount: 2,
-    neighborCount: 4,
+    neighborCount: 7,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -60002,24 +60422,24 @@ export const grantsData = [
       date: '2021-08-23 09:02:33'
     },
     latestAppearance: {
-      bn: 13637686,
-      txId: 314,
-      timestamp: 1637216488,
-      date: '2021-11-18 06:21:28'
+      bn: 13748830,
+      txId: 42,
+      timestamp: 1638746321,
+      date: '2021-12-05 23:18:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 557051,
-    fileSize: 2168,
-    appearanceCount: 271,
-    neighborCount: 974,
+    lastUpdated: 13749516,
+    blockRange: 668195,
+    fileSize: 2248,
+    appearanceCount: 281,
+    neighborCount: 8595,
     types: 'txs,logs,neighbors',
-    logCount: 227,
+    logCount: 230,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.7663679304197007
+        balance: 0.5805943053068999
       }
     ],
     core: false
@@ -60046,7 +60466,7 @@ export const grantsData = [
     blockRange: 361664,
     fileSize: 96,
     appearanceCount: 12,
-    neighborCount: 50,
+    neighborCount: 59,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -60072,16 +60492,16 @@ export const grantsData = [
       date: '2021-08-30 17:33:56'
     },
     latestAppearance: {
-      bn: 13706922,
-      txId: 138,
-      timestamp: 1638165806,
-      date: '2021-11-29 06:03:26'
+      bn: 13749133,
+      txId: 214,
+      timestamp: 1638750177,
+      date: '2021-12-06 00:22:57'
     },
-    lastUpdated: 13711342,
-    blockRange: 578654,
-    fileSize: 12360,
-    appearanceCount: 1545,
-    neighborCount: 5645,
+    lastUpdated: 13749516,
+    blockRange: 620865,
+    fileSize: 13248,
+    appearanceCount: 1656,
+    neighborCount: 17994,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -60089,7 +60509,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0.8601053713871731
+        balance: 2.294811359803538
       }
     ],
     core: false
@@ -60116,15 +60536,15 @@ export const grantsData = [
     blockRange: 362494,
     fileSize: 464,
     appearanceCount: 58,
-    neighborCount: 210,
+    neighborCount: 364,
     types: 'txs,logs,neighbors',
-    logCount: 1,
+    logCount: 3,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.012074165194180267
+        balance: 0.06207416519418027
       }
     ],
     core: false
@@ -60142,24 +60562,59 @@ export const grantsData = [
       date: '2021-10-10 18:33:42'
     },
     latestAppearance: {
-      bn: 13708512,
-      txId: 77,
-      timestamp: 1638187638,
-      date: '2021-11-29 12:07:18'
+      bn: 13745404,
+      txId: 71,
+      timestamp: 1638698227,
+      date: '2021-12-05 09:57:07'
     },
-    lastUpdated: 13711342,
-    blockRange: 315967,
-    fileSize: 112,
-    appearanceCount: 14,
-    neighborCount: 29,
+    lastUpdated: 13749516,
+    blockRange: 352859,
+    fileSize: 168,
+    appearanceCount: 21,
+    neighborCount: 192,
     types: 'txs,logs,neighbors',
-    logCount: 1,
+    logCount: 5,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 0.07571476750144696
+        balance: 0.07671476750144696
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 3853,
+    'active': true,
+    address: '0xf8dbc69f9657ef4928539bb8bdae7d9a9191f286',
+    name: 'Stopping Alzheimers with Light and Sound',
+    slug: 'https://gitcoin.co/grants/3853/stopping-alzheimers-with-light-and-sound',
+    firstAppearance: {
+      bn: 13728486,
+      txId: 59,
+      timestamp: 1638463806,
+      date: '2021-12-02 16:50:06'
+    },
+    latestAppearance: {
+      bn: 13728696,
+      txId: 258,
+      timestamp: 1638466827,
+      date: '2021-12-02 17:40:27'
+    },
+    lastUpdated: 13749516,
+    blockRange: 211,
+    fileSize: 16,
+    appearanceCount: 2,
+    neighborCount: 28,
+    types: 'txs,logs,neighbors',
+    logCount: 2,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.02
       }
     ],
     core: false
@@ -60186,15 +60641,15 @@ export const grantsData = [
     blockRange: 11759,
     fileSize: 56,
     appearanceCount: 7,
-    neighborCount: 24,
+    neighborCount: 631,
     types: 'txs,logs,neighbors',
-    logCount: 5,
+    logCount: 16,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 11.128668393263197
+        balance: 11.131668393263197
       }
     ],
     core: false
@@ -60221,7 +60676,7 @@ export const grantsData = [
     blockRange: 3419,
     fileSize: 32,
     appearanceCount: 4,
-    neighborCount: 13,
+    neighborCount: 150,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -60256,9 +60711,9 @@ export const grantsData = [
     blockRange: 1547968,
     fileSize: 304,
     appearanceCount: 38,
-    neighborCount: 153,
+    neighborCount: 424,
     types: 'txs,logs,neighbors',
-    logCount: 1,
+    logCount: 2,
     matched: 0,
     claimed: 0,
     balances: [
@@ -60287,7 +60742,7 @@ export const grantsData = [
       timestamp: 1634800134,
       date: '2021-10-21 07:08:54'
     },
-    lastUpdated: 13711342,
+    lastUpdated: 13749516,
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
@@ -60326,7 +60781,7 @@ export const grantsData = [
     blockRange: 2212327,
     fileSize: 112,
     appearanceCount: 14,
-    neighborCount: 48,
+    neighborCount: 56,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -60361,7 +60816,7 @@ export const grantsData = [
     blockRange: 1,
     fileSize: 8,
     appearanceCount: 1,
-    neighborCount: 4,
+    neighborCount: 11,
     types: 'txs,logs,neighbors',
     logCount: 3,
     matched: 0,
@@ -60387,18 +60842,18 @@ export const grantsData = [
       date: '2021-06-21 01:48:57'
     },
     latestAppearance: {
-      bn: 13671381,
-      txId: 283,
-      timestamp: 1637677678,
-      date: '2021-11-23 14:27:58'
+      bn: 13736645,
+      txId: 111,
+      timestamp: 1638576277,
+      date: '2021-12-04 00:04:37'
     },
-    lastUpdated: 13711342,
-    blockRange: 996506,
-    fileSize: 176,
-    appearanceCount: 22,
-    neighborCount: 76,
+    lastUpdated: 13749516,
+    blockRange: 1061770,
+    fileSize: 200,
+    appearanceCount: 25,
+    neighborCount: 242,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 1,
     matched: 0,
     claimed: 0,
     balances: [
@@ -60422,18 +60877,18 @@ export const grantsData = [
       date: '2021-08-31 06:10:23'
     },
     latestAppearance: {
-      bn: 13405114,
-      txId: 292,
-      timestamp: 1634061481,
-      date: '2021-10-12 17:58:01'
+      bn: 13728486,
+      txId: 59,
+      timestamp: 1638463806,
+      date: '2021-12-02 16:50:06'
     },
-    lastUpdated: 13711342,
-    blockRange: 273436,
-    fileSize: 48,
-    appearanceCount: 6,
-    neighborCount: 31,
+    lastUpdated: 13749516,
+    blockRange: 596808,
+    fileSize: 56,
+    appearanceCount: 7,
+    neighborCount: 95,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 2,
     matched: 0,
     claimed: 0,
     balances: [
@@ -60457,18 +60912,18 @@ export const grantsData = [
       date: '2021-08-31 06:10:23'
     },
     latestAppearance: {
-      bn: 13405114,
-      txId: 292,
-      timestamp: 1634061481,
-      date: '2021-10-12 17:58:01'
+      bn: 13728486,
+      txId: 59,
+      timestamp: 1638463806,
+      date: '2021-12-02 16:50:06'
     },
-    lastUpdated: 13711342,
-    blockRange: 273436,
-    fileSize: 48,
-    appearanceCount: 6,
-    neighborCount: 31,
+    lastUpdated: 13749516,
+    blockRange: 596808,
+    fileSize: 56,
+    appearanceCount: 7,
+    neighborCount: 95,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 2,
     matched: 0,
     claimed: 0,
     balances: [
@@ -60492,24 +60947,59 @@ export const grantsData = [
       date: '2021-08-31 06:10:23'
     },
     latestAppearance: {
-      bn: 13405114,
-      txId: 292,
-      timestamp: 1634061481,
-      date: '2021-10-12 17:58:01'
+      bn: 13728486,
+      txId: 59,
+      timestamp: 1638463806,
+      date: '2021-12-02 16:50:06'
     },
-    lastUpdated: 13711342,
-    blockRange: 273436,
-    fileSize: 48,
-    appearanceCount: 6,
-    neighborCount: 31,
+    lastUpdated: 13749516,
+    blockRange: 596808,
+    fileSize: 56,
+    appearanceCount: 7,
+    neighborCount: 95,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 2,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
         balance: 0
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 3945,
+    'active': true,
+    address: '0xd484e94c8c1ecb82fc5d4d5a0b940e193dd91ece',
+    name: 'The Alliance for Longevity Initiatives',
+    slug: 'https://gitcoin.co/grants/3945/the-alliance-for-longevity-initiatives',
+    firstAppearance: {
+      bn: 13723252,
+      txId: 41,
+      timestamp: 1638391832,
+      date: '2021-12-01 20:50:32'
+    },
+    latestAppearance: {
+      bn: 13728486,
+      txId: 59,
+      timestamp: 1638463806,
+      date: '2021-12-02 16:50:06'
+    },
+    lastUpdated: 13749516,
+    blockRange: 5235,
+    fileSize: 24,
+    appearanceCount: 3,
+    neighborCount: 64,
+    types: 'txs,logs,neighbors',
+    logCount: 3,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.001
       }
     ],
     core: false
@@ -60527,24 +61017,59 @@ export const grantsData = [
       date: '2021-08-31 06:10:23'
     },
     latestAppearance: {
-      bn: 13405114,
-      txId: 292,
-      timestamp: 1634061481,
-      date: '2021-10-12 17:58:01'
+      bn: 13728486,
+      txId: 59,
+      timestamp: 1638463806,
+      date: '2021-12-02 16:50:06'
     },
-    lastUpdated: 13711342,
-    blockRange: 273436,
-    fileSize: 48,
-    appearanceCount: 6,
-    neighborCount: 31,
+    lastUpdated: 13749516,
+    blockRange: 596808,
+    fileSize: 56,
+    appearanceCount: 7,
+    neighborCount: 95,
     types: 'txs,logs,neighbors',
-    logCount: 0,
+    logCount: 2,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
         balance: 0
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 3947,
+    'active': true,
+    address: '0xc04905c95280f6441fa8cde4ef18314a6d093f4a',
+    name: 'OpenCures',
+    slug: 'https://gitcoin.co/grants/3947/opencures',
+    firstAppearance: {
+      bn: 13728486,
+      txId: 59,
+      timestamp: 1638463806,
+      date: '2021-12-02 16:50:06'
+    },
+    latestAppearance: {
+      bn: 13747724,
+      txId: 73,
+      timestamp: 1638730855,
+      date: '2021-12-05 19:00:55'
+    },
+    lastUpdated: 13749516,
+    blockRange: 19239,
+    fileSize: 24,
+    appearanceCount: 3,
+    neighborCount: 86,
+    types: 'txs,logs,neighbors',
+    logCount: 1,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0.025
       }
     ],
     core: false
@@ -60571,7 +61096,7 @@ export const grantsData = [
     blockRange: 850144,
     fileSize: 528,
     appearanceCount: 66,
-    neighborCount: 188,
+    neighborCount: 253,
     types: 'txs,logs,neighbors',
     logCount: 1,
     matched: 0,
@@ -60606,7 +61131,7 @@ export const grantsData = [
     blockRange: 12168,
     fileSize: 48,
     appearanceCount: 6,
-    neighborCount: 25,
+    neighborCount: 52,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -60614,7 +61139,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 0
+        balance: 0.11
       }
     ],
     core: false
@@ -60632,24 +61157,59 @@ export const grantsData = [
       date: '2021-06-12 19:55:55'
     },
     latestAppearance: {
-      bn: 13708380,
-      txId: 216,
-      timestamp: 1638185638,
-      date: '2021-11-29 11:33:58'
+      bn: 13734959,
+      txId: 95,
+      timestamp: 1638553822,
+      date: '2021-12-03 17:50:22'
     },
-    lastUpdated: 13711342,
-    blockRange: 1086746,
-    fileSize: 16400,
-    appearanceCount: 2050,
-    neighborCount: 13079,
+    lastUpdated: 13749516,
+    blockRange: 1113325,
+    fileSize: 16584,
+    appearanceCount: 2073,
+    neighborCount: 13456,
     types: 'txs,logs,neighbors',
-    logCount: 5,
+    logCount: 9,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
         balance: 0.002556990927981
+      }
+    ],
+    core: false
+  },
+  {
+    grantId: 3998,
+    'active': true,
+    address: '0xe3bc594aeb17aaf76a19c4cd41f88240903ed5af',
+    name: 'Lifespan.io Meets Web3 - Crowdsourced Clinical Trials, Inverse Quadratic Funding, and You!',
+    slug: 'https://gitcoin.co/grants/3998/lifespanio-meets-web3-crowdsourced-clinical-trial',
+    firstAppearance: {
+      bn: 13728486,
+      txId: 59,
+      timestamp: 1638463806,
+      date: '2021-12-02 16:50:06'
+    },
+    latestAppearance: {
+      bn: 13728486,
+      txId: 59,
+      timestamp: 1638463806,
+      date: '2021-12-02 16:50:06'
+    },
+    lastUpdated: 13749516,
+    blockRange: 1,
+    fileSize: 8,
+    appearanceCount: 1,
+    neighborCount: 21,
+    types: 'txs,logs,neighbors',
+    logCount: 1,
+    matched: 0,
+    claimed: 0,
+    balances: [
+      {
+        asset: 'ETH',
+        balance: 0
       }
     ],
     core: false
@@ -60676,9 +61236,9 @@ export const grantsData = [
     blockRange: 3487372,
     fileSize: 444344,
     appearanceCount: 55543,
-    neighborCount: 0,
+    neighborCount: 387612,
     types: 'txs,logs,neighbors',
-    logCount: 191370,
+    logCount: 192180,
     matched: 0,
     claimed: 0,
     balances: [
@@ -60707,11 +61267,11 @@ export const grantsData = [
       timestamp: 1616418495,
       date: '2021-03-22 13:08:15'
     },
-    lastUpdated: 13696836,
+    lastUpdated: 13749516,
     blockRange: 609598,
     fileSize: 1408,
     appearanceCount: 176,
-    neighborCount: 0,
+    neighborCount: 939,
     types: 'txs,logs,neighbors',
     logCount: 534,
     matched: 0,
@@ -60742,11 +61302,11 @@ export const grantsData = [
       timestamp: 1623671589,
       date: '2021-06-14 11:53:09'
     },
-    lastUpdated: 13696836,
+    lastUpdated: 13749516,
     blockRange: 4824114,
     fileSize: 138920,
     appearanceCount: 17365,
-    neighborCount: 0,
+    neighborCount: 69478,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -60772,24 +61332,24 @@ export const grantsData = [
       date: '2020-08-28 04:26:01'
     },
     latestAppearance: {
-      bn: 13710620,
-      txId: 358,
-      timestamp: 1638217034,
-      date: '2021-11-29 20:17:14'
+      bn: 13748830,
+      txId: 42,
+      timestamp: 1638746321,
+      date: '2021-12-05 23:18:41'
     },
-    lastUpdated: 13711342,
-    blockRange: 2963618,
-    fileSize: 120520,
-    appearanceCount: 15065,
-    neighborCount: 58639,
+    lastUpdated: 13749516,
+    blockRange: 3001828,
+    fileSize: 123176,
+    appearanceCount: 15397,
+    neighborCount: 186620,
     types: 'txs,logs,neighbors',
-    logCount: 14227,
+    logCount: 14429,
     matched: 0,
     claimed: 0,
     balances: [
       {
         asset: 'ETH',
-        balance: 2791.761218986363
+        balance: 2791.917135421363
       }
     ],
     core: true
@@ -60816,7 +61376,7 @@ export const grantsData = [
     blockRange: 3426945,
     fileSize: 1705552,
     appearanceCount: 213194,
-    neighborCount: 0,
+    neighborCount: 1138967,
     types: 'txs,logs,neighbors',
     logCount: 0,
     matched: 0,
@@ -60824,7 +61384,7 @@ export const grantsData = [
     balances: [
       {
         asset: 'ETH',
-        balance: 10881.47036911051
+        balance: 11146.68137241057
       }
     ],
     core: true
