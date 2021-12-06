@@ -14,12 +14,12 @@ cflags=-std=c++11 -Werror -Wall -O2 -I. -I$(incs)/cachelib -I$(incs)/pinlib -I$(
 
 #-------------------------------------------------
 libs=/usr/local/lib/tb/*.a
-UNAME_S := $(shell uname -s)
+	UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Linux)
-    libs += -lcurl
+	libs += -lcurl
 endif
 ifeq ($(UNAME_S),Darwin)
-    libs += /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libcurl.4.tbd
+	libs += /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libcurl.4.tbd
 endif
 
 #-------------------------------------------------
@@ -40,7 +40,7 @@ $(product): $(objects) $(libs)
 	g++ -o $(product) $(objects) $(libs)
 	@strip $(product)
 
-$(objects): | objs
+$(objects): 	 objs
 
 objs:
 	@mkdir -p ./objs ./bin
