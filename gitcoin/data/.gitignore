@@ -1,5 +1,8 @@
+neighbors.save
 # place holder
 *.bin
 *.txt
 *.json
 *.csv
+*.gz
+fixHeaders

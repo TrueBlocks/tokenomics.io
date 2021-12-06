@@ -1,20 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { useStatePersist } from 'use-state-persist';
 
-import {Input, Layout, Tabs} from 'antd';
-import {Table as AntTable} from 'antd';
+import { Input, Layout, Tabs } from 'antd';
+import { Table as AntTable } from 'antd';
 
 import './App.css';
 import 'antd/dist/antd.css';
 
-import {grantsData} from './grants-data';
-import {columns} from './ColumnDefs';
+import { grantsData } from './grants-data';
+import { columns } from './ColumnDefs';
 
 import { DataForNerds } from './DataForNerds';
 
+import { lastUpdate } from './last-update.js';
+
 const { Content } = Layout;
 const { Search } = Input;
-const {TabPane} = Tabs;
+const { TabPane } = Tabs;
 const Table = (props) => {
   const pag = {
     size: 'small',
@@ -60,26 +62,26 @@ export const HomePage = () => {
   const tab2Title = 'Individual Grants (' + grantData.length + ')';
   return (
     <Content>
-      <div style={{display: 'grid', gridTemplateColumns: '3fr 1fr'}}>
+      <div style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>
         <div></div>
         <Search
-          style={{paddingRight: '2px'}}
+          style={{ paddingRight: '2px' }}
           width='10px'
           placeholder='search grants by address or name...'
           onSearch={onSearch}
           enterButton></Search>
       </div>
-      <Tabs defaultActiveKey={lastTab} onChange={tabSwitch} style={{border: '1px dotted gray', padding: '1px'}}>
-        <TabPane tab={tab2Title} key='1' style={{paddingLeft: '8px', margin: '-25px 0px 0px 0px'}}>
+      <Tabs defaultActiveKey={lastTab} onChange={tabSwitch} style={{ border: '1px dotted gray', padding: '1px' }}>
+        <TabPane tab={tab2Title} key='1' style={{ paddingLeft: '8px', margin: '-25px 0px 0px 0px' }}>
           <Table dataSource={grantData} columns={columns} />
         </TabPane>
-        <TabPane tab={tab1Title} key='2' style={{paddingLeft: '8px'}}>
+        <TabPane tab={tab1Title} key='2' style={{ paddingLeft: '8px' }}>
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
-        <TabPane tab={'Data for Nerds (API)'} key='3' style={{ paddingLeft: '8px' }}>
+        <TabPane tab={'Data for Nerds'} key='3' style={{ paddingLeft: '8px' }}>
           <DataForNerds />
         </TabPane>
-        <TabPane tab='Charts' key='4' style={{paddingLeft: '8px'}}>
+        <TabPane tab='Charts' key='4' style={{ paddingLeft: '8px' }}>
           <img
             width='800px'
             alt='Unclaimed'
@@ -91,7 +93,7 @@ export const HomePage = () => {
         </TabPane>
       </Tabs>
       <i>
-        <small>Last Updated: 2021-03-20 14:04:43 UTC (block 12076113)</small>
+        <small>{lastUpdate}</small>
       </i>
     </Content>
   );

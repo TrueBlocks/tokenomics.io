@@ -1,5 +1,5 @@
 import React from 'react';
-import {Typography, Layout} from 'antd';
+import { Typography, Layout } from 'antd';
 
 import './App.css';
 import 'antd/dist/antd.css';
@@ -9,27 +9,29 @@ const { Title, Text } = Typography;
 
 export const Head = () => {
   return (
-    <Header style={{height: '100px'}}>
-      <div style={{display: 'grid', gridTemplateColumns: '2fr 10fr 2fr'}}>
+    <Header style={{ height: '140px' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '2fr 10fr 2fr' }}>
         <div>
-          <i style={{padding: '3px', color: 'black', backgroundColor: 'tomato'}}>** Not affiliated with GitCoin **</i>
+          <i style={{ padding: '3px', color: 'black', backgroundColor: 'tomato' }}>** Not affiliated with GitCoin **</i>
         </div>
         <Typography>
-          <Title style={{color: 'lightblue'}}>
-            Data Pouch for GitCoin Grants
+          <Title style={{
+            color: 'lightblue', paddingBottom: "0px", paddingTop: "0px", margin: "0px"
+          }}>
+            A <Text type='warning'>Permissionless</Text> Data Dump for the GitCoin Community
             <br />
             <small>
               <small>
-                <font style={{color: 'lightblue'}}>
-                  A <Text type='warning'>permissionless</Text> data dump for the GitCoin Grant community
+                <font style={{ color: 'lightblue' }}>
+                  <a href="https://trueblocks.io/docs/install/install-trueblocks/" target="top">You can run this code on your own computer!</a>
                 </font>
               </small>
             </small>
           </Title>
         </Typography>
-        <div style={{textAlign: 'right'}}>
+        <div style={{ textAlign: 'right' }}>
           <a rel='noreferrer' target='_blank' href='https://discord.gg/RAz6DJ6xkf'>
-            <Text style={{color: 'lightblue', textDecoration: 'underline'}}>Like to help?</Text>
+            <Text style={{ color: 'lightblue', textDecoration: 'underline' }}>Like to help?</Text>
           </a>
         </div>
       </div>

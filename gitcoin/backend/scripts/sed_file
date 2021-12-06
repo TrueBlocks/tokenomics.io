@@ -10,7 +10,6 @@ s/\"slug\"/slug/
 s/\"logo\"/logo/
 s/\"appearanceCount\"/appearanceCount/
 s/\"logCount\"/logCount/
-s/\"donationCount\"/donationCount/
 s/\"matched\"/matched/
 s/\"claimed\"/claimed/
 s/\"balances\"/balances/
