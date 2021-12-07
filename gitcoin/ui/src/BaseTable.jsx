@@ -5,7 +5,7 @@ import { useKeyNav } from './useKeyNav';
 const pageSize = 10;
 const selectedRowStyle = {
   color: 'darkblue',
-  backgroundColor: 'rgb(236, 235, 235)'
+  backgroundColor: 'antiquewhite'
 };
 
 export function BaseTable(tableParams) {

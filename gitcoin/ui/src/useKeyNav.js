@@ -35,11 +35,11 @@ export function useKeyNav({ pageSize, maxItems }) {
     return Math.max(0, Math.min(maxItems, currentPosition + addend));
   }, [maxItems]);
   // Handles the pressed key
-  const listener = useCallback(({ code }) => {
+  const listener = useCallback(({ key }) => {
     // Most of the time, arrow up or down will move by one item...
     let arrowUpAndDownAddend = 1;
 
-    if (navigationKeys.includes(code) && on === false) {
+    if (navigationKeys.includes(key) && on === false) {
       // ... but, if the navigation was "turned off" and the user
       // is turning it back on just now, we want to focus the first item
       // (which always has 0 index)
@@ -48,7 +48,7 @@ export function useKeyNav({ pageSize, maxItems }) {
     }
 
     /* eslint-disable default-case */
-    switch (code) {
+    switch (key) {
       case 'ArrowUp':
         setPosition(incrementPosition(-arrowUpAndDownAddend));
         break;
@@ -70,7 +70,6 @@ export function useKeyNav({ pageSize, maxItems }) {
         setPosition(0);
         break;
       case 'Escape':
-        setPosition(0);
         setOn(false);
         break;
     }
