@@ -1,6 +1,7 @@
 import React from 'react';
 import { Tag } from 'antd';
 import { ColumnTitle } from "./ColumnTitle";
+import { FileZipTwoTone } from '@ant-design/icons';
 
 //--------------------------------------------------
 export const DateHeader = () => (
@@ -62,6 +63,7 @@ export const NameCell = ({ record }) => {
         <a target={'top'} href={'https://etherscan.io/address/' + record.address}>
           <small>{record.address}</small>
         </a>
+        <FileZipTwoTone />
       </pre>
     );
   return (
@@ -69,7 +71,7 @@ export const NameCell = ({ record }) => {
       <pre>
         <a target={'top'} href={record.slug}>
           <small>{name}</small>
-        </a>
+        </a> <ZipLink addr={record.address} />
         <br />
         <a target={'top'} href={'https://etherscan.io/address/' + record.address}>
           <small>{record.address}</small>
@@ -166,3 +168,13 @@ const Cell2 = ({ text }) => {
     </div>
   );
 };
+
+const ZipLink = ({ addr }) => {
+  var link = "https://tokenomics.io/gitcoin/data/zips/" + addr + ".tar.gz";
+  return (
+    <>
+      <a href={link}>
+        <FileZipTwoTone />
+      </a>
+    </>);
+}
