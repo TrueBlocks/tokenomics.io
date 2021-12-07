@@ -14,7 +14,7 @@ import (
 )
 
 // TODO: why?
-const pathToData = "../data/" // /Users/jrush/Development/tokenomics.io/gitcoin/data/"
+const pathToData = "../data/"
 
 type NamesOptions struct {
 	Format string

@@ -20,11 +20,11 @@ import (
 	"github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/rpcClient"
 	tslibPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/tslib"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/file"
+    "github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/config"
 )
 
 // TODO: why?
-const pathToMonitors = "/Users/jrush/Library/Application Support/TrueBlocks/cache/monitors/"
-const pathToData = "../data/" // /Users/jrush/Development/tokenomics.io/gitcoin/data/"
+const pathToData = "../data/"
 
 // Grant is one of the Gitcoin Grants
 type Grant struct {
@@ -240,6 +240,7 @@ func (m *Monitor) ReadRange(monitorPath string) error {
 }
 
 func (m *Monitor) GetLastUpdate() (uint64, error) {
+	pathToMonitors := config.ReadTrueBlocks().Settings.CachePath + "monitors/"
 	lastBlockPath := pathToMonitors + m.Address + ".last.txt"
 	file, err := os.Open(lastBlockPath)
 	if err != nil {
@@ -263,6 +264,7 @@ func (m *Monitor) GetLastUpdate() (uint64, error) {
 func GetMonitorStats(grantId string, grant *Grant) (*Monitor, error) {
 	monitor := &Monitor{Address: grant.AdminAddress}
 
+	pathToMonitors := config.ReadTrueBlocks().Settings.CachePath + "monitors/"
 	monitorPath := fmt.Sprintf(pathToMonitors+"%s.acct.bin", grant.AdminAddress)
 	if !file.FileExists(monitorPath) {
 		return nil, errors.New("file does not exist: " + monitorPath)
