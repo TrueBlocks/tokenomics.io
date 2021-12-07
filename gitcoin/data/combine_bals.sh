@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# "address","blockNumber","transactionIndex" >combined/bals.csv
+
 # ./combine_bals.1.sh 0x7a250d5630b4cf539739df2c5dacb4c659f2488d
 ./combine_bals.1.sh 0x0000000fcdf5ba49794f4151d6daff4505bc47d1
 ./combine_bals.1.sh 0x000061a8f22a1e60ba0b3caadfa958e954fc2b6a
