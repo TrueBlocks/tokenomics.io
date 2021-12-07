@@ -65,6 +65,7 @@ export const HomePage = () => {
       <div style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>
         <div></div>
         <Search
+          allowClear
           style={{ paddingRight: '2px' }}
           width='10px'
           placeholder='search grants by address or name...'
