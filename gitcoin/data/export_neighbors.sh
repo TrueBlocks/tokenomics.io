@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# ./export_neighbors.1.sh 0x7a250d5630b4cf539739df2c5dacb4c659f2488d
 ./export_neighbors.1.sh 0x0000000fcdf5ba49794f4151d6daff4505bc47d1
 ./export_neighbors.1.sh 0x000061a8f22a1e60ba0b3caadfa958e954fc2b6a
 ./export_neighbors.1.sh 0x00216505799d9e3117b40b94a24dc0fa286a57a4
@@ -181,12 +182,12 @@
 ./export_neighbors.1.sh 0x19c04ca80c4168ea8ab469a0766a858d7172b320
 ./export_neighbors.1.sh 0x19de91af973f404edf5b4c093983a7c6e3ec8cce
 ./export_neighbors.1.sh 0x19fa61309158e138b685646247f58a3ce9f18145
-./export_neighbors.1.sh 0x1a56d61142ac107dbc46f1c15a559906d84eed59
-./export_neighbors.1.sh 0x1a8977f4ae1241658a75d639293eb5ecf55f672e
-./export_neighbors.1.sh 0x1aa587c2288750173cc6af7c92bad7209904e496
 ./export_neighbors.1.sh 0x1a1eaa933226f913c248a158d20be05735b9d343
 ./export_neighbors.1.sh 0x1a207beefc754735871ceeb4c506686f044b1c41
 ./export_neighbors.1.sh 0x1a33938a402a648c9af7ed8a0b9079350f81a8a0
+./export_neighbors.1.sh 0x1a56d61142ac107dbc46f1c15a559906d84eed59
+./export_neighbors.1.sh 0x1a8977f4ae1241658a75d639293eb5ecf55f672e
+./export_neighbors.1.sh 0x1aa587c2288750173cc6af7c92bad7209904e496
 ./export_neighbors.1.sh 0x1ab00002285b89ac0673411d23e0634dda8b3069
 ./export_neighbors.1.sh 0x1ae0e28abf9ac188ae5fb72867639b750435984b
 ./export_neighbors.1.sh 0x1b976a361fe836d5812ee44c3048a979d160fc02
@@ -836,7 +837,6 @@
 ./export_neighbors.1.sh 0x7bc1efede41ce7501f2274e45406cc157dc3d3c3
 ./export_neighbors.1.sh 0x7bea3392b6b82974855425422f058622e71754c4
 ./export_neighbors.1.sh 0x7c04b6f7eedf698d0659ed873a0bcc227bd9fa00
-# ./export_neighbors.1.sh 0x7a250d5630b4cf539739df2c5dacb4c659f2488d
 ./export_neighbors.1.sh 0x7c25bb1dd0fb91c69664c461909161a14dee9782
 ./export_neighbors.1.sh 0x7c3f365416f48bfb6c5de6201d343ab32a5096f1
 ./export_neighbors.1.sh 0x7c424d4b753185c6e91e0cdd5fd98076198c51b2
