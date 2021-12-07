@@ -7,21 +7,23 @@ export const DataForNerds = () => {
   return (
     <div style={{ textAlign: 'left' }}>
       <center>
-        <h3>Coming soon...</h3>
+        <h2>Easy Access to the Data Sets</h2>
         <a rel='noreferrer' target='_blank' href='https://github.com/TrueBlocks/tokenomics.io/issues'>
           <Link>Have a suggestion?</Link>
         </a>
       </center>
       <b>Zips:</b>
       <ul>
-        <li>Every file in a single zip</li>
-        <li>Appearances for [all address | all grants | all core ]</li>
-        <li>Transactions for [all address | all grants | all core ]</li>
-        <li>Logs for [all address | all grants | all core ]</li>
-        <li>Neighbors for [all address | all grants | all core ]</li>
-        <li><b>Note:</b> Data sets containing all of the data models for a single address as a zip files are linked on from the main display.</li>
+        <li>All data for [<a target="top" href="https://tokenomics.io/gitcoin/data/zips/combined/">all address</a>] | all grants | all core ]</li>
+        <li>Appearances for [<a target="top" href="https://tokenomics.io/gitcoin/data/zips/combined/apps.csv.gz">all address</a> | all grants | all core ]</li>
+        <li>Transactions for [<a target="top" href="https://tokenomics.io/gitcoin/data/zips/combined/txs.csv.gz">all address</a> | all grants | all core ]</li>
+        <li>Logs for [<a target="top" href="https://tokenomics.io/gitcoin/data/zips/combined/logs.csv.gz">all address</a> | all grants | all core ]</li>
+        <li>Neighbors for [<a target="top" href="https://tokenomics.io/gitcoin/data/zips/combined/neighbors.csv.gz">all address</a> | all grants | all core ]</li>
       </ul>
-      <b>Ideas:</b> (<a target="top" href="https://discord.com/invite/RAz6DJ6xkf">help us build!</a>)
+      <ul><b>Note:</b> Data sets containing each individual address are linked on from the main display.</ul>
+      <p />
+      <br />
+      <b>Some ideas for future data sets:</b> (<a target="top" href="https://discord.com/invite/RAz6DJ6xkf">help us build!</a>)
       <ul>
         <li>Percent of total unique donors for each grant</li>
         <block>- Assuming X unique individual donors for all grants, this metric would show Y / X, where Y is the number of unique donors for a given grant.</block>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tag } from 'antd';
 import { ColumnTitle } from "./ColumnTitle";
-import { FileZipTwoTone } from '@ant-design/icons';
+import { CloudDownloadOutlined, CopyTwoTone } from '@ant-design/icons';
 
 //--------------------------------------------------
 export const DateHeader = () => (
@@ -60,10 +60,9 @@ export const NameCell = ({ record }) => {
       <pre>
         <small>{name}</small>
         <br />
-        <a target={'top'} href={'https://etherscan.io/address/' + record.address}>
+        <a target={'top'} href={'http://localhost:1234/address/' + record.address}>
           <small>{record.address}</small>
-        </a>
-        <FileZipTwoTone />
+        </a> <ZipLink addr={record.address} />
       </pre>
     );
   return (
@@ -73,8 +72,8 @@ export const NameCell = ({ record }) => {
           <small>{name}</small>
         </a> <ZipLink addr={record.address} />
         <br />
-        <a target={'top'} href={'https://etherscan.io/address/' + record.address}>
-          <small>{record.address}</small>
+        <a target={'top'} href={'http://localhost:1234/address/' + record.address}>
+          <small>{record.address}</small> <CopyTwoTone />
         </a>
       </pre>
     </div>
@@ -173,8 +172,8 @@ const ZipLink = ({ addr }) => {
   var link = "https://tokenomics.io/gitcoin/data/zips/" + addr + ".tar.gz";
   return (
     <>
-      <a href={link}>
-        <FileZipTwoTone />
+      <a href={link} title="Download zip file">
+        <CloudDownloadOutlined />
       </a>
     </>);
 }
