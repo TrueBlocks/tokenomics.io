@@ -92,6 +92,9 @@ export const HomePage = () => {
           <br />
           <img width='800px' alt='Count By Date' src='https://tokenomics.io/gitcoin/charts/Counts.png' />
         </TabPane>
+        <TabPane tab='Data Definitions' key='5' style={{ paddingLeft: '8px' }}>
+
+        </TabPane>
       </Tabs>
       <i>
         <small>{lastUpdate}</small>
