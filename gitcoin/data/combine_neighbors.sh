@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "combining neighbors..."
+
 echo "\"address\",\"blockNumber\",\"transactionIndex\",\"neighbor\",\"reason\"" >combined/neighbors.csv
 
 # ./combine_neighbors.1.sh 0x7a250d5630b4cf539739df2c5dacb4c659f2488d

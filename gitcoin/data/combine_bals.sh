@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "combining bals..."
+
 # "address","blockNumber","transactionIndex" >combined/bals.csv
 
 # ./combine_bals.1.sh 0x7a250d5630b4cf539739df2c5dacb4c659f2488d
