@@ -10,7 +10,7 @@ import 'antd/dist/antd.css';
 import { grantsData } from './grants-data';
 import { columns } from './ColumnDefs';
 
-import { DataForNerds } from './DataForNerds';
+import { Downloads } from './Downloads';
 import { DataDefinitions } from './DataDefinitions';
 
 import { lastUpdate } from './last-update.js';
@@ -80,8 +80,8 @@ export const HomePage = () => {
         <TabPane tab={tab1Title} key='2' style={{ paddingLeft: '8px' }}>
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
-        <TabPane tab={'Data for Nerds'} key='3' style={{ paddingLeft: '8px' }}>
-          <DataForNerds />
+        <TabPane tab={'Downloads'} key='3' style={{ paddingLeft: '8px' }}>
+          <Downloads />
         </TabPane>
         <TabPane tab='Charts' key='4' style={{ paddingLeft: '8px' }}>
           <img

@@ -3,7 +3,7 @@ import { Typography } from 'antd';
 
 const { Link } = Typography;
 
-export const DataForNerds = () => {
+export const Downloads = () => {
   return (
     <div style={{ textAlign: 'left' }}>
       <center>
