@@ -74,14 +74,13 @@ int main(int argc, const char* argv[]) {
                 oss << substitute(substitute(STR_CMD4, "[{ADDR}]", addr), "[{EMITTERS}]", STR_EMIT) << endl;
                 oss << substitute(STR_CMD5, "[{ADDR}]", addr) << endl;
                 oss << substitute(STR_CMD6, "[{ADDR}]", addr) << endl;
-                cout << oss.str() << endl;
-                return 0;
-                // if (system(oss.str().c_str()) != 0) {
-                //     quit = true;
-                //     break;
-                // }
+                if (system(oss.str().c_str()) != 0) {
+                    quit = true;
+                    break;
+                }
             }
-        }
-    }
+        }  // for (auto line : lines)
+    }      // while (true)
+
     return 0;
 }
