@@ -75,14 +75,19 @@ int main(int argc, const char* argv[]) {
                 oss << substitute(STR_CMD5, "[{ADDR}]", addr) << endl;
                 oss << substitute(STR_CMD6, "[{ADDR}]", addr) << endl;
                 int ret = system(oss.str().c_str());
-                if (ret != 0) {
-                    cerr << "system call returned " << ret << ". Quitting..." << endl;
-                    quit = true;
+                if (WIFSIGNALED(ret) && (WTERMSIG(ret) == SIGINT || WTERMSIG(ret) == SIGQUIT)) {
+                    cerr << "system call interrupted" << endl;
                     break;
+                } else {
+                    if (ret != 0 && ret != 256) {
+                        cerr << "system call returned " << ret << ". Quitting..." << endl;
+                        quit = true;
+                    }
                 }
             }
-        }  // for (auto line : lines)
-    }      // while (true)
+        }
+    }  // for (auto line : lines)
+}  // while (true)
 
-    return 0;
+return 0;
 }
