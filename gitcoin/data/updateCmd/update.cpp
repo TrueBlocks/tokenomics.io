@@ -85,9 +85,8 @@ int main(int argc, const char* argv[]) {
                     }
                 }
             }
-        }
-    }  // for (auto line : lines)
-}  // while (true)
+        }  // for (auto line : lines)
+    }      // while (true)
 
-return 0;
+    return 0;
 }
