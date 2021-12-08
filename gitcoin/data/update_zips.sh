@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-rm -fR zips/*
+rm -f zips/*.gz
+rm -f zips/combined/*.gz
 mkdir -p zips/combined
 cp -p combined/*.gz zips/combined/
 
