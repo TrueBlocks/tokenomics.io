@@ -74,7 +74,9 @@ int main(int argc, const char* argv[]) {
                 oss << substitute(substitute(STR_CMD4, "[{ADDR}]", addr), "[{EMITTERS}]", STR_EMIT) << endl;
                 oss << substitute(STR_CMD5, "[{ADDR}]", addr) << endl;
                 oss << substitute(STR_CMD6, "[{ADDR}]", addr) << endl;
-                if (system(oss.str().c_str()) != 0) {
+                int ret = system(oss.str().c_str());
+                if (ret != 0) {
+                    cerr << "system call returned " << ret << ". Quitting..." << endl;
                     quit = true;
                     break;
                 }
