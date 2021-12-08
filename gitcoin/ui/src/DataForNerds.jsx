@@ -14,7 +14,7 @@ export const DataForNerds = () => {
       </center>
       <b>Zips:</b>
       <ul>
-        <li>All data for [<a target="top" href="https://tokenomics.io/gitcoin/data/zips/combined/">all address</a>] | all grants | all core ]</li>
+        <li>All data for [<a target="top" href="https://tokenomics.io/gitcoin/data/zips/combined/">all address</a> | all grants | all core ]</li>
         <li>Appearances for [<a target="top" href="https://tokenomics.io/gitcoin/data/zips/combined/apps.csv.gz">all address</a> | all grants | all core ]</li>
         <li>Transactions for [<a target="top" href="https://tokenomics.io/gitcoin/data/zips/combined/txs.csv.gz">all address</a> | all grants | all core ]</li>
         <li>Logs for [<a target="top" href="https://tokenomics.io/gitcoin/data/zips/combined/logs.csv.gz">all address</a> | all grants | all core ]</li>

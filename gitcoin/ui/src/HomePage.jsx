@@ -11,6 +11,7 @@ import { grantsData } from './grants-data';
 import { columns } from './ColumnDefs';
 
 import { DataForNerds } from './DataForNerds';
+import { DataDefinitions } from './DataDefinitions';
 
 import { lastUpdate } from './last-update.js';
 
@@ -93,7 +94,7 @@ export const HomePage = () => {
           <img width='800px' alt='Count By Date' src='https://tokenomics.io/gitcoin/charts/Counts.png' />
         </TabPane>
         <TabPane tab='Data Definitions' key='5' style={{ paddingLeft: '8px' }}>
-
+          <DataDefinitions />
         </TabPane>
       </Tabs>
       <i>

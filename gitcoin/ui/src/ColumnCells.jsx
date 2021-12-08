@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Tag } from 'antd';
 import { ColumnTitle } from "./ColumnTitle";
 import { CloudDownloadOutlined, CopyTwoTone } from '@ant-design/icons';
@@ -53,16 +53,32 @@ export const NameHeader = () => (
   />
 )
 export const NameCell = ({ record }) => {
+  const [copied, setCopied] = useState(false);
+
   var name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
   name = name.replace('&#39;', "'");
+
+  const explorer = 'http://localhost:1234/address/';
+  const explorerLink = <>
+    <a target={'top'} href={explorer + record.address}>
+      <small>{record.address}</small>
+    </a>{' '}
+    <CopyTwoTone onClick={() => {
+      navigator.clipboard.writeText(record.address); setCopied(true); setTimeout(() => {
+        setCopied(false)
+      }, 500)
+    }} />
+    <div style={{ display: "inline", fontStyle: "italic", fontSize: "small", color: 'red' }}>{' '}
+      {copied ? " *copied*" : ""}
+    </div>
+  </>;
+
   if (!record.slug)
     return (
       <pre>
-        <small>{name}</small>
+        <small>{name}</small> <ZipLink addr={record.address} />
         <br />
-        <a target={'top'} href={'http://localhost:1234/address/' + record.address}>
-          <small>{record.address}</small>
-        </a> <ZipLink addr={record.address} />
+        {explorerLink}
       </pre>
     );
   return (
@@ -72,9 +88,7 @@ export const NameCell = ({ record }) => {
           <small>{name}</small>
         </a> <ZipLink addr={record.address} />
         <br />
-        <a target={'top'} href={'http://localhost:1234/address/' + record.address}>
-          <small>{record.address}</small> <CopyTwoTone />
-        </a>
+        {explorerLink}
       </pre>
     </div>
   );
