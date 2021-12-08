@@ -39,14 +39,12 @@ bool fixHeader(const string_q &path, void *data)
         return true;
     }
 
-    if ((only.empty() && endsWith(path, ".csv") && !contains(path, "combined")) || (contains(path, only)))
-    {
+    if ((only.empty() && !contains(path, "combined")) || (contains(path, only))) {
         cerr << "Fixing " << path << "                                                \r";
         cerr.flush();
         CStringArray lines;
         asciiFileToLines(path, lines);
-        if (lines.size() > 0)
-        {
+        if (lines.size() > 0) {
             replace(lines[0], "\"blocknumber\"", "\"blockNumber\"");
             replace(lines[0], "\"transactionindex\"", "\"transactionIndex\"");
             replace(lines[0], "\"logindex\"", "\"logIndex\"");
@@ -61,8 +59,7 @@ bool fixHeader(const string_q &path, void *data)
             replace(lines[0], "\"compressedtx\"", "\"compressedTx\"");
         }
         ostringstream os;
-        for (auto line : lines)
-        {
+        for (auto line : lines) {
             os << line << endl;
         }
         stringToAsciiFile(path, os.str());
