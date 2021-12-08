@@ -8,4 +8,6 @@
 ./combine_neighbors.sh
 
 cd combined
-gzip *.csv
+rm -f *.gz
+yes | gzip *.csv
+

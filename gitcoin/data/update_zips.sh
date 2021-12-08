@@ -1,17 +1,8 @@
 #!/usr/bin/env bash
 
-rm -f zips/*
-
-tar -cvf zips/apps.tar apps
-# tar -cvf zips/bals.tar bals
-tar -cvf zips/logs.tar logs
-tar -cvf zips/neighbors.tar neighbors
-tar -cvf zips/raw.tar raw
-tar -cvf zips/txs.tar txs
-
-cd zips
-yes | gzip *.tar
-cd ..
+rm -fR zips/*
+mkdir -p zips/combined
+cp -p combined/*.gz zips/combined/
 
 # ./update_zips.1.sh 0x7a250d5630b4cf539739df2c5dacb4c659f2488d
 ./update_zips.1.sh 0x0000000fcdf5ba49794f4151d6daff4505bc47d1
