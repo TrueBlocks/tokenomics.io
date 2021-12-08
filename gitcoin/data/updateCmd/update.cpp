@@ -12,56 +12,74 @@
  *-------------------------------------------------------------------------------------------*/
 #include "etherlib.h"
 
+// clang-format off
+const char* STR_EMIT = "--emitter 0xdf869fad6db91f437b59f1edefab319493d4c4ce --emitter 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6 --emitter 0x7d655c57f71464b6f83811c55d84009cd9f5221c";
+
+const char* STR_CMD1 = "chifra export --appearances --fmt csv [{ADDR}] | cut -f2,3 -d',' >apps/[{ADDR}].csv ; ";
+const char* STR_CMD3 = "chifra export --articulate --cache --cache_traces  --fmt csv [{ADDR}] >txs/[{ADDR}].csv ; ";
+const char* STR_CMD2 = "chifra export --balances --fmt csv [{ADDR}] >bals/[{ADDR}].csv ; ";
+const char* STR_CMD4 = "chifra export --logs --articulate --relevant [{EMITTERS}] --fmt csv [{ADDR}] >logs/[{ADDR}].csv ; ";
+const char* STR_CMD5 = "chifra export --neighbors --fmt csv [{ADDR}] >neighbors/[{ADDR}].csv ; ";
+
+const char* STR_CMD6 = "./fixHeaders [{ADDR}] ; ";
+const char* STR_CMD7 = "chifra list [{ADDR}] >/dev/null";
+// clang-format on
+
 //----------------------------------------------------------------
-int main(int argc, const char *argv[])
-{
-    CStringArray lines;
-    asciiFileToLines("./addresses.csv", lines);
-
+int main(int argc, const char* argv[]) {
     bool quit = false;
-
-    while (!quit)
-    {
-        for (auto line : lines)
-        {
+    while (!quit) {
+        CStringArray lines;
+        asciiFileToLines("./addresses.csv", lines);
+        for (auto line : lines) {
             CStringArray parts;
             explode(parts, line, ',');
             address_t addr = toLower(parts[1]);
-            address_t uniSwap = "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"; // someone used UniSwap v2 as thier grant address
-            if ((!isAddress(addr) || isZeroAddr(addr)) && addr == uniSwap)
+
+            // Ignore invalid addresses
+            if ((!isAddress(addr) || isZeroAddr(addr)))
                 continue;
 
-            string_q fileName = getCachePath("monitors/" + addr + ".acct.bin");
-            uint64_t sizeBefore = fileSize(fileName) / 8;
-            ostringstream os;
-            os << "chifra list " << addr << " >/dev/null";
-            if (system(os.str().c_str()) != 0)
-            {
+            // Someone used UniSwap v2 as thier grant address, ignore it
+            if (addr == "0x7a250d5630b4cf539739df2c5dacb4c659f2488d")
+                continue;
+
+            // Figure out how many records there are...
+            string_q monitorFn = getCachePath("monitors/" + addr + ".acct.bin");
+            uint64_t nRecordsBefore = fileSize(monitorFn) / 8;
+
+            // Freshen the monitor
+            if (system(substitute(STR_CMD1, "[{ADDR}]", addr).c_str()) != 0) {
                 quit = true;
                 break;
             }
-            uint64_t sizeAfter = fileSize(fileName) / 8;
-            if (sizeBefore == sizeAfter)
-            {
-                cerr << bBlack << "Skipping " << fileName << bGreen << " (" << sizeBefore << " == " << sizeAfter << ")" << cOff << endl;
+
+            // Figure out how many records there are after freshen
+            uint64_t sizeAfter = fileSize(monitorFn) / 8;
+
+            if (nRecordsBefore == sizeAfter) {
+                // If there are no new records, we don't have to freshen the rest of the data
+                cerr << bBlack << "Skip " << monitorFn;
+                cerr << bGreen << " (" << nRecordsBefore << " == " << sizeAfter << ")" << cOff << endl;
+
             } else {
-                cerr << bYellow << "Calling " << fileName << " (" << sizeBefore << " == " << sizeAfter << ")" << cOff << endl;
+                // There are new records, freshen everything
+                cerr << bYellow << "Call " << monitorFn;
+                cerr << " (" << nRecordsBefore << " == " << sizeAfter << ")" << cOff << endl;
+
                 ostringstream oss;
-                oss << "chifra export --appearances --fmt csv " << addr << " | cut -f2,3 -d',' >apps/" << addr << ".csv ; " << endl;
-                // oss << "chifra export --balances --fmt csv " << addr << " >bals/" << addr << ".csv ; " << endl;
-                oss << "chifra export --articulate --cache --cache_traces --fmt csv " << addr << " >txs/" << addr << ".csv ; " << endl;
-                oss << "chifra export --logs --articulate --relevant "
-                       "--emitter 0xdf869fad6db91f437b59f1edefab319493d4c4ce "
-                       "--emitter 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6 "
-                       "--emitter 0x7d655c57f71464b6f83811c55d84009cd9f5221c --fmt csv "
-                    << addr << " >logs/" << addr << ".csv ; " << endl;
-                oss << "chifra export --neighbors --cache --cache_traces --fmt csv " << addr << " >neighbors/" << addr << ".csv;" << endl;
-                oss << "./fixHeaders " << addr << endl;
-                if (system(oss.str().c_str()) != 0)
-                {
-                    //                    quit = true;
-                    //                    break;
-                }
+                oss << substitute(STR_CMD1, "[{ADDR}]", addr) << endl;
+                oss << substitute(STR_CMD2, "[{ADDR}]", addr) << endl;
+                oss << substitute(STR_CMD3, "[{ADDR}]", addr) << endl;
+                oss << substitute(substitute(STR_CMD4, "[{ADDR}]", addr), "[{EMITTERS}]", STR_EMIT) << endl;
+                oss << substitute(STR_CMD5, "[{ADDR}]", addr) << endl;
+                oss << substitute(STR_CMD6, "[{ADDR}]", addr) << endl;
+                cout << oss.str() << endl;
+                return 0;
+                // if (system(oss.str().c_str()) != 0) {
+                //     quit = true;
+                //     break;
+                // }
             }
         }
     }
