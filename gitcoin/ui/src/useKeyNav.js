@@ -28,6 +28,13 @@ export function useKeyNav({ pageSize, maxItems }) {
   const row = useMemo(() => {
     return position % pageSize;
   }, [pageSize, position]);
+  // Let the component select a row. relativeRow is relative to the
+  // data currently loaded in the table, e.g. if we have 10 items loaded,
+  // the second item is 1 (we count from 0), even if it's 3rd page.
+  const selectRow = useCallback((relativeRow) => {
+    setOn(true);
+    setPosition((page-1) * pageSize + relativeRow);
+  }, [page, pageSize]);
 
   // Adds `addend` to `position`. To decrease the position value just use
   // a negative `addend`.
@@ -84,5 +91,6 @@ export function useKeyNav({ pageSize, maxItems }) {
     page,
     row,
     keyNavOn: on,
+    selectRow,
   };
 }
