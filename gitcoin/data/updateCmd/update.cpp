@@ -15,7 +15,7 @@
 // clang-format off
 const char* STR_EMIT = "--emitter 0xdf869fad6db91f437b59f1edefab319493d4c4ce --emitter 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6 --emitter 0x7d655c57f71464b6f83811c55d84009cd9f5221c";
 
-const char* STR_CMD1 = "chifra export --appearances --fmt csv [{ADDR}] | cut -f2,3 -d',' >apps/[{ADDR}].csv ; cd apps ; ../fixHeaders [{ADDR}] ; cd - ; ";
+const char* STR_CMD1 = "chifra export --appearances --fmt csv [{ADDR}] | cut -f2,3 -d',' >apps/[{ADDR}].csv ; cd apps ; ../fixHeaders [{ADDR}] ; cd - >/dev/null 2>&1 ; ";
 const char* STR_CMD3 = "chifra export --articulate --cache --cache_traces  --fmt csv [{ADDR}] >txs/[{ADDR}].csv ; cd txs ; ../fixHeaders [{ADDR}] ; cd - ; ";
 const char* STR_CMD2 = "chifra export --balances --fmt csv [{ADDR}] >bals/[{ADDR}].csv ; cd bals ; ../fixHeaders [{ADDR}] ; cd - ; ";
 const char* STR_CMD4 = "chifra export --logs --articulate --relevant [{EMITTERS}] --fmt csv [{ADDR}] >logs/[{ADDR}].csv ; cd logs ; ../fixHeaders [{ADDR}] ; cd - ; ";
@@ -86,7 +86,11 @@ int main(int argc, const char* argv[]) {
                 }
             }
         }  // for (auto line : lines)
-    }      // while (true)
+        if (!quit) {
+            if (system("./combine_update.sh")) {}
+            if (system("./update_zips.sh")) {}
+        }
+    } // while (true)
 
     return 0;
 }
