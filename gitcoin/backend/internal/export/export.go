@@ -77,7 +77,7 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 	for i := 0; i < max; i++ {
 		fileNames = append(fileNames, fmt.Sprintf(pathToData+"raw/%04d.json", i))
 	}
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 6; i++ {
 		fileNames = append(fileNames, fmt.Sprintf(pathToData+"raw/core-%04d.json", i))
 	}
 
