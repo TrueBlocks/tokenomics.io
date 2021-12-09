@@ -15,13 +15,11 @@
 // clang-format off
 const char* STR_EMIT = "--emitter 0xdf869fad6db91f437b59f1edefab319493d4c4ce --emitter 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6 --emitter 0x7d655c57f71464b6f83811c55d84009cd9f5221c";
 
-const char* STR_CMD1 = "chifra export --appearances --fmt csv [{ADDR}] | cut -f2,3 -d',' >apps/[{ADDR}].csv ; cd apps ; ../fixHeaders [{ADDR}] ; cd - >/dev/null 2>&1 ; ";
-const char* STR_CMD3 = "chifra export --articulate --cache --cache_traces  --fmt csv [{ADDR}] >txs/[{ADDR}].csv ; cd txs ; ../fixHeaders [{ADDR}] ; cd - ; ";
-const char* STR_CMD2 = "chifra export --balances --fmt csv [{ADDR}] >bals/[{ADDR}].csv ; cd bals ; ../fixHeaders [{ADDR}] ; cd - ; ";
-const char* STR_CMD4 = "chifra export --logs --articulate --relevant [{EMITTERS}] --fmt csv [{ADDR}] >logs/[{ADDR}].csv ; cd logs ; ../fixHeaders [{ADDR}] ; cd - ; ";
-const char* STR_CMD5 = "chifra export --neighbors --fmt csv [{ADDR}] >neighbors/[{ADDR}].csv ; cd neighbors ; ../fixHeaders [{ADDR}] ; cd - ; ";
-
-const char* STR_CMD6 = "./fixHeaders [{ADDR}] ; ";
+const char* STR_CMD1 = "chifra export --appearances --fmt csv [{ADDR}] | cut -f2,3 -d',' >apps/[{ADDR}].csv ; ";
+const char* STR_CMD3 = "chifra export --articulate --cache --cache_traces  --fmt csv [{ADDR}] >txs/[{ADDR}].csv ; ";
+const char* STR_CMD2 = "chifra export --balances --fmt csv [{ADDR}] >bals/[{ADDR}].csv ; ";
+const char* STR_CMD4 = "chifra export --logs --articulate --relevant [{EMITTERS}] --fmt csv [{ADDR}] >logs/[{ADDR}].csv ; ";
+const char* STR_CMD5 = "chifra export --neighbors --fmt csv [{ADDR}] >neighbors/[{ADDR}].csv ; ";
 const char* STR_CMD7 = "chifra list [{ADDR}] >/dev/null";
 // clang-format on
 
@@ -29,6 +27,7 @@ const char* STR_CMD7 = "chifra list [{ADDR}] >/dev/null";
 int main(int argc, const char* argv[]) {
     bool quit = false;
     while (!quit) {
+        size_t nChanged = 0;
         CStringArray lines;
         asciiFileToLines("./addresses.csv", lines);
         for (auto line : lines) {
@@ -63,6 +62,8 @@ int main(int argc, const char* argv[]) {
                 cerr << bGreen << " (" << nRecordsBefore << " == " << sizeAfter << ")" << cOff << endl;
 
             } else {
+                nChanged++;
+
                 // There are new records, freshen everything
                 cerr << bYellow << "Call " << monitorFn;
                 cerr << " (" << nRecordsBefore << " == " << sizeAfter << ")" << cOff << endl;
@@ -73,7 +74,6 @@ int main(int argc, const char* argv[]) {
                 oss << substitute(STR_CMD3, "[{ADDR}]", addr) << endl;
                 oss << substitute(substitute(STR_CMD4, "[{ADDR}]", addr), "[{EMITTERS}]", STR_EMIT) << endl;
                 oss << substitute(STR_CMD5, "[{ADDR}]", addr) << endl;
-                oss << substitute(STR_CMD6, "[{ADDR}]", addr) << endl;
                 int ret = system(oss.str().c_str());
                 if (WIFSIGNALED(ret) && (WTERMSIG(ret) == SIGINT || WTERMSIG(ret) == SIGQUIT)) {
                     cerr << "system call interrupted" << endl;
@@ -86,7 +86,7 @@ int main(int argc, const char* argv[]) {
                 }
             }
         }  // for (auto line : lines)
-        if (!quit) {
+        if (!quit && nChanged) {
             if (system("./combine_update.sh")) {}
             if (system("./update_zips.sh")) {}
         }
