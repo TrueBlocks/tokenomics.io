@@ -83,6 +83,9 @@ export const HomePage = () => {
         <TabPane tab={'Downloads'} key='3' style={{ paddingLeft: '8px' }}>
           <Downloads />
         </TabPane>
+        <TabPane tab='Data Definitions' key='5' style={{ paddingLeft: '8px' }}>
+          <DataDefinitions />
+        </TabPane>
         <TabPane tab='Charts' key='4' style={{ paddingLeft: '8px' }}>
           <img
             width='800px'
@@ -92,9 +95,6 @@ export const HomePage = () => {
           <br />
           <br />
           <img width='800px' alt='Count By Date' src='https://tokenomics.io/gitcoin/charts/Counts.png' />
-        </TabPane>
-        <TabPane tab='Data Definitions' key='5' style={{ paddingLeft: '8px' }}>
-          <DataDefinitions />
         </TabPane>
       </Tabs>
       <i>
