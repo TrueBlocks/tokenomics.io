@@ -58,7 +58,7 @@ export const NameCell = ({ record }) => {
   var name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
   name = name.replace('&#39;', "'");
 
-  const explorer = 'http://localhost:1234/address/';
+  const explorer = 'http://etherscan.io/address/';
   const explorerLink = <>
     <a target={'top'} href={explorer + record.address}>
       <small>{record.address}</small>
