@@ -58,15 +58,13 @@ int main(int argc, const char* argv[]) {
 
             if (fileExists("./apps/" + addr + ".csv") && nRecordsBefore == sizeAfter) {
                 // If there are no new records, we don't have to freshen the rest of the data
-                cerr << bBlack << "Skip " << monitorFn;
-                cerr << bGreen << " (" << nRecordsBefore << " == " << sizeAfter << ")" << cOff << endl;
+                LOG_INFO(bBlack, "Skip ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore, " == ", sizeAfter, ")", cOff);
 
             } else {
                 nChanged++;
 
                 // There are new records, freshen everything
-                cerr << bYellow << "Call " << monitorFn;
-                cerr << " (" << nRecordsBefore << " == " << sizeAfter << ")" << cOff << endl;
+                LOG_INFO(bYellow, "Call ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore, " != ", sizeAfter, ")", cOff);
 
                 ostringstream oss;
                 oss << substitute(STR_CMD1, "[{ADDR}]", addr) << endl;
