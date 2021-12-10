@@ -19,8 +19,8 @@ import (
 
 	"github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/rpcClient"
 	tslibPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/tslib"
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/config"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/file"
-    "github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/config"
 )
 
 // TODO: why?
@@ -150,7 +150,7 @@ type Appearance struct {
 	Bn      uint32 `json:"bn"`
 	TxId    uint32 `json:"txId"`
 	Ts      uint64 `json:"timestamp"`
-	DateStr string `json:"date",omitempty`
+	DateStr string `json:"date,omitempty"`
 }
 
 type Monitor struct {
