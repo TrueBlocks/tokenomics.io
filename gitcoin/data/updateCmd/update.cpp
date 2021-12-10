@@ -67,7 +67,7 @@ int main(int argc, const char* argv[]) {
                 LOG_INFO(bYellow, "Call ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore, " != ", sizeAfter, ")", cOff);
 
                 ostringstream oss;
-                oss << substitute(STR_CMD1, "[{ADDR}]", addr) << endl;
+                // oss << substitute(STR_CMD1, "[{ADDR}]", addr) << endl;
                 // oss << substitute(STR_CMD2, "[{ADDR}]", addr) << endl;
                 oss << substitute(STR_CMD3, "[{ADDR}]", addr) << endl;
                 oss << substitute(substitute(STR_CMD4, "[{ADDR}]", addr), "[{EMITTERS}]", STR_EMIT) << endl;
