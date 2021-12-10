@@ -6,3 +6,8 @@
 ./combine_txs.sh
 ./combine_logs.sh
 ./combine_neighbors.sh
+
+cd combined
+rm -f *.gz
+yes | gzip *.csv
+

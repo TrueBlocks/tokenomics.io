@@ -1,19 +1,19 @@
-import React, {Fragment} from 'react';
-import {Typography, Layout} from 'antd';
+import React, { Fragment } from 'react';
+import { Typography, Layout } from 'antd';
 
 import './App.css';
 import 'antd/dist/antd.css';
 
-const {Sider} = Layout;
-const {Paragraph, Text} = Typography;
+const { Sider } = Layout;
+const { Paragraph, Text } = Typography;
 
 const LeftSideItem = ({ question, answer }) => {
   return (
     <Fragment>
-      <Paragraph style={{textDecoration: 'underline', fontWeight: 'bold', color: 'lightblue'}}>
+      <Paragraph style={{ textDecoration: 'underline', fontWeight: 'bold', color: 'lightblue' }}>
         {question}
       </Paragraph>
-      <Text style={{color: 'lightblue'}}>
+      <Text style={{ color: 'lightblue' }}>
         {answer}
       </Text>
       <br />
@@ -24,8 +24,8 @@ const LeftSideItem = ({ question, answer }) => {
 
 export const LeftSider = () => {
   return (
-    <Sider style={{paddingLeft: '20px', paddingRight: '20px'}}>
-      <LeftSideItem
+    <Sider style={{ paddingLeft: '20px', paddingRight: '20px' }}>
+      {/* <LeftSideItem
         question='Do you have an unclaimed match?'
         answer={
           <div>
@@ -33,7 +33,7 @@ export const LeftSider = () => {
             <Text type='warning'>CLR</Text> column for un-claimed matching funds.
           </div>
         }
-      />
+      /> */}
       <LeftSideItem
         question='What is a data pouch?'
         answer={`
@@ -51,12 +51,12 @@ export const LeftSider = () => {
       <br />
       <br />
       <small>
-        <Text style={{color: 'lightblue'}}>
+        <Text style={{ color: 'lightblue' }}>
           This website is <i>alpha</i>, which means you should use the data with caution.
           <br />
           <br />
           <a rel='noreferrer' target='_blank' href='https://github.com/TrueBlocks/tokenomics.io/issues'>
-            <Text style={{color: 'lightblue', textDecoration: 'underline'}}>Have a suggestion?</Text>
+            <Text style={{ color: 'lightblue', textDecoration: 'underline' }}>Have a suggestion?</Text>
           </a>
         </Text>
       </small>

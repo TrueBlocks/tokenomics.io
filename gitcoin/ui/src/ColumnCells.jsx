@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Tag } from 'antd';
 import { ColumnTitle } from "./ColumnTitle";
+import { CloudDownloadOutlined, CopyTwoTone } from '@ant-design/icons';
 
 //--------------------------------------------------
 export const DateHeader = () => (
@@ -52,16 +53,32 @@ export const NameHeader = () => (
   />
 )
 export const NameCell = ({ record }) => {
+  const [copied, setCopied] = useState(false);
+
   var name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
   name = name.replace('&#39;', "'");
+
+  const explorer = 'http://etherscan.io/address/';
+  const explorerLink = <>
+    <a target={'top'} href={explorer + record.address}>
+      <small>{record.address}</small>
+    </a>{' '}
+    <CopyTwoTone onClick={() => {
+      navigator.clipboard.writeText(record.address); setCopied(true); setTimeout(() => {
+        setCopied(false)
+      }, 500)
+    }} />
+    <div style={{ display: "inline", fontStyle: "italic", fontSize: "small", color: 'red' }}>{' '}
+      {copied ? " *copied*" : ""}
+    </div>
+  </>;
+
   if (!record.slug)
     return (
       <pre>
-        <small>{name}</small>
+        <small>{name}</small> <ZipLink addr={record.address} />
         <br />
-        <a target={'top'} href={'https://etherscan.io/address/' + record.address}>
-          <small>{record.address}</small>
-        </a>
+        {explorerLink}
       </pre>
     );
   return (
@@ -69,11 +86,9 @@ export const NameCell = ({ record }) => {
       <pre>
         <a target={'top'} href={record.slug}>
           <small>{name}</small>
-        </a>
+        </a> <ZipLink addr={record.address} />
         <br />
-        <a target={'top'} href={'https://etherscan.io/address/' + record.address}>
-          <small>{record.address}</small>
-        </a>
+        {explorerLink}
       </pre>
     </div>
   );
@@ -166,3 +181,13 @@ const Cell2 = ({ text }) => {
     </div>
   );
 };
+
+const ZipLink = ({ addr }) => {
+  var link = "https://tokenomics.io/gitcoin/data/zips/" + addr + ".tar.gz";
+  return (
+    <>
+      <a href={link} title="Download zip file">
+        <CloudDownloadOutlined />
+      </a>
+    </>);
+}

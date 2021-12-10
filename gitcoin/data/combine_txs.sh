@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "combining txs..."
+
 echo "\"address\",\"blockNumber\",\"transactionIndex\",\"date\",\"timestamp\",\"from\",\"to\",\"ether\",\"ethGasPrice\",\"gasUsed\",\"hash\",\"isError\",\"encoding\",\"compressedTx\"" >combined/txs.csv
 
 # ./combine_txs.1.sh 0x7a250d5630b4cf539739df2c5dacb4c659f2488d

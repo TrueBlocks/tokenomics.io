@@ -2,31 +2,22 @@ import React, { useEffect, useState } from 'react';
 import { useStatePersist } from 'use-state-persist';
 
 import { Input, Layout, Tabs } from 'antd';
-import { Table as AntTable } from 'antd';
 
 import './App.css';
 import 'antd/dist/antd.css';
 
 import { grantsData } from './grants-data';
 import { columns } from './ColumnDefs';
+import { BaseTable } from './BaseTable';
 
-import { DataForNerds } from './DataForNerds';
+import { Downloads } from './Downloads';
+import { DataDefinitions } from './DataDefinitions';
 
 import { lastUpdate } from './last-update.js';
 
 const { Content } = Layout;
 const { Search } = Input;
 const { TabPane } = Tabs;
-const Table = (props) => {
-  const pag = {
-    size: 'small',
-    position: ['topRight', 'none'],
-    hideOnSinglePage: true,
-    showSizeChanger: false,
-    showTotal: (total, range) => '(' + total + ' grants) ',
-  };
-  return <AntTable className='main-rows' pagination={pag} size='small' bordered={true} {...props} />;
-};
 
 export const HomePage = () => {
   const [lastTab, setLastTab] = useStatePersist('@lastTab', 1);
@@ -65,6 +56,7 @@ export const HomePage = () => {
       <div style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>
         <div></div>
         <Search
+          allowClear
           style={{ paddingRight: '2px' }}
           width='10px'
           placeholder='search grants by address or name...'
@@ -73,13 +65,16 @@ export const HomePage = () => {
       </div>
       <Tabs defaultActiveKey={lastTab} onChange={tabSwitch} style={{ border: '1px dotted gray', padding: '1px' }}>
         <TabPane tab={tab2Title} key='1' style={{ paddingLeft: '8px', margin: '-25px 0px 0px 0px' }}>
-          <Table dataSource={grantData} columns={columns} />
+          <BaseTable dataSource={grantData} columns={columns} rowKey={(record) => record.grantId} />
         </TabPane>
         <TabPane tab={tab1Title} key='2' style={{ paddingLeft: '8px' }}>
-          <Table dataSource={contractData} columns={columns} />
+          <BaseTable dataSource={contractData} columns={columns} rowKey={(record) => record.grantId} />
         </TabPane>
-        <TabPane tab={'Data for Nerds'} key='3' style={{ paddingLeft: '8px' }}>
-          <DataForNerds />
+        <TabPane tab={'Downloads'} key='3' style={{ paddingLeft: '8px' }}>
+          <Downloads />
+        </TabPane>
+        <TabPane tab='Data Definitions' key='5' style={{ paddingLeft: '8px' }}>
+          <DataDefinitions />
         </TabPane>
         <TabPane tab='Charts' key='4' style={{ paddingLeft: '8px' }}>
           <img

@@ -1,3 +1,3 @@
 all:
+	@echo "Building backend..."
 	@go build
-#	@ls -l

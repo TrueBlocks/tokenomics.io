@@ -4,7 +4,7 @@ const fq1 = 'What is this website?';
 const fa1 = (
   <div>
     {`This websites gives access to two datasets. First, every log on any of the GitCoin Grant smart
-    contracts. And second, corresponding logs for the individual grant. The website is an experiment
+    contracts. And second, corresponding data for the individual grant. The website is an experiment
     in live monitoring and presenting chain data for a large collection of related addresses at a
     minimal cost. The permissionless nature of the data and the fact that we run locally on desktop
     computers allows us to provide this data for free.`}
@@ -37,19 +37,9 @@ const fa3 = (
   </div>
 );
 
-const fq4 = 'Why do you only export event logs?';
-const fa4 = (
-  <div>
-    {`Users are most familiar with that data. The full suite of TrueBlocks tools produces significantly
-    more than that, however. TrueBlocks produces full tranactional details, full tracing data, and even
-    full ETH accounting, but we do not include that on this website. If you're interested, contact join
-    our discord to discuss.`}
-  </div>
-);
-
 const fq5 = 'What\'s so difficult about what you did?';
 const fa5 = (
-  <ul style={{marginLeft: '-20px'}}>
+  <ul style={{ marginLeft: '-20px' }}>
     <li>The data comes directly from an Ethereum node.</li>
     <li>
       Without TrueBlocks, getting this same data{' '}
@@ -82,17 +72,16 @@ const FaqEntry = ({ question, answer }) => {
     <li>
       <b>{question}</b>
       <br />
-      <div style={{width: '650px', wordWrap: 'break-word', paddingBottom: "10px"}}>{answer}</div>
+      <div style={{ width: '650px', wordWrap: 'break-word', paddingBottom: "10px" }}>{answer}</div>
     </li>
   );
 };
 
 export const faq_text = (
-  <ul style={{marginLeft: '-20px'}}>
+  <ul style={{ marginLeft: '-20px' }}>
     <FaqEntry question={fq1} answer={fa1} />
     <FaqEntry question={fq2} answer={fa2} />
     <FaqEntry question={fq2a} answer={fa2a} />
-    <FaqEntry question={fq4} answer={fa4} />
     <FaqEntry question={fq5} answer={fa5} />
     <FaqEntry question={fq3} answer={fa3} />
     <FaqEntry question={fq6} answer={fa6} />

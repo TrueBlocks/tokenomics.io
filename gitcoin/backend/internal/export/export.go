@@ -2,7 +2,7 @@
 // Use of this source code is governed by a license that can
 // be found in the LICENSE file.
 
-package exportPkg
+package export
 
 import (
 	"fmt"
@@ -11,12 +11,10 @@ import (
 
 	grantsPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/internal/grants"
 	"github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/progress"
+	monPgk "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/types/monitors"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/logger"
 	"github.com/spf13/cobra"
 )
-
-// TODO: why?
-const pathToData = "../data/" // /Users/jrush/Development/tokenomics.io/gitcoin/data/"
 
 type ExportOptions struct {
 	Stats   bool
@@ -33,7 +31,7 @@ func RunE(cmd *cobra.Command, args []string) {
 
 	go ProcessGrants(progressChannel)
 
-	var grantsDone uint
+	var nProcessed uint
 	for event := range progressChannel {
 		grant, ok := event.Payload.(*grantsPkg.Grant)
 		var fileName string
@@ -42,7 +40,7 @@ func RunE(cmd *cobra.Command, args []string) {
 		}
 
 		if event.Event == progress.Finished {
-			logger.Log(logger.Info, grantsDone, "grant(s) were processed")
+			logger.Log(logger.Info, nProcessed, "grant(s) were processed")
 			break
 		}
 
@@ -58,7 +56,7 @@ func RunE(cmd *cobra.Command, args []string) {
 			logger.Log(logger.Info, event.Message, fileName)
 
 		case progress.Done:
-			grantsDone++
+			nProcessed++
 
 		default:
 			logger.Log(logger.Info, event.Message, fileName)
@@ -75,10 +73,10 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 	var fileNames []string
 	max := 4000
 	for i := 0; i < max; i++ {
-		fileNames = append(fileNames, fmt.Sprintf(pathToData+"raw/%04d.json", i))
+		fileNames = append(fileNames, fmt.Sprintf("../data/raw/%04d.json", i))
 	}
-	for i := 0; i < 5; i++ {
-		fileNames = append(fileNames, fmt.Sprintf(pathToData+"raw/core-%04d.json", i))
+	for i := 0; i < 6; i++ {
+		fileNames = append(fileNames, fmt.Sprintf("../data/raw/core-%04d.json", i))
 	}
 
 	msg := fmt.Sprintf("Processing %d grants", len(fileNames))
@@ -116,7 +114,7 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 		} else {
 			progressChannel <- progress.UpdateMsg("Processing grant id: "+grantId, nil)
 			if Options.Scripts {
-				var monitor grantsPkg.Monitor
+				var monitor monPgk.Monitor
 				monitor.Address = grant.AdminAddress
 				var update LastUpdate
 				update.Address = monitor.Address

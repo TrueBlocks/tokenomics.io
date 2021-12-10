@@ -7,4 +7,6 @@
 ./export_logs.sh
 ./export_neighbors.sh
 
+./combine_update.sh
+
 ./update_zips.sh

@@ -10,6 +10,3 @@ chifra export \
     --emitter 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6 \
     --emitter 0x7d655c57f71464b6f83811c55d84009cd9f5221c \
     --fmt csv $addr >logs/$addr.csv
-
-# clean up headers
-./fixHeaders $1

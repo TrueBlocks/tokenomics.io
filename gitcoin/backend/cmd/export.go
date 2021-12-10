@@ -4,7 +4,7 @@
 package cmd
 
 import (
-	exportPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/internal/export"
+	export "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/internal/export"
 	"github.com/spf13/cobra"
 )
 
@@ -13,13 +13,13 @@ var exportCmd = &cobra.Command{
 	Use:   "export",
 	Short: "Export information",
 	Long:  `Export information`,
-	Run:   exportPkg.RunE,
+	Run:   export.RunE,
 }
 
 func init() {
 	rootCmd.AddCommand(exportCmd)
-	exportCmd.Flags().BoolVarP(&exportPkg.Options.Stats, "stats", "s", false, "produce only stats for the grants")
-	exportCmd.Flags().BoolVarP(&exportPkg.Options.Scripts, "scripts", "c", false, "produce update scripts given current state of scraper")
-	exportCmd.Flags().StringVarP(&exportPkg.Options.Format, "fmt", "x", "csv", "format for the export")
+	exportCmd.Flags().BoolVarP(&export.Options.Stats, "stats", "s", false, "produce only stats for the grants")
+	exportCmd.Flags().BoolVarP(&export.Options.Scripts, "scripts", "c", false, "produce update scripts given current state of scraper")
+	exportCmd.Flags().StringVarP(&export.Options.Format, "fmt", "x", "csv", "format for the export")
 	exportCmd.SetUsageTemplate(UsageText())
 }

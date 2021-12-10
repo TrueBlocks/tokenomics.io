@@ -1,5 +1,5 @@
 #-------------------------------------------------
-exec=fixHeaders
+exec=update
 
 #-------------------------------------------------
 src= \
@@ -28,7 +28,7 @@ product=objs/$(exec)
 #-------------------------------------------------
 all:
 	@make app
-	@cp -p bin/fixHeaders ..
+	@cp -p bin/update ..
 
 app:
 	@make $(product)

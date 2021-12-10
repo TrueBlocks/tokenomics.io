@@ -2,7 +2,7 @@
 // Use of this source code is governed by a license that can
 // be found in the LICENSE file.
 
-package namesPkg
+package names
 
 import (
 	"fmt"
@@ -12,9 +12,6 @@ import (
 	grantsPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/internal/grants"
 	"github.com/spf13/cobra"
 )
-
-// TODO: why?
-const pathToData = "../data/" // /Users/jrush/Development/tokenomics.io/gitcoin/data/"
 
 type NamesOptions struct {
 	Format string
@@ -26,10 +23,10 @@ func RunE(cmd *cobra.Command, args []string) {
 	var fileNames []string
 	max := 4000
 	for i := 0; i < max; i++ {
-		fileNames = append(fileNames, fmt.Sprintf(pathToData+"raw/%04d.json", i))
+		fileNames = append(fileNames, fmt.Sprintf("../data/raw/%04d.json", i))
 	}
 	for i := 0; i < 5; i++ {
-		fileNames = append(fileNames, fmt.Sprintf(pathToData+"raw/core-%04d.json", i))
+		fileNames = append(fileNames, fmt.Sprintf("../data/raw/core-%04d.json", i))
 	}
 
 	var beenHere = make(map[string]bool)
