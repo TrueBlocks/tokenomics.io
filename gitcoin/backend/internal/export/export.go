@@ -11,6 +11,7 @@ import (
 
 	grantsPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/internal/grants"
 	"github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/progress"
+	monPgk "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/types/monitors"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/logger"
 	"github.com/spf13/cobra"
 )
@@ -116,7 +117,7 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 		} else {
 			progressChannel <- progress.UpdateMsg("Processing grant id: "+grantId, nil)
 			if Options.Scripts {
-				var monitor grantsPkg.Monitor
+				var monitor monPgk.Monitor
 				monitor.Address = grant.AdminAddress
 				var update LastUpdate
 				update.Address = monitor.Address
