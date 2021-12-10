@@ -4,10 +4,6 @@
 
 package exportPkg
 
-import (
-	"testing"
-)
-
-func TestGetMonitorStats(t *testing.T) {
-	RunE(nil, []string{})
-}
+// func TestGetMonitorStats(t *testing.T) {
+// 	RunE(nil, []string{})
+// }
