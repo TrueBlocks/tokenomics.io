@@ -4,7 +4,7 @@
 package cmd
 
 import (
-	namesPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/internal/names"
+	names "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/internal/names"
 	"github.com/spf13/cobra"
 )
 
@@ -13,11 +13,11 @@ var namesCmd = &cobra.Command{
 	Use:   "names",
 	Short: "Export names information",
 	Long:  `Export names information`,
-	Run:   namesPkg.RunE,
+	Run:   names.RunE,
 }
 
 func init() {
 	rootCmd.AddCommand(namesCmd)
-	namesCmd.Flags().StringVarP(&namesPkg.Options.Format, "fmt", "x", "csv", "format for the export")
+	namesCmd.Flags().StringVarP(&names.Options.Format, "fmt", "x", "csv", "format for the export")
 	namesCmd.SetUsageTemplate(UsageText())
 }

@@ -27,10 +27,13 @@ const char* STR_CMD7 = "chifra list [{ADDR}] >/dev/null";
 int main(int argc, const char* argv[]) {
     bool quit = false;
     while (!quit) {
-        size_t nChanged = 0;
         CStringArray lines;
         asciiFileToLines("./addresses.csv", lines);
+
+        size_t nChanged = 0, nProcessed = 0;
+        timestamp_t start = date_2_Ts(Now());
         for (auto line : lines) {
+
             CStringArray parts;
             explode(parts, line, ',');
             address_t addr = toLower(parts[1]);
@@ -42,6 +45,8 @@ int main(int argc, const char* argv[]) {
             // Someone used UniSwap v2 as thier grant address, ignore it
             if (addr == "0x7a250d5630b4cf539739df2c5dacb4c659f2488d")
                 continue;
+
+            nProcessed++;
 
             // Figure out how many records there are...
             string_q monitorFn = getCachePath("monitors/" + addr + ".acct.bin");
@@ -58,18 +63,16 @@ int main(int argc, const char* argv[]) {
 
             if (fileExists("./apps/" + addr + ".csv") && nRecordsBefore == sizeAfter) {
                 // If there are no new records, we don't have to freshen the rest of the data
-                cerr << bBlack << "Skip " << monitorFn;
-                cerr << bGreen << " (" << nRecordsBefore << " == " << sizeAfter << ")" << cOff << endl;
+                LOG_INFO(bBlack, "Skip ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore, " == ", sizeAfter, ")", cOff);
 
             } else {
                 nChanged++;
 
                 // There are new records, freshen everything
-                cerr << bYellow << "Call " << monitorFn;
-                cerr << " (" << nRecordsBefore << " == " << sizeAfter << ")" << cOff << endl;
+                LOG_INFO(bYellow, "Call ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore, " != ", sizeAfter, ")", cOff);
 
                 ostringstream oss;
-                oss << substitute(STR_CMD1, "[{ADDR}]", addr) << endl;
+                // oss << substitute(STR_CMD1, "[{ADDR}]", addr) << endl;
                 // oss << substitute(STR_CMD2, "[{ADDR}]", addr) << endl;
                 oss << substitute(STR_CMD3, "[{ADDR}]", addr) << endl;
                 oss << substitute(substitute(STR_CMD4, "[{ADDR}]", addr), "[{EMITTERS}]", STR_EMIT) << endl;
@@ -90,6 +93,14 @@ int main(int argc, const char* argv[]) {
             if (system("./combine_update.sh")) {}
             if (system("./update_zips.sh")) {}
         }
+        timestamp_t stop = date_2_Ts(Now());
+        ostringstream out;
+        out << lines.size() << "," << nProcessed << "," << nChanged << "," << start << "," << stop << "," << (stop - start) << endl;
+        out << "sleeping: " << date_2_Ts(Now()) << endl;
+        LOG_INFO(out.str());
+        usleep(1800000000);
+        out << "starting: " << date_2_Ts(Now()) << endl;
+        appendToAsciiFile("./timing.txt", out.str());
     } // while (true)
 
     return 0;

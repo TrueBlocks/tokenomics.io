@@ -1,7 +1,4 @@
 import React from 'react';
-import { Typography } from 'antd';
-
-const { Link } = Typography;
 
 export const DataDefinitions = () => {
   return (
