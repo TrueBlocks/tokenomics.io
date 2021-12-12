@@ -37,6 +37,7 @@ First we detail the "obvious" locations:
 | log_topic     | Frequently, addresses appear in the `log_topics` of a transaction. While this is not technically labeled as an address, it is very obvious when a `log_topic` contains an address. Every valid token transfer includes both the sender and the recipient in the log_topics. |
 | creation      | If a transaction results in the creation of a smart contract, this value will hold the address of the new contract.                                                                                                                                                         |
 | miner         | This is the address of the winning `miner` for the block and/or the miner who mined any uncles in the block.                                                                                                                                                                |
+
 And finally, the less obvious "bytes-parsed" locations:
 
 | Reason   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
