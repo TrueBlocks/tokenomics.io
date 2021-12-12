@@ -60,8 +60,6 @@ export const LeftSider = () => {
           </a>
         </Text>
       </small>
-      <br />
-      <br />
     </Sider>
   );
 };

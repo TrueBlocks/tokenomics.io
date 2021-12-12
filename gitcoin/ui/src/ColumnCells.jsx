@@ -54,11 +54,15 @@ export const NameHeader = () => (
 )
 export const NameCell = ({ record }) => {
   const [copied, setCopied] = useState(false);
+  const [local] = useState(localStorage.getItem("local") === "on" ? true : false)
 
   var name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
   name = name.replace('&#39;', "'");
 
-  const explorer = 'http://etherscan.io/address/';
+  var explorer = 'http://etherscan.io/address/';
+  if (local)
+    explorer = "http://localhost:1234/dashboard/accounts?address=";
+
   const explorerLink = <>
     <a target={'top'} href={explorer + record.address}>
       <small>{record.address}</small>

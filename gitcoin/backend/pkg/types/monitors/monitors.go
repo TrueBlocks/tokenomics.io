@@ -12,10 +12,9 @@ import (
 	"io"
 	"os"
 	"strconv"
-	"strings"
 
-	tslibPkg "github.com/TrueBlocks/tokenomics.io/gitcoin/backend/pkg/tslib"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/config"
+	tslibPkg "github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/tslib"
 )
 
 type Balance struct {
@@ -68,7 +67,6 @@ func (m *Monitor) ReadRange(monitorPath string) error {
 	}
 	m.First.Ts, _ = tslibPkg.TsFromBn(uint64(m.First.Bn))
 	m.First.DateStr, _ = tslibPkg.DateFromTs(m.First.Ts)
-	m.First.DateStr = strings.Replace(m.First.DateStr, "T", " ", -1)
 
 	monitorFile.Seek(-8, io.SeekEnd)
 	err = binary.Read(monitorFile, binary.LittleEndian, &m.Latest.Bn)
@@ -81,7 +79,6 @@ func (m *Monitor) ReadRange(monitorPath string) error {
 	}
 	m.Latest.Ts, _ = tslibPkg.TsFromBn(uint64(m.Latest.Bn))
 	m.Latest.DateStr, _ = tslibPkg.DateFromTs(m.Latest.Ts)
-	m.Latest.DateStr = strings.Replace(m.Latest.DateStr, "T", " ", -1)
 
 	m.Range = m.Latest.Bn - m.First.Bn + 1
 	return nil
