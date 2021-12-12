@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { Typography, Layout } from 'antd';
 
 import './App.css';
@@ -19,19 +19,6 @@ const LeftSideItem = ({ question, answer }) => {
       <br />
       <br />
     </Fragment>
-  );
-}
-
-const LocalCheckbox = () => {
-  const [local, setLocal] = useState(localStorage.getItem("local") === "on" ? true : false)
-  var box = <input type="checkbox" id="option3" onChange={() => { localStorage.setItem("local", "on"); setLocal("on"); }} />
-  if (local) {
-    box = <input checked type="checkbox" id="option3" onChange={() => { localStorage.setItem("local", ""); setLocal(""); }} />
-  }
-  return (
-    <div id="checkbox-container">
-      <div>{box} <label for="option">http://localhost:1234</label></div >
-    </div>
   );
 }
 
@@ -73,11 +60,6 @@ export const LeftSider = () => {
           </a>
         </Text>
       </small>
-      <div style={{ position: "absolute", bottom: 20, left: 20 }}>
-        <Text style={{ color: 'lightblue' }}>
-          <LocalCheckbox />
-        </Text>
-      </div>
     </Sider>
   );
 };
