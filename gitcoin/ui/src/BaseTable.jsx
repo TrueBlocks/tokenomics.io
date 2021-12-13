@@ -1,6 +1,5 @@
 import { Table } from 'antd';
-import React, { useRef, useState } from 'react';
-import { useCallback, useEffect, useMemo } from 'react/cjs/react.development';
+import React, { useRef, useState, useCallback, useEffect, useMemo } from 'react';
 import { GrantDataRenderer } from './GrantDataRenderer';
 import { useKeyNav } from './useKeyNav';
 
