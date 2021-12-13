@@ -5,23 +5,23 @@ import {
   CloseCircleTwoTone,
   CopyTwoTone,
 } from '@ant-design/icons'
-import { Button, Tag } from 'antd';
+import { Button, Tag, Tooltip } from 'antd';
 
 import './GrantDataRenderer.css';
 
 export function GrantDataRenderer({ grantData }) {
   const renderBoolean = (boolean) => boolean
-  ? <CheckCircleTwoTone twoToneColor="#52c41a" />
-  : <CloseCircleTwoTone twoToneColor="#eb2f96" />
+    ? <Tooltip title="Yes"><CheckCircleTwoTone twoToneColor="#52c41a" /></Tooltip>
+    : <Tooltip title="No"><CloseCircleTwoTone twoToneColor="#eb2f96" /></Tooltip>
   const renderCopyToClipboard = (textToCopy, label, type = "text") => (
     <Button
-    type={type}
-    onClick={() => {
-      navigator.clipboard.writeText(textToCopy);
-    }}
+      type={type}
+      onClick={() => {
+        navigator.clipboard.writeText(textToCopy);
+      }}
     >
-    {label ?? null}
-    <CopyTwoTone />
+      {label ?? null}
+      <CopyTwoTone />
     </Button>
   );
 
