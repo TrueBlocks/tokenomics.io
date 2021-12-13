@@ -1,6 +1,7 @@
 import { Table } from 'antd';
 import React, { useRef, useState } from 'react';
 import { useCallback, useEffect, useMemo } from 'react/cjs/react.development';
+import { GrantDataRenderer } from './GrantDataRenderer';
 import { useKeyNav } from './useKeyNav';
 
 const pageSize = 10;
@@ -34,10 +35,15 @@ export function BaseTable(tableParams) {
       onMouseMove={onMouseMove}
     >
       <Table
-        tableLayout='fixed'
         className={classes}
         size='small'
         bordered={true}
+        expandable={{
+          columnWidth: "2%",
+          expandedRowRender(record) {
+            return <GrantDataRenderer grantData={record} />
+          }
+        }}
         pagination={{
           size: 'small',
           position: ['topRight', 'none'],
