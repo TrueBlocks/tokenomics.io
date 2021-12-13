@@ -4,6 +4,8 @@
 
 package export
 
-// func TestGetMonitorStats(t *testing.T) {
-// 	RunE(nil, []string{})
-// }
+import "testing"
+
+func TestGetMonitorStats(t *testing.T) {
+	RunE(nil, []string{})
+}
