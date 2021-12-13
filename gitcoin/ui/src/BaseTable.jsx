@@ -7,7 +7,13 @@ const pageSize = 10;
 
 export function BaseTable(tableParams) {
   const tableWrapper = useRef();
-  const { page, row, keyNavOn, selectRow } = useKeyNav({
+  const {
+    page,
+    row,
+    keyNavOn,
+    selectRow,
+    setPosition
+  } = useKeyNav({
     pageSize,
     maxItems: tableParams.dataSource.length - 1
   });
@@ -28,6 +34,7 @@ export function BaseTable(tableParams) {
       onMouseMove={onMouseMove}
     >
       <Table
+        tableLayout='fixed'
         className={classes}
         size='small'
         bordered={true}
@@ -37,7 +44,10 @@ export function BaseTable(tableParams) {
           hideOnSinglePage: true,
           showSizeChanger: false,
           showTotal: (total, range) => '(' + total + ' grants) ',
-          current: page
+          current: page,
+          onChange(page, pageSize) {
+            setPosition((page - 1) * pageSize);
+          },
         }}
         onRow={(record, rowIndex) => {
           return {

@@ -37,11 +37,17 @@
   }
 }
 
-.main-rows tr:nth-child(2n+1) {
+.main-rows tbody {
+  font-family: monospace;
+}
+
+.main-rows tr:nth-child(2n+1) td,
+.main-rows tr:nth-child(2n+1) td.ant-table-column-sort {
   background-color: #fafafa;
 
 }
-.main-rows tr:nth-child(2n) {
+.main-rows tr:nth-child(2n) td,
+.main-rows tr:nth-child(2n) td.ant-table-column-sort {
   background-color: #f1f1f1;
 }
 .main-rows.no-hover .ant-table-tbody > tr.ant-table-row:hover > td {
@@ -60,4 +66,14 @@
 .main-rows thead, th {
     background-color: #fafafa;
     vertical-align: top;
+}
+
+.main-rows th .ant-table-column-title {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main-rows th .ant-table-column-title div {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
