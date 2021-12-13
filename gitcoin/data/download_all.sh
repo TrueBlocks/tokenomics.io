@@ -1,35 +1,25 @@
+#!/usr/bin/env bash
+
 rm -fR apps/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/apps/*" apps/
+
 rm -fR bals/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/bals/*" bals/
+
 rm -fR combined/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/combined/*" combined/
+
 rm -fR logs/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/logs/*" logs/
+
 rm -fR neighbors/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/neighbors/*" neighbors/
+
 rm -fR txs/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/txs/*" txs/
+
 rm -fR zips/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/zips/*" zips/
 
-cd apps
-scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/apps/*" .
-cd -
-
-cd bals
-scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/bals/*" .
-cd -
-
-cd combined
-scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/combined/*" .
-cd -
-
-cd logs
-scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/logs/*" .
-cd -
-
-cd neighbors
-scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/neighbors/*" .
-cd -
-
-cd txs
-scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/txs/*" .
-cd -
-
-cd zips
-scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/zips/*" .
-cd -
+rm -fR recons/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/recons/*" recons/
