@@ -19,7 +19,7 @@ const char* STR_CMD1 = "chifra export --appearances --fmt csv [{ADDR}] | cut -f2
 const char* STR_CMD3 = "chifra export --articulate --cache --cache_traces  --fmt csv [{ADDR}] >txs/[{ADDR}].csv ; ";
 const char* STR_CMD2 = "chifra export --balances --fmt csv [{ADDR}] >bals/[{ADDR}].csv ; ";
 const char* STR_CMD4 = "chifra export --logs --articulate --relevant [{EMITTERS}] --fmt csv [{ADDR}] >logs/[{ADDR}].csv ; ";
-const char* STR_CMD5 = "chifra export --neighbors --fmt csv [{ADDR}] >neighbors/[{ADDR}].csv ; ";
+const char* STR_CMD5 = "chifra export --neighbors --deep --fmt csv [{ADDR}] >neighbors/[{ADDR}].csv ; ";
 const char* STR_CMD7 = "chifra list [{ADDR}] >/dev/null";
 // clang-format on
 
