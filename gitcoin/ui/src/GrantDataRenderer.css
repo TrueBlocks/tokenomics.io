@@ -27,6 +27,10 @@
 
 .grant-data-renderer table th {
     background-color: #f1f1f1;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .grant-data-renderer table td {

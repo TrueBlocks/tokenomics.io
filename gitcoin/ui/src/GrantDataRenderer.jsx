@@ -31,25 +31,25 @@ export function GrantDataRenderer({ grantData }) {
       <table>
         <tbody>
           <tr>
-            <th>
+            <th title='ID'>
               ID
             </th>
             <td>
               {grantData.grantId}
             </td>
-            <th>
+            <th title='Active?'>
               Active?
             </th>
             <td>
               {renderBoolean(grantData.active)}
             </td>
-            <th>
+            <th title='Core'>
               Core
             </th>
             <td>
             {renderBoolean(grantData.core)}
             </td>
-            <th>
+            <th title='Appearance count'>
               Appearance count
             </th>
             <td>
@@ -57,7 +57,7 @@ export function GrantDataRenderer({ grantData }) {
             </td>
           </tr>
           <tr>
-            <th>
+            <th title='Name'>
               Name
             </th>
             <td colSpan={7}>
@@ -65,14 +65,14 @@ export function GrantDataRenderer({ grantData }) {
             </td>
           </tr>
           <tr>
-            <th>
+            <th title='Address'>
               Address
             </th>
             <td colSpan={3}>
               {grantData.address}
               {renderCopyToClipboard(grantData.address)}
             </td>
-            <th>
+            <th title='Slug'>
               Slug
             </th>
             <td colSpan={3}>
@@ -81,30 +81,30 @@ export function GrantDataRenderer({ grantData }) {
             </td>
           </tr>
           <tr className='appearance-header'>
-            <th colSpan={8}>
+            <th title='First Appearance' colSpan={8}>
               First Appearance
             </th>
           </tr>
           <tr className='appearance-details'>
-            <th>
+            <th title='Block'>
               Block
             </th>
             <td>
               {grantData.firstAppearance.bn}
             </td>
-            <th>
+            <th title='Transaction ID'>
               Transaction ID
             </th>
             <td>
               {grantData.firstAppearance.txId}
             </td>
-            <th>
+            <th title='Timestamp'>
               Timestamp
             </th>
             <td>
               {grantData.firstAppearance.timestamp}
             </td>
-            <th>
+            <th title='Date'>
               Date
             </th>
             <td>
@@ -112,30 +112,30 @@ export function GrantDataRenderer({ grantData }) {
             </td>
           </tr>
           <tr className='appearance-header'>
-            <th colSpan={8}>
+            <th title='Latest Appearance' colSpan={8}>
               Latest Appearance
             </th>
           </tr>
           <tr className='appearance-details'>
-            <th>
+            <th title='Block'>
               Block
             </th>
             <td>
               {grantData.latestAppearance.bn}
             </td>
-            <th>
+            <th title='Transaction ID'>
               Transaction ID
             </th>
             <td>
               {grantData.latestAppearance.txId}
             </td>
-            <th>
+            <th title='Timestamp'>
               Timestamp
             </th>
             <td>
               {grantData.latestAppearance.timestamp}
             </td>
-            <th>
+            <th title='Date'>
               Date
             </th>
             <td>
@@ -143,25 +143,25 @@ export function GrantDataRenderer({ grantData }) {
             </td>
           </tr>
           <tr>
-            <th>
+            <th title='Last updated'>
               Last updated
             </th>
             <td>
               {grantData.lastUpdated}
             </td>
-            <th>
+            <th title='Block range'>
               Block range
             </th>
             <td>
               {grantData.blockRange}
             </td>
-            <th>
+            <th title='File size'>
               File size
             </th>
             <td>
               {grantData.fileSize}
             </td>
-            <th>
+            <th title='Log count'>
               Log count
             </th>
             <td>
@@ -169,13 +169,13 @@ export function GrantDataRenderer({ grantData }) {
             </td>
           </tr>
           <tr>
-            <th>
+            <th title='Neighbor count'>
               Neighbor count
             </th>
             <td>
               {grantData.neighborCount}
             </td>
-            <th>
+            <th title='Types'>
               Types
             </th>
             <td colSpan={5}>
@@ -183,7 +183,7 @@ export function GrantDataRenderer({ grantData }) {
             </td>
           </tr>
           <tr>
-            <th>
+            <th title='Balances'>
               Balances
             </th>
             <td colSpan={3}>
@@ -191,13 +191,13 @@ export function GrantDataRenderer({ grantData }) {
                 {grantData.balances.map((balance) => <li key={balance.asset}>{balance.asset} {balance.balance}</li>)}
               </ol>
             </td>
-            <th>
+            <th title='Matched'>
               Matched
             </th>
             <td>
               {grantData.matched}
             </td>
-            <th>
+            <th title='Claimed'>
               Claimed
             </th>
             <td>
