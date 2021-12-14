@@ -76,8 +76,13 @@ export function GrantDataRenderer({ grantData }) {
               Slug
             </th>
             <td colSpan={3}>
-              {grantData.slug}
-              {renderCopyToClipboard(grantData.slug)}
+              {grantData.slug
+                ? (<>
+                  {grantData.slug}
+                  {renderCopyToClipboard(grantData.slug)}
+                </>)
+                : null
+              }
             </td>
           </tr>
           <tr className='appearance-header'>
