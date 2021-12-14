@@ -27,7 +27,6 @@ export function GrantDataRenderer({ grantData }) {
 
   return (
     <section className='grant-data-renderer'>
-      {renderCopyToClipboard(JSON.stringify(grantData), 'Copy as JSON', '')}
       <table>
         <tbody>
           <tr>
@@ -211,6 +210,7 @@ export function GrantDataRenderer({ grantData }) {
           </tr>
         </tbody>
       </table>
+      {renderCopyToClipboard(JSON.stringify(grantData), 'Copy as JSON', '')}
     </section>
   );
 }
