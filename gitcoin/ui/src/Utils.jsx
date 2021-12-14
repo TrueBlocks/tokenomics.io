@@ -3,7 +3,7 @@ import { DownloadOutlined } from '@ant-design/icons';
 export const DownloadIcon = ({ address, count, path }) => {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: '1fr' }}>
-      <pre style={{ margin: '0px' }}>
+      <div style={{ margin: '0px' }}>
         <small>({count})</small>
         <br />
         <small>
@@ -11,7 +11,7 @@ export const DownloadIcon = ({ address, count, path }) => {
             <DownloadOutlined /> {"csv"}
           </a>
         </small>
-      </pre>
+      </div>
     </div>
   );
 }
