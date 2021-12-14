@@ -92,5 +92,6 @@ export function useKeyNav({ pageSize, maxItems }) {
     row,
     keyNavOn: on,
     selectRow,
+    setPosition,
   };
 }

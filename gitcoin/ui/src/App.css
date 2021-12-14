@@ -1,3 +1,7 @@
+:root {
+  --color-highlight: antiquewhite;
+}
+
 .App {
   text-align: center;
 }
@@ -37,21 +41,36 @@
   }
 }
 
-.main-rows tr:nth-child(2n+1) {
+.main-rows tbody {
+  font-family: monospace;
+}
+
+.main-rows .ant-table-content > table > tbody > tr:nth-child(2n+1) > td,
+.main-rows .ant-table-content > table > tbody > tr:nth-child(2n+1) > td.ant-table-column-sort {
   background-color: #fafafa;
 
 }
-.main-rows tr:nth-child(2n) {
+.main-rows .ant-table-content > table > tbody > tr:nth-child(2n) > td,
+.main-rows .ant-table-content > table > tbody > tr:nth-child(2n) > td.ant-table-column-sort {
   background-color: #f1f1f1;
+}
+.main-rows.no-hover .ant-table-tbody > tr.ant-table-row:hover > td {
+  background-color: transparent;
+}
+.main-rows .ant-table-tbody > tr.ant-table-row:hover > td {
+  background-color: rgb(248, 238, 225);
 }
 .main-rows .ant-table-tbody > tr.ant-table-row.selected > td,
 .main-rows.no-hover .ant-table-tbody > tr.ant-table-row.selected > td  {
-  background-color: antiquewhite;
+  background-color: var(--color-highlight);
 }
 .main-rows td {
   vertical-align: top;
 }
 .main-rows thead, th {
-    background-color: #fafafa;
-    vertical-align: top;
+  background-color: #fafafa;
+  vertical-align: top;
+}
+.main-rows th .ant-table-column-title {
+  white-space: nowrap;
 }

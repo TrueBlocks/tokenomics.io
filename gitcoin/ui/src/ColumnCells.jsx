@@ -13,15 +13,15 @@ export const DateHeader = () => (
 export const DateCell = ({ record }) => {
   const dd = (<div>
     {record.latestAppearance.date}
-    < div >
+    <div>
       <small>
         <i>
           {dateDisplay(record.latestAppearance.bn)}
         </i>
       </small>
       <div>{record.latestAppearance.timestamp}</div>
-    </div >
-  </div >
+    </div>
+  </div>
   );
   return <Cell2 text={dd} />;
 }
@@ -35,12 +35,12 @@ export const TagHeader = () => (
 )
 export const TagCell = ({ record }) => {
   return (<div style={{ marginTop: '-20px' }}>
-    <pre>
+    <div>
       <br />
       <Tag color='blue' key={record.address}>
         <small>{record.types}</small>
       </Tag>
-    </pre>
+    </div>
   </div>
   );
 }
@@ -79,21 +79,21 @@ export const NameCell = ({ record }) => {
 
   if (!record.slug)
     return (
-      <pre>
+      <div>
         <small>{name}</small> <ZipLink addr={record.address} />
         <br />
         {explorerLink}
-      </pre>
+      </div>
     );
   return (
     <div>
-      <pre>
+      <div>
         <a target={'top'} href={record.slug}>
           <small>{name}</small>
         </a> <ZipLink addr={record.address} />
         <br />
         {explorerLink}
-      </pre>
+      </div>
     </div>
   );
 }
@@ -179,9 +179,9 @@ const dateDisplay = (block) => {
 const Cell2 = ({ text }) => {
   return (
     <div>
-      <pre>
+      <div>
         <small>{text}</small>
-      </pre>
+      </div>
     </div>
   );
 };
