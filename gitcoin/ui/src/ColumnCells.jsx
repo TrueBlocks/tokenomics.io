@@ -14,11 +14,9 @@ export const DateCell = ({ record }) => {
   const dd = (<div>
     {record.latestAppearance.date}
     <div>
-      <small>
         <i>
           {dateDisplay(record.latestAppearance.bn)}
         </i>
-      </small>
       <div>{record.latestAppearance.timestamp}</div>
     </div>
   </div>
@@ -38,7 +36,7 @@ export const TagCell = ({ record }) => {
     <div>
       <br />
       <Tag color='blue' key={record.address}>
-        <small>{record.types}</small>
+        {record.types}
       </Tag>
     </div>
   </div>
@@ -65,7 +63,7 @@ export const NameCell = ({ record }) => {
 
   const explorerLink = <>
     <a target={'top'} href={explorer + record.address}>
-      <small>{record.address}</small>
+      {record.address}
     </a>{' '}
     <CopyTwoTone onClick={() => {
       navigator.clipboard.writeText(record.address); setCopied(true); setTimeout(() => {
@@ -80,7 +78,7 @@ export const NameCell = ({ record }) => {
   if (!record.slug)
     return (
       <div>
-        <small>{name}</small> <ZipLink addr={record.address} />
+        {name} <ZipLink addr={record.address} />
         <br />
         {explorerLink}
       </div>
@@ -89,7 +87,7 @@ export const NameCell = ({ record }) => {
     <div>
       <div>
         <a target={'top'} href={record.slug}>
-          <small>{name}</small>
+          {name}
         </a> <ZipLink addr={record.address} />
         <br />
         {explorerLink}
@@ -180,7 +178,7 @@ const Cell2 = ({ text }) => {
   return (
     <div>
       <div>
-        <small>{text}</small>
+        {text}
       </div>
     </div>
   );

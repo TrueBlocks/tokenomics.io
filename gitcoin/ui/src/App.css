@@ -41,6 +41,10 @@
   }
 }
 
+header a.install-tb {
+  font-size: 64%;
+}
+
 .main-rows tbody {
   font-family: monospace;
 }
