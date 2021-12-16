@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import sys
 from colorhash import ColorHash
 
-image_dest = "./images/"
-adj_dest = "./adjacencies/"
+image_dest = "../images/"
+adj_dest = "../adjacencies/"
 
 
 def get_transaction_map(
@@ -135,6 +135,7 @@ def get_transaction_graph(
         linewidths=0.01,
         arrowsize=6,
     )
+    plt.savefig(image_dest + "pngs/" + subject_address + ".png")
     plt.savefig(image_dest + subject_address + ".svg", format="svg")
     nx.write_adjlist(G, adj_dest + subject_address + ".txt")
 
@@ -142,7 +143,7 @@ def get_transaction_graph(
 if __name__ == "__main__":
     subject_addr = sys.argv[1]
 
-    df = pd.read_csv(f"./neighbors/{subject_addr}.csv")
+    df = pd.read_csv(f"../{subject_addr}.csv")
     print(df.head(20))
 
     txns = get_transaction_map(df)
@@ -158,6 +159,7 @@ if __name__ == "__main__":
 
     print(f" ")
     print(f"Address:       {subject_addr}")
+    print(f"nRows:         {sys.argv[2]}")
     print(f"nTransactions: {len(txns)}")
     print(f"nAddresses:    {len(unique_addrs)}")
 
