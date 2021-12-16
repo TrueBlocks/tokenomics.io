@@ -40,7 +40,7 @@ func RunE(cmd *cobra.Command, args []string) {
 		}
 
 		if event.Event == progress.Finished {
-			logger.Log(logger.Info, nProcessed, "grant(s) were processed")
+			logger.Log(logger.Info, nProcessed, "grant(s) were processed: ", event.Message)
 			break
 		}
 
@@ -100,7 +100,7 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 	for _, grantId := range fileNames {
 		fileStat, err := os.Stat(grantId)
 		if err != nil {
-			fmt.Println(err.Error())
+			progressChannel <- progress.ErrorMsg("Error1: "+err.Error(), nil)
 			continue
 		}
 		if fileStat.Size() == 3 {
@@ -110,7 +110,8 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 		var grant grantsPkg.Grant
 		err = grant.GetGrant(grantId)
 		if err != nil {
-			progressChannel <- progress.ErrorMsg("Error processing grant "+grantId+" "+err.Error(), nil)
+			progressChannel <- progress.ErrorMsg("Error2: "+err.Error(), nil)
+			continue
 		} else {
 			progressChannel <- progress.UpdateMsg("Processing grant id: "+grantId, nil)
 			if Options.Scripts {
@@ -125,7 +126,8 @@ func ProcessGrants(progressChannel chan<- *progress.Progress) {
 			} else if Options.Stats {
 				monitor, err := grantsPkg.GetMonitorStats(grantId, &grant)
 				if err != nil {
-					progressChannel <- progress.ErrorMsg("Error processing grant "+grantId+" "+err.Error(), nil)
+					progressChannel <- progress.ErrorMsg("Error3: "+err.Error(), nil)
+					continue
 				} else {
 					grant.Monitor = *monitor
 					if Options.Format != "json" {

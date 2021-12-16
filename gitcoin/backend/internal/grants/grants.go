@@ -127,12 +127,12 @@ func GetMonitorStats(grantId string, grant *Grant) (*monPkg.Monitor, error) {
 	pathToMonitors := config.ReadTrueBlocks().Settings.CachePath + "monitors/"
 	monitorPath := fmt.Sprintf(pathToMonitors+"%s.acct.bin", grant.AdminAddress)
 	if !file.FileExists(monitorPath) {
-		return nil, errors.New("file does not exist: " + monitorPath)
+		return monitor, errors.New("file does not exist: " + monitorPath)
 	}
 
 	fileStat, err := os.Stat(monitorPath)
 	if err != nil {
-		return nil, err
+		return monitor, err
 	}
 
 	monitor.Id = grant.Id
@@ -160,11 +160,11 @@ func GetMonitorStats(grantId string, grant *Grant) (*monPkg.Monitor, error) {
 	monitor.Balances = append(monitor.Balances, monPkg.Balance{Asset: "ETH", Balance: bal})
 	err = monitor.ReadRange(monitorPath)
 	if err != nil {
-		return nil, err
+		return monitor, err
 	}
 	monitor.LastUpdate, err = monitor.GetLastUpdate()
 	if err != nil {
-		return nil, err
+		return monitor, err
 	}
 
 	return monitor, nil
