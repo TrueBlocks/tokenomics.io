@@ -21,5 +21,18 @@ scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/tx
 rm -fR zips/*
 scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/zips/*" zips/
 
-rm -fR recons/*
-scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/recons/*" recons/
+rm -fR statements/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/statements/*" statements/
+
+rm -fR updateCmd/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/updateCmd/*" updateCmd/
+
+rm -fR raw/*
+scp -pr "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/raw/*" raw/
+
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/*.md" .
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/addresses.csv" .
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/data/*.sh" .
+
+#assets
+#disputes
