@@ -4,6 +4,7 @@ import { TwitterOutlined, GithubOutlined, MailOutlined } from '@ant-design/icons
 
 import './App.css';
 import 'antd/dist/antd.css';
+import { useGlobalState } from './GlobalState';
 const { Footer } = Layout;
 const { Text } = Typography
 
@@ -12,7 +13,7 @@ export const Foot = () => {
     'https://twitter.com/intent/tweet?text=A%20permissionlessly-generated%20gift%20to%20the%20@gitcoin%20community%20powered%20by%20@trueblocks.%20Gitcoin%20Grant%20Data%20Pouch%20(https://tokenomics.io/gitcoin).';
   return (
     <Footer>
-      <div style={{ fontSize: '9pt', display: 'grid', gridTemplateColumns: '1fr 10fr 1fr', border: '1px solid black' }}>
+      <div style={{ fontSize: '9pt', display: 'grid', gridTemplateColumns: '1fr 10fr 1fr' }}>
         <div style={{ textAlign: 'left' }}>
           <div style={{}}>
             <LocalCheckbox />
@@ -43,14 +44,19 @@ export const Foot = () => {
 };
 
 export const LocalCheckbox = () => {
-  const [local, setLocal] = useState(localStorage.getItem("local") === "on" ? true : false)
-  var box = <input type="checkbox" id="option" onChange={() => { localStorage.setItem("local", "on"); setLocal("on"); }} />
-  if (local) {
-    box = <input checked type="checkbox" id="option" onChange={() => { localStorage.setItem("local", ""); setLocal(""); }} />
-  }
+  const { localExplorer, setLocalExplorer } = useGlobalState();
+
+  const box = (
+    <input
+      type="checkbox"
+      checked={localExplorer}
+      onChange={() => setLocalExplorer(!localExplorer)}
+    />
+  );
+
   return (
     <Text style={{ color: "black", position: "absolute", bottom: 20, left: 10 }}>
-      <div>{box} <label htmlFor="option">http://localhost:1234</label></div >
+      <div><label>{box} http://localhost:1234</label></div >
     </Text>
   );
 }

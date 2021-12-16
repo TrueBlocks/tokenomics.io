@@ -10,28 +10,31 @@ import { RightSider } from './RightSider';
 import { LeftSider } from './LeftSider';
 import { Foot } from './Footer';
 import { HomePage } from './HomePage';
+import { GlobalStateProvider } from './GlobalState';
 
 const { Content } = Layout;
 
 function App() {
   return (
-    <Layout className='App' style={{ backgroundColor: '#e7dddc' }}>
-      <Affix offsetTop={0}>
-        <Head />
-      </Affix>
-      <Layout>
-        <LeftSider />
-        <Content style={{ padding: '10px', paddingLeft: '10px', backgroundColor: 'lightblue' }}>
-          <Layout>
-            <HomePage />
-            <RightSider />
-          </Layout>
-        </Content>
+    <GlobalStateProvider>
+      <Layout className='App' style={{ backgroundColor: '#e7dddc' }}>
+        <Affix offsetTop={0}>
+          <Head />
+        </Affix>
+        <Layout>
+          <LeftSider />
+          <Content style={{ padding: '10px', paddingLeft: '10px', backgroundColor: 'lightblue' }}>
+            <Layout>
+              <HomePage />
+              <RightSider />
+            </Layout>
+          </Content>
+        </Layout>
+        <Affix offsetBottom={0}>
+          <Foot />
+        </Affix>
       </Layout>
-      <Affix offsetBottom={0}>
-        <Foot />
-      </Affix>
-    </Layout>
+      </GlobalStateProvider>
   );
 }
 export default App;

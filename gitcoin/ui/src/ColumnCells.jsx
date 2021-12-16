@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { Tag } from 'antd';
 import { ColumnTitle } from "./ColumnTitle";
 import { CloudDownloadOutlined, CopyTwoTone } from '@ant-design/icons';
+import { useGlobalState } from './GlobalState';
 
 //--------------------------------------------------
 export const DateHeader = () => (
@@ -52,17 +53,17 @@ export const NameHeader = () => (
 )
 export const NameCell = ({ record }) => {
   const [copied, setCopied] = useState(false);
-  const [local] = useState(localStorage.getItem("local") === "on" ? true : false)
+  const { localExplorer } = useGlobalState();
 
-  var name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
+  let name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
   name = name.replace('&#39;', "'");
 
-  var explorer = 'http://etherscan.io/address/';
-  if (local)
-    explorer = "http://localhost:1234/dashboard/accounts?address=";
+  const explorerAddress = localExplorer
+      ? "http://localhost:1234/dashboard/accounts?address="
+      : 'http://etherscan.io/address/';
 
-  const explorerLink = <>
-    <a target={'top'} href={explorer + record.address}>
+  const explorerLink = useMemo(() => (<>
+    <a target={'top'} href={explorerAddress + record.address}>
       {record.address}
     </a>{' '}
     <CopyTwoTone onClick={() => {
@@ -73,7 +74,7 @@ export const NameCell = ({ record }) => {
     <div style={{ display: "inline", fontStyle: "italic", fontSize: "small", color: 'red' }}>{' '}
       {copied ? " *copied*" : ""}
     </div>
-  </>;
+  </>), [copied, explorerAddress, record.address]);
 
   if (!record.slug)
     return (
