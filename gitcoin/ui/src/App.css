@@ -41,6 +41,10 @@
   }
 }
 
+header a.install-tb {
+  font-size: 64%;
+}
+
 .main-rows tbody {
   font-family: monospace;
 }
@@ -73,4 +77,25 @@
 }
 .main-rows th .ant-table-column-title {
   white-space: nowrap;
+}
+
+.with-sidebar {
+  text-align: left;
+}
+
+.col-sidebar {
+ background-color: white;
+ padding: 8px;
+}
+
+.with-sidebar .graph-image {
+  max-width: 100%;
+}
+
+.sidebar {
+  padding: 8px;
+}
+
+.col-table {
+  overflow: hidden;
 }

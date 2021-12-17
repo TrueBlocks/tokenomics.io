@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { Tag } from 'antd';
 import { ColumnTitle } from "./ColumnTitle";
 import { CloudDownloadOutlined, CopyTwoTone } from '@ant-design/icons';
+import { useGlobalState } from './GlobalState';
 
 //--------------------------------------------------
 export const DateHeader = () => (
@@ -14,11 +15,9 @@ export const DateCell = ({ record }) => {
   const dd = (<div>
     {record.latestAppearance.date}
     <div>
-      <small>
         <i>
           {dateDisplay(record.latestAppearance.bn)}
         </i>
-      </small>
       <div>{record.latestAppearance.timestamp}</div>
     </div>
   </div>
@@ -38,7 +37,7 @@ export const TagCell = ({ record }) => {
     <div>
       <br />
       <Tag color='blue' key={record.address}>
-        <small>{record.types}</small>
+        {record.types}
       </Tag>
     </div>
   </div>
@@ -54,18 +53,18 @@ export const NameHeader = () => (
 )
 export const NameCell = ({ record }) => {
   const [copied, setCopied] = useState(false);
-  const [local] = useState(localStorage.getItem("local") === "on" ? true : false)
+  const { localExplorer } = useGlobalState();
 
-  var name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
+  let name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
   name = name.replace('&#39;', "'");
 
-  var explorer = 'http://etherscan.io/address/';
-  if (local)
-    explorer = "http://localhost:1234/dashboard/accounts?address=";
+  const explorerAddress = localExplorer
+      ? "http://localhost:1234/dashboard/accounts?address="
+      : 'http://etherscan.io/address/';
 
-  const explorerLink = <>
-    <a target={'top'} href={explorer + record.address}>
-      <small>{record.address}</small>
+  const explorerLink = useMemo(() => (<>
+    <a target={'top'} href={explorerAddress + record.address}>
+      {record.address}
     </a>{' '}
     <CopyTwoTone onClick={() => {
       navigator.clipboard.writeText(record.address); setCopied(true); setTimeout(() => {
@@ -75,12 +74,12 @@ export const NameCell = ({ record }) => {
     <div style={{ display: "inline", fontStyle: "italic", fontSize: "small", color: 'red' }}>{' '}
       {copied ? " *copied*" : ""}
     </div>
-  </>;
+  </>), [copied, explorerAddress, record.address]);
 
   if (!record.slug)
     return (
       <div>
-        <small>{name}</small> <ZipLink addr={record.address} />
+        {name} <ZipLink addr={record.address} />
         <br />
         {explorerLink}
       </div>
@@ -89,7 +88,7 @@ export const NameCell = ({ record }) => {
     <div>
       <div>
         <a target={'top'} href={record.slug}>
-          <small>{name}</small>
+          {name}
         </a> <ZipLink addr={record.address} />
         <br />
         {explorerLink}
@@ -180,7 +179,7 @@ const Cell2 = ({ text }) => {
   return (
     <div>
       <div>
-        <small>{text}</small>
+        {text}
       </div>
     </div>
   );

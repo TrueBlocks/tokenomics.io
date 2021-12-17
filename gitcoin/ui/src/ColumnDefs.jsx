@@ -90,7 +90,7 @@ export const columns = [
     render: function (text, record) {
       return (
         <>
-          <small>{record.firstAppearance.bn}.{record.firstAppearance.txId}</small>
+          {record.firstAppearance.bn}.{record.firstAppearance.txId}
           <DownloadIcon address={record.address} count={record.appearanceCount} path='apps/' type='csv' />
         </>
       )

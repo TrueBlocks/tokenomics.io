@@ -1,6 +1,4 @@
 .grant-data-renderer {
-  /* Match <small> font-size */
-  font-size: 80%;
   margin: 16px calc(2% + 32px);
 
   display: flex;
