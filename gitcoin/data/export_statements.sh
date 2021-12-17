@@ -520,7 +520,6 @@
 ./export_statements.1.sh 0x4e233d34ecb90d72148fb0423a4624b1c3902f47
 ./export_statements.1.sh 0x4e260bb2b25ec6f3a59b478fcde5ed5b8d783b02
 ./export_statements.1.sh 0x4e3d9399c28c724293dd545225ec843ac4c9e953
-exit
 ./export_statements.1.sh 0x4e9017d8e275ca54c91e056381dab9fe6ecc1af6
 ./export_statements.1.sh 0x4e962e8ecb1b89267bbcc6ddf725359771a4e03b
 ./export_statements.1.sh 0x4ee34ba6c5707f37c8367fd8aef43f754435f588
