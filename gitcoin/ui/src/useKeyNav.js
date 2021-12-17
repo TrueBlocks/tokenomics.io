@@ -90,6 +90,7 @@ export function useKeyNav({ pageSize, maxItems }) {
   return {
     page,
     row,
+    position,
     keyNavOn: on,
     selectRow,
     setPosition,

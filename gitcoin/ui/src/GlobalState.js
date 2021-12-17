@@ -1,9 +1,15 @@
-import React, { useReducer, useContext, useMemo, createContext, useEffect } from 'react';
+import React, { useReducer, useContext, useMemo, createContext, useEffect, useCallback } from 'react';
 
 export const actionSetLocalExplorer = 'SET_LOCAL_EXPLORER';
+export const actionSelectGrant = 'SELECT_GRANT';
+export const actionSidebarVisible = 'SIDEBAR_VISIBLE';
+export const actionSidebarEnabled = 'SIDEBAR_ENABLED';
 
 const initialState = {
     localExplorer: false,
+    selectedGrant: {},
+    sidebarVisible: false,
+    sidebarEnabled: true,
 };
 
 const GlobalStateContext = createContext([initialState, () => { }]);
@@ -14,6 +20,21 @@ const GlobalStateReducer = (state, action) => {
             return {
                 ...state,
                 localExplorer: action.value
+            };
+        case actionSelectGrant:
+            return {
+                ...state,
+                selectedGrant: action.value
+            };
+        case actionSidebarVisible:
+            return {
+                ...state,
+                sidebarVisible: action.value
+            };
+        case actionSidebarEnabled:
+            return {
+                ...state,
+                sidebarEnabled: action.value
             };
         default:
             return state;
@@ -35,10 +56,19 @@ export const GlobalStateProvider = ({ children }) => {
 export const useGlobalState = () => {
     const [state, dispatch] = useContext(GlobalStateContext);
 
-    const setLocalExplorer = (value) => dispatch({ type: actionSetLocalExplorer, value });
+    const setLocalExplorer = useCallback((value) => dispatch({ type: actionSetLocalExplorer, value }), [dispatch]);
+    const selectGrant = useCallback((value) => dispatch({ type: actionSelectGrant, value }), [dispatch]);
+    const setSidebarVisible = useCallback((value) => dispatch({ type: actionSidebarVisible, value }), [dispatch]);
+    const setSidebarEnabled = useCallback((value) => dispatch({ type: actionSidebarEnabled, value }), [dispatch]);
 
     return {
         localExplorer: state.localExplorer,
         setLocalExplorer,
+        selectedGrant: state.selectedGrant,
+        selectGrant,
+        sidebarVisible: state.sidebarVisible,
+        setSidebarVisible,
+        sidebarEnabled: state.sidebarEnabled,
+        setSidebarEnabled,
     };
 };

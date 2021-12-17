@@ -5,11 +5,12 @@ import { useKeyNav } from './useKeyNav';
 
 const pageSize = 10;
 
-export function BaseTable(tableParams) {
+export function BaseTable({ onSelectionChange, ...tableParams }) {
   const tableWrapper = useRef();
   const {
     page,
     row,
+    position,
     keyNavOn,
     selectRow,
     setPosition
@@ -27,6 +28,17 @@ export function BaseTable(tableParams) {
   ].join(' '), [mouseHoverBlocked])
   // We don't want to have hover color visible when using keyboard nav
   useEffect(() => setMouseHoverBlocked(keyNavOn), [keyNavOn, row]);
+  // Propagate selection change to the parent
+  const notifySelectionChange = useCallback(
+    (selectedItem) => onSelectionChange?.(keyNavOn ? selectedItem : null),
+    [keyNavOn, onSelectionChange]
+  );
+  useEffect(
+    () => keyNavOn && notifySelectionChange(tableParams.dataSource[position]),
+    [keyNavOn, notifySelectionChange, position, tableParams.dataSource]
+  );
+
+
 
   return (
     <div
@@ -57,7 +69,8 @@ export function BaseTable(tableParams) {
         onRow={(record, rowIndex) => {
           return {
             onClick() {
-              selectRow(rowIndex)
+              selectRow(rowIndex);
+              notifySelectionChange(record);
             },
             className: keyNavOn && rowIndex === row ? 'selected' : '',
           };

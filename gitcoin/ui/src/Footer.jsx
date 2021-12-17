@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
-import { Typography, Layout } from 'antd';
+import React from 'react';
+import { Layout } from 'antd';
 import { TwitterOutlined, GithubOutlined, MailOutlined } from '@ant-design/icons';
 
 import './App.css';
 import 'antd/dist/antd.css';
-import { useGlobalState } from './GlobalState';
 const { Footer } = Layout;
-const { Text } = Typography
 
 export const Foot = () => {
   var share =
@@ -14,11 +12,7 @@ export const Foot = () => {
   return (
     <Footer>
       <div style={{ fontSize: '9pt', display: 'grid', gridTemplateColumns: '1fr 10fr 1fr' }}>
-        <div style={{ textAlign: 'left' }}>
-          <div style={{}}>
-            <LocalCheckbox />
-          </div>
-        </div>
+        <div></div>
         <div>
           <i>Every appearance, log, neighbor, and transaction from every grant pulled directly from mainnet</i>
           <br />
@@ -42,21 +36,3 @@ export const Foot = () => {
     </Footer>
   );
 };
-
-export const LocalCheckbox = () => {
-  const { localExplorer, setLocalExplorer } = useGlobalState();
-
-  const box = (
-    <input
-      type="checkbox"
-      checked={localExplorer}
-      onChange={() => setLocalExplorer(!localExplorer)}
-    />
-  );
-
-  return (
-    <Text style={{ color: "black", position: "absolute", bottom: 20, left: 10 }}>
-      <div><label>{box} http://localhost:1234</label></div >
-    </Text>
-  );
-}
