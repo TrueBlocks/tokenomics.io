@@ -30,7 +30,7 @@ export function Sidebar() {
   useEffect(() => {
     if (!address) return;
 
-    setLoading(true);
+    // setLoading(true);
   }, [address]);
 
   const closeButton = (

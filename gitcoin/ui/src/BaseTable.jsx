@@ -77,6 +77,6 @@ export function BaseTable({ onSelectionChange, ...tableParams }) {
         }}
         {...tableParams}
       />
-    </div>
+    </div >
   );
 }
