@@ -71,10 +71,27 @@ export const HomePage = () => {
     }
   }, [selectGrant, setSidebarVisible, sidebarEnabled]);
 
+  const [sortField, setSortField] = useState('');
+  const [sortOrder, setSortOrder] = useState(null);
+  const [sortedData, setSortedData] = useState(grantData)
+
+  useEffect(() => {
+    const sorted = grantData.sort(function (a, b) {
+      return (a[sortField] - b[sortField]) * (sortOrder === 'ascend' ? -1 : 1);
+    });
+    setSortedData(sorted)
+  }, [grantData, sortField, sortOrder])
+
+  const changeSort = useCallback((field, order) => {
+    setSortField(field)
+    setSortOrder(order)
+  }, [setSortField, setSortOrder])
+
   const tab1Title = 'Donation Contracts (' + contractData.length + ')';
   const tab2Title = 'Individual Grants (' + grantData.length + ')';
   return (
     <Content>
+      <div><b>field:</b> {sortField} <b>order:</b> {sortOrder}</div>
       <ViewOptions />
       <div style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>
         <div></div>
@@ -91,7 +108,8 @@ export const HomePage = () => {
           <Row className='with-sidebar'>
             <Col span={dataRowSpan} className='col-table'>
               <BaseTable
-                dataSource={grantData}
+                changeSort={changeSort}
+                dataSource={sortedData}
                 columns={columns}
                 rowKey={(record) => record.grantId}
                 onSelectionChange={onSelectionChange}
