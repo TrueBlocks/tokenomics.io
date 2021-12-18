@@ -38,7 +38,10 @@ export function BaseTable({ onSelectionChange, ...tableParams }) {
     [keyNavOn, notifySelectionChange, position, tableParams.dataSource]
   );
 
-
+  const handleSortChange = (pagination, filters, sorter, extra) => {
+    if (sorter)
+      tableParams.changeSort(sorter.field, sorter.order);
+  }
 
   return (
     <div
@@ -66,6 +69,7 @@ export function BaseTable({ onSelectionChange, ...tableParams }) {
             setPosition((page - 1) * pageSize);
           },
         }}
+        onChange={handleSortChange}
         onRow={(record, rowIndex) => {
           return {
             onClick() {
