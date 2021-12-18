@@ -91,7 +91,6 @@ export const HomePage = () => {
   const tab2Title = 'Individual Grants (' + grantData.length + ')';
   return (
     <Content>
-      <div><b>field:</b> {sortField} <b>order:</b> {sortOrder}</div>
       <ViewOptions />
       <div style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>
         <div></div>
