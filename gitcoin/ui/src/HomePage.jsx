@@ -119,7 +119,7 @@ export const HomePage = () => {
               sidebarShown
                 ? (
                   <Col span={sideRowSpan} className='col-sidebar'>
-                    <Sidebar transactionCount={10} neighborsCount={100} />
+                    <Sidebar />
                   </Col>
                 )
                 : null
@@ -139,8 +139,8 @@ export const HomePage = () => {
             {
               sidebarShown
                 ? (
-                  <Col span={8} className='col-sidebar'>
-                    <Sidebar transactionCount={10} neighborsCount={100} />
+                  <Col span={sideRowSpan} className='col-sidebar'>
+                    <Sidebar />
                   </Col>
                 )
                 : null

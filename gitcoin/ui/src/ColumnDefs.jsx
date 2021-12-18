@@ -130,14 +130,14 @@ export const columns = [
   },
   {
     title: <NeighborsHeader />,
-    dataIndex: 'logCount',
-    key: 'logCount',
+    dataIndex: 'neighborCount',
+    key: 'neighborCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.logCount - a.logCount;
+        return b.neighborCount - a.neighborCount;
       },
     },
     render: function (text, record) {
