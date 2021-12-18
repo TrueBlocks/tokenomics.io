@@ -26,7 +26,7 @@ chifra export \
 cat /tmp/$addr.csv | cut -f1-10 -d, >logs/$addr.csv
 
 # Sparate out the compressed log field into its own file
-cat /tmp/$addr.csv | cut -f1-4,11-2000 -d, >logs/articulated/$addr.csv
+cat /tmp/$addr.csv | cut -f1-5,11-2000 -d, >logs/articulated/$addr.csv
 
 # Cleanup
 rm -f /tmp/$addr.csv
