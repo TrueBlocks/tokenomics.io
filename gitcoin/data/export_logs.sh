@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # ./export_logs.1.sh 0x7a250d5630b4cf539739df2c5dacb4c659f2488d
+# ./export_logs.1.sh 0xd4567069c5a1c1fc8261d8ff5c0b1d98f069cf47
 ./export_logs.1.sh 0x0000000fcdf5ba49794f4151d6daff4505bc47d1
 ./export_logs.1.sh 0x000061a8f22a1e60ba0b3caadfa958e954fc2b6a
 ./export_logs.1.sh 0x00216505799d9e3117b40b94a24dc0fa286a57a4
