@@ -31,11 +31,11 @@ export function Sidebar() {
     if (!address) return;
 
     setLoading(true);
-  }, [address, setSidebarVisible]);
+  }, [address]);
 
   const closeButton = (
     <Button
-    onClick={onCloseClick}
+      onClick={onCloseClick}
     >
       <CloseOutlined />
     </Button>
