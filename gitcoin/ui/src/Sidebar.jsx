@@ -17,6 +17,7 @@ export function Sidebar() {
     name,
     address,
     appearanceCount,
+    logCount,
     neighborCount
   } = useMemo(() => selectedGrant || {}, [selectedGrant]);
   // Construct the selected grant image's URL
@@ -43,11 +44,17 @@ export function Sidebar() {
 
   return (
     <Card title={name} className='sidebar' extra={closeButton}>
-      <Descriptions bordered column={1}>
-        <Descriptions.Item label="Transactions number">
+      <Descriptions bordered column={2}>
+        <Descriptions.Item label="nApps">
           {appearanceCount}
         </Descriptions.Item>
-        <Descriptions.Item label="Neighbors">
+        <Descriptions.Item label="nLogs">
+          {logCount}
+        </Descriptions.Item>
+        <Descriptions.Item label="nNeighbors">
+          {neighborCount}
+        </Descriptions.Item>
+        <Descriptions.Item label="Other">
           {neighborCount}
         </Descriptions.Item>
       </Descriptions>
