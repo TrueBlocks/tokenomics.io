@@ -42,9 +42,7 @@ export function Sidebar() {
   );
 
   return (
-    <Card title="Details" className='sidebar' extra={closeButton}>
-      <h1>{name}</h1>
-
+    <Card title={name} className='sidebar' extra={closeButton}>
       <Descriptions bordered column={1}>
         <Descriptions.Item label="Transactions number">
           {appearanceCount}
