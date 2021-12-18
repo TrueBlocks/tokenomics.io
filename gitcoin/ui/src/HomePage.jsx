@@ -50,7 +50,7 @@ export const HomePage = () => {
   const columns = useMemo(() => columnDefinitions, []);
   // Sidebar visibility
   const sidebarShown = useMemo(() => sidebarEnabled && sidebarVisible, [sidebarEnabled, sidebarVisible]);
-  const dataRowSpan = useMemo(() => sidebarShown ? 16 : 24,[sidebarShown]);
+  const dataRowSpan = useMemo(() => sidebarShown ? 16 : 24, [sidebarShown]);
 
   var val = lastTab;
   const tabSwitch = (key, event) => {

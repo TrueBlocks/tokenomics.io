@@ -13,12 +13,9 @@ export const DateHeader = () => (
 )
 export const DateCell = ({ record }) => {
   const dd = (<div>
-    {record.latestAppearance.date}
+    {record.latestAppearance.date.substr(0, 16)}
     <div>
-        <i>
-          {dateDisplay(record.latestAppearance.bn)}
-        </i>
-      <div>{record.latestAppearance.timestamp}</div>
+      {dateDisplay(record.latestAppearance.bn)}
     </div>
   </div>
   );
@@ -59,8 +56,8 @@ export const NameCell = ({ record }) => {
   name = name.replace('&#39;', "'");
 
   const explorerAddress = localExplorer
-      ? "http://localhost:1234/dashboard/accounts?address="
-      : 'http://etherscan.io/address/';
+    ? "http://localhost:1234/dashboard/accounts?address="
+    : 'http://etherscan.io/address/';
 
   const explorerLink = useMemo(() => (<>
     <a target={'top'} href={explorerAddress + record.address}>
