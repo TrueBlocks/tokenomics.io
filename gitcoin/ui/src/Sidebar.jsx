@@ -71,7 +71,7 @@ export function Sidebar() {
             onError={() => setLoading(false)}
           />
         </Spin>
-        <div>[<a href={svgSource} target="top">zoom</a>] [<a href={adjSource} target="top">adj</a>]</div>
+        <div>[<a href={svgSource} target="blank">zoom</a>] [<a href={adjSource} target="blank">adj</a>]</div>
       </div>
     </Card>
   );
