@@ -90,6 +90,7 @@ header a.install-tb {
 
 .with-sidebar .graph-image {
   max-width: 100%;
+  border: 1px solid lightgrey;
 }
 
 .sidebar {
