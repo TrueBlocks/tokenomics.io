@@ -9,3 +9,7 @@ For each address, we include a .gz file of all the data sets for that address (`
 #### Per Data Type Zips
 
 We also collect together each different data type for all addresses in a single file, also in `./zips`, called `apps.tar.gz`, `txs.tar.gz`, `logs.tar.gz` etc. These files may be downloaded on the **Data for Nerds** page.
+
+### Where's the Data?
+
+The actual data produced for this project is too big to put on GitHub. You may download the entire dataset (or any portion) from the [Downloads Tab](https://tokenomics.io/gitcoin) of the website.

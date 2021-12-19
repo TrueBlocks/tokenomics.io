@@ -90,7 +90,7 @@ export const columns = [
     render: function (text, record) {
       return (
         <>
-          <small>{record.firstAppearance.bn}.{record.firstAppearance.txId}</small>
+          {record.firstAppearance.bn}.{record.firstAppearance.txId}
           <DownloadIcon address={record.address} count={record.appearanceCount} path='apps/' type='csv' />
         </>
       )
@@ -125,19 +125,19 @@ export const columns = [
       },
     },
     render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.logCount} path='logs/' type='csv' />;
+      return <DownloadIcon address={record.address} count={record.logCount} path='logs/articulated/' type='csv' />;
     },
   },
   {
     title: <NeighborsHeader />,
-    dataIndex: 'logCount',
-    key: 'logCount',
+    dataIndex: 'neighborCount',
+    key: 'neighborCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.logCount - a.logCount;
+        return b.neighborCount - a.neighborCount;
       },
     },
     render: function (text, record) {

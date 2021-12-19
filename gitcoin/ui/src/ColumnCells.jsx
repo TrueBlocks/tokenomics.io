@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { Tag } from 'antd';
 import { ColumnTitle } from "./ColumnTitle";
 import { CloudDownloadOutlined, CopyTwoTone } from '@ant-design/icons';
+import { useGlobalState } from './GlobalState';
 
 //--------------------------------------------------
 export const DateHeader = () => (
@@ -12,16 +13,11 @@ export const DateHeader = () => (
 )
 export const DateCell = ({ record }) => {
   const dd = (<div>
-    {record.latestAppearance.date}
-    < div >
-      <small>
-        <i>
-          {dateDisplay(record.latestAppearance.bn)}
-        </i>
-      </small>
-      <div>{record.latestAppearance.timestamp}</div>
-    </div >
-  </div >
+    {record.latestAppearance.date.substr(0, 16)}
+    <div>
+      {dateDisplay(record.latestAppearance.bn)}
+    </div>
+  </div>
   );
   return <Cell2 text={dd} />;
 }
@@ -35,12 +31,12 @@ export const TagHeader = () => (
 )
 export const TagCell = ({ record }) => {
   return (<div style={{ marginTop: '-20px' }}>
-    <pre>
+    <div>
       <br />
       <Tag color='blue' key={record.address}>
-        <small>{record.types}</small>
+        {record.types}
       </Tag>
-    </pre>
+    </div>
   </div>
   );
 }
@@ -54,18 +50,18 @@ export const NameHeader = () => (
 )
 export const NameCell = ({ record }) => {
   const [copied, setCopied] = useState(false);
-  const [local] = useState(localStorage.getItem("local") === "on" ? true : false)
+  const { localExplorer } = useGlobalState();
 
-  var name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
+  let name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
   name = name.replace('&#39;', "'");
 
-  var explorer = 'http://etherscan.io/address/';
-  if (local)
-    explorer = "http://localhost:1234/dashboard/accounts?address=";
+  const explorerAddress = localExplorer
+    ? "http://localhost:1234/dashboard/accounts?address="
+    : 'http://etherscan.io/address/';
 
-  const explorerLink = <>
-    <a target={'top'} href={explorer + record.address}>
-      <small>{record.address}</small>
+  const explorerLink = useMemo(() => (<>
+    <a target={'top'} href={explorerAddress + record.address}>
+      {record.address}
     </a>{' '}
     <CopyTwoTone onClick={() => {
       navigator.clipboard.writeText(record.address); setCopied(true); setTimeout(() => {
@@ -75,25 +71,25 @@ export const NameCell = ({ record }) => {
     <div style={{ display: "inline", fontStyle: "italic", fontSize: "small", color: 'red' }}>{' '}
       {copied ? " *copied*" : ""}
     </div>
-  </>;
+  </>), [copied, explorerAddress, record.address]);
 
   if (!record.slug)
     return (
-      <pre>
-        <small>{name}</small> <ZipLink addr={record.address} />
+      <div>
+        {name} <ZipLink addr={record.address} />
         <br />
         {explorerLink}
-      </pre>
+      </div>
     );
   return (
     <div>
-      <pre>
+      <div>
         <a target={'top'} href={record.slug}>
-          <small>{name}</small>
+          {name}
         </a> <ZipLink addr={record.address} />
         <br />
         {explorerLink}
-      </pre>
+      </div>
     </div>
   );
 }
@@ -179,9 +175,9 @@ const dateDisplay = (block) => {
 const Cell2 = ({ text }) => {
   return (
     <div>
-      <pre>
-        <small>{text}</small>
-      </pre>
+      <div>
+        {text}
+      </div>
     </div>
   );
 };

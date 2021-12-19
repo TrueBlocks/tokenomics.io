@@ -12,6 +12,7 @@ import (
 	"io"
 	"os"
 	"strconv"
+	"strings"
 
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/config"
 	tslibPkg "github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/tslib"
@@ -99,7 +100,7 @@ func (m *Monitor) GetLastUpdate() (uint64, error) {
 	if err != nil {
 		return 0, err
 	}
-	val, err := strconv.Atoi(string(line))
+	val, err := strconv.Atoi(strings.Replace(string(line), "\n", "", -1))
 	if err != nil {
 		return 0, err
 	}

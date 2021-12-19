@@ -20,13 +20,7 @@ export const Head = () => {
           }}>
             A <Text type='warning'>Permissionless</Text> Data Dump for the GitCoin Community
             <br />
-            <small>
-              <small>
-                <font style={{ color: 'lightblue' }}>
-                  <a href="https://trueblocks.io/docs/install/install-trueblocks/" target="top">You can run this code on your own computer!</a>
-                </font>
-              </small>
-            </small>
+            <a className='install-tb' href="https://trueblocks.io/" target="top">You can run this code on your own computer!</a>
           </Title>
         </Typography>
         <div style={{ textAlign: 'right' }}>
