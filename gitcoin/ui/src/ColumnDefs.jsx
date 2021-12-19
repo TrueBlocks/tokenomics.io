@@ -125,7 +125,7 @@ export const columns = [
       },
     },
     render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.logCount} path='logs/' type='csv' />;
+      return <DownloadIcon address={record.address} count={record.logCount} path='logs/articulated/' type='csv' />;
     },
   },
   {

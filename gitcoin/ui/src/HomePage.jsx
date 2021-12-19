@@ -89,7 +89,7 @@ export const HomePage = () => {
     setSortOrder(order)
   }, [setSortField, setSortOrder])
 
-  const tab1Title = 'Donation Contracts (' + contractData.length + ')';
+  const tab1Title = 'Core Contracts (' + contractData.length + ')';
   const tab2Title = 'Individual Grants (' + grantData.length + ')';
   return (
     <Content>
