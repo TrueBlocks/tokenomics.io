@@ -23,6 +23,14 @@ The format of an appearance is purposefully very simple:
 
 - Notwithstanding the fact that there may be false positives in our index, a false positive is never generated in the extracted data for a particular address. If an appearance is reported for an address, the string of bytes represented by that address defniitely appears in the given transcaction. Sometimes, it may be hard to find (and that almost always means it's ten levels deep in a `trace`).
 
+### How this Data is Created
+
+Use the following chifra command to generate this data for each address:
+
+```
+chifra export --appearances --fmt csv <address> | cut -f2,3 -d','
+```
+
 ### Where's the Data?
 
 The actual data produced for this project is too big to put on GitHub. You may download the entire dataset (or any portion) from the [Downloads Tab](https://tokenomics.io/gitcoin) of the website.

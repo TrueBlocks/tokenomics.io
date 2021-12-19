@@ -20,6 +20,14 @@ The data format for a transaction is:
 | encoding         | the four-byte encoding of the transaction's function call                            |
 | compressedTx     | the compressed version of the articulated transaction in a single field              |
 
+### How this Data is Created
+
+The following chifra command is used to create the data in this folder. It is called for each address.
+
+```
+chifra export --articulate --cache --cache_traces --fmt csv <address>
+```
+
 ### Where's the Data?
 
 The actual data produced for this project is too big to put on GitHub. You may download the entire dataset (or any portion) from the [Downloads Tab](https://tokenomics.io/gitcoin) of the website.

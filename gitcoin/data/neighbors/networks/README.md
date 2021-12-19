@@ -8,9 +8,10 @@ This data is very much a work in progress.
 
 This data is alpha status and may be (and probably is) incomplete.
 
-### Using
+### How this Data is Created
 
-Change into this folder:
+1. Change into this folder
+2. Run the following code:
 
 ```
 python -m venv env
@@ -19,7 +20,7 @@ pip install -r requirements.txt
 python neighbor_networks.py <address>
 ```
 
-or
+or, to generate the data for all the addresses, run this:
 
 ```
 source run_all

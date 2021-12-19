@@ -31,6 +31,10 @@ find raw -name "*.json" -exec grep -His admin_address {} ';' | \
 | 2237     | 37q2dixqjur5duhyhcirfntbyv4pvsvkhx         |
 | 3070     | bc1qupk2u36zdm0fd8mmnu0ha33g0d2lgynwxw6j70 |
 
+### How this Data is Created
+
+1. Visit the [GitCoin APIs webpage](https://docs.gitcoin.co/mk_rest_api/) for more information.
+
 ### To Do
 
 Freshen this data and use it to automatically generate the processing scripts.
