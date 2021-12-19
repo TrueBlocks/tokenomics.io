@@ -55,6 +55,14 @@ And finally, the less obvious "bytes-parsed" locations:
 - In this version of the data, we show only the first appearance of a given address. In many cases, an address may appear multiple times in a transcation. We eliminated these second and subsquent appearances to keep the data size manageable. Again, see the `--deep` option.
 
 
+### How this Data is Created
+
+1. Run the following chifra command for each address
+
+```
+chifra export --neighbors --deep --fmt csv <address>
+```
+
 ### Where's the Data?
 
 The actual data produced for this project is too big to put on GitHub. You may download the entire dataset (or any portion) from the [Downloads Tab](https://tokenomics.io/gitcoin) of the website.
