@@ -12,6 +12,7 @@ import { BaseTable } from './BaseTable';
 
 import { Downloads } from './Downloads';
 import { DataDefinitions } from './DataDefinitions';
+import { ToDo } from './ToDo';
 
 import { lastUpdate } from './last-update.js';
 import { Sidebar } from './Sidebar';
@@ -50,7 +51,8 @@ export const HomePage = () => {
   const columns = useMemo(() => columnDefinitions, []);
   // Sidebar visibility
   const sidebarShown = useMemo(() => sidebarEnabled && sidebarVisible, [sidebarEnabled, sidebarVisible]);
-  const dataRowSpan = useMemo(() => sidebarShown ? 16 : 24,[sidebarShown]);
+  const dataRowSpan = useMemo(() => sidebarShown ? 17 : 24, [sidebarShown]);
+  const sideRowSpan = 24 - dataRowSpan
 
   var val = lastTab;
   const tabSwitch = (key, event) => {
@@ -71,7 +73,23 @@ export const HomePage = () => {
     }
   }, [selectGrant, setSidebarVisible, sidebarEnabled]);
 
-  const tab1Title = 'Donation Contracts (' + contractData.length + ')';
+  const [sortField, setSortField] = useState('');
+  const [sortOrder, setSortOrder] = useState(null);
+  const [sortedData, setSortedData] = useState(grantData)
+
+  useEffect(() => {
+    const sorted = grantData.sort(function (a, b) {
+      return (a[sortField] - b[sortField]) * (sortOrder === 'ascend' ? -1 : 1);
+    });
+    setSortedData(sorted)
+  }, [grantData, sortField, sortOrder])
+
+  const changeSort = useCallback((field, order) => {
+    setSortField(field)
+    setSortOrder(order)
+  }, [setSortField, setSortOrder])
+
+  const tab1Title = 'Core Contracts (' + contractData.length + ')';
   const tab2Title = 'Individual Grants (' + grantData.length + ')';
   return (
     <Content>
@@ -91,7 +109,8 @@ export const HomePage = () => {
           <Row className='with-sidebar'>
             <Col span={dataRowSpan} className='col-table'>
               <BaseTable
-                dataSource={grantData}
+                changeSort={changeSort}
+                dataSource={sortedData}
                 columns={columns}
                 rowKey={(record) => record.grantId}
                 onSelectionChange={onSelectionChange}
@@ -100,8 +119,8 @@ export const HomePage = () => {
             {
               sidebarShown
                 ? (
-                  <Col span={8} className='col-sidebar'>
-                    <Sidebar transactionCount={10} neighborsCount={100} />
+                  <Col span={sideRowSpan} className='col-sidebar'>
+                    <Sidebar />
                   </Col>
                 )
                 : null
@@ -121,8 +140,8 @@ export const HomePage = () => {
             {
               sidebarShown
                 ? (
-                  <Col span={8} className='col-sidebar'>
-                    <Sidebar transactionCount={10} neighborsCount={100} />
+                  <Col span={sideRowSpan} className='col-sidebar'>
+                    <Sidebar />
                   </Col>
                 )
                 : null
@@ -132,10 +151,10 @@ export const HomePage = () => {
         <TabPane tab={'Downloads'} key='3' style={{ paddingLeft: '8px' }}>
           <Downloads />
         </TabPane>
-        <TabPane tab='Data Definitions' key='5' style={{ paddingLeft: '8px' }}>
+        <TabPane tab='Data Definitions' key='4' style={{ paddingLeft: '8px' }}>
           <DataDefinitions />
         </TabPane>
-        <TabPane tab='Charts' key='4' style={{ paddingLeft: '8px' }}>
+        <TabPane tab='Charts' key='5' style={{ paddingLeft: '8px' }}>
           <img
             width='800px'
             alt='Unclaimed'
@@ -144,6 +163,9 @@ export const HomePage = () => {
           <br />
           <br />
           <img width='800px' alt='Count By Date' src='https://tokenomics.io/gitcoin/charts/Counts.png' />
+        </TabPane>
+        <TabPane tab={'ToDo'} key='6' style={{ paddingLeft: '8px' }}>
+          <ToDo />
         </TabPane>
       </Tabs>
       <i>

@@ -5,7 +5,7 @@ import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { useGlobalState } from './GlobalState';
 
 // We will use this value as base for URLs of all PNGs
-const svgSourceBaseUrl = 'https://www.tokenomics.io/gitcoin/data/neighbors/images/pngs/';
+const neighborsBaseUrl = 'https://www.tokenomics.io/gitcoin/data/neighbors/';
 
 export function Sidebar() {
   const {
@@ -17,10 +17,13 @@ export function Sidebar() {
     name,
     address,
     appearanceCount,
+    logCount,
     neighborCount
   } = useMemo(() => selectedGrant || {}, [selectedGrant]);
   // Construct the selected grant image's URL
-  const imageSource = useMemo(() => new URL(`${address}.png`, svgSourceBaseUrl), [address]);
+  const adjSource = useMemo(() => new URL(`${address}.txt`, neighborsBaseUrl + "adjacencies/"), [address]);
+  const svgSource = useMemo(() => new URL(`${address}.svg`, neighborsBaseUrl + "images/"), [address]);
+  const pngSource = useMemo(() => new URL(`${address}.png`, neighborsBaseUrl + "images/pngs/"), [address]);
   const [loading, setLoading] = useState(false);
   const onCloseClick = useCallback(() => {
     setSidebarVisible(false);
@@ -30,26 +33,30 @@ export function Sidebar() {
   useEffect(() => {
     if (!address) return;
 
-    setLoading(true);
-  }, [address, setSidebarVisible]);
+    // setLoading(true);
+  }, [address]);
 
   const closeButton = (
     <Button
-    onClick={onCloseClick}
+      onClick={onCloseClick}
     >
       <CloseOutlined />
     </Button>
   );
 
   return (
-    <Card title="Details" className='sidebar' extra={closeButton}>
-      <h1>{name}</h1>
-
-      <Descriptions bordered column={1}>
-        <Descriptions.Item label="Transactions number">
+    <Card title={name} className='sidebar' extra={closeButton}>
+      <Descriptions bordered column={2}>
+        <Descriptions.Item label="nApps">
           {appearanceCount}
         </Descriptions.Item>
-        <Descriptions.Item label="Neighbors">
+        <Descriptions.Item label="nLogs">
+          {logCount}
+        </Descriptions.Item>
+        <Descriptions.Item label="nNeighbors">
+          {neighborCount}
+        </Descriptions.Item>
+        <Descriptions.Item label="Other">
           {neighborCount}
         </Descriptions.Item>
       </Descriptions>
@@ -57,13 +64,14 @@ export function Sidebar() {
       <div>
         <Spin spinning={loading}>
           <img
-            src={imageSource}
+            src={pngSource}
             alt={address}
             className='graph-image'
             onLoad={() => setLoading(false)}
             onError={() => setLoading(false)}
           />
         </Spin>
+        <div>[<a href={svgSource} target="blank">zoom</a>] [<a href={adjSource} target="blank">adj</a>]</div>
       </div>
     </Card>
   );
