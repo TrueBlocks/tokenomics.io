@@ -53,3 +53,8 @@ And finally, the less obvious "bytes-parsed" locations:
 - It is possible to generate much more detailed information for each neighbor. For example, the third topic on the fifteenth log in the tenth-level deep trace of the ninth trace, but we don't do that here for preformance reasons. See the `chifra export --neighbors` option called `--deep` for more information.
 
 - In this version of the data, we show only the first appearance of a given address. In many cases, an address may appear multiple times in a transcation. We eliminated these second and subsquent appearances to keep the data size manageable. Again, see the `--deep` option.
+
+
+### Where's the Data?
+
+The actual data produced for this project is too big to put on GitHub. You may download the entire dataset (or any portion) from the [Downloads Tab](https://tokenomics.io/gitcoin) of the website.

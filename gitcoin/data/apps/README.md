@@ -22,3 +22,7 @@ The format of an appearance is purposefully very simple:
 - Appearances are a slightly fuzzy concept. When an address appears in a known place in the data (`from` or `to`) it is certainly a valid apperances. However, we also search the `input` data of a transaction, the `data` field of events, the `output` field of traces as well as the `log topics` for each event. This sometimes produces *false positives* in our index, which means there are entries in our index that are not addresses, but the number of these false positives is very small.
 
 - Notwithstanding the fact that there may be false positives in our index, a false positive is never generated in the extracted data for a particular address. If an appearance is reported for an address, the string of bytes represented by that address defniitely appears in the given transcaction. Sometimes, it may be hard to find (and that almost always means it's ten levels deep in a `trace`).
+
+### Where's the Data?
+
+The actual data produced for this project is too big to put on GitHub. You may download the entire dataset (or any portion) from the [Downloads Tab](https://tokenomics.io/gitcoin) of the website.

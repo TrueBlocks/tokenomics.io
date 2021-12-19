@@ -1,8 +1,12 @@
 ### Network Graphs
 
-Using the `neighbors` files in the folder above this one, this Python script (thanks in large part to nollied#6773) genates network graphs.
+Using the `neighbors` files in the folder above this one, this Python script (thanks in large part to nollied#6773) genates network graphs, images of the same, and adjacency lists.
 
-This is very much a work in progress.
+This data is very much a work in progress.
+
+### Notes
+
+This data is alpha status and may be (and probably is) incomplete.
 
 ### Using
 

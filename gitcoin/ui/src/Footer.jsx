@@ -24,7 +24,7 @@ export const Foot = () => {
             <TwitterOutlined style={{ fontSize: '14pt', color: '#282c34' }} />
           </a>
           {'  '}
-          <a rel='noreferrer' target='_blank' href='https://github.com/TrueBlocks/tokenomics.io'>
+          <a rel='noreferrer' target='_blank' href='https://github.com/TrueBlocks/tokenomics.io/tree/develop/gitcoin/'>
             <GithubOutlined style={{ fontSize: '14pt', color: '#282c34' }} />
           </a>
           {'  '}

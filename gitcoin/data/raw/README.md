@@ -34,3 +34,7 @@ find raw -name "*.json" -exec grep -His admin_address {} ';' | \
 ### To Do
 
 Freshen this data and use it to automatically generate the processing scripts.
+
+### Where's the Data?
+
+The actual data produced for this project is too big to put on GitHub. You may download the entire dataset (or any portion) from the [Downloads Tab](https://tokenomics.io/gitcoin) of the website.
