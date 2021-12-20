@@ -6,7 +6,8 @@ cat logs/$1.csv | \
     sed 's/^/\"'$1'\",/' | \
     tee -a combined/logs.csv
 
-cat logs/articulated/$.txt | \
+cat logs/articulated/$.csv | \
+    grep -v -i "^\"block" | \
     sed 's/^/\"'$1'\",/' | \
     tee -a combined/logs_articulated.csv
 
