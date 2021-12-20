@@ -2,7 +2,7 @@
 
 echo "combining statements..."
 
-echo "\"assetAddress\",\"assetSymbol\",\"decimals\",\"blockNumber\",\"transactionIndex\",\"timestamp\",\"prevBlock\",\"prevBlockBal\","begBal\",\"amountIn\",\"internalIn\",\"selfDestructIn\",\"minerBaseRewardIn\",\"minerNephewRewardIn\",\"minerTxFeeIn\",\"minerUncleRewardIn\",\"prefundIn\",\"totalIn\",\"amountOut\",\"internalOut\",\"selfDestructOut\",\"gasCostOut\",\"totalOut\",\"totalOutLessGas\",\"amountNet\",\"endBal\",\"begBZalDiff\",\"endBalCalc\",\"endBalDiff\",\"reconciled\",\"spotPrice\",\"priceSource\",\"reconciliationType\"" >combined/statements.csv
+echo "\"assetAddress\",\"assetSymbol\",\"decimals\",\"blockNumber\",\"transactionIndex\",\"timestamp\",\"prevBlock\",\"prevBlockBal\",\"begBal\",\"amountIn\",\"internalIn\",\"selfDestructIn\",\"minerBaseRewardIn\",\"minerNephewRewardIn\",\"minerTxFeeIn\",\"minerUncleRewardIn\",\"prefundIn\",\"totalIn\",\"amountOut\",\"internalOut\",\"selfDestructOut\",\"gasCostOut\",\"totalOut\",\"totalOutLessGas\",\"amountNet\",\"endBal\",\"begBZalDiff\",\"endBalCalc\",\"endBalDiff\",\"reconciled\",\"spotPrice\",\"priceSource\",\"reconciliationType\"" >combined/statements.csv
 echo "\"assetAddress\",\"assetSymbol\",\"decimals\",\"blockNumber\",\"transactionIndex\",\"timestamp\",\"begBal\",\"amountNet\",\"endBal\",\"reconciled\",\"spotPrice\",\"priceSource\",\"reconciliationType\"" >combined/statements_balances.csv
 echo "count,assetAddr,assetSymbol" >combined/statements_tx_counts.csv
 
