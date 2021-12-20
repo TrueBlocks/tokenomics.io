@@ -82,12 +82,6 @@ export const columns = [
       }
       return <></>
     },
-    render2: (text, record) => {
-      if (record.balances && record.balances.length > 0) {
-        return <></>
-      }
-      return <></>
-    },
   },
   {
     title: <AppearanceHeader />,
