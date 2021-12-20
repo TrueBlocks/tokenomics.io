@@ -8,10 +8,6 @@ import { faq_title, faq_text } from './FAQ.jsx';
 
 const { Sider } = Layout;
 
-const Strikeout = ({ text }) => {
-  return <div style={{ display: 'inline', textDecoration: 'line-through' }}>{text}</div>;
-};
-
 const MyCard = ({ children }) => {
   return (
     <Card
@@ -28,26 +24,6 @@ const MyCard = ({ children }) => {
 };
 
 export const RightSider = () => {
-  const hover1_text = (
-    <ul style={{ marginLeft: '-20px' }}>
-      <li>
-        <Strikeout text='Enable search by name' />
-      </li>
-      <li>
-        <Strikeout text='Update the data after every block' />
-      </li>
-      <li>
-        <Strikeout text='Export transactions, traces, reconciliations, etc.' />
-      </li>
-      <li>
-        Allow for better filtering (e.g. remove highly-funded grants)
-      </li>
-      <li>
-        Make data pouches for other ecosytems
-      </li>
-    </ul>
-  );
-  const hover1_title = 'Future Work';
   return (
     <Sider style={{ backgroundColor: 'lightblue' }}>
       <MyCard>
@@ -68,17 +44,6 @@ export const RightSider = () => {
         <a rel='noreferrer' target='_blank' href='https://discord.gg/RAz6DJ6xkf'>
           Join our discord discussions
         </a>
-      </MyCard>
-      <MyCard>
-        <Popover
-          style={{ border: '1px dashed black' }}
-          color='lightblue'
-          placement='left'
-          title={hover1_title}
-          content={hover1_text}
-          trigger='hover'>
-          <div style={{ width: '100%', height: '100%' }}>Future Work</div>
-        </Popover>
       </MyCard>
       <MyCard>
         <Popover

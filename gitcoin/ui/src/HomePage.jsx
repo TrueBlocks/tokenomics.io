@@ -104,7 +104,7 @@ export const HomePage = () => {
           onSearch={onSearch}
           enterButton></Search>
       </div>
-      <Tabs defaultActiveKey={lastTab} onChange={tabSwitch} style={{ border: '1px dotted gray', padding: '1px' }}>
+      <Tabs defaultActiveKey={lastTab} onChange={tabSwitch} style={{ border: '1px dotted gray', padding: '1px', paddingLeft: '8px', paddingRight: '8px' }}>
         <TabPane tab={tab2Title} key='1' style={{ paddingLeft: '8px', margin: '-25px 0px 0px 0px' }}>
           <Row className='with-sidebar'>
             <Col span={dataRowSpan} className='col-table'>
@@ -164,7 +164,7 @@ export const HomePage = () => {
           <br />
           <img width='800px' alt='Count By Date' src='https://tokenomics.io/gitcoin/charts/Counts.png' />
         </TabPane>
-        <TabPane tab={'ToDo'} key='6' style={{ paddingLeft: '8px' }}>
+        <TabPane tab={'Future Work'} key='6' style={{ paddingLeft: '8px' }}>
           <ToDo />
         </TabPane>
       </Tabs>

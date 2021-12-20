@@ -125,12 +125,12 @@ export const BalanceHeader = () => (
     tooltip='The balances for the account in ETH. We will add DAI and other tokens later'
   />
 )
-export const BalanceCell = ({ record }) => {
-  if (record.balances && record.balances.length > 0) {
-    return <Cell2 text={record.balances[0].balance + ' ETH'} />
-  }
-  return <></>
-}
+// export const BalanceCell = ({ record }) => {
+//   if (record.balances && record.balances.length > 0) {
+//     return <Cell2 text={record.balances[0].balance + ' ETH'} />
+//   }
+//   return <></>
+// }
 
 //--------------------------------------------------
 export const AppearanceHeader = () => (

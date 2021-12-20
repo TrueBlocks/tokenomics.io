@@ -1,5 +1,5 @@
 import { DownloadIcon } from './Utils';
-import { DateHeader, DateCell, NameHeader, NameCell, BalanceHeader, BalanceCell, AppearanceHeader, TransactionHeader, EventLogsHeader, NeighborsHeader } from "./ColumnCells"
+import { DateHeader, DateCell, NameHeader, NameCell, BalanceHeader, AppearanceHeader, TransactionHeader, EventLogsHeader, NeighborsHeader } from "./ColumnCells"
 // TagHeader, TagCell, MatchedHeader, MatchedCell
 
 export const columns = [
@@ -71,8 +71,22 @@ export const columns = [
         return b.balances[0].balance - a.balances[0].balance;
       },
     },
-    render: (text, record) => {
-      return <BalanceCell record={record} />;
+    render: function (text, record) {
+      if (record.balances && record.balances.length > 0) {
+        return (
+          <>
+            {record.balances[0].balance + ' ETH'}
+            <DownloadIcon address={record.address} count={''} path='statements/balances/' type='csv' />
+          </>
+        )
+      }
+      return <></>
+    },
+    render2: (text, record) => {
+      if (record.balances && record.balances.length > 0) {
+        return <></>
+      }
+      return <></>
     },
   },
   {
