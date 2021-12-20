@@ -11,7 +11,6 @@ import { columns as columnDefinitions } from './ColumnDefs';
 import { BaseTable } from './BaseTable';
 
 import { Downloads } from './Downloads';
-import { DataDefinitions } from './DataDefinitions';
 import { ToDo } from './ToDo';
 
 import { lastUpdate } from './last-update.js';
@@ -148,13 +147,10 @@ export const HomePage = () => {
             }
           </Row>
         </TabPane>
-        <TabPane tab={'Downloads'} key='3' style={{ paddingLeft: '8px' }}>
+        <TabPane tab={'Data Sets'} key='3' style={{ paddingLeft: '8px' }}>
           <Downloads />
         </TabPane>
-        <TabPane tab='Data Definitions' key='4' style={{ paddingLeft: '8px' }}>
-          <DataDefinitions />
-        </TabPane>
-        <TabPane tab='Charts' key='5' style={{ paddingLeft: '8px' }}>
+        <TabPane tab='Charts' key='4' style={{ paddingLeft: '8px' }}>
           <img
             width='800px'
             alt='Unclaimed'
@@ -164,7 +160,7 @@ export const HomePage = () => {
           <br />
           <img width='800px' alt='Count By Date' src='https://tokenomics.io/gitcoin/charts/Counts.png' />
         </TabPane>
-        <TabPane tab={'Future Work'} key='6' style={{ paddingLeft: '8px' }}>
+        <TabPane tab={'Future Work'} key='5' style={{ paddingLeft: '8px' }}>
           <ToDo />
         </TabPane>
       </Tabs>
