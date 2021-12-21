@@ -55,7 +55,7 @@ int main(int argc, const char* argv[]) {
             if (nRecordsBefore > 100000) {
                 ostringstream os;
                 os << "Skipping massive address: " << addr << " with " << nRecordsBefore << " appearances.";
-                stringToAsciiFile("./skipped-too-large.txt", os.str());
+                appendToAsciiFile("./skipped-too-large.txt", os.str());
                 LOG_ERR(bRed, os.str(), cOff);
                 continue;
             }
