@@ -23,8 +23,6 @@ int main(int argc, const char* argv[]) {
 
     bool quit = false;
     while (!quit) {
-        timestamp_t start = date_2_Ts(Now());
-
         blknum_t thisChunk = getMetaData().finalized;
 
         // We only need to process if this is the first run or we have a new chunk...
@@ -35,6 +33,7 @@ int main(int argc, const char* argv[]) {
         }
         first = false;
 
+        timestamp_t start = date_2_Ts(Now());
         size_t nChanged = 0, nProcessed = 0;
         for (auto line : lines) {
             CStringArray parts;
