@@ -71,7 +71,7 @@ type LastUpdate struct {
 
 func ProcessGrants(progressChannel chan<- *progress.Progress) {
 	var fileNames []string
-	max := 4000
+	max := 4500
 	for i := 0; i < max; i++ {
 		fileNames = append(fileNames, fmt.Sprintf("../data/raw/%04d.json", i))
 	}

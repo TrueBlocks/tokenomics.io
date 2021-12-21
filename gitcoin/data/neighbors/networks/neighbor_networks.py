@@ -3,6 +3,7 @@ import pandas as pd
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import sys
+import os
 from colorhash import ColorHash
 
 image_dest = "../images/"
@@ -143,24 +144,28 @@ def get_transaction_graph(
 if __name__ == "__main__":
     subject_addr = sys.argv[1]
 
-    df = pd.read_csv(f"../{subject_addr}.csv")
-    print(df.head(20))
+    file_size = os.path.getsize(f"../{subject_addr}.csv")
+    if file_size == 0:
+        print(f"File ../{subject_addr}.csv is empty.")
+    else:
+        df = pd.read_csv(f"../{subject_addr}.csv")
+        print(df.head(5))
 
-    txns = get_transaction_map(df)
+        txns = get_transaction_map(df)
 
-    c = 0
-    for k, v in txns.items():
-        print(k, v)
-        if c > 10:
-            break
-        c += 1
+        c = 0
+        for k, v in txns.items():
+            print(k, v)
+            if c > 10:
+                break
+            c += 1
 
-    unique_addrs = get_unique_addresses(txns)
+        unique_addrs = get_unique_addresses(txns)
 
-    print(f" ")
-    print(f"Address:       {subject_addr}")
-    print(f"nRows:         {sys.argv[2]}")
-    print(f"nTransactions: {len(txns)}")
-    print(f"nAddresses:    {len(unique_addrs)}")
+        print(f" ")
+        print(f"Address:       {subject_addr}")
+        print(f"nRows:         {len(df.index)}")
+        print(f"nTransactions: {len(txns)}")
+        print(f"nAddresses:    {len(unique_addrs)}")
 
-    get_transaction_graph(subject_addr, txns, unique_addrs)
+        get_transaction_graph(subject_addr, txns, unique_addrs)
