@@ -25,7 +25,7 @@ int main(int argc, const char* argv[]) {
     bool quit = false;
     CMetaData lastChunk = getMetaData();
     while (!quit) {
-        CMetaData thisChunk = getMetaData();
+        CMetaData thisChunk = CMetaData();
         if (lastChunk.finalized == thisChunk.finalized) {
             LOG_INFO("Skipping because no new chunks: ", lastChunk.finalized, " --> ", thisChunk.finalized);
             LOG_INFO("Sleeping for 3 minutes...");
