@@ -28,6 +28,8 @@ int main(int argc, const char* argv[]) {
         CMetaData thisChunk = getMetaData();
         if (lastChunk.finalized == thisChunk.finalized) {
             LOG_INFO("Skipping because no new chunks: ", lastChunk.finalized, " --> ", thisChunk.finalized);
+            LOG_INFO("Sleeping for 3 minutes...")
+            usleep(1800000000);
             continue;
         }
 
