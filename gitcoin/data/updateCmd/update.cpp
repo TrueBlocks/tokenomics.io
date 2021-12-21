@@ -41,6 +41,8 @@ int main(int argc, const char* argv[]) {
             // Someone used UniSwap v2 as thier grant address, ignore it
             if (addr == "0x7a250d5630b4cf539739df2c5dacb4c659f2488d")
                 continue;
+            if (addr == "0xa5409ec958c83c3f309868babaca7c86dcb077c1")
+                continue;
 
             nProcessed++;
 
