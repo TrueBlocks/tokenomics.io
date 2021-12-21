@@ -23,7 +23,14 @@ const char* STR_CMD_STATEMENTS = "./export_statements.1.sh [{ADDR}] ; ";
 //----------------------------------------------------------------
 int main(int argc, const char* argv[]) {
     bool quit = false;
+    CMetaData lastChunk = getMetaData();
     while (!quit) {
+        CMetaData thisChunk = getMetaData();
+        if (lastChunk.finalized == thisChunk.finalized) {
+            LOG_INFO("Skipping because no new chunks: ", lastChunk.finalized, " --> ", thisChunk.finalized);
+            continue;
+        }
+
         CStringArray lines;
         asciiFileToLines("./addresses.csv", lines);
 
@@ -106,6 +113,8 @@ int main(int argc, const char* argv[]) {
         usleep(1800000000);
         out << "starting: " << date_2_Ts(Now()) << endl;
         appendToAsciiFile("./timing.txt", out.str());
+
+        lastChunk = thisChunk;
 
     }  // while (true)
 
