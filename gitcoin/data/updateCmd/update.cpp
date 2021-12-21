@@ -38,17 +38,18 @@ int main(int argc, const char* argv[]) {
             if ((!isAddress(addr) || isZeroAddr(addr)))
                 continue;
 
-            // Someone used UniSwap v2 as thier grant address, ignore it
-            if (addr == "0x7a250d5630b4cf539739df2c5dacb4c659f2488d")
-                continue;
-            if (addr == "0xa5409ec958c83c3f309868babaca7c86dcb077c1")
-                continue;
-
             nProcessed++;
 
             // Figure out how many records there are...
             string_q monitorFn = getCachePath("monitors/" + addr + ".acct.bin");
             uint64_t nRecordsBefore = fileSize(monitorFn) / 8;
+            if (nRecordsBefore > 100000) {
+                ostringstream os;
+                os << "Skipping massive address: " << addr << " with " << nRecordsBefore << " appearances.";
+                stringToAsciiFile("./skipped-too-large.txt", os.str());
+                LOG_ERR(bRed, os.str(), cOff);
+                continue;
+            }
 
             // Freshen the monitor
             if (system(substitute(STR_CMD_LIST, "[{ADDR}]", addr).c_str()) != 0) {
