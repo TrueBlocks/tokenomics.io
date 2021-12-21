@@ -13,16 +13,11 @@
 #include "etherlib.h"
 
 // clang-format off
-//const char* STR_EMIT = "--emitter 0xdf869fad6db91f437b59f1edefab319493d4c4ce --emitter 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6 --emitter 0x7d655c57f71464b6f83811c55d84009cd9f5221c";
-const char* STR_EMIT = "";
-
-const char* STR_CMD1 = "chifra export --appearances --fmt csv [{ADDR}] | cut -f2,3 -d',' >apps/[{ADDR}].csv ; ";
-const char* STR_CMD2 = "chifra export --balances --fmt csv [{ADDR}] >bals/[{ADDR}].csv ; ";
-const char* STR_CMD3 = "chifra export --articulate --cache --cache_traces  --fmt csv [{ADDR}] >txs/[{ADDR}].csv ; ";
-//const char* STR_CMD4 = "chifra export --logs --articulate --relevant [{EMITTERS}] --fmt csv [{ADDR}] >logs/[{ADDR}].csv ; ";
-const char* STR_CMD4 = "./export_logs.1.sh [{ADDR}] ; ";
-const char* STR_CMD5 = "chifra export --neighbors --deep --fmt csv [{ADDR}] >neighbors/[{ADDR}].csv ; ";
-const char* STR_CMD7 = "chifra list [{ADDR}] >/dev/null";
+const char* STR_CMD_LIST = "chifra export --appearances --fmt csv [{ADDR}] | cut -f2,3 -d',' >apps/[{ADDR}].csv ; ";
+const char* STR_CMD_TXS = "chifra export --articulate --cache --cache_traces --fmt csv [{ADDR}] >txs/[{ADDR}].csv ; ";
+const char* STR_CMD_LOGS = "./export_logs.1.sh [{ADDR}] ; ";
+const char* STR_CMD_NEIGHBORS = "chifra export --neighbors --deep --fmt csv [{ADDR}] >neighbors/[{ADDR}].csv ; ";
+const char* STR_CMD_STATEMENTS = "./export_statements.1.sh [{ADDR}] ; ";
 // clang-format on
 
 //----------------------------------------------------------------
@@ -35,7 +30,6 @@ int main(int argc, const char* argv[]) {
         size_t nChanged = 0, nProcessed = 0;
         timestamp_t start = date_2_Ts(Now());
         for (auto line : lines) {
-
             CStringArray parts;
             explode(parts, line, ',');
             address_t addr = toLower(parts[1]);
@@ -55,7 +49,7 @@ int main(int argc, const char* argv[]) {
             uint64_t nRecordsBefore = fileSize(monitorFn) / 8;
 
             // Freshen the monitor
-            if (system(substitute(STR_CMD1, "[{ADDR}]", addr).c_str()) != 0) {
+            if (system(substitute(STR_CMD_LIST, "[{ADDR}]", addr).c_str()) != 0) {
                 quit = true;
                 break;
             }
@@ -65,21 +59,22 @@ int main(int argc, const char* argv[]) {
 
             if (fileExists("./apps/" + addr + ".csv") && nRecordsBefore == sizeAfter) {
                 // If there are no new records, we don't have to freshen the rest of the data
-                LOG_INFO(bBlack, "Skip ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore, " == ", sizeAfter, ")", cOff);
+                LOG_INFO(bBlack, "Skip ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore,
+                         " == ", sizeAfter, ")", cOff);
 
             } else {
                 nChanged++;
 
                 // There are new records, freshen everything
-                LOG_INFO(bYellow, "Call ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore, " != ", sizeAfter, ")", cOff);
+                LOG_INFO(bYellow, "Call ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore,
+                         " != ", sizeAfter, ")", cOff);
 
                 ostringstream oss;
-                // oss << substitute(STR_CMD1, "[{ADDR}]", addr) << endl;
-                // oss << substitute(STR_CMD2, "[{ADDR}]", addr) << endl;
-                oss << substitute(STR_CMD3, "[{ADDR}]", addr) << endl;
-                oss << substitute(substitute(STR_CMD4, "[{ADDR}]", addr), "[{EMITTERS}]", STR_EMIT) << endl;
-                oss << substitute(STR_CMD5, "[{ADDR}]", addr) << endl;
-                int ret = system(oss.str().c_str());
+                oss << STR_CMD_TXS << endl;
+                oss << STR_CMD_LOGS << endl;
+                oss << STR_CMD_NEIGHBORS << endl;
+                oss << STR_CMD_STATEMENTS << endl;
+                int ret = system(substitute(oss.str(), "[{ADDR}]", addr).c_str());
                 if (WIFSIGNALED(ret) && (WTERMSIG(ret) == SIGINT || WTERMSIG(ret) == SIGQUIT)) {
                     cerr << "system call interrupted" << endl;
                     break;
@@ -91,19 +86,25 @@ int main(int argc, const char* argv[]) {
                 }
             }
         }  // for (auto line : lines)
+
         if (!quit && nChanged) {
-            if (system("./combine_update.sh")) {}
-            if (system("./update_zips.sh")) {}
+            if (system("./combine_update.sh")) {
+            }
+            if (system("./update_zips.sh")) {
+            }
         }
+
         timestamp_t stop = date_2_Ts(Now());
         ostringstream out;
-        out << lines.size() << "," << nProcessed << "," << nChanged << "," << start << "," << stop << "," << (stop - start) << endl;
+        out << lines.size() << "," << nProcessed << "," << nChanged << "," << start << "," << stop << ","
+            << (stop - start) << endl;
         out << "sleeping: " << date_2_Ts(Now()) << endl;
         LOG_INFO(out.str());
         usleep(1800000000);
         out << "starting: " << date_2_Ts(Now()) << endl;
         appendToAsciiFile("./timing.txt", out.str());
-    } // while (true)
+
+    }  // while (true)
 
     return 0;
 }
