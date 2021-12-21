@@ -118,7 +118,7 @@ int main(int argc, const char* argv[]) {
 }
 
 //-----------------------------------------------------------------------------------
-void reportTiming(size_t nLines, size_t nProc, size_t nChange, timestamp_t start) {
+string_q reportTiming(size_t nLines, size_t nProc, size_t nChange, timestamp_t start) {
     timestamp_t stop = date_2_Ts(Now());
     ostringstream out;
     out << nLines << "," << nProc << "," << nChange << "," << start << "," << stop << "," << (stop - start) << endl;
