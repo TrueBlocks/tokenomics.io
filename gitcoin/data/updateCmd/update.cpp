@@ -22,16 +22,20 @@ const char* STR_CMD_STATEMENTS = "./export_statements.1.sh [{ADDR}] ; ";
 
 //----------------------------------------------------------------
 int main(int argc, const char* argv[]) {
-    bool quit = false;
     CMetaData lastChunk = getMetaData();
+    bool first = true;
+
+    bool quit = false;
     while (!quit) {
-        CMetaData thisChunk = CMetaData();
-        if (lastChunk.finalized == thisChunk.finalized) {
+        CMetaData thisChunk = getMetaData();
+        LOG_INFO("lastChunk: ", lastChunk.finalized, " thisChunk: ", thisChunk.finalized);
+        if (!first && lastChunk.finalized == thisChunk.finalized) {
             LOG_INFO("Skipping because no new chunks: ", lastChunk.finalized, " --> ", thisChunk.finalized);
             LOG_INFO("Sleeping for 3 minutes...");
             usleep(1800000000);
             continue;
         }
+        first = false;
 
         CStringArray lines;
         asciiFileToLines("./addresses.csv", lines);
