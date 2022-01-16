@@ -15,6 +15,11 @@
 
 //-----------------------------------------------------------------------------------
 int main(int argc, const char* argv[]) {
+    ::setenv("TB_CONFIG_PATH", "/home/jrush/.local/share/trueblocks/", true);
+    ::setenv("TB_CHAIN_CONFIG_PATH", "/home/jrush/.local/share/trueblocks/config/mainnet/", true);
+    ::setenv("TB_CACHE_PATH", "/home/jrush/.local/share/trueblocks/cache/mainnet/", true);
+    ::setenv("TB_INDEX_PATH", "/home/unchained/", true);
+
     CStringArray lines;
     asciiFileToLines("./addresses.csv", lines);
 
@@ -45,7 +50,7 @@ int main(int argc, const char* argv[]) {
                 continue;
 
             // Figure out how many records there are...
-            string_q monitorFn = getCachePath("monitors/" + addr + ".acct.bin");
+            string_q monitorFn = cacheFolder_monitors + addr + ".acct.bin";
             uint64_t nRecordsBefore = fileSize(monitorFn) / 8;
 
             // If there are too many, report the same and skip...
@@ -72,12 +77,12 @@ int main(int argc, const char* argv[]) {
             // there are new transactions, re-process. Otherwise, skip...
             if (fileExists("./txs/" + addr + ".csv") && nRecordsBefore == sizeAfter) {
                 // There are no new records, we don't have to freshen the rest of the data...
-                LOG_INFO(bBlack, "Skip ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore,
+                LOG_INFO(bBlack, "Skip ", substitute(monitorFn, cacheFolder, "./"), bGreen, " (", nRecordsBefore,
                          " == ", sizeAfter, ")", cOff);
 
             } else {
                 // There are new records, re-write everything...
-                LOG_INFO(bYellow, "Call ", substitute(monitorFn, getCachePath(""), "./"), bGreen, " (", nRecordsBefore,
+                LOG_INFO(bYellow, "Call ", substitute(monitorFn, cacheFolder, "./"), bGreen, " (", nRecordsBefore,
                          " != ", sizeAfter, ")", cOff);
 
                 nChanged++;
