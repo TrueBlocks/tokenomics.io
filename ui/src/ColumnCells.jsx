@@ -56,7 +56,7 @@ export const NameCell = ({ record }) => {
   name = name.replace('&#39;', "'");
 
   const explorerAddress = localExplorer
-    ? "http://localhost:1234/dashboard/accounts?address="
+    ? "http://localhost:1234/address/"
     : 'http://etherscan.io/address/';
 
   const explorerLink = useMemo(() => (<>
