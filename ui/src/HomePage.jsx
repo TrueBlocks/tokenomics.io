@@ -6,7 +6,7 @@ import { Input, Layout, Tabs, Row, Col } from 'antd';
 import './App.css';
 import 'antd/dist/antd.css';
 
-import { grantsData } from './grants-data';
+import { theData } from './theData';
 import { columns as columnDefinitions } from './ColumnDefs';
 import { BaseTable } from './BaseTable';
 
@@ -37,12 +37,12 @@ export const HomePage = () => {
     console.log(value);
   };
 
-  const contractData = useMemo(() => grantsData.filter((item) => {
+  const contractData = useMemo(() => theData.filter((item) => {
     const n = item.name.toLowerCase();
     const a = item.address.toLowerCase();
     return item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
   }), [searchText]);
-  const grantData = useMemo(() => grantsData.filter((item) => {
+  const grantData = useMemo(() => theData.filter((item) => {
     const n = item.name.toLowerCase();
     const a = item.address.toLowerCase();
     return !item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
