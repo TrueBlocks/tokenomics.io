@@ -1,0 +1,46 @@
+.grant-data-renderer {
+  margin: 16px calc(2% + 32px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.grant-data-renderer table {
+  table-layout: fixed;
+  border: 1px solid rgb(217, 217, 217);
+}
+
+.grant-data-renderer table tr th,
+.grant-data-renderer table tr td {
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.grant-data-renderer table tr:not(:last-child):not(.appearance-header) th,
+.grant-data-renderer table tr:not(:last-child) td {
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.grant-data-renderer table tr:not(.appearance-details) th:not(:last-child),
+.grant-data-renderer table tr:not(.appearance-details) td:not(:last-child) {
+  border-right: 1px solid rgb(217, 217, 217);
+}
+
+.grant-data-renderer table th {
+  background-color: var(--color-highlight);
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.grant-data-renderer table td {
+  background-color: #fafafa;
+}
+
+.grant-data-renderer table ol {
+  margin: 0;
+}

@@ -1,0 +1,5 @@
+exports/*.txt
+exports/*.json
+exports/*.csv
+exports/*.gz
+*.bin
