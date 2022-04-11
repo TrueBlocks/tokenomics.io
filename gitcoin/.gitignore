@@ -1,12 +1,3 @@
-# temporary files
-file
-file.1
-x
-shit
-
-# data and build artifacts
-objs/*
-
 # dependencies
 /node_modules
 /.pnp
