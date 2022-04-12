@@ -1,3 +1,3 @@
-## Gitcoin Data Pouch - Docs
+## Docs
 
 Unused

@@ -1,4 +1,4 @@
-## Gitcoin Data Pouch - Data/Raw
+## Data/Raw
 
 This is the collection of data retreived from GitCoin's API and cached here for performance reasons and to avoid rate limiting. This data is not currently being freshened, although it is the source of addresses for all of the rest of the processing.
 

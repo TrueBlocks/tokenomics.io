@@ -1,4 +1,4 @@
-## Gitcoin Data Pouch - Data/Neighbors
+## Data/Neighbors
 
 Neighbors are created by visiting each appearance for a given address and extracting a list of every address that also
 appears in that same transaction. These lists of neighbors can get quite large.

@@ -1,4 +1,4 @@
-## Gitcoin Data Pouch - Data/Appearances
+## Data/Appearances
 
 The files in this folder contain, for each address, the 'appearances' of that address on the chain.
 

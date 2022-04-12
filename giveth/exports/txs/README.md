@@ -1,4 +1,4 @@
-## Gitcoin Data Pouch - Data/Txs
+## Data/Txs
 
 This folder contains the actual transactional data for each appearance. Note that in some cases, the address may not be appearant. For example, an address that appears in an internal trace of a smart contract may not appear in the exported fields of the rows of this file.
 

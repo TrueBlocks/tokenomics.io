@@ -1,4 +1,4 @@
-## Gitcoin Data Pouch - Data/Balances
+## Data/Balances
 
 The data format for an account's balance is:
 

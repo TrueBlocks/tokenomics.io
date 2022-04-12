@@ -1,4 +1,4 @@
-## Gitcoin Data Pouch - Data
+## Data
 
 This folder is the primary repository of the data. It is broken into the following folders. See the README files in each folder for more information.
 

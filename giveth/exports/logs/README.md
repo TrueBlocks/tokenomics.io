@@ -1,4 +1,4 @@
-## Gitcoin Data Pouch - Data/Logs
+## Data/Logs
 
 The `./logs` folder contains exports of all the logs for a given address. Note that this may be many multiples of the number of transactions / appearances for that address.
 

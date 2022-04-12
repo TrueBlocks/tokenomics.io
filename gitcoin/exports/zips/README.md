@@ -1,4 +1,4 @@
-## Gitcoin Data Pouch - Data/Zips
+## Data/Zips
 
 The `./zips` folder, and therefore, the `zips` endpoint, holds combinations of the other data sets. You may access it from the website at [https://tokenomics.io/gitcoin/data/zips/](https://tokenomics.io/gitcoin/data/zips/).
 
