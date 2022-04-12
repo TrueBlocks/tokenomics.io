@@ -1,21 +1,10 @@
 #!/usr/bin/env bash
 
-cd apps
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/apps/0x0*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/apps/0x1*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/apps/0x2*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/apps/0x3*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/apps/0x4*" .
-cd ../logs
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/logs/0x0*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/logs/0x1*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/logs/0x2*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/logs/0x3*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/logs/0x4*" .
-cd ../txs
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/txs/0x0*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/txs/0x1*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/txs/0x2*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/txs/0x3*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/txs/0x4*" .
-cd ..
+./getem.1 apps
+# ./getem.1 combined
+./getem.1 logs
+./getem.1 neighbors
+# ./getem.1 raw
+./getem.1 statements
+./getem.1 txs
+# ./getem.1 zips
