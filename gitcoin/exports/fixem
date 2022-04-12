@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+cd apps
+./fix.sh
+cd ../logs
+./fix.sh
+cd ../txs
+./fix.sh
+cd ..

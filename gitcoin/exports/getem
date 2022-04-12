@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+cd apps
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/apps/0x0*" .
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/apps/0x1*" .
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/apps/0x2*" .
+cd ../logs
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/logs/0x0*" .
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/logs/0x1*" .
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/logs/0x2*" .
+cd ../txs
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/txs/0x0*" .
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/txs/0x1*" .
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/txs/0x2*" .
+cd ..
