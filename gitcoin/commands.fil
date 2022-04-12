@@ -1,0 +1,11 @@
+--appearances --fmt csv
+--articulate --cache --cache_traces --fmt csv
+--logs --emitter 0xdf869fad6db91f437b59f1edefab319493d4c4ce --emitter 0x7d655c57f71464b6f83811c55d84009cd9f5221c --emitter 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6 --emitter 0x3342e3737732d879743f2682a3953a730ae4f47c --emitter 0x3ebaffe01513164e638480404c651e885cca0aa4 --fmt csv
+--neighbors --deep --fmt csv
+--statements
+
+# cat logs/ but only fields 1-10 into                       >./logs/
+# cat logs/ but only fields 1-5,11-2000                     >./logs/articulated/
+# cat statements/ but only fields 1,2,3,4,5,6,9,25,26,30-33 >statements/balances/$addr.csv
+# echo "count,assetAddr,assetSymbol" | tee statements/tx_counts/$addr.csv
+# cat statements/balances/$addr.csv | grep -v assetAddr | cut -d, -f1,2 | sort | uniq -c | sort -n -r | sed 's/ //g' | sed 's/"/,/g' | cut -d, -f1,2,5 | tee -a statements/tx_counts/$addr.csv
