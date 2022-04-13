@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+./getem.1 mainnet apps
+./getem.1 mainnet logs
+./getem.1 mainnet neighbors
+./getem.1 mainnet statements
+./getem.1 mainnet txs
+# ./getem.1 mainnet combined
+# ./getem.1 mainnet raw
+# ./getem.1 mainnet zips
