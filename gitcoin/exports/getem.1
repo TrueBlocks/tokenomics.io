@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
 cd $1/$2
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/$1/$2/0x0*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/$1/$2/0x1*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/$1/$2/0x2*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/$1/$2/0x3*" .
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/$1/$2/0x4*" .
+echo "========================================================"
+pwd
+echo "========================================================"
+scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/gitcoin/exports/$1/$2/0x*" .
 ./fix.sh
 cd -

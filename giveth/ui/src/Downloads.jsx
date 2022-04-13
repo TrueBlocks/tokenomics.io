@@ -18,11 +18,11 @@ export const Downloads = () => {
         <div>
           <b>Download zip files of:</b>
           <ul>
-            <li>All data for [ <a target="top" href={configUrls.DataZips + "combined/"}>all address</a> ]</li>
-            <li>Appearances for [ <a target="top" href={configUrls.DataZips + "combined/apps.csv.gz"}>all address</a> ]</li>
-            <li>Transactions for [ <a target="top" href={configUrls.DataZips + "combined/txs.csv.gz"}>all address</a> ]</li>
-            <li>Logs for [ <a target="top" href={configUrls.DataZips + "combined/logs.csv.gz"}>raw data</a> | <a target="top" href={configUrls.DataZips + "combined/logs_articulated.csv.gz"}>articulated</a> ]</li >
-            <li>Neighbors for [ <a target="top" href={configUrls.DataZips + "combined/neighbors.csv.gz"}>all address</a> ]</li >
+            <li>All data for [ <a target="top" href={configUrls.DataZips + "combined/"}>all addresses</a> ]</li>
+            <li>Appearances for [ <a target="top" href={configUrls.DataZips + "combined/apps.csv.gz"}>all addresses</a> ]</li>
+            <li>Transactions for [ <a target="top" href={configUrls.DataZips + "combined/txs.csv.gz"}>all addresses</a> ]</li>
+            <li>Logs for [ <a target="top" href={configUrls.DataZips + "combined/logs.csv.gz"}>all addresses</a> ]</li >
+            <li>Neighbors for [ <a target="top" href={configUrls.DataZips + "combined/neighbors.csv.gz"}>all addresses</a> ]</li >
             <li>Statements for [ <a target="top" href={configUrls.DataZips + "combined/statements.csv.gz"}>raw data</a> | <a target="top" href={configUrls.DataZips + "combined/statements_balances.csv.gz"} > summaries</a > | <a target="top" href={configUrls.DataZips + "combined/statements_tx_counts.csv.gz"}>asset tx counts</a> ]</li >
           </ul >
         </div >
