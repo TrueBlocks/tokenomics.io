@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-cd $1/$2
-echo "========================================================"
-pwd
-echo "========================================================"
-scp -p "unchainedindex.io:/home/jrush/Development/tokenomics.io/giveth/exports/$1/$2/0x*" .
-./fix.sh
-cd -
