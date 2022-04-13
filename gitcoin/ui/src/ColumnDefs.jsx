@@ -1,6 +1,5 @@
 import { DownloadIcon } from './Utils';
 import { DateHeader, DateCell, NameHeader, NameCell, BalanceHeader, AppearanceHeader, TransactionHeader, EventLogsHeader, NeighborsHeader } from "./ColumnCells"
-// TagHeader, TagCell, MatchedHeader, MatchedCell
 
 export const columns = [
   {
@@ -16,15 +15,6 @@ export const columns = [
       return <DateCell record={record} />
     },
   },
-  // {
-  //   title: <TagHeader />,
-  //   dataIndex: 'types',
-  //   key: 'types',
-  //   width: '8%',
-  //   render: (u, record) => {
-  //     return (<TagCell record={record} />);
-  //   },
-  // },
   {
     title: <NameHeader />,
     dataIndex: 'name',
@@ -38,27 +28,6 @@ export const columns = [
       return <NameCell record={record} />
     },
   },
-  // {
-  //   title: <MatchedHeader />,
-  //   dataIndex: 'matched',
-  //   key: 'matched',
-  //   width: '6%',
-  //   align: 'right',
-  //   showSorterTooltip: false,
-  //   sorter: {
-  //     compare: function (a, b) {
-  //       const unclaimedA = a.matched - a.claimed;
-  //       const unclaimedB = b.matched - b.claimed;
-  //       const diff = unclaimedB - unclaimedA;
-  //       if (diff === 0)
-  //         return (a.matched - b.matched)
-  //       return diff;
-  //     },
-  //   },
-  //   render: (u, record) => {
-  //     return <MatchedCell record={record} />
-  //   },
-  // },
   {
     title: <BalanceHeader />,
     dataIndex: 'balance',

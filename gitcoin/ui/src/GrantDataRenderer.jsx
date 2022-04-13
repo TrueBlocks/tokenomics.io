@@ -46,7 +46,7 @@ export function GrantDataRenderer({ grantData }) {
               Core
             </th>
             <td>
-            {renderBoolean(grantData.core)}
+              {renderBoolean(grantData.core)}
             </td>
             <th title='Appearance count'>
               Appearance count
@@ -182,30 +182,16 @@ export function GrantDataRenderer({ grantData }) {
             <th title='Types'>
               Types
             </th>
-            <td colSpan={5}>
+            <td colSpan={2}>
               {grantData.types.split(',').map((type) => <Tag key={type}>{type}</Tag>)}
             </td>
-          </tr>
-          <tr>
             <th title='Balances'>
               Balances
             </th>
-            <td colSpan={3}>
+            <td colSpan={2}>
               <ol>
                 {grantData.balances.map((balance) => <li key={balance.asset}>{balance.asset} {balance.balance}</li>)}
               </ol>
-            </td>
-            <th title='Matched'>
-              Matched
-            </th>
-            <td>
-              {grantData.matched}
-            </td>
-            <th title='Claimed'>
-              Claimed
-            </th>
-            <td>
-              {grantData.claimed}
             </td>
           </tr>
         </tbody>
