@@ -8,3 +8,12 @@
 # ./getem.1 mainnet combined
 # ./getem.1 mainnet raw
 # ./getem.1 mainnet zips
+
+./getem.1 gnosis apps
+./getem.1 gnosis logs
+./getem.1 gnosis neighbors
+./getem.1 gnosis statements
+./getem.1 gnosis txs
+# ./getem.1 gnosis combined
+# ./getem.1 gnosis raw
+# ./getem.1 gnosis zips
