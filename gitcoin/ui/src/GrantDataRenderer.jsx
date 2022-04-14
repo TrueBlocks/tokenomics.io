@@ -40,7 +40,7 @@ export function GrantDataRenderer({ grantData }) {
               Active?
             </th>
             <td>
-              {renderBoolean(grantData.active)}
+              {renderBoolean(grantData.isActive)}
             </td>
             <th title='Core'>
               Core

@@ -1,7 +1,7 @@
 export const theData = [
   {
     grantId: 7,
-    'active': true,
+    isActive: true,
     address: '0xaa42aa2e1888c5aa2861e970cb2720848b868c68',
     name: 'ETH2.0 Implementers Call Notes',
     slug: 'https://gitcoin.co/grants/7/eth20-implementers-call-notes',
@@ -36,7 +36,7 @@ export const theData = [
   },
   {
     grantId: 9,
-    'active': true,
+    isActive: true,
     address: '0x7056e70a5ca249ba88e9550eb22caec4c985bb8e',
     name: 'fuzz geth and Parity for EVM consensus bugs',
     slug: 'https://gitcoin.co/grants/9/fuzz-geth-and-parity-for-evm-consensus-bugs',
@@ -71,7 +71,7 @@ export const theData = [
   },
   {
     grantId: 12,
-    'active': true,
+    isActive: true,
     address: '0xde21f729137c5af1b01d73af1dc21effa2b8a0d6',
     name: 'Gitcoin Grants Official Matching Pool Fund',
     slug: 'https://gitcoin.co/grants/12/gitcoin-grants-official-matching-pool-fund',
@@ -106,7 +106,7 @@ export const theData = [
   },
   {
     grantId: 13,
-    'active': true,
+    isActive: true,
     address: '0x8ba1f109551bd432803012645ac136ddd64dba72',
     name: 'ethers.js - Complete, Simple and Tiny',
     slug: 'https://gitcoin.co/grants/13/ethersjs-complete-simple-and-tiny',
@@ -141,7 +141,7 @@ export const theData = [
   },
   {
     grantId: 15,
-    'active': true,
+    isActive: true,
     address: '0x2ae09febfd8a811207a378b142d74ffd23073610',
     name: 'Whiteblock Testing',
     slug: 'https://gitcoin.co/grants/15/whiteblock-testing',
@@ -176,7 +176,7 @@ export const theData = [
   },
   {
     grantId: 17,
-    'active': true,
+    isActive: true,
     address: '0xb7b2199af38d3390b0e4a352018e3939d332cfe9',
     name: 'Implement support for asyncio using Web3.py',
     slug: 'https://gitcoin.co/grants/17/implement-support-for-asyncio-using-web3py',
@@ -211,7 +211,7 @@ export const theData = [
   },
   {
     grantId: 20,
-    'active': true,
+    isActive: true,
     address: '0x78040ab06e05f59fd78ca7367cbf4e95069cac47',
     name: 'Burner Wallet',
     slug: 'https://gitcoin.co/grants/20/burner-wallet',
@@ -246,7 +246,7 @@ export const theData = [
   },
   {
     grantId: 22,
-    'active': true,
+    isActive: true,
     address: '0x7056e70a5ca249ba88e9550eb22caec4c985bb8e',
     name: 'fuzz geth and Parity for EVM consensus bugs',
     slug: 'https://gitcoin.co/grants/22/fuzz-geth-and-parity-for-evm-consensus-bugs',
@@ -281,7 +281,7 @@ export const theData = [
   },
   {
     grantId: 24,
-    'active': true,
+    isActive: true,
     address: '0x9b984d5a03980d8dc0a24506c968465424c81dbe',
     name: 'Prysm by Prysmatic Labs',
     slug: 'https://gitcoin.co/grants/24/prysm-by-prysmatic-labs',
@@ -316,7 +316,7 @@ export const theData = [
   },
   {
     grantId: 25,
-    'active': true,
+    isActive: true,
     address: '0xc9a872868afa68ba937f65a1c5b4b252dab15d85',
     name: 'Lighthouse: Ethereum 2.0 Client',
     slug: 'https://gitcoin.co/grants/25/lighthouse-ethereum-20-client',
@@ -351,7 +351,7 @@ export const theData = [
   },
   {
     grantId: 26,
-    'active': true,
+    isActive: true,
     address: '0x30755d3e65c0cf46c35b72d11e52d941c5fc3a3e',
     name: 'Peepeth: social network for a better world',
     slug: 'https://gitcoin.co/grants/26/peepeth-social-network-for-a-better-world',
@@ -386,7 +386,7 @@ export const theData = [
   },
   {
     grantId: 29,
-    'active': true,
+    isActive: true,
     address: '0x72b77d99b460176adc900c05f6bbb69c332eb4c2',
     name: 'ZoKrates',
     slug: 'https://gitcoin.co/grants/29/zokrates',
@@ -421,7 +421,7 @@ export const theData = [
   },
   {
     grantId: 30,
-    'active': true,
+    isActive: true,
     address: '0x68085e7f88e90fa9247489c83fab30b177ebccb3',
     name: 'Ethereum Cat Herders Community Bounty',
     slug: 'https://gitcoin.co/grants/30/ethereum-cat-herders-community-bounty',
@@ -456,7 +456,7 @@ export const theData = [
   },
   {
     grantId: 32,
-    'active': true,
+    isActive: true,
     address: '0x961aa96febee5465149a0787b03bfa14d8e9033f',
     name: 'Vipnode',
     slug: 'https://gitcoin.co/grants/32/vipnode',
@@ -491,7 +491,7 @@ export const theData = [
   },
   {
     grantId: 36,
-    'active': true,
+    isActive: true,
     address: '0x9a4de46e566b7d474d14def31aa349abf2fc6993',
     name: 'MolochDAO',
     slug: 'https://gitcoin.co/grants/36/molochdao',
@@ -526,7 +526,7 @@ export const theData = [
   },
   {
     grantId: 37,
-    'active': true,
+    isActive: true,
     address: '0xc37e165fcfa2cb5cca7329dd9daa8cd72907b983',
     name: 'Connext Network',
     slug: 'https://gitcoin.co/grants/37/connext-network',
@@ -561,7 +561,7 @@ export const theData = [
   },
   {
     grantId: 38,
-    'active': true,
+    isActive: true,
     address: '0x4bf66e52f3009cd138e48f142d47661037160001',
     name: 'Zero Knowledge Podcast',
     slug: 'https://gitcoin.co/grants/38/zero-knowledge-podcast',
@@ -596,7 +596,7 @@ export const theData = [
   },
   {
     grantId: 40,
-    'active': true,
+    isActive: true,
     address: '0xa19fcdad77c1f0fd184689aca88babcf68010347',
     name: 'EthHub - Ethereum Information Hub',
     slug: 'https://gitcoin.co/grants/40/ethhub-ethereum-information-hub',
@@ -631,7 +631,7 @@ export const theData = [
   },
   {
     grantId: 49,
-    'active': true,
+    isActive: true,
     address: '0x66aa8bee5366b6b48811ae0dac9fe5e1eefe1621',
     name: 'Blockchain Education Network (BEN) [Panvala League]',
     slug: 'https://gitcoin.co/grants/49/blockchain-education-network-ben-panvala-league',
@@ -666,7 +666,7 @@ export const theData = [
   },
   {
     grantId: 54,
-    'active': true,
+    isActive: true,
     address: '0x4c8def836ff37b9c9c3ccd3c1796efc78bda7998',
     name: 'Open Source ProgPoW miner full stack integration',
     slug: 'https://gitcoin.co/grants/54/open-source-progpow-miner-full-stack-integration',
@@ -701,7 +701,7 @@ export const theData = [
   },
   {
     grantId: 56,
-    'active': true,
+    isActive: true,
     address: '0x8f684ad5dc8237960a4661381022ae8030a5cd31',
     name: 'Training 1000 Ethereum developers for free in 2019',
     slug: 'https://gitcoin.co/grants/56/training-1000-ethereum-developers-for-free-in-201',
@@ -736,7 +736,7 @@ export const theData = [
   },
   {
     grantId: 58,
-    'active': true,
+    isActive: true,
     address: '0xd465484af946ab1f29ffad0c6971c5fd58b7ab7d',
     name: 'Ironbelly - Grin mobile wallet',
     slug: 'https://gitcoin.co/grants/58/ironbelly-grin-mobile-wallet',
@@ -771,7 +771,7 @@ export const theData = [
   },
   {
     grantId: 62,
-    'active': true,
+    isActive: true,
     address: '0xb7745bde70e429bbd5eb57dfa5ca70b84239477a',
     name: 'General Contributions to Python Ecosystem of Ethereum',
     slug: 'https://gitcoin.co/grants/62/general-contributions-to-python-ecosystem-of-ethe',
@@ -806,7 +806,7 @@ export const theData = [
   },
   {
     grantId: 63,
-    'active': true,
+    isActive: true,
     address: '0x3945d766185e2264900c84fac10958b3619c2bd4',
     name: 'RadicalxChange Foundation',
     slug: 'https://gitcoin.co/grants/63/radicalxchange-foundation',
@@ -841,7 +841,7 @@ export const theData = [
   },
   {
     grantId: 65,
-    'active': true,
+    isActive: true,
     address: '0xdba411d32793e057cb69658cf0d16b55dffb652a',
     name: 'urllib3 - Python HTTP Library',
     slug: 'https://gitcoin.co/grants/65/urllib3-python-http-library',
@@ -876,7 +876,7 @@ export const theData = [
   },
   {
     grantId: 66,
-    'active': true,
+    isActive: true,
     address: '0xc5cdcd5470aef35fc33bddff3f8ecec027f95b1d',
     name: 'LeapDAO - scaling for decentralized apps',
     slug: 'https://gitcoin.co/grants/66/leapdao-scaling-for-decentralized-apps',
@@ -911,7 +911,7 @@ export const theData = [
   },
   {
     grantId: 72,
-    'active': true,
+    isActive: true,
     address: '0xb5e48595afb989ddbc97763cd516ae3a983a3e36',
     name: 'POA Network Community Management Grant for Khizer',
     slug: 'https://gitcoin.co/grants/72/poa-network-community-management-grant-for-khizer',
@@ -946,7 +946,7 @@ export const theData = [
   },
   {
     grantId: 74,
-    'active': true,
+    isActive: true,
     address: '0x5f0a5d73c907611d750d1bebd725871f829255e4',
     name: 'ETHMagicians Business Model Ring',
     slug: 'https://gitcoin.co/grants/74/ethmagicians-business-model-ring',
@@ -981,7 +981,7 @@ export const theData = [
   },
   {
     grantId: 75,
-    'active': true,
+    isActive: true,
     address: '0x068792edecad424d42f0f45de7f693ca33526cf1',
     name: 'Ethereum Dev Fund Working Group',
     slug: 'https://gitcoin.co/grants/75/ethereum-dev-fund-working-group',
@@ -1016,7 +1016,7 @@ export const theData = [
   },
   {
     grantId: 78,
-    'active': true,
+    isActive: true,
     address: '0x2858b141429244dda03354aa35f1cc761a058a34',
     name: 'Coldoutreach',
     slug: 'https://gitcoin.co/grants/78/coldoutreach',
@@ -1051,7 +1051,7 @@ export const theData = [
   },
   {
     grantId: 83,
-    'active': true,
+    isActive: true,
     address: '0x1074f62d7019c3184a2f7ea8c6a8acd6780beb48',
     name: 'POA Network Community Management Grant for Adj',
     slug: 'https://gitcoin.co/grants/83/poa-network-community-management-grant-for-adj',
@@ -1086,7 +1086,7 @@ export const theData = [
   },
   {
     grantId: 85,
-    'active': true,
+    isActive: true,
     address: '0x38298ef8a8306579e21246d5227694b5560d9cb5',
     name: 'Tennagraph - Minimum bias ethereum signal aggregator',
     slug: 'https://gitcoin.co/grants/85/tennagraph-minimum-bias-ethereum-signal-aggregato',
@@ -1121,7 +1121,7 @@ export const theData = [
   },
   {
     grantId: 86,
-    'active': true,
+    isActive: true,
     address: '0xd08fe0c97c80491c6ee696ee8151bc6e57d1bf1d',
     name: 'Gitcoin Grants Core Team - Dev Fund',
     slug: 'https://gitcoin.co/grants/86/gitcoin-grants-core-team-dev-fund',
@@ -1156,7 +1156,7 @@ export const theData = [
   },
   {
     grantId: 87,
-    'active': true,
+    isActive: true,
     address: '0x7859821024e633c5dc8a4fcf86fc52e7720ce525',
     name: 'Kitsune-Wallet',
     slug: 'https://gitcoin.co/grants/87/kitsune-wallet',
@@ -1191,7 +1191,7 @@ export const theData = [
   },
   {
     grantId: 90,
-    'active': true,
+    isActive: true,
     address: '0xabf3e252006d805cce3c7219a929b83465f2a46e',
     name: 'Eggforce',
     slug: 'https://gitcoin.co/grants/90/eggforce',
@@ -1226,7 +1226,7 @@ export const theData = [
   },
   {
     grantId: 91,
-    'active': true,
+    isActive: true,
     address: '0x3bf4c90932a26c90f64b931aeb221a55bbcd0ad5',
     name: 'Eggforce: New idle game on POA Core',
     slug: 'https://gitcoin.co/grants/91/eggforce-new-idle-game-on-poa-core',
@@ -1261,7 +1261,7 @@ export const theData = [
   },
   {
     grantId: 93,
-    'active': true,
+    isActive: true,
     address: '0xabf3e252006d805cce3c7219a929b83465f2a46e',
     name: 'foo bar',
     slug: 'https://gitcoin.co/grants/93/foo-bar',
@@ -1296,7 +1296,7 @@ export const theData = [
   },
   {
     grantId: 94,
-    'active': true,
+    isActive: true,
     address: '0x3c6e0d0c9dba4709e9a8b85d1003e9985b799578',
     name: 'TSSKit: Threshold Signature Scheme Toolkit',
     slug: 'https://gitcoin.co/grants/94/tsskit-threshold-signature-scheme-toolkit',
@@ -1331,7 +1331,7 @@ export const theData = [
   },
   {
     grantId: 96,
-    'active': true,
+    isActive: true,
     address: '0xbca89cfff5cfe1313ac392ddf922eeefa2024b54',
     name: 'GrinSwap - cross chain atomic swaps with Grin',
     slug: 'https://gitcoin.co/grants/96/grinswap-cross-chain-atomic-swaps-with-grin',
@@ -1366,7 +1366,7 @@ export const theData = [
   },
   {
     grantId: 101,
-    'active': true,
+    isActive: true,
     address: '0x8a970573f88dbc7b69dfed2ba193c98c2d5d8314',
     name: 'Geon App: Augmented Reality App leveraging POA Core Network',
     slug: 'https://gitcoin.co/grants/101/geon-app-augmented-reality-app-leveraging-poa-cor',
@@ -1401,7 +1401,7 @@ export const theData = [
   },
   {
     grantId: 102,
-    'active': true,
+    isActive: true,
     address: '0x6cc55c39f51a2da7d2db5f2c4aad133eb1418c4f',
     name: 'Nimbus',
     slug: 'https://gitcoin.co/grants/102/nimbus',
@@ -1436,7 +1436,7 @@ export const theData = [
   },
   {
     grantId: 103,
-    'active': true,
+    isActive: true,
     address: '0xfe222247735b3c7ef099ba761f9477450f5256fe',
     name: 'TradeScope: Investigating Market Manipulation',
     slug: 'https://gitcoin.co/grants/103/tradescope-investigating-market-manipulation',
@@ -1471,7 +1471,7 @@ export const theData = [
   },
   {
     grantId: 104,
-    'active': true,
+    isActive: true,
     address: '0x04bb33c3a8c2d018836a1f938054ebb59e0036b2',
     name: 'Wallets.Review',
     slug: 'https://gitcoin.co/grants/104/walletsreview',
@@ -1506,7 +1506,7 @@ export const theData = [
   },
   {
     grantId: 107,
-    'active': true,
+    isActive: true,
     address: '0x726830dbb3e6a7f5009635e61cf4056d11c2dbf7',
     name: 'Secure Scuttlebutt :: Ethereum Fusion',
     slug: 'https://gitcoin.co/grants/107/secure-scuttlebutt-ethereum-fusion',
@@ -1541,7 +1541,7 @@ export const theData = [
   },
   {
     grantId: 111,
-    'active': true,
+    isActive: true,
     address: '0xa84944735b66e957fe385567dcc85975022fe68a',
     name: 'Research Grant:  Swarm Scraper for Verified Smart Contracts',
     slug: 'https://gitcoin.co/grants/111/research-grant-swarm-scraper-for-verified-smart-c',
@@ -1576,7 +1576,7 @@ export const theData = [
   },
   {
     grantId: 112,
-    'active': true,
+    isActive: true,
     address: '0xd8d149e288273b35c633afc0f825ef273e2f1257',
     name: 'Devcon Scholars Program',
     slug: 'https://gitcoin.co/grants/112/devcon-scholars-program',
@@ -1611,7 +1611,7 @@ export const theData = [
   },
   {
     grantId: 113,
-    'active': true,
+    isActive: true,
     address: '0x532e757e5d29023c5f3683b192378d15750dfa99',
     name: 'Gitcoin Moderation Tools',
     slug: 'https://gitcoin.co/grants/113/gitcoin-moderation-tools',
@@ -1646,7 +1646,7 @@ export const theData = [
   },
   {
     grantId: 114,
-    'active': true,
+    isActive: true,
     address: '0x643786c04bf98ae360d81ad6681fdf5b95ba1c2b',
     name: 'DAOG - An open ended decentralized governance game',
     slug: 'https://gitcoin.co/grants/114/daog-an-open-ended-decentralized-governance-game',
@@ -1681,7 +1681,7 @@ export const theData = [
   },
   {
     grantId: 116,
-    'active': true,
+    isActive: true,
     address: '0x7870870fb345417ac2c589b9baf280ce8019e8d7',
     name: 'Africa Blockchain Developer Program',
     slug: 'https://gitcoin.co/grants/116/africa-blockchain-developer-program',
@@ -1716,7 +1716,7 @@ export const theData = [
   },
   {
     grantId: 118,
-    'active': true,
+    isActive: true,
     address: '0xbd53a5df1fd60aba402cf346ee07ed8b058c17d0',
     name: 'Public Health Incentives Layer App',
     slug: 'https://gitcoin.co/grants/118/public-health-incentives-layer-app',
@@ -1751,7 +1751,7 @@ export const theData = [
   },
   {
     grantId: 120,
-    'active': true,
+    isActive: true,
     address: '0x1352400bf96d73d41e033f5a14416357a5e0b6bf',
     name: 'Nori',
     slug: 'https://gitcoin.co/grants/120/nori',
@@ -1786,7 +1786,7 @@ export const theData = [
   },
   {
     grantId: 121,
-    'active': true,
+    isActive: true,
     address: '0x4c63f570590b7e145d5af265497aa23fa2bc0b8c',
     name: 'Gas Stations Network old',
     slug: 'https://gitcoin.co/grants/121/gas-stations-network-old',
@@ -1821,7 +1821,7 @@ export const theData = [
   },
   {
     grantId: 123,
-    'active': true,
+    isActive: true,
     address: '0x250608d0aeeb7489adba2ae5856c80b8714ffabf',
     name: 'Gitcoin Product Development Grant',
     slug: 'https://gitcoin.co/grants/123/gitcoin-product-development-grant',
@@ -1856,7 +1856,7 @@ export const theData = [
   },
   {
     grantId: 126,
-    'active': true,
+    isActive: true,
     address: '0x35ca7ae854338dcbc154066f0ea00b636d38e431',
     name: '#HumansOfEthereum',
     slug: 'https://gitcoin.co/grants/126/humansofethereum',
@@ -1891,7 +1891,7 @@ export const theData = [
   },
   {
     grantId: 127,
-    'active': true,
+    isActive: true,
     address: '0x527621278422fff45a66f7086baeac770cf12b69',
     name: 'Planet A',
     slug: 'https://gitcoin.co/grants/127/planet-a',
@@ -1926,7 +1926,7 @@ export const theData = [
   },
   {
     grantId: 130,
-    'active': true,
+    isActive: true,
     address: '0xed2cc1105ebf222eda3c1a32f9b1ca20523a947b',
     name: 'Black Girls CODE x Blockchain Ecosystem',
     slug: 'https://gitcoin.co/grants/130/black-girls-code-x-blockchain-ecosystem',
@@ -1961,7 +1961,7 @@ export const theData = [
   },
   {
     grantId: 131,
-    'active': true,
+    isActive: true,
     address: '0xf39d549463d8d31f319225ef5c26d88f30945a38',
     name: 'You. - Decentralized Password Management',
     slug: 'https://gitcoin.co/grants/131/you-decentralized-password-management',
@@ -1996,7 +1996,7 @@ export const theData = [
   },
   {
     grantId: 135,
-    'active': true,
+    isActive: true,
     address: '0xf6f4bbf25a1e596df0d77179dd65cf6f78cb7377',
     name: 'Daohaus/Pokemol',
     slug: 'https://gitcoin.co/grants/135/daohauspokemol',
@@ -2031,7 +2031,7 @@ export const theData = [
   },
   {
     grantId: 137,
-    'active': true,
+    isActive: true,
     address: '0x70e47c843e0f6ab0991a3189c28f2957eb6d3842',
     name: 'Nimbus',
     slug: 'https://gitcoin.co/grants/137/nimbus',
@@ -2066,7 +2066,7 @@ export const theData = [
   },
   {
     grantId: 139,
-    'active': true,
+    isActive: true,
     address: '0xebdb626c95a25f4e304336b1adcad0521a1bdca1',
     name: 'defiprime.com',
     slug: 'https://gitcoin.co/grants/139/defiprimecom',
@@ -2101,7 +2101,7 @@ export const theData = [
   },
   {
     grantId: 141,
-    'active': true,
+    isActive: true,
     address: '0x0730fd7d15fa9a40a6c7b2bbb4b8ce9ee6e6d08b',
     name: 'MetaMoneyMarket',
     slug: 'https://gitcoin.co/grants/141/metamoneymarket',
@@ -2136,7 +2136,7 @@ export const theData = [
   },
   {
     grantId: 142,
-    'active': true,
+    isActive: true,
     address: '0xbc11295936aa79d594139de1b2e12629414f3bdb',
     name: 'Nethermind',
     slug: 'https://gitcoin.co/grants/142/nethermind',
@@ -2171,7 +2171,7 @@ export const theData = [
   },
   {
     grantId: 143,
-    'active': true,
+    isActive: true,
     address: '0x53390590476dc98860316e4b46bb9842af55efc4',
     name: 'DAppNode  - Panvala League',
     slug: 'https://gitcoin.co/grants/143/dappnode-panvala-league',
@@ -2206,7 +2206,7 @@ export const theData = [
   },
   {
     grantId: 144,
-    'active': true,
+    isActive: true,
     address: '0xc662606edb852ba22f75680f7b2c89767014520e',
     name: 'DeFi Tutorials',
     slug: 'https://gitcoin.co/grants/144/defi-tutorials',
@@ -2241,7 +2241,7 @@ export const theData = [
   },
   {
     grantId: 145,
-    'active': true,
+    isActive: true,
     address: '0x91bd7429bfb4731d13e2a431dd729f49b5760b03',
     name: 'Burner Wallet 2 & Burner Factory',
     slug: 'https://gitcoin.co/grants/145/burner-wallet-2-burner-factory',
@@ -2276,7 +2276,7 @@ export const theData = [
   },
   {
     grantId: 146,
-    'active': true,
+    isActive: true,
     address: '0xdf6c53df56f3992fc44195518a2d8b16306af9ff',
     name: 'Trinity - Research for migration of Ethereum 1.x to 2.0',
     slug: 'https://gitcoin.co/grants/146/trinity-research-for-migration-of-ethereum-1x-to-',
@@ -2311,7 +2311,7 @@ export const theData = [
   },
   {
     grantId: 147,
-    'active': true,
+    isActive: true,
     address: '0xdf6c53df56f3992fc44195518a2d8b16306af9ff',
     name: 'Trinity - Ethereum 2.0 client',
     slug: 'https://gitcoin.co/grants/147/trinity-ethereum-20-client',
@@ -2346,7 +2346,7 @@ export const theData = [
   },
   {
     grantId: 148,
-    'active': true,
+    isActive: true,
     address: '0x77cafb6a249a6fcc57823dc924435fefd7aaf6ba',
     name: 'CodeFund Part-Time Software Engineer',
     slug: 'https://gitcoin.co/grants/148/codefund-part-time-software-engineer',
@@ -2381,7 +2381,7 @@ export const theData = [
   },
   {
     grantId: 149,
-    'active': true,
+    isActive: true,
     address: '0x9531c059098e3d194ff87febb587ab07b30b1306',
     name: 'Rotki - The portfolio tracker and accounting tool that protects your privacy',
     slug: 'https://gitcoin.co/grants/149/rotki-the-portfolio-tracker-and-accounting-tool-t',
@@ -2416,7 +2416,7 @@ export const theData = [
   },
   {
     grantId: 150,
-    'active': true,
+    isActive: true,
     address: '0x1aa587c2288750173cc6af7c92bad7209904e496',
     name: 'McCardi - Ethereum eGift Cards',
     slug: 'https://gitcoin.co/grants/150/mccardi-ethereum-egift-cards',
@@ -2451,7 +2451,7 @@ export const theData = [
   },
   {
     grantId: 151,
-    'active': true,
+    isActive: true,
     address: '0x2fd7db002f0458112e0922ce8a8de9310ec177ed',
     name: 'CodeFund Part Time Software Engineer',
     slug: 'https://gitcoin.co/grants/151/codefund-part-time-software-engineer',
@@ -2486,7 +2486,7 @@ export const theData = [
   },
   {
     grantId: 152,
-    'active': true,
+    isActive: true,
     address: '0x32cefb2dc869bbfe636f7547cda43f561bf88d5a',
     name: 'Ethereum for Farsi speaking population',
     slug: 'https://gitcoin.co/grants/152/ethereum-for-farsi-speaking-population',
@@ -2521,7 +2521,7 @@ export const theData = [
   },
   {
     grantId: 153,
-    'active': true,
+    isActive: true,
     address: '0x910119d96fcc68fc898a02b07b3a6316992af800',
     name: 'Mailchain - Email-like messaging built on blockchain protocols and decentralized storage.',
     slug: 'https://gitcoin.co/grants/153/mailchain-email-like-messaging-built-on-blockchai',
@@ -2556,7 +2556,7 @@ export const theData = [
   },
   {
     grantId: 155,
-    'active': true,
+    isActive: true,
     address: '0x0f1025f754b3eb32ab3105127b563084bfa03a6f',
     name: 'TensorTrade: Trade Efficiently with Reinforcement Learning',
     slug: 'https://gitcoin.co/grants/155/tensortrade-trade-efficiently-with-reinforcement-',
@@ -2591,7 +2591,7 @@ export const theData = [
   },
   {
     grantId: 156,
-    'active': true,
+    isActive: true,
     address: '0x89eeaf6cef929b2b35bfa7ddd37390c6d3c86500',
     name: 'One Minute Block Time Newsletter',
     slug: 'https://gitcoin.co/grants/156/one-minute-block-time-newsletter',
@@ -2626,7 +2626,7 @@ export const theData = [
   },
   {
     grantId: 159,
-    'active': true,
+    isActive: true,
     address: '0x934b510d4c9103e6a87aef13b816fb080286d649',
     name: 'Mask Network - The Portal to the New, Open Internet.',
     slug: 'https://gitcoin.co/grants/159/mask-network-the-portal-to-the-new-open-internet',
@@ -2661,7 +2661,7 @@ export const theData = [
   },
   {
     grantId: 160,
-    'active': true,
+    isActive: true,
     address: '0x133d705a9696882228f6bb7fe008745aef7cdc93',
     name: '@antiprosynth | antiprosynthesis.eth ⟠ | Twitter account',
     slug: 'https://gitcoin.co/grants/160/antiprosynth-antiprosynthesiseth-twitter-account',
@@ -2696,7 +2696,7 @@ export const theData = [
   },
   {
     grantId: 161,
-    'active': true,
+    isActive: true,
     address: '0x3849ba8a4d7193bf550a6e04632b176f9ce1b7e8',
     name: 'Poketto Group',
     slug: 'https://gitcoin.co/grants/161/poketto-group',
@@ -2731,7 +2731,7 @@ export const theData = [
   },
   {
     grantId: 163,
-    'active': true,
+    isActive: true,
     address: '0x6dec00d2899b3caf00c72452407eb727b7298c7f',
     name: 'Enervator',
     slug: 'https://gitcoin.co/grants/163/enervator',
@@ -2766,7 +2766,7 @@ export const theData = [
   },
   {
     grantId: 164,
-    'active': true,
+    isActive: true,
     address: '0x6dec00d2899b3caf00c72452407eb727b7298c7f',
     name: 'ReportAid',
     slug: 'https://gitcoin.co/grants/164/reportaid',
@@ -2801,7 +2801,7 @@ export const theData = [
   },
   {
     grantId: 165,
-    'active': true,
+    isActive: true,
     address: '0x6dec00d2899b3caf00c72452407eb727b7298c7f',
     name: 'Provenator',
     slug: 'https://gitcoin.co/grants/165/provenator',
@@ -2836,7 +2836,7 @@ export const theData = [
   },
   {
     grantId: 166,
-    'active': true,
+    isActive: true,
     address: '0xeab48a633ada8565f2cdeb5cde162909fd64b749',
     name: 'trial',
     slug: 'https://gitcoin.co/grants/166/trial',
@@ -2871,7 +2871,7 @@ export const theData = [
   },
   {
     grantId: 167,
-    'active': true,
+    isActive: true,
     address: '0x6dec00d2899b3caf00c72452407eb727b7298c7f',
     name: 'Provenator',
     slug: 'https://gitcoin.co/grants/167/provenator',
@@ -2906,7 +2906,7 @@ export const theData = [
   },
   {
     grantId: 169,
-    'active': true,
+    isActive: true,
     address: '0xa1b02d8c67b0fdcf4e379855868deb470e169cfb',
     name: 'Alice',
     slug: 'https://gitcoin.co/grants/169/alice',
@@ -2941,7 +2941,7 @@ export const theData = [
   },
   {
     grantId: 171,
-    'active': true,
+    isActive: true,
     address: '0x39e419ba25196794b595b2a595ea8e527ddc9856',
     name: 'Tellor',
     slug: 'https://gitcoin.co/grants/171/tellor',
@@ -2976,7 +2976,7 @@ export const theData = [
   },
   {
     grantId: 172,
-    'active': true,
+    isActive: true,
     address: '0x947f8a49640b4770a8c7fe3c1e69ffc974295448',
     name: 'ZeroPool - Scaling anonymous transactions for blockchains',
     slug: 'https://gitcoin.co/grants/172/zeropool-scaling-anonymous-transactions-for-block',
@@ -3011,7 +3011,7 @@ export const theData = [
   },
   {
     grantId: 173,
-    'active': true,
+    isActive: true,
     address: '0xbc5d1e83b6e36391e5902fcfd5f44c4e786cf618',
     name: 'S33D Grant - Circle OO Bloomers  Collective Presencing & Grounding of the Dream to fertilise the Cosmic Egg ',
     slug: 'https://gitcoin.co/grants/173/s33d-grant-circle-oo-bloomers-collective-presenci',
@@ -3046,7 +3046,7 @@ export const theData = [
   },
   {
     grantId: 175,
-    'active': true,
+    isActive: true,
     address: '0x924b575917f822e32e88b7e7171fe0c00c70f401',
     name: 'Idea Markets',
     slug: 'https://gitcoin.co/grants/175/idea-markets',
@@ -3081,7 +3081,7 @@ export const theData = [
   },
   {
     grantId: 177,
-    'active': true,
+    isActive: true,
     address: '0x36a0356d43ee4168ed24efa1cae3198708667ac0',
     name: 'Social (Charity) Tokens and DAO + Carbon Accounting',
     slug: 'https://gitcoin.co/grants/177/social-charity-tokens-and-dao-carbon-accounting',
@@ -3116,7 +3116,7 @@ export const theData = [
   },
   {
     grantId: 178,
-    'active': true,
+    isActive: true,
     address: '0x36a0356d43ee4168ed24efa1cae3198708667ac0',
     name: 'Automatic transformation of XML namespaces and XML Boiler',
     slug: 'https://gitcoin.co/grants/178/automatic-transformation-of-xml-namespaces-and-xm',
@@ -3151,7 +3151,7 @@ export const theData = [
   },
   {
     grantId: 179,
-    'active': true,
+    isActive: true,
     address: '0x36a0356d43ee4168ed24efa1cae3198708667ac0',
     name: 'Algebraic General Topology',
     slug: 'https://gitcoin.co/grants/179/algebraic-general-topology',
@@ -3186,7 +3186,7 @@ export const theData = [
   },
   {
     grantId: 180,
-    'active': true,
+    isActive: true,
     address: '0x36a0356d43ee4168ed24efa1cae3198708667ac0',
     name: 'World Incentive (Wincent)',
     slug: 'https://gitcoin.co/grants/180/world-incentive-wincent',
@@ -3221,7 +3221,7 @@ export const theData = [
   },
   {
     grantId: 184,
-    'active': true,
+    isActive: true,
     address: '0xf503017d7baf7fbc0fff7492b751025c6a78179b',
     name: 'TrueBlocks',
     slug: 'https://gitcoin.co/grants/184/trueblocks',
@@ -3256,7 +3256,7 @@ export const theData = [
   },
   {
     grantId: 185,
-    'active': true,
+    isActive: true,
     address: '0xfc2c722b8fe7b3ca277d349cbad6d2c5ce2ecf9c',
     name: 'DAism',
     slug: 'https://gitcoin.co/grants/185/daism',
@@ -3291,7 +3291,7 @@ export const theData = [
   },
   {
     grantId: 186,
-    'active': true,
+    isActive: true,
     address: '0xbe4ba4b9b3dbe25a93820eef90fb4da150380510',
     name: 'Validity',
     slug: 'https://gitcoin.co/grants/186/validity',
@@ -3326,7 +3326,7 @@ export const theData = [
   },
   {
     grantId: 187,
-    'active': true,
+    isActive: true,
     address: '0xdcab3ac98dc87a1eb85cf9f81cf75c09ee8e7e5a',
     name: 'Play Ethereum',
     slug: 'https://gitcoin.co/grants/187/play-ethereum',
@@ -3361,7 +3361,7 @@ export const theData = [
   },
   {
     grantId: 188,
-    'active': true,
+    isActive: true,
     address: '0xef42cf85be6adf3081ada73af87e27996046fe63',
     name: 'ETHDevtools',
     slug: 'https://gitcoin.co/grants/188/ethdevtools',
@@ -3396,7 +3396,7 @@ export const theData = [
   },
   {
     grantId: 189,
-    'active': true,
+    isActive: true,
     address: '0x59839a277fad672ca7652817ede6adf9393dd066',
     name: 'Game in Ethereum blockchain',
     slug: 'https://gitcoin.co/grants/189/game-in-ethereum-blockchain',
@@ -3431,7 +3431,7 @@ export const theData = [
   },
   {
     grantId: 191,
-    'active': true,
+    isActive: true,
     address: '0x4b8810b079eb22ecf2d1f75e08e0abbd6fd87dbf',
     name: 'BrightID 🔆 Universal Proof of Uniqueness (Panvala League)',
     slug: 'https://gitcoin.co/grants/191/brightid-universal-proof-of-uniqueness-panvala-le',
@@ -3466,7 +3466,7 @@ export const theData = [
   },
   {
     grantId: 192,
-    'active': true,
+    isActive: true,
     address: '0x7541e31ea1635e3c6e927447e5c9a48b60ac5c8c',
     name: 'Unikeys',
     slug: 'https://gitcoin.co/grants/192/unikeys',
@@ -3501,7 +3501,7 @@ export const theData = [
   },
   {
     grantId: 193,
-    'active': true,
+    isActive: true,
     address: '0x7d1675dc635959b26f61e03637599c12c7e84fae',
     name: 'Tribute',
     slug: 'https://gitcoin.co/grants/193/tribute',
@@ -3536,7 +3536,7 @@ export const theData = [
   },
   {
     grantId: 194,
-    'active': true,
+    isActive: true,
     address: '0x0639092a9c3d9467dd6f89a13213541c8a1e58b2',
     name: 'Reach Blockchain Development Platform',
     slug: 'https://gitcoin.co/grants/194/reach-blockchain-development-platform',
@@ -3571,7 +3571,7 @@ export const theData = [
   },
   {
     grantId: 195,
-    'active': true,
+    isActive: true,
     address: '0x5b5dec770db497cd4d9ba840d39a57d90a90027c',
     name: 'THE Sustainers of SustainWeb3 🌱',
     slug: 'https://gitcoin.co/grants/195/the-sustainers-of-sustainweb3',
@@ -3606,7 +3606,7 @@ export const theData = [
   },
   {
     grantId: 196,
-    'active': true,
+    isActive: true,
     address: '0x7624cf3a128e5801d69a2ea0a13a74a6b3ebad4a',
     name: 'Ethereum DAO game',
     slug: 'https://gitcoin.co/grants/196/ethereum-dao-game',
@@ -3641,7 +3641,7 @@ export const theData = [
   },
   {
     grantId: 197,
-    'active': true,
+    isActive: true,
     address: '0xdcab3ac98dc87a1eb85cf9f81cf75c09ee8e7e5a',
     name: 'Play Ethereum',
     slug: 'https://gitcoin.co/grants/197/play-ethereum',
@@ -3676,7 +3676,7 @@ export const theData = [
   },
   {
     grantId: 198,
-    'active': true,
+    isActive: true,
     address: '0xdd4c48c0b24039969fc16d1cdf626eab821d3384',
     name: 'Tornado.cash',
     slug: 'https://gitcoin.co/grants/198/tornadocash',
@@ -3711,7 +3711,7 @@ export const theData = [
   },
   {
     grantId: 200,
-    'active': true,
+    isActive: true,
     address: '0x70ccbe10f980d80b7ebaab7d2e3a73e87d67b775',
     name: 'Vyper Smart Contract Language',
     slug: 'https://gitcoin.co/grants/200/vyper-smart-contract-language',
@@ -3746,7 +3746,7 @@ export const theData = [
   },
   {
     grantId: 201,
-    'active': true,
+    isActive: true,
     address: '0x6e4246b05d45440e1432a8fa4f5271cfb8c28246',
     name: 'V2ETH',
     slug: 'https://gitcoin.co/grants/201/v2eth',
@@ -3781,7 +3781,7 @@ export const theData = [
   },
   {
     grantId: 202,
-    'active': true,
+    isActive: true,
     address: '0x74d8967e812de34702ecd3d453a44bf37440b10b',
     name: 'Vocdoni - Decentralized anonymous voting',
     slug: 'https://gitcoin.co/grants/202/vocdoni-decentralized-anonymous-voting',
@@ -3816,7 +3816,7 @@ export const theData = [
   },
   {
     grantId: 203,
-    'active': true,
+    isActive: true,
     address: '0x865c2f85c9fea1c6ac7f53de07554d68cb92ed88',
     name: 'MetaCartel',
     slug: 'https://gitcoin.co/grants/203/metacartel',
@@ -3851,7 +3851,7 @@ export const theData = [
   },
   {
     grantId: 204,
-    'active': true,
+    isActive: true,
     address: '0x865c2f85c9fea1c6ac7f53de07554d68cb92ed88',
     name: 'Wizards of DApps podcast',
     slug: 'https://gitcoin.co/grants/204/wizards-of-dapps-podcast',
@@ -3886,7 +3886,7 @@ export const theData = [
   },
   {
     grantId: 205,
-    'active': true,
+    isActive: true,
     address: '0x526205c3bd6a6770e2d2d0f71ecefe2574521dbc',
     name: 'RadicalxChange Foundation',
     slug: 'https://gitcoin.co/grants/205/radicalxchange-foundation',
@@ -3921,7 +3921,7 @@ export const theData = [
   },
   {
     grantId: 206,
-    'active': true,
+    isActive: true,
     address: '0x7b93102844e7ef0b0a4bb1e38484ad7e2ac98c19',
     name: 'PopLocker',
     slug: 'https://gitcoin.co/grants/206/poplocker',
@@ -3956,7 +3956,7 @@ export const theData = [
   },
   {
     grantId: 210,
-    'active': true,
+    isActive: true,
     address: '0xe317c793ebc9d4a3732ca66e5a8fc4ffc213b989',
     name: 'Dans Million Dollar Day of Freedom (Testing! Do not set live!)',
     slug: 'https://gitcoin.co/grants/210/dans-million-dollar-day-of-freedom-testing-do-not',
@@ -3991,7 +3991,7 @@ export const theData = [
   },
   {
     grantId: 211,
-    'active': true,
+    isActive: true,
     address: '0x15ef9189a8282e4e1e985eb8ed767e7426b4bfd5',
     name: 'Trust Graphic Novel & Motion Comic',
     slug: 'https://gitcoin.co/grants/211/trust-graphic-novel-motion-comic',
@@ -4026,7 +4026,7 @@ export const theData = [
   },
   {
     grantId: 212,
-    'active': true,
+    isActive: true,
     address: '0x140e7364ee4e29a677a9d6ccf26ac945e7e80b65',
     name: 'THX - Add tokens to any app 🎁',
     slug: 'https://gitcoin.co/grants/212/thx-add-tokens-to-any-app',
@@ -4061,7 +4061,7 @@ export const theData = [
   },
   {
     grantId: 213,
-    'active': true,
+    isActive: true,
     address: '0xb53b0255895c4f9e3a185e484e5b674bccfbc076',
     name: 'MetaGame',
     slug: 'https://gitcoin.co/grants/213/metagame',
@@ -4096,7 +4096,7 @@ export const theData = [
   },
   {
     grantId: 216,
-    'active': true,
+    isActive: true,
     address: '0x7710c1a75b9a9d67abc493a08ca6507dc42c6a11',
     name: 'Wildcards.world',
     slug: 'https://gitcoin.co/grants/216/wildcardsworld',
@@ -4131,7 +4131,7 @@ export const theData = [
   },
   {
     grantId: 217,
-    'active': true,
+    isActive: true,
     address: '0x3ec99c49a14d4973f27ce285bc20a989af9fa0db',
     name: 'Topo Finance',
     slug: 'https://gitcoin.co/grants/217/topo-finance',
@@ -4166,7 +4166,7 @@ export const theData = [
   },
   {
     grantId: 218,
-    'active': true,
+    isActive: true,
     address: '0x8651cf790fc894512a726a402c9caaa3687628f0',
     name: 'ens-updater',
     slug: 'https://gitcoin.co/grants/218/ens-updater',
@@ -4201,7 +4201,7 @@ export const theData = [
   },
   {
     grantId: 219,
-    'active': true,
+    isActive: true,
     address: '0x35b32b4b66e3fed103288365de66d1fcb2f883ad',
     name: 'Blockada DAO',
     slug: 'https://gitcoin.co/grants/219/blockada-dao',
@@ -4236,7 +4236,7 @@ export const theData = [
   },
   {
     grantId: 220,
-    'active': true,
+    isActive: true,
     address: '0x1591b9056822c273252fcea32963223650db18e1',
     name: 'Cryptorado: Community Outreach & Expansion',
     slug: 'https://gitcoin.co/grants/220/cryptorado-community-outreach-expansion',
@@ -4271,7 +4271,7 @@ export const theData = [
   },
   {
     grantId: 221,
-    'active': true,
+    isActive: true,
     address: '0x9492510bbcb93b6992d8b7bb67888558e12dcac4',
     name: 'rTrees - Defi charity app',
     slug: 'https://gitcoin.co/grants/221/rtrees-defi-charity-app',
@@ -4306,7 +4306,7 @@ export const theData = [
   },
   {
     grantId: 223,
-    'active': true,
+    isActive: true,
     address: '0xb35cd25e91b376eafba79abe71d78814dec3401a',
     name: 'Ethereum Magicians',
     slug: 'https://gitcoin.co/grants/223/ethereum-magicians',
@@ -4341,7 +4341,7 @@ export const theData = [
   },
   {
     grantId: 225,
-    'active': true,
+    isActive: true,
     address: '0x7ef72d1e8df33cd33386efadddd9511cd4796b22',
     name: 'Mooni - Easiest crypto cash out',
     slug: 'https://gitcoin.co/grants/225/mooni-easiest-crypto-cash-out',
@@ -4376,7 +4376,7 @@ export const theData = [
   },
   {
     grantId: 227,
-    'active': true,
+    isActive: true,
     address: '0x5a0f2c1d8e563db79ee40f979f6bcd0d27f86f80',
     name: '🔒 BlockSpy - MetaMask Security Plugin',
     slug: 'https://gitcoin.co/grants/227/blockspy-metamask-security-plugin',
@@ -4411,7 +4411,7 @@ export const theData = [
   },
   {
     grantId: 228,
-    'active': true,
+    isActive: true,
     address: '0xb631e8650fb4befdae74ab9f86a9cb65bc134706',
     name: 'BUIDLHub',
     slug: 'https://gitcoin.co/grants/228/buidlhub',
@@ -4446,7 +4446,7 @@ export const theData = [
   },
   {
     grantId: 229,
-    'active': true,
+    isActive: true,
     address: '0x9a94ac82b17e67f7dff81912de68eb74ca20e6c3',
     name: 'CuraDAI - A DeFI based stable coin for Curaçao',
     slug: 'https://gitcoin.co/grants/229/curadai-a-defi-based-stable-coin-for-curacao',
@@ -4481,7 +4481,7 @@ export const theData = [
   },
   {
     grantId: 231,
-    'active': true,
+    isActive: true,
     address: '0x3c7bc69e09e387906ff6f60db5a49d3fa2c1ddb0',
     name: 'BUIDL Honduras',
     slug: 'https://gitcoin.co/grants/231/buidl-honduras',
@@ -4516,7 +4516,7 @@ export const theData = [
   },
   {
     grantId: 232,
-    'active': true,
+    isActive: true,
     address: '0x7d3e2d29c0f77d35e470942e10aed8f3a6a596fe',
     name: 'Raven-Anonymous decentralized message broadcasting',
     slug: 'https://gitcoin.co/grants/232/raven-anonymous-decentralized-message-broadcastin',
@@ -4551,7 +4551,7 @@ export const theData = [
   },
   {
     grantId: 233,
-    'active': true,
+    isActive: true,
     address: '0x9fd0c742d81b6f08817f3ef11d09cb4a9f54ee5f',
     name: 'EthereumETL',
     slug: 'https://gitcoin.co/grants/233/ethereumetl',
@@ -4586,7 +4586,7 @@ export const theData = [
   },
   {
     grantId: 234,
-    'active': true,
+    isActive: true,
     address: '0x9d4a1509da007ecb8b80d5eee9714cbe5b5b3167',
     name: 'Decentralized Infrastructure Solutions (DIS)',
     slug: 'https://gitcoin.co/grants/234/decentralized-infrastructure-solutions-dis',
@@ -4621,7 +4621,7 @@ export const theData = [
   },
   {
     grantId: 240,
-    'active': true,
+    isActive: true,
     address: '0xd44acd5a54f8d802a289c4c346d93f79177343ca',
     name: 'ethsear.ch',
     slug: 'https://gitcoin.co/grants/240/ethsearch',
@@ -4656,7 +4656,7 @@ export const theData = [
   },
   {
     grantId: 241,
-    'active': true,
+    isActive: true,
     address: '0x5a2c31ca6bcb4e594e4a5555399ecba82ba797f9',
     name: 'Zero Collateral',
     slug: 'https://gitcoin.co/grants/241/zero-collateral',
@@ -4691,7 +4691,7 @@ export const theData = [
   },
   {
     grantId: 246,
-    'active': true,
+    isActive: true,
     address: '0x4d37f28d2db99e8d35a6c725a5f1749a085850a3',
     name: '1inch.exchange on-chain DeFi aggregation protocol',
     slug: 'https://gitcoin.co/grants/246/1inchexchange-on-chain-defi-aggregation-protocol',
@@ -4726,7 +4726,7 @@ export const theData = [
   },
   {
     grantId: 247,
-    'active': true,
+    isActive: true,
     address: '0xbbd13ca6aace2a8eccbde88bc7849c3c6e4e172e',
     name: 'DeFi Discussions Conference Support',
     slug: 'https://gitcoin.co/grants/247/defi-discussions-conference-support',
@@ -4761,7 +4761,7 @@ export const theData = [
   },
   {
     grantId: 248,
-    'active': true,
+    isActive: true,
     address: '0x8688a84fcfd84d8f78020d0fc0b35987cc58911f',
     name: 'web3-react',
     slug: 'https://gitcoin.co/grants/248/web3-react',
@@ -4796,7 +4796,7 @@ export const theData = [
   },
   {
     grantId: 249,
-    'active': true,
+    isActive: true,
     address: '0xd7fe300587d41ed0e8b6a2bed5a1b2bb4fcdad9e',
     name: 'Open Raise',
     slug: 'https://gitcoin.co/grants/249/open-raise',
@@ -4831,7 +4831,7 @@ export const theData = [
   },
   {
     grantId: 251,
-    'active': true,
+    isActive: true,
     address: '0xf053adb5d6310219f84b5792db23a4fed3c25d57',
     name: 'Interaxis',
     slug: 'https://gitcoin.co/grants/251/interaxis',
@@ -4866,7 +4866,7 @@ export const theData = [
   },
   {
     grantId: 252,
-    'active': true,
+    isActive: true,
     address: '0xfe206f90c58feb8e42474c5074de43c22da8bc35',
     name: 'Hacker Vision',
     slug: 'https://gitcoin.co/grants/252/hacker-vision',
@@ -4901,7 +4901,7 @@ export const theData = [
   },
   {
     grantId: 253,
-    'active': true,
+    isActive: true,
     address: '0x7c25bb1dd0fb91c69664c461909161a14dee9782',
     name: 'Sablier',
     slug: 'https://gitcoin.co/grants/253/sablier',
@@ -4936,7 +4936,7 @@ export const theData = [
   },
   {
     grantId: 254,
-    'active': true,
+    isActive: true,
     address: '0xd7fe300587d41ed0e8b6a2bed5a1b2bb4fcdad9e',
     name: 'Open Raise',
     slug: 'https://gitcoin.co/grants/254/open-raise',
@@ -4971,7 +4971,7 @@ export const theData = [
   },
   {
     grantId: 255,
-    'active': true,
+    isActive: true,
     address: '0xd7fe300587d41ed0e8b6a2bed5a1b2bb4fcdad9e',
     name: 'Open Raise',
     slug: 'https://gitcoin.co/grants/255/open-raise',
@@ -5006,7 +5006,7 @@ export const theData = [
   },
   {
     grantId: 256,
-    'active': true,
+    isActive: true,
     address: '0xbd9cdcb6688b057080b1767261c5dc17a5804e82',
     name: 'Enzypt.io',
     slug: 'https://gitcoin.co/grants/256/enzyptio',
@@ -5041,7 +5041,7 @@ export const theData = [
   },
   {
     grantId: 258,
-    'active': true,
+    isActive: true,
     address: '0x9d4e94db689bc471e45b0a18b7bda36fccec9c3b',
     name: 'beaconcha.in - Open source Eth2 blockchain explorer',
     slug: 'https://gitcoin.co/grants/258/beaconchain-open-source-eth2-blockchain-explorer',
@@ -5076,7 +5076,7 @@ export const theData = [
   },
   {
     grantId: 259,
-    'active': true,
+    isActive: true,
     address: '0xe126b3e5d052f1f575828f61feba4f4f2603652a',
     name: 'Rosco Kalis | Revoke.cash | truffle-plugin-verify | truffle-assertions',
     slug: 'https://gitcoin.co/grants/259/rosco-kalis-revokecash-truffle-plugin-verify-truf',
@@ -5111,7 +5111,7 @@ export const theData = [
   },
   {
     grantId: 260,
-    'active': true,
+    isActive: true,
     address: '0x779e782b556e38063e0390cf10a25f63d05cabdc',
     name: 'Voyager Media',
     slug: 'https://gitcoin.co/grants/260/voyager-media',
@@ -5146,7 +5146,7 @@ export const theData = [
   },
   {
     grantId: 261,
-    'active': true,
+    isActive: true,
     address: '0x3111327edd38890c3fe564afd96b4c73e8101747',
     name: 'Articles on Smart Contract Security',
     slug: 'https://gitcoin.co/grants/261/articles-on-smart-contract-security',
@@ -5181,7 +5181,7 @@ export const theData = [
   },
   {
     grantId: 262,
-    'active': true,
+    isActive: true,
     address: '0xfb4ba4f9a0d80ffda8b11bbcdcd56a0edd7729e2',
     name: 'Uçurtma Projesi',
     slug: 'https://gitcoin.co/grants/262/ucurtma-projesi',
@@ -5216,7 +5216,7 @@ export const theData = [
   },
   {
     grantId: 263,
-    'active': true,
+    isActive: true,
     address: '0x531146f30be47bb171cb2039c25a4ae5d4fe164e',
     name: 'Growdrop:Funding the revolution of blockchain ecosystem with DeFi',
     slug: 'https://gitcoin.co/grants/263/growdropfunding-the-revolution-of-blockchain-ecos',
@@ -5251,7 +5251,7 @@ export const theData = [
   },
   {
     grantId: 264,
-    'active': true,
+    isActive: true,
     address: '0x8aba12671b20a9fb15d96d502104988fa0e48cce',
     name: 'TRIAD - Decentralized Blockchain',
     slug: 'https://gitcoin.co/grants/264/triad-decentralized-blockchain',
@@ -5286,7 +5286,7 @@ export const theData = [
   },
   {
     grantId: 265,
-    'active': true,
+    isActive: true,
     address: '0xf8049c8425f9eab4e2ae9e1d950f9d3f71481882',
     name: 'MetaFactory',
     slug: 'https://gitcoin.co/grants/265/metafactory',
@@ -5321,7 +5321,7 @@ export const theData = [
   },
   {
     grantId: 266,
-    'active': true,
+    isActive: true,
     address: '0xa424f049fb590de7eaa4900e5bce4c7834bdb950',
     name: 'Unbu Chain - Fintech Property Investment Platform',
     slug: 'https://gitcoin.co/grants/266/unbu-chain-fintech-property-investment-platform',
@@ -5356,7 +5356,7 @@ export const theData = [
   },
   {
     grantId: 267,
-    'active': true,
+    isActive: true,
     address: '0xfaf95953a36ed1e8f8426ab5b7eb53da246e3476',
     name: 'SUMA - defi interest rate derivatives',
     slug: 'https://gitcoin.co/grants/267/suma-defi-interest-rate-derivatives',
@@ -5391,7 +5391,7 @@ export const theData = [
   },
   {
     grantId: 268,
-    'active': true,
+    isActive: true,
     address: '0x073ab1c0cad3677cde9bdb0cdeedc2085c029579',
     name: 'SimpleAsWater',
     slug: 'https://gitcoin.co/grants/268/simpleaswater',
@@ -5426,7 +5426,7 @@ export const theData = [
   },
   {
     grantId: 269,
-    'active': true,
+    isActive: true,
     address: '0x2b47c57a4c9fc1649b43500f4c0cda6cf29be278',
     name: 'Limit to Win It',
     slug: 'https://gitcoin.co/grants/269/limit-to-win-it',
@@ -5461,7 +5461,7 @@ export const theData = [
   },
   {
     grantId: 270,
-    'active': true,
+    isActive: true,
     address: '0x3af494f0cee51d8aa74532d15e7733b6c91158a2',
     name: 'Decentralized Science',
     slug: 'https://gitcoin.co/grants/270/decentralized-science',
@@ -5496,7 +5496,7 @@ export const theData = [
   },
   {
     grantId: 271,
-    'active': true,
+    isActive: true,
     address: '0xcfbb0c8a2c292b7c45cbade5ac6a25d2580dcb94',
     name: 'Jelly Swap - Cross-chain Atomic Swap',
     slug: 'https://gitcoin.co/grants/271/jelly-swap-cross-chain-atomic-swap',
@@ -5531,7 +5531,7 @@ export const theData = [
   },
   {
     grantId: 274,
-    'active': true,
+    isActive: true,
     address: '0x0efe994201e2b0136dd40d5033b5f437e4c5f958',
     name: 'Abridged',
     slug: 'https://gitcoin.co/grants/274/abridged',
@@ -5566,7 +5566,7 @@ export const theData = [
   },
   {
     grantId: 275,
-    'active': true,
+    isActive: true,
     address: '0xcbec15583a21c3ddad5fab658be5b4fe85df730b',
     name: 'WalletConnect',
     slug: 'https://gitcoin.co/grants/275/walletconnect',
@@ -5601,7 +5601,7 @@ export const theData = [
   },
   {
     grantId: 276,
-    'active': true,
+    isActive: true,
     address: '0x0dee9a06897e6d2e1e3d49acb0f21a6b439181e5',
     name: 'WiniWallet',
     slug: 'https://gitcoin.co/grants/276/winiwallet',
@@ -5636,7 +5636,7 @@ export const theData = [
   },
   {
     grantId: 277,
-    'active': true,
+    isActive: true,
     address: '0xa0527ba80d811cd45d452481caf902dfd6f5b8c2',
     name: 'Commons Simulator: Level Up',
     slug: 'https://gitcoin.co/grants/277/commons-simulator-level-up',
@@ -5671,7 +5671,7 @@ export const theData = [
   },
   {
     grantId: 278,
-    'active': true,
+    isActive: true,
     address: '0x69cac784d1f0387eac5f6cac903865ea8804ed38',
     name: 'I will code review in JS/Typescript, Swift or Java',
     slug: 'https://gitcoin.co/grants/278/i-will-code-review-in-jstypescript-swift-or-java',
@@ -5706,7 +5706,7 @@ export const theData = [
   },
   {
     grantId: 279,
-    'active': true,
+    isActive: true,
     address: '0xdab148614f22dda800cf006be7932eeeb75ac644',
     name: 'End of the Chain Podcast',
     slug: 'https://gitcoin.co/grants/279/end-of-the-chain-podcast',
@@ -5741,7 +5741,7 @@ export const theData = [
   },
   {
     grantId: 280,
-    'active': true,
+    isActive: true,
     address: '0x27c350caacf45fd935814bdd2a07b2b9bffe9203',
     name: 'Fairdrop -  Secure, private & unstoppable file transfer for the free world.',
     slug: 'https://gitcoin.co/grants/280/fairdrop-secure-private-unstoppable-file-transfer',
@@ -5776,7 +5776,7 @@ export const theData = [
   },
   {
     grantId: 281,
-    'active': true,
+    isActive: true,
     address: '0xddb1cb4edbcd83066abf26e7102dc0e88009deab',
     name: 'Upala 🤖 Price-of-forgery digital identity (Panvala League)',
     slug: 'https://gitcoin.co/grants/281/upala-price-of-forgery-digital-identity-panvala-l',
@@ -5811,7 +5811,7 @@ export const theData = [
   },
   {
     grantId: 285,
-    'active': true,
+    isActive: true,
     address: '0x396e0dcd35a534975bff6bf044ac0e373a29d231',
     name: 'Democracy Earth Foundation',
     slug: 'https://gitcoin.co/grants/285/democracy-earth-foundation',
@@ -5846,7 +5846,7 @@ export const theData = [
   },
   {
     grantId: 286,
-    'active': true,
+    isActive: true,
     address: '0x1cc1c78bcfa5e872cceba516ef821e30a280a9bb',
     name: 'One Million Developers Community Fund',
     slug: 'https://gitcoin.co/grants/286/one-million-developers-community-fund',
@@ -5881,7 +5881,7 @@ export const theData = [
   },
   {
     grantId: 287,
-    'active': true,
+    isActive: true,
     address: '0x37c9ede55345e99feb48010ff21a0bc295f22e52',
     name: 'Dessert Dai',
     slug: 'https://gitcoin.co/grants/287/dessert-dai',
@@ -5916,7 +5916,7 @@ export const theData = [
   },
   {
     grantId: 288,
-    'active': true,
+    isActive: true,
     address: '0x363fdb02aee6838afb0e034dc5ea54eb8e31e8b9',
     name: 'Educational & deeply technical talks - Help me buy a camera! ',
     slug: 'https://gitcoin.co/grants/288/educational-deeply-technical-talks-help-me-buy-a-',
@@ -5951,7 +5951,7 @@ export const theData = [
   },
   {
     grantId: 289,
-    'active': true,
+    isActive: true,
     address: '0xd3e9d60e4e4de615124d5239219f32946d10151d',
     name: 'Marketing DAO',
     slug: 'https://gitcoin.co/grants/289/marketing-dao',
@@ -5986,7 +5986,7 @@ export const theData = [
   },
   {
     grantId: 290,
-    'active': true,
+    isActive: true,
     address: '0x29ae75ccbebce13cb9927ef3d3ce28965d6a66d2',
     name: 'Meson',
     slug: 'https://gitcoin.co/grants/290/meson',
@@ -6021,7 +6021,7 @@ export const theData = [
   },
   {
     grantId: 294,
-    'active': true,
+    isActive: true,
     address: '0x59471d7505c0a351973b24271817fec70b85c5ee',
     name: 'Fiona Kobayashi - Software Engineer',
     slug: 'https://gitcoin.co/grants/294/fiona-kobayashi-software-engineer',
@@ -6056,7 +6056,7 @@ export const theData = [
   },
   {
     grantId: 297,
-    'active': true,
+    isActive: true,
     address: '0xd3e9d60e4e4de615124d5239219f32946d10151d',
     name: 'Rocket NFT',
     slug: 'https://gitcoin.co/grants/297/rocket-nft',
@@ -6091,7 +6091,7 @@ export const theData = [
   },
   {
     grantId: 300,
-    'active': true,
+    isActive: true,
     address: '0x64df823e0f9dbc32fb58d69af32aa5fe3cdd0388',
     name: 'RYO Cloud by AVADO',
     slug: 'https://gitcoin.co/grants/300/ryo-cloud-by-avado',
@@ -6126,7 +6126,7 @@ export const theData = [
   },
   {
     grantId: 303,
-    'active': true,
+    isActive: true,
     address: '0xd25185f8c3b9e38c3f014378ce58b362db568352',
     name: 'Daohaus/Pokemol',
     slug: 'https://gitcoin.co/grants/303/daohauspokemol',
@@ -6161,7 +6161,7 @@ export const theData = [
   },
   {
     grantId: 304,
-    'active': true,
+    isActive: true,
     address: '0xd25185f8c3b9e38c3f014378ce58b362db568352',
     name: 'Raid Guild',
     slug: 'https://gitcoin.co/grants/304/raid-guild',
@@ -6196,7 +6196,7 @@ export const theData = [
   },
   {
     grantId: 305,
-    'active': true,
+    isActive: true,
     address: '0x8990e11b69403ea53ef2b32434bbd7dbf84b5234',
     name: 'FestDAO',
     slug: 'https://gitcoin.co/grants/305/festdao',
@@ -6231,7 +6231,7 @@ export const theData = [
   },
   {
     grantId: 306,
-    'active': true,
+    isActive: true,
     address: '0x332d87209f7c8296389c307eae170c2440830a47',
     name: 'Fantastic12 - Turn any Discord channel into a DAO',
     slug: 'https://gitcoin.co/grants/306/fantastic12-turn-any-discord-channel-into-a-dao',
@@ -6266,7 +6266,7 @@ export const theData = [
   },
   {
     grantId: 308,
-    'active': true,
+    isActive: true,
     address: '0xbcd768c566143714309afe87feb901da7543f470',
     name: 'cadCAD: Computer Aided Design for Complex Systems',
     slug: 'https://gitcoin.co/grants/308/cadcad-computer-aided-design-for-complex-systems',
@@ -6301,7 +6301,7 @@ export const theData = [
   },
   {
     grantId: 311,
-    'active': true,
+    isActive: true,
     address: '0x19fa61309158e138b685646247f58a3ce9f18145',
     name: 'echonomics',
     slug: 'https://gitcoin.co/grants/311/echonomics',
@@ -6336,7 +6336,7 @@ export const theData = [
   },
   {
     grantId: 312,
-    'active': true,
+    isActive: true,
     address: '0x2b47c57a4c9fc1649b43500f4c0cda6cf29be278',
     name: 'SCUBI-DOOS, a DeveloperUBI Dao',
     slug: 'https://gitcoin.co/grants/312/scubi-doos-a-developerubi-dao',
@@ -6371,7 +6371,7 @@ export const theData = [
   },
   {
     grantId: 314,
-    'active': true,
+    isActive: true,
     address: '0x9d31e30003f253563ff108bc60b16fdf2c93abb5',
     name: 'Now.eth - Uncensorable. Instant. Now.',
     slug: 'https://gitcoin.co/grants/314/noweth-uncensorable-instant-now',
@@ -6406,7 +6406,7 @@ export const theData = [
   },
   {
     grantId: 315,
-    'active': true,
+    isActive: true,
     address: '0x2577a8539cb2194acd72f035dbb691ce5f406d3f',
     name: 'Trackato: DeFi',
     slug: 'https://gitcoin.co/grants/315/trackato-defi',
@@ -6441,7 +6441,7 @@ export const theData = [
   },
   {
     grantId: 317,
-    'active': true,
+    isActive: true,
     address: '0x61c315be1fb8e8723d3c20c3c3169a8509b36207',
     name: 'Blockchain Education platform that rewards',
     slug: 'https://gitcoin.co/grants/317/blockchain-education-platform-that-rewards',
@@ -6476,7 +6476,7 @@ export const theData = [
   },
   {
     grantId: 318,
-    'active': true,
+    isActive: true,
     address: '0xced2d002d5c2e5a3ef2c3aae00c671a1d2b225a6',
     name: '_Prtcl - Incorporation as a legal DAO',
     slug: 'https://gitcoin.co/grants/318/_prtcl-incorporation-as-a-legal-dao',
@@ -6511,7 +6511,7 @@ export const theData = [
   },
   {
     grantId: 321,
-    'active': true,
+    isActive: true,
     address: '0x7c5434d8e6c1062e5d3c0de94f2dfce0dd4274c2',
     name: 'dArray',
     slug: 'https://gitcoin.co/grants/321/darray',
@@ -6546,7 +6546,7 @@ export const theData = [
   },
   {
     grantId: 322,
-    'active': true,
+    isActive: true,
     address: '0xf053adb5d6310219f84b5792db23a4fed3c25d57',
     name: 'Interaxis',
     slug: 'https://gitcoin.co/grants/322/interaxis',
@@ -6581,7 +6581,7 @@ export const theData = [
   },
   {
     grantId: 323,
-    'active': true,
+    isActive: true,
     address: '0x86c91ab19e7a15577b4931ceb3e7de31ba27f844',
     name: 'Gasless: Send ERC20 tokens without ETH',
     slug: 'https://gitcoin.co/grants/323/gasless-send-erc20-tokens-without-eth',
@@ -6616,7 +6616,7 @@ export const theData = [
   },
   {
     grantId: 324,
-    'active': true,
+    isActive: true,
     address: '0x31ca6ca7f7a3298bc6c5103aa45847f34e382a1c',
     name: 'Yazanator Twitter Account Activity',
     slug: 'https://gitcoin.co/grants/324/yazanator-twitter-account-activity',
@@ -6651,7 +6651,7 @@ export const theData = [
   },
   {
     grantId: 325,
-    'active': true,
+    isActive: true,
     address: '0xc82b9cac090a6e8737a77c1eae4c6eb282130bb0',
     name: 'Content about NFTs by Theo Goodman',
     slug: 'https://gitcoin.co/grants/325/content-about-nfts-by-theo-goodman',
@@ -6686,7 +6686,7 @@ export const theData = [
   },
   {
     grantId: 327,
-    'active': true,
+    isActive: true,
     address: '0xe5e1e9c58db4ecab40fd46d7ac3578b74c1d0921',
     name: 'DeFi Fund',
     slug: 'https://gitcoin.co/grants/327/defi-fund',
@@ -6721,7 +6721,7 @@ export const theData = [
   },
   {
     grantId: 328,
-    'active': true,
+    isActive: true,
     address: '0xdb9bc8b6770e179b2f1f6cd0562bbcdb99784f39',
     name: 'Ether Data Science',
     slug: 'https://gitcoin.co/grants/328/ether-data-science',
@@ -6756,7 +6756,7 @@ export const theData = [
   },
   {
     grantId: 329,
-    'active': true,
+    isActive: true,
     address: '0x4bf66e52f3009cd138e48f142d47661037160001',
     name: 'Zero Knowledge Podcast',
     slug: 'https://gitcoin.co/grants/329/zero-knowledge-podcast',
@@ -6791,7 +6791,7 @@ export const theData = [
   },
   {
     grantId: 330,
-    'active': true,
+    isActive: true,
     address: '0x84186c825d1c2bb28ae8b5a8c5ad265d39f45d74',
     name: 'Rogue Idle: A Free-to-Play Idle Game',
     slug: 'https://gitcoin.co/grants/330/rogue-idle-a-free-to-play-idle-game',
@@ -6826,7 +6826,7 @@ export const theData = [
   },
   {
     grantId: 331,
-    'active': true,
+    isActive: true,
     address: '0x7415efd9d908281ea0279c49a6c23011d9d9a0a4',
     name: 'Circles UBI',
     slug: 'https://gitcoin.co/grants/331/circles-ubi',
@@ -6861,7 +6861,7 @@ export const theData = [
   },
   {
     grantId: 336,
-    'active': true,
+    isActive: true,
     address: '0x06044b5359d8df7886366c22c61c7ecd29becac7',
     name: 'dHack - A decentralized hackathon model',
     slug: 'https://gitcoin.co/grants/336/dhack-a-decentralized-hackathon-model',
@@ -6896,7 +6896,7 @@ export const theData = [
   },
   {
     grantId: 337,
-    'active': true,
+    isActive: true,
     address: '0x76803677b44432d14f321ed943f805ab30009d20',
     name: 'zkCREAM: zero-knowledge Confidential Reliable Ethereum Anonymous Mixer',
     slug: 'https://gitcoin.co/grants/337/zkcream-zero-knowledge-confidential-reliable-ethe',
@@ -6931,7 +6931,7 @@ export const theData = [
   },
   {
     grantId: 338,
-    'active': true,
+    isActive: true,
     address: '0xb422e46540153ddaaccd8f5e899893fc53ab77b8',
     name: '2key Network Labs',
     slug: 'https://gitcoin.co/grants/338/2key-network-labs',
@@ -6966,7 +6966,7 @@ export const theData = [
   },
   {
     grantId: 341,
-    'active': true,
+    isActive: true,
     address: '0x818ff73a5d881c27a945be944973156c01141232',
     name: 'KnownOrigin.io <> ART DAO',
     slug: 'https://gitcoin.co/grants/341/knownoriginio-art-dao',
@@ -7001,7 +7001,7 @@ export const theData = [
   },
   {
     grantId: 343,
-    'active': true,
+    isActive: true,
     address: '0xd277a99c0d08ded3bdb253024bff81e41496465c',
     name: 'X5 Engine',
     slug: 'https://gitcoin.co/grants/343/x5-engine',
@@ -7036,7 +7036,7 @@ export const theData = [
   },
   {
     grantId: 344,
-    'active': true,
+    isActive: true,
     address: '0x7205a1b9c5cf6494ba2ceb5adcca831c05536912',
     name: 'Provenance & Authenticity Validation on Ethereum',
     slug: 'https://gitcoin.co/grants/344/provenance-authenticity-validation-on-ethereum',
@@ -7071,7 +7071,7 @@ export const theData = [
   },
   {
     grantId: 345,
-    'active': true,
+    isActive: true,
     address: '0xf2f8456bcfd8b3d5f89386773a80bdfcc322a770',
     name: 'CoinJournal - Cryptocurrency News',
     slug: 'https://gitcoin.co/grants/345/coinjournal-cryptocurrency-news',
@@ -7106,7 +7106,7 @@ export const theData = [
   },
   {
     grantId: 347,
-    'active': true,
+    isActive: true,
     address: '0x7030b43e821ba34124915ba65b90dbda7a9e7d09',
     name: 'CryptoScamDB',
     slug: 'https://gitcoin.co/grants/347/cryptoscamdb',
@@ -7141,7 +7141,7 @@ export const theData = [
   },
   {
     grantId: 348,
-    'active': true,
+    isActive: true,
     address: '0x24e8bb6a37774d8a0187e196beb29601ed5920bf',
     name: 'EtherLoans - undercollateralized loans, unstoppable DeFi',
     slug: 'https://gitcoin.co/grants/348/etherloans-undercollateralized-loans-unstoppable-',
@@ -7176,7 +7176,7 @@ export const theData = [
   },
   {
     grantId: 349,
-    'active': true,
+    isActive: true,
     address: '0x048d13cf020cd64e3af5987adfbc64e8b0287192',
     name: 'Fund my groceries please, dude',
     slug: 'https://gitcoin.co/grants/349/fund-my-groceries-please-dude',
@@ -7211,7 +7211,7 @@ export const theData = [
   },
   {
     grantId: 350,
-    'active': true,
+    isActive: true,
     address: '0xeb355c18a4baf212da05ed455cf2db760704d34c',
     name: 'BLlOCKCHAIN & DEFI IN AFRICAN UNIVERSITIES',
     slug: 'https://gitcoin.co/grants/350/bllockchain-defi-in-african-universities',
@@ -7246,7 +7246,7 @@ export const theData = [
   },
   {
     grantId: 351,
-    'active': true,
+    isActive: true,
     address: '0xbeb87b2e4d8b89cd2af8a3c7103db7fb2f5af022',
     name: 'Charged Particles - DeFi NFT - Interest-bearing Non-fungibles',
     slug: 'https://gitcoin.co/grants/351/charged-particles-defi-nft-interest-bearing-non-f',
@@ -7281,7 +7281,7 @@ export const theData = [
   },
   {
     grantId: 352,
-    'active': true,
+    isActive: true,
     address: '0x257cb82c6f915931b6336a4c0ebefd41c4d17f47',
     name: 'Scoopy Trooples Twitter',
     slug: 'https://gitcoin.co/grants/352/scoopy-trooples-twitter',
@@ -7316,7 +7316,7 @@ export const theData = [
   },
   {
     grantId: 353,
-    'active': true,
+    isActive: true,
     address: '0xe402823203e5714eec86f8959fc26688c1e42142',
     name: 'Lease',
     slug: 'https://gitcoin.co/grants/353/lease',
@@ -7351,7 +7351,7 @@ export const theData = [
   },
   {
     grantId: 354,
-    'active': true,
+    isActive: true,
     address: '0x0bf9a0a45077ac0a26637d8130fd759d74e0dc1d',
     name: 'Blockchangers community',
     slug: 'https://gitcoin.co/grants/354/blockchangers-community',
@@ -7386,7 +7386,7 @@ export const theData = [
   },
   {
     grantId: 356,
-    'active': true,
+    isActive: true,
     address: '0xe8bf424e047372d249d0826c5567655ba3b72f18',
     name: 'Ching! Point of Sale',
     slug: 'https://gitcoin.co/grants/356/ching-point-of-sale',
@@ -7421,7 +7421,7 @@ export const theData = [
   },
   {
     grantId: 357,
-    'active': true,
+    isActive: true,
     address: '0xe195e22df55cbc7aaa8cd2384424afe1f0c26e20',
     name: 'test this this and',
     slug: 'https://gitcoin.co/grants/357/test-this-this-and',
@@ -7456,7 +7456,7 @@ export const theData = [
   },
   {
     grantId: 358,
-    'active': true,
+    isActive: true,
     address: '0x6a3738c6299f45c31697acea647d49edcc9c28a4',
     name: 'web3swift - Elegant Web3 functionality in Swift',
     slug: 'https://gitcoin.co/grants/358/web3swift-elegant-web3-functionality-in-swift',
@@ -7491,7 +7491,7 @@ export const theData = [
   },
   {
     grantId: 359,
-    'active': true,
+    isActive: true,
     address: '0x5c930db102c6ebb9cc32fd26f8a274f9493c5c52',
     name: 'Trojan DAO / Inifinite Moloch',
     slug: 'https://gitcoin.co/grants/359/trojan-dao-inifinite-moloch',
@@ -7526,7 +7526,7 @@ export const theData = [
   },
   {
     grantId: 360,
-    'active': true,
+    isActive: true,
     address: '0x7b5a24f14c4086d34bfd805e6237229596e8235c',
     name: 'TheBlockchainCircle ',
     slug: 'https://gitcoin.co/grants/360/theblockchaincircle',
@@ -7561,7 +7561,7 @@ export const theData = [
   },
   {
     grantId: 361,
-    'active': true,
+    isActive: true,
     address: '0x9be21869873221cac1ba391a630b49d0d07a3e42',
     name: 'Cryptomaniac- Crypto Blog with Media and Entertainment Content',
     slug: 'https://gitcoin.co/grants/361/cryptomaniac-crypto-blog-with-media-and-entertain',
@@ -7596,7 +7596,7 @@ export const theData = [
   },
   {
     grantId: 365,
-    'active': true,
+    isActive: true,
     address: '0x58f123bd4261ea25955b362be57d89f4b6e7110a',
     name: 'Govrn',
     slug: 'https://gitcoin.co/grants/365/govrn',
@@ -7631,7 +7631,7 @@ export const theData = [
   },
   {
     grantId: 366,
-    'active': true,
+    isActive: true,
     address: '0x1a207beefc754735871ceeb4c506686f044b1c41',
     name: 'ETH Memes Twitter',
     slug: 'https://gitcoin.co/grants/366/eth-memes-twitter',
@@ -7666,7 +7666,7 @@ export const theData = [
   },
   {
     grantId: 368,
-    'active': true,
+    isActive: true,
     address: '0x842b87e0f5dd45ab5ff972b4d71f238ffad8ad3d',
     name: 'Akasha Hub Barcelona',
     slug: 'https://gitcoin.co/grants/368/akasha-hub-barcelona',
@@ -7701,7 +7701,7 @@ export const theData = [
   },
   {
     grantId: 369,
-    'active': true,
+    isActive: true,
     address: '0xa7499aa6464c078eeb940da2fc95c6acd010c3cc',
     name: 'Arbitrage DAO ',
     slug: 'https://gitcoin.co/grants/369/arbitrage-dao',
@@ -7736,7 +7736,7 @@ export const theData = [
   },
   {
     grantId: 370,
-    'active': true,
+    isActive: true,
     address: '0xfb2f080bcfb10ed3117a3b23653bf23fc3caec71',
     name: 'LTokens: Solving the paradox between Staking & DeFi ',
     slug: 'https://gitcoin.co/grants/370/ltokens-solving-the-paradox-between-staking-defi',
@@ -7771,7 +7771,7 @@ export const theData = [
   },
   {
     grantId: 371,
-    'active': true,
+    isActive: true,
     address: '0x7b8405d2e5c06156c6336666a0d9029a6c3b1364',
     name: 'The NonFunGerbils Podcast',
     slug: 'https://gitcoin.co/grants/371/the-nonfungerbils-podcast',
@@ -7806,7 +7806,7 @@ export const theData = [
   },
   {
     grantId: 373,
-    'active': true,
+    isActive: true,
     address: '0xcfa6118dccccbd782c2a097e3e448bc679770c5d',
     name: 'Nym',
     slug: 'https://gitcoin.co/grants/373/nym',
@@ -7841,7 +7841,7 @@ export const theData = [
   },
   {
     grantId: 374,
-    'active': true,
+    isActive: true,
     address: '0xf11446f2f4d56efad6f3eb82f31f4662d0a18e29',
     name: 'DeFi Netherlands',
     slug: 'https://gitcoin.co/grants/374/defi-netherlands',
@@ -7876,7 +7876,7 @@ export const theData = [
   },
   {
     grantId: 375,
-    'active': true,
+    isActive: true,
     address: '0xdb4d88080ed478c729b07e23f8e0ccd1f57d3f9b',
     name: 'Sense Collective: Collaborative Sensemaking and Collective Intelligence',
     slug: 'https://gitcoin.co/grants/375/sense-collective-collaborative-sensemaking-and-co',
@@ -7911,7 +7911,7 @@ export const theData = [
   },
   {
     grantId: 377,
-    'active': true,
+    isActive: true,
     address: '0x16385dfcc9139ffb357746780b64a605b4cb46f0',
     name: 'NEWFORKDELTA',
     slug: 'https://gitcoin.co/grants/377/newforkdelta',
@@ -7946,7 +7946,7 @@ export const theData = [
   },
   {
     grantId: 378,
-    'active': true,
+    isActive: true,
     address: '0xeea95edfc25f15c0c44d4081bbd85026ba298dc6',
     name: 'TokenCast',
     slug: 'https://gitcoin.co/grants/378/tokencast',
@@ -7981,7 +7981,7 @@ export const theData = [
   },
   {
     grantId: 379,
-    'active': true,
+    isActive: true,
     address: '0xbc2138f76db98af69c8c9d5c365263dca32f5e63',
     name: 'Anti-Phishing Browser Plugin | PhishFort Protect',
     slug: 'https://gitcoin.co/grants/379/anti-phishing-browser-plugin-phishfort-protect',
@@ -8016,7 +8016,7 @@ export const theData = [
   },
   {
     grantId: 380,
-    'active': true,
+    isActive: true,
     address: '0xaf30b0285bb41bdbb732e4a533874901e4943522',
     name: 'ethereum.cn | ECN以太坊中文社区',
     slug: 'https://gitcoin.co/grants/380/ethereumcn-ecnyi-tai-fang-zhong-wen-she-qu',
@@ -8051,7 +8051,7 @@ export const theData = [
   },
   {
     grantId: 381,
-    'active': true,
+    isActive: true,
     address: '0x2bb1b3510a1f609cbc74b98b3eb622cfcc3be16e',
     name: 'Animated charts of DeFi/Ethereum by James Todaro',
     slug: 'https://gitcoin.co/grants/381/animated-charts-of-defiethereum-by-james-todaro',
@@ -8086,7 +8086,7 @@ export const theData = [
   },
   {
     grantId: 383,
-    'active': true,
+    isActive: true,
     address: '0xbc5ec594509ed050f4a53eee85d92af6d2529b56',
     name: 'ActivityWatch - Open-source automated time-tracker',
     slug: 'https://gitcoin.co/grants/383/activitywatch-open-source-automated-time-tracker',
@@ -8121,7 +8121,7 @@ export const theData = [
   },
   {
     grantId: 384,
-    'active': true,
+    isActive: true,
     address: '0xd1933df1c223ad7cb5716b066ca26bc24569e622',
     name: 'Ethereum on ARM',
     slug: 'https://gitcoin.co/grants/384/ethereum-on-arm',
@@ -8156,7 +8156,7 @@ export const theData = [
   },
   {
     grantId: 386,
-    'active': true,
+    isActive: true,
     address: '0x0559a413a3ab19508a144aeebc474eb14c5e76ce',
     name: 'wolfofethereum.eth',
     slug: 'https://gitcoin.co/grants/386/wolfofethereumeth',
@@ -8191,7 +8191,7 @@ export const theData = [
   },
   {
     grantId: 387,
-    'active': true,
+    isActive: true,
     address: '0x549d562c37f8d4143d7e161da886e616c11a3ace',
     name: 'Orienteer - open source Business Application Platform',
     slug: 'https://gitcoin.co/grants/387/orienteer-open-source-business-application-platfo',
@@ -8226,7 +8226,7 @@ export const theData = [
   },
   {
     grantId: 389,
-    'active': true,
+    isActive: true,
     address: '0xfcad3475520fb54fc95305a6549a79170da8b7c0',
     name: 'AlphaOnChain',
     slug: 'https://gitcoin.co/grants/389/alphaonchain',
@@ -8261,7 +8261,7 @@ export const theData = [
   },
   {
     grantId: 390,
-    'active': true,
+    isActive: true,
     address: '0x6935e2d39536e0795dbb66428bc5bd6aec32f7fe',
     name: 'Wallet Notify - A standardized way of sending push notifications to Ethereum wallets!',
     slug: 'https://gitcoin.co/grants/390/wallet-notify-a-standardized-way-of-sending-push-',
@@ -8296,7 +8296,7 @@ export const theData = [
   },
   {
     grantId: 391,
-    'active': true,
+    isActive: true,
     address: '0x23dbbf0ffd28bf754fdc1e52f302b81303c211b0',
     name: 'BoxSwap - ',
     slug: 'https://gitcoin.co/grants/391/boxswap-',
@@ -8331,7 +8331,7 @@ export const theData = [
   },
   {
     grantId: 392,
-    'active': true,
+    isActive: true,
     address: '0xbb2581d00c6a72df195e6f3d3f02557fda48f401',
     name: 'EthFans.org',
     slug: 'https://gitcoin.co/grants/392/ethfansorg',
@@ -8366,7 +8366,7 @@ export const theData = [
   },
   {
     grantId: 394,
-    'active': true,
+    isActive: true,
     address: '0xbc5d1e83b6e36391e5902fcfd5f44c4e786cf618',
     name: 'S33D Grant - Circle Three PlantLab Cultivators Sowing Plant Lab,  Creating web interfaces to access, amalgamate and present data in wondrous ways',
     slug: 'https://gitcoin.co/grants/394/s33d-grant-circle-three-plantlab-cultivators-sowi',
@@ -8401,7 +8401,7 @@ export const theData = [
   },
   {
     grantId: 395,
-    'active': true,
+    isActive: true,
     address: '0xbc5d1e83b6e36391e5902fcfd5f44c4e786cf618',
     name: 'S33D Grant - Circle One: Grow and integrate the S33D Web App from the MVP Pod Inventory App',
     slug: 'https://gitcoin.co/grants/395/s33d-grant-circle-one-grow-and-integrate-the-s33d',
@@ -8436,7 +8436,7 @@ export const theData = [
   },
   {
     grantId: 396,
-    'active': true,
+    isActive: true,
     address: '0xbc5d1e83b6e36391e5902fcfd5f44c4e786cf618',
     name: 'S33D Grant - Circle Two: Incentivise the mapping of the Earth’s ancient trees by developing the NFTree protocol',
     slug: 'https://gitcoin.co/grants/396/s33d-grant-circle-two-incentivise-the-mapping-of-',
@@ -8471,7 +8471,7 @@ export const theData = [
   },
   {
     grantId: 397,
-    'active': true,
+    isActive: true,
     address: '0xbc5d1e83b6e36391e5902fcfd5f44c4e786cf618',
     name: 'S33D Grant-  Circle Five Orators - Spread the love and joy of yOur story across MEDIAums',
     slug: 'https://gitcoin.co/grants/397/s33d-grant-circle-five-orators-spread-the-love-an',
@@ -8506,7 +8506,7 @@ export const theData = [
   },
   {
     grantId: 398,
-    'active': true,
+    isActive: true,
     address: '0xbc5d1e83b6e36391e5902fcfd5f44c4e786cf618',
     name: 'S33D Grant - Circle Four Natural Builders - Grow the SDL propogating pods, and curating craft building techniques',
     slug: 'https://gitcoin.co/grants/398/s33d-grant-circle-four-natural-builders-grow-the-',
@@ -8541,7 +8541,7 @@ export const theData = [
   },
   {
     grantId: 401,
-    'active': true,
+    isActive: true,
     address: '0xb1b6e377aa6ec6928a1d499ae58483b2b99658ec',
     name: 'solUI - Generate Dapps for smart contracts',
     slug: 'https://gitcoin.co/grants/401/solui-generate-dapps-for-smart-contracts',
@@ -8576,7 +8576,7 @@ export const theData = [
   },
   {
     grantId: 403,
-    'active': true,
+    isActive: true,
     address: '0xfc29ae0db30064d306cea90f349448ad0d1fa030',
     name: 'Swap Box',
     slug: 'https://gitcoin.co/grants/403/swap-box',
@@ -8611,7 +8611,7 @@ export const theData = [
   },
   {
     grantId: 404,
-    'active': true,
+    isActive: true,
     address: '0x435cd42591cc503a909085c3d3d2899d17032f77',
     name: 'DAOcast',
     slug: 'https://gitcoin.co/grants/404/daocast',
@@ -8646,7 +8646,7 @@ export const theData = [
   },
   {
     grantId: 405,
-    'active': true,
+    isActive: true,
     address: '0xbf2935f259b375ea6714cbd97be767baaa26294c',
     name: 'Ethereum Jesus Events',
     slug: 'https://gitcoin.co/grants/405/ethereum-jesus-events',
@@ -8681,7 +8681,7 @@ export const theData = [
   },
   {
     grantId: 406,
-    'active': true,
+    isActive: true,
     address: '0x7e30fb962f951ef78d901865f87dd036fc5aa946',
     name: 'Avrit: The blockchain-based decentralized education system',
     slug: 'https://gitcoin.co/grants/406/avrit-the-blockchain-based-decentralized-educatio',
@@ -8716,7 +8716,7 @@ export const theData = [
   },
   {
     grantId: 407,
-    'active': true,
+    isActive: true,
     address: '0xcf82589d5bf9d27d959cfbb75ca43561a79d2be1',
     name: 'Crypto Law Review - Student Article Prize',
     slug: 'https://gitcoin.co/grants/407/crypto-law-review-student-article-prize',
@@ -8751,7 +8751,7 @@ export const theData = [
   },
   {
     grantId: 408,
-    'active': true,
+    isActive: true,
     address: '0xe80d06389ef23312389f173a7b6f66a12543640e',
     name: 'Seeds: Ask the Blockchain for Money, & Receive it as a Gift',
     slug: 'https://gitcoin.co/grants/408/seeds-ask-the-blockchain-for-money-receive-it-as-',
@@ -8786,7 +8786,7 @@ export const theData = [
   },
   {
     grantId: 410,
-    'active': true,
+    isActive: true,
     address: '0x7601471df9abd0962d0201228aa30a1c569e8d51',
     name: 'Dappertite™ User Research Lab ',
     slug: 'https://gitcoin.co/grants/410/dappertitetm-user-research-lab',
@@ -8821,7 +8821,7 @@ export const theData = [
   },
   {
     grantId: 412,
-    'active': true,
+    isActive: true,
     address: '0x40e3780e5bec58629ac4c5dc3bca3df2d7fd0c35',
     name: 'Ethereum Classic Development Team',
     slug: 'https://gitcoin.co/grants/412/ethereum-classic-development-team',
@@ -8856,7 +8856,7 @@ export const theData = [
   },
   {
     grantId: 413,
-    'active': true,
+    isActive: true,
     address: '0xbadcddea250f1e317ba59999232464933c4e8d90',
     name: 'open source web3 icon set',
     slug: 'https://gitcoin.co/grants/413/open-source-web3-icon-set',
@@ -8891,7 +8891,7 @@ export const theData = [
   },
   {
     grantId: 416,
-    'active': true,
+    isActive: true,
     address: '0x2d407ddb06311396fe14d4b49da5f0471447d45c',
     name: 'yearn.finance',
     slug: 'https://gitcoin.co/grants/416/yearnfinance',
@@ -8926,7 +8926,7 @@ export const theData = [
   },
   {
     grantId: 417,
-    'active': true,
+    isActive: true,
     address: '0xd277a99c0d08ded3bdb253024bff81e41496465c',
     name: 'X5 CMS',
     slug: 'https://gitcoin.co/grants/417/x5-cms',
@@ -8961,7 +8961,7 @@ export const theData = [
   },
   {
     grantId: 420,
-    'active': true,
+    isActive: true,
     address: '0xbc5d1e83b6e36391e5902fcfd5f44c4e786cf618',
     name: 'S33D Grant - Circle Six: sm(ART) Weavers Grow a library of smart contracts & collective document Templates ',
     slug: 'https://gitcoin.co/grants/420/s33d-grant-circle-six-smart-weavers-grow-a-librar',
@@ -8996,7 +8996,7 @@ export const theData = [
   },
   {
     grantId: 425,
-    'active': true,
+    isActive: true,
     address: '0x08b440dd2b2dd0b0de112d5f6eb6d9028eb86b70',
     name: 'Turkish Cryptocurrency YouTuber and Researcher',
     slug: 'https://gitcoin.co/grants/425/turkish-cryptocurrency-youtuber-and-researcher',
@@ -9031,7 +9031,7 @@ export const theData = [
   },
   {
     grantId: 426,
-    'active': true,
+    isActive: true,
     address: '0xf730f0b040f02d58f912ce5a4331f8371a55188e',
     name: 'ÄroRust',
     slug: 'https://gitcoin.co/grants/426/arorust',
@@ -9066,7 +9066,7 @@ export const theData = [
   },
   {
     grantId: 427,
-    'active': true,
+    isActive: true,
     address: '0xc316319950bf01e18748ed807c05cbe64d48da6b',
     name: 'Deep Work Staking Hackathon',
     slug: 'https://gitcoin.co/grants/427/deep-work-staking-hackathon',
@@ -9101,7 +9101,7 @@ export const theData = [
   },
   {
     grantId: 428,
-    'active': true,
+    isActive: true,
     address: '0x1719c7dc8216ce67f96171e1a817195ae075d78d',
     name: 'Solexplorer - Gitcoin Community Manager',
     slug: 'https://gitcoin.co/grants/428/solexplorer-gitcoin-community-manager',
@@ -9136,7 +9136,7 @@ export const theData = [
   },
   {
     grantId: 429,
-    'active': true,
+    isActive: true,
     address: '0x43a5c1331375f1f34bd774ecaee51501e9ca2db5',
     name: 'DefiSnap - Dashboard for DeFi',
     slug: 'https://gitcoin.co/grants/429/defisnap-dashboard-for-defi',
@@ -9171,7 +9171,7 @@ export const theData = [
   },
   {
     grantId: 433,
-    'active': true,
+    isActive: true,
     address: '0x1fa313ba8c968d00bc109404bd08e963eae3f1dd',
     name: 'EDCON (Community Ethereum Development Conference)',
     slug: 'https://gitcoin.co/grants/433/edcon-community-ethereum-development-conference',
@@ -9206,7 +9206,7 @@ export const theData = [
   },
   {
     grantId: 437,
-    'active': true,
+    isActive: true,
     address: '0xcaee9399d02e1c2178d506029d6497de3c2febfb',
     name: 'Unitimes-Ethereum developer community platform',
     slug: 'https://gitcoin.co/grants/437/unitimes-ethereum-developer-community-platform',
@@ -9241,7 +9241,7 @@ export const theData = [
   },
   {
     grantId: 438,
-    'active': true,
+    isActive: true,
     address: '0x4906e4f95ad546ce865916f65c825e00630bffa8',
     name: 'ADOR',
     slug: 'https://gitcoin.co/grants/438/ador',
@@ -9276,7 +9276,7 @@ export const theData = [
   },
   {
     grantId: 443,
-    'active': true,
+    isActive: true,
     address: '0x22b5de197d8a8ca13e361c268f58baf088ac4dc0',
     name: 'Cretter - solving critical thinking and debates on the internet',
     slug: 'https://gitcoin.co/grants/443/cretter-solving-critical-thinking-and-debates-on-',
@@ -9311,7 +9311,7 @@ export const theData = [
   },
   {
     grantId: 445,
-    'active': true,
+    isActive: true,
     address: '0x7e30fb962f951ef78d901865f87dd036fc5aa946',
     name: 'Shivarthu Democracy: The blockchain-based decentralized governance system',
     slug: 'https://gitcoin.co/grants/445/shivarthu-democracy-the-blockchain-based-decentra',
@@ -9346,7 +9346,7 @@ export const theData = [
   },
   {
     grantId: 446,
-    'active': true,
+    isActive: true,
     address: '0xbdc23ce356dc491dfaf8e5042f9d1bdd9a854c97',
     name: 'Virto Network',
     slug: 'https://gitcoin.co/grants/446/virto-network',
@@ -9381,7 +9381,7 @@ export const theData = [
   },
   {
     grantId: 447,
-    'active': true,
+    isActive: true,
     address: '0x806919ffb0a4ff329dd19356ad74e0425f3182cb',
     name: 'Spork / git-job.com',
     slug: 'https://gitcoin.co/grants/447/spork-git-jobcom',
@@ -9416,7 +9416,7 @@ export const theData = [
   },
   {
     grantId: 448,
-    'active': true,
+    isActive: true,
     address: '0x5cdb35fadb8262a3f88863254c870c2e6a848cca',
     name: 'Test Grant ',
     slug: 'https://gitcoin.co/grants/448/test-grant',
@@ -9451,7 +9451,7 @@ export const theData = [
   },
   {
     grantId: 450,
-    'active': true,
+    isActive: true,
     address: '0xb4bc0f815f56e052f24509a7efd93af230cc3062',
     name: 'Smart Contract Registry',
     slug: 'https://gitcoin.co/grants/450/smart-contract-registry',
@@ -9486,7 +9486,7 @@ export const theData = [
   },
   {
     grantId: 451,
-    'active': true,
+    isActive: true,
     address: '0xd0b6fa2ad5e8499cf2efee8ed8414be83162fe2b',
     name: 'Future Bank is LEGO Bank',
     slug: 'https://gitcoin.co/grants/451/future-bank-is-lego-bank',
@@ -9521,7 +9521,7 @@ export const theData = [
   },
   {
     grantId: 452,
-    'active': true,
+    isActive: true,
     address: '0x198a18bd53a19d2cead4b42587780540133f20be',
     name: 'Pocket Hospital',
     slug: 'https://gitcoin.co/grants/452/pocket-hospital',
@@ -9556,7 +9556,7 @@ export const theData = [
   },
   {
     grantId: 454,
-    'active': true,
+    isActive: true,
     address: '0xc5c38f1ca2316c3351ba91537ffc1dd80e0d257b',
     name: 'ETHGANG RECORDS crypto art & NFT music label',
     slug: 'https://gitcoin.co/grants/454/ethgang-records-crypto-art-nft-music-label',
@@ -9591,7 +9591,7 @@ export const theData = [
   },
   {
     grantId: 455,
-    'active': true,
+    isActive: true,
     address: '0xddfc2e10702d8a781727a34d83b3bb3ca94a3e91',
     name: 'Floflis OS',
     slug: 'https://gitcoin.co/grants/455/floflis-os',
@@ -9626,7 +9626,7 @@ export const theData = [
   },
   {
     grantId: 456,
-    'active': true,
+    isActive: true,
     address: '0x1d030de9290c328790a07eb06393e28e2f6d715d',
     name: 'Buidl.in',
     slug: 'https://gitcoin.co/grants/456/buidlin',
@@ -9661,7 +9661,7 @@ export const theData = [
   },
   {
     grantId: 457,
-    'active': true,
+    isActive: true,
     address: '0xb7fa4569ecbdfe1770ef4c3bd8d937cb03d83f7a',
     name: 'DeLance',
     slug: 'https://gitcoin.co/grants/457/delance',
@@ -9696,7 +9696,7 @@ export const theData = [
   },
   {
     grantId: 459,
-    'active': true,
+    isActive: true,
     address: '0x36a0356d43ee4168ed24efa1cae3198708667ac0',
     name: 'Foundational D Language Libraries',
     slug: 'https://gitcoin.co/grants/459/foundational-d-language-libraries',
@@ -9731,7 +9731,7 @@ export const theData = [
   },
   {
     grantId: 460,
-    'active': true,
+    isActive: true,
     address: '0xd1a8dd23e356b9fae27df5def9ea025a602ec81e',
     name: 'Real Code Camp  - is a Online Opensource Bootcamp',
     slug: 'https://gitcoin.co/grants/460/real-code-camp-is-a-online-opensource-bootcamp',
@@ -9766,7 +9766,7 @@ export const theData = [
   },
   {
     grantId: 461,
-    'active': true,
+    isActive: true,
     address: '0xd461cf004eda0ddb0028b831b62bf38b3a6d1e5a',
     name: 'Aleph.im - Decentralized open-source cloud platform',
     slug: 'https://gitcoin.co/grants/461/alephim-decentralized-open-source-cloud-platform',
@@ -9801,7 +9801,7 @@ export const theData = [
   },
   {
     grantId: 462,
-    'active': true,
+    isActive: true,
     address: '0x9ef0192aeab52598aca2cfd4dcf0a5178f2f11cf',
     name: 'saveDAI',
     slug: 'https://gitcoin.co/grants/462/savedai',
@@ -9836,7 +9836,7 @@ export const theData = [
   },
   {
     grantId: 463,
-    'active': true,
+    isActive: true,
     address: '0x0b7c0949971332f083b542751dd44e8910e09982',
     name: 'Mojkripto.com - crypto-related blog',
     slug: 'https://gitcoin.co/grants/463/mojkriptocom-crypto-related-blog',
@@ -9871,7 +9871,7 @@ export const theData = [
   },
   {
     grantId: 464,
-    'active': true,
+    isActive: true,
     address: '0x8096da6ced12b75684054ef16e1bf7e376353c29',
     name: 'Lend and borrow Ethereum ERC-721 tokens with LEND721 platform',
     slug: 'https://gitcoin.co/grants/464/lend-and-borrow-ethereum-erc-721-tokens-with-lend',
@@ -9906,7 +9906,7 @@ export const theData = [
   },
   {
     grantId: 465,
-    'active': true,
+    isActive: true,
     address: '0xed628e601012cc6fd57dc0cede2a527cdc86a221',
     name: 'Gitcoin Developer Grant - zoek1',
     slug: 'https://gitcoin.co/grants/465/gitcoin-developer-grant-zoek1',
@@ -9941,7 +9941,7 @@ export const theData = [
   },
   {
     grantId: 468,
-    'active': true,
+    isActive: true,
     address: '0x7ba18d8d4b0e4eb06a720af2bec29603078c806b',
     name: 'ETHPlanet - member of togETHer',
     slug: 'https://gitcoin.co/grants/468/ethplanet-member-of-together',
@@ -9976,7 +9976,7 @@ export const theData = [
   },
   {
     grantId: 469,
-    'active': true,
+    isActive: true,
     address: '0x63d89ef4fdbc3ced043f3b3366237365b65c3b15',
     name: 'Flu Mob',
     slug: 'https://gitcoin.co/grants/469/flu-mob',
@@ -10011,7 +10011,7 @@ export const theData = [
   },
   {
     grantId: 470,
-    'active': true,
+    isActive: true,
     address: '0x863199c0a7eb5c6e70e0889a93242445ee998cf4',
     name: 'Staking Library',
     slug: 'https://gitcoin.co/grants/470/staking-library',
@@ -10046,7 +10046,7 @@ export const theData = [
   },
   {
     grantId: 471,
-    'active': true,
+    isActive: true,
     address: '0x252da35c66f55ac66d97acc6aef4f5d18e25853c',
     name: 'whiterabbit',
     slug: 'https://gitcoin.co/grants/471/whiterabbit',
@@ -10081,7 +10081,7 @@ export const theData = [
   },
   {
     grantId: 473,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show',
     slug: 'https://gitcoin.co/grants/473/bbft-podcast-show',
@@ -10116,7 +10116,7 @@ export const theData = [
   },
   {
     grantId: 474,
-    'active': true,
+    isActive: true,
     address: '0x0b25b46a70e7f9296c6d8bae9a84c887da5cb9ec',
     name: 'Kudos quest quality management',
     slug: 'https://gitcoin.co/grants/474/kudos-quest-quality-management',
@@ -10151,7 +10151,7 @@ export const theData = [
   },
   {
     grantId: 475,
-    'active': true,
+    isActive: true,
     address: '0x158d6727b17aaba726d7318ac7dca5edf8faf6f8',
     name: 'CryptoGift',
     slug: 'https://gitcoin.co/grants/475/cryptogift',
@@ -10186,7 +10186,7 @@ export const theData = [
   },
   {
     grantId: 477,
-    'active': true,
+    isActive: true,
     address: '0x335d6cec3668f9951c3aa90600986ab350b3d059',
     name: 'FriendsFingers',
     slug: 'https://gitcoin.co/grants/477/friendsfingers',
@@ -10221,7 +10221,7 @@ export const theData = [
   },
   {
     grantId: 478,
-    'active': true,
+    isActive: true,
     address: '0xe8130f62f1212ac1dd1274474e6eb3d3bfb59745',
     name: 'Outlet Finance',
     slug: 'https://gitcoin.co/grants/478/outlet-finance',
@@ -10256,7 +10256,7 @@ export const theData = [
   },
   {
     grantId: 480,
-    'active': true,
+    isActive: true,
     address: '0xc44e4c49ffa5db98ca52770dff3e371ecb01f2d9',
     name: 'Token Allowance Checker',
     slug: 'https://gitcoin.co/grants/480/token-allowance-checker',
@@ -10291,7 +10291,7 @@ export const theData = [
   },
   {
     grantId: 483,
-    'active': true,
+    isActive: true,
     address: '0x43ab381f4b41bf775deec64f24c3887e898c0cdf',
     name: 'Red Cross Italy Coronavirus Response',
     slug: 'https://gitcoin.co/grants/483/red-cross-italy-coronavirus-response',
@@ -10326,7 +10326,7 @@ export const theData = [
   },
   {
     grantId: 484,
-    'active': true,
+    isActive: true,
     address: '0x3792acdf2a8658fbade0ea70c47b89cb7777a5a5',
     name: 'DEPO DAO (Decentralized Politics DAO) - Panvala League',
     slug: 'https://gitcoin.co/grants/484/depo-dao-decentralized-politics-dao-panvala-leagu',
@@ -10361,7 +10361,7 @@ export const theData = [
   },
   {
     grantId: 485,
-    'active': true,
+    isActive: true,
     address: '0xe3856fbf298f539b6585224ece523488bfb9f82c',
     name: 'NeedsList: Connecting Needs and Offers in Real-time for COVID-19 Community Response',
     slug: 'https://gitcoin.co/grants/485/needslist-connecting-needs-and-offers-in-real-tim',
@@ -10396,7 +10396,7 @@ export const theData = [
   },
   {
     grantId: 486,
-    'active': true,
+    isActive: true,
     address: '0xb28abfe2c14e2b36f8964ccc7c4dca17cfb95bde',
     name: 'Opolis',
     slug: 'https://gitcoin.co/grants/486/opolis',
@@ -10431,7 +10431,7 @@ export const theData = [
   },
   {
     grantId: 487,
-    'active': true,
+    isActive: true,
     address: '0xcf24939b6c28196b1da830b07d138ea8e2aa8ab5',
     name: 'LOCAL.ly',
     slug: 'https://gitcoin.co/grants/487/locally',
@@ -10466,7 +10466,7 @@ export const theData = [
   },
   {
     grantId: 489,
-    'active': true,
+    isActive: true,
     address: '0xb98f1339dab073a480c931bceb2a97e5dda35fe3',
     name: 'The Watchdog.',
     slug: 'https://gitcoin.co/grants/489/the-watchdog',
@@ -10501,7 +10501,7 @@ export const theData = [
   },
   {
     grantId: 490,
-    'active': true,
+    isActive: true,
     address: '0x20d08e58952bb70ff0ec1271085ca969c14be2a3',
     name: 'POAP  (Proof of Attendance Protocol)',
     slug: 'https://gitcoin.co/grants/490/poap-proof-of-attendance-protocol',
@@ -10536,7 +10536,7 @@ export const theData = [
   },
   {
     grantId: 491,
-    'active': true,
+    isActive: true,
     address: '0x011c2c1433b36a524b548444ae2f20c015427d04',
     name: 'Tokamak Network: Decentralized, Scalable, Turing Complete Layer 2 Plasma',
     slug: 'https://gitcoin.co/grants/491/tokamak-network-decentralized-scalable-turing-com',
@@ -10571,7 +10571,7 @@ export const theData = [
   },
   {
     grantId: 493,
-    'active': true,
+    isActive: true,
     address: '0xdff2507a06017b5e27d7615a4c7555c3d8ee05b3',
     name: 'No Kid Hungry',
     slug: 'https://gitcoin.co/grants/493/no-kid-hungry',
@@ -10606,7 +10606,7 @@ export const theData = [
   },
   {
     grantId: 494,
-    'active': true,
+    isActive: true,
     address: '0x50b3f21a3d49847dd39fb6591419c75653fa9dce',
     name: 'Save the Children',
     slug: 'https://gitcoin.co/grants/494/save-the-children',
@@ -10641,7 +10641,7 @@ export const theData = [
   },
   {
     grantId: 496,
-    'active': true,
+    isActive: true,
     address: '0x416deca06f9af666abe1666e80e8d30bba66d1c5',
     name: 'Ethereum contacts registry (ECR)',
     slug: 'https://gitcoin.co/grants/496/ethereum-contacts-registry-ecr',
@@ -10676,7 +10676,7 @@ export const theData = [
   },
   {
     grantId: 500,
-    'active': true,
+    isActive: true,
     address: '0x2f71129b240080c638ac8d993bff52169e3551c3',
     name: 'DeFi Dad DeFi Tutorials on YouTube and Twitter',
     slug: 'https://gitcoin.co/grants/500/defi-dad-defi-tutorials-on-youtube-and-twitter',
@@ -10711,7 +10711,7 @@ export const theData = [
   },
   {
     grantId: 502,
-    'active': true,
+    isActive: true,
     address: '0x6327c1e68f86e76518d1e3da8362ab6ac880497d',
     name: 'SOS Childrens Villages',
     slug: 'https://gitcoin.co/grants/502/sos-childrens-villages',
@@ -10746,7 +10746,7 @@ export const theData = [
   },
   {
     grantId: 503,
-    'active': true,
+    isActive: true,
     address: '0xf223bcaed22ddd7358c0a8279ed50bdd33c5ce9e',
     name: 'The Gathering Place: A Refuge For Rebuilding Lives',
     slug: 'https://gitcoin.co/grants/503/the-gathering-place-a-refuge-for-rebuilding-lives',
@@ -10781,7 +10781,7 @@ export const theData = [
   },
   {
     grantId: 504,
-    'active': true,
+    isActive: true,
     address: '0xd2ce6bb87d5f59e524ae028291f8e5192b097afa',
     name: 'Team Rubicon #NeighborsHelpingNeighbors',
     slug: 'https://gitcoin.co/grants/504/team-rubicon-neighborshelpingneighbors',
@@ -10816,7 +10816,7 @@ export const theData = [
   },
   {
     grantId: 505,
-    'active': true,
+    isActive: true,
     address: '0x1741b88fbfb93fa3fe096f3af27c21ea36123410',
     name: 'ETHHealth',
     slug: 'https://gitcoin.co/grants/505/ethhealth',
@@ -10851,7 +10851,7 @@ export const theData = [
   },
   {
     grantId: 506,
-    'active': true,
+    isActive: true,
     address: '0x5a129e69a3d36a371e844a0616bf69192605afab',
     name: 'Mundo Descentralizado',
     slug: 'https://gitcoin.co/grants/506/mundo-descentralizado',
@@ -10886,7 +10886,7 @@ export const theData = [
   },
   {
     grantId: 507,
-    'active': true,
+    isActive: true,
     address: '0x6529bd3f7c8b4e3338c5d32347ab8dfe1c65cb37',
     name: 'Support for Freelance Community Management and Contribution',
     slug: 'https://gitcoin.co/grants/507/support-for-freelance-community-management-and-co',
@@ -10921,7 +10921,7 @@ export const theData = [
   },
   {
     grantId: 508,
-    'active': true,
+    isActive: true,
     address: '0x6529bd3f7c8b4e3338c5d32347ab8dfe1c65cb37',
     name: 'Support for Freelance Community Management and Contribution',
     slug: 'https://gitcoin.co/grants/508/support-for-freelance-community-management-and-co',
@@ -10956,7 +10956,7 @@ export const theData = [
   },
   {
     grantId: 509,
-    'active': true,
+    isActive: true,
     address: '0xf685b27654e63b64ec631028ae20f7a98298f5d6',
     name: 'Community Platform',
     slug: 'https://gitcoin.co/grants/509/community-platform',
@@ -10991,7 +10991,7 @@ export const theData = [
   },
   {
     grantId: 510,
-    'active': true,
+    isActive: true,
     address: '0x3111327edd38890c3fe564afd96b4c73e8101747',
     name: 'Trustless Fund',
     slug: 'https://gitcoin.co/grants/510/trustless-fund',
@@ -11026,7 +11026,7 @@ export const theData = [
   },
   {
     grantId: 511,
-    'active': true,
+    isActive: true,
     address: '0x36a0356d43ee4168ed24efa1cae3198708667ac0',
     name: 'Axiomatic Theory of Formulas',
     slug: 'https://gitcoin.co/grants/511/axiomatic-theory-of-formulas',
@@ -11061,7 +11061,7 @@ export const theData = [
   },
   {
     grantId: 512,
-    'active': true,
+    isActive: true,
     address: '0x36a0356d43ee4168ed24efa1cae3198708667ac0',
     name: 'Virtual Scientific Conference online',
     slug: 'https://gitcoin.co/grants/512/virtual-scientific-conference-online',
@@ -11096,7 +11096,7 @@ export const theData = [
   },
   {
     grantId: 513,
-    'active': true,
+    isActive: true,
     address: '0xb391ae8fc7483770930d1deab5a898206e9cdb3f',
     name: 'Connexion',
     slug: 'https://gitcoin.co/grants/513/connexion',
@@ -11131,7 +11131,7 @@ export const theData = [
   },
   {
     grantId: 514,
-    'active': true,
+    isActive: true,
     address: '0xf5913759b449fae8900d61f7116d451d200c60f7',
     name: 'DeepDAO - Discovery Engine  for the DAO Ecosystem',
     slug: 'https://gitcoin.co/grants/514/deepdao-discovery-engine-for-the-dao-ecosystem',
@@ -11166,7 +11166,7 @@ export const theData = [
   },
   {
     grantId: 516,
-    'active': true,
+    isActive: true,
     address: '0x2ecaf144f32baf25f35316ad67a5aee985c1c244',
     name: 'Interspace.chat',
     slug: 'https://gitcoin.co/grants/516/interspacechat',
@@ -11201,7 +11201,7 @@ export const theData = [
   },
   {
     grantId: 517,
-    'active': true,
+    isActive: true,
     address: '0x3b067af83f540cb827825a6ee5480441a4237e77',
     name: 'TokenEngineering Academy – Education for Web3 Crypto Economic System Designers',
     slug: 'https://gitcoin.co/grants/517/tokenengineering-academy-education-for-web3-crypt',
@@ -11236,7 +11236,7 @@ export const theData = [
   },
   {
     grantId: 519,
-    'active': true,
+    isActive: true,
     address: '0x5d7d257d97d8a81f51187a77c6dd226fb8424d90',
     name: 'rDAI',
     slug: 'https://gitcoin.co/grants/519/rdai',
@@ -11271,7 +11271,7 @@ export const theData = [
   },
   {
     grantId: 522,
-    'active': true,
+    isActive: true,
     address: '0x224cf0b963c59b95623b3dd6ce07b4ce40f7b134',
     name: 'Support the 🌟  Community Currency Alliance 🌟  enabling an inclusive currency ecosystem',
     slug: 'https://gitcoin.co/grants/522/support-the-community-currency-alliance-enabling-',
@@ -11306,7 +11306,7 @@ export const theData = [
   },
   {
     grantId: 524,
-    'active': true,
+    isActive: true,
     address: '0xfcc41c4614bd464ba28ad96f93aadaa7ba6c8680',
     name: 'clr.fund',
     slug: 'https://gitcoin.co/grants/524/clrfund',
@@ -11341,7 +11341,7 @@ export const theData = [
   },
   {
     grantId: 526,
-    'active': true,
+    isActive: true,
     address: '0x519b70055af55a007110b4ff99b0ea33071c720a',
     name: 'Omen.eth - A prediction market protocol and product owned by the Dxdao',
     slug: 'https://gitcoin.co/grants/526/omeneth-a-prediction-market-protocol-and-product-',
@@ -11376,7 +11376,7 @@ export const theData = [
   },
   {
     grantId: 527,
-    'active': true,
+    isActive: true,
     address: '0xeb5b8537a39503d6221f30c3d12d38f540a6caa4',
     name: 'Democracy.js',
     slug: 'https://gitcoin.co/grants/527/democracyjs',
@@ -11411,7 +11411,7 @@ export const theData = [
   },
   {
     grantId: 528,
-    'active': true,
+    isActive: true,
     address: '0x519b70055af55a007110b4ff99b0ea33071c720a',
     name: 'Mix.eth - A portfolio tracker with privacy and security as its core owned by the Dxdao',
     slug: 'https://gitcoin.co/grants/528/mixeth-a-portfolio-tracker-with-privacy-and-secur',
@@ -11446,7 +11446,7 @@ export const theData = [
   },
   {
     grantId: 529,
-    'active': true,
+    isActive: true,
     address: '0xf58d45805ec4880984765d6daf6072f53a76d925',
     name: 'Cryptotesters - Onboard people to crypto',
     slug: 'https://gitcoin.co/grants/529/cryptotesters-onboard-people-to-crypto',
@@ -11481,7 +11481,7 @@ export const theData = [
   },
   {
     grantId: 530,
-    'active': true,
+    isActive: true,
     address: '0x1388961fbc1df252749b91a2a73c4b0d7377841f',
     name: '0xEarth',
     slug: 'https://gitcoin.co/grants/530/0xearth',
@@ -11516,7 +11516,7 @@ export const theData = [
   },
   {
     grantId: 534,
-    'active': true,
+    isActive: true,
     address: '0x6fddd58af8a24cde9310533cc134da597e3d951d',
     name: 'Health Data Analysis Platform',
     slug: 'https://gitcoin.co/grants/534/health-data-analysis-platform',
@@ -11551,7 +11551,7 @@ export const theData = [
   },
   {
     grantId: 536,
-    'active': true,
+    isActive: true,
     address: '0x491f43cac7becf91f45438d3c39bb07982e0c0a3',
     name: 'Synapxyz',
     slug: 'https://gitcoin.co/grants/536/synapxyz',
@@ -11586,7 +11586,7 @@ export const theData = [
   },
   {
     grantId: 537,
-    'active': true,
+    isActive: true,
     address: '0xd19f56be804881fcb2284e991e3ca1b078d8bcc0',
     name: 'Q.E.D.',
     slug: 'https://gitcoin.co/grants/537/qed',
@@ -11621,7 +11621,7 @@ export const theData = [
   },
   {
     grantId: 538,
-    'active': true,
+    isActive: true,
     address: '0xe4f8669484ddd61a0386fc22f45ff068ea16eee0',
     name: 'Gister — decentralizing pastes/gists',
     slug: 'https://gitcoin.co/grants/538/gister-decentralizing-pastesgists',
@@ -11656,7 +11656,7 @@ export const theData = [
   },
   {
     grantId: 539,
-    'active': true,
+    isActive: true,
     address: '0x8110d1d04ac316fdcace8f24fd60c86b810ab15a',
     name: 'The Commons Stack: Iteration 0',
     slug: 'https://gitcoin.co/grants/539/the-commons-stack-iteration-0',
@@ -11691,7 +11691,7 @@ export const theData = [
   },
   {
     grantId: 542,
-    'active': true,
+    isActive: true,
     address: '0x1a33938a402a648c9af7ed8a0b9079350f81a8a0',
     name: 'TuneDAO',
     slug: 'https://gitcoin.co/grants/542/tunedao',
@@ -11726,7 +11726,7 @@ export const theData = [
   },
   {
     grantId: 543,
-    'active': true,
+    isActive: true,
     address: '0xa8a4912938549d50ef3e7c698c890e18d73408ee',
     name: 'The MoonMath Manual to zk-SNARKs',
     slug: 'https://gitcoin.co/grants/543/the-moonmath-manual-to-zk-snarks',
@@ -11761,7 +11761,7 @@ export const theData = [
   },
   {
     grantId: 544,
-    'active': true,
+    isActive: true,
     address: '0x18ac920241e0f5699448379e63069724d9d8a603',
     name: 'CultureStake',
     slug: 'https://gitcoin.co/grants/544/culturestake',
@@ -11796,7 +11796,7 @@ export const theData = [
   },
   {
     grantId: 545,
-    'active': true,
+    isActive: true,
     address: '0xffaf2f3721cd970d327362d5df9bb1fa4f47a222',
     name: 'African Angels',
     slug: 'https://gitcoin.co/grants/545/african-angels',
@@ -11831,7 +11831,7 @@ export const theData = [
   },
   {
     grantId: 546,
-    'active': true,
+    isActive: true,
     address: '0xafdd1eb2511cd891acf2bff82dabf47e0c914d24',
     name: '1UP WORLD',
     slug: 'https://gitcoin.co/grants/546/1up-world',
@@ -11866,7 +11866,7 @@ export const theData = [
   },
   {
     grantId: 547,
-    'active': true,
+    isActive: true,
     address: '0x6ceff06c1538e4020ae8187bb307f515a1bccf54',
     name: 'Tracy - An intelligent application using decentralized storage and blockchain to manage pandemics',
     slug: 'https://gitcoin.co/grants/547/tracy-an-intelligent-application-using-decentrali',
@@ -11901,7 +11901,7 @@ export const theData = [
   },
   {
     grantId: 548,
-    'active': true,
+    isActive: true,
     address: '0x3953017af23ab99a7d40f3d26f1595f27c91345f',
     name: 'togeDAO -  A forum and social media community built on the Ethereum blockchain to incentivize content creators.',
     slug: 'https://gitcoin.co/grants/548/togedao-a-forum-and-social-media-community-built-',
@@ -11936,7 +11936,7 @@ export const theData = [
   },
   {
     grantId: 549,
-    'active': true,
+    isActive: true,
     address: '0x3eb24c61590e6cd6fc26cf4fb938316206147859',
     name: 'Privacy preserving COVID-19 Self-reporting',
     slug: 'https://gitcoin.co/grants/549/privacy-preserving-covid-19-self-reporting',
@@ -11971,7 +11971,7 @@ export const theData = [
   },
   {
     grantId: 550,
-    'active': true,
+    isActive: true,
     address: '0xf053adb5d6310219f84b5792db23a4fed3c25d57',
     name: 'Interaxis - Whiteboard Videos and Education',
     slug: 'https://gitcoin.co/grants/550/interaxis-whiteboard-videos-and-education',
@@ -12006,7 +12006,7 @@ export const theData = [
   },
   {
     grantId: 552,
-    'active': true,
+    isActive: true,
     address: '0x4f2350bc303ca6f01e2777d8c674ac561fdad1de',
     name: 'DeFi Pulse Registry',
     slug: 'https://gitcoin.co/grants/552/defi-pulse-registry',
@@ -12041,7 +12041,7 @@ export const theData = [
   },
   {
     grantId: 554,
-    'active': true,
+    isActive: true,
     address: '0x0d3d681762f9eda9541fab6acfb17c50025b630b',
     name: 'Commūnitās',
     slug: 'https://gitcoin.co/grants/554/communitas',
@@ -12076,7 +12076,7 @@ export const theData = [
   },
   {
     grantId: 555,
-    'active': true,
+    isActive: true,
     address: '0x59abf56683a63efa7031883604211138b5483516',
     name: 'Loan Shark ',
     slug: 'https://gitcoin.co/grants/555/loan-shark',
@@ -12111,7 +12111,7 @@ export const theData = [
   },
   {
     grantId: 556,
-    'active': true,
+    isActive: true,
     address: '0x82338b1b27cfc0c27d79c3738b748f951ab1a7a0',
     name: 'The Department of Decentralization (neé ETHBerlin) ',
     slug: 'https://gitcoin.co/grants/556/the-department-of-decentralization-nee-ethberlin',
@@ -12146,7 +12146,7 @@ export const theData = [
   },
   {
     grantId: 558,
-    'active': true,
+    isActive: true,
     address: '0x0b93ba560283350d4216f29dc57e15df38d0eace',
     name: 'CuraDAO COVID-19 Campaign - Remote & Thriving',
     slug: 'https://gitcoin.co/grants/558/curadao-covid-19-campaign-remote-thriving',
@@ -12181,7 +12181,7 @@ export const theData = [
   },
   {
     grantId: 561,
-    'active': true,
+    isActive: true,
     address: '0xc7464dbca260a8faf033460622b23467df5aea42',
     name: 'GiveDirectly COVID-19 Response',
     slug: 'https://gitcoin.co/grants/561/givedirectly-covid-19-response',
@@ -12216,7 +12216,7 @@ export const theData = [
   },
   {
     grantId: 562,
-    'active': true,
+    isActive: true,
     address: '0x41d2a18e1ddacdabfddadb62e9aee67c63070b76',
     name: 'Learning Data Science on the Ethereum Blockchain with @omnianalytics',
     slug: 'https://gitcoin.co/grants/562/learning-data-science-on-the-ethereum-blockchain-',
@@ -12251,7 +12251,7 @@ export const theData = [
   },
   {
     grantId: 564,
-    'active': true,
+    isActive: true,
     address: '0x84a57c709482d44ce49511adac7ed7f1db299455',
     name: 'Dandelion [Panvala League]',
     slug: 'https://gitcoin.co/grants/564/dandelion-panvala-league',
@@ -12286,7 +12286,7 @@ export const theData = [
   },
   {
     grantId: 565,
-    'active': true,
+    isActive: true,
     address: '0x9c159121ceebf937e9bad98fd0c895d7f6038bd4',
     name: 'Our Network - Building Crypto Communities With Data',
     slug: 'https://gitcoin.co/grants/565/our-network-building-crypto-communities-with-data',
@@ -12321,7 +12321,7 @@ export const theData = [
   },
   {
     grantId: 566,
-    'active': true,
+    isActive: true,
     address: '0x60fe4e37a85d60f772b5aacff937d24e6ed1cb24',
     name: 'Shy Panda',
     slug: 'https://gitcoin.co/grants/566/shy-panda',
@@ -12356,7 +12356,7 @@ export const theData = [
   },
   {
     grantId: 567,
-    'active': true,
+    isActive: true,
     address: '0x8df168a41c3a3c6be0e9208d5027ea80f2c5ba25',
     name: 'The Defiant - Subscriptions for All!',
     slug: 'https://gitcoin.co/grants/567/the-defiant-subscriptions-for-all',
@@ -12391,7 +12391,7 @@ export const theData = [
   },
   {
     grantId: 568,
-    'active': true,
+    isActive: true,
     address: '0x58315fb2b6e94371679ffb4b3322ab32f3dc7311',
     name: 'MetaSpace (Panvala League) 🛡',
     slug: 'https://gitcoin.co/grants/568/metaspace-panvala-league',
@@ -12426,7 +12426,7 @@ export const theData = [
   },
   {
     grantId: 569,
-    'active': true,
+    isActive: true,
     address: '0x71765388bdde1079ec83f0448242469d69ae93f2',
     name: 'Seth Goldfarb - Developing the story of decentralization',
     slug: 'https://gitcoin.co/grants/569/seth-goldfarb-developing-the-story-of-decentraliz',
@@ -12461,7 +12461,7 @@ export const theData = [
   },
   {
     grantId: 570,
-    'active': true,
+    isActive: true,
     address: '0x71765388bdde1079ec83f0448242469d69ae93f2',
     name: 'Duplicate - Please see linked grant for Alfred',
     slug: 'https://gitcoin.co/grants/570/duplicate-please-see-linked-grant-for-alfred',
@@ -12496,7 +12496,7 @@ export const theData = [
   },
   {
     grantId: 571,
-    'active': true,
+    isActive: true,
     address: '0xa230a1c91c640da7a947c23a889a3bd68a171915',
     name: 'Altcoin Author Crypto Podcast/Newsletter - #ETHisMoney Advancement',
     slug: 'https://gitcoin.co/grants/571/altcoin-author-crypto-podcastnewsletter-ethismone',
@@ -12531,7 +12531,7 @@ export const theData = [
   },
   {
     grantId: 572,
-    'active': true,
+    isActive: true,
     address: '0xfe60c2452dd6cf84914c231eef561fea0f7bd3f2',
     name: 'mRelief',
     slug: 'https://gitcoin.co/grants/572/mrelief',
@@ -12566,7 +12566,7 @@ export const theData = [
   },
   {
     grantId: 573,
-    'active': true,
+    isActive: true,
     address: '0x6aced29ff160fd127eac34cf61cf8e072ce888be',
     name: 'Rapagram | Mint tracks. Flow for props.',
     slug: 'https://gitcoin.co/grants/573/rapagram-mint-tracks-flow-for-props',
@@ -12601,7 +12601,7 @@ export const theData = [
   },
   {
     grantId: 575,
-    'active': true,
+    isActive: true,
     address: '0x139e7746745fbf42ca485845881697f9621b4b27',
     name: 'GetLogin.Eth',
     slug: 'https://gitcoin.co/grants/575/getlogineth',
@@ -12636,7 +12636,7 @@ export const theData = [
   },
   {
     grantId: 578,
-    'active': true,
+    isActive: true,
     address: '0xa7499aa6464c078eeb940da2fc95c6acd010c3cc',
     name: 'Open Source Covid Ventilators + Masks',
     slug: 'https://gitcoin.co/grants/578/open-source-covid-ventilators-masks',
@@ -12671,7 +12671,7 @@ export const theData = [
   },
   {
     grantId: 579,
-    'active': true,
+    isActive: true,
     address: '0x86fd6dd41bad636b5b3b9228bc5642fa0df392e8',
     name: 'The Trojan DAO',
     slug: 'https://gitcoin.co/grants/579/the-trojan-dao',
@@ -12706,7 +12706,7 @@ export const theData = [
   },
   {
     grantId: 580,
-    'active': true,
+    isActive: true,
     address: '0x60a5dcb2fc804874883b797f37cbf1b0582ac2dd',
     name: 'ETH Dashboard: Build your own Ethereum data dashboard',
     slug: 'https://gitcoin.co/grants/580/eth-dashboard-build-your-own-ethereum-data-dashbo',
@@ -12741,7 +12741,7 @@ export const theData = [
   },
   {
     grantId: 581,
-    'active': true,
+    isActive: true,
     address: '0x6e5e7d5dcad928c814caf7af7b0e706049a36629',
     name: 'Query Ethereum',
     slug: 'https://gitcoin.co/grants/581/query-ethereum',
@@ -12776,7 +12776,7 @@ export const theData = [
   },
   {
     grantId: 584,
-    'active': true,
+    isActive: true,
     address: '0x332d87209f7c8296389c307eae170c2440830a47',
     name: '88mph',
     slug: 'https://gitcoin.co/grants/584/88mph',
@@ -12811,7 +12811,7 @@ export const theData = [
   },
   {
     grantId: 586,
-    'active': true,
+    isActive: true,
     address: '0x78f6af57f6885fb2c38b0aeb8aaa2a4636127fd9',
     name: 'Decentralised Finance Working Group',
     slug: 'https://gitcoin.co/grants/586/decentralised-finance-working-group',
@@ -12846,7 +12846,7 @@ export const theData = [
   },
   {
     grantId: 587,
-    'active': true,
+    isActive: true,
     address: '0x0ed697d48fedbee30776877aea74d94fc46ac253',
     name: 'Dragon Quest Hackathon',
     slug: 'https://gitcoin.co/grants/587/dragon-quest-hackathon',
@@ -12881,7 +12881,7 @@ export const theData = [
   },
   {
     grantId: 588,
-    'active': true,
+    isActive: true,
     address: '0x39d8e84ef765360cdc1ca65d30333b92732bf09f',
     name: 'Atstake: A marketplace for any kind of contract between two people ',
     slug: 'https://gitcoin.co/grants/588/atstake-a-marketplace-for-any-kind-of-contract-be',
@@ -12916,7 +12916,7 @@ export const theData = [
   },
   {
     grantId: 589,
-    'active': true,
+    isActive: true,
     address: '0x852ed0af6e186c987727ba9285657688abde38cb',
     name: 'Donation Protects Medical Personnel from COVID-19!',
     slug: 'https://gitcoin.co/grants/589/donation-protects-medical-personnel-from-covid-19',
@@ -12951,7 +12951,7 @@ export const theData = [
   },
   {
     grantId: 592,
-    'active': true,
+    isActive: true,
     address: '0xee2cd45abeaa8e34b101d30b06a7401999d0b29e',
     name: 'KEwasm and KWasm',
     slug: 'https://gitcoin.co/grants/592/kewasm-and-kwasm',
@@ -12986,7 +12986,7 @@ export const theData = [
   },
   {
     grantId: 598,
-    'active': true,
+    isActive: true,
     address: '0xd130860d454787b47bda0ae6afd77e66aad9b784',
     name: 'CoronaBabies',
     slug: 'https://gitcoin.co/grants/598/coronababies',
@@ -13021,7 +13021,7 @@ export const theData = [
   },
   {
     grantId: 599,
-    'active': true,
+    isActive: true,
     address: '0x99126d641ba3924c8af4dca4e3b2c33a41718913',
     name: 'Proof of Humanity',
     slug: 'https://gitcoin.co/grants/599/proof-of-humanity',
@@ -13056,7 +13056,7 @@ export const theData = [
   },
   {
     grantId: 600,
-    'active': true,
+    isActive: true,
     address: '0x03c2bc72a3e007179e54ffb4563cc235bec8151a',
     name: 'Synthereum: synthetic assets with liquidity pools to bridge traditional and digital finance',
     slug: 'https://gitcoin.co/grants/600/synthereum-synthetic-assets-with-liquidity-pools-',
@@ -13091,7 +13091,7 @@ export const theData = [
   },
   {
     grantId: 601,
-    'active': true,
+    isActive: true,
     address: '0x0d54b43d103f5702ebcc522cd4b70e71ee8ea50b',
     name: 'Spells.fyi - Timelocks in DeFi',
     slug: 'https://gitcoin.co/grants/601/spellsfyi-timelocks-in-defi',
@@ -13126,7 +13126,7 @@ export const theData = [
   },
   {
     grantId: 602,
-    'active': true,
+    isActive: true,
     address: '0x01f1e9319982ab828203c0276727cf48065434d3',
     name: 'RealityLearn: Teaching the world about blockchain',
     slug: 'https://gitcoin.co/grants/602/realitylearn-teaching-the-world-about-blockchain',
@@ -13161,7 +13161,7 @@ export const theData = [
   },
   {
     grantId: 603,
-    'active': true,
+    isActive: true,
     address: '0x0b81747f504dfc906a215e301d8b8ad82e44cbd2',
     name: 'BitcoinMalaysia DAO',
     slug: 'https://gitcoin.co/grants/603/bitcoinmalaysia-dao',
@@ -13196,7 +13196,7 @@ export const theData = [
   },
   {
     grantId: 604,
-    'active': true,
+    isActive: true,
     address: '0xd0aee284d4b8ee835c3c4a9e78dc72d360ed453a',
     name: 'Microsponsors.io',
     slug: 'https://gitcoin.co/grants/604/microsponsorsio',
@@ -13231,7 +13231,7 @@ export const theData = [
   },
   {
     grantId: 605,
-    'active': true,
+    isActive: true,
     address: '0xb676efa42a0a85f0a9b0c539f47687a824569a2c',
     name: 'StakeWise: ETH 2.0 staking platform',
     slug: 'https://gitcoin.co/grants/605/stakewise-eth-20-staking-platform',
@@ -13266,7 +13266,7 @@ export const theData = [
   },
   {
     grantId: 606,
-    'active': true,
+    isActive: true,
     address: '0x64e821f43471a2e8d296aa3f151cfed0440b0d91',
     name: 'DeFi Indonesia',
     slug: 'https://gitcoin.co/grants/606/defi-indonesia',
@@ -13301,7 +13301,7 @@ export const theData = [
   },
   {
     grantId: 607,
-    'active': true,
+    isActive: true,
     address: '0xf945442c378217c4de525c2db5e218d5186edaaf',
     name: 'Meme Pools',
     slug: 'https://gitcoin.co/grants/607/meme-pools',
@@ -13336,7 +13336,7 @@ export const theData = [
   },
   {
     grantId: 608,
-    'active': true,
+    isActive: true,
     address: '0x04607ca1048f490578f233a8b1354778defdd178',
     name: 'Signatory Client',
     slug: 'https://gitcoin.co/grants/608/signatory-client',
@@ -13371,7 +13371,7 @@ export const theData = [
   },
   {
     grantId: 609,
-    'active': true,
+    isActive: true,
     address: '0x23f4ab95f85599e6af9ada4fb3a272911682c239',
     name: 'Redeem Defi',
     slug: 'https://gitcoin.co/grants/609/redeem-defi',
@@ -13406,7 +13406,7 @@ export const theData = [
   },
   {
     grantId: 611,
-    'active': true,
+    isActive: true,
     address: '0x2551727bb6eeb4e5917e616dffc3923402fe1bc3',
     name: 'The Fellowship Of The Unicorn',
     slug: 'https://gitcoin.co/grants/611/the-fellowship-of-the-unicorn',
@@ -13441,7 +13441,7 @@ export const theData = [
   },
   {
     grantId: 613,
-    'active': true,
+    isActive: true,
     address: '0x2ec04255ffc5f889c99de8576809a0975bed90c0',
     name: 'Impact on Mental Health - Global Data Science Project for COVID-19',
     slug: 'https://gitcoin.co/grants/613/impact-on-mental-health-global-data-science-proje',
@@ -13476,7 +13476,7 @@ export const theData = [
   },
   {
     grantId: 614,
-    'active': true,
+    isActive: true,
     address: '0x71765388bdde1079ec83f0448242469d69ae93f2',
     name: 'Alfred - The award-winning crypto estate planner',
     slug: 'https://gitcoin.co/grants/614/alfred-the-award-winning-crypto-estate-planner',
@@ -13511,7 +13511,7 @@ export const theData = [
   },
   {
     grantId: 615,
-    'active': true,
+    isActive: true,
     address: '0x5b6bcdbb5278616f818775b9a20f220262fd6e9b',
     name: 'Meta Gamma Delta DAO: Funding Women-Led Initiatives',
     slug: 'https://gitcoin.co/grants/615/meta-gamma-delta-dao-funding-women-led-initiative',
@@ -13546,7 +13546,7 @@ export const theData = [
   },
   {
     grantId: 616,
-    'active': true,
+    isActive: true,
     address: '0x3953017af23ab99a7d40f3d26f1595f27c91345f',
     name: 'Mutual Aid Fund + Face masks + Test Kit',
     slug: 'https://gitcoin.co/grants/616/mutual-aid-fund-face-masks-test-kit',
@@ -13581,7 +13581,7 @@ export const theData = [
   },
   {
     grantId: 618,
-    'active': true,
+    isActive: true,
     address: '0xb632c8e5f87a47a0caeb613cbdf0f748217d2840',
     name: 'Arboreum',
     slug: 'https://gitcoin.co/grants/618/arboreum',
@@ -13616,7 +13616,7 @@ export const theData = [
   },
   {
     grantId: 619,
-    'active': true,
+    isActive: true,
     address: '0x74630370197b4c4795bfeef6645ee14f8cf8997d',
     name: 'forum cp0x - cozy forum about cryptospace in Russian',
     slug: 'https://gitcoin.co/grants/619/forum-cp0x-cozy-forum-about-cryptospace-in-russia',
@@ -13651,7 +13651,7 @@ export const theData = [
   },
   {
     grantId: 620,
-    'active': true,
+    isActive: true,
     address: '0x66268791b55e1f5fa585d990326519f101407257',
     name: 'Mintbase Self Funded',
     slug: 'https://gitcoin.co/grants/620/mintbase-self-funded',
@@ -13686,7 +13686,7 @@ export const theData = [
   },
   {
     grantId: 621,
-    'active': true,
+    isActive: true,
     address: '0x6aced29ff160fd127eac34cf61cf8e072ce888be',
     name: 'Victory Soap | Fight Corona. Smell Fantastic.',
     slug: 'https://gitcoin.co/grants/621/victory-soap-fight-corona-smell-fantastic',
@@ -13721,7 +13721,7 @@ export const theData = [
   },
   {
     grantId: 622,
-    'active': true,
+    isActive: true,
     address: '0x7c04b6f7eedf698d0659ed873a0bcc227bd9fa00',
     name: 'Spread blockchain knowledge to the Arab world',
     slug: 'https://gitcoin.co/grants/622/spread-blockchain-knowledge-to-the-arab-world',
@@ -13756,7 +13756,7 @@ export const theData = [
   },
   {
     grantId: 624,
-    'active': true,
+    isActive: true,
     address: '0x00fe460a15b49d09f39b057d0f1a7b9444f4f2be',
     name: 'Nescience Software- Portfolio Rebalancing & Direct Indexing',
     slug: 'https://gitcoin.co/grants/624/nescience-software-portfolio-rebalancing-direct-i',
@@ -13791,7 +13791,7 @@ export const theData = [
   },
   {
     grantId: 626,
-    'active': true,
+    isActive: true,
     address: '0x54114ca776e856c2aaee1eac8e889d5334d9c439',
     name: 'DappLaunch - Web 3 Marketing & Messaging Platform',
     slug: 'https://gitcoin.co/grants/626/dapplaunch-web-3-marketing-messaging-platform',
@@ -13826,7 +13826,7 @@ export const theData = [
   },
   {
     grantId: 627,
-    'active': true,
+    isActive: true,
     address: '0x015bf68ef11bd55e43a119b5752c4b3becae7f24',
     name: 'Veridex',
     slug: 'https://gitcoin.co/grants/627/veridex',
@@ -13861,7 +13861,7 @@ export const theData = [
   },
   {
     grantId: 628,
-    'active': true,
+    isActive: true,
     address: '0x852ed0af6e186c987727ba9285657688abde38cb',
     name: 'Arweave makes information permanence sustainable.',
     slug: 'https://gitcoin.co/grants/628/arweave-makes-information-permanence-sustainable',
@@ -13896,7 +13896,7 @@ export const theData = [
   },
   {
     grantId: 629,
-    'active': true,
+    isActive: true,
     address: '0x1dcb85efea6a3fb528d19b9174e88ee35bff540a',
     name: 'Dev Protocol',
     slug: 'https://gitcoin.co/grants/629/dev-protocol',
@@ -13931,7 +13931,7 @@ export const theData = [
   },
   {
     grantId: 630,
-    'active': true,
+    isActive: true,
     address: '0x8c1a0b65f5218649db12fcbb2fb6ad246f399bd6',
     name: 'Sky Solutions Pollution Destroying Charity',
     slug: 'https://gitcoin.co/grants/630/sky-solutions-pollution-destroying-charity',
@@ -13966,7 +13966,7 @@ export const theData = [
   },
   {
     grantId: 631,
-    'active': true,
+    isActive: true,
     address: '0x8c1a0b65f5218649db12fcbb2fb6ad246f399bd6',
     name: 'Sky Solutions Pollution Destroying Charity {DAI version}',
     slug: 'https://gitcoin.co/grants/631/sky-solutions-pollution-destroying-charity-dai-ve',
@@ -14001,7 +14001,7 @@ export const theData = [
   },
   {
     grantId: 632,
-    'active': true,
+    isActive: true,
     address: '0x073ab1c0cad3677cde9bdb0cdeedc2085c029579',
     name: 'SimpleAsWater',
     slug: 'https://gitcoin.co/grants/632/simpleaswater',
@@ -14036,7 +14036,7 @@ export const theData = [
   },
   {
     grantId: 633,
-    'active': true,
+    isActive: true,
     address: '0x073ab1c0cad3677cde9bdb0cdeedc2085c029579',
     name: 'Dappkit: Firebase for Web 3.0',
     slug: 'https://gitcoin.co/grants/633/dappkit-firebase-for-web-30',
@@ -14071,7 +14071,7 @@ export const theData = [
   },
   {
     grantId: 634,
-    'active': true,
+    isActive: true,
     address: '0xc0ebefadcbf1d2a85fbfddc226a95860f5152b5f',
     name: 'LikeCoin - Republic of Liker Land',
     slug: 'https://gitcoin.co/grants/634/likecoin-republic-of-liker-land',
@@ -14106,7 +14106,7 @@ export const theData = [
   },
   {
     grantId: 635,
-    'active': true,
+    isActive: true,
     address: '0xee0579b4c36fd52ec0a2b542fb801f136838b7f1',
     name: 'ETHack Management Ethical Hacking Service',
     slug: 'https://gitcoin.co/grants/635/ethack-management-ethical-hacking-service',
@@ -14141,7 +14141,7 @@ export const theData = [
   },
   {
     grantId: 636,
-    'active': true,
+    isActive: true,
     address: '0x4647116a410ca5e80ee2be0077335bbf0db35166',
     name: 'Thanos VS Gitcoin | The Movie',
     slug: 'https://gitcoin.co/grants/636/thanos-vs-gitcoin-the-movie',
@@ -14176,7 +14176,7 @@ export const theData = [
   },
   {
     grantId: 637,
-    'active': true,
+    isActive: true,
     address: '0xc73e3b03e8e7b1a4d839972fed076240b44026f9',
     name: 'KIWI Token Development',
     slug: 'https://gitcoin.co/grants/637/kiwi-token-development',
@@ -14211,7 +14211,7 @@ export const theData = [
   },
   {
     grantId: 638,
-    'active': true,
+    isActive: true,
     address: '0x60959ed8307ee2b0d04306f6b319aeee8864f1ee',
     name: 'NoteStream - private money streaming',
     slug: 'https://gitcoin.co/grants/638/notestream-private-money-streaming',
@@ -14246,7 +14246,7 @@ export const theData = [
   },
   {
     grantId: 639,
-    'active': true,
+    isActive: true,
     address: '0x36f322fc85b24ab13263cfe9217b28f8e2b38381',
     name: '區塊勢 — 說人話的區塊鏈圖文',
     slug: 'https://gitcoin.co/grants/639/qu-kuai-shi-shuo-ren-hua-de-qu-kuai-lian-tu-wen',
@@ -14281,7 +14281,7 @@ export const theData = [
   },
   {
     grantId: 640,
-    'active': true,
+    isActive: true,
     address: '0x9d49416900c4fe2aafecdaad36ae4042cfbcdcce',
     name: 'Platform for global music producers with a focus on K-Pop',
     slug: 'https://gitcoin.co/grants/640/platform-for-global-music-producers-with-a-focus-',
@@ -14316,7 +14316,7 @@ export const theData = [
   },
   {
     grantId: 643,
-    'active': true,
+    isActive: true,
     address: '0x9d49416900c4fe2aafecdaad36ae4042cfbcdcce',
     name: 'HELP FOOD BANK PREPARE FOR INCREASED NEED',
     slug: 'https://gitcoin.co/grants/643/help-food-bank-prepare-for-increased-need',
@@ -14351,7 +14351,7 @@ export const theData = [
   },
   {
     grantId: 644,
-    'active': true,
+    isActive: true,
     address: '0xfc0ffda6bacd430679b012dff51d39d5107cdf06',
     name: 'Mess Adoption ',
     slug: 'https://gitcoin.co/grants/644/mess-adoption',
@@ -14386,7 +14386,7 @@ export const theData = [
   },
   {
     grantId: 646,
-    'active': true,
+    isActive: true,
     address: '0xd1a8dd23e356b9fae27df5def9ea025a602ec81e',
     name: 'Gitcoin/Blockchain Developer Grant - @codingsh',
     slug: 'https://gitcoin.co/grants/646/gitcoinblockchain-developer-grant-codingsh',
@@ -14421,7 +14421,7 @@ export const theData = [
   },
   {
     grantId: 647,
-    'active': true,
+    isActive: true,
     address: '0x1e90ddceb84027d60fe364b4f18496ffc6ff432f',
     name: 'Aids for pop *Covid-19*',
     slug: 'https://gitcoin.co/grants/647/aids-for-pop-covid-19',
@@ -14456,7 +14456,7 @@ export const theData = [
   },
   {
     grantId: 648,
-    'active': true,
+    isActive: true,
     address: '0x66b57885e8e9d84742fabda0ce6e3496055b012d',
     name: 'Delicious Cheese',
     slug: 'https://gitcoin.co/grants/648/delicious-cheese',
@@ -14491,7 +14491,7 @@ export const theData = [
   },
   {
     grantId: 650,
-    'active': true,
+    isActive: true,
     address: '0x04b7f60169fe048b7806a7e5fe731a37be23111e',
     name: 'KodaDot: NFT explorer',
     slug: 'https://gitcoin.co/grants/650/kodadot-nft-explorer',
@@ -14526,7 +14526,7 @@ export const theData = [
   },
   {
     grantId: 651,
-    'active': true,
+    isActive: true,
     address: '0x299611a1831a5497803b878c0ae14ad3bb5a124b',
     name: 'Appreciation App',
     slug: 'https://gitcoin.co/grants/651/appreciation-app',
@@ -14561,7 +14561,7 @@ export const theData = [
   },
   {
     grantId: 652,
-    'active': true,
+    isActive: true,
     address: '0x46c6db7fe6503766072163a1a7d1756643aaf94a',
     name: 'Collab19',
     slug: 'https://gitcoin.co/grants/652/collab19',
@@ -14596,7 +14596,7 @@ export const theData = [
   },
   {
     grantId: 653,
-    'active': true,
+    isActive: true,
     address: '0x4c63f570590b7e145d5af265497aa23fa2bc0b8c',
     name: 'Gas Stations Network',
     slug: 'https://gitcoin.co/grants/653/gas-stations-network',
@@ -14631,7 +14631,7 @@ export const theData = [
   },
   {
     grantId: 654,
-    'active': true,
+    isActive: true,
     address: '0x2c82e14352e98c931852d9bb5f0760e36942cc3c',
     name: 'Coinmonks',
     slug: 'https://gitcoin.co/grants/654/coinmonks',
@@ -14666,7 +14666,7 @@ export const theData = [
   },
   {
     grantId: 655,
-    'active': true,
+    isActive: true,
     address: '0x1222d0ded67a533b3163397fd917bc8ac6f96b7a',
     name: 'Alternative income for poor families in Brazil!',
     slug: 'https://gitcoin.co/grants/655/alternative-income-for-poor-families-in-brazil',
@@ -14701,7 +14701,7 @@ export const theData = [
   },
   {
     grantId: 656,
-    'active': true,
+    isActive: true,
     address: '0xded1ab7efd03bedf6fb8294fd0954ee1a2d639f6',
     name: 'International Medical Corps',
     slug: 'https://gitcoin.co/grants/656/international-medical-corps',
@@ -14736,7 +14736,7 @@ export const theData = [
   },
   {
     grantId: 658,
-    'active': true,
+    isActive: true,
     address: '0xdf16dafba7eb85e0b1f03050c3374a8550adc92b',
     name: 'Sambam Thank You Maam',
     slug: 'https://gitcoin.co/grants/658/sambam-thank-you-maam',
@@ -14771,7 +14771,7 @@ export const theData = [
   },
   {
     grantId: 659,
-    'active': true,
+    isActive: true,
     address: '0x614962025820c57d6af5acff56b5879237daf559',
     name: 'Estonian E-Residency DAO Integration 🇪🇪',
     slug: 'https://gitcoin.co/grants/659/estonian-e-residency-dao-integration',
@@ -14806,7 +14806,7 @@ export const theData = [
   },
   {
     grantId: 660,
-    'active': true,
+    isActive: true,
     address: '0xd623c2259863ed128e73be8373a10ab764ffd796',
     name: 'Esteem',
     slug: 'https://gitcoin.co/grants/660/esteem',
@@ -14841,7 +14841,7 @@ export const theData = [
   },
   {
     grantId: 661,
-    'active': true,
+    isActive: true,
     address: '0xda94f06099c67bdae46762552ba5b6175b7a0af4',
     name: 'Ethereum Explained',
     slug: 'https://gitcoin.co/grants/661/ethereum-explained',
@@ -14876,7 +14876,7 @@ export const theData = [
   },
   {
     grantId: 662,
-    'active': true,
+    isActive: true,
     address: '0xc873272a9fcc8fa012e6703380c4b5aea9959b3d',
     name: 'The Water Project',
     slug: 'https://gitcoin.co/grants/662/the-water-project',
@@ -14911,7 +14911,7 @@ export const theData = [
   },
   {
     grantId: 663,
-    'active': true,
+    isActive: true,
     address: '0x66b57885e8e9d84742fabda0ce6e3496055b012d',
     name: 'My Test Fund',
     slug: 'https://gitcoin.co/grants/663/my-test-fund',
@@ -14946,7 +14946,7 @@ export const theData = [
   },
   {
     grantId: 664,
-    'active': true,
+    isActive: true,
     address: '0x7044461352c911eb6a1f7aa56dd3182600ddce82',
     name: 'Rinkeby Test',
     slug: 'https://gitcoin.co/grants/664/rinkeby-test',
@@ -14981,7 +14981,7 @@ export const theData = [
   },
   {
     grantId: 665,
-    'active': true,
+    isActive: true,
     address: '0x87e92ef9f04631b9471674fa72347341efaff8cc',
     name: 'Nuggets News. 10M Views. 1000 Episodes. Tutorials, Interviews & Explainers. Ethereum, DeFi, Gaming, DAOs, dWeb, NFTs, Crypto, Finance & Economics!',
     slug: 'https://gitcoin.co/grants/665/nuggets-news-10m-views-1000-episodes-tutorials-in',
@@ -15016,7 +15016,7 @@ export const theData = [
   },
   {
     grantId: 666,
-    'active': true,
+    isActive: true,
     address: '0x66b1de0f14a0ce971f7f248415063d44caf19398',
     name: 'The Fit Bot ',
     slug: 'https://gitcoin.co/grants/666/the-fit-bot',
@@ -15051,7 +15051,7 @@ export const theData = [
   },
   {
     grantId: 668,
-    'active': true,
+    isActive: true,
     address: '0x78f3c73f5500335aac51e4c2a79555d176b279da',
     name: 'FightPandemics⚛️',
     slug: 'https://gitcoin.co/grants/668/fightpandemics',
@@ -15086,7 +15086,7 @@ export const theData = [
   },
   {
     grantId: 670,
-    'active': true,
+    isActive: true,
     address: '0x2ffb871671e903de0e799c3aaff48a3fe03316f3',
     name: 'Geoma DAO',
     slug: 'https://gitcoin.co/grants/670/geoma-dao',
@@ -15121,7 +15121,7 @@ export const theData = [
   },
   {
     grantId: 672,
-    'active': true,
+    isActive: true,
     address: '0x1edb9a64b960685ed9bdb1c9b5761fae0423aff8',
     name: 'Crypto Español',
     slug: 'https://gitcoin.co/grants/672/crypto-espanol',
@@ -15156,7 +15156,7 @@ export const theData = [
   },
   {
     grantId: 673,
-    'active': true,
+    isActive: true,
     address: '0x651fbe8c5aa7417a422233e6fa341d265c736a0a',
     name: 'Maker Auctions: Dashboard for MakerDAO auctions',
     slug: 'https://gitcoin.co/grants/673/maker-auctions-dashboard-for-makerdao-auctions',
@@ -15191,7 +15191,7 @@ export const theData = [
   },
   {
     grantId: 674,
-    'active': true,
+    isActive: true,
     address: '0x413ed157a79f9197e2fcc6af89ef89e7da00e5f2',
     name: 'Pixelart Crypto Portfolio',
     slug: 'https://gitcoin.co/grants/674/pixelart-crypto-portfolio',
@@ -15226,7 +15226,7 @@ export const theData = [
   },
   {
     grantId: 675,
-    'active': true,
+    isActive: true,
     address: '0x11860d47411cc5f132b5791201e01d25a3b4d1c7',
     name: 'LeGrandJeu VR - bring Token Economics Gaming to the whole world!🤷🏻',
     slug: 'https://gitcoin.co/grants/675/legrandjeu-vr-bring-token-economics-gaming-to-the',
@@ -15261,7 +15261,7 @@ export const theData = [
   },
   {
     grantId: 676,
-    'active': true,
+    isActive: true,
     address: '0x2a21476c0eae40b0c46cb4771e6b8cf8a20f4d37',
     name: 'The Great Pug',
     slug: 'https://gitcoin.co/grants/676/the-great-pug',
@@ -15296,7 +15296,7 @@ export const theData = [
   },
   {
     grantId: 678,
-    'active': true,
+    isActive: true,
     address: '0x11e52c75998fe2e7928b191bfc5b25937ca16741',
     name: 'EthAddress Stats Utility Dashboard',
     slug: 'https://gitcoin.co/grants/678/ethaddress-stats-utility-dashboard',
@@ -15331,7 +15331,7 @@ export const theData = [
   },
   {
     grantId: 679,
-    'active': true,
+    isActive: true,
     address: '0xe76be9c1e10910d6bc6b63d8031729747910c2f6',
     name: 'Stitch',
     slug: 'https://gitcoin.co/grants/679/stitch',
@@ -15366,7 +15366,7 @@ export const theData = [
   },
   {
     grantId: 680,
-    'active': true,
+    isActive: true,
     address: '0x85a363699c6864248a6ffca66e4a1a5ccf9f5567',
     name: 'Mars Robertsons personal grant • smart contracts • programmable money • new world order 🌎🌍🌏',
     slug: 'https://gitcoin.co/grants/680/mars-robertsons-personal-grant-smart-contracts-pr',
@@ -15401,7 +15401,7 @@ export const theData = [
   },
   {
     grantId: 681,
-    'active': true,
+    isActive: true,
     address: '0x904065ba663879deb7e5f902220e7db97cbf04af',
     name: 'FlowStake - Activity Staking Blockchain Network',
     slug: 'https://gitcoin.co/grants/681/flowstake-activity-staking-blockchain-network',
@@ -15436,7 +15436,7 @@ export const theData = [
   },
   {
     grantId: 682,
-    'active': true,
+    isActive: true,
     address: '0xa807e1f9afc48423b36b8384cf05d1172519ef1e',
     name: 'Childrens Heart Unit Fund (CHUF)',
     slug: 'https://gitcoin.co/grants/682/childrens-heart-unit-fund-chuf',
@@ -15471,7 +15471,7 @@ export const theData = [
   },
   {
     grantId: 683,
-    'active': true,
+    isActive: true,
     address: '0x1828eb2e523d43c9c04c987a27b10e6d65668580',
     name: 'PPE for Bulgarian Frontliners',
     slug: 'https://gitcoin.co/grants/683/ppe-for-bulgarian-frontliners',
@@ -15506,7 +15506,7 @@ export const theData = [
   },
   {
     grantId: 684,
-    'active': true,
+    isActive: true,
     address: '0x5a9ce898f0b03c5a3cd2d0c727efdd0555c86f81',
     name: 'Shenanigan (Panvala League)',
     slug: 'https://gitcoin.co/grants/684/shenanigan-panvala-league',
@@ -15541,7 +15541,7 @@ export const theData = [
   },
   {
     grantId: 686,
-    'active': true,
+    isActive: true,
     address: '0x11e52c75998fe2e7928b191bfc5b25937ca16741',
     name: 'Transaction Pending - A Crypto Podcast',
     slug: 'https://gitcoin.co/grants/686/transaction-pending-a-crypto-podcast',
@@ -15576,7 +15576,7 @@ export const theData = [
   },
   {
     grantId: 688,
-    'active': true,
+    isActive: true,
     address: '0x4c7bedfa26c744e6bd61cbdf86f3fc4a76dca073',
     name: 'TokenSmart',
     slug: 'https://gitcoin.co/grants/688/tokensmart',
@@ -15611,7 +15611,7 @@ export const theData = [
   },
   {
     grantId: 690,
-    'active': true,
+    isActive: true,
     address: '0x978e40d338221bae7fb5f39ac5ee843650f5e847',
     name: 'The First Job Platformed Powered by Blockchain and AI',
     slug: 'https://gitcoin.co/grants/690/the-first-job-platformed-powered-by-blockchain-an',
@@ -15646,7 +15646,7 @@ export const theData = [
   },
   {
     grantId: 691,
-    'active': true,
+    isActive: true,
     address: '0x8c1a0b65f5218649db12fcbb2fb6ad246f399bd6',
     name: 'The GitCoin CoVid19 Relief Fund',
     slug: 'https://gitcoin.co/grants/691/the-gitcoin-covid19-relief-fund',
@@ -15681,7 +15681,7 @@ export const theData = [
   },
   {
     grantId: 692,
-    'active': true,
+    isActive: true,
     address: '0xcf037e5fd65ac94fb614b9644ef76bdba3231537',
     name: 'GERT - Global environmental reserve token',
     slug: 'https://gitcoin.co/grants/692/gert-global-environmental-reserve-token',
@@ -15716,7 +15716,7 @@ export const theData = [
   },
   {
     grantId: 693,
-    'active': true,
+    isActive: true,
     address: '0xa6528eb6737f42180acbb8cb5dd44f66d0c17141',
     name: '3D Reality Bridging Protocol',
     slug: 'https://gitcoin.co/grants/693/3d-reality-bridging-protocol',
@@ -15751,7 +15751,7 @@ export const theData = [
   },
   {
     grantId: 694,
-    'active': true,
+    isActive: true,
     address: '0x98924152c0a85d97f2b7d4ce80504b10cc00dbc0',
     name: 'Decentralised supply chain of 3D printed protective gear for medical personnel',
     slug: 'https://gitcoin.co/grants/694/decentralised-supply-chain-of-3d-printed-protecti',
@@ -15786,7 +15786,7 @@ export const theData = [
   },
   {
     grantId: 695,
-    'active': true,
+    isActive: true,
     address: '0xaf2e8f2cd87404d268727284919de164f224a112',
     name: 'Atlas Futures',
     slug: 'https://gitcoin.co/grants/695/atlas-futures',
@@ -15821,7 +15821,7 @@ export const theData = [
   },
   {
     grantId: 697,
-    'active': true,
+    isActive: true,
     address: '0x8ab83623a658ce01b32ffd0c77e7cd8a57c8f86e',
     name: 'Decentralized Dance Party (DDP)',
     slug: 'https://gitcoin.co/grants/697/decentralized-dance-party-ddp',
@@ -15856,7 +15856,7 @@ export const theData = [
   },
   {
     grantId: 698,
-    'active': true,
+    isActive: true,
     address: '0x46266f255e49756847587eabddfc4d336ef268d2',
     name: 'VenezVit',
     slug: 'https://gitcoin.co/grants/698/venezvit',
@@ -15891,7 +15891,7 @@ export const theData = [
   },
   {
     grantId: 699,
-    'active': true,
+    isActive: true,
     address: '0xeb7cdd00b97242900640fd3658e54344c8036e58',
     name: 'Mattereum - retooling for securing the COVID19 medical supply chain',
     slug: 'https://gitcoin.co/grants/699/mattereum-retooling-for-securing-the-covid19-medi',
@@ -15926,7 +15926,7 @@ export const theData = [
   },
   {
     grantId: 700,
-    'active': true,
+    isActive: true,
     address: '0x4e962e8ecb1b89267bbcc6ddf725359771a4e03b',
     name: 'COVID-19 Testing Facilities Map',
     slug: 'https://gitcoin.co/grants/700/covid-19-testing-facilities-map',
@@ -15961,7 +15961,7 @@ export const theData = [
   },
   {
     grantId: 701,
-    'active': true,
+    isActive: true,
     address: '0x073ab1c0cad3677cde9bdb0cdeedc2085c029579',
     name: 'Virality: Your Social Accountability App',
     slug: 'https://gitcoin.co/grants/701/virality-your-social-accountability-app',
@@ -15996,7 +15996,7 @@ export const theData = [
   },
   {
     grantId: 702,
-    'active': true,
+    isActive: true,
     address: '0x34d3ffeb67e1ff8387cf6656242d2e7cda72dd95',
     name: 'FH for #DigitalVsCovid Donation Drive | Malaysian need your help!',
     slug: 'https://gitcoin.co/grants/702/fh-for-digitalvscovid-donation-drive-malaysian-ne',
@@ -16031,7 +16031,7 @@ export const theData = [
   },
   {
     grantId: 703,
-    'active': true,
+    isActive: true,
     address: '0x42da91be491e4101f348b9a746183dad9a6f92a2',
     name: 'Dedge - Swap Compound Collateral and Debt at Will!',
     slug: 'https://gitcoin.co/grants/703/dedge-swap-compound-collateral-and-debt-at-will',
@@ -16066,7 +16066,7 @@ export const theData = [
   },
   {
     grantId: 705,
-    'active': true,
+    isActive: true,
     address: '0x965e1ab07596bfc899ded753b8d85bc60eb16c4b',
     name: 'White Box FAPKC',
     slug: 'https://gitcoin.co/grants/705/white-box-fapkc',
@@ -16101,7 +16101,7 @@ export const theData = [
   },
   {
     grantId: 706,
-    'active': true,
+    isActive: true,
     address: '0x3a3355805181ba5752cb52cebe8c95c0f3ed3d61',
     name: 'The Goose Nest',
     slug: 'https://gitcoin.co/grants/706/the-goose-nest',
@@ -16136,7 +16136,7 @@ export const theData = [
   },
   {
     grantId: 709,
-    'active': true,
+    isActive: true,
     address: '0x165107ce980edff38065261326354c3d6cd809e6',
     name: 'Adoption and dissemination of Ethereum Technology',
     slug: 'https://gitcoin.co/grants/709/adoption-and-dissemination-of-ethereum-technology',
@@ -16171,7 +16171,7 @@ export const theData = [
   },
   {
     grantId: 711,
-    'active': true,
+    isActive: true,
     address: '0x0dda0a01011d30fc6b9629c08bc43abee90c745c',
     name: 'Furucombo - Build your own DeFi legos into one transaction without knowing how to code.',
     slug: 'https://gitcoin.co/grants/711/furucombo-build-your-own-defi-legos-into-one-tran',
@@ -16206,7 +16206,7 @@ export const theData = [
   },
   {
     grantId: 714,
-    'active': true,
+    isActive: true,
     address: '0x3d51ac03ea895c258057f2540a85293d3bc595fd',
     name: 'DeFlast - Instantly swap your collateral on Compound',
     slug: 'https://gitcoin.co/grants/714/deflast-instantly-swap-your-collateral-on-compoun',
@@ -16241,7 +16241,7 @@ export const theData = [
   },
   {
     grantId: 716,
-    'active': true,
+    isActive: true,
     address: '0x0bb7cc378617c65a61b2da678c69f85072205a4f',
     name: 'Cointigo - Universal Financial Access',
     slug: 'https://gitcoin.co/grants/716/cointigo-universal-financial-access',
@@ -16276,7 +16276,7 @@ export const theData = [
   },
   {
     grantId: 717,
-    'active': true,
+    isActive: true,
     address: '0x49760dd185cdef51d725a5b04027b62b5680fd1a',
     name: 'Update',
     slug: 'https://gitcoin.co/grants/717/update',
@@ -16311,7 +16311,7 @@ export const theData = [
   },
   {
     grantId: 718,
-    'active': true,
+    isActive: true,
     address: '0x66251cc92245792f4d69778aaaa2384be109ddeb',
     name: 'DAO - A User Owned Social Platform',
     slug: 'https://gitcoin.co/grants/718/dao-a-user-owned-social-platform',
@@ -16346,7 +16346,7 @@ export const theData = [
   },
   {
     grantId: 720,
-    'active': true,
+    isActive: true,
     address: '0xdb53fd872368c4d72ebb814b1e5d7b1babe2b834',
     name: 'Crypto Fonts',
     slug: 'https://gitcoin.co/grants/720/crypto-fonts',
@@ -16381,7 +16381,7 @@ export const theData = [
   },
   {
     grantId: 724,
-    'active': true,
+    isActive: true,
     address: '0x81c7950f00aa928663acd887b7df1534e7196ac9',
     name: 'Bityond',
     slug: 'https://gitcoin.co/grants/724/bityond',
@@ -16416,7 +16416,7 @@ export const theData = [
   },
   {
     grantId: 728,
-    'active': true,
+    isActive: true,
     address: '0x89d1fec16ba1c8aebc7866263eb4ca2d8bd8eec4',
     name: 'DEFI Composability Security Matching Round',
     slug: 'https://gitcoin.co/grants/728/defi-composability-security-matching-round',
@@ -16451,7 +16451,7 @@ export const theData = [
   },
   {
     grantId: 729,
-    'active': true,
+    isActive: true,
     address: '0x0d81d9e21bd7c5bb095535624dcb0759e64b3899',
     name: 'Decentralized Internet',
     slug: 'https://gitcoin.co/grants/729/decentralized-internet',
@@ -16486,7 +16486,7 @@ export const theData = [
   },
   {
     grantId: 731,
-    'active': true,
+    isActive: true,
     address: '0x74fee6bbd1dd965ea90638faf37fd4a861f47178',
     name: 'Gardes Index',
     slug: 'https://gitcoin.co/grants/731/gardes-index',
@@ -16521,7 +16521,7 @@ export const theData = [
   },
   {
     grantId: 733,
-    'active': true,
+    isActive: true,
     address: '0xc035ae607959d186be47be02edef9b358725ab11',
     name: 'NoteStream',
     slug: 'https://gitcoin.co/grants/733/notestream',
@@ -16556,7 +16556,7 @@ export const theData = [
   },
   {
     grantId: 734,
-    'active': true,
+    isActive: true,
     address: '0x7293edfbe890854cb698119cc31441b063f44878',
     name: 'Give Africa Hope Against the COVID-19 Virus',
     slug: 'https://gitcoin.co/grants/734/give-africa-hope-against-the-covid-19-virus',
@@ -16591,7 +16591,7 @@ export const theData = [
   },
   {
     grantId: 735,
-    'active': true,
+    isActive: true,
     address: '0x7293edfbe890854cb698119cc31441b063f44878',
     name: 'UNICEF (COVID-19) Emergency Response Appeal',
     slug: 'https://gitcoin.co/grants/735/unicef-covid-19-emergency-response-appeal',
@@ -16626,7 +16626,7 @@ export const theData = [
   },
   {
     grantId: 736,
-    'active': true,
+    isActive: true,
     address: '0x7538b8240a93b99de5c19976e695931a96e3cb13',
     name: 'GoTrace',
     slug: 'https://gitcoin.co/grants/736/gotrace',
@@ -16661,7 +16661,7 @@ export const theData = [
   },
   {
     grantId: 737,
-    'active': true,
+    isActive: true,
     address: '0xe7d960ee16d6fcddeb66b0afbbfa051f61ef0e6c',
     name: 'Ara - open source voice assistant',
     slug: 'https://gitcoin.co/grants/737/ara-open-source-voice-assistant',
@@ -16696,7 +16696,7 @@ export const theData = [
   },
   {
     grantId: 739,
-    'active': true,
+    isActive: true,
     address: '0xa78edd98d7ab5caca5236fc3999d4ee9868795fe',
     name: 'System Of Autonomous Global Education — S.A.G.E. ',
     slug: 'https://gitcoin.co/grants/739/system-of-autonomous-global-education-sage',
@@ -16731,7 +16731,7 @@ export const theData = [
   },
   {
     grantId: 741,
-    'active': true,
+    isActive: true,
     address: '0xf5ba01156e3f4c1993bd671b855125d35483ebca',
     name: 'GoDBLedger',
     slug: 'https://gitcoin.co/grants/741/godbledger',
@@ -16766,7 +16766,7 @@ export const theData = [
   },
   {
     grantId: 742,
-    'active': true,
+    isActive: true,
     address: '0xb64850fe701fb64667b6cc762aa2c12f2e02193c',
     name: 'Crypto community ventures network',
     slug: 'https://gitcoin.co/grants/742/crypto-community-ventures-network',
@@ -16801,7 +16801,7 @@ export const theData = [
   },
   {
     grantId: 743,
-    'active': true,
+    isActive: true,
     address: '0x006087d6ac20840c23ba298512db454a05c19b10',
     name: '#FitTogetherDAO (like PoolTogether for fitness and wellbeing)',
     slug: 'https://gitcoin.co/grants/743/fittogetherdao-like-pooltogether-for-fitness-and-',
@@ -16836,7 +16836,7 @@ export const theData = [
   },
   {
     grantId: 746,
-    'active': true,
+    isActive: true,
     address: '0x7293edfbe890854cb698119cc31441b063f44878',
     name: 'Aid 2 Covid-19 (Helping With Cryptocurrency)',
     slug: 'https://gitcoin.co/grants/746/aid-2-covid-19-helping-with-cryptocurrency',
@@ -16871,7 +16871,7 @@ export const theData = [
   },
   {
     grantId: 747,
-    'active': true,
+    isActive: true,
     address: '0x54becc7560a7be76d72ed76a1f5fee6c5a2a7ab6',
     name: 'Simona Pops Ecosystem Development Activity',
     slug: 'https://gitcoin.co/grants/747/simona-pops-ecosystem-development-activity',
@@ -16906,7 +16906,7 @@ export const theData = [
   },
   {
     grantId: 749,
-    'active': true,
+    isActive: true,
     address: '0x9ffd0a5b5438b95861167422e745d34d151bcc3b',
     name: 'Mass Adoption LLC. ',
     slug: 'https://gitcoin.co/grants/749/mass-adoption-llc',
@@ -16941,7 +16941,7 @@ export const theData = [
   },
   {
     grantId: 755,
-    'active': true,
+    isActive: true,
     address: '0x67b7ad376112e052227b36feaff7d600cd48b366',
     name: 'Bliqin',
     slug: 'https://gitcoin.co/grants/755/bliqin',
@@ -16976,7 +16976,7 @@ export const theData = [
   },
   {
     grantId: 756,
-    'active': true,
+    isActive: true,
     address: '0xf19ab8f5c20d77119dba61bc195214fdc045e680',
     name: 'founder',
     slug: 'https://gitcoin.co/grants/756/founder',
@@ -17011,7 +17011,7 @@ export const theData = [
   },
   {
     grantId: 757,
-    'active': true,
+    isActive: true,
     address: '0xf19ab8f5c20d77119dba61bc195214fdc045e680',
     name: 'bandot-stablecoin',
     slug: 'https://gitcoin.co/grants/757/bandot-stablecoin',
@@ -17046,7 +17046,7 @@ export const theData = [
   },
   {
     grantId: 758,
-    'active': true,
+    isActive: true,
     address: '0xf19ab8f5c20d77119dba61bc195214fdc045e680',
     name: 'bpluslab',
     slug: 'https://gitcoin.co/grants/758/bpluslab',
@@ -17081,7 +17081,7 @@ export const theData = [
   },
   {
     grantId: 762,
-    'active': true,
+    isActive: true,
     address: '0x863199c0a7eb5c6e70e0889a93242445ee998cf4',
     name: 'Community Based Audit',
     slug: 'https://gitcoin.co/grants/762/community-based-audit',
@@ -17116,7 +17116,7 @@ export const theData = [
   },
   {
     grantId: 763,
-    'active': true,
+    isActive: true,
     address: '0x51c2eb4e44036fb615806c77f83b22f34fb09dce',
     name: 'Bee Exchange; Reach new sustainable economic through Crypto Currency in Indonesia.',
     slug: 'https://gitcoin.co/grants/763/bee-exchange-reach-new-sustainable-economic-throu',
@@ -17151,7 +17151,7 @@ export const theData = [
   },
   {
     grantId: 765,
-    'active': true,
+    isActive: true,
     address: '0x908630dfde60552daf5291c7081cf2fd475cb368',
     name: 'Pine Finance (ex UniswapEX v2)',
     slug: 'https://gitcoin.co/grants/765/pine-finance-ex-uniswapex-v2',
@@ -17186,7 +17186,7 @@ export const theData = [
   },
   {
     grantId: 767,
-    'active': true,
+    isActive: true,
     address: '0xf05f5d4ad1b3fd5ad57ba5ca386d0db2e8b317aa',
     name: 'DyTokens',
     slug: 'https://gitcoin.co/grants/767/dytokens',
@@ -17221,7 +17221,7 @@ export const theData = [
   },
   {
     grantId: 768,
-    'active': true,
+    isActive: true,
     address: '0x7ab527e793cb845d2e050c5358cfed306225652e',
     name: 'Eth95 | An instant UI for your Smart Contracts (both locally and on Mainnet)',
     slug: 'https://gitcoin.co/grants/768/eth95-an-instant-ui-for-your-smart-contracts-both',
@@ -17256,7 +17256,7 @@ export const theData = [
   },
   {
     grantId: 769,
-    'active': true,
+    isActive: true,
     address: '0xe990aab0655654518a6fb49d5837bd4cf5b15b24',
     name: 'Writing is Designing',
     slug: 'https://gitcoin.co/grants/769/writing-is-designing',
@@ -17291,7 +17291,7 @@ export const theData = [
   },
   {
     grantId: 770,
-    'active': true,
+    isActive: true,
     address: '0x8554cfdb4e1830e541a6466b5b915ea74dbbee80',
     name: 'liquiDefi',
     slug: 'https://gitcoin.co/grants/770/liquidefi',
@@ -17326,7 +17326,7 @@ export const theData = [
   },
   {
     grantId: 771,
-    'active': true,
+    isActive: true,
     address: '0xbeb87b2e4d8b89cd2af8a3c7103db7fb2f5af022',
     name: 'Bloom Finance',
     slug: 'https://gitcoin.co/grants/771/bloom-finance',
@@ -17361,7 +17361,7 @@ export const theData = [
   },
   {
     grantId: 772,
-    'active': true,
+    isActive: true,
     address: '0xa655c36eba808148497aed8bacd1c8cf6c59335c',
     name: 'PIXEL',
     slug: 'https://gitcoin.co/grants/772/pixel',
@@ -17396,7 +17396,7 @@ export const theData = [
   },
   {
     grantId: 774,
-    'active': true,
+    isActive: true,
     address: '0x03ed2992a1d07ab57ec01f0c8914e22b53e48d87',
     name: 'NUTS Platform | Designed for DeFi Builders and Service Providers',
     slug: 'https://gitcoin.co/grants/774/nuts-platform-designed-for-defi-builders-and-serv',
@@ -17431,7 +17431,7 @@ export const theData = [
   },
   {
     grantId: 775,
-    'active': true,
+    isActive: true,
     address: '0x8296df9a01299ee0a1ae9e5939f1a71998ea26fa',
     name: 'Kickback',
     slug: 'https://gitcoin.co/grants/775/kickback',
@@ -17466,7 +17466,7 @@ export const theData = [
   },
   {
     grantId: 776,
-    'active': true,
+    isActive: true,
     address: '0x465dca9995d6c2a81a9be80fbced5a770dee3dae',
     name: 'Support Nazariy',
     slug: 'https://gitcoin.co/grants/776/support-nazariy',
@@ -17501,7 +17501,7 @@ export const theData = [
   },
   {
     grantId: 778,
-    'active': true,
+    isActive: true,
     address: '0xa603499e8a0ec43590a8870e0e201cda2c5de017',
     name: 'Blockchain Research: Open-Source Research for Everyone',
     slug: 'https://gitcoin.co/grants/778/blockchain-research-open-source-research-for-ever',
@@ -17536,7 +17536,7 @@ export const theData = [
   },
   {
     grantId: 779,
-    'active': true,
+    isActive: true,
     address: '0x0087a081a9b430fd8f688c6ac5dd24421bfb060d',
     name: 'DeFi LATAM',
     slug: 'https://gitcoin.co/grants/779/defi-latam',
@@ -17571,7 +17571,7 @@ export const theData = [
   },
   {
     grantId: 780,
-    'active': true,
+    isActive: true,
     address: '0x40ade8d4b29306486b0ed948dc2ed7a4ea71c2d8',
     name: 'Customata - Decentralized recommendation engine for internet search and social media',
     slug: 'https://gitcoin.co/grants/780/customata-decentralized-recommendation-engine-for',
@@ -17606,7 +17606,7 @@ export const theData = [
   },
   {
     grantId: 781,
-    'active': true,
+    isActive: true,
     address: '0x358102be6f587f7455d102cc330230a1d112d085',
     name: 'ENSPortal',
     slug: 'https://gitcoin.co/grants/781/ensportal',
@@ -17641,7 +17641,7 @@ export const theData = [
   },
   {
     grantId: 782,
-    'active': true,
+    isActive: true,
     address: '0x02cb3c150bedca124d0ae8cccb72fefbe705c953',
     name: 'Ethereum Cat Herders Community Fund',
     slug: 'https://gitcoin.co/grants/782/ethereum-cat-herders-community-fund',
@@ -17676,7 +17676,7 @@ export const theData = [
   },
   {
     grantId: 785,
-    'active': true,
+    isActive: true,
     address: '0x2f06416a0088199aba7be7027d96714bd89afe22',
     name: 'Nashville Bail Fund',
     slug: 'https://gitcoin.co/grants/785/nashville-bail-fund',
@@ -17711,7 +17711,7 @@ export const theData = [
   },
   {
     grantId: 787,
-    'active': true,
+    isActive: true,
     address: '0x364282a1ffc5ef403952422408eaf3972f692653',
     name: 'Qonico - IoT Open Blockchain',
     slug: 'https://gitcoin.co/grants/787/qonico-iot-open-blockchain',
@@ -17746,7 +17746,7 @@ export const theData = [
   },
   {
     grantId: 788,
-    'active': true,
+    isActive: true,
     address: '0xb30db235c948987487f9b2e67d65530c71fcdfdd',
     name: 'Origin City [The EP]',
     slug: 'https://gitcoin.co/grants/788/origin-city-the-ep',
@@ -17781,7 +17781,7 @@ export const theData = [
   },
   {
     grantId: 789,
-    'active': true,
+    isActive: true,
     address: '0xb30db235c948987487f9b2e67d65530c71fcdfdd',
     name: 'The Popup Season Two',
     slug: 'https://gitcoin.co/grants/789/the-popup-season-two',
@@ -17816,7 +17816,7 @@ export const theData = [
   },
   {
     grantId: 792,
-    'active': true,
+    isActive: true,
     address: '0xc5d6d2ea25bb7cf7c997ba135fdd141555884685',
     name: 'KERNEL 🌱 : My Contributions',
     slug: 'https://gitcoin.co/grants/792/kernel-my-contributions',
@@ -17851,7 +17851,7 @@ export const theData = [
   },
   {
     grantId: 795,
-    'active': true,
+    isActive: true,
     address: '0x90dfc35e747ffcf9631ce75348f99632528e1704',
     name: 'Giveth.io - Panvala League',
     slug: 'https://gitcoin.co/grants/795/givethio-panvala-league',
@@ -17886,7 +17886,7 @@ export const theData = [
   },
   {
     grantId: 796,
-    'active': true,
+    isActive: true,
     address: '0xb50685c25485ca8c520f5286bbbf1d3f216d6989',
     name: 'InstCrypt - Meta Transaction or Gas less wallet',
     slug: 'https://gitcoin.co/grants/796/instcrypt-meta-transaction-or-gas-less-wallet',
@@ -17921,7 +17921,7 @@ export const theData = [
   },
   {
     grantId: 798,
-    'active': true,
+    isActive: true,
     address: '0x9678d41b9d8fe4c3288de358f1eb179a38d09c33',
     name: 'A Hitchhikers Guide to Token Engineering',
     slug: 'https://gitcoin.co/grants/798/a-hitchhikers-guide-to-token-engineering',
@@ -17956,7 +17956,7 @@ export const theData = [
   },
   {
     grantId: 799,
-    'active': true,
+    isActive: true,
     address: '0xa1c6845993641b777750e7db2671d9fe65059ae1',
     name: 'Telegram Totality',
     slug: 'https://gitcoin.co/grants/799/telegram-totality',
@@ -17991,7 +17991,7 @@ export const theData = [
   },
   {
     grantId: 801,
-    'active': true,
+    isActive: true,
     address: '0x77b1356b297de2364187a20c30e807ae143d8fa1',
     name: 'Multisend.org',
     slug: 'https://gitcoin.co/grants/801/multisendorg',
@@ -18026,7 +18026,7 @@ export const theData = [
   },
   {
     grantId: 802,
-    'active': true,
+    isActive: true,
     address: '0xabe26faee77419897090bc4c5a112d463443a662',
     name: 'Metis Protocol: A Governance and Collaboration Implementation Framework for DAOs',
     slug: 'https://gitcoin.co/grants/802/metis-protocol-a-governance-and-collaboration-imp',
@@ -18061,7 +18061,7 @@ export const theData = [
   },
   {
     grantId: 803,
-    'active': true,
+    isActive: true,
     address: '0xcb9327bd57680a9cb9eed1246f8f439a630b3696',
     name: 'ALEF',
     slug: 'https://gitcoin.co/grants/803/alef',
@@ -18096,7 +18096,7 @@ export const theData = [
   },
   {
     grantId: 804,
-    'active': true,
+    isActive: true,
     address: '0x2f06416a0088199aba7be7027d96714bd89afe22',
     name: 'Nashville Community Bail Fund',
     slug: 'https://gitcoin.co/grants/804/nashville-community-bail-fund',
@@ -18131,7 +18131,7 @@ export const theData = [
   },
   {
     grantId: 805,
-    'active': true,
+    isActive: true,
     address: '0x3a3355805181ba5752cb52cebe8c95c0f3ed3d61',
     name: 'CryptoArt Cartel',
     slug: 'https://gitcoin.co/grants/805/cryptoart-cartel',
@@ -18166,7 +18166,7 @@ export const theData = [
   },
   {
     grantId: 806,
-    'active': true,
+    isActive: true,
     address: '0x0cf861f96378dbd5194d74cbe6b0424fafaed940',
     name: 'DeFiPedia',
     slug: 'https://gitcoin.co/grants/806/defipedia',
@@ -18201,7 +18201,7 @@ export const theData = [
   },
   {
     grantId: 808,
-    'active': true,
+    isActive: true,
     address: '0x8639d3feef6f7ca0d7e20c51aa377cc13c243b29',
     name: 'CoBox Cooperative Cloud',
     slug: 'https://gitcoin.co/grants/808/cobox-cooperative-cloud',
@@ -18236,7 +18236,7 @@ export const theData = [
   },
   {
     grantId: 809,
-    'active': true,
+    isActive: true,
     address: '0xc3f6e18b429b6baf1bd31b1e504aee7827c7aab5',
     name: '\'3MILY\' Royalties Sale MVP',
     slug: 'https://gitcoin.co/grants/809/3mily-royalties-sale-mvp',
@@ -18271,7 +18271,7 @@ export const theData = [
   },
   {
     grantId: 810,
-    'active': true,
+    isActive: true,
     address: '0xe6ec16383e225ae9166ccf1381e25491701f65d5',
     name: 'Black Girls CODE',
     slug: 'https://gitcoin.co/grants/810/black-girls-code',
@@ -18306,7 +18306,7 @@ export const theData = [
   },
   {
     grantId: 811,
-    'active': true,
+    isActive: true,
     address: '0xaa7a9d80971e58641442774c373c94aafee87d66',
     name: 'TokenBrice: Evangelizing DeFi in FR & EN',
     slug: 'https://gitcoin.co/grants/811/tokenbrice-evangelizing-defi-in-fr-en',
@@ -18341,7 +18341,7 @@ export const theData = [
   },
   {
     grantId: 812,
-    'active': true,
+    isActive: true,
     address: '0xdbe9f117be2636f934cb2f6ee5bfa4d8d91be45d',
     name: 'National Black Chamber of Commerce',
     slug: 'https://gitcoin.co/grants/812/national-black-chamber-of-commerce',
@@ -18376,7 +18376,7 @@ export const theData = [
   },
   {
     grantId: 813,
-    'active': true,
+    isActive: true,
     address: '0xd2b2523eba6f19243c01f83d704f0cb3dae21787',
     name: 'Matic & ETH memes',
     slug: 'https://gitcoin.co/grants/813/matic-eth-memes',
@@ -18411,7 +18411,7 @@ export const theData = [
   },
   {
     grantId: 814,
-    'active': true,
+    isActive: true,
     address: '0x5213bbcb65969790f5986358fb6e2afe1ea974b1',
     name: 'Movement 4 Black Lives',
     slug: 'https://gitcoin.co/grants/814/movement-4-black-lives',
@@ -18446,7 +18446,7 @@ export const theData = [
   },
   {
     grantId: 815,
-    'active': true,
+    isActive: true,
     address: '0x392acfd0792c32222edf31c20dd0cc51528bb9ea',
     name: 'DeFi777',
     slug: 'https://gitcoin.co/grants/815/defi777',
@@ -18481,7 +18481,7 @@ export const theData = [
   },
   {
     grantId: 816,
-    'active': true,
+    isActive: true,
     address: '0xba0fee8490118fc4f46bd0974d7bf93d0e2f1064',
     name: 'Grassroots Economics CIC Support - Kenya & Beyond',
     slug: 'https://gitcoin.co/grants/816/grassroots-economics-cic-support-kenya-beyond',
@@ -18516,7 +18516,7 @@ export const theData = [
   },
   {
     grantId: 817,
-    'active': true,
+    isActive: true,
     address: '0x197553ddfdb7b9c3c4216e2914456788bfd59c86',
     name: 'Blockchain Security DB',
     slug: 'https://gitcoin.co/grants/817/blockchain-security-db',
@@ -18551,7 +18551,7 @@ export const theData = [
   },
   {
     grantId: 818,
-    'active': true,
+    isActive: true,
     address: '0xabe26faee77419897090bc4c5a112d463443a662',
     name: 'Metis Protocol: A governance and collaboration implementation framework for DAOs',
     slug: 'https://gitcoin.co/grants/818/metis-protocol-a-governance-and-collaboration-imp',
@@ -18586,7 +18586,7 @@ export const theData = [
   },
   {
     grantId: 821,
-    'active': true,
+    isActive: true,
     address: '0x57ea12a3a8e441f5fe7b1f3af1121097b7d3b6a8',
     name: 'Umbra:  Privacy Preserving Stealth Payments',
     slug: 'https://gitcoin.co/grants/821/umbra-privacy-preserving-stealth-payments',
@@ -18621,7 +18621,7 @@ export const theData = [
   },
   {
     grantId: 824,
-    'active': true,
+    isActive: true,
     address: '0x758ba0f64f9498996368fcd7696cd962bc19fe87',
     name: 'A Platform to Catalyze Achievement of Legislation Objectives',
     slug: 'https://gitcoin.co/grants/824/a-platform-to-catalyze-achievement-of-legislation',
@@ -18656,7 +18656,7 @@ export const theData = [
   },
   {
     grantId: 825,
-    'active': true,
+    isActive: true,
     address: '0xe248502d5cc53517060791f86999a218c63733b4',
     name: 'SeedBed',
     slug: 'https://gitcoin.co/grants/825/seedbed',
@@ -18691,7 +18691,7 @@ export const theData = [
   },
   {
     grantId: 826,
-    'active': true,
+    isActive: true,
     address: '0x7f1c9feb3a616cbda1ff474cfda802d8840df2af',
     name: '0x-Chan: Design an Ethereum Crypto- Waifu',
     slug: 'https://gitcoin.co/grants/826/0x-chan-design-an-ethereum-crypto-waifu',
@@ -18726,7 +18726,7 @@ export const theData = [
   },
   {
     grantId: 827,
-    'active': true,
+    isActive: true,
     address: '0x8400077113fabeaa5a5ad8742cff50cd88d8ce8a',
     name: 'Web 3.0 Arabic',
     slug: 'https://gitcoin.co/grants/827/web-30-arabic',
@@ -18761,7 +18761,7 @@ export const theData = [
   },
   {
     grantId: 829,
-    'active': true,
+    isActive: true,
     address: '0x723cc8c47a395af22f84c54c58dd3f573253890d',
     name: 'CollabLand',
     slug: 'https://gitcoin.co/grants/829/collabland',
@@ -18796,7 +18796,7 @@ export const theData = [
   },
   {
     grantId: 830,
-    'active': true,
+    isActive: true,
     address: '0x723cc8c47a395af22f84c54c58dd3f573253890d',
     name: 'CollabLand',
     slug: 'https://gitcoin.co/grants/830/collabland',
@@ -18831,7 +18831,7 @@ export const theData = [
   },
   {
     grantId: 831,
-    'active': true,
+    isActive: true,
     address: '0xd70ea563d6d811c58ea1a095875d042d8737b2e6',
     name: 'Justice Committee',
     slug: 'https://gitcoin.co/grants/831/justice-committee',
@@ -18866,7 +18866,7 @@ export const theData = [
   },
   {
     grantId: 832,
-    'active': true,
+    isActive: true,
     address: '0x978e40d338221bae7fb5f39ac5ee843650f5e847',
     name: 'Next Gen Blockchain and AI based  Job Platform',
     slug: 'https://gitcoin.co/grants/832/next-gen-blockchain-and-ai-based-job-platform',
@@ -18901,7 +18901,7 @@ export const theData = [
   },
   {
     grantId: 833,
-    'active': true,
+    isActive: true,
     address: '0xdf631777df4debcbcd647e85bdcb868b43663ba0',
     name: 'capitalETH: Systematic Investments on Ethereum',
     slug: 'https://gitcoin.co/grants/833/capitaleth-systematic-investments-on-ethereum',
@@ -18936,7 +18936,7 @@ export const theData = [
   },
   {
     grantId: 834,
-    'active': true,
+    isActive: true,
     address: '0x69f3bbfc6a35f3767cf1652bcf8ee4c3e000c0ba',
     name: 'Humanitarian support | Grants',
     slug: 'https://gitcoin.co/grants/834/humanitarian-support-grants',
@@ -18971,7 +18971,7 @@ export const theData = [
   },
   {
     grantId: 835,
-    'active': true,
+    isActive: true,
     address: '0x3ea7cc0f434b8711cf6bcd0d49eedf67a8233af9',
     name: 'octanolabs',
     slug: 'https://gitcoin.co/grants/835/octanolabs',
@@ -19006,7 +19006,7 @@ export const theData = [
   },
   {
     grantId: 836,
-    'active': true,
+    isActive: true,
     address: '0x96ff2a883de9bb8a6276e97443d46305adc12b40',
     name: 'The Bail Project',
     slug: 'https://gitcoin.co/grants/836/the-bail-project',
@@ -19041,7 +19041,7 @@ export const theData = [
   },
   {
     grantId: 840,
-    'active': true,
+    isActive: true,
     address: '0x19de91af973f404edf5b4c093983a7c6e3ec8cce',
     name: 'EthereumDev.io | Free tutorials for learning Solidity, DeFi programming and more since 2017',
     slug: 'https://gitcoin.co/grants/840/ethereumdevio-free-tutorials-for-learning-solidit',
@@ -19076,7 +19076,7 @@ export const theData = [
   },
   {
     grantId: 842,
-    'active': true,
+    isActive: true,
     address: '0xced2d002d5c2e5a3ef2c3aae00c671a1d2b225a6',
     name: 'DAO-Governed EIPs and ETH 2.0 spec',
     slug: 'https://gitcoin.co/grants/842/dao-governed-eips-and-eth-20-spec',
@@ -19111,7 +19111,7 @@ export const theData = [
   },
   {
     grantId: 843,
-    'active': true,
+    isActive: true,
     address: '0xced2d002d5c2e5a3ef2c3aae00c671a1d2b225a6',
     name: 'DAO-Governed EIPs and ETH 2.0 spec',
     slug: 'https://gitcoin.co/grants/843/dao-governed-eips-and-eth-20-spec',
@@ -19146,7 +19146,7 @@ export const theData = [
   },
   {
     grantId: 844,
-    'active': true,
+    isActive: true,
     address: '0x197553ddfdb7b9c3c4216e2914456788bfd59c86',
     name: 'Solidity Visualizer Extension',
     slug: 'https://gitcoin.co/grants/844/solidity-visualizer-extension',
@@ -19181,7 +19181,7 @@ export const theData = [
   },
   {
     grantId: 845,
-    'active': true,
+    isActive: true,
     address: '0x007b003c4d0145b512286494d5ae123aeef29d9e',
     name: 'Remote Developer Bootcamp',
     slug: 'https://gitcoin.co/grants/845/remote-developer-bootcamp',
@@ -19216,7 +19216,7 @@ export const theData = [
   },
   {
     grantId: 846,
-    'active': true,
+    isActive: true,
     address: '0x5cd08940869f68a891756e51269aa27e54e8c4df',
     name: 'Crate -- Earn the most interest on your DAI',
     slug: 'https://gitcoin.co/grants/846/crate-earn-the-most-interest-on-your-dai',
@@ -19251,7 +19251,7 @@ export const theData = [
   },
   {
     grantId: 848,
-    'active': true,
+    isActive: true,
     address: '0x7c424d4b753185c6e91e0cdd5fd98076198c51b2',
     name: 'BlockChain Ar بلوكشين عربي',
     slug: 'https://gitcoin.co/grants/848/blockchain-ar-blwkshyn-rby',
@@ -19286,7 +19286,7 @@ export const theData = [
   },
   {
     grantId: 849,
-    'active': true,
+    isActive: true,
     address: '0x618bd991b158ce30ecccbbbee2f559370a6dea1e',
     name: 'excaldraw save to ipfs',
     slug: 'https://gitcoin.co/grants/849/excaldraw-save-to-ipfs',
@@ -19321,7 +19321,7 @@ export const theData = [
   },
   {
     grantId: 852,
-    'active': true,
+    isActive: true,
     address: '0xef8305e140ac520225daf050e2f71d5fbcc543e7',
     name: 'Potion',
     slug: 'https://gitcoin.co/grants/852/potion',
@@ -19356,7 +19356,7 @@ export const theData = [
   },
   {
     grantId: 855,
-    'active': true,
+    isActive: true,
     address: '0x7dac9fc15c1db4379d75a6e3f330ae849dffce18',
     name: 'KERNEL [Panvala League]',
     slug: 'https://gitcoin.co/grants/855/kernel-panvala-league',
@@ -19391,7 +19391,7 @@ export const theData = [
   },
   {
     grantId: 858,
-    'active': true,
+    isActive: true,
     address: '0xc4d9d1a93068d311ab18e988244123430eb4f1cd',
     name: 'Ethereum for Environmental Intelligence 🔗🍃',
     slug: 'https://gitcoin.co/grants/858/ethereum-for-environmental-intelligence',
@@ -19426,7 +19426,7 @@ export const theData = [
   },
   {
     grantId: 860,
-    'active': true,
+    isActive: true,
     address: '0x0cc7090d567f902f50cb5621a7d6a59874364ba1',
     name: 'ERC20 index',
     slug: 'https://gitcoin.co/grants/860/erc20-index',
@@ -19461,7 +19461,7 @@ export const theData = [
   },
   {
     grantId: 861,
-    'active': true,
+    isActive: true,
     address: '0x0cc7090d567f902f50cb5621a7d6a59874364ba1',
     name: 'ERC20 index',
     slug: 'https://gitcoin.co/grants/861/erc20-index',
@@ -19496,7 +19496,7 @@ export const theData = [
   },
   {
     grantId: 862,
-    'active': true,
+    isActive: true,
     address: '0x16a59020e5054da726a4d6d0d465758eb0b49e7c',
     name: 'Movement DAO',
     slug: 'https://gitcoin.co/grants/862/movement-dao',
@@ -19531,7 +19531,7 @@ export const theData = [
   },
   {
     grantId: 864,
-    'active': true,
+    isActive: true,
     address: '0x6f620ba7907a3d9a6dda9821eeb4e59b3f69c367',
     name: 'Dutch Swap: Digital Dutch Auctions for Everyone!',
     slug: 'https://gitcoin.co/grants/864/dutch-swap-digital-dutch-auctions-for-everyone',
@@ -19566,7 +19566,7 @@ export const theData = [
   },
   {
     grantId: 865,
-    'active': true,
+    isActive: true,
     address: '0x49608550e4b61e6de2ddff45b3361f6711319a14',
     name: 'ExtremeInsureMe DAO - Cover for living a life less ordinary',
     slug: 'https://gitcoin.co/grants/865/extremeinsureme-dao-cover-for-living-a-life-less-',
@@ -19601,7 +19601,7 @@ export const theData = [
   },
   {
     grantId: 866,
-    'active': true,
+    isActive: true,
     address: '0x294f999356ed03347c7a23bcbcf8d33fa41dc830',
     name: 'The Genesis DAO',
     slug: 'https://gitcoin.co/grants/866/the-genesis-dao',
@@ -19636,7 +19636,7 @@ export const theData = [
   },
   {
     grantId: 878,
-    'active': true,
+    isActive: true,
     address: '0xf701f92891c27656bb725fa16e634566813511e8',
     name: 'Lucrum',
     slug: 'https://gitcoin.co/grants/878/lucrum',
@@ -19671,7 +19671,7 @@ export const theData = [
   },
   {
     grantId: 879,
-    'active': true,
+    isActive: true,
     address: '0x37a45adbb275d5d3f8100f4cf16977cd4b0f9fb7',
     name: 'Litentry-Deprecated',
     slug: 'https://gitcoin.co/grants/879/litentry-deprecated',
@@ -19706,7 +19706,7 @@ export const theData = [
   },
   {
     grantId: 882,
-    'active': true,
+    isActive: true,
     address: '0xf5913759b449fae8900d61f7116d451d200c60f7',
     name: 'Add Aragon DAOs to Deep DAO',
     slug: 'https://gitcoin.co/grants/882/add-aragon-daos-to-deep-dao',
@@ -19741,7 +19741,7 @@ export const theData = [
   },
   {
     grantId: 883,
-    'active': true,
+    isActive: true,
     address: '0x2293fc0e35461aea297ae6fb9525493c9799ad8f',
     name: 'Piotr Misiurek - Zrozumieć Bitcoina',
     slug: 'https://gitcoin.co/grants/883/piotr-misiurek-zrozumiec-bitcoina',
@@ -19776,7 +19776,7 @@ export const theData = [
   },
   {
     grantId: 884,
-    'active': true,
+    isActive: true,
     address: '0xde68f19f19d7bbb7fe44cf1e63f5a6f115069181',
     name: 'Across Boundaries',
     slug: 'https://gitcoin.co/grants/884/across-boundaries',
@@ -19811,7 +19811,7 @@ export const theData = [
   },
   {
     grantId: 886,
-    'active': true,
+    isActive: true,
     address: '0x648aa14e4424e0825a5ce739c8c68610e143fb79',
     name: 'The Daily Gwei by Anthony Sassano (sassal0x)',
     slug: 'https://gitcoin.co/grants/886/the-daily-gwei-by-anthony-sassano-sassal0x',
@@ -19846,7 +19846,7 @@ export const theData = [
   },
   {
     grantId: 887,
-    'active': true,
+    isActive: true,
     address: '0x0b93ba560283350d4216f29dc57e15df38d0eace',
     name: 'Towards Structural Equality',
     slug: 'https://gitcoin.co/grants/887/towards-structural-equality',
@@ -19881,7 +19881,7 @@ export const theData = [
   },
   {
     grantId: 888,
-    'active': true,
+    isActive: true,
     address: '0xc72acaba5be1592e4a11c05a4365b82dc11b2f6a',
     name: 'Brownie',
     slug: 'https://gitcoin.co/grants/888/brownie',
@@ -19916,7 +19916,7 @@ export const theData = [
   },
   {
     grantId: 889,
-    'active': true,
+    isActive: true,
     address: '0x37a45adbb275d5d3f8100f4cf16977cd4b0f9fb7',
     name: 'Litentry',
     slug: 'https://gitcoin.co/grants/889/litentry',
@@ -19951,7 +19951,7 @@ export const theData = [
   },
   {
     grantId: 890,
-    'active': true,
+    isActive: true,
     address: '0xda46ae2f81a8419d9598a540ed59ea3e11d8cfc7',
     name: 'Simplifying DAOs, DeFi and Ethereum',
     slug: 'https://gitcoin.co/grants/890/simplifying-daos-defi-and-ethereum',
@@ -19986,7 +19986,7 @@ export const theData = [
   },
   {
     grantId: 891,
-    'active': true,
+    isActive: true,
     address: '0x294f999356ed03347c7a23bcbcf8d33fa41dc830',
     name: 'The Genesis DAO',
     slug: 'https://gitcoin.co/grants/891/the-genesis-dao',
@@ -20021,7 +20021,7 @@ export const theData = [
   },
   {
     grantId: 892,
-    'active': true,
+    isActive: true,
     address: '0xde68f19f19d7bbb7fe44cf1e63f5a6f115069181',
     name: 'BAND | Black Artist’ Network in Dialogue',
     slug: 'https://gitcoin.co/grants/892/band-black-artist-network-in-dialogue',
@@ -20056,7 +20056,7 @@ export const theData = [
   },
   {
     grantId: 893,
-    'active': true,
+    isActive: true,
     address: '0xe3c2495f4f7dd7738acf8662236db137023f6546',
     name: 'Christs Capital',
     slug: 'https://gitcoin.co/grants/893/christs-capital',
@@ -20091,7 +20091,7 @@ export const theData = [
   },
   {
     grantId: 894,
-    'active': true,
+    isActive: true,
     address: '0xde68f19f19d7bbb7fe44cf1e63f5a6f115069181',
     name: 'Black Boys Code',
     slug: 'https://gitcoin.co/grants/894/black-boys-code',
@@ -20126,7 +20126,7 @@ export const theData = [
   },
   {
     grantId: 895,
-    'active': true,
+    isActive: true,
     address: '0x163cc449cdf9d1ba22e9b81f0f9c9f01c2ab76a1',
     name: 'Help with studies',
     slug: 'https://gitcoin.co/grants/895/help-with-studies',
@@ -20161,7 +20161,7 @@ export const theData = [
   },
   {
     grantId: 896,
-    'active': true,
+    isActive: true,
     address: '0xb7b9a7db7bd0393184cf7aeb080da45a8c0a02b5',
     name: 'Mamba Blockchain Development Framework',
     slug: 'https://gitcoin.co/grants/896/mamba-blockchain-development-framework',
@@ -20196,7 +20196,7 @@ export const theData = [
   },
   {
     grantId: 897,
-    'active': true,
+    isActive: true,
     address: '0x38eb6cfcb27f796fc02f00e0d95972f566d7b63a',
     name: 'DAOJanes',
     slug: 'https://gitcoin.co/grants/897/daojanes',
@@ -20231,7 +20231,7 @@ export const theData = [
   },
   {
     grantId: 898,
-    'active': true,
+    isActive: true,
     address: '0x6f00ce7253bfd3a5a1c307b5e13814bf3433c72f',
     name: 'Genie - online gaming meets blockchain',
     slug: 'https://gitcoin.co/grants/898/genie-online-gaming-meets-blockchain',
@@ -20266,7 +20266,7 @@ export const theData = [
   },
   {
     grantId: 899,
-    'active': true,
+    isActive: true,
     address: '0x5b0f8d8f47e3fdf7ee1c337abca19dbba98524e6',
     name: '1Hive Gardens',
     slug: 'https://gitcoin.co/grants/899/1hive-gardens',
@@ -20301,7 +20301,7 @@ export const theData = [
   },
   {
     grantId: 900,
-    'active': true,
+    isActive: true,
     address: '0x0466e612137bca50e524f25ac9f7b6f826ee15b7',
     name: '1Hive Gardens',
     slug: 'https://gitcoin.co/grants/900/1hive-gardens',
@@ -20336,7 +20336,7 @@ export const theData = [
   },
   {
     grantId: 901,
-    'active': true,
+    isActive: true,
     address: '0xa8782136554fe991f1ffe65be581c4212a270465',
     name: '-cancelled-',
     slug: 'https://gitcoin.co/grants/901/-cancelled-',
@@ -20371,7 +20371,7 @@ export const theData = [
   },
   {
     grantId: 902,
-    'active': true,
+    isActive: true,
     address: '0x549adf7b383a1645f26a2acfe09c5304b679a532',
     name: 'Marma J Foundation (Marma J DAO) - Panvala League 🥰',
     slug: 'https://gitcoin.co/grants/902/marma-j-foundation-marma-j-dao-panvala-league',
@@ -20406,7 +20406,7 @@ export const theData = [
   },
   {
     grantId: 908,
-    'active': true,
+    isActive: true,
     address: '0xd3f151c61815babf4a898c82e99c4b354d5f052f',
     name: 'The Block Cafe - Community Venue in Lisbon, Portugal',
     slug: 'https://gitcoin.co/grants/908/the-block-cafe-community-venue-in-lisbon-portugal',
@@ -20441,7 +20441,7 @@ export const theData = [
   },
   {
     grantId: 912,
-    'active': true,
+    isActive: true,
     address: '0x9f4e7a2aa1b8d0a1ea485f4589b9aa90d4411fc9',
     name: 'IPFS iOS Backup',
     slug: 'https://gitcoin.co/grants/912/ipfs-ios-backup',
@@ -20476,7 +20476,7 @@ export const theData = [
   },
   {
     grantId: 913,
-    'active': true,
+    isActive: true,
     address: '0x073ab1c0cad3677cde9bdb0cdeedc2085c029579',
     name: 'AvionDB: A Distributed, MongoDB-like Database (Fully compatible with Web2 & Web3)',
     slug: 'https://gitcoin.co/grants/913/aviondb-a-distributed-mongodb-like-database-fully',
@@ -20511,7 +20511,7 @@ export const theData = [
   },
   {
     grantId: 916,
-    'active': true,
+    isActive: true,
     address: '0x21f53db4d2eacde70a2e4f0407d073c971ec1a33',
     name: 'Ancient Beast',
     slug: 'https://gitcoin.co/grants/916/ancient-beast',
@@ -20546,7 +20546,7 @@ export const theData = [
   },
   {
     grantId: 917,
-    'active': true,
+    isActive: true,
     address: '0xeab48a633ada8565f2cdeb5cde162909fd64b749',
     name: 'Flashmint.',
     slug: 'https://gitcoin.co/grants/917/flashmint',
@@ -20581,7 +20581,7 @@ export const theData = [
   },
   {
     grantId: 918,
-    'active': true,
+    isActive: true,
     address: '0x240da283477044d2ca519c8e068bc489e20b573d',
     name: 'Dai Card: Transact instantly, cheaply, and securely in Dai',
     slug: 'https://gitcoin.co/grants/918/dai-card-transact-instantly-cheaply-and-securely-',
@@ -20616,7 +20616,7 @@ export const theData = [
   },
   {
     grantId: 921,
-    'active': true,
+    isActive: true,
     address: '0x0d3f3ae5a4ef9577f15448e0e6141b36da4f46bd',
     name: 'Artists for Artists',
     slug: 'https://gitcoin.co/grants/921/artists-for-artists',
@@ -20651,7 +20651,7 @@ export const theData = [
   },
   {
     grantId: 922,
-    'active': true,
+    isActive: true,
     address: '0xffadc07f1bfb127f4312e8652fe94ab0c771b54d',
     name: 'Metaville',
     slug: 'https://gitcoin.co/grants/922/metaville',
@@ -20686,7 +20686,7 @@ export const theData = [
   },
   {
     grantId: 923,
-    'active': true,
+    isActive: true,
     address: '0x565b93a15d38acd79c120b15432d21e21ed274d6',
     name: 'Jamm Session Newsletter',
     slug: 'https://gitcoin.co/grants/923/jamm-session-newsletter',
@@ -20721,7 +20721,7 @@ export const theData = [
   },
   {
     grantId: 924,
-    'active': true,
+    isActive: true,
     address: '0x66a72b0a0645867e056f4badd6d575a4f595a389',
     name: 'webboot - a layer of trust for the web',
     slug: 'https://gitcoin.co/grants/924/webboot-a-layer-of-trust-for-the-web',
@@ -20756,7 +20756,7 @@ export const theData = [
   },
   {
     grantId: 926,
-    'active': true,
+    isActive: true,
     address: '0xcc103661075ef2284b2747394e4a8595c4e4e4ce',
     name: 'The NepCoin',
     slug: 'https://gitcoin.co/grants/926/the-nepcoin',
@@ -20791,7 +20791,7 @@ export const theData = [
   },
   {
     grantId: 927,
-    'active': true,
+    isActive: true,
     address: '0xe3d8e58551d240626d50ee26faff2649e1eee3cb',
     name: 'Democracy Mars',
     slug: 'https://gitcoin.co/grants/927/democracy-mars',
@@ -20826,7 +20826,7 @@ export const theData = [
   },
   {
     grantId: 929,
-    'active': true,
+    isActive: true,
     address: '0xb53b0255895c4f9e3a185e484e5b674bccfbc076',
     name: 'Fork The World Hackathon',
     slug: 'https://gitcoin.co/grants/929/fork-the-world-hackathon',
@@ -20861,7 +20861,7 @@ export const theData = [
   },
   {
     grantId: 930,
-    'active': true,
+    isActive: true,
     address: '0x39d8e84ef765360cdc1ca65d30333b92732bf09f',
     name: 'Audit for contract allowing enforcement of ~any two-person agreement',
     slug: 'https://gitcoin.co/grants/930/audit-for-contract-allowing-enforcement-of-any-tw',
@@ -20896,7 +20896,7 @@ export const theData = [
   },
   {
     grantId: 931,
-    'active': true,
+    isActive: true,
     address: '0xc3c2e1cf099bc6e1fa94ce358562bcbd5cc59fe5',
     name: 'YieldHero',
     slug: 'https://gitcoin.co/grants/931/yieldhero',
@@ -20931,7 +20931,7 @@ export const theData = [
   },
   {
     grantId: 933,
-    'active': true,
+    isActive: true,
     address: '0x7904667c340601aab73939372c016dc5102732a2',
     name: 'Blockchain Experiments',
     slug: 'https://gitcoin.co/grants/933/blockchain-experiments',
@@ -20966,7 +20966,7 @@ export const theData = [
   },
   {
     grantId: 934,
-    'active': true,
+    isActive: true,
     address: '0x571b7313b36af37e61359635157657dbab6ec240',
     name: 'Blockchain Threat Intelligence - Weekly Newsletter',
     slug: 'https://gitcoin.co/grants/934/blockchain-threat-intelligence-weekly-newsletter',
@@ -21001,7 +21001,7 @@ export const theData = [
   },
   {
     grantId: 935,
-    'active': true,
+    isActive: true,
     address: '0x9b2be08ca8201fa8666d150d2534e5d65cd56244',
     name: 'Medium Scraper',
     slug: 'https://gitcoin.co/grants/935/medium-scraper',
@@ -21036,7 +21036,7 @@ export const theData = [
   },
   {
     grantId: 938,
-    'active': true,
+    isActive: true,
     address: '0x1d113337e485e232d39d2d883031705ade37b576',
     name: 'Sourcify - Source Verification Service + Contract Repository',
     slug: 'https://gitcoin.co/grants/938/sourcify-source-verification-service-contract-rep',
@@ -21071,7 +21071,7 @@ export const theData = [
   },
   {
     grantId: 939,
-    'active': true,
+    isActive: true,
     address: '0x9384eb57f892cce158c9ad5446d815cc7584d42b',
     name: 'Agency',
     slug: 'https://gitcoin.co/grants/939/agency',
@@ -21106,7 +21106,7 @@ export const theData = [
   },
   {
     grantId: 943,
-    'active': true,
+    isActive: true,
     address: '0x9c2d119c158db2a02621bbd44770b0715b1dfcc6',
     name: 'Create Eth App',
     slug: 'https://gitcoin.co/grants/943/create-eth-app',
@@ -21141,7 +21141,7 @@ export const theData = [
   },
   {
     grantId: 945,
-    'active': true,
+    isActive: true,
     address: '0x4647116a410ca5e80ee2be0077335bbf0db35166',
     name: '🍀 Aggregating Projects with knowledge',
     slug: 'https://gitcoin.co/grants/945/aggregating-projects-with-knowledge',
@@ -21176,7 +21176,7 @@ export const theData = [
   },
   {
     grantId: 947,
-    'active': true,
+    isActive: true,
     address: '0xf3860788d1597cecf938424baabe976fac87dc26',
     name: 'DecentPay.app',
     slug: 'https://gitcoin.co/grants/947/decentpayapp',
@@ -21211,7 +21211,7 @@ export const theData = [
   },
   {
     grantId: 949,
-    'active': true,
+    isActive: true,
     address: '0x8ccf2a7dcf8598b51488861d8d380322b7117ff8',
     name: 'DAI Para Principiantes',
     slug: 'https://gitcoin.co/grants/949/dai-para-principiantes',
@@ -21246,7 +21246,7 @@ export const theData = [
   },
   {
     grantId: 950,
-    'active': true,
+    isActive: true,
     address: '0xdf68da6f37c0c905bbe9f4ac03768beada7c915c',
     name: '1 Minute',
     slug: 'https://gitcoin.co/grants/950/1-minute',
@@ -21281,7 +21281,7 @@ export const theData = [
   },
   {
     grantId: 951,
-    'active': true,
+    isActive: true,
     address: '0x4195abec16f5339ee4b18278891288d2f85eda39',
     name: 'Cripto Conserje Fund',
     slug: 'https://gitcoin.co/grants/951/cripto-conserje-fund',
@@ -21316,7 +21316,7 @@ export const theData = [
   },
   {
     grantId: 952,
-    'active': true,
+    isActive: true,
     address: '0xc966ba2a41888b6b4c5273323075b98e27b9f364',
     name: 'Krredit - DeFi Loans without collateral',
     slug: 'https://gitcoin.co/grants/952/krredit-defi-loans-without-collateral',
@@ -21351,7 +21351,7 @@ export const theData = [
   },
   {
     grantId: 953,
-    'active': true,
+    isActive: true,
     address: '0xdc2eb16e22eb5df0abbdc22c1136fd49fd8761cb',
     name: 'Cryptocrow.net',
     slug: 'https://gitcoin.co/grants/953/cryptocrownet',
@@ -21386,7 +21386,7 @@ export const theData = [
   },
   {
     grantId: 954,
-    'active': true,
+    isActive: true,
     address: '0x1760cfb293c604af992bad4e5220612f1a7d3c67',
     name: 'Cryptocrow.net',
     slug: 'https://gitcoin.co/grants/954/cryptocrownet',
@@ -21421,7 +21421,7 @@ export const theData = [
   },
   {
     grantId: 955,
-    'active': true,
+    isActive: true,
     address: '0x6b414ae959cfd44f0850c6811493aef0abd074f4',
     name: 'Funding.wiki',
     slug: 'https://gitcoin.co/grants/955/fundingwiki',
@@ -21456,7 +21456,7 @@ export const theData = [
   },
   {
     grantId: 959,
-    'active': true,
+    isActive: true,
     address: '0x131aaecbff040379070024ea0ae9ab72a059e6c4',
     name: '0confirmation',
     slug: 'https://gitcoin.co/grants/959/0confirmation',
@@ -21491,7 +21491,7 @@ export const theData = [
   },
   {
     grantId: 960,
-    'active': true,
+    isActive: true,
     address: '0xac24b63cce0ab5519434e7e6e68889221eb17000',
     name: 'Black Coding School - Empowering Communities with Code',
     slug: 'https://gitcoin.co/grants/960/black-coding-school-empowering-communities-with-c',
@@ -21526,7 +21526,7 @@ export const theData = [
   },
   {
     grantId: 962,
-    'active': true,
+    isActive: true,
     address: '0xf3a57fabea6e198403864640061e3abc168cee80',
     name: 'Mini Solar Generator',
     slug: 'https://gitcoin.co/grants/962/mini-solar-generator',
@@ -21561,7 +21561,7 @@ export const theData = [
   },
   {
     grantId: 963,
-    'active': true,
+    isActive: true,
     address: '0xf3a57fabea6e198403864640061e3abc168cee80',
     name: 'Mini Solar Generator',
     slug: 'https://gitcoin.co/grants/963/mini-solar-generator',
@@ -21596,7 +21596,7 @@ export const theData = [
   },
   {
     grantId: 964,
-    'active': true,
+    isActive: true,
     address: '0x5f2435c5d2337ec304a6e5961ac4dbb2b08acd82',
     name: 'Nifex [Crypto exchange]',
     slug: 'https://gitcoin.co/grants/964/nifex-crypto-exchange',
@@ -21631,7 +21631,7 @@ export const theData = [
   },
   {
     grantId: 965,
-    'active': true,
+    isActive: true,
     address: '0x5f2435c5d2337ec304a6e5961ac4dbb2b08acd82',
     name: 'Nifex [Crypto exchange]',
     slug: 'https://gitcoin.co/grants/965/nifex-crypto-exchange',
@@ -21666,7 +21666,7 @@ export const theData = [
   },
   {
     grantId: 966,
-    'active': true,
+    isActive: true,
     address: '0x43093861e897d139342ce149935a5f721532a660',
     name: 'BIPOC Artist Fellowship',
     slug: 'https://gitcoin.co/grants/966/bipoc-artist-fellowship',
@@ -21701,7 +21701,7 @@ export const theData = [
   },
   {
     grantId: 967,
-    'active': true,
+    isActive: true,
     address: '0xe89c2e91899cace25f045cb3e75299d5c8d8ba7c',
     name: 'Help: Debt+work affected by covid-19',
     slug: 'https://gitcoin.co/grants/967/help-debtwork-affected-by-covid-19',
@@ -21736,7 +21736,7 @@ export const theData = [
   },
   {
     grantId: 968,
-    'active': true,
+    isActive: true,
     address: '0xabe47ec0e8c66d994c3b904d751392bc41742dbc',
     name: 'Dshackle - Fault Tolerant Load Balancer for Ethereum API',
     slug: 'https://gitcoin.co/grants/968/dshackle-fault-tolerant-load-balancer-for-ethereu',
@@ -21771,7 +21771,7 @@ export const theData = [
   },
   {
     grantId: 969,
-    'active': true,
+    isActive: true,
     address: '0xee9ab87e3dd3817aa3636e247d09650ccbfe83c8',
     name: 'Education for all',
     slug: 'https://gitcoin.co/grants/969/education-for-all',
@@ -21806,7 +21806,7 @@ export const theData = [
   },
   {
     grantId: 971,
-    'active': true,
+    isActive: true,
     address: '0x521a18f9f8b4eccd27095f4d181b8da54b344d17',
     name: 'Hola DeFi',
     slug: 'https://gitcoin.co/grants/971/hola-defi',
@@ -21841,7 +21841,7 @@ export const theData = [
   },
   {
     grantId: 972,
-    'active': true,
+    isActive: true,
     address: '0xf0d7a8198d75e10517f035cf11b928e9e2ab20f4',
     name: 'hardhat-deploy and jolly-roger',
     slug: 'https://gitcoin.co/grants/972/hardhat-deploy-and-jolly-roger',
@@ -21876,7 +21876,7 @@ export const theData = [
   },
   {
     grantId: 974,
-    'active': true,
+    isActive: true,
     address: '0x77e2e933db7941055f0630a5e53137f19872290d',
     name: 'Bet Red!',
     slug: 'https://gitcoin.co/grants/974/bet-red',
@@ -21911,7 +21911,7 @@ export const theData = [
   },
   {
     grantId: 975,
-    'active': true,
+    isActive: true,
     address: '0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b',
     name: 'InsureNET Blockchain Insurance Platform',
     slug: 'https://gitcoin.co/grants/975/insurenet-blockchain-insurance-platform',
@@ -21946,7 +21946,7 @@ export const theData = [
   },
   {
     grantId: 976,
-    'active': true,
+    isActive: true,
     address: '0x00b491d250b9bcce482b6e70321b0a5339d183a6',
     name: 'Magical Machine Money',
     slug: 'https://gitcoin.co/grants/976/magical-machine-money',
@@ -21981,7 +21981,7 @@ export const theData = [
   },
   {
     grantId: 977,
-    'active': true,
+    isActive: true,
     address: '0xb6f947eed973bc0072bd0fbe2c44594f8d62b332',
     name: 'Teaching South Africans to better themselves',
     slug: 'https://gitcoin.co/grants/977/teaching-south-africans-to-better-themselves',
@@ -22016,7 +22016,7 @@ export const theData = [
   },
   {
     grantId: 979,
-    'active': true,
+    isActive: true,
     address: '0xe2658b70a678fa6e45012bae26ed0b0e10e17bf5',
     name: 'Berezka DAO',
     slug: 'https://gitcoin.co/grants/979/berezka-dao',
@@ -22051,7 +22051,7 @@ export const theData = [
   },
   {
     grantId: 980,
-    'active': true,
+    isActive: true,
     address: '0xe2658b70a678fa6e45012bae26ed0b0e10e17bf5',
     name: 'Basic function',
     slug: 'https://gitcoin.co/grants/980/basic-function',
@@ -22086,7 +22086,7 @@ export const theData = [
   },
   {
     grantId: 981,
-    'active': true,
+    isActive: true,
     address: '0x863199c0a7eb5c6e70e0889a93242445ee998cf4',
     name: 'Aave Token Exchange',
     slug: 'https://gitcoin.co/grants/981/aave-token-exchange',
@@ -22121,7 +22121,7 @@ export const theData = [
   },
   {
     grantId: 982,
-    'active': true,
+    isActive: true,
     address: '0x5ab45fb874701d910140e58ea62518566709c408',
     name: 'future modern (panvala league - please donate $pan not $dai! 😊)',
     slug: 'https://gitcoin.co/grants/982/future-modern-panvala-league-please-donate-pan-no',
@@ -22156,7 +22156,7 @@ export const theData = [
   },
   {
     grantId: 983,
-    'active': true,
+    isActive: true,
     address: '0x3ef3e95e5025d89966695da57c3ed031eebc1bd0',
     name: 'Bonsai',
     slug: 'https://gitcoin.co/grants/983/bonsai',
@@ -22191,7 +22191,7 @@ export const theData = [
   },
   {
     grantId: 985,
-    'active': true,
+    isActive: true,
     address: '0x9423cd58e21c2e81d1bb4f476ac2cf90fe22e57b',
     name: 'Nodedata',
     slug: 'https://gitcoin.co/grants/985/nodedata',
@@ -22226,7 +22226,7 @@ export const theData = [
   },
   {
     grantId: 986,
-    'active': true,
+    isActive: true,
     address: '0x751502ebbd7d0a3ba5750baccdff8aae656db48d',
     name: 'Dean',
     slug: 'https://gitcoin.co/grants/986/dean',
@@ -22261,7 +22261,7 @@ export const theData = [
   },
   {
     grantId: 988,
-    'active': true,
+    isActive: true,
     address: '0xeab48a633ada8565f2cdeb5cde162909fd64b749',
     name: 'Ethify',
     slug: 'https://gitcoin.co/grants/988/ethify',
@@ -22296,7 +22296,7 @@ export const theData = [
   },
   {
     grantId: 990,
-    'active': true,
+    isActive: true,
     address: '0x6818ceb03eefbccbb8fe872056003af67e43f4bf',
     name: 'Neutralnetworth',
     slug: 'https://gitcoin.co/grants/990/neutralnetworth',
@@ -22331,7 +22331,7 @@ export const theData = [
   },
   {
     grantId: 991,
-    'active': true,
+    isActive: true,
     address: '0xf59d6e2afd1cca57b17b53a80f0f9483cb3b3669',
     name: 'Daze of the Wolf',
     slug: 'https://gitcoin.co/grants/991/daze-of-the-wolf',
@@ -22366,7 +22366,7 @@ export const theData = [
   },
   {
     grantId: 992,
-    'active': true,
+    isActive: true,
     address: '0xeda95ed3e3436c689376889f9ed0a8f4ba23e866',
     name: 'Octavio personal',
     slug: 'https://gitcoin.co/grants/992/octavio-personal',
@@ -22401,7 +22401,7 @@ export const theData = [
   },
   {
     grantId: 993,
-    'active': true,
+    isActive: true,
     address: '0xe2be94b59a3a4aef2f66eb0dd73079da00315bf0',
     name: 'Decentral Games',
     slug: 'https://gitcoin.co/grants/993/decentral-games',
@@ -22436,7 +22436,7 @@ export const theData = [
   },
   {
     grantId: 994,
-    'active': true,
+    isActive: true,
     address: '0x4007fce1dac1e281e319902277982b01cd1e2569',
     name: 'Test Project',
     slug: 'https://gitcoin.co/grants/994/test-project',
@@ -22471,7 +22471,7 @@ export const theData = [
   },
   {
     grantId: 995,
-    'active': true,
+    isActive: true,
     address: '0x184cc5908e1a3d29b4d31df67d99622c4baa7b71',
     name: 'Test',
     slug: 'https://gitcoin.co/grants/995/test',
@@ -22506,7 +22506,7 @@ export const theData = [
   },
   {
     grantId: 997,
-    'active': true,
+    isActive: true,
     address: '0xe3fbb0520850098ce7e5cfa09f28fe3effbb9a58',
     name: 'Captain Bitcoin',
     slug: 'https://gitcoin.co/grants/997/captain-bitcoin',
@@ -22541,7 +22541,7 @@ export const theData = [
   },
   {
     grantId: 998,
-    'active': true,
+    isActive: true,
     address: '0xe3fbb0520850098ce7e5cfa09f28fe3effbb9a58',
     name: 'Captain Bitcoin',
     slug: 'https://gitcoin.co/grants/998/captain-bitcoin',
@@ -22576,7 +22576,7 @@ export const theData = [
   },
   {
     grantId: 999,
-    'active': true,
+    isActive: true,
     address: '0x6068ec9fe8b89630b4b73830c3d7c4d3a6b874e5',
     name: 'Blockchain By Women',
     slug: 'https://gitcoin.co/grants/999/blockchain-by-women',
@@ -22611,7 +22611,7 @@ export const theData = [
   },
   {
     grantId: 1001,
-    'active': true,
+    isActive: true,
     address: '0x0b4f4a3cfc6e5beb9f34e6f4fcb8e8d1d57a3689',
     name: 'Devcash Bounty Platform',
     slug: 'https://gitcoin.co/grants/1001/devcash-bounty-platform',
@@ -22646,7 +22646,7 @@ export const theData = [
   },
   {
     grantId: 1002,
-    'active': true,
+    isActive: true,
     address: '0x12724f96a09bf2e4b12f2caa5a6e261862d8b124',
     name: 'Moved, please go to the updated grant: https://gitcoin.co/grants/1003/cent-token-2',
     slug: 'https://gitcoin.co/grants/1002/moved-please-go-to-the-updated-grant-httpsgitcoin',
@@ -22681,7 +22681,7 @@ export const theData = [
   },
   {
     grantId: 1004,
-    'active': true,
+    isActive: true,
     address: '0x751329b3a2a92fbeffdac3eaa5f9fbea7584a0bc',
     name: 'Smart contract funding',
     slug: 'https://gitcoin.co/grants/1004/smart-contract-funding',
@@ -22716,7 +22716,7 @@ export const theData = [
   },
   {
     grantId: 1005,
-    'active': true,
+    isActive: true,
     address: '0x4bc821fef2ff947b57585a5fdbc73690db288a49',
     name: 'YieldFarming.info',
     slug: 'https://gitcoin.co/grants/1005/yieldfarminginfo',
@@ -22751,7 +22751,7 @@ export const theData = [
   },
   {
     grantId: 1006,
-    'active': true,
+    isActive: true,
     address: '0x25756f9c2cceacd787260b001f224159ab9fb97a',
     name: 'Decentralized Flexible Organizations R&D (Programmable Equities | On-Chain Companies)',
     slug: 'https://gitcoin.co/grants/1006/decentralized-flexible-organizations-rd-programma',
@@ -22786,7 +22786,7 @@ export const theData = [
   },
   {
     grantId: 1007,
-    'active': true,
+    isActive: true,
     address: '0x978e40d338221bae7fb5f39ac5ee843650f5e847',
     name: 'NextGen Recruitment Platform Leveraging AI and Blockchain',
     slug: 'https://gitcoin.co/grants/1007/nextgen-recruitment-platform-leveraging-ai-and-bl',
@@ -22821,7 +22821,7 @@ export const theData = [
   },
   {
     grantId: 1008,
-    'active': true,
+    isActive: true,
     address: '0x23a089397b1d30b56c942dcce73dc466b1fceaaa',
     name: 'Showcase',
     slug: 'https://gitcoin.co/grants/1008/showcase',
@@ -22856,7 +22856,7 @@ export const theData = [
   },
   {
     grantId: 1009,
-    'active': true,
+    isActive: true,
     address: '0x0b22380b7c423470979ac3ed7d3c07696773dea1',
     name: 'Matic Uniswap',
     slug: 'https://gitcoin.co/grants/1009/matic-uniswap',
@@ -22891,7 +22891,7 @@ export const theData = [
   },
   {
     grantId: 1010,
-    'active': true,
+    isActive: true,
     address: '0x22de936854e40350d01f47724fd047d4de0f26a1',
     name: 'Synergy of Serra',
     slug: 'https://gitcoin.co/grants/1010/synergy-of-serra',
@@ -22926,7 +22926,7 @@ export const theData = [
   },
   {
     grantId: 1011,
-    'active': true,
+    isActive: true,
     address: '0x174a0a04a1eda46fccf32f89340258f03d55f1f9',
     name: 'LED Token',
     slug: 'https://gitcoin.co/grants/1011/led-token',
@@ -22961,7 +22961,7 @@ export const theData = [
   },
   {
     grantId: 1013,
-    'active': true,
+    isActive: true,
     address: '0x654a855e48f6943966788b81dc739117c5bff6a1',
     name: 'Flowerpatch',
     slug: 'https://gitcoin.co/grants/1013/flowerpatch',
@@ -22996,7 +22996,7 @@ export const theData = [
   },
   {
     grantId: 1014,
-    'active': true,
+    isActive: true,
     address: '0x333ee98d84b087208353038e10e1b4600a0a3967',
     name: 'Akashick | Interactive Art Installation - Immutable Uncensored Messages/Images/Files',
     slug: 'https://gitcoin.co/grants/1014/akashick-interactive-art-installation-immutable-u',
@@ -23031,7 +23031,7 @@ export const theData = [
   },
   {
     grantId: 1015,
-    'active': true,
+    isActive: true,
     address: '0xd9a8ebfc5a7efa6b3e67fbbc014f1e493247294d',
     name: 'CryptoAssault',
     slug: 'https://gitcoin.co/grants/1015/cryptoassault',
@@ -23066,7 +23066,7 @@ export const theData = [
   },
   {
     grantId: 1016,
-    'active': true,
+    isActive: true,
     address: '0x974db975d2850377b9d51de6646159cbeb596bc5',
     name: 'The Datafruits Fund',
     slug: 'https://gitcoin.co/grants/1016/the-datafruits-fund',
@@ -23101,7 +23101,7 @@ export const theData = [
   },
   {
     grantId: 1018,
-    'active': true,
+    isActive: true,
     address: '0x300269a5c4cc793b090ac41e50c1be162bd0ffc8',
     name: 'CrypCade Entertainment Systems',
     slug: 'https://gitcoin.co/grants/1018/crypcade-entertainment-systems',
@@ -23136,7 +23136,7 @@ export const theData = [
   },
   {
     grantId: 1019,
-    'active': true,
+    isActive: true,
     address: '0x7cb9d4e32e0eeac68fb02d8d22c39e349aae9621',
     name: 'Crypto Plaza',
     slug: 'https://gitcoin.co/grants/1019/crypto-plaza',
@@ -23171,7 +23171,7 @@ export const theData = [
   },
   {
     grantId: 1020,
-    'active': true,
+    isActive: true,
     address: '0x4629c3acc568be227d19dc767f48bd05882d56ed',
     name: 'CashuWallet',
     slug: 'https://gitcoin.co/grants/1020/cashuwallet',
@@ -23206,7 +23206,7 @@ export const theData = [
   },
   {
     grantId: 1021,
-    'active': true,
+    isActive: true,
     address: '0x6e8eb6575c62b9f9c07fa666464c9543e7ecfca4',
     name: 'GruPur',
     slug: 'https://gitcoin.co/grants/1021/grupur',
@@ -23241,7 +23241,7 @@ export const theData = [
   },
   {
     grantId: 1022,
-    'active': true,
+    isActive: true,
     address: '0x6e8eb6575c62b9f9c07fa666464c9543e7ecfca4',
     name: 'GruPur',
     slug: 'https://gitcoin.co/grants/1022/grupur',
@@ -23276,7 +23276,7 @@ export const theData = [
   },
   {
     grantId: 1026,
-    'active': true,
+    isActive: true,
     address: '0xe8d848debb3a3e12aa815b15900c8e020b863f31',
     name: 'DappHero - the easyiest way to connect your website to blockchain.',
     slug: 'https://gitcoin.co/grants/1026/dapphero-the-easyiest-way-to-connect-your-website',
@@ -23311,7 +23311,7 @@ export const theData = [
   },
   {
     grantId: 1031,
-    'active': true,
+    isActive: true,
     address: '0x985e4515fce47110d29f268189dd08dad77c19f0',
     name: 'dao.care',
     slug: 'https://gitcoin.co/grants/1031/daocare',
@@ -23346,7 +23346,7 @@ export const theData = [
   },
   {
     grantId: 1032,
-    'active': true,
+    isActive: true,
     address: '0x6e8eb6575c62b9f9c07fa666464c9543e7ecfca4',
     name: 'GruPur',
     slug: 'https://gitcoin.co/grants/1032/grupur',
@@ -23381,7 +23381,7 @@ export const theData = [
   },
   {
     grantId: 1033,
-    'active': true,
+    isActive: true,
     address: '0xcfbb0c8a2c292b7c45cbade5ac6a25d2580dcb94',
     name: 'JellySwap',
     slug: 'https://gitcoin.co/grants/1033/jellyswap',
@@ -23416,7 +23416,7 @@ export const theData = [
   },
   {
     grantId: 1034,
-    'active': true,
+    isActive: true,
     address: '0x485bd02decba1b00ea5b289ca249878e9d34a16b',
     name: 'Pirates 2048',
     slug: 'https://gitcoin.co/grants/1034/pirates-2048',
@@ -23451,7 +23451,7 @@ export const theData = [
   },
   {
     grantId: 1035,
-    'active': true,
+    isActive: true,
     address: '0xf88b0247e611ee5af8cf98f5303769cba8e7177c',
     name: 'Smart Swap',
     slug: 'https://gitcoin.co/grants/1035/smart-swap',
@@ -23486,7 +23486,7 @@ export const theData = [
   },
   {
     grantId: 1036,
-    'active': true,
+    isActive: true,
     address: '0x665fa124e24ad188396e83ae4e6683963270bb2c',
     name: 'Eartheum',
     slug: 'https://gitcoin.co/grants/1036/eartheum',
@@ -23521,7 +23521,7 @@ export const theData = [
   },
   {
     grantId: 1040,
-    'active': true,
+    isActive: true,
     address: '0x33a8cdd353fb8842dcea6163fa76ed10e81edcf1',
     name: 'Uproot',
     slug: 'https://gitcoin.co/grants/1040/uproot',
@@ -23556,7 +23556,7 @@ export const theData = [
   },
   {
     grantId: 1041,
-    'active': true,
+    isActive: true,
     address: '0xe7e2e1de02cdc8dc307ea4cd237c0a24cf52f2aa',
     name: 'DeFi Safety',
     slug: 'https://gitcoin.co/grants/1041/defi-safety',
@@ -23591,7 +23591,7 @@ export const theData = [
   },
   {
     grantId: 1047,
-    'active': true,
+    isActive: true,
     address: '0xdd25adc79296bf72efb3ec9ba8cab1c71037704e',
     name: 'IntelliJ Solidity',
     slug: 'https://gitcoin.co/grants/1047/intellij-solidity',
@@ -23626,7 +23626,7 @@ export const theData = [
   },
   {
     grantId: 1049,
-    'active': true,
+    isActive: true,
     address: '0x57b328e48b1eecfb81c21e3a7cc72655cb4722c4',
     name: 'Berserkers',
     slug: 'https://gitcoin.co/grants/1049/berserkers',
@@ -23661,7 +23661,7 @@ export const theData = [
   },
   {
     grantId: 1051,
-    'active': true,
+    isActive: true,
     address: '0x684d30c3504fea374fc21ecbaf1a5d86e4eee278',
     name: '✨ MintGate - Gate Web Content Using NFTs and social tokens minted anywhere, any time',
     slug: 'https://gitcoin.co/grants/1051/mintgate-gate-web-content-using-nfts-and-social-t',
@@ -23696,7 +23696,7 @@ export const theData = [
   },
   {
     grantId: 1052,
-    'active': true,
+    isActive: true,
     address: '0x7710c1a75b9a9d67abc493a08ca6507dc42c6a11',
     name: 'Wildcards',
     slug: 'https://gitcoin.co/grants/1052/wildcards',
@@ -23731,7 +23731,7 @@ export const theData = [
   },
   {
     grantId: 1054,
-    'active': true,
+    isActive: true,
     address: '0xfa0be852b3d0c16474dc9902a4028a01b2b5c0e5',
     name: 'Decentralized Management of Public Good',
     slug: 'https://gitcoin.co/grants/1054/decentralized-management-of-public-good',
@@ -23766,7 +23766,7 @@ export const theData = [
   },
   {
     grantId: 1056,
-    'active': true,
+    isActive: true,
     address: '0xf6ebfc89a12dc981e4da64857025cb1cee37424d',
     name: 'try',
     slug: 'https://gitcoin.co/grants/1056/try',
@@ -23801,7 +23801,7 @@ export const theData = [
   },
   {
     grantId: 1058,
-    'active': true,
+    isActive: true,
     address: '0x1143e097e134f3407ef6b088672ccece9a4f8cdd',
     name: 'ADAMANT Messenger',
     slug: 'https://gitcoin.co/grants/1058/adamant-messenger',
@@ -23836,7 +23836,7 @@ export const theData = [
   },
   {
     grantId: 1059,
-    'active': true,
+    isActive: true,
     address: '0x683a78ba1f6b25e29fbbc9cd1bfa29a51520de84',
     name: 'YAM Protocol Audit',
     slug: 'https://gitcoin.co/grants/1059/yam-protocol-audit',
@@ -23871,7 +23871,7 @@ export const theData = [
   },
   {
     grantId: 1060,
-    'active': true,
+    isActive: true,
     address: '0x32f8ec47e6b649a0495066ff29d8d10ab420e19f',
     name: 'Fund for Nothing',
     slug: 'https://gitcoin.co/grants/1060/fund-for-nothing',
@@ -23906,7 +23906,7 @@ export const theData = [
   },
   {
     grantId: 1061,
-    'active': true,
+    isActive: true,
     address: '0x997d35b300ba1775fdb175df045252e57d6ea5b0',
     name: 'XYZ',
     slug: 'https://gitcoin.co/grants/1061/xyz',
@@ -23941,7 +23941,7 @@ export const theData = [
   },
   {
     grantId: 1063,
-    'active': true,
+    isActive: true,
     address: '0x3a783d95390fe556d0ec3a1f4ce9afa7003fa2b7',
     name: 'Tokerize art and help artists and creatives',
     slug: 'https://gitcoin.co/grants/1063/tokerize-art-and-help-artists-and-creatives',
@@ -23976,7 +23976,7 @@ export const theData = [
   },
   {
     grantId: 1064,
-    'active': true,
+    isActive: true,
     address: '0xd325e15a52b780698c45ca3bdb6c49444fe5b588',
     name: 'Opyn Monitor',
     slug: 'https://gitcoin.co/grants/1064/opyn-monitor',
@@ -24011,7 +24011,7 @@ export const theData = [
   },
   {
     grantId: 1068,
-    'active': true,
+    isActive: true,
     address: '0x007b003c4d0145b512286494d5ae123aeef29d9e',
     name: 'BlockSig - notarized document signing on Ethereum and IPFS',
     slug: 'https://gitcoin.co/grants/1068/blocksig-notarized-document-signing-on-ethereum-a',
@@ -24046,7 +24046,7 @@ export const theData = [
   },
   {
     grantId: 1069,
-    'active': true,
+    isActive: true,
     address: '0xbb400a040606e61e46f3aaee2fe3ea1dab5fdead',
     name: 'Feel the yearn',
     slug: 'https://gitcoin.co/grants/1069/feel-the-yearn',
@@ -24081,7 +24081,7 @@ export const theData = [
   },
   {
     grantId: 1071,
-    'active': true,
+    isActive: true,
     address: '0x7f3728b3416dffd0e896531f8fe5bc9498b840b9',
     name: 'AlwaysForSale.io',
     slug: 'https://gitcoin.co/grants/1071/alwaysforsaleio',
@@ -24116,7 +24116,7 @@ export const theData = [
   },
   {
     grantId: 1074,
-    'active': true,
+    isActive: true,
     address: '0x751329b3a2a92fbeffdac3eaa5f9fbea7584a0bc',
     name: 'funding for putting a go-pro on a big rocket and sharing the video',
     slug: 'https://gitcoin.co/grants/1074/funding-for-putting-a-go-pro-on-a-big-rocket-and-',
@@ -24151,7 +24151,7 @@ export const theData = [
   },
   {
     grantId: 1075,
-    'active': true,
+    isActive: true,
     address: '0x20b5f69d108dfc446f64e7393ff4ffd5130ed268',
     name: 'SwapMatic',
     slug: 'https://gitcoin.co/grants/1075/swapmatic',
@@ -24186,7 +24186,7 @@ export const theData = [
   },
   {
     grantId: 1080,
-    'active': true,
+    isActive: true,
     address: '0x81c776d0d7f7d9d3699851993ecaa88a46187f11',
     name: 'Treejer: A Climate Action Protocol',
     slug: 'https://gitcoin.co/grants/1080/treejer-a-climate-action-protocol',
@@ -24221,7 +24221,7 @@ export const theData = [
   },
   {
     grantId: 1082,
-    'active': true,
+    isActive: true,
     address: '0x51749838f13248e550a8f76d1f34fc26d3609d77',
     name: 'Atlas Library System',
     slug: 'https://gitcoin.co/grants/1082/atlas-library-system',
@@ -24256,7 +24256,7 @@ export const theData = [
   },
   {
     grantId: 1084,
-    'active': true,
+    isActive: true,
     address: '0x61cef8a2362aa699dee9e0b98683d6ec706f76c6',
     name: 'Live-Like',
     slug: 'https://gitcoin.co/grants/1084/live-like',
@@ -24291,7 +24291,7 @@ export const theData = [
   },
   {
     grantId: 1086,
-    'active': true,
+    isActive: true,
     address: '0x0b5cc12e5018b75992c238347b9e0199c9b9a4d9',
     name: 'Independent Ethvestigator Program',
     slug: 'https://gitcoin.co/grants/1086/independent-ethvestigator-program',
@@ -24326,7 +24326,7 @@ export const theData = [
   },
   {
     grantId: 1088,
-    'active': true,
+    isActive: true,
     address: '0xb65b6cb75c7d558ca39dbb098f5b9a7b690164fc',
     name: 'Creol Environments/Creol Offsets',
     slug: 'https://gitcoin.co/grants/1088/creol-environmentscreol-offsets',
@@ -24361,7 +24361,7 @@ export const theData = [
   },
   {
     grantId: 1089,
-    'active': true,
+    isActive: true,
     address: '0x779359c20ec4b46b853dbfd61a2b04785bc0de30',
     name: 'GemTracker',
     slug: 'https://gitcoin.co/grants/1089/gemtracker',
@@ -24396,7 +24396,7 @@ export const theData = [
   },
   {
     grantId: 1090,
-    'active': true,
+    isActive: true,
     address: '0x1208a26faa0f4ac65b42098419eb4daa5e580ac6',
     name: 'Tokenized Tweets',
     slug: 'https://gitcoin.co/grants/1090/tokenized-tweets',
@@ -24431,7 +24431,7 @@ export const theData = [
   },
   {
     grantId: 1091,
-    'active': true,
+    isActive: true,
     address: '0x4b84864c085c27f50bdea25671e045d6039bcc00',
     name: 'Upside Competitions',
     slug: 'https://gitcoin.co/grants/1091/upside-competitions',
@@ -24466,7 +24466,7 @@ export const theData = [
   },
   {
     grantId: 1095,
-    'active': true,
+    isActive: true,
     address: '0x1c8beac10eab6ec9797683337187fc19f4ecc0c4',
     name: 'MSAS - Matic Stake Alert Service',
     slug: 'https://gitcoin.co/grants/1095/msas-matic-stake-alert-service',
@@ -24501,7 +24501,7 @@ export const theData = [
   },
   {
     grantId: 1096,
-    'active': true,
+    isActive: true,
     address: '0xb101f7893738e34e5333ba1e385ebe6cd65bf1ef',
     name: 'Pareto Network - Financial content marketplace',
     slug: 'https://gitcoin.co/grants/1096/pareto-network-financial-content-marketplace',
@@ -24536,7 +24536,7 @@ export const theData = [
   },
   {
     grantId: 1097,
-    'active': true,
+    isActive: true,
     address: '0x5c75998de3b0418045800a2633f8b4f791aa2d54',
     name: 'Lander - Your personal home page on decentralized internet',
     slug: 'https://gitcoin.co/grants/1097/lander-your-personal-home-page-on-decentralized-i',
@@ -24571,7 +24571,7 @@ export const theData = [
   },
   {
     grantId: 1098,
-    'active': true,
+    isActive: true,
     address: '0x84242012ccf68382bd005587247e167ce1c96bfa',
     name: 'Battle Racers',
     slug: 'https://gitcoin.co/grants/1098/battle-racers',
@@ -24606,7 +24606,7 @@ export const theData = [
   },
   {
     grantId: 1099,
-    'active': true,
+    isActive: true,
     address: '0x11dc841653fc7792c89e3b5c8e0d5059abc02672',
     name: 'Parcel - Simplifying Crypto payroll & Treasury management at Scale',
     slug: 'https://gitcoin.co/grants/1099/parcel-simplifying-crypto-payroll-treasury-manage',
@@ -24641,7 +24641,7 @@ export const theData = [
   },
   {
     grantId: 1101,
-    'active': true,
+    isActive: true,
     address: '0xa3f83326ce7bd51fb6fdfc3d1c7fa76dc9d52aee',
     name: 'ArchiveNode.io - The Public Access Ethereum Archive Node',
     slug: 'https://gitcoin.co/grants/1101/archivenodeio-the-public-access-ethereum-archive-',
@@ -24676,7 +24676,7 @@ export const theData = [
   },
   {
     grantId: 1102,
-    'active': true,
+    isActive: true,
     address: '0x41dde2dc7f718d5f764fc97e8d122864587642d4',
     name: '✨ Astral',
     slug: 'https://gitcoin.co/grants/1102/astral',
@@ -24711,7 +24711,7 @@ export const theData = [
   },
   {
     grantId: 1104,
-    'active': true,
+    isActive: true,
     address: '0x86ce5779af980a3c9520a7380da4a625c53965ed',
     name: 'Secrets.Market',
     slug: 'https://gitcoin.co/grants/1104/secretsmarket',
@@ -24746,7 +24746,7 @@ export const theData = [
   },
   {
     grantId: 1106,
-    'active': true,
+    isActive: true,
     address: '0x68883956e7e3e410da868e5b2645af78ef43d649',
     name: 'GodMode',
     slug: 'https://gitcoin.co/grants/1106/godmode',
@@ -24781,7 +24781,7 @@ export const theData = [
   },
   {
     grantId: 1110,
-    'active': true,
+    isActive: true,
     address: '0x9fc13b4e1c4206970a1c4520d2f77336cd5d0e0a',
     name: 'Minerva Wallet (lab10 collective - Panvala League)',
     slug: 'https://gitcoin.co/grants/1110/minerva-wallet-lab10-collective-panvala-league',
@@ -24816,7 +24816,7 @@ export const theData = [
   },
   {
     grantId: 1114,
-    'active': true,
+    isActive: true,
     address: '0xd0b7a021279a4bd451430aba200a47e794c8406d',
     name: 'AlphaBond',
     slug: 'https://gitcoin.co/grants/1114/alphabond',
@@ -24851,7 +24851,7 @@ export const theData = [
   },
   {
     grantId: 1118,
-    'active': true,
+    isActive: true,
     address: '0x466621c1771590c4ecc5314eb3055adafd980d52',
     name: 'DXdaos Panvala League DeFi Community Awards Grant',
     slug: 'https://gitcoin.co/grants/1118/dxdaos-panvala-league-defi-community-awards-grant',
@@ -24886,7 +24886,7 @@ export const theData = [
   },
   {
     grantId: 1119,
-    'active': true,
+    isActive: true,
     address: '0xa28910bcbe9a1b9119940343c02cae65c1b22cc5',
     name: 'Eth-ter-I-Die',
     slug: 'https://gitcoin.co/grants/1119/eth-ter-i-die',
@@ -24921,7 +24921,7 @@ export const theData = [
   },
   {
     grantId: 1122,
-    'active': true,
+    isActive: true,
     address: '0x073ab1c0cad3677cde9bdb0cdeedc2085c029579',
     name: 'Vyper.fun | CryptoZombies+Ethernaut for Vyper',
     slug: 'https://gitcoin.co/grants/1122/vyperfun-cryptozombiesethernaut-for-vyper',
@@ -24956,7 +24956,7 @@ export const theData = [
   },
   {
     grantId: 1123,
-    'active': true,
+    isActive: true,
     address: '0x0aae28d2ef4888c8a23f3572b6b206a1076c84f1',
     name: 'DeFi-Tools - инструменты, удобняшки и нужные форки (пробный грант)',
     slug: 'https://gitcoin.co/grants/1123/defi-tools-instrumenty-udobniashki-i-nuzhnye-fork',
@@ -24991,7 +24991,7 @@ export const theData = [
   },
   {
     grantId: 1125,
-    'active': true,
+    isActive: true,
     address: '0x11dc841653fc7792c89e3b5c8e0d5059abc02672',
     name: 'Parcel',
     slug: 'https://gitcoin.co/grants/1125/parcel',
@@ -25026,7 +25026,7 @@ export const theData = [
   },
   {
     grantId: 1127,
-    'active': true,
+    isActive: true,
     address: '0x1251a94b6d800979d2d933b8bd5914b892772ac6',
     name: 'Commons Stack Community Fund - Panvala League',
     slug: 'https://gitcoin.co/grants/1127/commons-stack-community-fund-panvala-league',
@@ -25061,7 +25061,7 @@ export const theData = [
   },
   {
     grantId: 1130,
-    'active': true,
+    isActive: true,
     address: '0xc6e05b8b3b64bb35d14cb1fa1069feddc5d2ddd5',
     name: 'DO NOT TOUCH -- use other grant',
     slug: 'https://gitcoin.co/grants/1130/do-not-touch-use-other-grant',
@@ -25096,7 +25096,7 @@ export const theData = [
   },
   {
     grantId: 1131,
-    'active': true,
+    isActive: true,
     address: '0xb6ad42d615759e50c8087849a2f6f0e2032f7085',
     name: 'Caio Investe',
     slug: 'https://gitcoin.co/grants/1131/caio-investe',
@@ -25131,7 +25131,7 @@ export const theData = [
   },
   {
     grantId: 1134,
-    'active': true,
+    isActive: true,
     address: '0xe57c9da5c04ad70f1aa33331d6e3628433ec63ef',
     name: 'OrganicBlock - Redefining Urban Farming!',
     slug: 'https://gitcoin.co/grants/1134/organicblock-redefining-urban-farming',
@@ -25166,7 +25166,7 @@ export const theData = [
   },
   {
     grantId: 1135,
-    'active': true,
+    isActive: true,
     address: '0x9eb256f24503a65ee5a020537ee861bbdc438826',
     name: 'Security Token Offering',
     slug: 'https://gitcoin.co/grants/1135/security-token-offering',
@@ -25201,7 +25201,7 @@ export const theData = [
   },
   {
     grantId: 1139,
-    'active': true,
+    isActive: true,
     address: '0xd91ec22114897e5e68997f77a6182de3cb09ba9b',
     name: 'MetaCartel NFT Awards (Panvala League) 🛡',
     slug: 'https://gitcoin.co/grants/1139/metacartel-nft-awards-panvala-league',
@@ -25236,7 +25236,7 @@ export const theData = [
   },
   {
     grantId: 1140,
-    'active': true,
+    isActive: true,
     address: '0x1e55c85801a2c4f0bec57c84742a8ef3d72de57b',
     name: 'OPG NFTs - Community-Owned NFTs for HTML5 Game Developers (+ Game3.js v2!)',
     slug: 'https://gitcoin.co/grants/1140/opg-nfts-community-owned-nfts-for-html5-game-deve',
@@ -25271,7 +25271,7 @@ export const theData = [
   },
   {
     grantId: 1141,
-    'active': true,
+    isActive: true,
     address: '0x422ae3412510d6c877b259dad402ddeaf1fdb28e',
     name: 'Conviction Voting cadCAD Model Improvements: 1Hive Luna Swarm 🐝',
     slug: 'https://gitcoin.co/grants/1141/conviction-voting-cadcad-model-improvements-1hive',
@@ -25306,7 +25306,7 @@ export const theData = [
   },
   {
     grantId: 1142,
-    'active': true,
+    isActive: true,
     address: '0xa89fc5c2cf99e56e7e4e8f76c6adad66ca12d557',
     name: 'seedbank',
     slug: 'https://gitcoin.co/grants/1142/seedbank',
@@ -25341,7 +25341,7 @@ export const theData = [
   },
   {
     grantId: 1143,
-    'active': true,
+    isActive: true,
     address: '0xb120c885f1527394c78d50e7c7da57defb24f612',
     name: 'Frame: Privacy Focused Native Ethereum Wallet',
     slug: 'https://gitcoin.co/grants/1143/frame-privacy-focused-native-ethereum-wallet',
@@ -25376,7 +25376,7 @@ export const theData = [
   },
   {
     grantId: 1147,
-    'active': true,
+    isActive: true,
     address: '0xfe1d177037df1abbdde4c0e4afcde9447f8511d0',
     name: 'coinosis | Earn crypto for sharing your knowledge',
     slug: 'https://gitcoin.co/grants/1147/coinosis-earn-crypto-for-sharing-your-knowledge',
@@ -25411,7 +25411,7 @@ export const theData = [
   },
   {
     grantId: 1149,
-    'active': true,
+    isActive: true,
     address: '0x3d8846ea345a06938d3e1fda2c59a98d750c1582',
     name: 'Via.Eth (Code, Content, Community)',
     slug: 'https://gitcoin.co/grants/1149/viaeth-code-content-community',
@@ -25446,7 +25446,7 @@ export const theData = [
   },
   {
     grantId: 1150,
-    'active': true,
+    isActive: true,
     address: '0xb6bccce9cfe99d4b593aba72f3a36028d1ade4c5',
     name: 'Educational DeFi content | Amadeo Brands - ON DeFi',
     slug: 'https://gitcoin.co/grants/1150/educational-defi-content-amadeo-brands-on-defi',
@@ -25481,7 +25481,7 @@ export const theData = [
   },
   {
     grantId: 1151,
-    'active': true,
+    isActive: true,
     address: '0xd6db4be0b1c33987dc01cbf113b5f07c0232a07a',
     name: 'Fuzzing @ Home - helping find bugs in ETH 2.0 clients',
     slug: 'https://gitcoin.co/grants/1151/fuzzing-home-helping-find-bugs-in-eth-20-clients',
@@ -25516,7 +25516,7 @@ export const theData = [
   },
   {
     grantId: 1152,
-    'active': true,
+    isActive: true,
     address: '0xeabc7af196e529fc8af94e048ada7e01b7ae1f1e',
     name: 'Froshfeel',
     slug: 'https://gitcoin.co/grants/1152/froshfeel',
@@ -25551,7 +25551,7 @@ export const theData = [
   },
   {
     grantId: 1155,
-    'active': true,
+    isActive: true,
     address: '0x6868738d8e1e38e4bd2eb601262453d626d9648c',
     name: 'Token Engineering Commons',
     slug: 'https://gitcoin.co/grants/1155/token-engineering-commons',
@@ -25586,7 +25586,7 @@ export const theData = [
   },
   {
     grantId: 1156,
-    'active': true,
+    isActive: true,
     address: '0xa9c0e12233dd98934e939be6481f133a84247ef3',
     name: 'SkyLive - decentralized live streams & videos',
     slug: 'https://gitcoin.co/grants/1156/skylive-decentralized-live-streams-videos',
@@ -25621,7 +25621,7 @@ export const theData = [
   },
   {
     grantId: 1158,
-    'active': true,
+    isActive: true,
     address: '0xa2d5266647f5c5812cbdfd9419643704c81a3b4c',
     name: 'Finematics - DeFi Education',
     slug: 'https://gitcoin.co/grants/1158/finematics-defi-education',
@@ -25656,7 +25656,7 @@ export const theData = [
   },
   {
     grantId: 1159,
-    'active': true,
+    isActive: true,
     address: '0x5c647ca5e2bc5bd17c40410fcb8003d38879ae50',
     name: 'ANT1pattern',
     slug: 'https://gitcoin.co/grants/1159/ant1pattern',
@@ -25691,7 +25691,7 @@ export const theData = [
   },
   {
     grantId: 1160,
-    'active': true,
+    isActive: true,
     address: '0x792fef6eb8a7d6ca0b18ed1fd518767e7d45d8de',
     name: 'Democratized Controls Architecture for the Development of Hyperloop Pod Management',
     slug: 'https://gitcoin.co/grants/1160/democratized-controls-architecture-for-the-develo',
@@ -25726,7 +25726,7 @@ export const theData = [
   },
   {
     grantId: 1162,
-    'active': true,
+    isActive: true,
     address: '0x4985ad3d7d81c9e9a4cb2cc080f0c6baa55d8f74',
     name: '🎨 Nifty.ink',
     slug: 'https://gitcoin.co/grants/1162/niftyink',
@@ -25761,7 +25761,7 @@ export const theData = [
   },
   {
     grantId: 1166,
-    'active': true,
+    isActive: true,
     address: '0x2c5ff0be38115fe6e37acce8e94f86186c3d73df',
     name: 'Open Reviews: A Web2 to Web3 Replication Protocol (Panvala League)',
     slug: 'https://gitcoin.co/grants/1166/open-reviews-a-web2-to-web3-replication-protocol-',
@@ -25796,7 +25796,7 @@ export const theData = [
   },
   {
     grantId: 1168,
-    'active': true,
+    isActive: true,
     address: '0x00216505799d9e3117b40b94a24dc0fa286a57a4',
     name: 'Flowerpatch Emojis & Artwork Fund',
     slug: 'https://gitcoin.co/grants/1168/flowerpatch-emojis-artwork-fund',
@@ -25831,7 +25831,7 @@ export const theData = [
   },
   {
     grantId: 1169,
-    'active': true,
+    isActive: true,
     address: '0xddcbb11c175bfd52636bd18d880f760970b47aa9',
     name: 'wiflo :: global aura UI for spirit',
     slug: 'https://gitcoin.co/grants/1169/wiflo-global-aura-ui-for-spirit',
@@ -25866,7 +25866,7 @@ export const theData = [
   },
   {
     grantId: 1170,
-    'active': true,
+    isActive: true,
     address: '0x1ba0dc2bab6cf9ef50dc63755246e90d6aa821c4',
     name: 'Yield Farming Tools',
     slug: 'https://gitcoin.co/grants/1170/yield-farming-tools',
@@ -25901,7 +25901,7 @@ export const theData = [
   },
   {
     grantId: 1172,
-    'active': true,
+    isActive: true,
     address: '0xdd8ada4742aac96779979b98c455c76da4eff061',
     name: 'The Blockcore Foundation (maintains a Bitcoin implementation built on the .NET Core framework and written entirely in C#)',
     slug: 'https://gitcoin.co/grants/1172/the-blockcore-foundation-maintains-a-bitcoin-impl',
@@ -25936,7 +25936,7 @@ export const theData = [
   },
   {
     grantId: 1175,
-    'active': true,
+    isActive: true,
     address: '0xcfd38669d8cbdb7c933740db35bc83f64ff8b251',
     name: 'ETH Gas.watch',
     slug: 'https://gitcoin.co/grants/1175/eth-gaswatch',
@@ -25971,7 +25971,7 @@ export const theData = [
   },
   {
     grantId: 1183,
-    'active': true,
+    isActive: true,
     address: '0xc34ad4a95adcd9021182fd5607ed822db738e7c4',
     name: 'Web3Bridge \'Web3 house\' (Panvala League)',
     slug: 'https://gitcoin.co/grants/1183/web3bridge-web3-house-panvala-league',
@@ -26006,7 +26006,7 @@ export const theData = [
   },
   {
     grantId: 1184,
-    'active': true,
+    isActive: true,
     address: '0x4c026d5d6a7fe1b2e2b28b916ef2016f6058f7b4',
     name: 'Yhouse Token',
     slug: 'https://gitcoin.co/grants/1184/yhouse-token',
@@ -26041,7 +26041,7 @@ export const theData = [
   },
   {
     grantId: 1196,
-    'active': true,
+    isActive: true,
     address: '0x66943316565fe60619ef3517c9ab80072b71223b',
     name: 'Time Deposit',
     slug: 'https://gitcoin.co/grants/1196/time-deposit',
@@ -26076,7 +26076,7 @@ export const theData = [
   },
   {
     grantId: 1197,
-    'active': true,
+    isActive: true,
     address: '0x33d66941465ac776c38096cb1bc496c673ae7390',
     name: 'Interactive NFTs for creative coders',
     slug: 'https://gitcoin.co/grants/1197/interactive-nfts-for-creative-coders',
@@ -26111,7 +26111,7 @@ export const theData = [
   },
   {
     grantId: 1201,
-    'active': true,
+    isActive: true,
     address: '0x11b17aff7682caa0b4e25b1c7bd1fdd0c569cd70',
     name: 'Heroes of Dystopia - MMORPG',
     slug: 'https://gitcoin.co/grants/1201/heroes-of-dystopia-mmorpg',
@@ -26146,7 +26146,7 @@ export const theData = [
   },
   {
     grantId: 1204,
-    'active': true,
+    isActive: true,
     address: '0xe644be3a05ed983cc18f5c1769fc1a38917ed030',
     name: 'Feed Vitalik Transaction Visualizer ',
     slug: 'https://gitcoin.co/grants/1204/feed-vitalik-transaction-visualizer',
@@ -26181,7 +26181,7 @@ export const theData = [
   },
   {
     grantId: 1206,
-    'active': true,
+    isActive: true,
     address: '0xf09631d7ba044bfe44bbfec22c0a362c7e9dcdd8',
     name: '[Panvala League] Mol LeArt',
     slug: 'https://gitcoin.co/grants/1206/panvala-league-mol-leart',
@@ -26216,7 +26216,7 @@ export const theData = [
   },
   {
     grantId: 1209,
-    'active': true,
+    isActive: true,
     address: '0x54e8a0c65e045ed86d778afd884a7607f1135728',
     name: 'Porium',
     slug: 'https://gitcoin.co/grants/1209/porium',
@@ -26251,7 +26251,7 @@ export const theData = [
   },
   {
     grantId: 1211,
-    'active': true,
+    isActive: true,
     address: '0x0a0b368c0f1644fa269f0d6377232906747754a3',
     name: 'R&D in Rent-Free Public Financial Utilities',
     slug: 'https://gitcoin.co/grants/1211/rd-in-rent-free-public-financial-utilities',
@@ -26286,7 +26286,7 @@ export const theData = [
   },
   {
     grantId: 1213,
-    'active': true,
+    isActive: true,
     address: '0x782c93e1c530a283ef738a58b5671a8fc2d8153f',
     name: 'BitcoinLouie.eth',
     slug: 'https://gitcoin.co/grants/1213/bitcoinlouieeth',
@@ -26321,7 +26321,7 @@ export const theData = [
   },
   {
     grantId: 1219,
-    'active': true,
+    isActive: true,
     address: '0x4e3d9399c28c724293dd545225ec843ac4c9e953',
     name: 'DeFi Library',
     slug: 'https://gitcoin.co/grants/1219/defi-library',
@@ -26356,7 +26356,7 @@ export const theData = [
   },
   {
     grantId: 1224,
-    'active': true,
+    isActive: true,
     address: '0x5b607d28180f7260c6726048e909cb8f1a271ce0',
     name: 'YFIStats Protocol Dashboard',
     slug: 'https://gitcoin.co/grants/1224/yfistats-protocol-dashboard',
@@ -26391,7 +26391,7 @@ export const theData = [
   },
   {
     grantId: 1225,
-    'active': true,
+    isActive: true,
     address: '0xfd762f515199f76b219fb97c1e28850bea44a48c',
     name: 'Teach Kids about Ethereum with Virtual Reality (\'B is for Bufficorn\' in VR!)',
     slug: 'https://gitcoin.co/grants/1225/teach-kids-about-ethereum-with-virtual-reality-b-',
@@ -26426,7 +26426,7 @@ export const theData = [
   },
   {
     grantId: 1227,
-    'active': true,
+    isActive: true,
     address: '0x9eaf0e25aa660557018847e71ed9cf9c7772cf77',
     name: 'DEXTF- Decentralized Traded Fund',
     slug: 'https://gitcoin.co/grants/1227/dextf-decentralized-traded-fund',
@@ -26461,7 +26461,7 @@ export const theData = [
   },
   {
     grantId: 1228,
-    'active': true,
+    isActive: true,
     address: '0xb564dbe3a8d62825606a0396fce56b87f19a327e',
     name: 'BuidlIn  :  A rust guide for web3 development',
     slug: 'https://gitcoin.co/grants/1228/buidlin-a-rust-guide-for-web3-development',
@@ -26496,7 +26496,7 @@ export const theData = [
   },
   {
     grantId: 1229,
-    'active': true,
+    isActive: true,
     address: '0xda72e4f2f86cc4114844c5894241616c82667c48',
     name: 'pulp network',
     slug: 'https://gitcoin.co/grants/1229/pulp-network',
@@ -26531,7 +26531,7 @@ export const theData = [
   },
   {
     grantId: 1230,
-    'active': true,
+    isActive: true,
     address: '0xbd32ef8c2bf6010877cdda3629efb5b30efe8821',
     name: 'PrinterDAO',
     slug: 'https://gitcoin.co/grants/1230/printerdao',
@@ -26566,7 +26566,7 @@ export const theData = [
   },
   {
     grantId: 1232,
-    'active': true,
+    isActive: true,
     address: '0xc23f65b2c9869482204b2af68f1c6002983c7fc3',
     name: 'BullionsChain',
     slug: 'https://gitcoin.co/grants/1232/bullionschain',
@@ -26601,7 +26601,7 @@ export const theData = [
   },
   {
     grantId: 1234,
-    'active': true,
+    isActive: true,
     address: '0x0bd7c54eab5e038f8971d298da64b37257e59b65',
     name: 'Neptune Loop',
     slug: 'https://gitcoin.co/grants/1234/neptune-loop',
@@ -26636,7 +26636,7 @@ export const theData = [
   },
   {
     grantId: 1240,
-    'active': true,
+    isActive: true,
     address: '0x9fadb9e1a5d82451f066fa037e37455aec2e5ccc',
     name: 'Trickle - Your Hourly Pay, Cryptographically Secured',
     slug: 'https://gitcoin.co/grants/1240/trickle-your-hourly-pay-cryptographically-secured',
@@ -26671,7 +26671,7 @@ export const theData = [
   },
   {
     grantId: 1241,
-    'active': true,
+    isActive: true,
     address: '0x44b1fa2f48820e0759d729c9a802b3c9b3b910a4',
     name: 'Infinity Wallet - The ultimate gateway to decentralized finance in a user friendly and secure cryptocurrency wallet for the future.',
     slug: 'https://gitcoin.co/grants/1241/infinity-wallet-the-ultimate-gateway-to-decentral',
@@ -26706,7 +26706,7 @@ export const theData = [
   },
   {
     grantId: 1244,
-    'active': true,
+    isActive: true,
     address: '0x8d99f2e4c0534bd2500e0ab378897ae78c09cb14',
     name: 'A way for the masses to passively acquire the top 20 Ethereum assets in one click',
     slug: 'https://gitcoin.co/grants/1244/a-way-for-the-masses-to-passively-acquire-the-top',
@@ -26741,7 +26741,7 @@ export const theData = [
   },
   {
     grantId: 1245,
-    'active': true,
+    isActive: true,
     address: '0x3aa7d98265d405266de7011b1275c3e166c02245',
     name: 'Token Terminal',
     slug: 'https://gitcoin.co/grants/1245/token-terminal',
@@ -26776,7 +26776,7 @@ export const theData = [
   },
   {
     grantId: 1249,
-    'active': true,
+    isActive: true,
     address: '0xf7e72865cf3e2c4f6970f628b2e84bdf3edca222',
     name: 'ETHLocal - Crypto ❤️ Grassroots',
     slug: 'https://gitcoin.co/grants/1249/ethlocal-crypto-grassroots',
@@ -26811,7 +26811,7 @@ export const theData = [
   },
   {
     grantId: 1250,
-    'active': true,
+    isActive: true,
     address: '0xb61a98a0e542dcea1da7c44c2e8017373b95d350',
     name: 'H4H Fund  - A Defi Global Wealth Fund',
     slug: 'https://gitcoin.co/grants/1250/h4h-fund-a-defi-global-wealth-fund',
@@ -26846,7 +26846,7 @@ export const theData = [
   },
   {
     grantId: 1252,
-    'active': true,
+    isActive: true,
     address: '0x8fe59d8fb5ffd3509e5cb3d386be8bdb2d363662',
     name: 'Polywrap',
     slug: 'https://gitcoin.co/grants/1252/polywrap',
@@ -26881,7 +26881,7 @@ export const theData = [
   },
   {
     grantId: 1261,
-    'active': true,
+    isActive: true,
     address: '0x13541d356bcc7156e234ff15091ba9b8f1d9b2dd',
     name: 'Web3-Native Encryption Suite (W3ES) by Guer Labs',
     slug: 'https://gitcoin.co/grants/1261/web3-native-encryption-suite-w3es-by-guer-labs',
@@ -26916,7 +26916,7 @@ export const theData = [
   },
   {
     grantId: 1262,
-    'active': true,
+    isActive: true,
     address: '0x27cc10039ccc07b97d4e7e54143c53a01c4eb495',
     name: 'Gaia Gives Funding Portal',
     slug: 'https://gitcoin.co/grants/1262/gaia-gives-funding-portal',
@@ -26951,7 +26951,7 @@ export const theData = [
   },
   {
     grantId: 1263,
-    'active': true,
+    isActive: true,
     address: '0x5645e6537e86cfd8ccdb2ff6af79e2e1e30a60cd',
     name: 'Girls Rock On Crypto',
     slug: 'https://gitcoin.co/grants/1263/girls-rock-on-crypto',
@@ -26986,7 +26986,7 @@ export const theData = [
   },
   {
     grantId: 1264,
-    'active': true,
+    isActive: true,
     address: '0xcffe08bdf20918007f8ab268c32f8756494fc8d8',
     name: 'Talking Crypto w/ Gabriel Haines',
     slug: 'https://gitcoin.co/grants/1264/talking-crypto-w-gabriel-haines',
@@ -27021,7 +27021,7 @@ export const theData = [
   },
   {
     grantId: 1266,
-    'active': true,
+    isActive: true,
     address: '0xb6f7c2a6eefb0d627d149d7263152ad4548120f2',
     name: 'The Giving Block - Making Crypto Donations Easy',
     slug: 'https://gitcoin.co/grants/1266/the-giving-block-making-crypto-donations-easy',
@@ -27056,7 +27056,7 @@ export const theData = [
   },
   {
     grantId: 1268,
-    'active': true,
+    isActive: true,
     address: '0xe364afb0a03c31208d9e895006a1cc1144c5a2a2',
     name: 'Liquidity Vision',
     slug: 'https://gitcoin.co/grants/1268/liquidity-vision',
@@ -27091,7 +27091,7 @@ export const theData = [
   },
   {
     grantId: 1271,
-    'active': true,
+    isActive: true,
     address: '0x505adcfb0f8c190b0425d4b07f4c173eb8cca61a',
     name: 'FairSpin',
     slug: 'https://gitcoin.co/grants/1271/fairspin',
@@ -27126,7 +27126,7 @@ export const theData = [
   },
   {
     grantId: 1273,
-    'active': true,
+    isActive: true,
     address: '0x9e1441dc213cea8c8c059f01bba6b8f410674e7a',
     name: 'Our Bible',
     slug: 'https://gitcoin.co/grants/1273/our-bible',
@@ -27161,7 +27161,7 @@ export const theData = [
   },
   {
     grantId: 1274,
-    'active': true,
+    isActive: true,
     address: '0x7b187f598b910374109222bac494f508a49bd209',
     name: 'Ethereum Newsletters in French: BanklessFR & MetaversalFR & The Daily Gwei FR',
     slug: 'https://gitcoin.co/grants/1274/ethereum-newsletters-in-french-banklessfr-metaver',
@@ -27196,7 +27196,7 @@ export const theData = [
   },
   {
     grantId: 1277,
-    'active': true,
+    isActive: true,
     address: '0x42941bc83b698d47d0bbe9a1a49280388db44cb8',
     name: '\' Secret Garden \' —Crypto Art Exhibition for Children with Autism',
     slug: 'https://gitcoin.co/grants/1277/secret-garden-crypto-art-exhibition-for-children-',
@@ -27231,7 +27231,7 @@ export const theData = [
   },
   {
     grantId: 1278,
-    'active': true,
+    isActive: true,
     address: '0x05df81bf098ae29afad54250cd224379edcae850',
     name: 'Hashing It Outs Community Fund - Panvala League',
     slug: 'https://gitcoin.co/grants/1278/hashing-it-outs-community-fund-panvala-league',
@@ -27266,7 +27266,7 @@ export const theData = [
   },
   {
     grantId: 1279,
-    'active': true,
+    isActive: true,
     address: '0x5f532e354a72ee73778f03e16823a2c2e2fb312b',
     name: 'DeFi Slate ',
     slug: 'https://gitcoin.co/grants/1279/defi-slate',
@@ -27301,7 +27301,7 @@ export const theData = [
   },
   {
     grantId: 1280,
-    'active': true,
+    isActive: true,
     address: '0xa4c3eca7ec7c8ea9d4b8c4e8f798923f7f4d7b0f',
     name: 'Breadcrumbs',
     slug: 'https://gitcoin.co/grants/1280/breadcrumbs',
@@ -27336,7 +27336,7 @@ export const theData = [
   },
   {
     grantId: 1297,
-    'active': true,
+    isActive: true,
     address: '0x0e3655263d2db2c7ece965557d3889be0716c48b',
     name: 'WhalerDAO',
     slug: 'https://gitcoin.co/grants/1297/whalerdao',
@@ -27371,7 +27371,7 @@ export const theData = [
   },
   {
     grantId: 1298,
-    'active': true,
+    isActive: true,
     address: '0xdeedfacbb6fe862cccc39e1a941f9314df409f45',
     name: 'Huddle 01 - Revolutionizing Video Conferences using Blockchain and Web3 Technology',
     slug: 'https://gitcoin.co/grants/1298/huddle-01-revolutionizing-video-conferences-using',
@@ -27406,7 +27406,7 @@ export const theData = [
   },
   {
     grantId: 1299,
-    'active': true,
+    isActive: true,
     address: '0x1bc0f329cb0a20fab58054d0098d79446a0ae860',
     name: 'karbonbased shitposting ',
     slug: 'https://gitcoin.co/grants/1299/karbonbased-shitposting',
@@ -27441,7 +27441,7 @@ export const theData = [
   },
   {
     grantId: 1300,
-    'active': true,
+    isActive: true,
     address: '0x06fa77a7747aa2d13c942d8507b03541306e2697',
     name: 'Fractal',
     slug: 'https://gitcoin.co/grants/1300/fractal',
@@ -27476,7 +27476,7 @@ export const theData = [
   },
   {
     grantId: 1301,
-    'active': true,
+    isActive: true,
     address: '0x76609c4947289d40b1444c90c9af44e0f03f425a',
     name: 'Semsm',
     slug: 'https://gitcoin.co/grants/1301/semsm',
@@ -27511,7 +27511,7 @@ export const theData = [
   },
   {
     grantId: 1302,
-    'active': true,
+    isActive: true,
     address: '0x36ddc2c3fd41c646745983fa1990f67df2bd0bf9',
     name: 'Unifi - Multi Chain Transaction Explorer',
     slug: 'https://gitcoin.co/grants/1302/unifi-multi-chain-transaction-explorer',
@@ -27546,7 +27546,7 @@ export const theData = [
   },
   {
     grantId: 1306,
-    'active': true,
+    isActive: true,
     address: '0x627ca7601e943cbffd21aeeb7bb06b9a3137b0ec',
     name: 'ETH Gas Bot ⛽',
     slug: 'https://gitcoin.co/grants/1306/eth-gas-bot',
@@ -27581,7 +27581,7 @@ export const theData = [
   },
   {
     grantId: 1311,
-    'active': true,
+    isActive: true,
     address: '0x32dc2cdc78cdd824db9ad1006e8659dc2ea8d29e',
     name: 'Cryptoouf: A blog about DeFI for the Future of France',
     slug: 'https://gitcoin.co/grants/1311/cryptoouf-a-blog-about-defi-for-the-future-of-fra',
@@ -27616,7 +27616,7 @@ export const theData = [
   },
   {
     grantId: 1313,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show - Season2',
     slug: 'https://gitcoin.co/grants/1313/bbft-podcast-show-season2',
@@ -27651,7 +27651,7 @@ export const theData = [
   },
   {
     grantId: 1314,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show - Season2',
     slug: 'https://gitcoin.co/grants/1314/bbft-podcast-show-season2',
@@ -27686,7 +27686,7 @@ export const theData = [
   },
   {
     grantId: 1315,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show - Season2',
     slug: 'https://gitcoin.co/grants/1315/bbft-podcast-show-season2',
@@ -27721,7 +27721,7 @@ export const theData = [
   },
   {
     grantId: 1316,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show - Season2',
     slug: 'https://gitcoin.co/grants/1316/bbft-podcast-show-season2',
@@ -27756,7 +27756,7 @@ export const theData = [
   },
   {
     grantId: 1317,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show',
     slug: 'https://gitcoin.co/grants/1317/bbft-podcast-show',
@@ -27791,7 +27791,7 @@ export const theData = [
   },
   {
     grantId: 1318,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show',
     slug: 'https://gitcoin.co/grants/1318/bbft-podcast-show',
@@ -27826,7 +27826,7 @@ export const theData = [
   },
   {
     grantId: 1319,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show - Season2',
     slug: 'https://gitcoin.co/grants/1319/bbft-podcast-show-season2',
@@ -27861,7 +27861,7 @@ export const theData = [
   },
   {
     grantId: 1320,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show - Season2',
     slug: 'https://gitcoin.co/grants/1320/bbft-podcast-show-season2',
@@ -27896,7 +27896,7 @@ export const theData = [
   },
   {
     grantId: 1321,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show - Season2',
     slug: 'https://gitcoin.co/grants/1321/bbft-podcast-show-season2',
@@ -27931,7 +27931,7 @@ export const theData = [
   },
   {
     grantId: 1323,
-    'active': true,
+    isActive: true,
     address: '0xcfb3c2dc81718ff0087d46e4d7b1c4692ded1586',
     name: 'ReSource Network',
     slug: 'https://gitcoin.co/grants/1323/resource-network',
@@ -27966,7 +27966,7 @@ export const theData = [
   },
   {
     grantId: 1325,
-    'active': true,
+    isActive: true,
     address: '0xe64e9187d513b455732fd63fd1398ecd1925a03e',
     name: 'Kolektivo: Regenerative economy in Curaçao [Panvala League]',
     slug: 'https://gitcoin.co/grants/1325/kolektivo-regenerative-economy-in-curacao-panvala',
@@ -28001,7 +28001,7 @@ export const theData = [
   },
   {
     grantId: 1326,
-    'active': true,
+    isActive: true,
     address: '0x58ee26e304b965258c3b7b680315b56c3c4a1204',
     name: 'Introducing The BABO Socio Economic Ecosystem Project',
     slug: 'https://gitcoin.co/grants/1326/introducing-the-babo-socio-economic-ecosystem-pro',
@@ -28036,7 +28036,7 @@ export const theData = [
   },
   {
     grantId: 1331,
-    'active': true,
+    isActive: true,
     address: '0xc21b25479ce9fed4a5bb9c66833e33c50b0e044a',
     name: 'Boost Blocks by Broke',
     slug: 'https://gitcoin.co/grants/1331/boost-blocks-by-broke',
@@ -28071,7 +28071,7 @@ export const theData = [
   },
   {
     grantId: 1332,
-    'active': true,
+    isActive: true,
     address: '0xd77c1cd79de21633781b8804c631a0a021a72829',
     name: 'The BlockCode',
     slug: 'https://gitcoin.co/grants/1332/the-blockcode',
@@ -28106,7 +28106,7 @@ export const theData = [
   },
   {
     grantId: 1352,
-    'active': true,
+    isActive: true,
     address: '0xac716460a84b85d774bea75666ddf0088b024741',
     name: 'Remix plugins development / maintenance',
     slug: 'https://gitcoin.co/grants/1352/remix-plugins-development-maintenance',
@@ -28141,7 +28141,7 @@ export const theData = [
   },
   {
     grantId: 1353,
-    'active': true,
+    isActive: true,
     address: '0x301605c95acbed7a1fd9c2c0deee964e2afbd0c3',
     name: 'Synapsis. Network 🌌🌱',
     slug: 'https://gitcoin.co/grants/1353/synapsis-network',
@@ -28176,7 +28176,7 @@ export const theData = [
   },
   {
     grantId: 1355,
-    'active': true,
+    isActive: true,
     address: '0x15ae150d7dc03d3b635ee90b85219dbfe071ed35',
     name: 'soliditydeveloper.com',
     slug: 'https://gitcoin.co/grants/1355/soliditydevelopercom',
@@ -28211,7 +28211,7 @@ export const theData = [
   },
   {
     grantId: 1356,
-    'active': true,
+    isActive: true,
     address: '0x15ae150d7dc03d3b635ee90b85219dbfe071ed35',
     name: 'soliditydeveloper.com',
     slug: 'https://gitcoin.co/grants/1356/soliditydevelopercom',
@@ -28246,7 +28246,7 @@ export const theData = [
   },
   {
     grantId: 1357,
-    'active': true,
+    isActive: true,
     address: '0x15ae150d7dc03d3b635ee90b85219dbfe071ed35',
     name: 'soliditydeveloper.com',
     slug: 'https://gitcoin.co/grants/1357/soliditydevelopercom',
@@ -28281,7 +28281,7 @@ export const theData = [
   },
   {
     grantId: 1358,
-    'active': true,
+    isActive: true,
     address: '0x15ae150d7dc03d3b635ee90b85219dbfe071ed35',
     name: 'soliditydeveloper.com',
     slug: 'https://gitcoin.co/grants/1358/soliditydevelopercom',
@@ -28316,7 +28316,7 @@ export const theData = [
   },
   {
     grantId: 1359,
-    'active': true,
+    isActive: true,
     address: '0x15ae150d7dc03d3b635ee90b85219dbfe071ed35',
     name: 'soliditydeveloper.com',
     slug: 'https://gitcoin.co/grants/1359/soliditydevelopercom',
@@ -28351,7 +28351,7 @@ export const theData = [
   },
   {
     grantId: 1360,
-    'active': true,
+    isActive: true,
     address: '0x15ae150d7dc03d3b635ee90b85219dbfe071ed35',
     name: 'soliditydeveloper.com',
     slug: 'https://gitcoin.co/grants/1360/soliditydevelopercom',
@@ -28386,7 +28386,7 @@ export const theData = [
   },
   {
     grantId: 1361,
-    'active': true,
+    isActive: true,
     address: '0x84388c688fbf149d6e61c5e776cf25ae2ad1fa9f',
     name: 'MediaDAO',
     slug: 'https://gitcoin.co/grants/1361/mediadao',
@@ -28421,7 +28421,7 @@ export const theData = [
   },
   {
     grantId: 1362,
-    'active': true,
+    isActive: true,
     address: '0xabe26faee77419897090bc4c5a112d463443a662',
     name: 'MetisDAO',
     slug: 'https://gitcoin.co/grants/1362/metisdao',
@@ -28456,7 +28456,7 @@ export const theData = [
   },
   {
     grantId: 1374,
-    'active': true,
+    isActive: true,
     address: '0xb656cd9e370f0be5a02a85bb70bca7bc25f03c07',
     name: 'EmpanaDAO',
     slug: 'https://gitcoin.co/grants/1374/empanadao',
@@ -28491,7 +28491,7 @@ export const theData = [
   },
   {
     grantId: 1375,
-    'active': true,
+    isActive: true,
     address: '0x27c387f970716562687a471cf176cdef1fbc1ee9',
     name: 'USM, a minimalist stablecoin - nearing launch!',
     slug: 'https://gitcoin.co/grants/1375/usm-a-minimalist-stablecoin-nearing-launch',
@@ -28526,7 +28526,7 @@ export const theData = [
   },
   {
     grantId: 1377,
-    'active': true,
+    isActive: true,
     address: '0x207ac8e8b2db9bec1b53176f26fc16c349363309',
     name: 'Intoo TV',
     slug: 'https://gitcoin.co/grants/1377/intoo-tv',
@@ -28561,7 +28561,7 @@ export const theData = [
   },
   {
     grantId: 1379,
-    'active': true,
+    isActive: true,
     address: '0x07cde58672343e8a9103856c9ef40e676af03d96',
     name: 'Crypt0s News YouTube',
     slug: 'https://gitcoin.co/grants/1379/crypt0s-news-youtube',
@@ -28596,7 +28596,7 @@ export const theData = [
   },
   {
     grantId: 1383,
-    'active': true,
+    isActive: true,
     address: '0x6a9194428e9207390cc52f30779e47994a611e93',
     name: 'TollFS',
     slug: 'https://gitcoin.co/grants/1383/tollfs',
@@ -28631,7 +28631,7 @@ export const theData = [
   },
   {
     grantId: 1385,
-    'active': true,
+    isActive: true,
     address: '0xfb6f8d5dd687e77aa9275a1cb397da3c23aaf342',
     name: 'COMPOST',
     slug: 'https://gitcoin.co/grants/1385/compost',
@@ -28666,7 +28666,7 @@ export const theData = [
   },
   {
     grantId: 1386,
-    'active': true,
+    isActive: true,
     address: '0x690c8761ffe0ff88912c187a1acd19a2222c23c4',
     name: 'Entrest',
     slug: 'https://gitcoin.co/grants/1386/entrest',
@@ -28701,7 +28701,7 @@ export const theData = [
   },
   {
     grantId: 1388,
-    'active': true,
+    isActive: true,
     address: '0x066d4d13c5bc10e14e30e862471772aa7d23b4f1',
     name: 'Crypto Valuations YouTube Channel',
     slug: 'https://gitcoin.co/grants/1388/crypto-valuations-youtube-channel',
@@ -28736,7 +28736,7 @@ export const theData = [
   },
   {
     grantId: 1389,
-    'active': true,
+    isActive: true,
     address: '0x193dce65022b3d154854fa0b87fd7011f35ec3bc',
     name: 'ZYBUZ GAMING PROTOCOL',
     slug: 'https://gitcoin.co/grants/1389/zybuz-gaming-protocol',
@@ -28771,7 +28771,7 @@ export const theData = [
   },
   {
     grantId: 1402,
-    'active': true,
+    isActive: true,
     address: '0xdbbb8f8eff9e4d52d1f18070f098b5ab4c2ead04',
     name: 'El Dorado',
     slug: 'https://gitcoin.co/grants/1402/el-dorado',
@@ -28806,7 +28806,7 @@ export const theData = [
   },
   {
     grantId: 1403,
-    'active': true,
+    isActive: true,
     address: '0xde798cd9c53f4806b9cc7dd27adf7c641540167c',
     name: 'Geo Web',
     slug: 'https://gitcoin.co/grants/1403/geo-web',
@@ -28841,7 +28841,7 @@ export const theData = [
   },
   {
     grantId: 1405,
-    'active': true,
+    isActive: true,
     address: '0x9858a8f45e4205b490716ae7233e288da0372824',
     name: 'Huddln',
     slug: 'https://gitcoin.co/grants/1405/huddln',
@@ -28876,7 +28876,7 @@ export const theData = [
   },
   {
     grantId: 1406,
-    'active': true,
+    isActive: true,
     address: '0xedebc5b7df5245f631d75996b90f453d80cb4efb',
     name: 'NetSepio',
     slug: 'https://gitcoin.co/grants/1406/netsepio',
@@ -28911,7 +28911,7 @@ export const theData = [
   },
   {
     grantId: 1408,
-    'active': true,
+    isActive: true,
     address: '0xddc0e4931936d9f590ccb29f7f4758751479d0a8',
     name: 'EthKids.io v.2',
     slug: 'https://gitcoin.co/grants/1408/ethkidsio-v2',
@@ -28946,7 +28946,7 @@ export const theData = [
   },
   {
     grantId: 1409,
-    'active': true,
+    isActive: true,
     address: '0x6d2f650eb7d7dce957c9fb19ca79adf535a93dde',
     name: 'Código',
     slug: 'https://gitcoin.co/grants/1409/codigo',
@@ -28981,7 +28981,7 @@ export const theData = [
   },
   {
     grantId: 1412,
-    'active': true,
+    isActive: true,
     address: '0xf7bb9a58a4cff8db5d7c77c72995fa8da110b2c8',
     name: 'Bondly Finance',
     slug: 'https://gitcoin.co/grants/1412/bondly-finance',
@@ -29016,7 +29016,7 @@ export const theData = [
   },
   {
     grantId: 1416,
-    'active': true,
+    isActive: true,
     address: '0x9b66bcefa1becfe4b988e23cb1017e8f2c402067',
     name: 'Pygate',
     slug: 'https://gitcoin.co/grants/1416/pygate',
@@ -29051,7 +29051,7 @@ export const theData = [
   },
   {
     grantId: 1417,
-    'active': true,
+    isActive: true,
     address: '0x9b66bcefa1becfe4b988e23cb1017e8f2c402067',
     name: 'Deplatformr',
     slug: 'https://gitcoin.co/grants/1417/deplatformr',
@@ -29086,7 +29086,7 @@ export const theData = [
   },
   {
     grantId: 1419,
-    'active': true,
+    isActive: true,
     address: '0x29b1d432a40f40f5418da2d4abf740e5e491629b',
     name: 'Byte Box',
     slug: 'https://gitcoin.co/grants/1419/byte-box',
@@ -29121,7 +29121,7 @@ export const theData = [
   },
   {
     grantId: 1420,
-    'active': true,
+    isActive: true,
     address: '0xafecebe1c14325c2212624ac710af3a1b5da595d',
     name: 'Legisledger',
     slug: 'https://gitcoin.co/grants/1420/legisledger',
@@ -29156,7 +29156,7 @@ export const theData = [
   },
   {
     grantId: 1421,
-    'active': true,
+    isActive: true,
     address: '0x3db322e17d0be2433855112fa80a0c21d198dc5e',
     name: 'Spaces',
     slug: 'https://gitcoin.co/grants/1421/spaces',
@@ -29191,7 +29191,7 @@ export const theData = [
   },
   {
     grantId: 1422,
-    'active': true,
+    isActive: true,
     address: '0x5399d15ba4b204f1a40d5082b8cba2f3dd065210',
     name: 'Bob Wallet',
     slug: 'https://gitcoin.co/grants/1422/bob-wallet',
@@ -29226,7 +29226,7 @@ export const theData = [
   },
   {
     grantId: 1423,
-    'active': true,
+    isActive: true,
     address: '0x1b976a361fe836d5812ee44c3048a979d160fc02',
     name: 'Indie Record Label',
     slug: 'https://gitcoin.co/grants/1423/indie-record-label',
@@ -29261,7 +29261,7 @@ export const theData = [
   },
   {
     grantId: 1424,
-    'active': true,
+    isActive: true,
     address: '0xc172542e7f4f625bb0301f0bafc423092d9cac71',
     name: 'NFT Education | Getting Giffy',
     slug: 'https://gitcoin.co/grants/1424/nft-education-getting-giffy',
@@ -29296,7 +29296,7 @@ export const theData = [
   },
   {
     grantId: 1426,
-    'active': true,
+    isActive: true,
     address: '0xeada96474cea6c2d0bb16e4542169ff5d55f89f4',
     name: 'PayLock Escrow',
     slug: 'https://gitcoin.co/grants/1426/paylock-escrow',
@@ -29331,7 +29331,7 @@ export const theData = [
   },
   {
     grantId: 1427,
-    'active': true,
+    isActive: true,
     address: '0x96a2e811b2af9f46311908141ed0ac8bfa723747',
     name: 'ZuniSwap Pre-Launch Grant',
     slug: 'https://gitcoin.co/grants/1427/zuniswap-pre-launch-grant',
@@ -29366,7 +29366,7 @@ export const theData = [
   },
   {
     grantId: 1428,
-    'active': true,
+    isActive: true,
     address: '0xd25a803e24ffd3c0033547be04d8c43ffba7486b',
     name: 'Handshake Development Fund (Panvala League)',
     slug: 'https://gitcoin.co/grants/1428/handshake-development-fund-panvala-league',
@@ -29401,7 +29401,7 @@ export const theData = [
   },
   {
     grantId: 1440,
-    'active': true,
+    isActive: true,
     address: '0xa582360da4ae1fbb912c975fcce1a0c0e2af91e8',
     name: 'Linkdrop',
     slug: 'https://gitcoin.co/grants/1440/linkdrop',
@@ -29436,7 +29436,7 @@ export const theData = [
   },
   {
     grantId: 1442,
-    'active': true,
+    isActive: true,
     address: '0x997d35b300ba1775fdb175df045252e57d6ea5b0',
     name: 'test',
     slug: 'https://gitcoin.co/grants/1442/test',
@@ -29471,7 +29471,7 @@ export const theData = [
   },
   {
     grantId: 1443,
-    'active': true,
+    isActive: true,
     address: '0x997d35b300ba1775fdb175df045252e57d6ea5b0',
     name: 'test',
     slug: 'https://gitcoin.co/grants/1443/test',
@@ -29506,7 +29506,7 @@ export const theData = [
   },
   {
     grantId: 1445,
-    'active': true,
+    isActive: true,
     address: '0x2c2eb7e70162a912dcf33f6470cb8848888ae149',
     name: 'WeFilm Publishing',
     slug: 'https://gitcoin.co/grants/1445/wefilm-publishing',
@@ -29541,7 +29541,7 @@ export const theData = [
   },
   {
     grantId: 1446,
-    'active': true,
+    isActive: true,
     address: '0x89653935315a135640f425fd133f8209584e3240',
     name: 'FusionLedger',
     slug: 'https://gitcoin.co/grants/1446/fusionledger',
@@ -29576,7 +29576,7 @@ export const theData = [
   },
   {
     grantId: 1452,
-    'active': true,
+    isActive: true,
     address: '0x17d7887e59317967cb74869ad878c4c13b00d7e7',
     name: 'Demodyfi \'A Multi-chain Universe\'',
     slug: 'https://gitcoin.co/grants/1452/demodyfi-a-multi-chain-universe',
@@ -29611,7 +29611,7 @@ export const theData = [
   },
   {
     grantId: 1456,
-    'active': true,
+    isActive: true,
     address: '0x10a35cbce6d0b2b01d6dd944c6889f98b036205d',
     name: 'The augmented reality game Cryptolandy.',
     slug: 'https://gitcoin.co/grants/1456/the-augmented-reality-game-cryptolandy',
@@ -29646,7 +29646,7 @@ export const theData = [
   },
   {
     grantId: 1460,
-    'active': true,
+    isActive: true,
     address: '0xa8a0fa0dde18a66cfe91d517c3dbac5d83d6f804',
     name: 'Hymn Sheet',
     slug: 'https://gitcoin.co/grants/1460/hymn-sheet',
@@ -29681,7 +29681,7 @@ export const theData = [
   },
   {
     grantId: 1461,
-    'active': true,
+    isActive: true,
     address: '0x207ac8e8b2db9bec1b53176f26fc16c349363309',
     name: 'Intoo TV',
     slug: 'https://gitcoin.co/grants/1461/intoo-tv',
@@ -29716,7 +29716,7 @@ export const theData = [
   },
   {
     grantId: 1462,
-    'active': true,
+    isActive: true,
     address: '0xbd2de08af9470c87c4475117fb912b8f1d588d9c',
     name: 'dCompute',
     slug: 'https://gitcoin.co/grants/1462/dcompute',
@@ -29751,7 +29751,7 @@ export const theData = [
   },
   {
     grantId: 1463,
-    'active': true,
+    isActive: true,
     address: '0xd07a386bf6952259626a260e4f546a75b2f56e95',
     name: 'Handy Software (HandyBrowser & HandyMiner)',
     slug: 'https://gitcoin.co/grants/1463/handy-software-handybrowser-handyminer',
@@ -29786,7 +29786,7 @@ export const theData = [
   },
   {
     grantId: 1464,
-    'active': true,
+    isActive: true,
     address: '0xb7de690a60a968fc844148d75bfff9716382b145',
     name: 'kontext.app - Social Bookmarking on Filecoin & Ethereum',
     slug: 'https://gitcoin.co/grants/1464/kontextapp-social-bookmarking-on-filecoin-ethereu',
@@ -29821,7 +29821,7 @@ export const theData = [
   },
   {
     grantId: 1467,
-    'active': true,
+    isActive: true,
     address: '0x47ac438004d39518792eb96f743a4b952e8462fe',
     name: 'ClimateDataPool',
     slug: 'https://gitcoin.co/grants/1467/climatedatapool',
@@ -29856,7 +29856,7 @@ export const theData = [
   },
   {
     grantId: 1470,
-    'active': true,
+    isActive: true,
     address: '0x2f8e74d6a6600ff8bd45696b92030b31c46f35f7',
     name: 'Secured Finance - InterBank grade peer-to-peer Financial Transaction Platform',
     slug: 'https://gitcoin.co/grants/1470/secured-finance-interbank-grade-peer-to-peer-fina',
@@ -29891,7 +29891,7 @@ export const theData = [
   },
   {
     grantId: 1474,
-    'active': true,
+    isActive: true,
     address: '0x8a98cb0eb880e791902eee7e92efa16bd06412bb',
     name: 'yfNFT',
     slug: 'https://gitcoin.co/grants/1474/yfnft',
@@ -29926,7 +29926,7 @@ export const theData = [
   },
   {
     grantId: 1482,
-    'active': true,
+    isActive: true,
     address: '0xe946becd1276cd0cb177b7c52200d6a03ee75037',
     name: 'SpaceDx',
     slug: 'https://gitcoin.co/grants/1482/spacedx',
@@ -29961,7 +29961,7 @@ export const theData = [
   },
   {
     grantId: 1483,
-    'active': true,
+    isActive: true,
     address: '0x4036b344e3efe9af30cd179ecb9a54a792c164d8',
     name: 'Digital Euro Stablecoin Protocol',
     slug: 'https://gitcoin.co/grants/1483/digital-euro-stablecoin-protocol',
@@ -29996,7 +29996,7 @@ export const theData = [
   },
   {
     grantId: 1485,
-    'active': true,
+    isActive: true,
     address: '0x207ac8e8b2db9bec1b53176f26fc16c349363309',
     name: 'DistributedTown',
     slug: 'https://gitcoin.co/grants/1485/distributedtown',
@@ -30031,7 +30031,7 @@ export const theData = [
   },
   {
     grantId: 1487,
-    'active': true,
+    isActive: true,
     address: '0xea6cdbe70e5c18c605427d93dc6374b648843fac',
     name: 'Memorial.network',
     slug: 'https://gitcoin.co/grants/1487/memorialnetwork',
@@ -30066,7 +30066,7 @@ export const theData = [
   },
   {
     grantId: 1488,
-    'active': true,
+    isActive: true,
     address: '0x0389836416d1d46724f0913eeee42622950b20c1',
     name: 'ERCGraph',
     slug: 'https://gitcoin.co/grants/1488/ercgraph',
@@ -30101,7 +30101,7 @@ export const theData = [
   },
   {
     grantId: 1490,
-    'active': true,
+    isActive: true,
     address: '0x67cae6903b9ff37f7ff0ae885ccbd87a72633669',
     name: 'Git3',
     slug: 'https://gitcoin.co/grants/1490/git3',
@@ -30136,7 +30136,7 @@ export const theData = [
   },
   {
     grantId: 1492,
-    'active': true,
+    isActive: true,
     address: '0x56334e16d24db1df8bd54708b88f96b8dd112145',
     name: 'DeFi-Venture',
     slug: 'https://gitcoin.co/grants/1492/defi-venture',
@@ -30171,7 +30171,7 @@ export const theData = [
   },
   {
     grantId: 1496,
-    'active': true,
+    isActive: true,
     address: '0x04335c092bc8c06f48f9def5e3285140138fbbfc',
     name: 'Optimistic Casino',
     slug: 'https://gitcoin.co/grants/1496/optimistic-casino',
@@ -30206,7 +30206,7 @@ export const theData = [
   },
   {
     grantId: 1497,
-    'active': true,
+    isActive: true,
     address: '0x7a0c82b43367139a5bcefcf26e3a7415ee0e8fbc',
     name: 'ShadowQueent',
     slug: 'https://gitcoin.co/grants/1497/shadowqueent',
@@ -30241,7 +30241,7 @@ export const theData = [
   },
   {
     grantId: 1498,
-    'active': true,
+    isActive: true,
     address: '0x10d93cdc5a7c5cc3114cf4356efda3219a120656',
     name: 'Crypto Music Fund | Changing the world through music',
     slug: 'https://gitcoin.co/grants/1498/crypto-music-fund-changing-the-world-through-musi',
@@ -30276,7 +30276,7 @@ export const theData = [
   },
   {
     grantId: 1499,
-    'active': true,
+    isActive: true,
     address: '0x62e4851e88bec4f5c5ee3dd347f2c601a18af1af',
     name: 'taoDAO',
     slug: 'https://gitcoin.co/grants/1499/taodao',
@@ -30311,7 +30311,7 @@ export const theData = [
   },
   {
     grantId: 1502,
-    'active': true,
+    isActive: true,
     address: '0x07af1daf78ba692185d3f0e04a88c80bbd559b0b',
     name: 'Dexther',
     slug: 'https://gitcoin.co/grants/1502/dexther',
@@ -30346,7 +30346,7 @@ export const theData = [
   },
   {
     grantId: 1505,
-    'active': true,
+    isActive: true,
     address: '0xddb5eb5b0ba08601af1feff591bf5be6b59ba5f6',
     name: 'Moip Network: Send Ethereum or erc20 tokens through email',
     slug: 'https://gitcoin.co/grants/1505/moip-network-send-ethereum-or-erc20-tokens-throug',
@@ -30381,7 +30381,7 @@ export const theData = [
   },
   {
     grantId: 1506,
-    'active': true,
+    isActive: true,
     address: '0x6b1227622512b3b9ad34a03777e5ad9a65cfa97f',
     name: 'keybase.us Send Ethereum to anyone with social media profile',
     slug: 'https://gitcoin.co/grants/1506/keybaseus-send-ethereum-to-anyone-with-social-med',
@@ -30416,7 +30416,7 @@ export const theData = [
   },
   {
     grantId: 1508,
-    'active': true,
+    isActive: true,
     address: '0xc018272800c4a989bddb0d3437be912443bf9737',
     name: 'Spreading Crypto education through Books in less advanced countries is key',
     slug: 'https://gitcoin.co/grants/1508/spreading-crypto-education-through-books-in-less-',
@@ -30451,7 +30451,7 @@ export const theData = [
   },
   {
     grantId: 1509,
-    'active': true,
+    isActive: true,
     address: '0x5fff94e8585a12a13b46177110a8812b6db92f87',
     name: 'NFThub [Panvala League]',
     slug: 'https://gitcoin.co/grants/1509/nfthub-panvala-league',
@@ -30486,7 +30486,7 @@ export const theData = [
   },
   {
     grantId: 1510,
-    'active': true,
+    isActive: true,
     address: '0xbb2281ca5b4d07263112604d1f182ad0ab26a252',
     name: 'Pickle Jar Info',
     slug: 'https://gitcoin.co/grants/1510/pickle-jar-info',
@@ -30521,7 +30521,7 @@ export const theData = [
   },
   {
     grantId: 1511,
-    'active': true,
+    isActive: true,
     address: '0xcf10cd8b5dc2323b1eb6de6164647756bad4de4d',
     name: 'SoapPunk Universe',
     slug: 'https://gitcoin.co/grants/1511/soappunk-universe',
@@ -30556,7 +30556,7 @@ export const theData = [
   },
   {
     grantId: 1514,
-    'active': true,
+    isActive: true,
     address: '0x68c10776c5c05cbf5b4c2318be02d61b9f06b875',
     name: '[Dystopia Labs] IRL Summits & Hackathons In 2021 & Beyond!',
     slug: 'https://gitcoin.co/grants/1514/dystopia-labs-irl-summits-hackathons-in-2021-beyo',
@@ -30591,7 +30591,7 @@ export const theData = [
   },
   {
     grantId: 1516,
-    'active': true,
+    isActive: true,
     address: '0x995c49fa770331a7e9292dba5f2cdb03f427481a',
     name: 'Tides',
     slug: 'https://gitcoin.co/grants/1516/tides',
@@ -30626,7 +30626,7 @@ export const theData = [
   },
   {
     grantId: 1518,
-    'active': true,
+    isActive: true,
     address: '0x0fa21edecefd2c8d559430bcedcc4c0672afbbab',
     name: 'Mindful - Portfolio Alignment for Degens',
     slug: 'https://gitcoin.co/grants/1518/mindful-portfolio-alignment-for-degens',
@@ -30661,7 +30661,7 @@ export const theData = [
   },
   {
     grantId: 1521,
-    'active': true,
+    isActive: true,
     address: '0x686bf3a4a46f4ac76be157fdd14f5bf0c0566434',
     name: 'Tenderize',
     slug: 'https://gitcoin.co/grants/1521/tenderize',
@@ -30696,7 +30696,7 @@ export const theData = [
   },
   {
     grantId: 1522,
-    'active': true,
+    isActive: true,
     address: '0x5e67437893f0732d27492865dad712a09efec03f',
     name: 'SteelBird Protocol',
     slug: 'https://gitcoin.co/grants/1522/steelbird-protocol',
@@ -30731,7 +30731,7 @@ export const theData = [
   },
   {
     grantId: 1526,
-    'active': true,
+    isActive: true,
     address: '0x137f0cd1cac26b2abde48676e3ffac96f1bb4cb7',
     name: 'Zcash Narrative Enhancement',
     slug: 'https://gitcoin.co/grants/1526/zcash-narrative-enhancement',
@@ -30766,7 +30766,7 @@ export const theData = [
   },
   {
     grantId: 1528,
-    'active': true,
+    isActive: true,
     address: '0x523b5b2cc58a818667c22c862930b141f85d49dd',
     name: 'NiftyEggs',
     slug: 'https://gitcoin.co/grants/1528/niftyeggs',
@@ -30801,7 +30801,7 @@ export const theData = [
   },
   {
     grantId: 1529,
-    'active': true,
+    isActive: true,
     address: '0x3d37c76324fc2c3beb288eb26fe97414f936cca7',
     name: 'Telegram Totality for Matic',
     slug: 'https://gitcoin.co/grants/1529/telegram-totality-for-matic',
@@ -30836,7 +30836,7 @@ export const theData = [
   },
   {
     grantId: 1531,
-    'active': true,
+    isActive: true,
     address: '0x36a0356d43ee4168ed24efa1cae3198708667ac0',
     name: 'Zon Directory',
     slug: 'https://gitcoin.co/grants/1531/zon-directory',
@@ -30871,7 +30871,7 @@ export const theData = [
   },
   {
     grantId: 1534,
-    'active': true,
+    isActive: true,
     address: '0xfc756d8632a19cebd76560ce0a6967279e32131b',
     name: 'Prettier Solidity',
     slug: 'https://gitcoin.co/grants/1534/prettier-solidity',
@@ -30906,7 +30906,7 @@ export const theData = [
   },
   {
     grantId: 1540,
-    'active': true,
+    isActive: true,
     address: '0x8958cda93c28a84dbbe1535a31f68feccd106165',
     name: 'Native',
     slug: 'https://gitcoin.co/grants/1540/native',
@@ -30941,7 +30941,7 @@ export const theData = [
   },
   {
     grantId: 1541,
-    'active': true,
+    isActive: true,
     address: '0x19c04ca80c4168ea8ab469a0766a858d7172b320',
     name: 'Keep3r.live',
     slug: 'https://gitcoin.co/grants/1541/keep3rlive',
@@ -30976,7 +30976,7 @@ export const theData = [
   },
   {
     grantId: 1542,
-    'active': true,
+    isActive: true,
     address: '0x7c88e445fa773275eadc619d5a6fbe12a4f40a24',
     name: 'Tetrion',
     slug: 'https://gitcoin.co/grants/1542/tetrion',
@@ -31011,7 +31011,7 @@ export const theData = [
   },
   {
     grantId: 1543,
-    'active': true,
+    isActive: true,
     address: '0x73a73c62d272c6585948da24b17c497e3f51fd9c',
     name: 'Certy - Certify Original Digital Content on Ethereum Blockchain',
     slug: 'https://gitcoin.co/grants/1543/certy-certify-original-digital-content-on-ethereu',
@@ -31046,7 +31046,7 @@ export const theData = [
   },
   {
     grantId: 1544,
-    'active': true,
+    isActive: true,
     address: '0x1d4f6afc0e305048ae0a9be9f76b4b89d4a360a5',
     name: 'Wallkanda',
     slug: 'https://gitcoin.co/grants/1544/wallkanda',
@@ -31081,7 +31081,7 @@ export const theData = [
   },
   {
     grantId: 1545,
-    'active': true,
+    isActive: true,
     address: '0xf24ba7799e1d3b3a5c9a9e31e8bb35cc1d23f864',
     name: 'gbdev',
     slug: 'https://gitcoin.co/grants/1545/gbdev',
@@ -31116,7 +31116,7 @@ export const theData = [
   },
   {
     grantId: 1548,
-    'active': true,
+    isActive: true,
     address: '0xd6419ae1e1be473e8bce06eff343da7fc0650bcf',
     name: 'MyWish Platform',
     slug: 'https://gitcoin.co/grants/1548/mywish-platform',
@@ -31151,7 +31151,7 @@ export const theData = [
   },
   {
     grantId: 1549,
-    'active': true,
+    isActive: true,
     address: '0xdcdb19bc00ca32ac7da3e331d45d54f6ca758251',
     name: 'Decentralized Office',
     slug: 'https://gitcoin.co/grants/1549/decentralized-office',
@@ -31186,7 +31186,7 @@ export const theData = [
   },
   {
     grantId: 1551,
-    'active': true,
+    isActive: true,
     address: '0x02ee97a13e434717e3ffa12758a235d1a1680775',
     name: 'NiftyCrates',
     slug: 'https://gitcoin.co/grants/1551/niftycrates',
@@ -31221,7 +31221,7 @@ export const theData = [
   },
   {
     grantId: 1553,
-    'active': true,
+    isActive: true,
     address: '0xe599295c723c3691d91d602f393dfc96125940c5',
     name: 'End Volatile Gas Prices',
     slug: 'https://gitcoin.co/grants/1553/end-volatile-gas-prices',
@@ -31256,7 +31256,7 @@ export const theData = [
   },
   {
     grantId: 1554,
-    'active': true,
+    isActive: true,
     address: '0x4f0a1940de411285ad0455a7f40c81b5e0bc8492',
     name: 'BlockchainJuju - ETH Devs Sao Paulo (Jan - Nov 2020)',
     slug: 'https://gitcoin.co/grants/1554/blockchainjuju-eth-devs-sao-paulo-jan-nov-2020',
@@ -31291,7 +31291,7 @@ export const theData = [
   },
   {
     grantId: 1556,
-    'active': true,
+    isActive: true,
     address: '0x07169d3d71dc9c1c7c1656b3436a984d50619860',
     name: 'APY Vision',
     slug: 'https://gitcoin.co/grants/1556/apy-vision',
@@ -31326,7 +31326,7 @@ export const theData = [
   },
   {
     grantId: 1559,
-    'active': true,
+    isActive: true,
     address: '0x187c8c43890fe4c91afabbc62128d383a90548dd',
     name: 'Storj Exporter',
     slug: 'https://gitcoin.co/grants/1559/storj-exporter',
@@ -31361,7 +31361,7 @@ export const theData = [
   },
   {
     grantId: 1561,
-    'active': true,
+    isActive: true,
     address: '0xd165df4296c85e780509fa1eace0150d945d49fd',
     name: 'ethstaker',
     slug: 'https://gitcoin.co/grants/1561/ethstaker',
@@ -31396,7 +31396,7 @@ export const theData = [
   },
   {
     grantId: 1564,
-    'active': true,
+    isActive: true,
     address: '0xb67fecf7af733b16cd08a7959eae2d8554d246af',
     name: '💌',
     slug: 'https://gitcoin.co/grants/1564/-2',
@@ -31431,7 +31431,7 @@ export const theData = [
   },
   {
     grantId: 1565,
-    'active': true,
+    isActive: true,
     address: '0xcc1e7bda08abdcf164e9d2e4f78aedb1d811593d',
     name: 'DemystiFi security in MetaMask',
     slug: 'https://gitcoin.co/grants/1565/demystifi-security-in-metamask',
@@ -31466,7 +31466,7 @@ export const theData = [
   },
   {
     grantId: 1566,
-    'active': true,
+    isActive: true,
     address: '0xce1fc23e93c38af7e41ca5900eb381c2c2d25ded',
     name: 'Autonio',
     slug: 'https://gitcoin.co/grants/1566/autonio',
@@ -31501,7 +31501,7 @@ export const theData = [
   },
   {
     grantId: 1568,
-    'active': true,
+    isActive: true,
     address: '0x241e63667db6d50ef4307532fd651ef22dd7e231',
     name: 'GraphQL IDE to Query Blockchain Data',
     slug: 'https://gitcoin.co/grants/1568/graphql-ide-to-query-blockchain-data',
@@ -31536,7 +31536,7 @@ export const theData = [
   },
   {
     grantId: 1570,
-    'active': true,
+    isActive: true,
     address: '0x5add6480cc9b144828ea455ad64b95e592e8cb01',
     name: 'Yup',
     slug: 'https://gitcoin.co/grants/1570/yup',
@@ -31571,7 +31571,7 @@ export const theData = [
   },
   {
     grantId: 1573,
-    'active': true,
+    isActive: true,
     address: '0x24c492413fcfd5a8370f43f69205563c3d39cc5d',
     name: 'Govbase, a database for DAOs and other online communities',
     slug: 'https://gitcoin.co/grants/1573/govbase-a-database-for-daos-and-other-online-comm',
@@ -31606,7 +31606,7 @@ export const theData = [
   },
   {
     grantId: 1574,
-    'active': true,
+    isActive: true,
     address: '0x229e63b972f476b75987b03b3dc96be5dd0cf80b',
     name: 'Gas Price Extension',
     slug: 'https://gitcoin.co/grants/1574/gas-price-extension',
@@ -31641,7 +31641,7 @@ export const theData = [
   },
   {
     grantId: 1575,
-    'active': true,
+    isActive: true,
     address: '0xa8a9c1bbc1f029df4b03a5aa2ecb8229d9068faf',
     name: 'The human fund',
     slug: 'https://gitcoin.co/grants/1575/the-human-fund',
@@ -31676,7 +31676,7 @@ export const theData = [
   },
   {
     grantId: 1577,
-    'active': true,
+    isActive: true,
     address: '0x04a8a22e5ef364c5237df13317c4f083f32c2cc4',
     name: 'EthCC by Ethereum France (Panvala League)',
     slug: 'https://gitcoin.co/grants/1577/ethcc-by-ethereum-france-panvala-league',
@@ -31711,7 +31711,7 @@ export const theData = [
   },
   {
     grantId: 1580,
-    'active': true,
+    isActive: true,
     address: '0x91201692e5a5964fd011e9bd6a7e787e7be606e8',
     name: 'Smart Wallet Trends',
     slug: 'https://gitcoin.co/grants/1580/smart-wallet-trends',
@@ -31746,7 +31746,7 @@ export const theData = [
   },
   {
     grantId: 1585,
-    'active': true,
+    isActive: true,
     address: '0x722ce03c15670c313f9596544cdb582c19f810e2',
     name: 'See The Truth!',
     slug: 'https://gitcoin.co/grants/1585/see-the-truth',
@@ -31781,7 +31781,7 @@ export const theData = [
   },
   {
     grantId: 1588,
-    'active': true,
+    isActive: true,
     address: '0xf78cd306b23031de9e739a5bcde61764e82ad5ef',
     name: 'Jolly Roger',
     slug: 'https://gitcoin.co/grants/1588/jolly-roger',
@@ -31816,7 +31816,7 @@ export const theData = [
   },
   {
     grantId: 1589,
-    'active': true,
+    isActive: true,
     address: '0x28ee8ba54afe95a6aca17cf4913f929fbeafd402',
     name: 'Constellation',
     slug: 'https://gitcoin.co/grants/1589/constellation',
@@ -31851,7 +31851,7 @@ export const theData = [
   },
   {
     grantId: 1591,
-    'active': true,
+    isActive: true,
     address: '0x722ce03c15670c313f9596544cdb582c19f810e2',
     name: 'Future Salaries (Ethereum salaries for common goods)',
     slug: 'https://gitcoin.co/grants/1591/future-salaries-ethereum-salaries-for-common-good',
@@ -31886,7 +31886,7 @@ export const theData = [
   },
   {
     grantId: 1592,
-    'active': true,
+    isActive: true,
     address: '0x587fb98e404a18503a24cf19abb1887704beb407',
     name: 'Hardhat by Nomic Labs',
     slug: 'https://gitcoin.co/grants/1592/hardhat-by-nomic-labs',
@@ -31921,7 +31921,7 @@ export const theData = [
   },
   {
     grantId: 1594,
-    'active': true,
+    isActive: true,
     address: '0x6e38bfe9dfc75e60116af517985e601aea06273c',
     name: 'I Want My NFT | The Documentary',
     slug: 'https://gitcoin.co/grants/1594/i-want-my-nft-the-documentary',
@@ -31956,7 +31956,7 @@ export const theData = [
   },
   {
     grantId: 1595,
-    'active': true,
+    isActive: true,
     address: '0xf64bbc221f89cc882fba507908bbe4ae3ad2f470',
     name: 'Bloom Network - Panvala League',
     slug: 'https://gitcoin.co/grants/1595/bloom-network-panvala-league',
@@ -31991,7 +31991,7 @@ export const theData = [
   },
   {
     grantId: 1598,
-    'active': true,
+    isActive: true,
     address: '0x13586f8425544865372ebb5db71bd52bc8ce06f2',
     name: 'ETH123.org',
     slug: 'https://gitcoin.co/grants/1598/eth123org',
@@ -32026,7 +32026,7 @@ export const theData = [
   },
   {
     grantId: 1599,
-    'active': true,
+    isActive: true,
     address: '0x3953017af23ab99a7d40f3d26f1595f27c91345f',
     name: 'GiveStation (formerly REAPit Wallet)',
     slug: 'https://gitcoin.co/grants/1599/givestation-formerly-reapit-wallet',
@@ -32061,7 +32061,7 @@ export const theData = [
   },
   {
     grantId: 1604,
-    'active': true,
+    isActive: true,
     address: '0x63b265d170f35d6bb724a6c00b4dcc822ea97867',
     name: 'test mainnet grant DO NOT FUND edittz',
     slug: 'https://gitcoin.co/grants/1604/test-mainnet-grant-do-not-fund-edittz',
@@ -32096,7 +32096,7 @@ export const theData = [
   },
   {
     grantId: 1605,
-    'active': true,
+    isActive: true,
     address: '0x4cf8487f3c20ef126b346ad97fba3d13847d1e88',
     name: 'Bitavax',
     slug: 'https://gitcoin.co/grants/1605/bitavax',
@@ -32131,7 +32131,7 @@ export const theData = [
   },
   {
     grantId: 1609,
-    'active': true,
+    isActive: true,
     address: '0xd164af956e0f34be07a86752fe43ae788f647531',
     name: 'ETH Colombia community growth 🇨🇴',
     slug: 'https://gitcoin.co/grants/1609/eth-colombia-community-growth',
@@ -32166,7 +32166,7 @@ export const theData = [
   },
   {
     grantId: 1610,
-    'active': true,
+    isActive: true,
     address: '0x5a03c210cca2bff3641daf585339ded8e810a177',
     name: 'Yieldster Vault',
     slug: 'https://gitcoin.co/grants/1610/yieldster-vault',
@@ -32201,7 +32201,7 @@ export const theData = [
   },
   {
     grantId: 1611,
-    'active': true,
+    isActive: true,
     address: '0x817b2e8579f63582c02ac03264ac35f051e7d27e',
     name: 'Decentralized Docker Hub',
     slug: 'https://gitcoin.co/grants/1611/decentralized-docker-hub',
@@ -32236,7 +32236,7 @@ export const theData = [
   },
   {
     grantId: 1613,
-    'active': true,
+    isActive: true,
     address: '0x5a03c210cca2bff3641daf585339ded8e810a177',
     name: 'Yieldster Whitelisting',
     slug: 'https://gitcoin.co/grants/1613/yieldster-whitelisting',
@@ -32271,7 +32271,7 @@ export const theData = [
   },
   {
     grantId: 1615,
-    'active': true,
+    isActive: true,
     address: '0x5a03c210cca2bff3641daf585339ded8e810a177',
     name: 'Yieldster Order Balancer',
     slug: 'https://gitcoin.co/grants/1615/yieldster-order-balancer',
@@ -32306,7 +32306,7 @@ export const theData = [
   },
   {
     grantId: 1617,
-    'active': true,
+    isActive: true,
     address: '0xe5ea1120545c4da80aeb4dcc509f8041ebe670bc',
     name: 'Lexicoin by Opah!',
     slug: 'https://gitcoin.co/grants/1617/lexicoin-by-opah',
@@ -32341,7 +32341,7 @@ export const theData = [
   },
   {
     grantId: 1619,
-    'active': true,
+    isActive: true,
     address: '0x6f6d5f139df0aa007635ab76b017e754e1b81a87',
     name: 'CommitPool',
     slug: 'https://gitcoin.co/grants/1619/commitpool',
@@ -32376,7 +32376,7 @@ export const theData = [
   },
   {
     grantId: 1620,
-    'active': true,
+    isActive: true,
     address: '0x4ab5e3f0b2d1604dd2002cfeca6163802d74c6cb',
     name: 'The Daily Ape',
     slug: 'https://gitcoin.co/grants/1620/the-daily-ape',
@@ -32411,7 +32411,7 @@ export const theData = [
   },
   {
     grantId: 1621,
-    'active': true,
+    isActive: true,
     address: '0xccde65cf4e39a2d28b50e3030fdab60c463fe215',
     name: 'solt - The Solidity Tool',
     slug: 'https://gitcoin.co/grants/1621/solt-the-solidity-tool',
@@ -32446,7 +32446,7 @@ export const theData = [
   },
   {
     grantId: 1624,
-    'active': true,
+    isActive: true,
     address: '0x392acfd0792c32222edf31c20dd0cc51528bb9ea',
     name: 'CryptoFees.info',
     slug: 'https://gitcoin.co/grants/1624/cryptofeesinfo',
@@ -32481,7 +32481,7 @@ export const theData = [
   },
   {
     grantId: 1625,
-    'active': true,
+    isActive: true,
     address: '0x76d836358e7a2bb0f26c32ce61dc8dd540b02f7d',
     name: 'Primitives Lane',
     slug: 'https://gitcoin.co/grants/1625/primitives-lane',
@@ -32516,7 +32516,7 @@ export const theData = [
   },
   {
     grantId: 1626,
-    'active': true,
+    isActive: true,
     address: '0x59189745862f05867a50724e57f91ca0be5efa59',
     name: 'test',
     slug: 'https://gitcoin.co/grants/1626/test',
@@ -32551,7 +32551,7 @@ export const theData = [
   },
   {
     grantId: 1628,
-    'active': true,
+    isActive: true,
     address: '0xb1b4fd7ea1a74b6e5652a2bcf794224fd79544f5',
     name: 'Ants-Review',
     slug: 'https://gitcoin.co/grants/1628/ants-review',
@@ -32586,7 +32586,7 @@ export const theData = [
   },
   {
     grantId: 1629,
-    'active': true,
+    isActive: true,
     address: '0xca5d990e3cf9e28fba26d6c8fb1ae314bc78c09f',
     name: 'Zenbase',
     slug: 'https://gitcoin.co/grants/1629/zenbase',
@@ -32621,7 +32621,7 @@ export const theData = [
   },
   {
     grantId: 1630,
-    'active': true,
+    isActive: true,
     address: '0xd0a3800cca1a3e46feec30858e8562a21edd8c7c',
     name: 'Strain NFT',
     slug: 'https://gitcoin.co/grants/1630/strain-nft',
@@ -32656,7 +32656,7 @@ export const theData = [
   },
   {
     grantId: 1632,
-    'active': true,
+    isActive: true,
     address: '0x3c5c2f4bcec51a36494682f91dbc6ca7c63b514c',
     name: 'rekt.news - The dark web of DeFi journalism',
     slug: 'https://gitcoin.co/grants/1632/rektnews-the-dark-web-of-defi-journalism',
@@ -32691,7 +32691,7 @@ export const theData = [
   },
   {
     grantId: 1633,
-    'active': true,
+    isActive: true,
     address: '0x07f6624b895b47ae66e916ec6a0479d7c3cfa319',
     name: 'Node Runners - Collectible Cards Game',
     slug: 'https://gitcoin.co/grants/1633/node-runners-collectible-cards-game',
@@ -32726,7 +32726,7 @@ export const theData = [
   },
   {
     grantId: 1634,
-    'active': true,
+    isActive: true,
     address: '0x32b74b90407309f6637245292cd90347de658a37',
     name: 'Ethereum Staking Guides (Ubuntu)',
     slug: 'https://gitcoin.co/grants/1634/ethereum-staking-guides-ubuntu',
@@ -32761,7 +32761,7 @@ export const theData = [
   },
   {
     grantId: 1636,
-    'active': true,
+    isActive: true,
     address: '0x97843608a00e2bbc75ab0c1911387e002565dede',
     name: 'BuidlGuidl',
     slug: 'https://gitcoin.co/grants/1636/buidlguidl',
@@ -32796,7 +32796,7 @@ export const theData = [
   },
   {
     grantId: 1638,
-    'active': true,
+    isActive: true,
     address: '0x0ec8bea26e3ca271010ef02decb84bfb9139472b',
     name: 'Electric Circus proudly presents Impact Pirates',
     slug: 'https://gitcoin.co/grants/1638/electric-circus-proudly-presents-impact-pirates',
@@ -32831,7 +32831,7 @@ export const theData = [
   },
   {
     grantId: 1639,
-    'active': true,
+    isActive: true,
     address: '0x07f6624b895b47ae66e916ec6a0479d7c3cfa319',
     name: 'Node Runners - Collectible Cards Game',
     slug: 'https://gitcoin.co/grants/1639/node-runners-collectible-cards-game',
@@ -32866,7 +32866,7 @@ export const theData = [
   },
   {
     grantId: 1640,
-    'active': true,
+    isActive: true,
     address: '0x924b575917f822e32e88b7e7171fe0c00c70f401',
     name: 'Ideamarket.io',
     slug: 'https://gitcoin.co/grants/1640/ideamarketio',
@@ -32901,7 +32901,7 @@ export const theData = [
   },
   {
     grantId: 1641,
-    'active': true,
+    isActive: true,
     address: '0x24801de57f065d95d741dff0f419dc5004777c87',
     name: 'DAO Internal Dispute Resolution Open Handbook by LexDAO (Panvala League)',
     slug: 'https://gitcoin.co/grants/1641/dao-internal-dispute-resolution-open-handbook-by-',
@@ -32936,7 +32936,7 @@ export const theData = [
   },
   {
     grantId: 1642,
-    'active': true,
+    isActive: true,
     address: '0xc29fb1d0c0ad2078e909b0bd629b512eb6bcb008',
     name: 'Gitcoin Champions Program',
     slug: 'https://gitcoin.co/grants/1642/gitcoin-champions-program',
@@ -32971,7 +32971,7 @@ export const theData = [
   },
   {
     grantId: 1644,
-    'active': true,
+    isActive: true,
     address: '0x0ed1d2b2d14e3b798759d62b9e4a587b233d60c9',
     name: 'The Uncle Rewards',
     slug: 'https://gitcoin.co/grants/1644/the-uncle-rewards',
@@ -33006,7 +33006,7 @@ export const theData = [
   },
   {
     grantId: 1646,
-    'active': true,
+    isActive: true,
     address: '0xe5610ef687eaabed58b0929c2202ab115b16e884',
     name: 'Crypto College',
     slug: 'https://gitcoin.co/grants/1646/crypto-college',
@@ -33041,7 +33041,7 @@ export const theData = [
   },
   {
     grantId: 1647,
-    'active': true,
+    isActive: true,
     address: '0xd7b296e005ae29444f7fe8e13cdcda480f1d38c4',
     name: 'Feel the Yearn 2',
     slug: 'https://gitcoin.co/grants/1647/feel-the-yearn-2',
@@ -33076,7 +33076,7 @@ export const theData = [
   },
   {
     grantId: 1648,
-    'active': true,
+    isActive: true,
     address: '0x068d9f17fbf0ccbf39bd8da421731fe86986bd3a',
     name: 'Nifty Cannon',
     slug: 'https://gitcoin.co/grants/1648/nifty-cannon',
@@ -33111,7 +33111,7 @@ export const theData = [
   },
   {
     grantId: 1649,
-    'active': true,
+    isActive: true,
     address: '0xe6ce4e57b6cbcd4012ffbfd8487e776eb524fcbe',
     name: 'Sundial- A project fundraising (Token Swap) scheme',
     slug: 'https://gitcoin.co/grants/1649/sundial-a-project-fundraising-token-swap-scheme',
@@ -33146,7 +33146,7 @@ export const theData = [
   },
   {
     grantId: 1650,
-    'active': true,
+    isActive: true,
     address: '0x521aacb43d89e1b8ffd64d9ef76b0a1074dedaf8',
     name: 'HiBlock区块链社区 - hiblock community',
     slug: 'https://gitcoin.co/grants/1650/hiblockqu-kuai-lian-she-qu-hiblock-community',
@@ -33181,7 +33181,7 @@ export const theData = [
   },
   {
     grantId: 1651,
-    'active': true,
+    isActive: true,
     address: '0xacceb894dba9632e49c56bc0ed75e515aea95a12',
     name: '1PLANET Marketplace: A Working DApp! Access Carbon Markets, Fight the Climate Crisis!',
     slug: 'https://gitcoin.co/grants/1651/1planet-marketplace-a-working-dapp-access-carbon-',
@@ -33216,7 +33216,7 @@ export const theData = [
   },
   {
     grantId: 1653,
-    'active': true,
+    isActive: true,
     address: '0xcf83d0c22dd54475cc0c52721b0ef07d9756e8c0',
     name: 'Ethereum Staking Guides by CoinCashew *with POAP*',
     slug: 'https://gitcoin.co/grants/1653/ethereum-staking-guides-by-coincashew-with-poap',
@@ -33251,7 +33251,7 @@ export const theData = [
   },
   {
     grantId: 1655,
-    'active': true,
+    isActive: true,
     address: '0x72c04af02686d783cbd5a75fb6b9e0b0d1e8e5b7',
     name: 'Decentralise - Daily DeFi Newsletter',
     slug: 'https://gitcoin.co/grants/1655/decentralise-daily-defi-newsletter',
@@ -33286,7 +33286,7 @@ export const theData = [
   },
   {
     grantId: 1656,
-    'active': true,
+    isActive: true,
     address: '0x9ac9c636404c8d46d9eb966d7179983ba5a3941a',
     name: 'Colorwav',
     slug: 'https://gitcoin.co/grants/1656/colorwav',
@@ -33321,7 +33321,7 @@ export const theData = [
   },
   {
     grantId: 1657,
-    'active': true,
+    isActive: true,
     address: '0xc3c51e27c228debc182e8c802dcb4ca919acbc77',
     name: '@PaulRBerg Open-Source Engineering',
     slug: 'https://gitcoin.co/grants/1657/paulrberg-open-source-engineering',
@@ -33356,7 +33356,7 @@ export const theData = [
   },
   {
     grantId: 1660,
-    'active': true,
+    isActive: true,
     address: '0x69e5a15af433cf54c15cc092809a3ca71ed5c958',
     name: 'Web3.0 Collaborative Group',
     slug: 'https://gitcoin.co/grants/1660/web30-collaborative-group',
@@ -33391,7 +33391,7 @@ export const theData = [
   },
   {
     grantId: 1661,
-    'active': true,
+    isActive: true,
     address: '0xfd15b3d113200951b35cf0f0edf63c7f5925705f',
     name: 'EtherDrops',
     slug: 'https://gitcoin.co/grants/1661/etherdrops',
@@ -33426,7 +33426,7 @@ export const theData = [
   },
   {
     grantId: 1666,
-    'active': true,
+    isActive: true,
     address: '0xcbc3dc48ba005cd292de77e582d5b9c55e43b95c',
     name: 'Tokenlog - Token-weighted backlogs',
     slug: 'https://gitcoin.co/grants/1666/tokenlog-token-weighted-backlogs',
@@ -33461,7 +33461,7 @@ export const theData = [
   },
   {
     grantId: 1667,
-    'active': true,
+    isActive: true,
     address: '0xdedb92e8f4475d221fc12cc842506141fc79444f',
     name: 'Qualla - A platform for creators',
     slug: 'https://gitcoin.co/grants/1667/qualla-a-platform-for-creators',
@@ -33496,7 +33496,7 @@ export const theData = [
   },
   {
     grantId: 1668,
-    'active': true,
+    isActive: true,
     address: '0x097b7feb64d0b272efc3092f833b0e18bd4d1521',
     name: 'Coin Center is educating policy makers about public blockchains',
     slug: 'https://gitcoin.co/grants/1668/coin-center-is-educating-policy-makers-about-publ',
@@ -33531,7 +33531,7 @@ export const theData = [
   },
   {
     grantId: 1669,
-    'active': true,
+    isActive: true,
     address: '0x8917418abe36e6e788068e96ef5a47d7484c06b1',
     name: 'Idena: The first Proof-of-Person blockchain',
     slug: 'https://gitcoin.co/grants/1669/idena-the-first-proof-of-person-blockchain',
@@ -33566,7 +33566,7 @@ export const theData = [
   },
   {
     grantId: 1670,
-    'active': true,
+    isActive: true,
     address: '0xf78cd306b23031de9e739a5bcde61764e82ad5ef',
     name: 'Ronan Sandford (a.k.a. @wighawag) Open Source And Research Grant',
     slug: 'https://gitcoin.co/grants/1670/ronan-sandford-aka-wighawag-open-source-and-resea',
@@ -33601,7 +33601,7 @@ export const theData = [
   },
   {
     grantId: 1672,
-    'active': true,
+    isActive: true,
     address: '0xb1eeb8a524a4a2d818783320ea9d74ea83e0c9d5',
     name: 'Symfoni - Hardhat React',
     slug: 'https://gitcoin.co/grants/1672/symfoni-hardhat-react',
@@ -33636,7 +33636,7 @@ export const theData = [
   },
   {
     grantId: 1676,
-    'active': true,
+    isActive: true,
     address: '0xe25d4ddf0bf2777269900115087597f28017c897',
     name: 'Cryptocurrency Jobs',
     slug: 'https://gitcoin.co/grants/1676/cryptocurrency-jobs',
@@ -33671,7 +33671,7 @@ export const theData = [
   },
   {
     grantId: 1677,
-    'active': true,
+    isActive: true,
     address: '0xed625c9aba1245fa8e22eb1f1825881517a9dce7',
     name: 'Lakshmans blog about the future of Ethereum',
     slug: 'https://gitcoin.co/grants/1677/lakshmans-blog-about-the-future-of-ethereum',
@@ -33706,7 +33706,7 @@ export const theData = [
   },
   {
     grantId: 1678,
-    'active': true,
+    isActive: true,
     address: '0x2d2c46d26c8fec693586e067c4fc2b2ddc2b4cb3',
     name: 'Cargo - Create, manage, and sell NFTs at scale.',
     slug: 'https://gitcoin.co/grants/1678/cargo-create-manage-and-sell-nfts-at-scale',
@@ -33741,7 +33741,7 @@ export const theData = [
   },
   {
     grantId: 1679,
-    'active': true,
+    isActive: true,
     address: '0x2c94f02910e1a7c1ae194900321a8a6ca0e47660',
     name: 'Kingsley Damilola',
     slug: 'https://gitcoin.co/grants/1679/kingsley-damilola',
@@ -33776,7 +33776,7 @@ export const theData = [
   },
   {
     grantId: 1680,
-    'active': true,
+    isActive: true,
     address: '0xd736ca20844d118c9ec55b3fc982cdc0a285e292',
     name: 'ez.lol',
     slug: 'https://gitcoin.co/grants/1680/ezlol',
@@ -33811,7 +33811,7 @@ export const theData = [
   },
   {
     grantId: 1681,
-    'active': true,
+    isActive: true,
     address: '0x977e131c6a48f3a1de48dee54ed2c9fda71f4b1d',
     name: 'Shadowsocks',
     slug: 'https://gitcoin.co/grants/1681/shadowsocks',
@@ -33846,7 +33846,7 @@ export const theData = [
   },
   {
     grantId: 1682,
-    'active': true,
+    isActive: true,
     address: '0x4906dec30c3c815ee7c410ec38502be9770bbaee',
     name: 'rhinobobz dev fund',
     slug: 'https://gitcoin.co/grants/1682/rhinobobz-dev-fund',
@@ -33881,7 +33881,7 @@ export const theData = [
   },
   {
     grantId: 1684,
-    'active': true,
+    isActive: true,
     address: '0x9be426c8a28ee7ca935b5c27a4bc2395640c9378',
     name: 'Virtual Reset',
     slug: 'https://gitcoin.co/grants/1684/virtual-reset',
@@ -33916,7 +33916,7 @@ export const theData = [
   },
   {
     grantId: 1685,
-    'active': true,
+    isActive: true,
     address: '0x7bc1efede41ce7501f2274e45406cc157dc3d3c3',
     name: 'layer2 wallet',
     slug: 'https://gitcoin.co/grants/1685/layer2-wallet',
@@ -33951,7 +33951,7 @@ export const theData = [
   },
   {
     grantId: 1686,
-    'active': true,
+    isActive: true,
     address: '0xd9d66f6eb790c82a1e98cda99c153983461a3725',
     name: '(Polygon) Matic Mitra [Panvala League]',
     slug: 'https://gitcoin.co/grants/1686/polygon-matic-mitra-panvala-league',
@@ -33986,7 +33986,7 @@ export const theData = [
   },
   {
     grantId: 1687,
-    'active': true,
+    isActive: true,
     address: '0xe3e22870104eeb3b8b393aa6324b699fccd4bfd5',
     name: 'MorphChat V1 ',
     slug: 'https://gitcoin.co/grants/1687/morphchat-v1',
@@ -34021,7 +34021,7 @@ export const theData = [
   },
   {
     grantId: 1688,
-    'active': true,
+    isActive: true,
     address: '0xaf30b0285bb41bdbb732e4a533874901e4943522',
     name: 'Stake Dev',
     slug: 'https://gitcoin.co/grants/1688/stake-dev',
@@ -34056,7 +34056,7 @@ export const theData = [
   },
   {
     grantId: 1689,
-    'active': true,
+    isActive: true,
     address: '0x64202d82a2b014c6240f25a15b60f5a5ef6def2c',
     name: 'CryptoSec.info - Cryptocurrency Security for Beginners',
     slug: 'https://gitcoin.co/grants/1689/cryptosecinfo-cryptocurrency-security-for-beginne',
@@ -34091,7 +34091,7 @@ export const theData = [
   },
   {
     grantId: 1690,
-    'active': true,
+    isActive: true,
     address: '0x96440f2a12e9d7d5d8520fd3d7e71ea7ddb6406e',
     name: 'OpenBits',
     slug: 'https://gitcoin.co/grants/1690/openbits',
@@ -34126,7 +34126,7 @@ export const theData = [
   },
   {
     grantId: 1691,
-    'active': true,
+    isActive: true,
     address: '0x1506c4717416e811aeb34ffd9b914ee97f429708',
     name: 'B4H Awards 2020',
     slug: 'https://gitcoin.co/grants/1691/b4h-awards-2020',
@@ -34161,7 +34161,7 @@ export const theData = [
   },
   {
     grantId: 1692,
-    'active': true,
+    isActive: true,
     address: '0x413db04a4d7207cae7a7686639ce68caac137bae',
     name: 'DAppChaser',
     slug: 'https://gitcoin.co/grants/1692/dappchaser',
@@ -34196,7 +34196,7 @@ export const theData = [
   },
   {
     grantId: 1693,
-    'active': true,
+    isActive: true,
     address: '0x4273a8e57a1fab8cb5f7cf2d68ad16bed061520a',
     name: 'EU Crypto Initiative - educating policy makers on decentralization',
     slug: 'https://gitcoin.co/grants/1693/eu-crypto-initiative-educating-policy-makers-on-d',
@@ -34231,7 +34231,7 @@ export const theData = [
   },
   {
     grantId: 1694,
-    'active': true,
+    isActive: true,
     address: '0x02a522d98ec2d2c3bbe91acc29ee7fd32ab880ab',
     name: 'Mintable.app - a NFT platform for everyone in Ethereum ',
     slug: 'https://gitcoin.co/grants/1694/mintableapp-a-nft-platform-for-everyone-in-ethere',
@@ -34266,7 +34266,7 @@ export const theData = [
   },
   {
     grantId: 1695,
-    'active': true,
+    isActive: true,
     address: '0xc4aff3f66183b2654fc9477a30446b856d28417c',
     name: 'Satellite.im - A Fast & Painless Decentralized Chat',
     slug: 'https://gitcoin.co/grants/1695/satelliteim-a-fast-painless-decentralized-chat',
@@ -34301,7 +34301,7 @@ export const theData = [
   },
   {
     grantId: 1698,
-    'active': true,
+    isActive: true,
     address: '0x45e4b9b6bd6fcfb6b4f7c391744baecfc9e04326',
     name: 'Catnip',
     slug: 'https://gitcoin.co/grants/1698/catnip',
@@ -34336,7 +34336,7 @@ export const theData = [
   },
   {
     grantId: 1699,
-    'active': true,
+    isActive: true,
     address: '0x44bdca0edca3df8f7f570e65a24273a0010be6f8',
     name: 'Help me Open Source 2850+ cryptocurrency whitepapers',
     slug: 'https://gitcoin.co/grants/1699/help-me-open-source-2850-cryptocurrency-whitepape',
@@ -34371,7 +34371,7 @@ export const theData = [
   },
   {
     grantId: 1700,
-    'active': true,
+    isActive: true,
     address: '0xb202fdfcbc6ac0d844194b06d58d961baf9030e7',
     name: 'Developing the Certified Ethereum Professional Exam & Certification (non-profit)',
     slug: 'https://gitcoin.co/grants/1700/developing-the-certified-ethereum-professional-ex',
@@ -34406,7 +34406,7 @@ export const theData = [
   },
   {
     grantId: 1701,
-    'active': true,
+    isActive: true,
     address: '0x8b1416de782f23c55f6b5cc26098249f469c2591',
     name: 'DeFi Italy - The backbone of the DeFi world in Italy',
     slug: 'https://gitcoin.co/grants/1701/defi-italy-the-backbone-of-the-defi-world-in-ital',
@@ -34441,7 +34441,7 @@ export const theData = [
   },
   {
     grantId: 1703,
-    'active': true,
+    isActive: true,
     address: '0x53e8406c05d89914721ff6aa2fa896adbb0a97df',
     name: 'The Athlete 360',
     slug: 'https://gitcoin.co/grants/1703/the-athlete-360',
@@ -34476,7 +34476,7 @@ export const theData = [
   },
   {
     grantId: 1704,
-    'active': true,
+    isActive: true,
     address: '0xc772248ed23b92437b277078644994f336b8cee0',
     name: 'KCoin',
     slug: 'https://gitcoin.co/grants/1704/kcoin',
@@ -34511,7 +34511,7 @@ export const theData = [
   },
   {
     grantId: 1706,
-    'active': true,
+    isActive: true,
     address: '0x090b41c23f5890feb4182a201d95476bb35e4a09',
     name: 'ZVM from Tokamak Network',
     slug: 'https://gitcoin.co/grants/1706/zvm-from-tokamak-network',
@@ -34546,7 +34546,7 @@ export const theData = [
   },
   {
     grantId: 1707,
-    'active': true,
+    isActive: true,
     address: '0x10d6d2e343281d388291a3e02f3293aaeda67178',
     name: 'Llama - Treasury Management for DAOs',
     slug: 'https://gitcoin.co/grants/1707/llama-treasury-management-for-daos',
@@ -34581,7 +34581,7 @@ export const theData = [
   },
   {
     grantId: 1708,
-    'active': true,
+    isActive: true,
     address: '0xb1b0a0d1974deb288a76b9c2ba08146552389ce0',
     name: 'WalliD',
     slug: 'https://gitcoin.co/grants/1708/wallid',
@@ -34616,7 +34616,7 @@ export const theData = [
   },
   {
     grantId: 1709,
-    'active': true,
+    isActive: true,
     address: '0x1c6f6dae4e19b80eb42801cde0ba873ad5ff2e2d',
     name: 'Ethereum Tools and Educational Grant',
     slug: 'https://gitcoin.co/grants/1709/ethereum-tools-and-educational-grant',
@@ -34651,7 +34651,7 @@ export const theData = [
   },
   {
     grantId: 1710,
-    'active': true,
+    isActive: true,
     address: '0x0e380f930f523eb3563369bbfbed3e4ebdc4d2c2',
     name: 'How to stake on ETH 2 with DappNode guide',
     slug: 'https://gitcoin.co/grants/1710/how-to-stake-on-eth-2-with-dappnode-guide',
@@ -34686,7 +34686,7 @@ export const theData = [
   },
   {
     grantId: 1712,
-    'active': true,
+    isActive: true,
     address: '0x67cae6903b9ff37f7ff0ae885ccbd87a72633669',
     name: 'Git3',
     slug: 'https://gitcoin.co/grants/1712/git3',
@@ -34721,7 +34721,7 @@ export const theData = [
   },
   {
     grantId: 1714,
-    'active': true,
+    isActive: true,
     address: '0x9fc13b4e1c4206970a1c4520d2f77336cd5d0e0a',
     name: 'ZeroAlpha - EFFICIENT ART MARKET',
     slug: 'https://gitcoin.co/grants/1714/zeroalpha-efficient-art-market',
@@ -34756,7 +34756,7 @@ export const theData = [
   },
   {
     grantId: 1715,
-    'active': true,
+    isActive: true,
     address: '0x4937b01fdff0a02cc8416b5bd6c76a98958c85f1',
     name: 'DoraHacks Global Blockchain Hackathon Series',
     slug: 'https://gitcoin.co/grants/1715/dorahacks-global-blockchain-hackathon-series',
@@ -34791,7 +34791,7 @@ export const theData = [
   },
   {
     grantId: 1716,
-    'active': true,
+    isActive: true,
     address: '0xe0a8b9c2df8023326001d2b63218746b28f7ed26',
     name: 'Every Bit Helps Creating Educational YouTube Tutorials',
     slug: 'https://gitcoin.co/grants/1716/every-bit-helps-creating-educational-youtube-tuto',
@@ -34826,7 +34826,7 @@ export const theData = [
   },
   {
     grantId: 1717,
-    'active': true,
+    isActive: true,
     address: '0x95a75e1742f9f62890b9df8a528ba09dd0857f31',
     name: 'Yearn Finance Sublimate',
     slug: 'https://gitcoin.co/grants/1717/yearn-finance-sublimate',
@@ -34861,7 +34861,7 @@ export const theData = [
   },
   {
     grantId: 1718,
-    'active': true,
+    isActive: true,
     address: '0x5f5e6669c6e497732172d0df1189161422d89523',
     name: 'Alpha Finance Lab',
     slug: 'https://gitcoin.co/grants/1718/alpha-finance-lab',
@@ -34896,7 +34896,7 @@ export const theData = [
   },
   {
     grantId: 1719,
-    'active': true,
+    isActive: true,
     address: '0x2001909016b05f7eff9af6e25d806f364074628a',
     name: 'The Ethereum Open Desktop Environment',
     slug: 'https://gitcoin.co/grants/1719/the-ethereum-open-desktop-environment',
@@ -34931,7 +34931,7 @@ export const theData = [
   },
   {
     grantId: 1722,
-    'active': true,
+    isActive: true,
     address: '0x7f1c9feb3a616cbda1ff474cfda802d8840df2af',
     name: 'WalliD',
     slug: 'https://gitcoin.co/grants/1722/wallid',
@@ -34966,7 +34966,7 @@ export const theData = [
   },
   {
     grantId: 1723,
-    'active': true,
+    isActive: true,
     address: '0x7fcb8aaea5f30620aa69d1978f1dc814cf0502ad',
     name: 'The Anon Powered Development Grant',
     slug: 'https://gitcoin.co/grants/1723/the-anon-powered-development-grant',
@@ -35001,7 +35001,7 @@ export const theData = [
   },
   {
     grantId: 1724,
-    'active': true,
+    isActive: true,
     address: '0xa87d71efca08da3b9a90cf1bc125a0e26f8698ed',
     name: 'KryptoAsia BUIDL HCMC',
     slug: 'https://gitcoin.co/grants/1724/kryptoasia-buidl-hcmc',
@@ -35036,7 +35036,7 @@ export const theData = [
   },
   {
     grantId: 1725,
-    'active': true,
+    isActive: true,
     address: '0xfbddda2a82ccab13b60b4488e87362959578ca15',
     name: 'Synagonism-Mcs-worldview',
     slug: 'https://gitcoin.co/grants/1725/synagonism-mcs-worldview',
@@ -35071,7 +35071,7 @@ export const theData = [
   },
   {
     grantId: 1727,
-    'active': true,
+    isActive: true,
     address: '0x4b01629a1baf82d8ab62726776b1332539e51cec',
     name: 'The Cryptoz Universe',
     slug: 'https://gitcoin.co/grants/1727/the-cryptoz-universe',
@@ -35106,7 +35106,7 @@ export const theData = [
   },
   {
     grantId: 1728,
-    'active': true,
+    isActive: true,
     address: '0xe4c84ae002475e48850ed78796a477ba97ed90dc',
     name: 'ArganTreeProject - Operation Argan Rescue',
     slug: 'https://gitcoin.co/grants/1728/argantreeproject-operation-argan-rescue',
@@ -35141,7 +35141,7 @@ export const theData = [
   },
   {
     grantId: 1729,
-    'active': true,
+    isActive: true,
     address: '0x7d568b307ba20fcf4684fd7877a00e4d90ee9199',
     name: '@EmilianoBonassi - Builder - (White) Hacker',
     slug: 'https://gitcoin.co/grants/1729/emilianobonassi-builder-white-hacker',
@@ -35176,7 +35176,7 @@ export const theData = [
   },
   {
     grantId: 1730,
-    'active': true,
+    isActive: true,
     address: '0x465dca9995d6c2a81a9be80fbced5a770dee3dae',
     name: 'reNFT — Peer to Peer Non-Fungible (NFT) Rentals',
     slug: 'https://gitcoin.co/grants/1730/renft-peer-to-peer-non-fungible-nft-rentals',
@@ -35211,7 +35211,7 @@ export const theData = [
   },
   {
     grantId: 1731,
-    'active': true,
+    isActive: true,
     address: '0x80a0eb777c8f7d20345659c2a89095296f4673d9',
     name: 'BlockSurvey - A Google Form Alternative',
     slug: 'https://gitcoin.co/grants/1731/blocksurvey-a-google-form-alternative',
@@ -35246,7 +35246,7 @@ export const theData = [
   },
   {
     grantId: 1732,
-    'active': true,
+    isActive: true,
     address: '0xffeb02c7e5968cc3789e570a639707c6c618eeee',
     name: 'Ethereum Explorer',
     slug: 'https://gitcoin.co/grants/1732/ethereum-explorer',
@@ -35281,7 +35281,7 @@ export const theData = [
   },
   {
     grantId: 1733,
-    'active': true,
+    isActive: true,
     address: '0xf640b593405327f8bdac43be9a9af90900cc9d18',
     name: 'Secure Intellect',
     slug: 'https://gitcoin.co/grants/1733/secure-intellect',
@@ -35316,7 +35316,7 @@ export const theData = [
   },
   {
     grantId: 1735,
-    'active': true,
+    isActive: true,
     address: '0xf640b593405327f8bdac43be9a9af90900cc9d18',
     name: 'Secure Intellect Grant',
     slug: 'https://gitcoin.co/grants/1735/secure-intellect-grant',
@@ -35351,7 +35351,7 @@ export const theData = [
   },
   {
     grantId: 1736,
-    'active': true,
+    isActive: true,
     address: '0xaddf10e1f4baa96e007f61448b70a3033c9b45d3',
     name: 'VoskCoin Youtube - Ethereum Education',
     slug: 'https://gitcoin.co/grants/1736/voskcoin-youtube-ethereum-education',
@@ -35386,7 +35386,7 @@ export const theData = [
   },
   {
     grantId: 1737,
-    'active': true,
+    isActive: true,
     address: '0xaddf10e1f4baa96e007f61448b70a3033c9b45d3',
     name: 'Filecoin Video Guides by VoskCoin',
     slug: 'https://gitcoin.co/grants/1737/filecoin-video-guides-by-voskcoin',
@@ -35421,7 +35421,7 @@ export const theData = [
   },
   {
     grantId: 1739,
-    'active': true,
+    isActive: true,
     address: '0xee69c1f188b665b3a1c647ab39ca2d3ca6600135',
     name: 'Spirit Foundation ',
     slug: 'https://gitcoin.co/grants/1739/spirit-foundation',
@@ -35456,7 +35456,7 @@ export const theData = [
   },
   {
     grantId: 1740,
-    'active': true,
+    isActive: true,
     address: '0x26afd291c2d8de2bb70f7efc219c7e38aa4981d9',
     name: 'Bloinx by BX Smart Labs',
     slug: 'https://gitcoin.co/grants/1740/bloinx-by-bx-smart-labs',
@@ -35491,7 +35491,7 @@ export const theData = [
   },
   {
     grantId: 1742,
-    'active': true,
+    isActive: true,
     address: '0x4c3d3505d34213751c4b4d621cb6bde7e664e222',
     name: 'Inherichain',
     slug: 'https://gitcoin.co/grants/1742/inherichain',
@@ -35526,7 +35526,7 @@ export const theData = [
   },
   {
     grantId: 1744,
-    'active': true,
+    isActive: true,
     address: '0xdaec7153e3a1314bb95728d5e615405ba399943b',
     name: 'zkpay',
     slug: 'https://gitcoin.co/grants/1744/zkpay',
@@ -35561,7 +35561,7 @@ export const theData = [
   },
   {
     grantId: 1745,
-    'active': true,
+    isActive: true,
     address: '0xc7fe28fe019a806572eff1629e3cf15a4afe47a9',
     name: 'Homeless',
     slug: 'https://gitcoin.co/grants/1745/homeless',
@@ -35596,7 +35596,7 @@ export const theData = [
   },
   {
     grantId: 1748,
-    'active': true,
+    isActive: true,
     address: '0x197553ddfdb7b9c3c4216e2914456788bfd59c86',
     name: 'Scribble Specifications and Runtime Verification Fund',
     slug: 'https://gitcoin.co/grants/1748/scribble-specifications-and-runtime-verification-',
@@ -35631,7 +35631,7 @@ export const theData = [
   },
   {
     grantId: 1749,
-    'active': true,
+    isActive: true,
     address: '0x3c5aac016ef2f178e8699d6208796a2d67557fe2',
     name: 'Ceazors Snack Sandwich',
     slug: 'https://gitcoin.co/grants/1749/ceazors-snack-sandwich',
@@ -35666,7 +35666,7 @@ export const theData = [
   },
   {
     grantId: 1751,
-    'active': true,
+    isActive: true,
     address: '0xb7a2e455ff9fa98d809beb505c8ef92666fd65e4',
     name: 'CryptoChicks Hatchery',
     slug: 'https://gitcoin.co/grants/1751/cryptochicks-hatchery',
@@ -35701,7 +35701,7 @@ export const theData = [
   },
   {
     grantId: 1752,
-    'active': true,
+    isActive: true,
     address: '0xa230a1c91c640da7a947c23a889a3bd68a171915',
     name: 'NFTs DAO',
     slug: 'https://gitcoin.co/grants/1752/nfts-dao',
@@ -35736,7 +35736,7 @@ export const theData = [
   },
   {
     grantId: 1753,
-    'active': true,
+    isActive: true,
     address: '0x067f2bef6a1f929544253b9fb95f99bae77b2518',
     name: 'ResetDAO ― Web 3.0 Programmable Social Network',
     slug: 'https://gitcoin.co/grants/1753/resetdao-web-30-programmable-social-network',
@@ -35771,7 +35771,7 @@ export const theData = [
   },
   {
     grantId: 1755,
-    'active': true,
+    isActive: true,
     address: '0xc1fdbf3378c70a6bc3e26bd97df5abdabb6a4038',
     name: 'ysoy chain farm',
     slug: 'https://gitcoin.co/grants/1755/ysoy-chain-farm',
@@ -35806,7 +35806,7 @@ export const theData = [
   },
   {
     grantId: 1756,
-    'active': true,
+    isActive: true,
     address: '0xf723bda3d25c6488ba1298058136ec79525deef8',
     name: 'NESTFANS.COM',
     slug: 'https://gitcoin.co/grants/1756/nestfanscom',
@@ -35841,7 +35841,7 @@ export const theData = [
   },
   {
     grantId: 1757,
-    'active': true,
+    isActive: true,
     address: '0x4898977c707de88762a3afe1672d271eb8b004ef',
     name: 'BitlyFool',
     slug: 'https://gitcoin.co/grants/1757/bitlyfool',
@@ -35876,7 +35876,7 @@ export const theData = [
   },
   {
     grantId: 1758,
-    'active': true,
+    isActive: true,
     address: '0xa857af9e6ca57b098c5392eed325113d44829665',
     name: 'DeFi Deluxe',
     slug: 'https://gitcoin.co/grants/1758/defi-deluxe',
@@ -35911,7 +35911,7 @@ export const theData = [
   },
   {
     grantId: 1759,
-    'active': true,
+    isActive: true,
     address: '0x4898977c707de88762a3afe1672d271eb8b004ef',
     name: 'DeployQ',
     slug: 'https://gitcoin.co/grants/1759/deployq',
@@ -35946,7 +35946,7 @@ export const theData = [
   },
   {
     grantId: 1760,
-    'active': true,
+    isActive: true,
     address: '0x10347666d2a9feb4eac17d7ea58d44fa61f45b57',
     name: 'Rally.io - Social Tokens for Creators, Musicians, & Streamers!',
     slug: 'https://gitcoin.co/grants/1760/rallyio-social-tokens-for-creators-musicians-stre',
@@ -35981,7 +35981,7 @@ export const theData = [
   },
   {
     grantId: 1761,
-    'active': true,
+    isActive: true,
     address: '0xcca88b952976da313fb928111f2d5c390ee0d723',
     name: 'Women Of Crypto Art [Panvala League]',
     slug: 'https://gitcoin.co/grants/1761/women-of-crypto-art-panvala-league',
@@ -36016,7 +36016,7 @@ export const theData = [
   },
   {
     grantId: 1762,
-    'active': true,
+    isActive: true,
     address: '0xeed5389a9db621a61aa4b07949b88f55c9506bda',
     name: 'Investisseur Crypto: A blog about Crypto and Strategy of investment',
     slug: 'https://gitcoin.co/grants/1762/investisseur-crypto-a-blog-about-crypto-and-strat',
@@ -36051,7 +36051,7 @@ export const theData = [
   },
   {
     grantId: 1764,
-    'active': true,
+    isActive: true,
     address: '0x05df81bf098ae29afad54250cd224379edcae850',
     name: 'Hashing It Outs Community Fund  (Panvala League)',
     slug: 'https://gitcoin.co/grants/1764/hashing-it-outs-community-fund-panvala-league',
@@ -36086,7 +36086,7 @@ export const theData = [
   },
   {
     grantId: 1766,
-    'active': true,
+    isActive: true,
     address: '0x474cccf5774e7e306c06cf7fbfa7238d5cccedcf',
     name: 'Virtual Canadian Crypto Conference',
     slug: 'https://gitcoin.co/grants/1766/virtual-canadian-crypto-conference',
@@ -36121,7 +36121,7 @@ export const theData = [
   },
   {
     grantId: 1769,
-    'active': true,
+    isActive: true,
     address: '0x301605c95acbed7a1fd9c2c0deee964e2afbd0c3',
     name: 'Trustlines Venezuela Community',
     slug: 'https://gitcoin.co/grants/1769/trustlines-venezuela-community',
@@ -36156,7 +36156,7 @@ export const theData = [
   },
   {
     grantId: 1771,
-    'active': true,
+    isActive: true,
     address: '0x728c0c3d19e81a2a87264c014733aa462d81e1fb',
     name: 'Core分叉',
     slug: 'https://gitcoin.co/grants/1771/corefen-cha',
@@ -36191,7 +36191,7 @@ export const theData = [
   },
   {
     grantId: 1772,
-    'active': true,
+    isActive: true,
     address: '0xb29884b1861b142c76a8f9b71ccbd1dd883c9e1f',
     name: 'Community Driven Analytics platform for Ethereum, xDai and POA Dapps',
     slug: 'https://gitcoin.co/grants/1772/community-driven-analytics-platform-for-ethereum-',
@@ -36226,7 +36226,7 @@ export const theData = [
   },
   {
     grantId: 1773,
-    'active': true,
+    isActive: true,
     address: '0x3f60008dfd0efc03f476d9b489d6c5b13b3ebf2c',
     name: 'Swivel Finance',
     slug: 'https://gitcoin.co/grants/1773/swivel-finance',
@@ -36261,7 +36261,7 @@ export const theData = [
   },
   {
     grantId: 1775,
-    'active': true,
+    isActive: true,
     address: '0x09ff1e8c530ffed4733f92a92ce58fd158c6a912',
     name: 'need work small time miner can always use extra help',
     slug: 'https://gitcoin.co/grants/1775/need-work-small-time-miner-can-always-use-extra-h',
@@ -36296,7 +36296,7 @@ export const theData = [
   },
   {
     grantId: 1776,
-    'active': true,
+    isActive: true,
     address: '0x393b9443545e0b428b008b25e1cf1c96d5b8fe06',
     name: 'Valist',
     slug: 'https://gitcoin.co/grants/1776/valist',
@@ -36331,7 +36331,7 @@ export const theData = [
   },
   {
     grantId: 1778,
-    'active': true,
+    isActive: true,
     address: '0x57bc8af36a7e900c438b0652ff2eeb24954a3e6d',
     name: 'Smart Contract Vulnerabilities Database',
     slug: 'https://gitcoin.co/grants/1778/smart-contract-vulnerabilities-database',
@@ -36366,7 +36366,7 @@ export const theData = [
   },
   {
     grantId: 1781,
-    'active': true,
+    isActive: true,
     address: '0x0467f3b464ff75ac91f6ed8a4139fc6e38256efb',
     name: 'Cursed Mining',
     slug: 'https://gitcoin.co/grants/1781/cursed-mining',
@@ -36401,7 +36401,7 @@ export const theData = [
   },
   {
     grantId: 1782,
-    'active': true,
+    isActive: true,
     address: '0x33784f8ae5848f69857831fc280afb392c9427c5',
     name: 'The First Digital Currency You Can Mine On Your Phone ,Download the mobile app to start earning today for FREE!   Download Google Play & App Stare  ',
     slug: 'https://gitcoin.co/grants/1782/the-first-digital-currency-you-can-mine-on-your-p',
@@ -36436,7 +36436,7 @@ export const theData = [
   },
   {
     grantId: 1784,
-    'active': true,
+    isActive: true,
     address: '0xccdb680ccaea8b11fb59ebfcf46300dd1ae1a27b',
     name: 'DefiSafe',
     slug: 'https://gitcoin.co/grants/1784/defisafe',
@@ -36471,7 +36471,7 @@ export const theData = [
   },
   {
     grantId: 1785,
-    'active': true,
+    isActive: true,
     address: '0xd62b0b2c1deff116c0b189483b0bbd0cc52649e0',
     name: 'Futarchy Aragon app',
     slug: 'https://gitcoin.co/grants/1785/futarchy-aragon-app',
@@ -36506,7 +36506,7 @@ export const theData = [
   },
   {
     grantId: 1786,
-    'active': true,
+    isActive: true,
     address: '0x33784f8ae5848f69857831fc280afb392c9427c5',
     name: 'Currency You Can Mine On Your Phone ,Download the mobile app to start earning today for FREE! Download Google Play & App Stare USE CODE  Alb3rt33',
     slug: 'https://gitcoin.co/grants/1786/currency-you-can-mine-on-your-phone-download-the-',
@@ -36541,7 +36541,7 @@ export const theData = [
   },
   {
     grantId: 1789,
-    'active': true,
+    isActive: true,
     address: '0x33d114801fa5a0cf7b93bd94f8be3cf24595ca59',
     name: 'BitcoinKenny Blog',
     slug: 'https://gitcoin.co/grants/1789/bitcoinkenny-blog',
@@ -36576,7 +36576,7 @@ export const theData = [
   },
   {
     grantId: 1790,
-    'active': true,
+    isActive: true,
     address: '0x83939f89a1540d2a3a48dee5f7266e29b7e11e88',
     name: 'DΞCΞNTRALIZΞ - A FREE OPENSOURSE MARKETPLACE',
     slug: 'https://gitcoin.co/grants/1790/dkscksntralizks-a-free-opensourse-marketplace',
@@ -36611,7 +36611,7 @@ export const theData = [
   },
   {
     grantId: 1794,
-    'active': true,
+    isActive: true,
     address: '0x434dcffcf7dabd48b284860c27ebd184c91341f5',
     name: 'DEGO NFTs',
     slug: 'https://gitcoin.co/grants/1794/dego-nfts',
@@ -36646,7 +36646,7 @@ export const theData = [
   },
   {
     grantId: 1796,
-    'active': true,
+    isActive: true,
     address: '0xcb8f9c706f9f5683d1bd6261f52f5f2b2182d780',
     name: 'Crypton Network',
     slug: 'https://gitcoin.co/grants/1796/crypton-network',
@@ -36681,7 +36681,7 @@ export const theData = [
   },
   {
     grantId: 1797,
-    'active': true,
+    isActive: true,
     address: '0xf31e952a4b01692410ef7c268aa8227aa347fe5b',
     name: 'The Daily Crypto YouTube Channel',
     slug: 'https://gitcoin.co/grants/1797/the-daily-crypto-youtube-channel',
@@ -36716,7 +36716,7 @@ export const theData = [
   },
   {
     grantId: 1799,
-    'active': true,
+    isActive: true,
     address: '0x8e6d2b4f3e8179ee5614c86f99a0605d142f8d9c',
     name: 'DeFi Study Club',
     slug: 'https://gitcoin.co/grants/1799/defi-study-club',
@@ -36751,7 +36751,7 @@ export const theData = [
   },
   {
     grantId: 1800,
-    'active': true,
+    isActive: true,
     address: '0xa5b0c665e95545604f0a1dd0e3ecd857a9c2d2c9',
     name: 'Crocu Bot & Friends',
     slug: 'https://gitcoin.co/grants/1800/crocu-bot-friends',
@@ -36786,7 +36786,7 @@ export const theData = [
   },
   {
     grantId: 1802,
-    'active': true,
+    isActive: true,
     address: '0xd57462a554497cc4518df2fdb1e01c14ab83134b',
     name: 'Arabs in Blockchain: an open community that gathers all Arabs in blockchain ',
     slug: 'https://gitcoin.co/grants/1802/arabs-in-blockchain-an-open-community-that-gather',
@@ -36821,7 +36821,7 @@ export const theData = [
   },
   {
     grantId: 1803,
-    'active': true,
+    isActive: true,
     address: '0x9620b36841dacd567032110000a7f090ebf2bca3',
     name: 'BTC ATH Today',
     slug: 'https://gitcoin.co/grants/1803/btc-ath-today',
@@ -36856,7 +36856,7 @@ export const theData = [
   },
   {
     grantId: 1804,
-    'active': true,
+    isActive: true,
     address: '0x7e3bf3148ce0e09229f6806d8c72d1e805df380a',
     name: 'H',
     slug: 'https://gitcoin.co/grants/1804/h',
@@ -36891,7 +36891,7 @@ export const theData = [
   },
   {
     grantId: 1805,
-    'active': true,
+    isActive: true,
     address: '0xe71fbb197bc8fd11090fa657c100d52dbb407662',
     name: 'Pepemon: Degen Battleground',
     slug: 'https://gitcoin.co/grants/1805/pepemon-degen-battleground',
@@ -36926,7 +36926,7 @@ export const theData = [
   },
   {
     grantId: 1808,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show - Season3',
     slug: 'https://gitcoin.co/grants/1808/bbft-podcast-show-season3',
@@ -36961,7 +36961,7 @@ export const theData = [
   },
   {
     grantId: 1809,
-    'active': true,
+    isActive: true,
     address: '0xef0ca09fbf9a5f61e657fb208b46b8685c1d4766',
     name: 'vfat.tools Yield Farming Calculators',
     slug: 'https://gitcoin.co/grants/1809/vfattools-yield-farming-calculators',
@@ -36996,7 +36996,7 @@ export const theData = [
   },
   {
     grantId: 1810,
-    'active': true,
+    isActive: true,
     address: '0xb363013df146fdcd5df27ae5cdd50c02f9099f56',
     name: 'DeFi Frog | Analysis & Community Support',
     slug: 'https://gitcoin.co/grants/1810/defi-frog-analysis-community-support',
@@ -37031,7 +37031,7 @@ export const theData = [
   },
   {
     grantId: 1811,
-    'active': true,
+    isActive: true,
     address: '0xdfe4719d63f8df79b2610e49ea0398a4de274c09',
     name: 'Portfolio ',
     slug: 'https://gitcoin.co/grants/1811/portfolio',
@@ -37066,7 +37066,7 @@ export const theData = [
   },
   {
     grantId: 1812,
-    'active': true,
+    isActive: true,
     address: '0x5b9be4c1884df0c1fb8df80b051f0e0b64cb9c32',
     name: 'BFLO • Proof of Reputation',
     slug: 'https://gitcoin.co/grants/1812/bflo-proof-of-reputation',
@@ -37101,7 +37101,7 @@ export const theData = [
   },
   {
     grantId: 1814,
-    'active': true,
+    isActive: true,
     address: '0xeeaf40de082a05b56c05fdfb100661d85b0aff6f',
     name: 'ChievMint',
     slug: 'https://gitcoin.co/grants/1814/chievmint',
@@ -37136,7 +37136,7 @@ export const theData = [
   },
   {
     grantId: 1815,
-    'active': true,
+    isActive: true,
     address: '0xb564dbe3a8d62825606a0396fce56b87f19a327e',
     name: 'Rust guide for Web3 developers',
     slug: 'https://gitcoin.co/grants/1815/rust-guide-for-web3-developers',
@@ -37171,7 +37171,7 @@ export const theData = [
   },
   {
     grantId: 1816,
-    'active': true,
+    isActive: true,
     address: '0xa09ed65b2d2ea46e82260d4cb1b2a62dee9ac099',
     name: 'Reliable DeFi Aggregation Totle.com',
     slug: 'https://gitcoin.co/grants/1816/reliable-defi-aggregation-totlecom',
@@ -37206,7 +37206,7 @@ export const theData = [
   },
   {
     grantId: 1819,
-    'active': true,
+    isActive: true,
     address: '0x4e233d34ecb90d72148fb0423a4624b1c3902f47',
     name: 'Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.',
     slug: 'https://gitcoin.co/grants/1819/compound-is-an-algorithmic-autonomous-interest-ra',
@@ -37241,7 +37241,7 @@ export const theData = [
   },
   {
     grantId: 1821,
-    'active': true,
+    isActive: true,
     address: '0x4fd6b3204a6ab48978018b25821682f090840333',
     name: 'CryptoChica - CryptoCommunity in Spanish',
     slug: 'https://gitcoin.co/grants/1821/cryptochica-cryptocommunity-in-spanish',
@@ -37276,7 +37276,7 @@ export const theData = [
   },
   {
     grantId: 1823,
-    'active': true,
+    isActive: true,
     address: '0x474764be5ad5518b95cea6ee98ef2bab93bf6cd2',
     name: 'UniShare',
     slug: 'https://gitcoin.co/grants/1823/unishare',
@@ -37311,7 +37311,7 @@ export const theData = [
   },
   {
     grantId: 1824,
-    'active': true,
+    isActive: true,
     address: '0x260874cc5c672f60c9d5c4b2ffe34262ee7797ac',
     name: 'Token Gallery',
     slug: 'https://gitcoin.co/grants/1824/token-gallery',
@@ -37346,7 +37346,7 @@ export const theData = [
   },
   {
     grantId: 1826,
-    'active': true,
+    isActive: true,
     address: '0x98f21584006c79871f176f8d474958a69e04595b',
     name: 'Token Attestation: Proof of Ownership in ETH',
     slug: 'https://gitcoin.co/grants/1826/token-attestation-proof-of-ownership-in-eth',
@@ -37381,7 +37381,7 @@ export const theData = [
   },
   {
     grantId: 1827,
-    'active': true,
+    isActive: true,
     address: '0xe302ca18c14ab31a002ac14a0889560d99e54633',
     name: 'Fission Network',
     slug: 'https://gitcoin.co/grants/1827/fission-network',
@@ -37416,7 +37416,7 @@ export const theData = [
   },
   {
     grantId: 1828,
-    'active': true,
+    isActive: true,
     address: '0x046b8b30767592487badb59e43418e3f58f46b26',
     name: 'Australian Digital Security',
     slug: 'https://gitcoin.co/grants/1828/australian-digital-security',
@@ -37451,7 +37451,7 @@ export const theData = [
   },
   {
     grantId: 1830,
-    'active': true,
+    isActive: true,
     address: '0x10a35cbce6d0b2b01d6dd944c6889f98b036205d',
     name: 'The augmented reality game Cryptolandy. ',
     slug: 'https://gitcoin.co/grants/1830/the-augmented-reality-game-cryptolandy',
@@ -37486,7 +37486,7 @@ export const theData = [
   },
   {
     grantId: 1831,
-    'active': true,
+    isActive: true,
     address: '0x983868f0c1f977a5f375782f0e1af73cd9173bf8',
     name: 'Bitcoin faucet development',
     slug: 'https://gitcoin.co/grants/1831/bitcoin-faucet-development',
@@ -37521,7 +37521,7 @@ export const theData = [
   },
   {
     grantId: 1832,
-    'active': true,
+    isActive: true,
     address: '0xb67b1f2363e2f9c30be7c614b29e4ba9064b10bc',
     name: '人力基金',
     slug: 'https://gitcoin.co/grants/1832/ren-li-ji-jin',
@@ -37556,7 +37556,7 @@ export const theData = [
   },
   {
     grantId: 1833,
-    'active': true,
+    isActive: true,
     address: '0xae91cb00c413a8d6089ba0bc8bf66fba47a912ea',
     name: 'Shaka Places - If tripadvisor & instagram had a crypto lovechild. ',
     slug: 'https://gitcoin.co/grants/1833/shaka-places-if-tripadvisor-instagram-had-a-crypt',
@@ -37591,7 +37591,7 @@ export const theData = [
   },
   {
     grantId: 1834,
-    'active': true,
+    isActive: true,
     address: '0xf00e0d4f19691e17ff73367cc86ab9d56618aae4',
     name: 'Futures and margin trading on the UFO Money DeFi service',
     slug: 'https://gitcoin.co/grants/1834/futures-and-margin-trading-on-the-ufo-money-defi-',
@@ -37626,7 +37626,7 @@ export const theData = [
   },
   {
     grantId: 1835,
-    'active': true,
+    isActive: true,
     address: '0x97557db165c299663ef134f18e1fb3f093a1f15e',
     name: 'RUSH TOKEN Launch',
     slug: 'https://gitcoin.co/grants/1835/rush-token-launch',
@@ -37661,7 +37661,7 @@ export const theData = [
   },
   {
     grantId: 1836,
-    'active': true,
+    isActive: true,
     address: '0x5451d62f16d490572253e0666ebbb6a045eaf2d1',
     name: 'Blockchain Development and Consulting in Canada',
     slug: 'https://gitcoin.co/grants/1836/blockchain-development-and-consulting-in-canada',
@@ -37696,7 +37696,7 @@ export const theData = [
   },
   {
     grantId: 1837,
-    'active': true,
+    isActive: true,
     address: '0x32672af4edc13cf1ab5dab6c5cda5df71ad35951',
     name: 'illcircle, a Web-3.0  Merch Shop🛒',
     slug: 'https://gitcoin.co/grants/1837/illcircle-a-web-30-merch-shop',
@@ -37731,7 +37731,7 @@ export const theData = [
   },
   {
     grantId: 1838,
-    'active': true,
+    isActive: true,
     address: '0x7bc06015304f00f5dccc22f009be313eb51396aa',
     name: 'real estate token',
     slug: 'https://gitcoin.co/grants/1838/real-estate-token',
@@ -37766,7 +37766,7 @@ export const theData = [
   },
   {
     grantId: 1839,
-    'active': true,
+    isActive: true,
     address: '0x00e4f5f746242e4d115bd65aac7c08fe5d38fb21',
     name: 'The Etherchest Ecosystem',
     slug: 'https://gitcoin.co/grants/1839/the-etherchest-ecosystem',
@@ -37801,7 +37801,7 @@ export const theData = [
   },
   {
     grantId: 1840,
-    'active': true,
+    isActive: true,
     address: '0xc47608a5bfdc84bffdce58354e98272af80b2c32',
     name: 'AlexColum',
     slug: 'https://gitcoin.co/grants/1840/alexcolum',
@@ -37836,7 +37836,7 @@ export const theData = [
   },
   {
     grantId: 1841,
-    'active': true,
+    isActive: true,
     address: '0xc47608a5bfdc84bffdce58354e98272af80b2c32',
     name: 'AlexColum',
     slug: 'https://gitcoin.co/grants/1841/alexcolum',
@@ -37871,7 +37871,7 @@ export const theData = [
   },
   {
     grantId: 1842,
-    'active': true,
+    isActive: true,
     address: '0x58ce73b485dcbd36dd7b331718345d86e6f27dbe',
     name: 'Ohreee',
     slug: 'https://gitcoin.co/grants/1842/ohreee',
@@ -37906,7 +37906,7 @@ export const theData = [
   },
   {
     grantId: 1845,
-    'active': true,
+    isActive: true,
     address: '0x6e9d4a60cc981be5780440d659cd431a6e6d790a',
     name: 'CRYPTOmmunity',
     slug: 'https://gitcoin.co/grants/1845/cryptommunity',
@@ -37941,7 +37941,7 @@ export const theData = [
   },
   {
     grantId: 1848,
-    'active': true,
+    isActive: true,
     address: '0x87b2a7559d85f4653f13e6546a14189cd5455d45',
     name: 'Donations to Hugh Karp for the recent hack of personal funds',
     slug: 'https://gitcoin.co/grants/1848/donations-to-hugh-karp-for-the-recent-hack-of-per',
@@ -37976,7 +37976,7 @@ export const theData = [
   },
   {
     grantId: 1850,
-    'active': true,
+    isActive: true,
     address: '0x014ffcf34d8515535b99d6aef654258c237168b6',
     name: 'Fireth',
     slug: 'https://gitcoin.co/grants/1850/fireth',
@@ -38011,7 +38011,7 @@ export const theData = [
   },
   {
     grantId: 1853,
-    'active': true,
+    isActive: true,
     address: '0xc00dfb9ae0c76e203e4a3b02558704a059ae9681',
     name: 'Abridged is a platform for rapid Web 3 development to enable any app or chatbot to interact with the blockchain.',
     slug: 'https://gitcoin.co/grants/1853/abridged-is-a-platform-for-rapid-web-3-developmen',
@@ -38046,7 +38046,7 @@ export const theData = [
   },
   {
     grantId: 1855,
-    'active': true,
+    isActive: true,
     address: '0x6e41fe2f8303b89c9dbccabe59a7f7f8f4312ca9',
     name: 'stereum.net - Ethereum Node Setup & Infrastructure',
     slug: 'https://gitcoin.co/grants/1855/stereumnet-ethereum-node-setup-infrastructure',
@@ -38081,7 +38081,7 @@ export const theData = [
   },
   {
     grantId: 1857,
-    'active': true,
+    isActive: true,
     address: '0x0cf83143f0ab9d6e178fc7f141205ec2992266c8',
     name: 'CoinTool.App',
     slug: 'https://gitcoin.co/grants/1857/cointoolapp',
@@ -38116,7 +38116,7 @@ export const theData = [
   },
   {
     grantId: 1858,
-    'active': true,
+    isActive: true,
     address: '0xae3a0b3587c1d2e513c07a1050f1bdded4b8d069',
     name: 'Ohreee',
     slug: 'https://gitcoin.co/grants/1858/ohreee',
@@ -38151,7 +38151,7 @@ export const theData = [
   },
   {
     grantId: 1860,
-    'active': true,
+    isActive: true,
     address: '0x0ebf8ffa7c7a360b6b7ea3acceaf93f6e269254e',
     name: 'thepeguesproject',
     slug: 'https://gitcoin.co/grants/1860/thepeguesproject',
@@ -38186,7 +38186,7 @@ export const theData = [
   },
   {
     grantId: 1861,
-    'active': true,
+    isActive: true,
     address: '0xa15ea47ebc20687a0412f64ff801e1dc30f987c7',
     name: 'PAWS is people helping cats, dogs and wild animals go home and thrive.',
     slug: 'https://gitcoin.co/grants/1861/paws-is-people-helping-cats-dogs-and-wild-animals',
@@ -38221,7 +38221,7 @@ export const theData = [
   },
   {
     grantId: 1862,
-    'active': true,
+    isActive: true,
     address: '0xf592ee0e3a20ddd65882e0fe6bfbb4b465a98ae4',
     name: 'PEEKER bot',
     slug: 'https://gitcoin.co/grants/1862/peeker-bot',
@@ -38256,7 +38256,7 @@ export const theData = [
   },
   {
     grantId: 1863,
-    'active': true,
+    isActive: true,
     address: '0x6af22da734cd6acc11ca39d05e9654cf63bf5086',
     name: 'CryptoSheinix Youtube Channel',
     slug: 'https://gitcoin.co/grants/1863/cryptosheinix-youtube-channel',
@@ -38291,7 +38291,7 @@ export const theData = [
   },
   {
     grantId: 1864,
-    'active': true,
+    isActive: true,
     address: '0xccdb5a96c63885f4aa36d67de0eac7a10cb7de0c',
     name: 'SendACoin.To - A new way to share your crypto currency address',
     slug: 'https://gitcoin.co/grants/1864/sendacointo-a-new-way-to-share-your-crypto-curren',
@@ -38326,7 +38326,7 @@ export const theData = [
   },
   {
     grantId: 1865,
-    'active': true,
+    isActive: true,
     address: '0x722ce03c15670c313f9596544cdb582c19f810e2',
     name: 'Convert ERC-1155 <-> ERC-20 (need pay contract deployment)',
     slug: 'https://gitcoin.co/grants/1865/convert-erc-1155-erc-20-need-pay-contract-deploym',
@@ -38361,7 +38361,7 @@ export const theData = [
   },
   {
     grantId: 1866,
-    'active': true,
+    isActive: true,
     address: '0x7350e79b92c15652c5a38034b4dc95bcaac1d51a',
     name: 'Cryptocurrency Project Fund',
     slug: 'https://gitcoin.co/grants/1866/cryptocurrency-project-fund',
@@ -38396,7 +38396,7 @@ export const theData = [
   },
   {
     grantId: 1869,
-    'active': true,
+    isActive: true,
     address: '0x8465cc72a89607ede36b5bcb15d317f6ba970bd6',
     name: 'After Me',
     slug: 'https://gitcoin.co/grants/1869/after-me',
@@ -38431,7 +38431,7 @@ export const theData = [
   },
   {
     grantId: 1870,
-    'active': true,
+    isActive: true,
     address: '0x4247269401bcb49d8455e275d70c25be9e2f9285',
     name: 'Rebase community-Rebase区块链技术社区',
     slug: 'https://gitcoin.co/grants/1870/rebase-community-rebasequ-kuai-lian-ji-zhu-she-qu',
@@ -38466,7 +38466,7 @@ export const theData = [
   },
   {
     grantId: 1871,
-    'active': true,
+    isActive: true,
     address: '0x194e58e62a82a3eb1d50c9369a2df5e6e2603304',
     name: 'TREETOKEN1',
     slug: 'https://gitcoin.co/grants/1871/treetoken1',
@@ -38501,7 +38501,7 @@ export const theData = [
   },
   {
     grantId: 1872,
-    'active': true,
+    isActive: true,
     address: '0x6bff80bf65e06baf3385a36b826c65121d3c7a8d',
     name: 'The Health Fund ',
     slug: 'https://gitcoin.co/grants/1872/the-health-fund',
@@ -38536,7 +38536,7 @@ export const theData = [
   },
   {
     grantId: 1876,
-    'active': true,
+    isActive: true,
     address: '0xea6bf819283fd7f820197c41176629c44be3ca56',
     name: 'MoovIt Fitness',
     slug: 'https://gitcoin.co/grants/1876/moovit-fitness',
@@ -38571,7 +38571,7 @@ export const theData = [
   },
   {
     grantId: 1877,
-    'active': true,
+    isActive: true,
     address: '0xfd9f082936529471430dc4c5aa9c97e48b91c154',
     name: 'Protocol: Gemini    \'Edit the FUTURE\'-- AR/MR/XR     Blockchain.  3D GPS and NFT 2.0 Experiences.  (11.2.21)',
     slug: 'https://gitcoin.co/grants/1877/protocol-gemini-edit-the-future-armrxr-blockchain',
@@ -38606,7 +38606,7 @@ export const theData = [
   },
   {
     grantId: 1878,
-    'active': true,
+    isActive: true,
     address: '0x37cecf221168e18c9c85d76d092794f35212f94c',
     name: 'Diggers Renewable Crypto Mining Industry',
     slug: 'https://gitcoin.co/grants/1878/diggers-renewable-crypto-mining-industry',
@@ -38641,7 +38641,7 @@ export const theData = [
   },
   {
     grantId: 1879,
-    'active': true,
+    isActive: true,
     address: '0xf8030e71e3f5a6b0f4e3ef4324f5dd55f4d679bd',
     name: 'Dudesahns Crypto Onboarding Made Easy',
     slug: 'https://gitcoin.co/grants/1879/dudesahns-crypto-onboarding-made-easy',
@@ -38676,7 +38676,7 @@ export const theData = [
   },
   {
     grantId: 1880,
-    'active': true,
+    isActive: true,
     address: '0x7a3fea4e37bd7759f386bbedbe6efcd0c40030e9',
     name: 'The Neutralizer',
     slug: 'https://gitcoin.co/grants/1880/the-neutralizer',
@@ -38711,7 +38711,7 @@ export const theData = [
   },
   {
     grantId: 1882,
-    'active': true,
+    isActive: true,
     address: '0x8552bf22af8211c75d5d2e53fb5aa5e215cfb1d9',
     name: 'crypto mining ',
     slug: 'https://gitcoin.co/grants/1882/crypto-mining',
@@ -38746,7 +38746,7 @@ export const theData = [
   },
   {
     grantId: 1883,
-    'active': true,
+    isActive: true,
     address: '0x4db3b43f77b49f14bb6aceab4b3182e42af02372',
     name: 'SpamReports',
     slug: 'https://gitcoin.co/grants/1883/spamreports',
@@ -38781,7 +38781,7 @@ export const theData = [
   },
   {
     grantId: 1884,
-    'active': true,
+    isActive: true,
     address: '0x312e71162df834a87a2684d30562b94816b0f072',
     name: '⚛️ React Native 😍 Web3 🌱',
     slug: 'https://gitcoin.co/grants/1884/react-native-web3',
@@ -38816,7 +38816,7 @@ export const theData = [
   },
   {
     grantId: 1885,
-    'active': true,
+    isActive: true,
     address: '0xafecebe1c14325c2212624ac710af3a1b5da595d',
     name: 'Merkle Generation',
     slug: 'https://gitcoin.co/grants/1885/merkle-generation',
@@ -38851,7 +38851,7 @@ export const theData = [
   },
   {
     grantId: 1887,
-    'active': true,
+    isActive: true,
     address: '0x2759538121f4d604e7b7e5d1e5f562a05a524d45',
     name: 'Каждодневное исследование скам токенов на рынке DEFI с аргументами',
     slug: 'https://gitcoin.co/grants/1887/kazhdodnevnoe-issledovanie-skam-tokenov-na-rynke-',
@@ -38886,7 +38886,7 @@ export const theData = [
   },
   {
     grantId: 1891,
-    'active': true,
+    isActive: true,
     address: '0x0a66693bba5643065ce3087391ca5f0ffb3f341e',
     name: 'FiniteYFiI',
     slug: 'https://gitcoin.co/grants/1891/finiteyfii',
@@ -38921,7 +38921,7 @@ export const theData = [
   },
   {
     grantId: 1892,
-    'active': true,
+    isActive: true,
     address: '0xd69bc49879da4a74adbfcf46388127fad28f1fe4',
     name: 'Coin98 Insights & Analytics',
     slug: 'https://gitcoin.co/grants/1892/coin98-insights-analytics',
@@ -38956,7 +38956,7 @@ export const theData = [
   },
   {
     grantId: 1893,
-    'active': true,
+    isActive: true,
     address: '0x31d7413d75265deaff0a820b4609760dd862630e',
     name: 'BitlyFLIP',
     slug: 'https://gitcoin.co/grants/1893/bitlyflip',
@@ -38991,7 +38991,7 @@ export const theData = [
   },
   {
     grantId: 1896,
-    'active': true,
+    isActive: true,
     address: '0x5e80b9e6c039425cf918cf1b20c5faf8407b5f92',
     name: 'defi-legos',
     slug: 'https://gitcoin.co/grants/1896/defi-legos',
@@ -39026,7 +39026,7 @@ export const theData = [
   },
   {
     grantId: 1897,
-    'active': true,
+    isActive: true,
     address: '0xafecebe1c14325c2212624ac710af3a1b5da595d',
     name: 'Albert',
     slug: 'https://gitcoin.co/grants/1897/albert',
@@ -39061,7 +39061,7 @@ export const theData = [
   },
   {
     grantId: 1899,
-    'active': true,
+    isActive: true,
     address: '0xfd5143df522b45732faa649d378d98510055f515',
     name: 'Blocklendr',
     slug: 'https://gitcoin.co/grants/1899/blocklendr',
@@ -39096,7 +39096,7 @@ export const theData = [
   },
   {
     grantId: 1900,
-    'active': true,
+    isActive: true,
     address: '0xfeb4acf3df3cdea7399794d0869ef76a6efaff52',
     name: 'Paid Vacation for Yearn Devs',
     slug: 'https://gitcoin.co/grants/1900/paid-vacation-for-yearn-devs',
@@ -39131,7 +39131,7 @@ export const theData = [
   },
   {
     grantId: 1901,
-    'active': true,
+    isActive: true,
     address: '0x90edc34171b1750c36bf86d990bfc42889a73c6e',
     name: 'D¢ENT + Matic (Polygon) NFT Product Authentication System',
     slug: 'https://gitcoin.co/grants/1901/dcent-matic-polygon-nft-product-authentication-sy',
@@ -39166,7 +39166,7 @@ export const theData = [
   },
   {
     grantId: 1904,
-    'active': true,
+    isActive: true,
     address: '0x3e69a9c97b174b70e89a54a247f57ad02ec770ea',
     name: 'Music & Arts endowment grant',
     slug: 'https://gitcoin.co/grants/1904/music-arts-endowment-grant',
@@ -39201,7 +39201,7 @@ export const theData = [
   },
   {
     grantId: 1907,
-    'active': true,
+    isActive: true,
     address: '0xc426cea649f3555428e3583311e8933de18aca95',
     name: 'The',
     slug: 'https://gitcoin.co/grants/1907/the',
@@ -39236,7 +39236,7 @@ export const theData = [
   },
   {
     grantId: 1908,
-    'active': true,
+    isActive: true,
     address: '0xfc72b32f2f7cafca4d5d99c031f4b8f9579c18b6',
     name: 'Cryptofonts for developers and designers',
     slug: 'https://gitcoin.co/grants/1908/cryptofonts-for-developers-and-designers',
@@ -39271,7 +39271,7 @@ export const theData = [
   },
   {
     grantId: 1909,
-    'active': true,
+    isActive: true,
     address: '0xd89f72de45526a30d39772386c879457c761f276',
     name: 'eQuality',
     slug: 'https://gitcoin.co/grants/1909/equality',
@@ -39306,7 +39306,7 @@ export const theData = [
   },
   {
     grantId: 1910,
-    'active': true,
+    isActive: true,
     address: '0xe4986799f09adbb31ac5131d60d566512c2f7d55',
     name: 'CryptoOneStop',
     slug: 'https://gitcoin.co/grants/1910/cryptoonestop',
@@ -39341,7 +39341,7 @@ export const theData = [
   },
   {
     grantId: 1912,
-    'active': true,
+    isActive: true,
     address: '0xf3829dc5c3aac332218928dee626e641116e8556',
     name: 'Mavin: Restoring online trust in media and fighting fake news.',
     slug: 'https://gitcoin.co/grants/1912/mavin-restoring-online-trust-in-media-and-fightin',
@@ -39376,7 +39376,7 @@ export const theData = [
   },
   {
     grantId: 1914,
-    'active': true,
+    isActive: true,
     address: '0x29d29f57013b3074abe36109005bcb458b7fbeee',
     name: 'TopBidder - Radical Auction Protocol for NFTs',
     slug: 'https://gitcoin.co/grants/1914/topbidder-radical-auction-protocol-for-nfts',
@@ -39411,7 +39411,7 @@ export const theData = [
   },
   {
     grantId: 1916,
-    'active': true,
+    isActive: true,
     address: '0x0cf83143f0ab9d6e178fc7f141205ec2992266c8',
     name: 'Token BatchSender',
     slug: 'https://gitcoin.co/grants/1916/token-batchsender',
@@ -39446,7 +39446,7 @@ export const theData = [
   },
   {
     grantId: 1917,
-    'active': true,
+    isActive: true,
     address: '0x74f8c282b9f3c5e91446e6aa1c40e9c6ad605233',
     name: 'i dont know what im doing here',
     slug: 'https://gitcoin.co/grants/1917/i-dont-know-what-im-doing-here',
@@ -39481,7 +39481,7 @@ export const theData = [
   },
   {
     grantId: 1918,
-    'active': true,
+    isActive: true,
     address: '0x0d304e6f12c6eead742b3963ba0e6fce06dbe4a4',
     name: 'Wealth Plan',
     slug: 'https://gitcoin.co/grants/1918/wealth-plan',
@@ -39516,7 +39516,7 @@ export const theData = [
   },
   {
     grantId: 1922,
-    'active': true,
+    isActive: true,
     address: '0x90d3da157dfccf94ddd44d918708085ec41e7c0c',
     name: 'CHERRYxLUCKY',
     slug: 'https://gitcoin.co/grants/1922/cherryxlucky',
@@ -39551,7 +39551,7 @@ export const theData = [
   },
   {
     grantId: 1923,
-    'active': true,
+    isActive: true,
     address: '0x092b254788219cf27761f217013563fdf85b633c',
     name: 'Doruk İşmen',
     slug: 'https://gitcoin.co/grants/1923/doruk-ismen',
@@ -39586,7 +39586,7 @@ export const theData = [
   },
   {
     grantId: 1928,
-    'active': true,
+    isActive: true,
     address: '0x6d9215b8a2187b0186f2c8ce3a17e5842e827512',
     name: 'Sense.Play',
     slug: 'https://gitcoin.co/grants/1928/senseplay',
@@ -39621,7 +39621,7 @@ export const theData = [
   },
   {
     grantId: 1929,
-    'active': true,
+    isActive: true,
     address: '0xe848c9e6b3b792b509b95b3d3a783eacbf1294e6',
     name: 'Building the DAO Controlled Land Trust',
     slug: 'https://gitcoin.co/grants/1929/building-the-dao-controlled-land-trust',
@@ -39656,7 +39656,7 @@ export const theData = [
   },
   {
     grantId: 1934,
-    'active': true,
+    isActive: true,
     address: '0xc2b46670dda0937c57e86cb0681d098fccc0d84c',
     name: 'Education Crypto ',
     slug: 'https://gitcoin.co/grants/1934/education-crypto',
@@ -39691,7 +39691,7 @@ export const theData = [
   },
   {
     grantId: 1935,
-    'active': true,
+    isActive: true,
     address: '0xa3c097fc1afefc849f512f9cfde1d3967223dd21',
     name: 'Freeze Crypto',
     slug: 'https://gitcoin.co/grants/1935/freeze-crypto',
@@ -39726,7 +39726,7 @@ export const theData = [
   },
   {
     grantId: 1937,
-    'active': true,
+    isActive: true,
     address: '0x4ef6ea0720862903bbb039e1ab30563e9ec33aba',
     name: 'Ethereum Blockchain Data In Trading Bots',
     slug: 'https://gitcoin.co/grants/1937/ethereum-blockchain-data-in-trading-bots',
@@ -39761,7 +39761,7 @@ export const theData = [
   },
   {
     grantId: 1946,
-    'active': true,
+    isActive: true,
     address: '0x71ac8069a54c4fbe1cef4e14389dfada3a9203e1',
     name: 'FudmartSwap Exchange Governance Token',
     slug: 'https://gitcoin.co/grants/1946/fudmartswap-exchange-governance-token',
@@ -39796,7 +39796,7 @@ export const theData = [
   },
   {
     grantId: 1947,
-    'active': true,
+    isActive: true,
     address: '0xa0f485bc8fdbf910637ce43ba851e08c25c7cb84',
     name: 'KULAP.io',
     slug: 'https://gitcoin.co/grants/1947/kulapio',
@@ -39831,7 +39831,7 @@ export const theData = [
   },
   {
     grantId: 1948,
-    'active': true,
+    isActive: true,
     address: '0xa0d52fb2d611360a5331b49857ad5c35db9a250e',
     name: 'deltatheta - p2p options trading platform on Ethereum',
     slug: 'https://gitcoin.co/grants/1948/deltatheta-p2p-options-trading-platform-on-ethere',
@@ -39866,7 +39866,7 @@ export const theData = [
   },
   {
     grantId: 1949,
-    'active': true,
+    isActive: true,
     address: '0x476f2d18d28fa1a4fc62ce680fa7852524eb820f',
     name: 'Network State Genesis',
     slug: 'https://gitcoin.co/grants/1949/network-state-genesis',
@@ -39901,7 +39901,7 @@ export const theData = [
   },
   {
     grantId: 1950,
-    'active': true,
+    isActive: true,
     address: '0x287e131392abb67b35927bc54f58e36b33d2e207',
     name: 'Please Share! Source Code GameServer',
     slug: 'https://gitcoin.co/grants/1950/please-share-source-code-gameserver',
@@ -39936,7 +39936,7 @@ export const theData = [
   },
   {
     grantId: 1953,
-    'active': true,
+    isActive: true,
     address: '0x794c1ad7ad6ca2b1a578ab2f6d21e77606a2fe8b',
     name: 'INAAD: The Irregular Nerve Activity Alerting Device',
     slug: 'https://gitcoin.co/grants/1953/inaad-the-irregular-nerve-activity-alerting-devic',
@@ -39971,7 +39971,7 @@ export const theData = [
   },
   {
     grantId: 1956,
-    'active': true,
+    isActive: true,
     address: '0x80cb170efa531c9ae073c50170c17ffa9e3ff8a2',
     name: 'DefiWorld',
     slug: 'https://gitcoin.co/grants/1956/defiworld',
@@ -40006,7 +40006,7 @@ export const theData = [
   },
   {
     grantId: 1957,
-    'active': true,
+    isActive: true,
     address: '0x30a1627fddc0dbb7dd00b881d25a45b443f294bb',
     name: 'Crypto Jobs List',
     slug: 'https://gitcoin.co/grants/1957/crypto-jobs-list',
@@ -40041,7 +40041,7 @@ export const theData = [
   },
   {
     grantId: 1959,
-    'active': true,
+    isActive: true,
     address: '0x6239b06fe8aa9694ac99fc621fc787a1b60e436a',
     name: 'AlphaColo',
     slug: 'https://gitcoin.co/grants/1959/alphacolo',
@@ -40076,7 +40076,7 @@ export const theData = [
   },
   {
     grantId: 1961,
-    'active': true,
+    isActive: true,
     address: '0xca76f89fcfb81acbb62d2ea873cf70d7a11fbb32',
     name: 'BEE',
     slug: 'https://gitcoin.co/grants/1961/bee',
@@ -40111,7 +40111,7 @@ export const theData = [
   },
   {
     grantId: 1965,
-    'active': true,
+    isActive: true,
     address: '0xc5d66fe6b78088cdbbc09c90c1a191867c10276d',
     name: 'Educating Others And Learning About Crypto',
     slug: 'https://gitcoin.co/grants/1965/educating-others-and-learning-about-crypto',
@@ -40146,7 +40146,7 @@ export const theData = [
   },
   {
     grantId: 1966,
-    'active': true,
+    isActive: true,
     address: '0xa76e5098b362532988b20c078712220859fe169e',
     name: 'Xops',
     slug: 'https://gitcoin.co/grants/1966/xops',
@@ -40181,7 +40181,7 @@ export const theData = [
   },
   {
     grantId: 1968,
-    'active': true,
+    isActive: true,
     address: '0xe773b3dc818ebbcf13f224da7f17c86f87afd0da',
     name: 'NFT arts',
     slug: 'https://gitcoin.co/grants/1968/nft-arts',
@@ -40216,7 +40216,7 @@ export const theData = [
   },
   {
     grantId: 1970,
-    'active': true,
+    isActive: true,
     address: '0xbec643bd5b7f5e9190617ca4187ef0455950c51c',
     name: 'ITU Blockchain',
     slug: 'https://gitcoin.co/grants/1970/itu-blockchain',
@@ -40251,7 +40251,7 @@ export const theData = [
   },
   {
     grantId: 1975,
-    'active': true,
+    isActive: true,
     address: '0x137daf4bef37b38a0aea1182b8bd40979ae9993e',
     name: 'Gin Admin Theme',
     slug: 'https://gitcoin.co/grants/1975/gin-admin-theme',
@@ -40286,7 +40286,7 @@ export const theData = [
   },
   {
     grantId: 1976,
-    'active': true,
+    isActive: true,
     address: '0x6b7c0b5907b546a867c108734284f1ea90f32bad',
     name: 'The Simpcard NFT fund',
     slug: 'https://gitcoin.co/grants/1976/the-simpcard-nft-fund',
@@ -40321,7 +40321,7 @@ export const theData = [
   },
   {
     grantId: 1979,
-    'active': true,
+    isActive: true,
     address: '0x05f9f39e372bbe8cd2f73736ae0441ab8052dbb6',
     name: 'VUSD Stablecoin',
     slug: 'https://gitcoin.co/grants/1979/vusd-stablecoin',
@@ -40356,7 +40356,7 @@ export const theData = [
   },
   {
     grantId: 1981,
-    'active': true,
+    isActive: true,
     address: '0xdccfa8932763b2a29b8411dde49cb1543536c1f3',
     name: 'Better to be better neighbor',
     slug: 'https://gitcoin.co/grants/1981/better-to-be-better-neighbor',
@@ -40391,7 +40391,7 @@ export const theData = [
   },
   {
     grantId: 1982,
-    'active': true,
+    isActive: true,
     address: '0xa8a46b66eeb362da792a50c310b030991df8ef2e',
     name: 'Simply Solutions Grant Request',
     slug: 'https://gitcoin.co/grants/1982/simply-solutions-grant-request',
@@ -40426,7 +40426,7 @@ export const theData = [
   },
   {
     grantId: 1983,
-    'active': true,
+    isActive: true,
     address: '0xfb209bf0fbd0781e5b04ca41458d7df5a143c769',
     name: 'Everyone can be a chef with SUSHI',
     slug: 'https://gitcoin.co/grants/1983/everyone-can-be-a-chef-with-sushi',
@@ -40461,7 +40461,7 @@ export const theData = [
   },
   {
     grantId: 1985,
-    'active': true,
+    isActive: true,
     address: '0x6a2fc127cd2926752338917d8e09fb8481d12e3b',
     name: 'HARD LIFE',
     slug: 'https://gitcoin.co/grants/1985/hard-life',
@@ -40496,7 +40496,7 @@ export const theData = [
   },
   {
     grantId: 1988,
-    'active': true,
+    isActive: true,
     address: '0x146cfed833cc926b16b0da9257e8a281c2add9f3',
     name: 'Louper - Tool for inspecting Diamond (EIP-2535) smart contracts',
     slug: 'https://gitcoin.co/grants/1988/louper-tool-for-inspecting-diamond-eip-2535-smart',
@@ -40531,7 +40531,7 @@ export const theData = [
   },
   {
     grantId: 1989,
-    'active': true,
+    isActive: true,
     address: '0xadef4805abdeb12419621d145ab96a163df2b39f',
     name: 'SubsidiumDAO - Philanthropic Protocol for DeFi',
     slug: 'https://gitcoin.co/grants/1989/subsidiumdao-philanthropic-protocol-for-defi',
@@ -40566,7 +40566,7 @@ export const theData = [
   },
   {
     grantId: 1995,
-    'active': true,
+    isActive: true,
     address: '0xa70b419a6028cd48f050d7251cf4fbbc682cc8ab',
     name: 'Ralie Network - Connecting Through Blockchain',
     slug: 'https://gitcoin.co/grants/1995/ralie-network-connecting-through-blockchain',
@@ -40601,7 +40601,7 @@ export const theData = [
   },
   {
     grantId: 1996,
-    'active': true,
+    isActive: true,
     address: '0x2ae5f36c77a736f76d61f3eec06f12caf2963fd6',
     name: 'NFTE',
     slug: 'https://gitcoin.co/grants/1996/nfte',
@@ -40636,7 +40636,7 @@ export const theData = [
   },
   {
     grantId: 1997,
-    'active': true,
+    isActive: true,
     address: '0xeaab4d2e2ca07dc2b8f95dee97b894105cedb63c',
     name: '捐赠',
     slug: 'https://gitcoin.co/grants/1997/juan-zeng',
@@ -40671,7 +40671,7 @@ export const theData = [
   },
   {
     grantId: 1998,
-    'active': true,
+    isActive: true,
     address: '0xe89c2545e4e05a79d21351cdeeda4651ca48debc',
     name: 'Carti:  A Decentralized Cartesi Machines Package Manager',
     slug: 'https://gitcoin.co/grants/1998/carti-a-decentralized-cartesi-machines-package-ma',
@@ -40706,7 +40706,7 @@ export const theData = [
   },
   {
     grantId: 1999,
-    'active': true,
+    isActive: true,
     address: '0xe210753ae5633681adf6c8c53c465ed5c3e3b5be',
     name: 'Decentralized Equity Exchange [EQUIDEX]',
     slug: 'https://gitcoin.co/grants/1999/decentralized-equity-exchange-equidex',
@@ -40741,7 +40741,7 @@ export const theData = [
   },
   {
     grantId: 2001,
-    'active': true,
+    isActive: true,
     address: '0x485bd02decba1b00ea5b289ca249878e9d34a16b',
     name: 'SimThunder - Private content and NFTs marketplace for sim racing eSports',
     slug: 'https://gitcoin.co/grants/2001/simthunder-private-content-and-nfts-marketplace-f',
@@ -40776,7 +40776,7 @@ export const theData = [
   },
   {
     grantId: 2004,
-    'active': true,
+    isActive: true,
     address: '0x11bc20f369e01ecd9e1b2c3797998b40f1a1bb47',
     name: 'Blackhole Project',
     slug: 'https://gitcoin.co/grants/2004/blackhole-project',
@@ -40811,7 +40811,7 @@ export const theData = [
   },
   {
     grantId: 2008,
-    'active': true,
+    isActive: true,
     address: '0xffc18a4a0dcaa41ac42751a80d9e6c765136214c',
     name: 'Argon | Blockchain-Based Freelancer Platform',
     slug: 'https://gitcoin.co/grants/2008/argon-blockchain-based-freelancer-platform',
@@ -40846,7 +40846,7 @@ export const theData = [
   },
   {
     grantId: 2009,
-    'active': true,
+    isActive: true,
     address: '0x68be199e497fae7ed11339be388bf4a403cd1698',
     name: 'DenoteMD',
     slug: 'https://gitcoin.co/grants/2009/denotemd',
@@ -40881,7 +40881,7 @@ export const theData = [
   },
   {
     grantId: 2010,
-    'active': true,
+    isActive: true,
     address: '0x9c5dde694ef0b1c17a7ef6ae2e58b7ed8b1bd56f',
     name: 'Nifty Taxi',
     slug: 'https://gitcoin.co/grants/2010/nifty-taxi',
@@ -40916,7 +40916,7 @@ export const theData = [
   },
   {
     grantId: 2015,
-    'active': true,
+    isActive: true,
     address: '0x4f2d1b87499ea88aeb0682154377badbdfda2df1',
     name: 'INFLOW',
     slug: 'https://gitcoin.co/grants/2015/inflow',
@@ -40951,7 +40951,7 @@ export const theData = [
   },
   {
     grantId: 2016,
-    'active': true,
+    isActive: true,
     address: '0x4a44d98a6054e8f4dc3de3936443d74d5b9ad288',
     name: 'humanity for future',
     slug: 'https://gitcoin.co/grants/2016/humanity-for-future',
@@ -40986,7 +40986,7 @@ export const theData = [
   },
   {
     grantId: 2018,
-    'active': true,
+    isActive: true,
     address: '0x509822f27de3302fc7118ac202b07f30225ab91b',
     name: 'Chaodoi Token',
     slug: 'https://gitcoin.co/grants/2018/chaodoi-token',
@@ -41021,7 +41021,7 @@ export const theData = [
   },
   {
     grantId: 2022,
-    'active': true,
+    isActive: true,
     address: '0x5266601d701c9666e1474dbbb9f4cdb3a79ac775',
     name: 'OpenGenus',
     slug: 'https://gitcoin.co/grants/2022/opengenus',
@@ -41056,7 +41056,7 @@ export const theData = [
   },
   {
     grantId: 2023,
-    'active': true,
+    isActive: true,
     address: '0xbd0b93ecabaf6d465aac84ed4f722cbe2cfcc074',
     name: 'The human fund',
     slug: 'https://gitcoin.co/grants/2023/the-human-fund',
@@ -41091,7 +41091,7 @@ export const theData = [
   },
   {
     grantId: 2024,
-    'active': true,
+    isActive: true,
     address: '0x99e08bd6d0329fa5eb307a89f08c3f1b423bd64a',
     name: 'Mikkyme2',
     slug: 'https://gitcoin.co/grants/2024/mikkyme2',
@@ -41126,7 +41126,7 @@ export const theData = [
   },
   {
     grantId: 2026,
-    'active': true,
+    isActive: true,
     address: '0xf190018bb2c96891dd8fcf4e23e8646642fc462d',
     name: 'Bump Galaxy - Mental Healthcare Metaverse',
     slug: 'https://gitcoin.co/grants/2026/bump-galaxy-mental-healthcare-metaverse',
@@ -41161,7 +41161,7 @@ export const theData = [
   },
   {
     grantId: 2027,
-    'active': true,
+    isActive: true,
     address: '0x9ebdcc49cba1fd29639cd19ca1388f1fb8a0f1dd',
     name: 'Ministry Of Urban Culture',
     slug: 'https://gitcoin.co/grants/2027/ministry-of-urban-culture',
@@ -41196,7 +41196,7 @@ export const theData = [
   },
   {
     grantId: 2028,
-    'active': true,
+    isActive: true,
     address: '0xab78af7c9c5962a2f2bb952093bd43e6be990fff',
     name: 'incher',
     slug: 'https://gitcoin.co/grants/2028/incher',
@@ -41231,7 +41231,7 @@ export const theData = [
   },
   {
     grantId: 2031,
-    'active': true,
+    isActive: true,
     address: '0xef1f6856f97d9bd4c1790adefbb688613d59b5b4',
     name: 'CLAIRVOYANT ALLIANCE ART - AUGMENTED REALITY PHYSICAL NFTs',
     slug: 'https://gitcoin.co/grants/2031/clairvoyant-alliance-art-augmented-reality-physic',
@@ -41266,7 +41266,7 @@ export const theData = [
   },
   {
     grantId: 2032,
-    'active': true,
+    isActive: true,
     address: '0xd868b16bd4f0a475ce1b0b439769823b40921b9f',
     name: 'Colorado OS',
     slug: 'https://gitcoin.co/grants/2032/colorado-os',
@@ -41301,7 +41301,7 @@ export const theData = [
   },
   {
     grantId: 2035,
-    'active': true,
+    isActive: true,
     address: '0xe400820f3d60d77a3ec8018d44366ed0d334f93c',
     name: 'Sherlock',
     slug: 'https://gitcoin.co/grants/2035/sherlock',
@@ -41336,7 +41336,7 @@ export const theData = [
   },
   {
     grantId: 2039,
-    'active': true,
+    isActive: true,
     address: '0xf458533d1ac15af5237a16252eb317bbc7981f19',
     name: 'Decentralized Anonymous Messaging Network [DAMN]',
     slug: 'https://gitcoin.co/grants/2039/decentralized-anonymous-messaging-network-damn',
@@ -41371,7 +41371,7 @@ export const theData = [
   },
   {
     grantId: 2040,
-    'active': true,
+    isActive: true,
     address: '0x72208fc3e466969dc81bdea471a3de7b2d379ac6',
     name: 'Ethprofit - Ethereum Accelerator profit through Knowledge and Education',
     slug: 'https://gitcoin.co/grants/2040/ethprofit-ethereum-accelerator-profit-through-kno',
@@ -41406,7 +41406,7 @@ export const theData = [
   },
   {
     grantId: 2043,
-    'active': true,
+    isActive: true,
     address: '0xafecebe1c14325c2212624ac710af3a1b5da595d',
     name: 'Burrowing Into Untapped Resources',
     slug: 'https://gitcoin.co/grants/2043/burrowing-into-untapped-resources',
@@ -41441,7 +41441,7 @@ export const theData = [
   },
   {
     grantId: 2047,
-    'active': true,
+    isActive: true,
     address: '0x2713acb015bdb0b5b824fd0509f7590b7f0e9806',
     name: 'Cooling Earth Down by Improving its Albedo ',
     slug: 'https://gitcoin.co/grants/2047/cooling-earth-down-by-improving-its-albedo',
@@ -41476,7 +41476,7 @@ export const theData = [
   },
   {
     grantId: 2048,
-    'active': true,
+    isActive: true,
     address: '0xbbaaf7095e5f4e74b11534532c5d43a3c364bad4',
     name: 'DeFi Wallet Avatar',
     slug: 'https://gitcoin.co/grants/2048/defi-wallet-avatar',
@@ -41511,7 +41511,7 @@ export const theData = [
   },
   {
     grantId: 2050,
-    'active': true,
+    isActive: true,
     address: '0xbe2c6fd365a09c9b552949444685a218751e67bb',
     name: 'Miracle Token',
     slug: 'https://gitcoin.co/grants/2050/miracle-token',
@@ -41546,7 +41546,7 @@ export const theData = [
   },
   {
     grantId: 2052,
-    'active': true,
+    isActive: true,
     address: '0x367748ba275671dd8195618a1d049e4d720fc46d',
     name: 'Eco4all',
     slug: 'https://gitcoin.co/grants/2052/eco4all',
@@ -41581,7 +41581,7 @@ export const theData = [
   },
   {
     grantId: 2053,
-    'active': true,
+    isActive: true,
     address: '0xba2ef5189b762bd4c9e7f0b50fbbab65193935e8',
     name: 'Blockchain and Real Estate, a new look at an old investment.',
     slug: 'https://gitcoin.co/grants/2053/blockchain-and-real-estate-a-new-look-at-an-old-i',
@@ -41616,7 +41616,7 @@ export const theData = [
   },
   {
     grantId: 2055,
-    'active': true,
+    isActive: true,
     address: '0xef187c3eab24efd7ce5280140459702f77439453',
     name: 'Cryptoastmasters',
     slug: 'https://gitcoin.co/grants/2055/cryptoastmasters',
@@ -41651,7 +41651,7 @@ export const theData = [
   },
   {
     grantId: 2058,
-    'active': true,
+    isActive: true,
     address: '0x0dcd108c2fda4acc3a9d7794b5388ec64bffc385',
     name: 'やさしいDeFi (Yasashi DeFi)',
     slug: 'https://gitcoin.co/grants/2058/yasashiidefi-yasashi-defi',
@@ -41686,7 +41686,7 @@ export const theData = [
   },
   {
     grantId: 2059,
-    'active': true,
+    isActive: true,
     address: '0xe7fb32ac2dc526a8cc9b3a732c35670c08a64e72',
     name: 'Flo open index fund',
     slug: 'https://gitcoin.co/grants/2059/flo-open-index-fund',
@@ -41721,7 +41721,7 @@ export const theData = [
   },
   {
     grantId: 2060,
-    'active': true,
+    isActive: true,
     address: '0x062fc4fb958a480c987a5654d95dd68148ac9d85',
     name: 'Gitea Hacktoberfest Grant ',
     slug: 'https://gitcoin.co/grants/2060/gitea-hacktoberfest-grant',
@@ -41756,7 +41756,7 @@ export const theData = [
   },
   {
     grantId: 2062,
-    'active': true,
+    isActive: true,
     address: '0xa29763e1cff010229b49600e84492df505fb58cd',
     name: 'Clayming Space',
     slug: 'https://gitcoin.co/grants/2062/clayming-space',
@@ -41791,7 +41791,7 @@ export const theData = [
   },
   {
     grantId: 2063,
-    'active': true,
+    isActive: true,
     address: '0x08022324acda4d552dcde677723ea5f77bfa59ab',
     name: 'Green NFT Grant',
     slug: 'https://gitcoin.co/grants/2063/green-nft-grant',
@@ -41826,7 +41826,7 @@ export const theData = [
   },
   {
     grantId: 2064,
-    'active': true,
+    isActive: true,
     address: '0x3cffb70e70e78912581e90d81e6345640c1f4dfe',
     name: '云天明区块链数据导航YunTianMing Blochchain Data Navigation',
     slug: 'https://gitcoin.co/grants/2064/yun-tian-ming-qu-kuai-lian-shu-ju-dao-hang-yuntia',
@@ -41861,7 +41861,7 @@ export const theData = [
   },
   {
     grantId: 2067,
-    'active': true,
+    isActive: true,
     address: '0xd120a3cb934694037a12e2f603d45aa3ae77abc3',
     name: 'Peoples Cooperative [Panvala League]',
     slug: 'https://gitcoin.co/grants/2067/peoples-cooperative-panvala-league',
@@ -41896,7 +41896,7 @@ export const theData = [
   },
   {
     grantId: 2069,
-    'active': true,
+    isActive: true,
     address: '0xc1987f61bdcb5459afc2c835a66d16c844fd7a54',
     name: 'MintFund → Helping Creators Mint their First NFTs.',
     slug: 'https://gitcoin.co/grants/2069/mintfund-helping-creators-mint-their-first-nfts',
@@ -41931,7 +41931,7 @@ export const theData = [
   },
   {
     grantId: 2070,
-    'active': true,
+    isActive: true,
     address: '0x23612f09f5bb9c3d455fbb3c4a7d1708d555994c',
     name: 'Gitconnect  — Low cost solution of small stablecoin from ETH layer2 to CEX',
     slug: 'https://gitcoin.co/grants/2070/gitconnect-low-cost-solution-of-small-stablecoin-',
@@ -41966,7 +41966,7 @@ export const theData = [
   },
   {
     grantId: 2071,
-    'active': true,
+    isActive: true,
     address: '0xfd5143df522b45732faa649d378d98510055f515',
     name: 'Find driver',
     slug: 'https://gitcoin.co/grants/2071/find-driver',
@@ -42001,7 +42001,7 @@ export const theData = [
   },
   {
     grantId: 2072,
-    'active': true,
+    isActive: true,
     address: '0x24e283da072797b87f39e41e77539fb1946a4529',
     name: 'Off L1',
     slug: 'https://gitcoin.co/grants/2072/off-l1',
@@ -42036,7 +42036,7 @@ export const theData = [
   },
   {
     grantId: 2073,
-    'active': true,
+    isActive: true,
     address: '0xdfb0b22940cc45283d639d22ba26aa55ab8bfee8',
     name: 'CCG21 - Towards the first Crypto Commons Hub!',
     slug: 'https://gitcoin.co/grants/2073/ccg21-towards-the-first-crypto-commons-hub',
@@ -42071,7 +42071,7 @@ export const theData = [
   },
   {
     grantId: 2074,
-    'active': true,
+    isActive: true,
     address: '0x131f6b10aa5fa888abd2e77cfedb349978a8ca59',
     name: 'Crypto Inheritance by Endowl',
     slug: 'https://gitcoin.co/grants/2074/crypto-inheritance-by-endowl',
@@ -42106,7 +42106,7 @@ export const theData = [
   },
   {
     grantId: 2075,
-    'active': true,
+    isActive: true,
     address: '0x604cbe9f7ccdeb6fbc2322acd2e414bb6aaa3313',
     name: 'ÖbEngine',
     slug: 'https://gitcoin.co/grants/2075/obengine',
@@ -42141,7 +42141,7 @@ export const theData = [
   },
   {
     grantId: 2076,
-    'active': true,
+    isActive: true,
     address: '0xbd4d8e650cbcd62c869373d3b88b85621d8f6418',
     name: 'Better - A forkable dApp for community-powered development',
     slug: 'https://gitcoin.co/grants/2076/better-a-forkable-dapp-for-community-powered-deve',
@@ -42176,7 +42176,7 @@ export const theData = [
   },
   {
     grantId: 2077,
-    'active': true,
+    isActive: true,
     address: '0x40d054170db5417369d170d1343063eee55fb0cc',
     name: 'Reap',
     slug: 'https://gitcoin.co/grants/2077/reap',
@@ -42211,7 +42211,7 @@ export const theData = [
   },
   {
     grantId: 2078,
-    'active': true,
+    isActive: true,
     address: '0x0de58892df65a653b049d30b8c2a587d51af6ac9',
     name: 'Haciendas',
     slug: 'https://gitcoin.co/grants/2078/haciendas',
@@ -42246,7 +42246,7 @@ export const theData = [
   },
   {
     grantId: 2079,
-    'active': true,
+    isActive: true,
     address: '0x0de58892df65a653b049d30b8c2a587d51af6ac9',
     name: 'Cryptotux',
     slug: 'https://gitcoin.co/grants/2079/cryptotux',
@@ -42281,7 +42281,7 @@ export const theData = [
   },
   {
     grantId: 2083,
-    'active': true,
+    isActive: true,
     address: '0x43ea4015ada7edcd4605ef2974ec4c4c6629830e',
     name: 'NFT Matrix: NFT Reviews of Emerging Artists',
     slug: 'https://gitcoin.co/grants/2083/nft-matrix-nft-reviews-of-emerging-artists',
@@ -42316,7 +42316,7 @@ export const theData = [
   },
   {
     grantId: 2084,
-    'active': true,
+    isActive: true,
     address: '0x881204f83990fc2aff61dd1378ffd003ac03fb32',
     name: 'Cryptocape - Alternative Web-Based Portfolio Tracker',
     slug: 'https://gitcoin.co/grants/2084/cryptocape-alternative-web-based-portfolio-tracke',
@@ -42351,7 +42351,7 @@ export const theData = [
   },
   {
     grantId: 2085,
-    'active': true,
+    isActive: true,
     address: '0x57f5ef2cdbbe3eb22c39c236e6f4352d3d7112d4',
     name: 'love peace',
     slug: 'https://gitcoin.co/grants/2085/love-peace',
@@ -42386,7 +42386,7 @@ export const theData = [
   },
   {
     grantId: 2087,
-    'active': true,
+    isActive: true,
     address: '0x8bf1e96d249e7577d9245b863db55dc74add9df6',
     name: 'NFT mini documentary series - NFT GOSPEL',
     slug: 'https://gitcoin.co/grants/2087/nft-mini-documentary-series-nft-gospel',
@@ -42421,7 +42421,7 @@ export const theData = [
   },
   {
     grantId: 2088,
-    'active': true,
+    isActive: true,
     address: '0x57f5ef2cdbbe3eb22c39c236e6f4352d3d7112d4',
     name: 'peaceLovetoken.eth',
     slug: 'https://gitcoin.co/grants/2088/peacelovetokeneth',
@@ -42456,7 +42456,7 @@ export const theData = [
   },
   {
     grantId: 2090,
-    'active': true,
+    isActive: true,
     address: '0xa921789802e13243c6827d37526ce632ef4a138b',
     name: 'bloom.fi 𑁍 The 1st crypto intelligence DAO',
     slug: 'https://gitcoin.co/grants/2090/bloomfi-the-1st-crypto-intelligence-dao',
@@ -42491,7 +42491,7 @@ export const theData = [
   },
   {
     grantId: 2095,
-    'active': true,
+    isActive: true,
     address: '0x2d4ce0426c7a0afb53d1c211ed2f5854780f249a',
     name: 'Test grant',
     slug: 'https://gitcoin.co/grants/2095/test-grant',
@@ -42526,7 +42526,7 @@ export const theData = [
   },
   {
     grantId: 2096,
-    'active': true,
+    isActive: true,
     address: '0xdb8b2a52ce15868ecef5f48825fae8439e9f4ad1',
     name: 'Dakar NFT Art House',
     slug: 'https://gitcoin.co/grants/2096/dakar-nft-art-house',
@@ -42561,7 +42561,7 @@ export const theData = [
   },
   {
     grantId: 2099,
-    'active': true,
+    isActive: true,
     address: '0x4b9c354bb4bdb84f3f64613c2a69917b1dc0dfb5',
     name: 'Couré Coin',
     slug: 'https://gitcoin.co/grants/2099/coure-coin',
@@ -42596,7 +42596,7 @@ export const theData = [
   },
   {
     grantId: 2100,
-    'active': true,
+    isActive: true,
     address: '0x9b9c0732cfecbd446eec92ba53dec31f2c9d88b1',
     name: 'DeFi simpler than ever in Spanish by NatyShi',
     slug: 'https://gitcoin.co/grants/2100/defi-simpler-than-ever-in-spanish-by-natyshi',
@@ -42631,7 +42631,7 @@ export const theData = [
   },
   {
     grantId: 2103,
-    'active': true,
+    isActive: true,
     address: '0x4c994efd3cf90092dc35ee2e3d660d782652727b',
     name: 'Open Source Climate Offsets Network',
     slug: 'https://gitcoin.co/grants/2103/open-source-climate-offsets-network',
@@ -42666,7 +42666,7 @@ export const theData = [
   },
   {
     grantId: 2106,
-    'active': true,
+    isActive: true,
     address: '0x997d35b300ba1775fdb175df045252e57d6ea5b0',
     name: 'Aditya Test Grant - 2',
     slug: 'https://gitcoin.co/grants/2106/aditya-test-grant-2',
@@ -42701,7 +42701,7 @@ export const theData = [
   },
   {
     grantId: 2108,
-    'active': true,
+    isActive: true,
     address: '0x641845407bc5b9920ee786270ab25b73bcc88a19',
     name: 'SkyFeed • Decentralized Social Network',
     slug: 'https://gitcoin.co/grants/2108/skyfeed-decentralized-social-network',
@@ -42736,7 +42736,7 @@ export const theData = [
   },
   {
     grantId: 2111,
-    'active': true,
+    isActive: true,
     address: '0xecebf8c7aecf674256f245e0db8e52a9b4296929',
     name: 'BytesIO',
     slug: 'https://gitcoin.co/grants/2111/bytesio',
@@ -42771,7 +42771,7 @@ export const theData = [
   },
   {
     grantId: 2112,
-    'active': true,
+    isActive: true,
     address: '0x91e167cc966e83cc64f3f27ec09022620960a0bb',
     name: 'StakeHouse Wagyu tooling suite - Easy to use tools for the Ethereum Staking community',
     slug: 'https://gitcoin.co/grants/2112/stakehouse-wagyu-tooling-suite-easy-to-use-tools-',
@@ -42806,7 +42806,7 @@ export const theData = [
   },
   {
     grantId: 2115,
-    'active': true,
+    isActive: true,
     address: '0xa42e8966423afac3f676715d1928cb758aeeca02',
     name: 'Adept Camp',
     slug: 'https://gitcoin.co/grants/2115/adept-camp',
@@ -42841,7 +42841,7 @@ export const theData = [
   },
   {
     grantId: 2116,
-    'active': true,
+    isActive: true,
     address: '0xc2373689538848d7dcbfe9f29384b158863c4ae7',
     name: 'funny',
     slug: 'https://gitcoin.co/grants/2116/funny',
@@ -42876,7 +42876,7 @@ export const theData = [
   },
   {
     grantId: 2117,
-    'active': true,
+    isActive: true,
     address: '0x24120e5a7af521cc8c4da25315793ba27b640993',
     name: 'TryDeFi - The Magic of Decentralized Finance',
     slug: 'https://gitcoin.co/grants/2117/trydefi-the-magic-of-decentralized-finance',
@@ -42911,7 +42911,7 @@ export const theData = [
   },
   {
     grantId: 2118,
-    'active': true,
+    isActive: true,
     address: '0xb68d321e8d1592b0223a16f71d0a496e473b50dc',
     name: 'learnp2p',
     slug: 'https://gitcoin.co/grants/2118/learnp2p',
@@ -42946,7 +42946,7 @@ export const theData = [
   },
   {
     grantId: 2119,
-    'active': true,
+    isActive: true,
     address: '0x5d2629a9e885c5f0d558d6fe28a1f856abdbdd54',
     name: 'ArGo Protocol',
     slug: 'https://gitcoin.co/grants/2119/argo-protocol',
@@ -42981,7 +42981,7 @@ export const theData = [
   },
   {
     grantId: 2121,
-    'active': true,
+    isActive: true,
     address: '0x5a4afc30b7d6090dc9911aa3355979d4c96cd72e',
     name: 'Dynamiculture',
     slug: 'https://gitcoin.co/grants/2121/dynamiculture',
@@ -43016,7 +43016,7 @@ export const theData = [
   },
   {
     grantId: 2122,
-    'active': true,
+    isActive: true,
     address: '0x6c4f3e1165146c8844fc057289ec1f33caa01a50',
     name: 'CryptoArtNet - Artist Directory',
     slug: 'https://gitcoin.co/grants/2122/cryptoartnet-artist-directory',
@@ -43051,7 +43051,7 @@ export const theData = [
   },
   {
     grantId: 2123,
-    'active': true,
+    isActive: true,
     address: '0x3725e21e7646d47b4b67a9077cbb018ba0e31fc1',
     name: 'UnCommon Creators CoOp',
     slug: 'https://gitcoin.co/grants/2123/uncommon-creators-coop',
@@ -43086,7 +43086,7 @@ export const theData = [
   },
   {
     grantId: 2126,
-    'active': true,
+    isActive: true,
     address: '0xbfdd26ac6eff59860b6835f5c15863558c4940d7',
     name: 'DAI Venezuela',
     slug: 'https://gitcoin.co/grants/2126/dai-venezuela',
@@ -43121,7 +43121,7 @@ export const theData = [
   },
   {
     grantId: 2127,
-    'active': true,
+    isActive: true,
     address: '0x92ef46b42da0314687409bd575b30f0ebab92208',
     name: 'Tiles',
     slug: 'https://gitcoin.co/grants/2127/tiles',
@@ -43156,7 +43156,7 @@ export const theData = [
   },
   {
     grantId: 2130,
-    'active': true,
+    isActive: true,
     address: '0x21532d4267648191bef7a33c813c43cf90a6fa78',
     name: 'Ethereum Studymaster',
     slug: 'https://gitcoin.co/grants/2130/ethereum-studymaster',
@@ -43191,7 +43191,7 @@ export const theData = [
   },
   {
     grantId: 2131,
-    'active': true,
+    isActive: true,
     address: '0xc70ddf8c53b6d3c55ce19ab5a128f52cf04ef9e4',
     name: 'Plant a tree Foundation',
     slug: 'https://gitcoin.co/grants/2131/plant-a-tree-foundation',
@@ -43226,7 +43226,7 @@ export const theData = [
   },
   {
     grantId: 2132,
-    'active': true,
+    isActive: true,
     address: '0xfd7caa452f24357ad9c43bcf04aba59ef413f738',
     name: 'BlockEsports',
     slug: 'https://gitcoin.co/grants/2132/blockesports',
@@ -43261,7 +43261,7 @@ export const theData = [
   },
   {
     grantId: 2133,
-    'active': true,
+    isActive: true,
     address: '0x16bbf5bc57eb90b0794f95697e7011bc066f05c6',
     name: 'GFS ventures',
     slug: 'https://gitcoin.co/grants/2133/gfs-ventures',
@@ -43296,7 +43296,7 @@ export const theData = [
   },
   {
     grantId: 2134,
-    'active': true,
+    isActive: true,
     address: '0x1f1c29c94abe2b8f06b403cc5a61c479167ebc3d',
     name: 'Leviticus.top',
     slug: 'https://gitcoin.co/grants/2134/leviticustop',
@@ -43331,7 +43331,7 @@ export const theData = [
   },
   {
     grantId: 2135,
-    'active': true,
+    isActive: true,
     address: '0xe323a9a5cc1d51d28a7c2e99cdbb4f7122dfbc2b',
     name: 'MentalPunks | Preserving Scientific Data through Cryptoart',
     slug: 'https://gitcoin.co/grants/2135/mentalpunks-preserving-scientific-data-through-cr',
@@ -43366,7 +43366,7 @@ export const theData = [
   },
   {
     grantId: 2136,
-    'active': true,
+    isActive: true,
     address: '0x7595680fe36ee82fa8d000ac3f2756dcbfb5d18f',
     name: 'Crypto Oracle',
     slug: 'https://gitcoin.co/grants/2136/crypto-oracle',
@@ -43401,7 +43401,7 @@ export const theData = [
   },
   {
     grantId: 2138,
-    'active': true,
+    isActive: true,
     address: '0x9ae8912ea6562957043c8d048641aa9b450c397f',
     name: 'PizzaDAO',
     slug: 'https://gitcoin.co/grants/2138/pizzadao',
@@ -43436,7 +43436,7 @@ export const theData = [
   },
   {
     grantId: 2139,
-    'active': true,
+    isActive: true,
     address: '0x30a4e2c97539e38ca905e66daecdbbbc5c17c6a9',
     name: 'BTC Recover - Lost your password? We can (possibly) help!',
     slug: 'https://gitcoin.co/grants/2139/btc-recover-lost-your-password-we-can-possibly-he',
@@ -43471,7 +43471,7 @@ export const theData = [
   },
   {
     grantId: 2140,
-    'active': true,
+    isActive: true,
     address: '0x672acb129d5ad9819c96355801d53ee22a3a2ca0',
     name: 'Cup of NFT',
     slug: 'https://gitcoin.co/grants/2140/cup-of-nft',
@@ -43506,7 +43506,7 @@ export const theData = [
   },
   {
     grantId: 2141,
-    'active': true,
+    isActive: true,
     address: '0xc57c5ae582708e619ec1ba7513480b2e7540935f',
     name: 'Beacon Book',
     slug: 'https://gitcoin.co/grants/2141/beacon-book',
@@ -43541,7 +43541,7 @@ export const theData = [
   },
   {
     grantId: 2142,
-    'active': true,
+    isActive: true,
     address: '0x1ae0e28abf9ac188ae5fb72867639b750435984b',
     name: 'EthBlockArt',
     slug: 'https://gitcoin.co/grants/2142/ethblockart',
@@ -43576,7 +43576,7 @@ export const theData = [
   },
   {
     grantId: 2143,
-    'active': true,
+    isActive: true,
     address: '0xab1163a7c620fa460b63fb66b7ac2229de187350',
     name: 'Fund for NFT art protection',
     slug: 'https://gitcoin.co/grants/2143/fund-for-nft-art-protection',
@@ -43611,7 +43611,7 @@ export const theData = [
   },
   {
     grantId: 2146,
-    'active': true,
+    isActive: true,
     address: '0x1a8977f4ae1241658a75d639293eb5ecf55f672e',
     name: '$DYP prevents the whale advantage in DeFi.',
     slug: 'https://gitcoin.co/grants/2146/dyp-prevents-the-whale-advantage-in-defi',
@@ -43646,7 +43646,7 @@ export const theData = [
   },
   {
     grantId: 2148,
-    'active': true,
+    isActive: true,
     address: '0xb0d3e03e215e30a08f4006d5aa5bec98bf3fecf7',
     name: 'ETH2.tax - tax information for stakers',
     slug: 'https://gitcoin.co/grants/2148/eth2tax-tax-information-for-stakers',
@@ -43681,7 +43681,7 @@ export const theData = [
   },
   {
     grantId: 2149,
-    'active': true,
+    isActive: true,
     address: '0x4cb056bd2bb0cfaed1e903e40e554ddad44fadd5',
     name: 'Stake.gg - Open Markets for Gamers, by Gamers',
     slug: 'https://gitcoin.co/grants/2149/stakegg-open-markets-for-gamers-by-gamers',
@@ -43716,7 +43716,7 @@ export const theData = [
   },
   {
     grantId: 2150,
-    'active': true,
+    isActive: true,
     address: '0xe71fbb197bc8fd11090fa657c100d52dbb407662',
     name: 'Pepemon: Degen Battleground',
     slug: 'https://gitcoin.co/grants/2150/pepemon-degen-battleground',
@@ -43751,7 +43751,7 @@ export const theData = [
   },
   {
     grantId: 2151,
-    'active': true,
+    isActive: true,
     address: '0x4195abec16f5339ee4b18278891288d2f85eda39',
     name: 'Crypto4Help Humanitarian Center',
     slug: 'https://gitcoin.co/grants/2151/crypto4help-humanitarian-center',
@@ -43786,7 +43786,7 @@ export const theData = [
   },
   {
     grantId: 2152,
-    'active': true,
+    isActive: true,
     address: '0x356930cad4554f95f425d5ef8c22bca952c1aed1',
     name: 'Divulgando #DeFi  en español y de la manera más sencilla posible.  //   Spreading #DeFi in Spanish and in the simplest way possible.',
     slug: 'https://gitcoin.co/grants/2152/divulgando-defi-en-espanol-y-de-la-manera-mas-sen',
@@ -43821,7 +43821,7 @@ export const theData = [
   },
   {
     grantId: 2153,
-    'active': true,
+    isActive: true,
     address: '0xa44ac6edcf0c258e2af9bccf867b86a7f808f5a6',
     name: 'LockEth - A Decentralized Secure Password Manager',
     slug: 'https://gitcoin.co/grants/2153/locketh-a-decentralized-secure-password-manager',
@@ -43856,7 +43856,7 @@ export const theData = [
   },
   {
     grantId: 2154,
-    'active': true,
+    isActive: true,
     address: '0x97222b6ed77c17cd6cfc288ea363a688f57fb242',
     name: 'GivethTRACE',
     slug: 'https://gitcoin.co/grants/2154/givethtrace',
@@ -43891,7 +43891,7 @@ export const theData = [
   },
   {
     grantId: 2155,
-    'active': true,
+    isActive: true,
     address: '0x3024074eaa70f3d4c071c0da9d0c8eec50232c47',
     name: 'Descubriendo Blockchain - Open education about blockchain in Spanish',
     slug: 'https://gitcoin.co/grants/2155/descubriendo-blockchain-open-education-about-bloc',
@@ -43926,7 +43926,7 @@ export const theData = [
   },
   {
     grantId: 2156,
-    'active': true,
+    isActive: true,
     address: '0x19c04ca80c4168ea8ab469a0766a858d7172b320',
     name: 'The Graph Live',
     slug: 'https://gitcoin.co/grants/2156/the-graph-live',
@@ -43961,7 +43961,7 @@ export const theData = [
   },
   {
     grantId: 2157,
-    'active': true,
+    isActive: true,
     address: '0x19c04ca80c4168ea8ab469a0766a858d7172b320',
     name: 'BaoBoard',
     slug: 'https://gitcoin.co/grants/2157/baoboard',
@@ -43996,7 +43996,7 @@ export const theData = [
   },
   {
     grantId: 2160,
-    'active': true,
+    isActive: true,
     address: '0x6e18e69ad6a71be81b3a00303b1021a7e0021a3a',
     name: 'DeFi研习社&不确定思维公众号',
     slug: 'https://gitcoin.co/grants/2160/defiyan-xi-she-bu-que-ding-si-wei-gong-zhong-hao',
@@ -44031,7 +44031,7 @@ export const theData = [
   },
   {
     grantId: 2164,
-    'active': true,
+    isActive: true,
     address: '0xba5e28a2d1c8cf67ac9e0dfc850dc8b7b21a4de2',
     name: 'RarePizzas.COM',
     slug: 'https://gitcoin.co/grants/2164/rarepizzascom',
@@ -44066,7 +44066,7 @@ export const theData = [
   },
   {
     grantId: 2165,
-    'active': true,
+    isActive: true,
     address: '0xf50f3412c1e28598597f04db635b0b0b01a38737',
     name: 'Illuminate Finance',
     slug: 'https://gitcoin.co/grants/2165/illuminate-finance',
@@ -44101,7 +44101,7 @@ export const theData = [
   },
   {
     grantId: 2166,
-    'active': true,
+    isActive: true,
     address: '0x958543756a4c7ac6fb361f0efbfecd98e4d297db',
     name: 'Safient - Trustless crypto asset Safe and Inheritance protocol',
     slug: 'https://gitcoin.co/grants/2166/safient-trustless-crypto-asset-safe-and-inheritan',
@@ -44136,7 +44136,7 @@ export const theData = [
   },
   {
     grantId: 2168,
-    'active': true,
+    isActive: true,
     address: '0xcc0cc48b53116cfe1d920efbb8c276e19e2c12d7',
     name: 'GlobalYou',
     slug: 'https://gitcoin.co/grants/2168/globalyou',
@@ -44171,7 +44171,7 @@ export const theData = [
   },
   {
     grantId: 2169,
-    'active': true,
+    isActive: true,
     address: '0xf1f53980c49824098b78ca4c3eabd4e85b536b82',
     name: 'BullishbearFinance',
     slug: 'https://gitcoin.co/grants/2169/bullishbearfinance',
@@ -44206,7 +44206,7 @@ export const theData = [
   },
   {
     grantId: 2174,
-    'active': true,
+    isActive: true,
     address: '0x8d3cd61164ff9a2ddcccce933c5b4608f6562a82',
     name: 'CryptoVincent',
     slug: 'https://gitcoin.co/grants/2174/cryptovincent',
@@ -44241,7 +44241,7 @@ export const theData = [
   },
   {
     grantId: 2176,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show - Season4',
     slug: 'https://gitcoin.co/grants/2176/bbft-podcast-show-season4',
@@ -44276,7 +44276,7 @@ export const theData = [
   },
   {
     grantId: 2177,
-    'active': true,
+    isActive: true,
     address: '0x6740af60a94444ba4589024e7d7f7b99d782ad7d',
     name: 'PORT4 - A whole new world of co-creation in VR',
     slug: 'https://gitcoin.co/grants/2177/port4-a-whole-new-world-of-co-creation-in-vr',
@@ -44311,7 +44311,7 @@ export const theData = [
   },
   {
     grantId: 2179,
-    'active': true,
+    isActive: true,
     address: '0x80cb170efa531c9ae073c50170c17ffa9e3ff8a2',
     name: 'Jaguar',
     slug: 'https://gitcoin.co/grants/2179/jaguar',
@@ -44346,7 +44346,7 @@ export const theData = [
   },
   {
     grantId: 2180,
-    'active': true,
+    isActive: true,
     address: '0x13dacd2157db67db200fc8277585765d229007a3',
     name: 'Hedgehog - hedge downside risk for your crypto positions',
     slug: 'https://gitcoin.co/grants/2180/hedgehog-hedge-downside-risk-for-your-crypto-posi',
@@ -44381,7 +44381,7 @@ export const theData = [
   },
   {
     grantId: 2183,
-    'active': true,
+    isActive: true,
     address: '0x8df737904ab678b99717ef553b4efda6e3f94589',
     name: 'Coinvise',
     slug: 'https://gitcoin.co/grants/2183/coinvise',
@@ -44416,7 +44416,7 @@ export const theData = [
   },
   {
     grantId: 2190,
-    'active': true,
+    isActive: true,
     address: '0xc41bc99044fd4836dba4104bcf53b6f2b62716b1',
     name: 'Layer 2 faucet in ethereum network',
     slug: 'https://gitcoin.co/grants/2190/layer-2-faucet-in-ethereum-network',
@@ -44451,7 +44451,7 @@ export const theData = [
   },
   {
     grantId: 2191,
-    'active': true,
+    isActive: true,
     address: '0x9e4c010f2648d72c3206d24f650653d7e1730a9d',
     name: 'Critique DAO - the NFT space needs its own class of critic :)',
     slug: 'https://gitcoin.co/grants/2191/critique-dao-the-nft-space-needs-its-own-class-of',
@@ -44486,7 +44486,7 @@ export const theData = [
   },
   {
     grantId: 2192,
-    'active': true,
+    isActive: true,
     address: '0x5bb21b9ada20b427ee24381c6af7f6fa3a8c802d',
     name: 'Super Rinkeby Alpha: An NFT Game',
     slug: 'https://gitcoin.co/grants/2192/super-rinkeby-alpha-an-nft-game',
@@ -44521,7 +44521,7 @@ export const theData = [
   },
   {
     grantId: 2194,
-    'active': true,
+    isActive: true,
     address: '0xaddf10e1f4baa96e007f61448b70a3033c9b45d3',
     name: 'Getting Started With NFTs - Video Tutorials on Non-Fungible Tokens by VoskCoin',
     slug: 'https://gitcoin.co/grants/2194/getting-started-with-nfts-video-tutorials-on-non-',
@@ -44556,7 +44556,7 @@ export const theData = [
   },
   {
     grantId: 2195,
-    'active': true,
+    isActive: true,
     address: '0x000061a8f22a1e60ba0b3caadfa958e954fc2b6a',
     name: 'Best Practicers',
     slug: 'https://gitcoin.co/grants/2195/best-practicers',
@@ -44591,7 +44591,7 @@ export const theData = [
   },
   {
     grantId: 2196,
-    'active': true,
+    isActive: true,
     address: '0x3792acdf2a8658fbade0ea70c47b89cb7777a5a5',
     name: 'Pool-Party HackerVilla (Panvala League)',
     slug: 'https://gitcoin.co/grants/2196/pool-party-hackervilla-panvala-league',
@@ -44626,7 +44626,7 @@ export const theData = [
   },
   {
     grantId: 2198,
-    'active': true,
+    isActive: true,
     address: '0x8ecac75912c136ec58824b79abf80eab319a1bad',
     name: 'DropsEarn',
     slug: 'https://gitcoin.co/grants/2198/dropsearn',
@@ -44661,7 +44661,7 @@ export const theData = [
   },
   {
     grantId: 2200,
-    'active': true,
+    isActive: true,
     address: '0x2dbc5a4a615c9fa0f93207467ad9fc277faef479',
     name: 'Bloomeria',
     slug: 'https://gitcoin.co/grants/2200/bloomeria',
@@ -44696,7 +44696,7 @@ export const theData = [
   },
   {
     grantId: 2201,
-    'active': true,
+    isActive: true,
     address: '0x29b078df4825fd8bb88c72eaf7c723645472e397',
     name: 'ReviewsDAO - Decentralized Peer Reviews',
     slug: 'https://gitcoin.co/grants/2201/reviewsdao-decentralized-peer-reviews',
@@ -44731,7 +44731,7 @@ export const theData = [
   },
   {
     grantId: 2202,
-    'active': true,
+    isActive: true,
     address: '0x15fe6a80005e7445b7fd5e553e9ab6456586f3d2',
     name: 'El Token News',
     slug: 'https://gitcoin.co/grants/2202/el-token-news',
@@ -44766,7 +44766,7 @@ export const theData = [
   },
   {
     grantId: 2204,
-    'active': true,
+    isActive: true,
     address: '0x5e2f7df8ba0276645bdc880e8bcbb9505e0a18b4',
     name: 'r/NFT',
     slug: 'https://gitcoin.co/grants/2204/rnft',
@@ -44801,7 +44801,7 @@ export const theData = [
   },
   {
     grantId: 2205,
-    'active': true,
+    isActive: true,
     address: '0xde9a43078edc7c66fd29fc9de6603bacacab244b',
     name: 'DES FEMMES MAGAZINE',
     slug: 'https://gitcoin.co/grants/2205/des-femmes-magazine',
@@ -44836,7 +44836,7 @@ export const theData = [
   },
   {
     grantId: 2209,
-    'active': true,
+    isActive: true,
     address: '0x808ec81ff2c441d4a1035cf97284e48c84870da1',
     name: 'COINSTORY - University Course & Book on Evolution of Cryptocurrencies',
     slug: 'https://gitcoin.co/grants/2209/coinstory-university-course-book-on-evolution-of-',
@@ -44871,7 +44871,7 @@ export const theData = [
   },
   {
     grantId: 2212,
-    'active': true,
+    isActive: true,
     address: '0x7ef97ce7554ee6ba104a9ecbf57429e03c36c356',
     name: 'DeFi Lab',
     slug: 'https://gitcoin.co/grants/2212/defi-lab',
@@ -44906,7 +44906,7 @@ export const theData = [
   },
   {
     grantId: 2213,
-    'active': true,
+    isActive: true,
     address: '0x31e7e4bb3aa3a5dd3ac5e240223eb4416cffa5c3',
     name: 'DoinGud: NFT ecosystem empowering meaningful creations',
     slug: 'https://gitcoin.co/grants/2213/doingud-nft-ecosystem-empowering-meaningful-creat',
@@ -44941,7 +44941,7 @@ export const theData = [
   },
   {
     grantId: 2214,
-    'active': true,
+    isActive: true,
     address: '0x80442058811da23f71313581f3ae2e56fdf7bed4',
     name: 'Coinopolis',
     slug: 'https://gitcoin.co/grants/2214/coinopolis',
@@ -44976,7 +44976,7 @@ export const theData = [
   },
   {
     grantId: 2215,
-    'active': true,
+    isActive: true,
     address: '0x5e7172df892abd9ea3e669823955e52d59ee13cf',
     name: 'Solidity Development Course by Women in Blockchain Iran',
     slug: 'https://gitcoin.co/grants/2215/solidity-development-course-by-women-in-blockchai',
@@ -45011,7 +45011,7 @@ export const theData = [
   },
   {
     grantId: 2218,
-    'active': true,
+    isActive: true,
     address: '0x8365a3645c6f9b49472ec7417a0b39f5e45580d3',
     name: 'GoAskMe',
     slug: 'https://gitcoin.co/grants/2218/goaskme',
@@ -45046,7 +45046,7 @@ export const theData = [
   },
   {
     grantId: 2221,
-    'active': true,
+    isActive: true,
     address: '0x6e7a993afaf43b5b027cd391e5d87c3c080a6c69',
     name: 'Kawaii Batttle Royale: No-Loss eSports Tournament Game using AAVE',
     slug: 'https://gitcoin.co/grants/2221/kawaii-batttle-royale-no-loss-esports-tournament-',
@@ -45081,7 +45081,7 @@ export const theData = [
   },
   {
     grantId: 2223,
-    'active': true,
+    isActive: true,
     address: '0xb6944834dc96ad25c73170f16e2c239efa862f20',
     name: 'THE MEME BUILDER',
     slug: 'https://gitcoin.co/grants/2223/the-meme-builder',
@@ -45116,7 +45116,7 @@ export const theData = [
   },
   {
     grantId: 2224,
-    'active': true,
+    isActive: true,
     address: '0x6768050b4971f2fea3f22cdb68e6cd0055b216b0',
     name: 'Help #Buidl the Universal Wallet',
     slug: 'https://gitcoin.co/grants/2224/help-buidl-the-universal-wallet',
@@ -45151,7 +45151,7 @@ export const theData = [
   },
   {
     grantId: 2229,
-    'active': true,
+    isActive: true,
     address: '0x4e260bb2b25ec6f3a59b478fcde5ed5b8d783b02',
     name: 'DePay - Decentralized Payments',
     slug: 'https://gitcoin.co/grants/2229/depay-decentralized-payments',
@@ -45186,7 +45186,7 @@ export const theData = [
   },
   {
     grantId: 2232,
-    'active': true,
+    isActive: true,
     address: '0x232e7a04a30f1f6f30e895a42c4358a1af36b976',
     name: 'coinerchat--chat at blockchain',
     slug: 'https://gitcoin.co/grants/2232/coinerchat-chat-at-blockchain',
@@ -45221,7 +45221,7 @@ export const theData = [
   },
   {
     grantId: 2233,
-    'active': true,
+    isActive: true,
     address: '0x76f838819f33606393e40a8188cf2b279cb98df6',
     name: 'CryptoBeauty',
     slug: 'https://gitcoin.co/grants/2233/cryptobeauty',
@@ -45256,7 +45256,7 @@ export const theData = [
   },
   {
     grantId: 2234,
-    'active': true,
+    isActive: true,
     address: '0x9fdd726daf27dfd27332d7b5523288caead2d3ed',
     name: 'NFTags',
     slug: 'https://gitcoin.co/grants/2234/nftags',
@@ -45291,7 +45291,7 @@ export const theData = [
   },
   {
     grantId: 2235,
-    'active': true,
+    isActive: true,
     address: '0x2f984721d255e98a4b014c2cd2655f4e3b52e538',
     name: 'SimpleFi',
     slug: 'https://gitcoin.co/grants/2235/simplefi',
@@ -45326,7 +45326,7 @@ export const theData = [
   },
   {
     grantId: 2239,
-    'active': true,
+    isActive: true,
     address: '0xaf8fbf59e221d27b55dc3adc2366f9230bcf5096',
     name: 'RatioGang.com',
     slug: 'https://gitcoin.co/grants/2239/ratiogangcom',
@@ -45361,7 +45361,7 @@ export const theData = [
   },
   {
     grantId: 2242,
-    'active': true,
+    isActive: true,
     address: '0xaf8fbf59e221d27b55dc3adc2366f9230bcf5096',
     name: '#SupportEIP1559',
     slug: 'https://gitcoin.co/grants/2242/supporteip1559',
@@ -45396,7 +45396,7 @@ export const theData = [
   },
   {
     grantId: 2243,
-    'active': true,
+    isActive: true,
     address: '0x207ac8e8b2db9bec1b53176f26fc16c349363309',
     name: 'Q2T - QuadraticTreasury',
     slug: 'https://gitcoin.co/grants/2243/q2t-quadratictreasury',
@@ -45431,7 +45431,7 @@ export const theData = [
   },
   {
     grantId: 2245,
-    'active': true,
+    isActive: true,
     address: '0x09cf79bdf8f68739979c8c825c103a7538bd4f4b',
     name: 'KnowEthereum',
     slug: 'https://gitcoin.co/grants/2245/knowethereum',
@@ -45466,7 +45466,7 @@ export const theData = [
   },
   {
     grantId: 2247,
-    'active': true,
+    isActive: true,
     address: '0x430039fc939e84733803161e3a1d2b9b210083af',
     name: 'Blockchain en Español',
     slug: 'https://gitcoin.co/grants/2247/blockchain-en-espanol',
@@ -45501,7 +45501,7 @@ export const theData = [
   },
   {
     grantId: 2248,
-    'active': true,
+    isActive: true,
     address: '0x60775dcc868ece33b6ac45a1dd5d448aea3b7a71',
     name: 'DADAs Invisible Economy',
     slug: 'https://gitcoin.co/grants/2248/dadas-invisible-economy',
@@ -45536,7 +45536,7 @@ export const theData = [
   },
   {
     grantId: 2249,
-    'active': true,
+    isActive: true,
     address: '0x14b8f40967af793ca1398b7329c07192800e9ed0',
     name: 'MajikCat Archive - Crypto/Gaming Content',
     slug: 'https://gitcoin.co/grants/2249/majikcat-archive-cryptogaming-content',
@@ -45571,7 +45571,7 @@ export const theData = [
   },
   {
     grantId: 2250,
-    'active': true,
+    isActive: true,
     address: '0x1fb3e449448faf1330dba45d945554c1bedcab5a',
     name: 'Cura Network - the decentralized healthcare system that super-charges healthcare delivery',
     slug: 'https://gitcoin.co/grants/2250/cura-network-the-decentralized-healthcare-system-',
@@ -45606,7 +45606,7 @@ export const theData = [
   },
   {
     grantId: 2251,
-    'active': true,
+    isActive: true,
     address: '0xf11ea8a87b3c5658a45a5de04ee579cc3a0649bd',
     name: 'Autopia',
     slug: 'https://gitcoin.co/grants/2251/autopia',
@@ -45641,7 +45641,7 @@ export const theData = [
   },
   {
     grantId: 2252,
-    'active': true,
+    isActive: true,
     address: '0x367b68554f9ce16a87fd0b6ce4e70d465a0c940e',
     name: 'r/EthTrader Donuts',
     slug: 'https://gitcoin.co/grants/2252/rethtrader-donuts',
@@ -45676,7 +45676,7 @@ export const theData = [
   },
   {
     grantId: 2254,
-    'active': true,
+    isActive: true,
     address: '0xb9447ca592c68d56ee481d5d12adf11db1008a72',
     name: 'Karma Credits DApp fund',
     slug: 'https://gitcoin.co/grants/2254/karma-credits-dapp-fund',
@@ -45711,7 +45711,7 @@ export const theData = [
   },
   {
     grantId: 2255,
-    'active': true,
+    isActive: true,
     address: '0xb9447ca592c68d56ee481d5d12adf11db1008a72',
     name: 'KARMA: Social Media For Good',
     slug: 'https://gitcoin.co/grants/2255/karma-social-media-for-good',
@@ -45746,7 +45746,7 @@ export const theData = [
   },
   {
     grantId: 2256,
-    'active': true,
+    isActive: true,
     address: '0x05df81bf098ae29afad54250cd224379edcae850',
     name: 'Hashing It Outs Community Fund  (Panvala League)',
     slug: 'https://gitcoin.co/grants/2256/hashing-it-outs-community-fund-panvala-league',
@@ -45781,7 +45781,7 @@ export const theData = [
   },
   {
     grantId: 2258,
-    'active': true,
+    isActive: true,
     address: '0xcc0cc48b53116cfe1d920efbb8c276e19e2c12d7',
     name: 'GlobalYou Social Living Platform',
     slug: 'https://gitcoin.co/grants/2258/globalyou-social-living-platform',
@@ -45816,7 +45816,7 @@ export const theData = [
   },
   {
     grantId: 2260,
-    'active': true,
+    isActive: true,
     address: '0x5c4cc4b253f97c0ae8f1b66b21b0fb00804d0e87',
     name: 'Enhance your FutureSELF',
     slug: 'https://gitcoin.co/grants/2260/enhance-your-futureself',
@@ -45851,7 +45851,7 @@ export const theData = [
   },
   {
     grantId: 2261,
-    'active': true,
+    isActive: true,
     address: '0xb6aaa1dad9d09d689dc6111dcc6ea2a0d641b406',
     name: 'reality.eth',
     slug: 'https://gitcoin.co/grants/2261/realityeth',
@@ -45886,7 +45886,7 @@ export const theData = [
   },
   {
     grantId: 2264,
-    'active': true,
+    isActive: true,
     address: '0x8efcd93ea5b7fb14a5d7af85f0bc7db4fc8d58f3',
     name: 'GreenEarthNFT',
     slug: 'https://gitcoin.co/grants/2264/greenearthnft',
@@ -45921,7 +45921,7 @@ export const theData = [
   },
   {
     grantId: 2265,
-    'active': true,
+    isActive: true,
     address: '0x24dd242c3c4061b1fcaa5119af608b56afbaea95',
     name: 'DeFiGeek Community JAPAN',
     slug: 'https://gitcoin.co/grants/2265/defigeek-community-japan',
@@ -45956,7 +45956,7 @@ export const theData = [
   },
   {
     grantId: 2268,
-    'active': true,
+    isActive: true,
     address: '0x90bb8fc25a2189e2b9eb7f5b45a5dc2f3e1e6f3d',
     name: 'JPYC',
     slug: 'https://gitcoin.co/grants/2268/jpyc',
@@ -45991,7 +45991,7 @@ export const theData = [
   },
   {
     grantId: 2270,
-    'active': true,
+    isActive: true,
     address: '0xa01496939fc74cf2dd4910db5fd1930ce138562d',
     name: 'Free course for educating people about Cryptocurrency and blockchain in India',
     slug: 'https://gitcoin.co/grants/2270/free-course-for-educating-people-about-cryptocurr',
@@ -46026,7 +46026,7 @@ export const theData = [
   },
   {
     grantId: 2271,
-    'active': true,
+    isActive: true,
     address: '0x5dfa5db515748f3e2bcc8677a9332f4affad5a5e',
     name: 'Kotal - Open source alternative to Infura, AlchemyAPI, QuickNode, BisonTrails.',
     slug: 'https://gitcoin.co/grants/2271/kotal-open-source-alternative-to-infura-alchemyap',
@@ -46061,7 +46061,7 @@ export const theData = [
   },
   {
     grantId: 2272,
-    'active': true,
+    isActive: true,
     address: '0xea36eb193db4434f7292480d81a98b5d03a48acc',
     name: 'Immunefi Whitehat Scholarship',
     slug: 'https://gitcoin.co/grants/2272/immunefi-whitehat-scholarship',
@@ -46096,7 +46096,7 @@ export const theData = [
   },
   {
     grantId: 2277,
-    'active': true,
+    isActive: true,
     address: '0xd50daa26f556538562ba308dc0ed45cface885fe',
     name: 'Multiverse Fund',
     slug: 'https://gitcoin.co/grants/2277/multiverse-fund',
@@ -46131,7 +46131,7 @@ export const theData = [
   },
   {
     grantId: 2279,
-    'active': true,
+    isActive: true,
     address: '0x42cd8312d2bce04277dd5161832460e95b24262e',
     name: 'PoolTogether',
     slug: 'https://gitcoin.co/grants/2279/pooltogether',
@@ -46166,7 +46166,7 @@ export const theData = [
   },
   {
     grantId: 2280,
-    'active': true,
+    isActive: true,
     address: '0xb6568dc090302196ec8edf56d99c3484cee94e6a',
     name: 'StablePay - DeFi Payments L2',
     slug: 'https://gitcoin.co/grants/2280/stablepay-defi-payments-l2',
@@ -46201,7 +46201,7 @@ export const theData = [
   },
   {
     grantId: 2281,
-    'active': true,
+    isActive: true,
     address: '0x073ab1c0cad3677cde9bdb0cdeedc2085c029579',
     name: 'Cross-Asset-Swap',
     slug: 'https://gitcoin.co/grants/2281/cross-asset-swap',
@@ -46236,7 +46236,7 @@ export const theData = [
   },
   {
     grantId: 2282,
-    'active': true,
+    isActive: true,
     address: '0xb1a5da026e2a165a642b17a67617c1afdaea42bc',
     name: 'Limited edition 3D Model NFTs Market',
     slug: 'https://gitcoin.co/grants/2282/limited-edition-3d-model-nfts-market',
@@ -46271,7 +46271,7 @@ export const theData = [
   },
   {
     grantId: 2283,
-    'active': true,
+    isActive: true,
     address: '0x315761d9d292f843362254b0335ac0c68e5aeff8',
     name: 'DFarm club',
     slug: 'https://gitcoin.co/grants/2283/dfarm-club',
@@ -46306,7 +46306,7 @@ export const theData = [
   },
   {
     grantId: 2289,
-    'active': true,
+    isActive: true,
     address: '0x85958051ca48e28909577c82b49f78336ef95382',
     name: 'CT Analysis Produced by CRYPTO TIMES',
     slug: 'https://gitcoin.co/grants/2289/ct-analysis-produced-by-crypto-times',
@@ -46341,7 +46341,7 @@ export const theData = [
   },
   {
     grantId: 2291,
-    'active': true,
+    isActive: true,
     address: '0xac617dd04e003248b1d24c072102e3410a10fdca',
     name: 'Dodo Drop - a smart file transfer app that helps you do more ⚡',
     slug: 'https://gitcoin.co/grants/2291/dodo-drop-a-smart-file-transfer-app-that-helps-yo',
@@ -46376,7 +46376,7 @@ export const theData = [
   },
   {
     grantId: 2292,
-    'active': true,
+    isActive: true,
     address: '0x37133cda1941449cde7128f0c964c228f94844a8',
     name: 'nfDAO [Panvala League]',
     slug: 'https://gitcoin.co/grants/2292/nfdao-panvala-league',
@@ -46411,7 +46411,7 @@ export const theData = [
   },
   {
     grantId: 2293,
-    'active': true,
+    isActive: true,
     address: '0xfb0f37c0456d60eded9b64442dfb0c4847cdd06a',
     name: 'Kripto Hayat NEWS  and Education',
     slug: 'https://gitcoin.co/grants/2293/kripto-hayat-news-and-education',
@@ -46446,7 +46446,7 @@ export const theData = [
   },
   {
     grantId: 2295,
-    'active': true,
+    isActive: true,
     address: '0xd6823f807c45efdc56c9ae8db0226ca10af6e8ab',
     name: '登链社区（learnblockchain.cn）',
     slug: 'https://gitcoin.co/grants/2295/deng-lian-she-qu-learnblockchaincn',
@@ -46481,7 +46481,7 @@ export const theData = [
   },
   {
     grantId: 2298,
-    'active': true,
+    isActive: true,
     address: '0xac432fa2d90381c93b62f52566db1e1d07c7cfe1',
     name: 'INDIAN CRYPTO COMMUNITY (ICC)',
     slug: 'https://gitcoin.co/grants/2298/indian-crypto-community-icc',
@@ -46516,7 +46516,7 @@ export const theData = [
   },
   {
     grantId: 2303,
-    'active': true,
+    isActive: true,
     address: '0x9757e05dd084646f61de2014c2f01f172b2c0868',
     name: 'NEPRI FINANCE: a multi-purpose Open Finance and Decentralized Financial platform  that makes DeFi services & tools accessible to anyone',
     slug: 'https://gitcoin.co/grants/2303/nepri-finance-a-multi-purpose-open-finance-and-de',
@@ -46551,7 +46551,7 @@ export const theData = [
   },
   {
     grantId: 2304,
-    'active': true,
+    isActive: true,
     address: '0x71adc149a15733c7d620e04021f926555d2cdbd6',
     name: 'Cultores',
     slug: 'https://gitcoin.co/grants/2304/cultores',
@@ -46586,7 +46586,7 @@ export const theData = [
   },
   {
     grantId: 2305,
-    'active': true,
+    isActive: true,
     address: '0x41c7c469bda5ce9dd6bf69372875c21806abe1b6',
     name: 'A Dashboard for Daos',
     slug: 'https://gitcoin.co/grants/2305/a-dashboard-for-daos',
@@ -46621,7 +46621,7 @@ export const theData = [
   },
   {
     grantId: 2306,
-    'active': true,
+    isActive: true,
     address: '0x71739c27906b7bd3be0965482a7bc2a94b017568',
     name: 'DIGID',
     slug: 'https://gitcoin.co/grants/2306/digid',
@@ -46656,7 +46656,7 @@ export const theData = [
   },
   {
     grantId: 2307,
-    'active': true,
+    isActive: true,
     address: '0x3e6e5899ddb6ed11e58f03668c1d61210b5617f3',
     name: 'Deep NFTs -- Machine Learning for NFT Space',
     slug: 'https://gitcoin.co/grants/2307/deep-nfts-machine-learning-for-nft-space',
@@ -46691,7 +46691,7 @@ export const theData = [
   },
   {
     grantId: 2309,
-    'active': true,
+    isActive: true,
     address: '0xf2867166798b8a339cbdc8686b30626fdbf5c2ef',
     name: 'xDeFi is a well established DeFi protocol stack.',
     slug: 'https://gitcoin.co/grants/2309/xdefi-is-a-well-established-defi-protocol-stack',
@@ -46726,7 +46726,7 @@ export const theData = [
   },
   {
     grantId: 2311,
-    'active': true,
+    isActive: true,
     address: '0x40e202d737d55c8ccd76fa7d48ff2bbb071b2bc1',
     name: 'Down.Social Token',
     slug: 'https://gitcoin.co/grants/2311/downsocial-token',
@@ -46761,7 +46761,7 @@ export const theData = [
   },
   {
     grantId: 2315,
-    'active': true,
+    isActive: true,
     address: '0xd004d76e60d31aca6f99ca670839d90706b5886c',
     name: 'The ArtDAO',
     slug: 'https://gitcoin.co/grants/2315/the-artdao',
@@ -46796,7 +46796,7 @@ export const theData = [
   },
   {
     grantId: 2316,
-    'active': true,
+    isActive: true,
     address: '0x5cca8df0a20bb0d0f6e090989ec55f0323de8bf2',
     name: 'DataToken | Open Marketplace for  Decentralized Data',
     slug: 'https://gitcoin.co/grants/2316/datatoken-open-marketplace-for-decentralized-data',
@@ -46831,7 +46831,7 @@ export const theData = [
   },
   {
     grantId: 2322,
-    'active': true,
+    isActive: true,
     address: '0xd90981ee801ea9ccfdc4aeffbd14a81989463c95',
     name: 'Zero Utility Token : Creatively Pushing NFT Technology',
     slug: 'https://gitcoin.co/grants/2322/zero-utility-token-creatively-pushing-nft-technol',
@@ -46866,7 +46866,7 @@ export const theData = [
   },
   {
     grantId: 2323,
-    'active': true,
+    isActive: true,
     address: '0x5d99805ca2867f22a318c4e6b0dc5c0eac457386',
     name: 'Dark Forest',
     slug: 'https://gitcoin.co/grants/2323/dark-forest',
@@ -46901,7 +46901,7 @@ export const theData = [
   },
   {
     grantId: 2326,
-    'active': true,
+    isActive: true,
     address: '0x8d5d62099f937fb31e5f5078838836b3dc14eb24',
     name: 'HODL Totals',
     slug: 'https://gitcoin.co/grants/2326/hodl-totals',
@@ -46936,7 +46936,7 @@ export const theData = [
   },
   {
     grantId: 2330,
-    'active': true,
+    isActive: true,
     address: '0x197e7522278dfad4b9b4a6d033e9abff5043ab72',
     name: 'Kingsilver - The Decentralised Hedge Fund Stablecoin',
     slug: 'https://gitcoin.co/grants/2330/kingsilver-the-decentralised-hedge-fund-stablecoi',
@@ -46971,7 +46971,7 @@ export const theData = [
   },
   {
     grantId: 2339,
-    'active': true,
+    isActive: true,
     address: '0xa230a1c91c640da7a947c23a889a3bd68a171915',
     name: 'Altcoin Author Newsletter',
     slug: 'https://gitcoin.co/grants/2339/altcoin-author-newsletter',
@@ -47006,7 +47006,7 @@ export const theData = [
   },
   {
     grantId: 2341,
-    'active': true,
+    isActive: true,
     address: '0x5f4134f010545d1ef0f19f6d6d6fcedf424ec2ca',
     name: 'AhhSun | Nfts Art',
     slug: 'https://gitcoin.co/grants/2341/ahhsun-nfts-art',
@@ -47041,7 +47041,7 @@ export const theData = [
   },
   {
     grantId: 2344,
-    'active': true,
+    isActive: true,
     address: '0x99540c4a88d1db426faeefb2fa3026165b27cc99',
     name: 'InterFiProtocol',
     slug: 'https://gitcoin.co/grants/2344/interfiprotocol',
@@ -47076,7 +47076,7 @@ export const theData = [
   },
   {
     grantId: 2346,
-    'active': true,
+    isActive: true,
     address: '0x6d371062f70b83e58994567e3eb882e86fe2fa13',
     name: 'Space-time: UPAC(Universal Photorealistic Avatar CryptoCreator)',
     slug: 'https://gitcoin.co/grants/2346/space-time-upacuniversal-photorealistic-avatar-cr',
@@ -47111,7 +47111,7 @@ export const theData = [
   },
   {
     grantId: 2349,
-    'active': true,
+    isActive: true,
     address: '0x6030db952f1aeefa27d84d40d2f64c6216f64b0e',
     name: 'Prime Rating - Permissionless DeFi Rating (Panvala League)',
     slug: 'https://gitcoin.co/grants/2349/prime-rating-permissionless-defi-rating-panvala-l',
@@ -47146,7 +47146,7 @@ export const theData = [
   },
   {
     grantId: 2357,
-    'active': true,
+    isActive: true,
     address: '0x76e1661691b18cccf717816a8a9791e76bfa355a',
     name: 'useDApp - rapid DApp developement framework',
     slug: 'https://gitcoin.co/grants/2357/usedapp-rapid-dapp-developement-framework',
@@ -47181,7 +47181,7 @@ export const theData = [
   },
   {
     grantId: 2359,
-    'active': true,
+    isActive: true,
     address: '0x797e956b9a9833e70b22115a7df376b12f060cc0',
     name: 'NftySwaps',
     slug: 'https://gitcoin.co/grants/2359/nftyswaps',
@@ -47216,7 +47216,7 @@ export const theData = [
   },
   {
     grantId: 2364,
-    'active': true,
+    isActive: true,
     address: '0x552c35f51a52fa1bf1ca481a9a57d464474248d2',
     name: 'Samuel Shadrach - DeFi and Scaling',
     slug: 'https://gitcoin.co/grants/2364/samuel-shadrach-defi-and-scaling',
@@ -47251,7 +47251,7 @@ export const theData = [
   },
   {
     grantId: 2369,
-    'active': true,
+    isActive: true,
     address: '0x86d3ee9ff0983bc33b93cc8983371a500f873446',
     name: 'androolloyd - hacker fuel',
     slug: 'https://gitcoin.co/grants/2369/androolloyd-hacker-fuel',
@@ -47286,7 +47286,7 @@ export const theData = [
   },
   {
     grantId: 2376,
-    'active': true,
+    isActive: true,
     address: '0x7f3cea5e8ef88a6376ca288bc54eaba9f82a2434',
     name: 'Kre8.art',
     slug: 'https://gitcoin.co/grants/2376/kre8art',
@@ -47321,7 +47321,7 @@ export const theData = [
   },
   {
     grantId: 2377,
-    'active': true,
+    isActive: true,
     address: '0x2cbb111028393710bfafe51b2426d0ae496010b9',
     name: 'BaoSwap+Chef / Quality of Life Updates',
     slug: 'https://gitcoin.co/grants/2377/baoswapchef-quality-of-life-updates',
@@ -47356,7 +47356,7 @@ export const theData = [
   },
   {
     grantId: 2378,
-    'active': true,
+    isActive: true,
     address: '0x51f06e3ac335ee5d894ab45f5e18e7d093f46fa8',
     name: 'PRNTS',
     slug: 'https://gitcoin.co/grants/2378/prnts',
@@ -47391,7 +47391,7 @@ export const theData = [
   },
   {
     grantId: 2381,
-    'active': true,
+    isActive: true,
     address: '0x19c04ca80c4168ea8ab469a0766a858d7172b320',
     name: 'Curve Swaps',
     slug: 'https://gitcoin.co/grants/2381/curve-swaps',
@@ -47426,7 +47426,7 @@ export const theData = [
   },
   {
     grantId: 2382,
-    'active': true,
+    isActive: true,
     address: '0x7a250d5630b4cf539739df2c5dacb4c659f2488d',
     name: 'Open Zone Finance',
     slug: 'https://gitcoin.co/grants/2382/open-zone-finance',
@@ -47461,7 +47461,7 @@ export const theData = [
   },
   {
     grantId: 2383,
-    'active': true,
+    isActive: true,
     address: '0xc7eee186c159686cc3215ef03bec7a23aeaebf89',
     name: 'ethyuan(以太元)',
     slug: 'https://gitcoin.co/grants/2383/ethyuanyi-tai-yuan',
@@ -47496,7 +47496,7 @@ export const theData = [
   },
   {
     grantId: 2385,
-    'active': true,
+    isActive: true,
     address: '0x9a7ed3946173cd03de4e942fa41d66a53bb03f29',
     name: 'Upload-ABI-to-Pinata',
     slug: 'https://gitcoin.co/grants/2385/upload-abi-to-pinata',
@@ -47531,7 +47531,7 @@ export const theData = [
   },
   {
     grantId: 2388,
-    'active': true,
+    isActive: true,
     address: '0x0035cc37599241d007d0aba1fb931c5fa757f7a1',
     name: 'The Commons Swarm: An Augmented Bonding Curve model for DAOs',
     slug: 'https://gitcoin.co/grants/2388/the-commons-swarm-an-augmented-bonding-curve-mode',
@@ -47566,7 +47566,7 @@ export const theData = [
   },
   {
     grantId: 2390,
-    'active': true,
+    isActive: true,
     address: '0x69be897608d0faff896cc5d9fae6e9997d17b122',
     name: 'GenFT Studio',
     slug: 'https://gitcoin.co/grants/2390/genft-studio',
@@ -47601,7 +47601,7 @@ export const theData = [
   },
   {
     grantId: 2391,
-    'active': true,
+    isActive: true,
     address: '0xb4d45635f65b77a17a2165ed8623b40a3d54c1cf',
     name: 'Developer Interviews',
     slug: 'https://gitcoin.co/grants/2391/developer-interviews',
@@ -47636,7 +47636,7 @@ export const theData = [
   },
   {
     grantId: 2393,
-    'active': true,
+    isActive: true,
     address: '0x10959926fb4926d181a2ea46ceb234150ab70c9b',
     name: 'DEX Whales',
     slug: 'https://gitcoin.co/grants/2393/dex-whales',
@@ -47671,7 +47671,7 @@ export const theData = [
   },
   {
     grantId: 2395,
-    'active': true,
+    isActive: true,
     address: '0xce0e7a768f26f8c292ec1572e76739b39c3488cb',
     name: 'SCV.finance',
     slug: 'https://gitcoin.co/grants/2395/scvfinance',
@@ -47706,7 +47706,7 @@ export const theData = [
   },
   {
     grantId: 2396,
-    'active': true,
+    isActive: true,
     address: '0xb3067e47d005f9a588162a710071d18098c93e04',
     name: 'The Patcito Fund',
     slug: 'https://gitcoin.co/grants/2396/the-patcito-fund',
@@ -47741,7 +47741,7 @@ export const theData = [
   },
   {
     grantId: 2400,
-    'active': true,
+    isActive: true,
     address: '0x56391667fc9cd614b934bd4664ddd87e2f78df5d',
     name: 'CLAIRVOYANT ALLIANCE ART UNIVERSITY - NFT DAO COMMUNITY ARTHΞRΞUM THE REAL ΞTHΞRΞALARTMUSΞUM',
     slug: 'https://gitcoin.co/grants/2400/clairvoyant-alliance-art-university-nft-dao-commu',
@@ -47776,7 +47776,7 @@ export const theData = [
   },
   {
     grantId: 2407,
-    'active': true,
+    isActive: true,
     address: '0x8d619857e39f30da2d3cba069c0f9b471d32e088',
     name: 'Defiant Pixel Society',
     slug: 'https://gitcoin.co/grants/2407/defiant-pixel-society',
@@ -47811,7 +47811,7 @@ export const theData = [
   },
   {
     grantId: 2411,
-    'active': true,
+    isActive: true,
     address: '0xaf329a2986d7f78991ab5aedad6c7c3a2bc760a5',
     name: 'KryptoVlada',
     slug: 'https://gitcoin.co/grants/2411/kryptovlada',
@@ -47846,7 +47846,7 @@ export const theData = [
   },
   {
     grantId: 2414,
-    'active': true,
+    isActive: true,
     address: '0x321a7963322f3489da35581810dcbef4a8d7839c',
     name: '994.eth',
     slug: 'https://gitcoin.co/grants/2414/994eth',
@@ -47881,7 +47881,7 @@ export const theData = [
   },
   {
     grantId: 2415,
-    'active': true,
+    isActive: true,
     address: '0x57bf3c9d7e9ec12d02b63d645da1714e2eb1d989',
     name: 'BuyTheFloor',
     slug: 'https://gitcoin.co/grants/2415/buythefloor',
@@ -47916,7 +47916,7 @@ export const theData = [
   },
   {
     grantId: 2427,
-    'active': true,
+    isActive: true,
     address: '0xf0fed81294dcd80d525b8a49b597ffac4d608fc7',
     name: 'NFTBase - DAO based NFT marketplace where you can donate to artists and volunteer organization',
     slug: 'https://gitcoin.co/grants/2427/nftbase-dao-based-nft-marketplace-where-you-can-d',
@@ -47951,7 +47951,7 @@ export const theData = [
   },
   {
     grantId: 2429,
-    'active': true,
+    isActive: true,
     address: '0x4a80c4ab870f97b2bf84e16f614654610d2fc53e',
     name: 'Leyline - Proof of Good on the Blockchain',
     slug: 'https://gitcoin.co/grants/2429/leyline-proof-of-good-on-the-blockchain',
@@ -47986,7 +47986,7 @@ export const theData = [
   },
   {
     grantId: 2431,
-    'active': true,
+    isActive: true,
     address: '0x0bc0bb5b379d09faa0d740fc7d425896ebe02876',
     name: 'Boss Up Crew [crypto talk]',
     slug: 'https://gitcoin.co/grants/2431/boss-up-crew-crypto-talk',
@@ -48021,7 +48021,7 @@ export const theData = [
   },
   {
     grantId: 2438,
-    'active': true,
+    isActive: true,
     address: '0x7a4a6af619bad85c7377f32421463a7badc01e6b',
     name: 'Earth Rising - The game',
     slug: 'https://gitcoin.co/grants/2438/earth-rising-the-game',
@@ -48056,7 +48056,7 @@ export const theData = [
   },
   {
     grantId: 2444,
-    'active': true,
+    isActive: true,
     address: '0xc4ff376e5b91b789953a7cc509d0505201e288cd',
     name: 'Etherboard',
     slug: 'https://gitcoin.co/grants/2444/etherboard',
@@ -48091,7 +48091,7 @@ export const theData = [
   },
   {
     grantId: 2445,
-    'active': true,
+    isActive: true,
     address: '0x65a0af703047dfdd270361659d02f4f0e8547202',
     name: 'Fat Garage',
     slug: 'https://gitcoin.co/grants/2445/fat-garage',
@@ -48126,7 +48126,7 @@ export const theData = [
   },
   {
     grantId: 2446,
-    'active': true,
+    isActive: true,
     address: '0xfeb4acf3df3cdea7399794d0869ef76a6efaff52',
     name: 'yGift',
     slug: 'https://gitcoin.co/grants/2446/ygift',
@@ -48161,7 +48161,7 @@ export const theData = [
   },
   {
     grantId: 2451,
-    'active': true,
+    isActive: true,
     address: '0x2c3678124659f67cad7ce3b34320c20f82dbfb88',
     name: 'Audit of noble-secp256k1 cryptographic library',
     slug: 'https://gitcoin.co/grants/2451/audit-of-noble-secp256k1-cryptographic-library',
@@ -48196,7 +48196,7 @@ export const theData = [
   },
   {
     grantId: 2452,
-    'active': true,
+    isActive: true,
     address: '0x3398af931e07db6afb9f4a088b913972238facc5',
     name: 'OpenUnreal',
     slug: 'https://gitcoin.co/grants/2452/openunreal',
@@ -48231,7 +48231,7 @@ export const theData = [
   },
   {
     grantId: 2455,
-    'active': true,
+    isActive: true,
     address: '0xaf8fbf59e221d27b55dc3adc2366f9230bcf5096',
     name: 'ETHmerge.com - The Ethereum Proof-of-Stake Merge',
     slug: 'https://gitcoin.co/grants/2455/ethmergecom-the-ethereum-proof-of-stake-merge',
@@ -48266,7 +48266,7 @@ export const theData = [
   },
   {
     grantId: 2456,
-    'active': true,
+    isActive: true,
     address: '0xce885a322bdcea719f73a1757155c1eabf7ae415',
     name: 'DropMagnet.com',
     slug: 'https://gitcoin.co/grants/2456/dropmagnetcom',
@@ -48301,7 +48301,7 @@ export const theData = [
   },
   {
     grantId: 2460,
-    'active': true,
+    isActive: true,
     address: '0x3253b1b195d50ed5a4a71df520ce4dc01d9820eb',
     name: 'Let Anyone Write Smart Contracts',
     slug: 'https://gitcoin.co/grants/2460/let-anyone-write-smart-contracts',
@@ -48336,7 +48336,7 @@ export const theData = [
   },
   {
     grantId: 2468,
-    'active': true,
+    isActive: true,
     address: '0xd20634a78fa0e98104419a63c278648cccff4ce7',
     name: 'ERC721 NFT Marketplace',
     slug: 'https://gitcoin.co/grants/2468/erc721-nft-marketplace',
@@ -48371,7 +48371,7 @@ export const theData = [
   },
   {
     grantId: 2469,
-    'active': true,
+    isActive: true,
     address: '0xf1121108e21c92aac7814137dd67e0d48eac7fdc',
     name: 'Misskey',
     slug: 'https://gitcoin.co/grants/2469/misskey',
@@ -48406,7 +48406,7 @@ export const theData = [
   },
   {
     grantId: 2470,
-    'active': true,
+    isActive: true,
     address: '0xdc5ead7c0d5b5c4320d64287cad63622385a8420',
     name: 'FungyProof - Verify the quality of your NFTs',
     slug: 'https://gitcoin.co/grants/2470/fungyproof-verify-the-quality-of-your-nfts',
@@ -48441,7 +48441,7 @@ export const theData = [
   },
   {
     grantId: 2477,
-    'active': true,
+    isActive: true,
     address: '0x8749d99049d2bed60c3d1ab9b717e61487959a06',
     name: 'ideagogo - fund great ideas on the blockchain',
     slug: 'https://gitcoin.co/grants/2477/ideagogo-fund-great-ideas-on-the-blockchain',
@@ -48476,7 +48476,7 @@ export const theData = [
   },
   {
     grantId: 2479,
-    'active': true,
+    isActive: true,
     address: '0xb6ae321f48b31f89deba57816761c01a66b068a8',
     name: 'Solidarity DeFi',
     slug: 'https://gitcoin.co/grants/2479/solidarity-defi',
@@ -48511,7 +48511,7 @@ export const theData = [
   },
   {
     grantId: 2480,
-    'active': true,
+    isActive: true,
     address: '0xdce3a54515eda66af0bf86f02268becf10cd5bbc',
     name: 'Trackavault',
     slug: 'https://gitcoin.co/grants/2480/trackavault',
@@ -48546,7 +48546,7 @@ export const theData = [
   },
   {
     grantId: 2483,
-    'active': true,
+    isActive: true,
     address: '0x955ff14ec5f75a1f669ad8fff611a9ff33fcf5f1',
     name: 'IT Services',
     slug: 'https://gitcoin.co/grants/2483/it-services',
@@ -48581,7 +48581,7 @@ export const theData = [
   },
   {
     grantId: 2487,
-    'active': true,
+    isActive: true,
     address: '0x67e4dd4bd594e118304a060410b6d4e761310232',
     name: 'KimchiDAO Developers Fund',
     slug: 'https://gitcoin.co/grants/2487/kimchidao-developers-fund',
@@ -48616,7 +48616,7 @@ export const theData = [
   },
   {
     grantId: 2489,
-    'active': true,
+    isActive: true,
     address: '0xc9b64496986e7b6d4a68fdf69ef132a35e91838e',
     name: 'Blockchain Email',
     slug: 'https://gitcoin.co/grants/2489/blockchain-email',
@@ -48651,7 +48651,7 @@ export const theData = [
   },
   {
     grantId: 2493,
-    'active': true,
+    isActive: true,
     address: '0x39a206e24d0cddb38e6e9c062b1c82aad298ed07',
     name: 'CoinsPortfolio | The portfolio tracker',
     slug: 'https://gitcoin.co/grants/2493/coinsportfolio-the-portfolio-tracker',
@@ -48686,7 +48686,7 @@ export const theData = [
   },
   {
     grantId: 2497,
-    'active': true,
+    isActive: true,
     address: '0x73f2662412c20daab7081d935b81575b14ae6e81',
     name: 'NFT Viewer',
     slug: 'https://gitcoin.co/grants/2497/nft-viewer',
@@ -48721,7 +48721,7 @@ export const theData = [
   },
   {
     grantId: 2498,
-    'active': true,
+    isActive: true,
     address: '0xeec58e89996496640c8b5898a7e0218e9b6e90cb',
     name: 'Ancon Protocol',
     slug: 'https://gitcoin.co/grants/2498/ancon-protocol',
@@ -48756,7 +48756,7 @@ export const theData = [
   },
   {
     grantId: 2499,
-    'active': true,
+    isActive: true,
     address: '0x9169f8e1439ed4901ed0f2b70fa8a0eeba7f4f89',
     name: 'Support Nebula Magazine',
     slug: 'https://gitcoin.co/grants/2499/support-nebula-magazine',
@@ -48791,7 +48791,7 @@ export const theData = [
   },
   {
     grantId: 2502,
-    'active': true,
+    isActive: true,
     address: '0x8b5b9497e096ee6ffd6041d1db37a2ac2b41ab0d',
     name: 'NFC-NFT artist toolkit',
     slug: 'https://gitcoin.co/grants/2502/nfc-nft-artist-toolkit',
@@ -48826,7 +48826,7 @@ export const theData = [
   },
   {
     grantId: 2516,
-    'active': true,
+    isActive: true,
     address: '0xbb64d716fabdec3a106bb913fb4f82c1eec851b8',
     name: 'ESSE - An encrypted peer-to-peer session system',
     slug: 'https://gitcoin.co/grants/2516/esse-an-encrypted-peer-to-peer-session-system',
@@ -48861,7 +48861,7 @@ export const theData = [
   },
   {
     grantId: 2521,
-    'active': true,
+    isActive: true,
     address: '0x8174fa2ec8ed3e2b8cf98a5f5cd914298ee883e8',
     name: 'ELI5 Crypto',
     slug: 'https://gitcoin.co/grants/2521/eli5-crypto',
@@ -48896,7 +48896,7 @@ export const theData = [
   },
   {
     grantId: 2523,
-    'active': true,
+    isActive: true,
     address: '0xd56c73ebf9c107364089555fca30f74087d00fd4',
     name: 'Pharo - Automated Cover Maker',
     slug: 'https://gitcoin.co/grants/2523/pharo-automated-cover-maker',
@@ -48931,7 +48931,7 @@ export const theData = [
   },
   {
     grantId: 2525,
-    'active': true,
+    isActive: true,
     address: '0x8f5d6dd53fa367185f3d1dd20447f176fa391106',
     name: 'JimmiLuv',
     slug: 'https://gitcoin.co/grants/2525/jimmiluv',
@@ -48966,7 +48966,7 @@ export const theData = [
   },
   {
     grantId: 2526,
-    'active': true,
+    isActive: true,
     address: '0x730bf3b67090511a64aba060fbd2f7903536321e',
     name: 'Filosfía Código: Youtube channel for latam devs',
     slug: 'https://gitcoin.co/grants/2526/filosfia-codigo-youtube-channel-for-latam-devs',
@@ -49001,7 +49001,7 @@ export const theData = [
   },
   {
     grantId: 2529,
-    'active': true,
+    isActive: true,
     address: '0xa6c3814c32e592338dcb3f869c2992067f4146bb',
     name: 'Project Lockdown',
     slug: 'https://gitcoin.co/grants/2529/project-lockdown',
@@ -49036,7 +49036,7 @@ export const theData = [
   },
   {
     grantId: 2537,
-    'active': true,
+    isActive: true,
     address: '0x699ff358a70b09f0fa61cbba41560cd349dd3b75',
     name: 'The Machine Consultancy for Apache Tuweni',
     slug: 'https://gitcoin.co/grants/2537/the-machine-consultancy-for-apache-tuweni',
@@ -49071,7 +49071,7 @@ export const theData = [
   },
   {
     grantId: 2540,
-    'active': true,
+    isActive: true,
     address: '0x1d1bbe43eb20c81016db2cb4d7c5578c041bd361',
     name: 'Chain Reaction',
     slug: 'https://gitcoin.co/grants/2540/chain-reaction',
@@ -49106,7 +49106,7 @@ export const theData = [
   },
   {
     grantId: 2544,
-    'active': true,
+    isActive: true,
     address: '0x71df067d1d2df5291278b7c660fd37d9b6272b4c',
     name: 'Grandiose',
     slug: 'https://gitcoin.co/grants/2544/grandiose',
@@ -49141,7 +49141,7 @@ export const theData = [
   },
   {
     grantId: 2546,
-    'active': true,
+    isActive: true,
     address: '0xa09a8433616ca0e1085248b15eaa06712c0f9cb5',
     name: 'DecentrAgora',
     slug: 'https://gitcoin.co/grants/2546/decentragora',
@@ -49176,7 +49176,7 @@ export const theData = [
   },
   {
     grantId: 2547,
-    'active': true,
+    isActive: true,
     address: '0xb1abafb4b7f60c7ad8af161be7871cbc7cb3b1dc',
     name: 'DeFi Pocket',
     slug: 'https://gitcoin.co/grants/2547/defi-pocket',
@@ -49211,7 +49211,7 @@ export const theData = [
   },
   {
     grantId: 2549,
-    'active': true,
+    isActive: true,
     address: '0xf751033d4e6864a88be93e36258246f26aef577c',
     name: 'ETH541',
     slug: 'https://gitcoin.co/grants/2549/eth541',
@@ -49246,7 +49246,7 @@ export const theData = [
   },
   {
     grantId: 2552,
-    'active': true,
+    isActive: true,
     address: '0xa9f8754e967d78eb50d49c1574ee794f0c64d4e5',
     name: 'ETH in El Salvador',
     slug: 'https://gitcoin.co/grants/2552/eth-in-el-salvador',
@@ -49281,7 +49281,7 @@ export const theData = [
   },
   {
     grantId: 2557,
-    'active': true,
+    isActive: true,
     address: '0xc7964cf98eb028ad27855c78b30e2474f920f7e5',
     name: 'The Coinbuzz - Cryptocurrency Insights',
     slug: 'https://gitcoin.co/grants/2557/the-coinbuzz-cryptocurrency-insights',
@@ -49316,7 +49316,7 @@ export const theData = [
   },
   {
     grantId: 2562,
-    'active': true,
+    isActive: true,
     address: '0xb8b36bb46e634d3c24bf2538d4a4bc9db4d1940c',
     name: 'Dapp Ideas',
     slug: 'https://gitcoin.co/grants/2562/dapp-ideas',
@@ -49351,7 +49351,7 @@ export const theData = [
   },
   {
     grantId: 2565,
-    'active': true,
+    isActive: true,
     address: '0x5a46de36497980ad4bb6004102796769f2bfc802',
     name: 'favrit ~  NFTs+Collectible+DeFi+Charity',
     slug: 'https://gitcoin.co/grants/2565/favrit-nftscollectibledeficharity',
@@ -49386,7 +49386,7 @@ export const theData = [
   },
   {
     grantId: 2574,
-    'active': true,
+    isActive: true,
     address: '0x4ee34ba6c5707f37c8367fd8aef43f754435f588',
     name: 'Dissecting DeFi Protocols',
     slug: 'https://gitcoin.co/grants/2574/dissecting-defi-protocols',
@@ -49421,7 +49421,7 @@ export const theData = [
   },
   {
     grantId: 2575,
-    'active': true,
+    isActive: true,
     address: '0xd7ceb6f030699bf707cb8b927a4f39c989c5ab8b',
     name: 'DefiLab_xyz',
     slug: 'https://gitcoin.co/grants/2575/defilab_xyz',
@@ -49456,7 +49456,7 @@ export const theData = [
   },
   {
     grantId: 2578,
-    'active': true,
+    isActive: true,
     address: '0x7251fd6a5d213216f18d2a85cf7d2daa3d2fa933',
     name: 'Nifty Crawler',
     slug: 'https://gitcoin.co/grants/2578/nifty-crawler',
@@ -49491,7 +49491,7 @@ export const theData = [
   },
   {
     grantId: 2594,
-    'active': true,
+    isActive: true,
     address: '0xbb5c3b21a1edac92e9779069fe6944a4cf4d345a',
     name: 'Fight for the Future is building and channeling public support for decentralized tech and cryptocurrencies.',
     slug: 'https://gitcoin.co/grants/2594/fight-for-the-future-is-building-and-channeling-p',
@@ -49526,7 +49526,7 @@ export const theData = [
   },
   {
     grantId: 2599,
-    'active': true,
+    isActive: true,
     address: '0x33359285f30e7b3386de70ca500f4fe27853765b',
     name: '🪐 The Opsciverse',
     slug: 'https://gitcoin.co/grants/2599/the-opsciverse',
@@ -49561,7 +49561,7 @@ export const theData = [
   },
   {
     grantId: 2602,
-    'active': true,
+    isActive: true,
     address: '0x97b8fdfacf37dd68376198b7fcffec3c0846f593',
     name: 'Barrio to the Blockchain (Panvala League)',
     slug: 'https://gitcoin.co/grants/2602/barrio-to-the-blockchain-panvala-league',
@@ -49596,7 +49596,7 @@ export const theData = [
   },
   {
     grantId: 2604,
-    'active': true,
+    isActive: true,
     address: '0xdac817294c0c87ca4fa1895ef4b972eade99f2fd',
     name: 'Livestream NFT Minting (videoDAC)',
     slug: 'https://gitcoin.co/grants/2604/livestream-nft-minting-videodac',
@@ -49631,7 +49631,7 @@ export const theData = [
   },
   {
     grantId: 2609,
-    'active': true,
+    isActive: true,
     address: '0xe98dc4fdcb03cc29c0f64a00aaad7f56d359cbad',
     name: 'Web3Designers.org  [Panvala League]',
     slug: 'https://gitcoin.co/grants/2609/web3designersorg-panvala-league',
@@ -49666,7 +49666,7 @@ export const theData = [
   },
   {
     grantId: 2611,
-    'active': true,
+    isActive: true,
     address: '0x1fa58d1361f0344e367761dde020df9417aa3565',
     name: 'Vesq',
     slug: 'https://gitcoin.co/grants/2611/vesq',
@@ -49701,7 +49701,7 @@ export const theData = [
   },
   {
     grantId: 2612,
-    'active': true,
+    isActive: true,
     address: '0xaf033b0cf95306a649fe751af6529154fb5c179b',
     name: 'PWA NFT marketplace using vue / tailwindcss nuxtjs',
     slug: 'https://gitcoin.co/grants/2612/pwa-nft-marketplace-using-vue-tailwindcss-nuxtjs',
@@ -49736,7 +49736,7 @@ export const theData = [
   },
   {
     grantId: 2617,
-    'active': true,
+    isActive: true,
     address: '0x368823a0faf360c5a8d985b6c2d0d15f8d2a2a46',
     name: 'CYPHERVERSE: AN OPEN METAVERSE POWERED BY NFT',
     slug: 'https://gitcoin.co/grants/2617/cypherverse-an-open-metaverse-powered-by-nft',
@@ -49771,7 +49771,7 @@ export const theData = [
   },
   {
     grantId: 2626,
-    'active': true,
+    isActive: true,
     address: '0x3d2596aedcfef405f04eb78c38426113d19aadda',
     name: 'Hubs Public Scene',
     slug: 'https://gitcoin.co/grants/2626/hubs-public-scene',
@@ -49806,7 +49806,7 @@ export const theData = [
   },
   {
     grantId: 2631,
-    'active': true,
+    isActive: true,
     address: '0x0d8062911fbcc20bbc7b10f06d108d45ad2e8c7f',
     name: 'uniswap-python',
     slug: 'https://gitcoin.co/grants/2631/uniswap-python',
@@ -49841,7 +49841,7 @@ export const theData = [
   },
   {
     grantId: 2637,
-    'active': true,
+    isActive: true,
     address: '0xa31b36fd976c7df6263494c6d5e123abaec85995',
     name: 'Living Bit by Bit',
     slug: 'https://gitcoin.co/grants/2637/living-bit-by-bit',
@@ -49876,7 +49876,7 @@ export const theData = [
   },
   {
     grantId: 2642,
-    'active': true,
+    isActive: true,
     address: '0xfb0a07f4b89a46997e036d8d5202bba3ab9831d5',
     name: 'Kinetics – Particle System',
     slug: 'https://gitcoin.co/grants/2642/kinetics-particle-system',
@@ -49911,7 +49911,7 @@ export const theData = [
   },
   {
     grantId: 2646,
-    'active': true,
+    isActive: true,
     address: '0xce7a1ee51734e4681589efa942975dcc4b06cab0',
     name: 'Barloon',
     slug: 'https://gitcoin.co/grants/2646/barloon',
@@ -49946,7 +49946,7 @@ export const theData = [
   },
   {
     grantId: 2647,
-    'active': true,
+    isActive: true,
     address: '0xcbfb61c4d9dd64f3c83933ee5c73798339456439',
     name: '【风口上的DEFI】上海站圆满结束',
     slug: 'https://gitcoin.co/grants/2647/feng-kou-shang-de-defi-shang-hai-zhan-yuan-man-ji',
@@ -49981,7 +49981,7 @@ export const theData = [
   },
   {
     grantId: 2648,
-    'active': true,
+    isActive: true,
     address: '0xef6ebd32d53285710345df899b3a6758f037c313',
     name: 'El leñador crypto.tools',
     slug: 'https://gitcoin.co/grants/2648/el-lenador-cryptotools',
@@ -50016,7 +50016,7 @@ export const theData = [
   },
   {
     grantId: 2655,
-    'active': true,
+    isActive: true,
     address: '0x82e7ea482b9f08f682229988962885d9ae42a3b9',
     name: 'Doyen DeFi  || ‘Boomer’ Educational Hub',
     slug: 'https://gitcoin.co/grants/2655/doyen-defi-boomer-educational-hub',
@@ -50051,7 +50051,7 @@ export const theData = [
   },
   {
     grantId: 2671,
-    'active': true,
+    isActive: true,
     address: '0x3257284ff47cbcb0c59bd522b40a34d5f748117d',
     name: 'Footbopoly',
     slug: 'https://gitcoin.co/grants/2671/footbopoly',
@@ -50086,7 +50086,7 @@ export const theData = [
   },
   {
     grantId: 2672,
-    'active': true,
+    isActive: true,
     address: '0x5d4fe11cd67cf21a5b7e75efb12388cd2c250b5a',
     name: 'LightPaper TV - The Blockchain TV Streaming Media',
     slug: 'https://gitcoin.co/grants/2672/lightpaper-tv-the-blockchain-tv-streaming-media',
@@ -50121,7 +50121,7 @@ export const theData = [
   },
   {
     grantId: 2676,
-    'active': true,
+    isActive: true,
     address: '0xd846d596dedfb75deb2ea469d90c71188e3eb4fa',
     name: 'Overt',
     slug: 'https://gitcoin.co/grants/2676/overt',
@@ -50156,7 +50156,7 @@ export const theData = [
   },
   {
     grantId: 2679,
-    'active': true,
+    isActive: true,
     address: '0x8c23b96f2fb77aae1ac2832debee30f09da7af3c',
     name: 'RSS3 - RSS with human curation',
     slug: 'https://gitcoin.co/grants/2679/rss3-rss-with-human-curation',
@@ -50191,7 +50191,7 @@ export const theData = [
   },
   {
     grantId: 2681,
-    'active': true,
+    isActive: true,
     address: '0x6ae03d1d3a9b161ec264c76ad73999ee25abec5a',
     name: 'LetsDoDeFi.com - Teaching the world DeFi literacy. (Grandma too)',
     slug: 'https://gitcoin.co/grants/2681/letsdodeficom-teaching-the-world-defi-literacy-gr',
@@ -50226,7 +50226,7 @@ export const theData = [
   },
   {
     grantId: 2687,
-    'active': true,
+    isActive: true,
     address: '0x308fd8fb79379dead5a360ffb6dd2d1aff9f5ee4',
     name: 'Njombe Innovation Academy [Panvala league]',
     slug: 'https://gitcoin.co/grants/2687/njombe-innovation-academy-panvala-league',
@@ -50261,7 +50261,7 @@ export const theData = [
   },
   {
     grantId: 2688,
-    'active': true,
+    isActive: true,
     address: '0xb0f6ed8f3d919cb4a6aae15f57d2a07eeb2f6fde',
     name: 'The Travel Open Protocols Fund',
     slug: 'https://gitcoin.co/grants/2688/the-travel-open-protocols-fund',
@@ -50296,7 +50296,7 @@ export const theData = [
   },
   {
     grantId: 2690,
-    'active': true,
+    isActive: true,
     address: '0xb943cdb5622e7bb26d3e462db68ee71d8868c940',
     name: 'First Month Collab with Badger DAO',
     slug: 'https://gitcoin.co/grants/2690/first-month-collab-with-badger-dao',
@@ -50331,7 +50331,7 @@ export const theData = [
   },
   {
     grantId: 2691,
-    'active': true,
+    isActive: true,
     address: '0x8096da6ced12b75684054ef16e1bf7e376353c29',
     name: 'Metaverse LAND price compare tool dapp',
     slug: 'https://gitcoin.co/grants/2691/metaverse-land-price-compare-tool-dapp',
@@ -50366,7 +50366,7 @@ export const theData = [
   },
   {
     grantId: 2694,
-    'active': true,
+    isActive: true,
     address: '0xc0dd8e21a31f62861e668833f47770592d379a4c',
     name: 'Matrix2 - An aggregated Layer 2 network',
     slug: 'https://gitcoin.co/grants/2694/matrix2-an-aggregated-layer-2-network',
@@ -50401,7 +50401,7 @@ export const theData = [
   },
   {
     grantId: 2696,
-    'active': true,
+    isActive: true,
     address: '0x9c90aef0030f2681b3c7206be35bb6698220f419',
     name: 'wechat  miniprogram pinche_xcx',
     slug: 'https://gitcoin.co/grants/2696/wechat-miniprogram-pinche_xcx',
@@ -50436,7 +50436,7 @@ export const theData = [
   },
   {
     grantId: 2710,
-    'active': true,
+    isActive: true,
     address: '0x5776a88eb0c95ff03765f588874e79b55b8c1a95',
     name: 'CryptoTreasuries.org - Cryptocurrencies on companies balance sheets',
     slug: 'https://gitcoin.co/grants/2710/cryptotreasuriesorg-cryptocurrencies-on-companies',
@@ -50471,7 +50471,7 @@ export const theData = [
   },
   {
     grantId: 2728,
-    'active': true,
+    isActive: true,
     address: '0x8767aacd8ae48e6a23077548c24121e46dca0696',
     name: 'Using social networks for fun, affordable, and lucrative delivery.',
     slug: 'https://gitcoin.co/grants/2728/using-social-networks-for-fun-affordable-and-lucr',
@@ -50506,7 +50506,7 @@ export const theData = [
   },
   {
     grantId: 2743,
-    'active': true,
+    isActive: true,
     address: '0xb9376ae861cb2d5d217f8670ec99b22d3794a333',
     name: 'PawnSpace - Decentralized NFT Collateralized Lending Protocol',
     slug: 'https://gitcoin.co/grants/2743/pawnspace-decentralized-nft-collateralized-lendin',
@@ -50541,7 +50541,7 @@ export const theData = [
   },
   {
     grantId: 2749,
-    'active': true,
+    isActive: true,
     address: '0xc2e1c4749507c7918b6f2301251da4e21725e933',
     name: 'Black Magic Bank',
     slug: 'https://gitcoin.co/grants/2749/black-magic-bank',
@@ -50576,7 +50576,7 @@ export const theData = [
   },
   {
     grantId: 2753,
-    'active': true,
+    isActive: true,
     address: '0xe692b3f66fc1191a00d829a765ec02f93ab5c53b',
     name: 'KIDS CRYPTO 2',
     slug: 'https://gitcoin.co/grants/2753/kids-crypto-2',
@@ -50611,7 +50611,7 @@ export const theData = [
   },
   {
     grantId: 2754,
-    'active': true,
+    isActive: true,
     address: '0x1208a26faa0f4ac65b42098419eb4daa5e580ac6',
     name: 'Mintbot | Polygon NFT Minter (Telegram)',
     slug: 'https://gitcoin.co/grants/2754/mintbot-polygon-nft-minter-telegram',
@@ -50646,7 +50646,7 @@ export const theData = [
   },
   {
     grantId: 2755,
-    'active': true,
+    isActive: true,
     address: '0x1a56d61142ac107dbc46f1c15a559906d84eed59',
     name: 'acharvested',
     slug: 'https://gitcoin.co/grants/2755/acharvested',
@@ -50681,7 +50681,7 @@ export const theData = [
   },
   {
     grantId: 2758,
-    'active': true,
+    isActive: true,
     address: '0xbcaae2d9e18352384e533082019c98fe9f6f2dcf',
     name: 'Ethhole.link',
     slug: 'https://gitcoin.co/grants/2758/ethholelink',
@@ -50716,7 +50716,7 @@ export const theData = [
   },
   {
     grantId: 2763,
-    'active': true,
+    isActive: true,
     address: '0x005241438caf3eacb05bb6543151f7af894c5b58',
     name: 'rugpullindex.com - Improving stake safety',
     slug: 'https://gitcoin.co/grants/2763/rugpullindexcom-improving-stake-safety',
@@ -50751,7 +50751,7 @@ export const theData = [
   },
   {
     grantId: 2767,
-    'active': true,
+    isActive: true,
     address: '0x8dde317041a0154b53ef3f9d275b65c8c4273b40',
     name: 'Orange Wallet',
     slug: 'https://gitcoin.co/grants/2767/orange-wallet',
@@ -50786,7 +50786,7 @@ export const theData = [
   },
   {
     grantId: 2768,
-    'active': true,
+    isActive: true,
     address: '0x423afc4406d10c726d5d664d2997571e69d1875f',
     name: 'Digital Assets Succession Comprehensive Research - Technical, Business, and Legal',
     slug: 'https://gitcoin.co/grants/2768/digital-assets-succession-comprehensive-research-',
@@ -50821,7 +50821,7 @@ export const theData = [
   },
   {
     grantId: 2769,
-    'active': true,
+    isActive: true,
     address: '0xede187ce07b5dd0c48b6a76c76fb317d5c3b89ea',
     name: 'NFT Africa \'NFT’s Education for Local Women Artists in Africa”',
     slug: 'https://gitcoin.co/grants/2769/nft-africa-nfts-education-for-local-women-artists',
@@ -50856,7 +50856,7 @@ export const theData = [
   },
   {
     grantId: 2774,
-    'active': true,
+    isActive: true,
     address: '0x7853eabb6cfa980ebfd27e3f77e69590ea53c0b7',
     name: 'Bspeak!',
     slug: 'https://gitcoin.co/grants/2774/bspeak',
@@ -50891,7 +50891,7 @@ export const theData = [
   },
   {
     grantId: 2776,
-    'active': true,
+    isActive: true,
     address: '0x887a26839d9e33b1536857a24f91f192ce9d4732',
     name: 'pulp-network',
     slug: 'https://gitcoin.co/grants/2776/pulp-network',
@@ -50926,7 +50926,7 @@ export const theData = [
   },
   {
     grantId: 2783,
-    'active': true,
+    isActive: true,
     address: '0x2c8a14dedf9ef21703b9cdc0cc2111cda8e4aa23',
     name: 'Dystopia Labs - IRL Summit & Hackathon Series',
     slug: 'https://gitcoin.co/grants/2783/dystopia-labs-irl-summit-hackathon-series',
@@ -50961,7 +50961,7 @@ export const theData = [
   },
   {
     grantId: 2784,
-    'active': true,
+    isActive: true,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'BBFT Podcast Show - Season5 (NFT)',
     slug: 'https://gitcoin.co/grants/2784/bbft-podcast-show-season5-nft',
@@ -50996,7 +50996,7 @@ export const theData = [
   },
   {
     grantId: 2785,
-    'active': true,
+    isActive: true,
     address: '0x13ebd3443fa5575f0eb173e323d8419f7452cfb1',
     name: 'Week in Ethereum News',
     slug: 'https://gitcoin.co/grants/2785/week-in-ethereum-news',
@@ -51031,7 +51031,7 @@ export const theData = [
   },
   {
     grantId: 2788,
-    'active': true,
+    isActive: true,
     address: '0x30f271d19063c232dd654129b42a14303cb76ccd',
     name: 'Snook',
     slug: 'https://gitcoin.co/grants/2788/snook',
@@ -51066,7 +51066,7 @@ export const theData = [
   },
   {
     grantId: 2790,
-    'active': true,
+    isActive: true,
     address: '0x0811909993f580014caf7db50937ca5dfba6a4a2',
     name: 'LinkFit',
     slug: 'https://gitcoin.co/grants/2790/linkfit',
@@ -51101,7 +51101,7 @@ export const theData = [
   },
   {
     grantId: 2796,
-    'active': true,
+    isActive: true,
     address: '0x3d1d6239b8d522eeacc77a3f7b8edb48ee6e9998',
     name: 'Codework NFT',
     slug: 'https://gitcoin.co/grants/2796/codework-nft',
@@ -51136,7 +51136,7 @@ export const theData = [
   },
   {
     grantId: 2800,
-    'active': true,
+    isActive: true,
     address: '0x035032655b5b3784d359b56eb82c803bd971c582',
     name: 'LogicBeach Explainer Series',
     slug: 'https://gitcoin.co/grants/2800/logicbeach-explainer-series',
@@ -51171,7 +51171,7 @@ export const theData = [
   },
   {
     grantId: 2805,
-    'active': true,
+    isActive: true,
     address: '0x532fb5d00f40ced99b16d1e295c77cda2eb1bb4f',
     name: 'The Tor Project',
     slug: 'https://gitcoin.co/grants/2805/the-tor-project',
@@ -51206,7 +51206,7 @@ export const theData = [
   },
   {
     grantId: 2807,
-    'active': true,
+    isActive: true,
     address: '0x19c04ca80c4168ea8ab469a0766a858d7172b320',
     name: 'BDI live',
     slug: 'https://gitcoin.co/grants/2807/bdi-live',
@@ -51241,7 +51241,7 @@ export const theData = [
   },
   {
     grantId: 2809,
-    'active': true,
+    isActive: true,
     address: '0x72944a176997207740f7da5d3c1dfd938e9c772e',
     name: 'Caribbean Blockchain Alliance',
     slug: 'https://gitcoin.co/grants/2809/caribbean-blockchain-alliance',
@@ -51276,7 +51276,7 @@ export const theData = [
   },
   {
     grantId: 2814,
-    'active': true,
+    isActive: true,
     address: '0x84c0190af5e489a7537e9011e8dfc38cb39cc6c6',
     name: 'Clash of Mcaps - Crypto heroes game by crypto heroes(investors) - Hold, Stake and Fight!',
     slug: 'https://gitcoin.co/grants/2814/clash-of-mcaps-crypto-heroes-game-by-crypto-heroe',
@@ -51311,7 +51311,7 @@ export const theData = [
   },
   {
     grantId: 2823,
-    'active': true,
+    isActive: true,
     address: '0x0d89421d6eec0a4385f95f410732186a2ab45077',
     name: 'Cheerbot.me => IRL crypto: DApp+robot (SMS too!)',
     slug: 'https://gitcoin.co/grants/2823/cheerbotme-irl-crypto-dapprobot-sms-too',
@@ -51346,7 +51346,7 @@ export const theData = [
   },
   {
     grantId: 2825,
-    'active': true,
+    isActive: true,
     address: '0xeb355c18a4baf212da05ed455cf2db760704d34c',
     name: 'WEB 3.0 IN AFRICA',
     slug: 'https://gitcoin.co/grants/2825/web-30-in-africa',
@@ -51381,7 +51381,7 @@ export const theData = [
   },
   {
     grantId: 2826,
-    'active': true,
+    isActive: true,
     address: '0xc34a86a20118644b454e9c7808a53c29df3483ac',
     name: 'Dev Launchers - Accessible Tech Training At Scale',
     slug: 'https://gitcoin.co/grants/2826/dev-launchers-accessible-tech-training-at-scale',
@@ -51416,7 +51416,7 @@ export const theData = [
   },
   {
     grantId: 2833,
-    'active': true,
+    isActive: true,
     address: '0x2945b24ee5e12914e4c3fec462e9409d792c3ebe',
     name: 'Using commitment voting for better DAO governance',
     slug: 'https://gitcoin.co/grants/2833/using-commitment-voting-for-better-dao-governance',
@@ -51451,7 +51451,7 @@ export const theData = [
   },
   {
     grantId: 2836,
-    'active': true,
+    isActive: true,
     address: '0x10c0b0da2a682c12bd36516a95cb8474c02d83de',
     name: 'DIGIFIZZY: A native web3 metaverse publication',
     slug: 'https://gitcoin.co/grants/2836/digifizzy-a-native-web3-metaverse-publication',
@@ -51486,7 +51486,7 @@ export const theData = [
   },
   {
     grantId: 2840,
-    'active': true,
+    isActive: true,
     address: '0xf0e1dca77b2a40113f3091b7ef6c30feb6405b3f',
     name: 'IndexPool',
     slug: 'https://gitcoin.co/grants/2840/indexpool',
@@ -51521,7 +51521,7 @@ export const theData = [
   },
   {
     grantId: 2841,
-    'active': true,
+    isActive: true,
     address: '0xe978fd91878221bbf62a5169da750cfbfb7ff5df',
     name: 'Zunami Protocol',
     slug: 'https://gitcoin.co/grants/2841/zunami-protocol',
@@ -51556,7 +51556,7 @@ export const theData = [
   },
   {
     grantId: 2843,
-    'active': true,
+    isActive: true,
     address: '0x0806c386af7feec590a2c80fa73ea7109756b060',
     name: 'Bankless Czech',
     slug: 'https://gitcoin.co/grants/2843/bankless-czech',
@@ -51591,7 +51591,7 @@ export const theData = [
   },
   {
     grantId: 2844,
-    'active': true,
+    isActive: true,
     address: '0x2333fcc3833d2e951ce8e821235ed3b729141996',
     name: '🏡nftstory - Open Source EVM NFT Storytelling Tools for Creators',
     slug: 'https://gitcoin.co/grants/2844/nftstory-open-source-evm-nft-storytelling-tools-f',
@@ -51626,7 +51626,7 @@ export const theData = [
   },
   {
     grantId: 2847,
-    'active': true,
+    isActive: true,
     address: '0x140e65fa52cc035d71edf4ca34e5c09f7c6699ad',
     name: 'NodePolicy.org - advocate crypto policy and offer insights of Asia',
     slug: 'https://gitcoin.co/grants/2847/nodepolicyorg-advocate-crypto-policy-and-offer-in',
@@ -51661,7 +51661,7 @@ export const theData = [
   },
   {
     grantId: 2851,
-    'active': true,
+    isActive: true,
     address: '0x97843608a00e2bbc75ab0c1911387e002565dede',
     name: '🏗  scaffold-eth',
     slug: 'https://gitcoin.co/grants/2851/scaffold-eth',
@@ -51696,7 +51696,7 @@ export const theData = [
   },
   {
     grantId: 2852,
-    'active': true,
+    isActive: true,
     address: '0x21eb14be414edc32a819525c231c3ee97dc811f8',
     name: 'Ant Cave Club',
     slug: 'https://gitcoin.co/grants/2852/ant-cave-club',
@@ -51731,7 +51731,7 @@ export const theData = [
   },
   {
     grantId: 2854,
-    'active': true,
+    isActive: true,
     address: '0x2d38fea5d98a94fc9bd6912ed24d78d1c25b4ac2',
     name: 'zang',
     slug: 'https://gitcoin.co/grants/2854/zang',
@@ -51766,7 +51766,7 @@ export const theData = [
   },
   {
     grantId: 2858,
-    'active': true,
+    isActive: true,
     address: '0xae7f11378daba3757e9d7691be04285938be35b5',
     name: 'OpenGuitar',
     slug: 'https://gitcoin.co/grants/2858/openguitar',
@@ -51801,7 +51801,7 @@ export const theData = [
   },
   {
     grantId: 2864,
-    'active': true,
+    isActive: true,
     address: '0x40902dfde550a22e7431be348b27a44a3c743000',
     name: 'Badger Content -Spanish Translation & Comms',
     slug: 'https://gitcoin.co/grants/2864/badger-content-spanish-translation-comms',
@@ -51836,7 +51836,7 @@ export const theData = [
   },
   {
     grantId: 2871,
-    'active': true,
+    isActive: true,
     address: '0x87122a7385fd61720d72290a6f2ed25b7eca7af7',
     name: 'Flashbots Bundle Explorer',
     slug: 'https://gitcoin.co/grants/2871/flashbots-bundle-explorer',
@@ -51871,7 +51871,7 @@ export const theData = [
   },
   {
     grantId: 2878,
-    'active': true,
+    isActive: true,
     address: '0x5f4134f010545d1ef0f19f6d6d6fcedf424ec2ca',
     name: 'AhhSun | Nfts Art',
     slug: 'https://gitcoin.co/grants/2878/ahhsun-nfts-art',
@@ -51906,7 +51906,7 @@ export const theData = [
   },
   {
     grantId: 2879,
-    'active': true,
+    isActive: true,
     address: '0xd4829702b8a23b8b1ebcd49537fc7d7d13ce31e0',
     name: 'StablePay - L2 Payments',
     slug: 'https://gitcoin.co/grants/2879/stablepay-l2-payments',
@@ -51941,7 +51941,7 @@ export const theData = [
   },
   {
     grantId: 2886,
-    'active': true,
+    isActive: true,
     address: '0x9cacba4a881641d2227ed872a0b95ab9482a32b0',
     name: 'The Chill Fund',
     slug: 'https://gitcoin.co/grants/2886/the-chill-fund',
@@ -51976,7 +51976,7 @@ export const theData = [
   },
   {
     grantId: 2887,
-    'active': true,
+    isActive: true,
     address: '0xab1163a7c620fa460b63fb66b7ac2229de187350',
     name: 'Fund for NFT art protection & monetization through NFT License standard',
     slug: 'https://gitcoin.co/grants/2887/fund-for-nft-art-protection-monetization-through-',
@@ -52011,7 +52011,7 @@ export const theData = [
   },
   {
     grantId: 2892,
-    'active': true,
+    isActive: true,
     address: '0x8afdb350650e659c3d8cb892afbb989b785a172d',
     name: 'Tokenize',
     slug: 'https://gitcoin.co/grants/2892/tokenize',
@@ -52046,7 +52046,7 @@ export const theData = [
   },
   {
     grantId: 2894,
-    'active': true,
+    isActive: true,
     address: '0xabf026c24ad7ef1fdce903f72364f255ef924c37',
     name: 'StableGaj',
     slug: 'https://gitcoin.co/grants/2894/stablegaj',
@@ -52081,7 +52081,7 @@ export const theData = [
   },
   {
     grantId: 2895,
-    'active': true,
+    isActive: true,
     address: '0x80f4ae6df4a9d3662ca74f5ee188fe84c08b7011',
     name: 'pooled',
     slug: 'https://gitcoin.co/grants/2895/pooled',
@@ -52116,7 +52116,7 @@ export const theData = [
   },
   {
     grantId: 2896,
-    'active': true,
+    isActive: true,
     address: '0xbc8c0e6bbb3d332867f9e4da74908f47eba9fb2a',
     name: 'Gringotts: Easiest way to get paid with crypto!',
     slug: 'https://gitcoin.co/grants/2896/gringotts-easiest-way-to-get-paid-with-crypto',
@@ -52151,7 +52151,7 @@ export const theData = [
   },
   {
     grantId: 2897,
-    'active': true,
+    isActive: true,
     address: '0xfed6ad230e3f9a7af6d612948dcfcfe9cccfa41e',
     name: 'HowtoNFT.org',
     slug: 'https://gitcoin.co/grants/2897/howtonftorg',
@@ -52186,7 +52186,7 @@ export const theData = [
   },
   {
     grantId: 2898,
-    'active': true,
+    isActive: true,
     address: '0xd064d7e7e7558ccad103b5f6e630298b5160c1f1',
     name: 'Covering the First U.N. Climate Transaction on Ethereum',
     slug: 'https://gitcoin.co/grants/2898/covering-the-first-un-climate-transaction-on-ethe',
@@ -52221,7 +52221,7 @@ export const theData = [
   },
   {
     grantId: 2899,
-    'active': true,
+    isActive: true,
     address: '0x9dec7f9b35705aaad0970a07260a767c3deaf206',
     name: 'FormosArt.io',
     slug: 'https://gitcoin.co/grants/2899/formosartio',
@@ -52256,7 +52256,7 @@ export const theData = [
   },
   {
     grantId: 2900,
-    'active': true,
+    isActive: true,
     address: '0x397b2da916fd53d1db9758c65972c60a2c037d78',
     name: 'Metagov - DAO governance research group (academic + industry practioners)',
     slug: 'https://gitcoin.co/grants/2900/metagov-dao-governance-research-group-academic-in',
@@ -52291,7 +52291,7 @@ export const theData = [
   },
   {
     grantId: 2902,
-    'active': true,
+    isActive: true,
     address: '0x51d8acfd750d97dd3c9ca0074e8d6f63f1153681',
     name: 'Opera Sneaker Artist Consortium',
     slug: 'https://gitcoin.co/grants/2902/opera-sneaker-artist-consortium',
@@ -52326,7 +52326,7 @@ export const theData = [
   },
   {
     grantId: 2903,
-    'active': true,
+    isActive: true,
     address: '0xd82aa4917e9704abd3a9553f828fbcab7ca295a9',
     name: 'Shub Classroom',
     slug: 'https://gitcoin.co/grants/2903/shub-classroom',
@@ -52361,7 +52361,7 @@ export const theData = [
   },
   {
     grantId: 2904,
-    'active': true,
+    isActive: true,
     address: '0x20d65fbbff7c46c6c8d1153add69f6a9fb518fec',
     name: 'Smart Invoice (built by Raid Guild)',
     slug: 'https://gitcoin.co/grants/2904/smart-invoice-built-by-raid-guild',
@@ -52396,7 +52396,7 @@ export const theData = [
   },
   {
     grantId: 2906,
-    'active': true,
+    isActive: true,
     address: '0x271e77d35df9936e1111718810c9182808b549c7',
     name: 'Babel - Compiler for next generation JavaScript',
     slug: 'https://gitcoin.co/grants/2906/babel-compiler-for-next-generation-javascript',
@@ -52431,7 +52431,7 @@ export const theData = [
   },
   {
     grantId: 2907,
-    'active': true,
+    isActive: true,
     address: '0x99999999cc597a5375399dab65931d1758d6cf04',
     name: 'Yin Finance',
     slug: 'https://gitcoin.co/grants/2907/yin-finance',
@@ -52466,7 +52466,7 @@ export const theData = [
   },
   {
     grantId: 2908,
-    'active': true,
+    isActive: true,
     address: '0xc3b3bb2595637ed2c297a2fd50c2edd4638ca38e',
     name: 'Crypto Native (video) podcast with Future Alisha',
     slug: 'https://gitcoin.co/grants/2908/crypto-native-video-podcast-with-future-alisha',
@@ -52501,7 +52501,7 @@ export const theData = [
   },
   {
     grantId: 2909,
-    'active': true,
+    isActive: true,
     address: '0x0f435396f61654bbf69f621e12d592942cd761bc',
     name: 'EthGrounds (InariDAO)',
     slug: 'https://gitcoin.co/grants/2909/ethgrounds-inaridao',
@@ -52536,7 +52536,7 @@ export const theData = [
   },
   {
     grantId: 2915,
-    'active': true,
+    isActive: true,
     address: '0xf363dfdc3a27e81d70bf31a1d4478e31341ebed1',
     name: 'hybrix | multiledger integration',
     slug: 'https://gitcoin.co/grants/2915/hybrix-multiledger-integration',
@@ -52571,7 +52571,7 @@ export const theData = [
   },
   {
     grantId: 2916,
-    'active': true,
+    isActive: true,
     address: '0xf26d1bb347a59f6c283c53156519cc1b1abaca51',
     name: 'BanklessDAO',
     slug: 'https://gitcoin.co/grants/2916/banklessdao',
@@ -52606,7 +52606,7 @@ export const theData = [
   },
   {
     grantId: 2918,
-    'active': true,
+    isActive: true,
     address: '0x9b5aacbc71feaf52b8f73def00b56e0fd875f2a5',
     name: 'MolochV3 (codename: Baal)',
     slug: 'https://gitcoin.co/grants/2918/molochv3-codename-baal',
@@ -52641,7 +52641,7 @@ export const theData = [
   },
   {
     grantId: 2919,
-    'active': true,
+    isActive: true,
     address: '0x510171fcd9b0614e3b33c093b3776a616c00cc18',
     name: 'Gitcoin Governance Moderation and Stewardship',
     slug: 'https://gitcoin.co/grants/2919/gitcoin-governance-moderation-and-stewardship',
@@ -52676,7 +52676,7 @@ export const theData = [
   },
   {
     grantId: 2922,
-    'active': true,
+    isActive: true,
     address: '0x521aacb43d89e1b8ffd64d9ef76b0a1074dedaf8',
     name: 'Gitcoin Governance - Chinese Ecosystem Development',
     slug: 'https://gitcoin.co/grants/2922/gitcoin-governance-chinese-ecosystem-development',
@@ -52711,7 +52711,7 @@ export const theData = [
   },
   {
     grantId: 2923,
-    'active': true,
+    isActive: true,
     address: '0x2930d9315bc3184ca13a5a2c0a23ce9b8e7364b4',
     name: 'Tutorial about nft and blockchain revolution in art for middle east community',
     slug: 'https://gitcoin.co/grants/2923/tutorial-about-nft-and-blockchain-revolution-in-a',
@@ -52746,7 +52746,7 @@ export const theData = [
   },
   {
     grantId: 2924,
-    'active': true,
+    isActive: true,
     address: '0xdde104d6c45906399c61aadca2d460b68ce27897',
     name: 'Blockchain for Climate Foundation - The BITMO Platform',
     slug: 'https://gitcoin.co/grants/2924/blockchain-for-climate-foundation-the-bitmo-platf',
@@ -52781,7 +52781,7 @@ export const theData = [
   },
   {
     grantId: 2925,
-    'active': true,
+    isActive: true,
     address: '0xe44a1b50fabdec32f88e16add15bc6780a27a232',
     name: 'WOTM CAPITAL',
     slug: 'https://gitcoin.co/grants/2925/wotm-capital',
@@ -52816,7 +52816,7 @@ export const theData = [
   },
   {
     grantId: 2926,
-    'active': true,
+    isActive: true,
     address: '0xbc39fb41fe0229352774930c5aa3bf1635c2665f',
     name: 'BLOCKEADAS',
     slug: 'https://gitcoin.co/grants/2926/blockeadas',
@@ -52851,7 +52851,7 @@ export const theData = [
   },
   {
     grantId: 2929,
-    'active': true,
+    isActive: true,
     address: '0x6bf1eba9740441d0a8822eda4e116a74f850d81b',
     name: 'Decentralize Gitcoin Grants',
     slug: 'https://gitcoin.co/grants/2929/decentralize-gitcoin-grants',
@@ -52886,7 +52886,7 @@ export const theData = [
   },
   {
     grantId: 2933,
-    'active': true,
+    isActive: true,
     address: '0xd95df092c180aaeb8dc9b8a9ae943dea77935d62',
     name: 'Gitcoin PuzzleSquare',
     slug: 'https://gitcoin.co/grants/2933/gitcoin-puzzlesquare',
@@ -52921,7 +52921,7 @@ export const theData = [
   },
   {
     grantId: 2939,
-    'active': true,
+    isActive: true,
     address: '0xa58ca315d6daf420eb7de59ed8008fb4291564fb',
     name: 'Whiteboard Crypto - Simple Blockchain Explanations!',
     slug: 'https://gitcoin.co/grants/2939/whiteboard-crypto-simple-blockchain-explanations',
@@ -52956,7 +52956,7 @@ export const theData = [
   },
   {
     grantId: 2941,
-    'active': true,
+    isActive: true,
     address: '0x4e9017d8e275ca54c91e056381dab9fe6ecc1af6',
     name: 'Argos Open Tech',
     slug: 'https://gitcoin.co/grants/2941/argos-open-tech',
@@ -52991,7 +52991,7 @@ export const theData = [
   },
   {
     grantId: 2943,
-    'active': true,
+    isActive: true,
     address: '0xbe026ae67432efa9ad85b897a70e0bab0dcb1cea',
     name: 'DrakeonDigital..... Daily Crypto Videos and Tutorials',
     slug: 'https://gitcoin.co/grants/2943/drakeondigital-daily-crypto-videos-and-tutorials',
@@ -53026,7 +53026,7 @@ export const theData = [
   },
   {
     grantId: 2944,
-    'active': true,
+    isActive: true,
     address: '0xbe026ae67432efa9ad85b897a70e0bab0dcb1cea',
     name: 'DrakeonDigital..... Daily Crypto Videos and Tutorials',
     slug: 'https://gitcoin.co/grants/2944/drakeondigital-daily-crypto-videos-and-tutorials',
@@ -53061,7 +53061,7 @@ export const theData = [
   },
   {
     grantId: 2946,
-    'active': true,
+    isActive: true,
     address: '0x65946ffb5fabe6d4d02f826699204336b42d436f',
     name: 'MarrowDAO: Build For Good In The Metaverse',
     slug: 'https://gitcoin.co/grants/2946/marrowdao-build-for-good-in-the-metaverse',
@@ -53096,7 +53096,7 @@ export const theData = [
   },
   {
     grantId: 2948,
-    'active': true,
+    isActive: true,
     address: '0x1208a26faa0f4ac65b42098419eb4daa5e580ac6',
     name: 'Grant Monitor - Mobile Alerts for Grant Contributions',
     slug: 'https://gitcoin.co/grants/2948/grant-monitor-mobile-alerts-for-grant-contributio',
@@ -53131,7 +53131,7 @@ export const theData = [
   },
   {
     grantId: 2951,
-    'active': true,
+    isActive: true,
     address: '0x5e80b9e6c039425cf918cf1b20c5faf8407b5f92',
     name: 'simulereum',
     slug: 'https://gitcoin.co/grants/2951/simulereum',
@@ -53166,7 +53166,7 @@ export const theData = [
   },
   {
     grantId: 2952,
-    'active': true,
+    isActive: true,
     address: '0x7d40d32c113f947540c073476ce94c3923697409',
     name: 'DeFi infrastructure for semantically connected NFTs',
     slug: 'https://gitcoin.co/grants/2952/defi-infrastructure-for-semantically-connected-nf',
@@ -53201,7 +53201,7 @@ export const theData = [
   },
   {
     grantId: 2955,
-    'active': true,
+    isActive: true,
     address: '0xe0da208c5c29d1e89b16c018303b02a89709a1ef',
     name: 'Global Government - Digital Economy - New Social Contract - New World Order',
     slug: 'https://gitcoin.co/grants/2955/global-government-digital-economy-new-social-cont',
@@ -53236,7 +53236,7 @@ export const theData = [
   },
   {
     grantId: 2959,
-    'active': true,
+    isActive: true,
     address: '0x6aa875452a622c25afd05064138fafc14e715bef',
     name: 'Designing Gender Diversity in DAOs',
     slug: 'https://gitcoin.co/grants/2959/designing-gender-diversity-in-daos',
@@ -53271,7 +53271,7 @@ export const theData = [
   },
   {
     grantId: 2964,
-    'active': true,
+    isActive: true,
     address: '0xa9f8754e967d78eb50d49c1574ee794f0c64d4e5',
     name: 'Educational DeFi Latin America',
     slug: 'https://gitcoin.co/grants/2964/educational-defi-latin-america',
@@ -53306,7 +53306,7 @@ export const theData = [
   },
   {
     grantId: 2965,
-    'active': true,
+    isActive: true,
     address: '0xfed6ad230e3f9a7af6d612948dcfcfe9cccfa41e',
     name: 'Blockchain Grants  |  BlockchainGrants.org',
     slug: 'https://gitcoin.co/grants/2965/blockchain-grants-blockchaingrantsorg',
@@ -53341,7 +53341,7 @@ export const theData = [
   },
   {
     grantId: 2966,
-    'active': true,
+    isActive: true,
     address: '0x048669c431230a9a8298b7ec045f1e1137827cca',
     name: 'Blockhead: user-friendly crypto portfolio, DeFi dashboard, and block explorer',
     slug: 'https://gitcoin.co/grants/2966/blockhead-user-friendly-crypto-portfolio-defi-das',
@@ -53376,7 +53376,7 @@ export const theData = [
   },
   {
     grantId: 2967,
-    'active': true,
+    isActive: true,
     address: '0x77396acff00c8f07316c5a53f777f335b22f3b8f',
     name: 'MetaDAO 幻境小组',
     slug: 'https://gitcoin.co/grants/2967/metadao-huan-jing-xiao-zu',
@@ -53411,7 +53411,7 @@ export const theData = [
   },
   {
     grantId: 2968,
-    'active': true,
+    isActive: true,
     address: '0x39a206e24d0cddb38e6e9c062b1c82aad298ed07',
     name: 'Cute Punk Emoji - NFT',
     slug: 'https://gitcoin.co/grants/2968/cute-punk-emoji-nft',
@@ -53446,7 +53446,7 @@ export const theData = [
   },
   {
     grantId: 2972,
-    'active': true,
+    isActive: true,
     address: '0xe21aa579a784d7903833c9392679c44d20fd5582',
     name: 'Triqũetra',
     slug: 'https://gitcoin.co/grants/2972/triquetra',
@@ -53481,7 +53481,7 @@ export const theData = [
   },
   {
     grantId: 2973,
-    'active': true,
+    isActive: true,
     address: '0x84055ffcf5f95cd642ff2dfd1eb0018488fb6b00',
     name: 'Blockchain OAU',
     slug: 'https://gitcoin.co/grants/2973/blockchain-oau',
@@ -53516,7 +53516,7 @@ export const theData = [
   },
   {
     grantId: 2974,
-    'active': true,
+    isActive: true,
     address: '0xc345b617024ac3dc6e792455cf7f7ad7e6ccda2a',
     name: 'Ethereum Lists',
     slug: 'https://gitcoin.co/grants/2974/ethereum-lists',
@@ -53551,7 +53551,7 @@ export const theData = [
   },
   {
     grantId: 2977,
-    'active': true,
+    isActive: true,
     address: '0xee1365d596b6673649ad15ea71d57b257db52b6c',
     name: 'Skytale',
     slug: 'https://gitcoin.co/grants/2977/skytale',
@@ -53586,7 +53586,7 @@ export const theData = [
   },
   {
     grantId: 2978,
-    'active': true,
+    isActive: true,
     address: '0x221457ca59d33168dad241cd547006d563dbf84f',
     name: 'Incubating Governauts 👨🏽‍🚀👩🏿‍🚀',
     slug: 'https://gitcoin.co/grants/2978/incubating-governauts',
@@ -53621,7 +53621,7 @@ export const theData = [
   },
   {
     grantId: 2979,
-    'active': true,
+    isActive: true,
     address: '0x29b1d432a40f40f5418da2d4abf740e5e491629b',
     name: 'Lighthouse',
     slug: 'https://gitcoin.co/grants/2979/lighthouse',
@@ -53656,7 +53656,7 @@ export const theData = [
   },
   {
     grantId: 2980,
-    'active': true,
+    isActive: true,
     address: '0x86d3ee9ff0983bc33b93cc8983371a500f873446',
     name: 'Bondable.xyz - Web3 Recruitment',
     slug: 'https://gitcoin.co/grants/2980/bondablexyz-web3-recruitment',
@@ -53691,7 +53691,7 @@ export const theData = [
   },
   {
     grantId: 2982,
-    'active': true,
+    isActive: true,
     address: '0xdf111fe27d03e45b6f779bfbfd7f4f32c3d6ec53',
     name: 'SafeChain',
     slug: 'https://gitcoin.co/grants/2982/safechain',
@@ -53726,7 +53726,7 @@ export const theData = [
   },
   {
     grantId: 2983,
-    'active': true,
+    isActive: true,
     address: '0x8cadb20a4811f363dadb863a190708bed26245f8',
     name: 'Revert',
     slug: 'https://gitcoin.co/grants/2983/revert',
@@ -53761,7 +53761,7 @@ export const theData = [
   },
   {
     grantId: 2984,
-    'active': true,
+    isActive: true,
     address: '0xd9faa435059070978627f6ec34fdc493e0bebb45',
     name: 'Ulises Cavenaghi - Comunicador DeFi & Crypto',
     slug: 'https://gitcoin.co/grants/2984/ulises-cavenaghi-comunicador-defi-crypto',
@@ -53796,7 +53796,7 @@ export const theData = [
   },
   {
     grantId: 2985,
-    'active': true,
+    isActive: true,
     address: '0xd07f4aeb680490a3656ab07587f6333ac4a88af3',
     name: 'ENDAOMINT',
     slug: 'https://gitcoin.co/grants/2985/endaomint',
@@ -53831,7 +53831,7 @@ export const theData = [
   },
   {
     grantId: 2986,
-    'active': true,
+    isActive: true,
     address: '0x28be0996b15149aa011c84f09ce3389cbc719fa6',
     name: 'StartFi',
     slug: 'https://gitcoin.co/grants/2986/startfi',
@@ -53866,7 +53866,7 @@ export const theData = [
   },
   {
     grantId: 2987,
-    'active': true,
+    isActive: true,
     address: '0x0c62a4563cc525401ebcdad475757d805aec5008',
     name: 'brotDAO',
     slug: 'https://gitcoin.co/grants/2987/brotdao',
@@ -53901,7 +53901,7 @@ export const theData = [
   },
   {
     grantId: 2989,
-    'active': true,
+    isActive: true,
     address: '0x9db9a11bd146e8f39dc61246c357aaa10f2f2170',
     name: 'Memes for the public goods',
     slug: 'https://gitcoin.co/grants/2989/memes-for-the-public-goods',
@@ -53936,7 +53936,7 @@ export const theData = [
   },
   {
     grantId: 2991,
-    'active': true,
+    isActive: true,
     address: '0x7ed1908819cc4e8382d3fdf145b7e2555a9fb6db',
     name: 'Duelist King - Democratizing NFT Card Game',
     slug: 'https://gitcoin.co/grants/2991/duelist-king-democratizing-nft-card-game',
@@ -53971,7 +53971,7 @@ export const theData = [
   },
   {
     grantId: 2992,
-    'active': true,
+    isActive: true,
     address: '0x0fd8348a05e93c703253c23763d4e836529bc87e',
     name: 'Designing the schwag in Gitcoin-store',
     slug: 'https://gitcoin.co/grants/2992/designing-the-schwag-in-gitcoin-store',
@@ -54006,7 +54006,7 @@ export const theData = [
   },
   {
     grantId: 2993,
-    'active': true,
+    isActive: true,
     address: '0x30b173aa09db69be9e4b919fa2678c798aa1020d',
     name: 'The North Light Project',
     slug: 'https://gitcoin.co/grants/2993/the-north-light-project',
@@ -54041,7 +54041,7 @@ export const theData = [
   },
   {
     grantId: 2996,
-    'active': true,
+    isActive: true,
     address: '0xd80eb449dcab7915b1bb82cd06c250c255d5d763',
     name: 'Cedge - Not only a Open Research Organization but a BUIDL DAO',
     slug: 'https://gitcoin.co/grants/2996/cedge-not-only-a-open-research-organization-but-a',
@@ -54076,7 +54076,7 @@ export const theData = [
   },
   {
     grantId: 2998,
-    'active': true,
+    isActive: true,
     address: '0xe4a27ea46d3997976ffd808cbe451213778f1523',
     name: 'SkyTransfer – Free, Open-Source, Decentralized and Encrypted File-Sharing',
     slug: 'https://gitcoin.co/grants/2998/skytransfer-free-open-source-decentralized-and-en',
@@ -54111,7 +54111,7 @@ export const theData = [
   },
   {
     grantId: 2999,
-    'active': true,
+    isActive: true,
     address: '0xcce1f6f4ceb0f046cf57fe8e1c409fc47afe6aab',
     name: 'NFT Patent Licensing Platform',
     slug: 'https://gitcoin.co/grants/2999/nft-patent-licensing-platform',
@@ -54146,7 +54146,7 @@ export const theData = [
   },
   {
     grantId: 3000,
-    'active': true,
+    isActive: true,
     address: '0xe555c65c7bdb142aebb1842fbaa6427626573c87',
     name: 'MANA VOX : stopping deforestation, a new coordination game to slay Moloch',
     slug: 'https://gitcoin.co/grants/3000/mana-vox-stopping-deforestation-a-new-coordinatio',
@@ -54181,7 +54181,7 @@ export const theData = [
   },
   {
     grantId: 3002,
-    'active': true,
+    isActive: true,
     address: '0x86433770dfc7d4903b9e47640a861cfa9b5b13ac',
     name: 'Own a piece of your favourite open source software',
     slug: 'https://gitcoin.co/grants/3002/own-a-piece-of-your-favourite-open-source-softwar',
@@ -54216,7 +54216,7 @@ export const theData = [
   },
   {
     grantId: 3003,
-    'active': true,
+    isActive: true,
     address: '0xb2f30ba21634bf6fc458b2a37bb709b6577fd1a8',
     name: 'Creators Float -Arts DAO',
     slug: 'https://gitcoin.co/grants/3003/creators-float-arts-dao',
@@ -54251,7 +54251,7 @@ export const theData = [
   },
   {
     grantId: 3004,
-    'active': true,
+    isActive: true,
     address: '0x230fc981f7cae90cfc4ed4c18f7c178b239e5f9f',
     name: 'Moonshot Collective',
     slug: 'https://gitcoin.co/grants/3004/moonshot-collective',
@@ -54286,7 +54286,7 @@ export const theData = [
   },
   {
     grantId: 3012,
-    'active': true,
+    isActive: true,
     address: '0x5a858fdfeb85d800753cb35b7ed254efa7d1f8f2',
     name: 'Monkey-Dagger',
     slug: 'https://gitcoin.co/grants/3012/monkey-dagger',
@@ -54321,7 +54321,7 @@ export const theData = [
   },
   {
     grantId: 3020,
-    'active': true,
+    isActive: true,
     address: '0xa519a7ce7b24333055781133b13532aeabfac81b',
     name: 'Treasury Strategy for Gitcoin - Llama',
     slug: 'https://gitcoin.co/grants/3020/treasury-strategy-for-gitcoin-llama',
@@ -54356,7 +54356,7 @@ export const theData = [
   },
   {
     grantId: 3021,
-    'active': true,
+    isActive: true,
     address: '0x55f5429343891f0a2b2a8da63a48e82da8d9f2f6',
     name: 'Metacards',
     slug: 'https://gitcoin.co/grants/3021/metacards',
@@ -54391,7 +54391,7 @@ export const theData = [
   },
   {
     grantId: 3023,
-    'active': true,
+    isActive: true,
     address: '0x9917cb69e3d398143378dba10284be842cc0ee3c',
     name: 'Blockchain training in African languages',
     slug: 'https://gitcoin.co/grants/3023/blockchain-training-in-african-languages',
@@ -54426,7 +54426,7 @@ export const theData = [
   },
   {
     grantId: 3030,
-    'active': true,
+    isActive: true,
     address: '0x3d9456ad6463a77bd77123cb4836e463030bfab4',
     name: 'The Quadratic Bard',
     slug: 'https://gitcoin.co/grants/3030/the-quadratic-bard',
@@ -54461,7 +54461,7 @@ export const theData = [
   },
   {
     grantId: 3034,
-    'active': true,
+    isActive: true,
     address: '0x7adf4491835bc2356098e9654142e7cc23a5fde7',
     name: 'Safe CDP Farmer',
     slug: 'https://gitcoin.co/grants/3034/safe-cdp-farmer',
@@ -54496,7 +54496,7 @@ export const theData = [
   },
   {
     grantId: 3039,
-    'active': true,
+    isActive: true,
     address: '0x9db9a11bd146e8f39dc61246c357aaa10f2f2170',
     name: 'Ultra Sound SHWAGG',
     slug: 'https://gitcoin.co/grants/3039/ultra-sound-shwagg',
@@ -54531,7 +54531,7 @@ export const theData = [
   },
   {
     grantId: 3043,
-    'active': true,
+    isActive: true,
     address: '0xbff680bc9f7500a9dae21d8f3a40580cc8db0d60',
     name: 'OpenRefine',
     slug: 'https://gitcoin.co/grants/3043/openrefine',
@@ -54566,7 +54566,7 @@ export const theData = [
   },
   {
     grantId: 3058,
-    'active': true,
+    isActive: true,
     address: '0xf6c1eb87f4ee1330f061a14ca245d70c1f79c5a4',
     name: 'Open Social Network',
     slug: 'https://gitcoin.co/grants/3058/open-social-network',
@@ -54601,7 +54601,7 @@ export const theData = [
   },
   {
     grantId: 3059,
-    'active': true,
+    isActive: true,
     address: '0x037e414abacc799a598314153509b6b967608bf9',
     name: 'CO2KEN —  Carbon as a money lego',
     slug: 'https://gitcoin.co/grants/3059/co2ken-carbon-as-a-money-lego',
@@ -54636,7 +54636,7 @@ export const theData = [
   },
   {
     grantId: 3062,
-    'active': true,
+    isActive: true,
     address: '0x7bea3392b6b82974855425422f058622e71754c4',
     name: 'Atlantis World',
     slug: 'https://gitcoin.co/grants/3062/atlantis-world',
@@ -54671,7 +54671,7 @@ export const theData = [
   },
   {
     grantId: 3073,
-    'active': true,
+    isActive: true,
     address: '0x77a2c2e962a1d6245a92fb6554c91c024cbe76bf',
     name: 'HODL protocol',
     slug: 'https://gitcoin.co/grants/3073/hodl-protocol',
@@ -54706,7 +54706,7 @@ export const theData = [
   },
   {
     grantId: 3075,
-    'active': true,
+    isActive: true,
     address: '0xe92c0856cf3e27873137b17716f3b47e02e712f2',
     name: 'Blockchain Visual Analyzer - Follow The Tokens!',
     slug: 'https://gitcoin.co/grants/3075/blockchain-visual-analyzer-follow-the-tokens',
@@ -54741,7 +54741,7 @@ export const theData = [
   },
   {
     grantId: 3078,
-    'active': true,
+    isActive: true,
     address: '0x9374f7ae1c74d28a3b81ebb3cba40542e1120b86',
     name: 'BigBounty',
     slug: 'https://gitcoin.co/grants/3078/bigbounty',
@@ -54776,7 +54776,7 @@ export const theData = [
   },
   {
     grantId: 3083,
-    'active': true,
+    isActive: true,
     address: '0x183af17cb6bbae108e731e8abb97a26658d13b9d',
     name: 'Residual Digital Self',
     slug: 'https://gitcoin.co/grants/3083/residual-digital-self',
@@ -54811,7 +54811,7 @@ export const theData = [
   },
   {
     grantId: 3085,
-    'active': true,
+    isActive: true,
     address: '0xd00656f316657f128e284f89cd8bbfb3f02d6ee6',
     name: 'Gitcoin Dance',
     slug: 'https://gitcoin.co/grants/3085/gitcoin-dance',
@@ -54846,7 +54846,7 @@ export const theData = [
   },
   {
     grantId: 3087,
-    'active': true,
+    isActive: true,
     address: '0x2fd03ef4fffd7c78384d34646dbabd1a43030e38',
     name: 'GOATNFT -NFT trade platform provides whole sale, split sale and lease based on various auction methods.',
     slug: 'https://gitcoin.co/grants/3087/goatnft-nft-trade-platform-provides-whole-sale-sp',
@@ -54881,7 +54881,7 @@ export const theData = [
   },
   {
     grantId: 3089,
-    'active': true,
+    isActive: true,
     address: '0x449cfdcb1f1162f045e6d392df2bc0545d671db8',
     name: 'FreeDona- a project which allows you to donate for free.',
     slug: 'https://gitcoin.co/grants/3089/freedona-a-project-which-allows-you-to-donate-for',
@@ -54916,7 +54916,7 @@ export const theData = [
   },
   {
     grantId: 3090,
-    'active': true,
+    isActive: true,
     address: '0xc22e8d32d3146efc54088f39ec9c29eaf3905b1d',
     name: 'Atelio : creating open  , blockchain based digital supply network.',
     slug: 'https://gitcoin.co/grants/3090/atelio-creating-open-blockchain-based-digital-sup',
@@ -54951,7 +54951,7 @@ export const theData = [
   },
   {
     grantId: 3091,
-    'active': true,
+    isActive: true,
     address: '0xc291aa03d4a0782a60d38701d0e9fade5a938d01',
     name: 'Blockchain Infrastructure Carbon Offset Working Group',
     slug: 'https://gitcoin.co/grants/3091/blockchain-infrastructure-carbon-offset-working-g',
@@ -54986,7 +54986,7 @@ export const theData = [
   },
   {
     grantId: 3092,
-    'active': true,
+    isActive: true,
     address: '0xfa0be852b3d0c16474dc9902a4028a01b2b5c0e5',
     name: 'BAF, Growing the Next Generation of Blockchain Experts',
     slug: 'https://gitcoin.co/grants/3092/baf-growing-the-next-generation-of-blockchain-exp',
@@ -55021,7 +55021,7 @@ export const theData = [
   },
   {
     grantId: 3094,
-    'active': true,
+    isActive: true,
     address: '0x41d8413dc9a3ddbcd2c67b1ecca72707e51f09d9',
     name: 'Hacker Paste',
     slug: 'https://gitcoin.co/grants/3094/hacker-paste',
@@ -55056,7 +55056,7 @@ export const theData = [
   },
   {
     grantId: 3101,
-    'active': true,
+    isActive: true,
     address: '0xd8faa31ee1bb73fb6c6319a870b0bac711f795d7',
     name: 'Defiant - Russian edition',
     slug: 'https://gitcoin.co/grants/3101/defiant-russian-edition',
@@ -55091,7 +55091,7 @@ export const theData = [
   },
   {
     grantId: 3104,
-    'active': true,
+    isActive: true,
     address: '0xebadc05542d22f92c8b359ca11155ee7735ed0d0',
     name: 'Nonce Finance',
     slug: 'https://gitcoin.co/grants/3104/nonce-finance',
@@ -55126,7 +55126,7 @@ export const theData = [
   },
   {
     grantId: 3109,
-    'active': true,
+    isActive: true,
     address: '0x11b2642e17bf70c834caa29a97d2030303d07069',
     name: 'Blockchain Adoption',
     slug: 'https://gitcoin.co/grants/3109/blockchain-adoption',
@@ -55161,7 +55161,7 @@ export const theData = [
   },
   {
     grantId: 3112,
-    'active': true,
+    isActive: true,
     address: '0xa707e21886d873d904fb87f5b42907ff494032ef',
     name: 'The EHR-Token',
     slug: 'https://gitcoin.co/grants/3112/the-ehr-token',
@@ -55196,7 +55196,7 @@ export const theData = [
   },
   {
     grantId: 3114,
-    'active': true,
+    isActive: true,
     address: '0x856ecff20fcf5f0001b3b7041da89bf33d7d81d3',
     name: 'Nifty_Panopticon',
     slug: 'https://gitcoin.co/grants/3114/nifty_panopticon',
@@ -55231,7 +55231,7 @@ export const theData = [
   },
   {
     grantId: 3118,
-    'active': true,
+    isActive: true,
     address: '0xb6dacfc9e6443f2546e9285ba4ae6359cdc20727',
     name: 'The Wellbeing Protocol',
     slug: 'https://gitcoin.co/grants/3118/the-wellbeing-protocol',
@@ -55266,7 +55266,7 @@ export const theData = [
   },
   {
     grantId: 3124,
-    'active': true,
+    isActive: true,
     address: '0xff5952668689db12652bd4186cb5197215522979',
     name: 'NFT Collectors Research',
     slug: 'https://gitcoin.co/grants/3124/nft-collectors-research',
@@ -55301,7 +55301,7 @@ export const theData = [
   },
   {
     grantId: 3125,
-    'active': true,
+    isActive: true,
     address: '0x2593be17dd1c31b4c124a18bac3a7ae19567ae37',
     name: 'Behodler Liquidity Protocol',
     slug: 'https://gitcoin.co/grants/3125/behodler-liquidity-protocol',
@@ -55336,7 +55336,7 @@ export const theData = [
   },
   {
     grantId: 3126,
-    'active': true,
+    isActive: true,
     address: '0xdf4db345314e1b7f3ae6031f88a4b11e0bddd428',
     name: 'Blocklatina',
     slug: 'https://gitcoin.co/grants/3126/blocklatina',
@@ -55371,7 +55371,7 @@ export const theData = [
   },
   {
     grantId: 3127,
-    'active': true,
+    isActive: true,
     address: '0x4de1b138a15d56a9d37b4106e221f3f7cfb13f5c',
     name: 'Rystem',
     slug: 'https://gitcoin.co/grants/3127/rystem',
@@ -55406,7 +55406,7 @@ export const theData = [
   },
   {
     grantId: 3133,
-    'active': true,
+    isActive: true,
     address: '0x8932eb23bad9bddb5cf81426f78279a53c6c3b71',
     name: 'Li.Finance - Cross-Chain Bridge Aggregator + Smart Routing',
     slug: 'https://gitcoin.co/grants/3133/lifinance-cross-chain-bridge-aggregator-smart-rou',
@@ -55441,7 +55441,7 @@ export const theData = [
   },
   {
     grantId: 3135,
-    'active': true,
+    isActive: true,
     address: '0x731107e690a9810befa90c62da0c67bd99dee235',
     name: 'Invulnerable Creators - DEFI / ETH Technical Tutorials',
     slug: 'https://gitcoin.co/grants/3135/invulnerable-creators-defi-eth-technical-tutorial',
@@ -55476,7 +55476,7 @@ export const theData = [
   },
   {
     grantId: 3139,
-    'active': true,
+    isActive: true,
     address: '0x2164d6b2ef215a4f46912bdd18f27a25041ebe29',
     name: 'DeFi Trader',
     slug: 'https://gitcoin.co/grants/3139/defi-trader',
@@ -55511,7 +55511,7 @@ export const theData = [
   },
   {
     grantId: 3146,
-    'active': true,
+    isActive: true,
     address: '0x2009a752a50d3cde486d7b5921944377b729e747',
     name: 'MeebitsDAO World Metaverse Fund',
     slug: 'https://gitcoin.co/grants/3146/meebitsdao-world-metaverse-fund',
@@ -55546,7 +55546,7 @@ export const theData = [
   },
   {
     grantId: 3150,
-    'active': true,
+    isActive: true,
     address: '0xb25c5e8fa1e53eeb9be3421c59f6a66b786ed77a',
     name: 'DeFi & Web3 Developer Roadmap',
     slug: 'https://gitcoin.co/grants/3150/defi-web3-developer-roadmap',
@@ -55581,7 +55581,7 @@ export const theData = [
   },
   {
     grantId: 3153,
-    'active': true,
+    isActive: true,
     address: '0x0a7eac657bd7fff5f8740b0608b8ef1ea5170adf',
     name: 'Africa Build Crypto',
     slug: 'https://gitcoin.co/grants/3153/africa-build-crypto',
@@ -55616,7 +55616,7 @@ export const theData = [
   },
   {
     grantId: 3161,
-    'active': true,
+    isActive: true,
     address: '0xa5b7922f058b4675dce7acfdc6d43e9b8ec68de6',
     name: 'Nosqlclient',
     slug: 'https://gitcoin.co/grants/3161/nosqlclient',
@@ -55651,7 +55651,7 @@ export const theData = [
   },
   {
     grantId: 3165,
-    'active': true,
+    isActive: true,
     address: '0xdca559a449c34c4f8577ae80325c521f7c4bacac',
     name: 'Building an NFT Loyalty Campaign for the Gitcoin Community',
     slug: 'https://gitcoin.co/grants/3165/building-an-nft-loyalty-campaign-for-the-gitcoin-',
@@ -55686,7 +55686,7 @@ export const theData = [
   },
   {
     grantId: 3169,
-    'active': true,
+    isActive: true,
     address: '0xa289001bd43ece47fb7f78ac0301296d32d6bb49',
     name: 'Cyber Academy',
     slug: 'https://gitcoin.co/grants/3169/cyber-academy',
@@ -55721,7 +55721,7 @@ export const theData = [
   },
   {
     grantId: 3173,
-    'active': true,
+    isActive: true,
     address: '0x32672af4edc13cf1ab5dab6c5cda5df71ad35951',
     name: 'Specie, An Impermanent Loss Solution.',
     slug: 'https://gitcoin.co/grants/3173/specie-an-impermanent-loss-solution',
@@ -55756,7 +55756,7 @@ export const theData = [
   },
   {
     grantId: 3202,
-    'active': true,
+    isActive: true,
     address: '0x5b683adbecbf11044cf9d97b3c1d47bae68341a5',
     name: 'Dash Mon[k]ey',
     slug: 'https://gitcoin.co/grants/3202/dash-monkey',
@@ -55791,7 +55791,7 @@ export const theData = [
   },
   {
     grantId: 3224,
-    'active': true,
+    isActive: true,
     address: '0xd31b671f1a398b519222fdaba5ab5464b9f2a3fa',
     name: 'Otterscan',
     slug: 'https://gitcoin.co/grants/3224/otterscan',
@@ -55826,7 +55826,7 @@ export const theData = [
   },
   {
     grantId: 3247,
-    'active': true,
+    isActive: true,
     address: '0xda402e46d028eb5586c66f5b54507175ec269d6f',
     name: 'Ethereum Translation Community CN',
     slug: 'https://gitcoin.co/grants/3247/ethereum-translation-community-cn',
@@ -55861,7 +55861,7 @@ export const theData = [
   },
   {
     grantId: 3249,
-    'active': true,
+    isActive: true,
     address: '0x447997d1dc7888a2ffc15826e7595a6f7dcc076b',
     name: 'NFTShop Your [FREE] NFT Shop Storefront on Flow Blockchain',
     slug: 'https://gitcoin.co/grants/3249/nftshop-your-free-nft-shop-storefront-on-flow-blo',
@@ -55896,7 +55896,7 @@ export const theData = [
   },
   {
     grantId: 3251,
-    'active': true,
+    isActive: true,
     address: '0x5a0ee6a4e3d190fbcd75d6d4b752047de0a25ab2',
     name: 'stakeall.finance',
     slug: 'https://gitcoin.co/grants/3251/stakeallfinance',
@@ -55931,7 +55931,7 @@ export const theData = [
   },
   {
     grantId: 3274,
-    'active': true,
+    isActive: true,
     address: '0x986dd13ccab3b637032ebedd30ef8a7fea4d6184',
     name: 'The Ethereum payment plugin for ecommerce. Buy online with ERC20 tokens.',
     slug: 'https://gitcoin.co/grants/3274/the-ethereum-payment-plugin-for-ecommerce-buy-onl',
@@ -55966,7 +55966,7 @@ export const theData = [
   },
   {
     grantId: 3277,
-    'active': true,
+    isActive: true,
     address: '0x39996591d206144fa6801cdc5fd6d94312f3d9e0',
     name: 'Ethereum Mainnet Archive Node',
     slug: 'https://gitcoin.co/grants/3277/ethereum-mainnet-archive-node',
@@ -56001,7 +56001,7 @@ export const theData = [
   },
   {
     grantId: 3278,
-    'active': true,
+    isActive: true,
     address: '0xe22a79e830b486d1d1448ef8ab6704f41c2cb8f0',
     name: 'MatrixETF - The Next Generation of ETF',
     slug: 'https://gitcoin.co/grants/3278/matrixetf-the-next-generation-of-etf',
@@ -56036,7 +56036,7 @@ export const theData = [
   },
   {
     grantId: 3287,
-    'active': true,
+    isActive: true,
     address: '0x91df2c0e91e07b97cac550decf7b5f43266f51ef',
     name: 'EnsTree',
     slug: 'https://gitcoin.co/grants/3287/enstree',
@@ -56071,7 +56071,7 @@ export const theData = [
   },
   {
     grantId: 3292,
-    'active': true,
+    isActive: true,
     address: '0x95900afdf214860740e85deef69b1b0e422b64ec',
     name: 'Question Wiki',
     slug: 'https://gitcoin.co/grants/3292/question-wiki',
@@ -56106,7 +56106,7 @@ export const theData = [
   },
   {
     grantId: 3324,
-    'active': true,
+    isActive: true,
     address: '0x6afb2274ef9b66247528dd874bf1b97759547e35',
     name: 'IPFSpace',
     slug: 'https://gitcoin.co/grants/3324/ipfspace',
@@ -56141,7 +56141,7 @@ export const theData = [
   },
   {
     grantId: 3325,
-    'active': true,
+    isActive: true,
     address: '0x11d28e412d3bd34fe288b09797398120b53eb12e',
     name: 'Proyecto Hormiga',
     slug: 'https://gitcoin.co/grants/3325/proyecto-hormiga',
@@ -56176,7 +56176,7 @@ export const theData = [
   },
   {
     grantId: 3326,
-    'active': true,
+    isActive: true,
     address: '0xd72eb69fd6c6bd55c7304d1afa38e9eb253eb6f6',
     name: 'PVD Things - Library of Things software',
     slug: 'https://gitcoin.co/grants/3326/pvd-things-library-of-things-software',
@@ -56211,7 +56211,7 @@ export const theData = [
   },
   {
     grantId: 3329,
-    'active': true,
+    isActive: true,
     address: '0x1a1eaa933226f913c248a158d20be05735b9d343',
     name: 'Party Board Metaverse',
     slug: 'https://gitcoin.co/grants/3329/party-board-metaverse',
@@ -56246,7 +56246,7 @@ export const theData = [
   },
   {
     grantId: 3334,
-    'active': true,
+    isActive: true,
     address: '0xc62e1e7513dc973127c292578ac1ba098792b00f',
     name: 'Multifarm.fi - A Yieldfarm Data Aggregation Platform',
     slug: 'https://gitcoin.co/grants/3334/multifarmfi-a-yieldfarm-data-aggregation-platform',
@@ -56281,7 +56281,7 @@ export const theData = [
   },
   {
     grantId: 3335,
-    'active': true,
+    isActive: true,
     address: '0xaa8243c435556103511ed543845b19b00dfc673d',
     name: 'Ruby: Cryptographic Infrastructure for Data Monetization',
     slug: 'https://gitcoin.co/grants/3335/ruby-cryptographic-infrastructure-for-data-moneti',
@@ -56316,7 +56316,7 @@ export const theData = [
   },
   {
     grantId: 3336,
-    'active': true,
+    isActive: true,
     address: '0x5ba8b36189fcbaa64e5fa6d5c818f35704d0ca2d',
     name: 'ProFi',
     slug: 'https://gitcoin.co/grants/3336/profi',
@@ -56351,7 +56351,7 @@ export const theData = [
   },
   {
     grantId: 3337,
-    'active': true,
+    isActive: true,
     address: '0xc8f7e7436f7f967de67825a25286a04244cbe066',
     name: 'Boske Web3 Learning | Free, relevant and high quality for Latam',
     slug: 'https://gitcoin.co/grants/3337/boske-web3-learning-free-relevant-and-high-qualit',
@@ -56386,7 +56386,7 @@ export const theData = [
   },
   {
     grantId: 3350,
-    'active': true,
+    isActive: true,
     address: '0xffe0f0c57e858c8fccc83fe73fa668eef535dd73',
     name: 'OffChain Global',
     slug: 'https://gitcoin.co/grants/3350/offchain-global',
@@ -56421,7 +56421,7 @@ export const theData = [
   },
   {
     grantId: 3353,
-    'active': true,
+    isActive: true,
     address: '0xefbce2fca3638e87c7464d2f97072e54efe0a9aa',
     name: '[MetaCartel] MCon2021 Denver',
     slug: 'https://gitcoin.co/grants/3353/metacartel-mcon2021-denver',
@@ -56456,7 +56456,7 @@ export const theData = [
   },
   {
     grantId: 3356,
-    'active': true,
+    isActive: true,
     address: '0xa8aced845a63fa4413ce48cee208c65e39208f71',
     name: 'DAOrayaki',
     slug: 'https://gitcoin.co/grants/3356/daorayaki',
@@ -56491,7 +56491,7 @@ export const theData = [
   },
   {
     grantId: 3357,
-    'active': true,
+    isActive: true,
     address: '0xe43df5d7242ea18a8085feece9e479176a9350fd',
     name: 'Buidltxn',
     slug: 'https://gitcoin.co/grants/3357/buidltxn',
@@ -56526,7 +56526,7 @@ export const theData = [
   },
   {
     grantId: 3358,
-    'active': true,
+    isActive: true,
     address: '0x76a1c9178803ba196980ac84a976350bf08aea73',
     name: 'Optional',
     slug: 'https://gitcoin.co/grants/3358/optional',
@@ -56561,7 +56561,7 @@ export const theData = [
   },
   {
     grantId: 3360,
-    'active': true,
+    isActive: true,
     address: '0xd7db3b3300e9d15e680807381d8b21e2b0773402',
     name: 'Uncryptd - Learning to Web3 with Crypto Incentives',
     slug: 'https://gitcoin.co/grants/3360/uncryptd-learning-to-web3-with-crypto-incentives',
@@ -56596,7 +56596,7 @@ export const theData = [
   },
   {
     grantId: 3363,
-    'active': true,
+    isActive: true,
     address: '0xcded4644e025e9792352cee1b31f410adb7c9fc6',
     name: 'Kamama: A blog about crypto',
     slug: 'https://gitcoin.co/grants/3363/kamama-a-blog-about-crypto',
@@ -56631,7 +56631,7 @@ export const theData = [
   },
   {
     grantId: 3364,
-    'active': true,
+    isActive: true,
     address: '0x242ba6d68ffeb4a098b591b32d370f973ff882b7',
     name: 'Blockscout',
     slug: 'https://gitcoin.co/grants/3364/blockscout',
@@ -56666,7 +56666,7 @@ export const theData = [
   },
   {
     grantId: 3368,
-    'active': true,
+    isActive: true,
     address: '0xb4ec87e5245566cc5d4c7073588c779a08e88158',
     name: 'OpenFrontEnds',
     slug: 'https://gitcoin.co/grants/3368/openfrontends',
@@ -56701,7 +56701,7 @@ export const theData = [
   },
   {
     grantId: 3371,
-    'active': true,
+    isActive: true,
     address: '0xb8029be9abfd2ee7b1303112a8681d23ba42b622',
     name: 'Awesome Solidity',
     slug: 'https://gitcoin.co/grants/3371/awesome-solidity',
@@ -56736,7 +56736,7 @@ export const theData = [
   },
   {
     grantId: 3372,
-    'active': true,
+    isActive: true,
     address: '0xa053473dda59994682f8e96990ffc36aa982782b',
     name: 'zkApe - Turkish newsletter about #zeroknowledge.',
     slug: 'https://gitcoin.co/grants/3372/zkape-turkish-newsletter-about-zeroknowledge',
@@ -56771,7 +56771,7 @@ export const theData = [
   },
   {
     grantId: 3374,
-    'active': true,
+    isActive: true,
     address: '0xf2df9c7dbd6181bac491274388727539970be501',
     name: 'CryptoAvisos',
     slug: 'https://gitcoin.co/grants/3374/cryptoavisos',
@@ -56806,7 +56806,7 @@ export const theData = [
   },
   {
     grantId: 3378,
-    'active': true,
+    isActive: true,
     address: '0x59a70f6394fc4611245876f423eec29c570ec219',
     name: 'Bake My Token - Create your Ethereum, Polygon ERC20, BEP20 token in seconds',
     slug: 'https://gitcoin.co/grants/3378/bake-my-token-create-your-ethereum-polygon-erc20-',
@@ -56841,7 +56841,7 @@ export const theData = [
   },
   {
     grantId: 3379,
-    'active': true,
+    isActive: true,
     address: '0x83b08111c4b42cb7188118ebd6739749384077c4',
     name: 'Help us go B.E.A.S.T. M.O.D.E on breaks',
     slug: 'https://gitcoin.co/grants/3379/help-us-go-beast-mode-on-breaks',
@@ -56876,7 +56876,7 @@ export const theData = [
   },
   {
     grantId: 3384,
-    'active': true,
+    isActive: true,
     address: '0x6ad1fa74815c6952f9558f221da822d52059a266',
     name: 'Secure Remote Password with Ethereum Name Service',
     slug: 'https://gitcoin.co/grants/3384/secure-remote-password-with-ethereum-name-service',
@@ -56911,7 +56911,7 @@ export const theData = [
   },
   {
     grantId: 3385,
-    'active': true,
+    isActive: true,
     address: '0x6ef91a90c46201da680430b49583bf3b47ffac26',
     name: 'Fund to create tutorial on using Unity3D with Ethereum',
     slug: 'https://gitcoin.co/grants/3385/fund-to-create-tutorial-on-using-unity3d-with-eth',
@@ -56946,7 +56946,7 @@ export const theData = [
   },
   {
     grantId: 3386,
-    'active': true,
+    isActive: true,
     address: '0x22d2aa904a8b61154c1bf4d2d5600ca0ede39603',
     name: 'The CatalanDAO - Building the first digital nation DAO!',
     slug: 'https://gitcoin.co/grants/3386/the-catalandao-building-the-first-digital-nation-',
@@ -56981,7 +56981,7 @@ export const theData = [
   },
   {
     grantId: 3389,
-    'active': true,
+    isActive: true,
     address: '0xfb3bf2fa1ef3bea88eef282eab2cd2621ee2011a',
     name: 'NFT Price Floor',
     slug: 'https://gitcoin.co/grants/3389/nft-price-floor',
@@ -57016,7 +57016,7 @@ export const theData = [
   },
   {
     grantId: 3390,
-    'active': true,
+    isActive: true,
     address: '0x1de991c20110569bad46d2dfe4a5752b34cdfe59',
     name: 'iCryptoNode - Bitcoin & Raspberry Pi Monero Node',
     slug: 'https://gitcoin.co/grants/3390/icryptonode-bitcoin-raspberry-pi-monero-node',
@@ -57051,7 +57051,7 @@ export const theData = [
   },
   {
     grantId: 3393,
-    'active': true,
+    isActive: true,
     address: '0x67221b267cee49427baa0974ceac988682192977',
     name: 'Uniswap and DAOs library development',
     slug: 'https://gitcoin.co/grants/3393/uniswap-and-daos-library-development',
@@ -57086,7 +57086,7 @@ export const theData = [
   },
   {
     grantId: 3395,
-    'active': true,
+    isActive: true,
     address: '0xae7f11378daba3757e9d7691be04285938be35b5',
     name: 'Alas DAO',
     slug: 'https://gitcoin.co/grants/3395/alas-dao',
@@ -57121,7 +57121,7 @@ export const theData = [
   },
   {
     grantId: 3400,
-    'active': true,
+    isActive: true,
     address: '0xc5dd9ee7c30c2f9fb1d268fceb6f43ccd9c21a8c',
     name: 'NFT Library',
     slug: 'https://gitcoin.co/grants/3400/nft-library',
@@ -57156,7 +57156,7 @@ export const theData = [
   },
   {
     grantId: 3401,
-    'active': true,
+    isActive: true,
     address: '0x85f5a4e1fc4f44a014b940a224dde22d6e73f2dc',
     name: 'Turning tables into charts, my e-book readers feature',
     slug: 'https://gitcoin.co/grants/3401/turning-tables-into-charts-my-e-book-readers-feat',
@@ -57191,7 +57191,7 @@ export const theData = [
   },
   {
     grantId: 3408,
-    'active': true,
+    isActive: true,
     address: '0xcd4db18b6664a9662123d4307b074ae968535388',
     name: '🎨 ART Library for Python',
     slug: 'https://gitcoin.co/grants/3408/art-library-for-python',
@@ -57226,7 +57226,7 @@ export const theData = [
   },
   {
     grantId: 3410,
-    'active': true,
+    isActive: true,
     address: '0x47d7ac22636c5e8b81d93a65df6617db72e74ce4',
     name: 'Arweave PermPic',
     slug: 'https://gitcoin.co/grants/3410/arweave-permpic',
@@ -57261,7 +57261,7 @@ export const theData = [
   },
   {
     grantId: 3411,
-    'active': true,
+    isActive: true,
     address: '0x244ebeb9fe1ece439a886fb1f1b143a8bc44de40',
     name: 'Convert Crypto Corgis NFTs into 3d voxel programmatically',
     slug: 'https://gitcoin.co/grants/3411/convert-crypto-corgis-nfts-into-3d-voxel-programm',
@@ -57296,7 +57296,7 @@ export const theData = [
   },
   {
     grantId: 3414,
-    'active': true,
+    isActive: true,
     address: '0x1f7b953113f4dfcbf56a1688529cc812865840e1',
     name: 'DApp Learning developer group',
     slug: 'https://gitcoin.co/grants/3414/dapp-learning-developer-group',
@@ -57331,7 +57331,7 @@ export const theData = [
   },
   {
     grantId: 3416,
-    'active': true,
+    isActive: true,
     address: '0x88e1aea1d6e93cda2eb0c6eaf5051be1e76eb750',
     name: 'Manna Dev Fund',
     slug: 'https://gitcoin.co/grants/3416/manna-dev-fund',
@@ -57366,7 +57366,7 @@ export const theData = [
   },
   {
     grantId: 3422,
-    'active': true,
+    isActive: true,
     address: '0x5c26b0556fb32fe6e52a58ff29b48142e56fe23f',
     name: 'nobumei Newsletter',
     slug: 'https://gitcoin.co/grants/3422/nobumei-newsletter',
@@ -57401,7 +57401,7 @@ export const theData = [
   },
   {
     grantId: 3425,
-    'active': true,
+    isActive: true,
     address: '0x3d3d3d7bbe26cce6c143a8d72503b211ba80b753',
     name: 't3rm.dev',
     slug: 'https://gitcoin.co/grants/3425/t3rmdev',
@@ -57436,7 +57436,7 @@ export const theData = [
   },
   {
     grantId: 3429,
-    'active': true,
+    isActive: true,
     address: '0x1253594843798ff0fcd7fa221b820c2d3ca58fd5',
     name: 'Physical <<>> Digital',
     slug: 'https://gitcoin.co/grants/3429/physical-digital',
@@ -57471,7 +57471,7 @@ export const theData = [
   },
   {
     grantId: 3432,
-    'active': true,
+    isActive: true,
     address: '0x8923c04a757f0c7837c8b6c00dce45a1928f09ae',
     name: 'Audio Software for EVM',
     slug: 'https://gitcoin.co/grants/3432/audio-software-for-evm',
@@ -57506,7 +57506,7 @@ export const theData = [
   },
   {
     grantId: 3435,
-    'active': true,
+    isActive: true,
     address: '0xede187ce07b5dd0c48b6a76c76fb317d5c3b89ea',
     name: 'What the Hell is Blockchain?.. Educational Project',
     slug: 'https://gitcoin.co/grants/3435/what-the-hell-is-blockchain-educational-project',
@@ -57541,7 +57541,7 @@ export const theData = [
   },
   {
     grantId: 3443,
-    'active': true,
+    isActive: true,
     address: '0x899d0ef4a3ad873df83e9a4472a15503952a16a0',
     name: 'Bitcoin Automatic Investment',
     slug: 'https://gitcoin.co/grants/3443/bitcoin-automatic-investment',
@@ -57576,7 +57576,7 @@ export const theData = [
   },
   {
     grantId: 3450,
-    'active': true,
+    isActive: true,
     address: '0xe4bd6790b7b800f44bd2fec56e021263473c550c',
     name: 'Chess. Crypto. Cultivation',
     slug: 'https://gitcoin.co/grants/3450/chess-crypto-cultivation',
@@ -57611,7 +57611,7 @@ export const theData = [
   },
   {
     grantId: 3451,
-    'active': true,
+    isActive: true,
     address: '0x63b7608b7f47de1c0d1f94f85ffcb260fbcb4890',
     name: 'Add BLAKE2 into W3C SRI spec',
     slug: 'https://gitcoin.co/grants/3451/add-blake2-into-w3c-sri-spec',
@@ -57646,7 +57646,7 @@ export const theData = [
   },
   {
     grantId: 3457,
-    'active': true,
+    isActive: true,
     address: '0xdbb16c68aa373229db9f37d85087264361691ab9',
     name: 'eth-wizard: An Ethereum validator installation wizard',
     slug: 'https://gitcoin.co/grants/3457/eth-wizard-an-ethereum-validator-installation-wiz',
@@ -57681,7 +57681,7 @@ export const theData = [
   },
   {
     grantId: 3458,
-    'active': true,
+    isActive: true,
     address: '0x75bb1efc6607780a9dcb80d69e134aa5fb03467a',
     name: 'Crypto Communities',
     slug: 'https://gitcoin.co/grants/3458/crypto-communities',
@@ -57716,7 +57716,7 @@ export const theData = [
   },
   {
     grantId: 3463,
-    'active': true,
+    isActive: true,
     address: '0x9c90aef0030f2681b3c7206be35bb6698220f419',
     name: 'Opencart Extensions',
     slug: 'https://gitcoin.co/grants/3463/opencart-extensions',
@@ -57751,7 +57751,7 @@ export const theData = [
   },
   {
     grantId: 3468,
-    'active': true,
+    isActive: true,
     address: '0x6a765f761588e00c6a1b2b4e5bab33c55e9c239a',
     name: 'Ethereum Core Developer Apprenticeship Program',
     slug: 'https://gitcoin.co/grants/3468/ethereum-core-developer-apprenticeship-program',
@@ -57786,7 +57786,7 @@ export const theData = [
   },
   {
     grantId: 3472,
-    'active': true,
+    isActive: true,
     address: '0x85b0a175b839f5051b7806d07acf45ec9c954a21',
     name: 'THE DOPE SEA -Saving the ocean one collection at a time',
     slug: 'https://gitcoin.co/grants/3472/the-dope-sea-saving-the-ocean-one-collection-at-a',
@@ -57821,7 +57821,7 @@ export const theData = [
   },
   {
     grantId: 3474,
-    'active': true,
+    isActive: true,
     address: '0x58ca5f49b90d0942e3d91c0b2e8dcd40524886bf',
     name: 'Crypto investors are in the dark about their portfolios.',
     slug: 'https://gitcoin.co/grants/3474/crypto-investors-are-in-the-dark-about-their-port',
@@ -57856,7 +57856,7 @@ export const theData = [
   },
   {
     grantId: 3475,
-    'active': true,
+    isActive: true,
     address: '0x0384610bf8e9292ec499145cb126e32a17e7ccd6',
     name: 'Nectar: L2 + Healthcare',
     slug: 'https://gitcoin.co/grants/3475/nectar-l2-healthcare',
@@ -57891,7 +57891,7 @@ export const theData = [
   },
   {
     grantId: 3479,
-    'active': true,
+    isActive: true,
     address: '0xe25457dfdfa299df27c7648943ec4283933d07fa',
     name: 'Crypto-Educate & Feed the Needy.',
     slug: 'https://gitcoin.co/grants/3479/crypto-educate-feed-the-needy',
@@ -57926,7 +57926,7 @@ export const theData = [
   },
   {
     grantId: 3482,
-    'active': true,
+    isActive: true,
     address: '0x09fa173babff3787c14192d6c4dfb4ed4cff0bff',
     name: 'Start a secure chat using only a URL',
     slug: 'https://gitcoin.co/grants/3482/start-a-secure-chat-using-only-a-url',
@@ -57961,7 +57961,7 @@ export const theData = [
   },
   {
     grantId: 3485,
-    'active': true,
+    isActive: true,
     address: '0x09fa173babff3787c14192d6c4dfb4ed4cff0bff',
     name: 'Make your ownership verifiable',
     slug: 'https://gitcoin.co/grants/3485/make-your-ownership-verifiable',
@@ -57996,7 +57996,7 @@ export const theData = [
   },
   {
     grantId: 3486,
-    'active': true,
+    isActive: true,
     address: '0x4090eaa71aaae6a57b88fecdc5d8984598adc0d6',
     name: 'Low Budget Stories',
     slug: 'https://gitcoin.co/grants/3486/low-budget-stories',
@@ -58031,7 +58031,7 @@ export const theData = [
   },
   {
     grantId: 3489,
-    'active': true,
+    isActive: true,
     address: '0x7c3f365416f48bfb6c5de6201d343ab32a5096f1',
     name: 'Crypto Disciple Tutorials on YouTube',
     slug: 'https://gitcoin.co/grants/3489/crypto-disciple-tutorials-on-youtube',
@@ -58066,7 +58066,7 @@ export const theData = [
   },
   {
     grantId: 3491,
-    'active': true,
+    isActive: true,
     address: '0xb4078042766a6ec8f813cb4ceedced4f5e10ec6c',
     name: 'The Daily Gwei en Español',
     slug: 'https://gitcoin.co/grants/3491/the-daily-gwei-en-espanol',
@@ -58101,7 +58101,7 @@ export const theData = [
   },
   {
     grantId: 3492,
-    'active': true,
+    isActive: true,
     address: '0x523da324fe038360fe08799c2bb3e9b5172bfdcc',
     name: 'The Rainbowland Developing Fund',
     slug: 'https://gitcoin.co/grants/3492/the-rainbowland-developing-fund',
@@ -58136,7 +58136,7 @@ export const theData = [
   },
   {
     grantId: 3494,
-    'active': true,
+    isActive: true,
     address: '0xf7e72865cf3e2c4f6970f628b2e84bdf3edca222',
     name: 'ETHTurin Meetup & Devshop | on-chain Copyright R&D',
     slug: 'https://gitcoin.co/grants/3494/ethturin-meetup-devshop-on-chain-copyright-rd',
@@ -58171,7 +58171,7 @@ export const theData = [
   },
   {
     grantId: 3496,
-    'active': true,
+    isActive: true,
     address: '0x09fa173babff3787c14192d6c4dfb4ed4cff0bff',
     name: 'The easiest debugger tool for Smart Contracts',
     slug: 'https://gitcoin.co/grants/3496/the-easiest-debugger-tool-for-smart-contracts',
@@ -58206,7 +58206,7 @@ export const theData = [
   },
   {
     grantId: 3497,
-    'active': true,
+    isActive: true,
     address: '0x7e2213f499920c35346f3bf881d86748b12c23b4',
     name: '🌱Fracton Incubation 2021🌱',
     slug: 'https://gitcoin.co/grants/3497/fracton-incubation-2021',
@@ -58241,7 +58241,7 @@ export const theData = [
   },
   {
     grantId: 3501,
-    'active': true,
+    isActive: true,
     address: '0xdfe7fa6ea08c93dc570f158bc5b7ea257beb0d04',
     name: 'Nocturnal Finance',
     slug: 'https://gitcoin.co/grants/3501/nocturnal-finance',
@@ -58276,7 +58276,7 @@ export const theData = [
   },
   {
     grantId: 3502,
-    'active': true,
+    isActive: true,
     address: '0xbc1691780c0578e736323380a9c5ffd2ca578360',
     name: 'Ethereum Daily- Flash Briefing Podcast',
     slug: 'https://gitcoin.co/grants/3502/ethereum-daily-flash-briefing-podcast',
@@ -58311,7 +58311,7 @@ export const theData = [
   },
   {
     grantId: 3504,
-    'active': true,
+    isActive: true,
     address: '0x893d80144d0a439bbe29bc74024a29f361560c64',
     name: 'Web3 Kotlin Multiplatform',
     slug: 'https://gitcoin.co/grants/3504/web3-kotlin-multiplatform',
@@ -58346,7 +58346,7 @@ export const theData = [
   },
   {
     grantId: 3506,
-    'active': true,
+    isActive: true,
     address: '0x2eb0c482802e174f51b5869b30ed9c8faab4fa31',
     name: 'Help Apex ETH become world champs of World Chase Tag',
     slug: 'https://gitcoin.co/grants/3506/help-apex-eth-become-world-champs-of-world-chase-',
@@ -58381,7 +58381,7 @@ export const theData = [
   },
   {
     grantId: 3509,
-    'active': true,
+    isActive: true,
     address: '0x998f25be40241ca5d8f5fcaf3591b5ed06ef3be7',
     name: 'Freedom of the Press Foundation',
     slug: 'https://gitcoin.co/grants/3509/freedom-of-the-press-foundation',
@@ -58416,7 +58416,7 @@ export const theData = [
   },
   {
     grantId: 3510,
-    'active': true,
+    isActive: true,
     address: '0x8c3fa50473065f1d90f186ca8ba1aa76aee409bb',
     name: 'Defi SDK Polywrapper',
     slug: 'https://gitcoin.co/grants/3510/defi-sdk-polywrapper',
@@ -58451,7 +58451,7 @@ export const theData = [
   },
   {
     grantId: 3511,
-    'active': true,
+    isActive: true,
     address: '0x79a375fefbf90878502eadba4a89697896b60c4d',
     name: 'ETHTalk',
     slug: 'https://gitcoin.co/grants/3511/ethtalk',
@@ -58486,7 +58486,7 @@ export const theData = [
   },
   {
     grantId: 3515,
-    'active': true,
+    isActive: true,
     address: '0x08ed16fd7835ef11bc367ae0c7a4f0c60ffcf5ed',
     name: 'Project NFM',
     slug: 'https://gitcoin.co/grants/3515/project-nfm',
@@ -58521,7 +58521,7 @@ export const theData = [
   },
   {
     grantId: 3522,
-    'active': true,
+    isActive: true,
     address: '0xd6eef6a4ceb9270776d6b388cfaba62f5bc3357f',
     name: 'Krebit',
     slug: 'https://gitcoin.co/grants/3522/krebit',
@@ -58556,7 +58556,7 @@ export const theData = [
   },
   {
     grantId: 3523,
-    'active': true,
+    isActive: true,
     address: '0x1ab00002285b89ac0673411d23e0634dda8b3069',
     name: 'Archival of the Ethereum Blockchain for >10,000 years using DNA storage',
     slug: 'https://gitcoin.co/grants/3523/archival-of-the-ethereum-blockchain-for-10000-yea',
@@ -58591,7 +58591,7 @@ export const theData = [
   },
   {
     grantId: 3524,
-    'active': true,
+    isActive: true,
     address: '0x11cdfcb54576d5990219c426bf2c630115a2012a',
     name: 'OURZ',
     slug: 'https://gitcoin.co/grants/3524/ourz',
@@ -58626,7 +58626,7 @@ export const theData = [
   },
   {
     grantId: 3525,
-    'active': true,
+    isActive: true,
     address: '0x3cbd59d368c543307722596345882d3b1d99df55',
     name: 'FlashNFT',
     slug: 'https://gitcoin.co/grants/3525/flashnft',
@@ -58661,7 +58661,7 @@ export const theData = [
   },
   {
     grantId: 3526,
-    'active': true,
+    isActive: true,
     address: '0xf4844a06d4f995c4c03195afcb5aa59dcbb5b4fc',
     name: 'UNI Letters',
     slug: 'https://gitcoin.co/grants/3526/uni-letters',
@@ -58696,7 +58696,7 @@ export const theData = [
   },
   {
     grantId: 3527,
-    'active': true,
+    isActive: true,
     address: '0x65a1c6af8bf4d7d28f17f9ea09413faa63f4aefa',
     name: 'SolTomm',
     slug: 'https://gitcoin.co/grants/3527/soltomm',
@@ -58731,7 +58731,7 @@ export const theData = [
   },
   {
     grantId: 3530,
-    'active': true,
+    isActive: true,
     address: '0x2bb82c9a194b1a28b4dc0546e0564ae95da846a5',
     name: 'BanklessHi',
     slug: 'https://gitcoin.co/grants/3530/banklesshi',
@@ -58766,7 +58766,7 @@ export const theData = [
   },
   {
     grantId: 3531,
-    'active': true,
+    isActive: true,
     address: '0x5cca8df0a20bb0d0f6e090989ec55f0323de8bf2',
     name: 'Dataverse: Curate NFTs from around the web with one click',
     slug: 'https://gitcoin.co/grants/3531/dataverse-curate-nfts-from-around-the-web-with-on',
@@ -58801,7 +58801,7 @@ export const theData = [
   },
   {
     grantId: 3533,
-    'active': true,
+    isActive: true,
     address: '0x08cff4102a31e3e8e63244955faa830fb368d721',
     name: 'Newsroom DAO',
     slug: 'https://gitcoin.co/grants/3533/newsroom-dao',
@@ -58836,7 +58836,7 @@ export const theData = [
   },
   {
     grantId: 3535,
-    'active': true,
+    isActive: true,
     address: '0xf80cd14ec747b2adf7b1a9911b38c65a885daeea',
     name: 'Bankless Academy',
     slug: 'https://gitcoin.co/grants/3535/bankless-academy',
@@ -58871,7 +58871,7 @@ export const theData = [
   },
   {
     grantId: 3536,
-    'active': true,
+    isActive: true,
     address: '0x13a9aacdd7989ddaa56f9a9e40fd686f02675d00',
     name: 'Deep Work Skill Attestation Protocol - MVP',
     slug: 'https://gitcoin.co/grants/3536/deep-work-skill-attestation-protocol-mvp',
@@ -58906,7 +58906,7 @@ export const theData = [
   },
   {
     grantId: 3537,
-    'active': true,
+    isActive: true,
     address: '0x63b7608b7f47de1c0d1f94f85ffcb260fbcb4890',
     name: 'Python Package Index',
     slug: 'https://gitcoin.co/grants/3537/python-package-index',
@@ -58941,7 +58941,7 @@ export const theData = [
   },
   {
     grantId: 3562,
-    'active': true,
+    isActive: true,
     address: '0x33e9ba56e53fd12bcc126ce9b28d1843cae71c10',
     name: 'Gastly Gas Price Chrome Extension',
     slug: 'https://gitcoin.co/grants/3562/gastly-gas-price-chrome-extension',
@@ -58976,7 +58976,7 @@ export const theData = [
   },
   {
     grantId: 3563,
-    'active': true,
+    isActive: true,
     address: '0x8242e94a86d1e58b6537c78a1524a142ca470542',
     name: 'Utopia42',
     slug: 'https://gitcoin.co/grants/3563/utopia42',
@@ -59011,7 +59011,7 @@ export const theData = [
   },
   {
     grantId: 3564,
-    'active': true,
+    isActive: true,
     address: '0x997d35b300ba1775fdb175df045252e57d6ea5b0',
     name: 'test grant',
     slug: 'https://gitcoin.co/grants/3564/test-grant',
@@ -59046,7 +59046,7 @@ export const theData = [
   },
   {
     grantId: 3566,
-    'active': true,
+    isActive: true,
     address: '0xe21aa579a784d7903833c9392679c44d20fd5582',
     name: 'Quartile',
     slug: 'https://gitcoin.co/grants/3566/quartile',
@@ -59081,7 +59081,7 @@ export const theData = [
   },
   {
     grantId: 3567,
-    'active': true,
+    isActive: true,
     address: '0xaab97b2ac4526e62b69a66d119ae699062b5f720',
     name: 'The Rhada Protocol',
     slug: 'https://gitcoin.co/grants/3567/the-rhada-protocol',
@@ -59116,7 +59116,7 @@ export const theData = [
   },
   {
     grantId: 3569,
-    'active': true,
+    isActive: true,
     address: '0x2d4a4b5deee8bcdf6f71dfab300d9f2b4f9dec66',
     name: 'People Supported Intelligence',
     slug: 'https://gitcoin.co/grants/3569/people-supported-intelligence',
@@ -59151,7 +59151,7 @@ export const theData = [
   },
   {
     grantId: 3570,
-    'active': true,
+    isActive: true,
     address: '0xf649013690e5f251e0b1e8010026b9b492c3959f',
     name: 'PathOfDao',
     slug: 'https://gitcoin.co/grants/3570/pathofdao',
@@ -59186,7 +59186,7 @@ export const theData = [
   },
   {
     grantId: 3571,
-    'active': true,
+    isActive: true,
     address: '0x948436ef603569edc44058e8b00d28131233cfed',
     name: 'Zouzoukwa: Promoting African cultures on the blockchain',
     slug: 'https://gitcoin.co/grants/3571/zouzoukwa-promoting-african-cultures-on-the-block',
@@ -59221,7 +59221,7 @@ export const theData = [
   },
   {
     grantId: 3574,
-    'active': true,
+    isActive: true,
     address: '0x94c1401b0e351eeecd82e344bd58fd42bd68d5c3',
     name: 'BAD 2.0 (Blockchain Art Directory)',
     slug: 'https://gitcoin.co/grants/3574/bad-20-blockchain-art-directory',
@@ -59256,7 +59256,7 @@ export const theData = [
   },
   {
     grantId: 3576,
-    'active': true,
+    isActive: true,
     address: '0xb57b8bbfe2b3d3874c9300a95c7587dc341111e7',
     name: 'Uniswap V3 Options',
     slug: 'https://gitcoin.co/grants/3576/uniswap-v3-options',
@@ -59291,7 +59291,7 @@ export const theData = [
   },
   {
     grantId: 3577,
-    'active': true,
+    isActive: true,
     address: '0xbb0a4f6aa0b630695079e874447fd00f570325f2',
     name: 'Body Gallery',
     slug: 'https://gitcoin.co/grants/3577/body-gallery',
@@ -59326,7 +59326,7 @@ export const theData = [
   },
   {
     grantId: 3578,
-    'active': true,
+    isActive: true,
     address: '0x6c171579f8f3c3f65b30286b14c20a46a4eb55b9',
     name: 'Gwei.cz - CZ/SK DeFi/Ethereum Community',
     slug: 'https://gitcoin.co/grants/3578/gweicz-czsk-defiethereum-community',
@@ -59361,7 +59361,7 @@ export const theData = [
   },
   {
     grantId: 3581,
-    'active': true,
+    isActive: true,
     address: '0x6d371062f70b83e58994567e3eb882e86fe2fa13',
     name: 'Getting An NFT Collection Project Up And Running Easily With Zer0 Knowledge.',
     slug: 'https://gitcoin.co/grants/3581/getting-an-nft-collection-project-up-and-running-',
@@ -59396,7 +59396,7 @@ export const theData = [
   },
   {
     grantId: 3588,
-    'active': true,
+    isActive: true,
     address: '0xa54f46e256f63be37b0fd6872346d64d91c69e5a',
     name: 'Alienite: Play-to-Earn NFT game',
     slug: 'https://gitcoin.co/grants/3588/alienite-play-to-earn-nft-game',
@@ -59431,7 +59431,7 @@ export const theData = [
   },
   {
     grantId: 3591,
-    'active': true,
+    isActive: true,
     address: '0xf6b171b1d778194b4bde6af91ce0cdeb01825a9b',
     name: 'DefiLlama',
     slug: 'https://gitcoin.co/grants/3591/defillama',
@@ -59466,7 +59466,7 @@ export const theData = [
   },
   {
     grantId: 3592,
-    'active': true,
+    isActive: true,
     address: '0x50cd86868d9326d9ce433bd9aa16aef91f6f461e',
     name: 'Cryptoque Education Fund',
     slug: 'https://gitcoin.co/grants/3592/cryptoque-education-fund',
@@ -59501,7 +59501,7 @@ export const theData = [
   },
   {
     grantId: 3593,
-    'active': true,
+    isActive: true,
     address: '0xf06fd240f4ddf9b6b45adcc4c5691aacca8e3ac5',
     name: 'Luna DAO',
     slug: 'https://gitcoin.co/grants/3593/luna-dao',
@@ -59536,7 +59536,7 @@ export const theData = [
   },
   {
     grantId: 3594,
-    'active': true,
+    isActive: true,
     address: '0xd5e4868b51439ac87279b0d0117b7e2f36475058',
     name: 'DeFi Pocket',
     slug: 'https://gitcoin.co/grants/3594/defi-pocket',
@@ -59571,7 +59571,7 @@ export const theData = [
   },
   {
     grantId: 3595,
-    'active': true,
+    isActive: true,
     address: '0x6e1a86826e3bfec941b947a7dc05c4c718425a61',
     name: 'ZK HACK - ZK Focused virtual event',
     slug: 'https://gitcoin.co/grants/3595/zk-hack-zk-focused-virtual-event',
@@ -59606,7 +59606,7 @@ export const theData = [
   },
   {
     grantId: 3596,
-    'active': true,
+    isActive: true,
     address: '0x0000000fcdf5ba49794f4151d6daff4505bc47d1',
     name: 'The Uniswap v3 Options Education Fund',
     slug: 'https://gitcoin.co/grants/3596/the-uniswap-v3-options-education-fund',
@@ -59641,7 +59641,7 @@ export const theData = [
   },
   {
     grantId: 3600,
-    'active': true,
+    isActive: true,
     address: '0x8f73f9aaecbda520f954c8ce7ec1816642993cf8',
     name: 'UniCast',
     slug: 'https://gitcoin.co/grants/3600/unicast',
@@ -59676,7 +59676,7 @@ export const theData = [
   },
   {
     grantId: 3602,
-    'active': true,
+    isActive: true,
     address: '0xf831513bc8c452ee2638562dd0f7fd8e651264c6',
     name: 'SideChainLearn',
     slug: 'https://gitcoin.co/grants/3602/sidechainlearn',
@@ -59711,7 +59711,7 @@ export const theData = [
   },
   {
     grantId: 3603,
-    'active': true,
+    isActive: true,
     address: '0x7e846598b7eb65438251b17deac2dc80732095f9',
     name: 'Protean DAO',
     slug: 'https://gitcoin.co/grants/3603/protean-dao',
@@ -59746,7 +59746,7 @@ export const theData = [
   },
   {
     grantId: 3604,
-    'active': true,
+    isActive: true,
     address: '0xb8476e2c016011b0d978332049abc20bb963803d',
     name: 'DeFi Toolkit',
     slug: 'https://gitcoin.co/grants/3604/defi-toolkit',
@@ -59781,7 +59781,7 @@ export const theData = [
   },
   {
     grantId: 3606,
-    'active': true,
+    isActive: true,
     address: '0xc8ce0f7364b60c2501dda036abbddf25b70c3f10',
     name: 'BIP39 Deep-Daze NFTs',
     slug: 'https://gitcoin.co/grants/3606/bip39-deep-daze-nfts',
@@ -59816,7 +59816,7 @@ export const theData = [
   },
   {
     grantId: 3608,
-    'active': true,
+    isActive: true,
     address: '0xb9e558036d9544cd5a5dd3a22c199a6129d839d7',
     name: '未来クリプト研究室',
     slug: 'https://gitcoin.co/grants/3608/wei-lai-kuriputoyan-jiu-shi',
@@ -59851,7 +59851,7 @@ export const theData = [
   },
   {
     grantId: 3609,
-    'active': true,
+    isActive: true,
     address: '0xbe068ae2006cae837923732bf17dedeff90a55dd',
     name: 'CryptoChain NakoTurk',
     slug: 'https://gitcoin.co/grants/3609/cryptochain-nakoturk',
@@ -59886,7 +59886,7 @@ export const theData = [
   },
   {
     grantId: 3610,
-    'active': true,
+    isActive: true,
     address: '0xe0da208c5c29d1e89b16c018303b02a89709a1ef',
     name: 'Global Government - Global Digital Jurisdiction - BLOCKCHAIN TAXATION PROTOCOL',
     slug: 'https://gitcoin.co/grants/3610/global-government-global-digital-jurisdiction-blo',
@@ -59921,7 +59921,7 @@ export const theData = [
   },
   {
     grantId: 3611,
-    'active': true,
+    isActive: true,
     address: '0x0bf5ab53a209f481a10b9c6260afbd7915f24e39',
     name: 'Learn to Earn Venezuela',
     slug: 'https://gitcoin.co/grants/3611/learn-to-earn-venezuela',
@@ -59956,7 +59956,7 @@ export const theData = [
   },
   {
     grantId: 3613,
-    'active': true,
+    isActive: true,
     address: '0x63a556c75443b176b5a4078e929e38beb37a1ff2',
     name: 'Impersonator',
     slug: 'https://gitcoin.co/grants/3613/impersonator',
@@ -59991,7 +59991,7 @@ export const theData = [
   },
   {
     grantId: 3614,
-    'active': true,
+    isActive: true,
     address: '0x69b30407726a9cd6372be25e3aa20b501d3356ca',
     name: 'Kaleido ~Decentralized Ad~',
     slug: 'https://gitcoin.co/grants/3614/kaleido-decentralized-ad',
@@ -60026,7 +60026,7 @@ export const theData = [
   },
   {
     grantId: 3615,
-    'active': true,
+    isActive: true,
     address: '0x9f5921395b896d541b0691d0705c3a358bff682f',
     name: 'PoolGenie - Maximizing Liquidity Pool Yield',
     slug: 'https://gitcoin.co/grants/3615/poolgenie-maximizing-liquidity-pool-yield',
@@ -60061,7 +60061,7 @@ export const theData = [
   },
   {
     grantId: 3617,
-    'active': true,
+    isActive: true,
     address: '0x6c2a780f93ec560775133f3ed2ae669744fe0f49',
     name: 'Venrate',
     slug: 'https://gitcoin.co/grants/3617/venrate',
@@ -60096,7 +60096,7 @@ export const theData = [
   },
   {
     grantId: 3620,
-    'active': true,
+    isActive: true,
     address: '0x1ec7bac2ed1841371847acc2136af3c20d27175d',
     name: 'Mooli - NoCode Smart Contracts',
     slug: 'https://gitcoin.co/grants/3620/mooli-nocode-smart-contracts',
@@ -60131,7 +60131,7 @@ export const theData = [
   },
   {
     grantId: 3626,
-    'active': true,
+    isActive: true,
     address: '0x0a66693bba5643065ce3087391ca5f0ffb3f341e',
     name: 'Vtraders.pro',
     slug: 'https://gitcoin.co/grants/3626/vtraderspro',
@@ -60166,7 +60166,7 @@ export const theData = [
   },
   {
     grantId: 3627,
-    'active': true,
+    isActive: true,
     address: '0x264902ce3200dba13b83a168d563497d2d347b53',
     name: 'Free ENS - Register Ethereum [ .eth ] name for free',
     slug: 'https://gitcoin.co/grants/3627/free-ens-register-ethereum-eth-name-for-free',
@@ -60201,7 +60201,7 @@ export const theData = [
   },
   {
     grantId: 3629,
-    'active': true,
+    isActive: true,
     address: '0x5ffbbb7dc8eacd0426ddeab99b314d8e9de55e9a',
     name: 'Walletnick',
     slug: 'https://gitcoin.co/grants/3629/walletnick',
@@ -60236,7 +60236,7 @@ export const theData = [
   },
   {
     grantId: 3631,
-    'active': true,
+    isActive: true,
     address: '0xdc58f594e82f7592163687915f61b031d2102fdb',
     name: 'Stendhals tools',
     slug: 'https://gitcoin.co/grants/3631/stendhals-tools',
@@ -60271,7 +60271,7 @@ export const theData = [
   },
   {
     grantId: 3633,
-    'active': true,
+    isActive: true,
     address: '0x1f9ff9d42361537bb2e1e9c77fe462146837fbcc',
     name: 'NFTSCAN（nftscan.com）is a professional NFT asset browser and data analysis platform.',
     slug: 'https://gitcoin.co/grants/3633/nftscannftscancomis-a-professional-nft-asset-brow',
@@ -60306,7 +60306,7 @@ export const theData = [
   },
   {
     grantId: 3637,
-    'active': true,
+    isActive: true,
     address: '0xbfe5c1a3812d3551ce340de43529c7a3c9f44f02',
     name: 'Moni Talks 🗞',
     slug: 'https://gitcoin.co/grants/3637/moni-talks',
@@ -60341,7 +60341,7 @@ export const theData = [
   },
   {
     grantId: 3641,
-    'active': true,
+    isActive: true,
     address: '0x740d5598030cd67c8842677a5ccc0ed8bc885521',
     name: 'Banksy Finance',
     slug: 'https://gitcoin.co/grants/3641/banksy-finance',
@@ -60376,7 +60376,7 @@ export const theData = [
   },
   {
     grantId: 3645,
-    'active': true,
+    isActive: true,
     address: '0x30b3355b84dda5f2e1ef15a6b26897ae23265d59',
     name: 'The Hooman Club',
     slug: 'https://gitcoin.co/grants/3645/the-hooman-club',
@@ -60411,7 +60411,7 @@ export const theData = [
   },
   {
     grantId: 3647,
-    'active': true,
+    isActive: true,
     address: '0xd5f048143ac7284b13a55c16a48288cdc251749b',
     name: 'Little Things (Indonesian Crypto Community)',
     slug: 'https://gitcoin.co/grants/3647/little-things-indonesian-crypto-community',
@@ -60446,7 +60446,7 @@ export const theData = [
   },
   {
     grantId: 3650,
-    'active': true,
+    isActive: true,
     address: '0xc90091c9893004b9a1cc0fd4842c2701206f0763',
     name: 'Arkhivist',
     slug: 'https://gitcoin.co/grants/3650/arkhivist',
@@ -60481,7 +60481,7 @@ export const theData = [
   },
   {
     grantId: 3651,
-    'active': true,
+    isActive: true,
     address: '0xb010ca9be09c382a9f31b79493bb232bcc319f01',
     name: 'MetaTrophies - NFTs of Achievement',
     slug: 'https://gitcoin.co/grants/3651/metatrophies-nfts-of-achievement',
@@ -60516,7 +60516,7 @@ export const theData = [
   },
   {
     grantId: 3652,
-    'active': true,
+    isActive: true,
     address: '0xf4e7a50fb1c0af0c555919676ca4d7e064057242',
     name: '@eliasimos Dune Analytics dashboard suite',
     slug: 'https://gitcoin.co/grants/3652/eliasimos-dune-analytics-dashboard-suite',
@@ -60551,7 +60551,7 @@ export const theData = [
   },
   {
     grantId: 3655,
-    'active': true,
+    isActive: true,
     address: '0x1127daf41ffaff2b876fa3fdc9187c364722eef4',
     name: 'Compute-to-SSI --- a use case by WorkPi',
     slug: 'https://gitcoin.co/grants/3655/compute-to-ssi-a-use-case-by-workpi',
@@ -60586,7 +60586,7 @@ export const theData = [
   },
   {
     grantId: 3663,
-    'active': true,
+    isActive: true,
     address: '0x5990c93e10c3b36299a4b7e6306cc2bc7d818cbe',
     name: 'Samudai – Token Community Management (for Discord)',
     slug: 'https://gitcoin.co/grants/3663/samudai-token-community-management-for-discord',
@@ -60621,7 +60621,7 @@ export const theData = [
   },
   {
     grantId: 3666,
-    'active': true,
+    isActive: true,
     address: '0x57893e666bd15e886d74751b0879361a3383b57a',
     name: 'Crypto Education for Womxn',
     slug: 'https://gitcoin.co/grants/3666/crypto-education-for-womxn',
@@ -60656,7 +60656,7 @@ export const theData = [
   },
   {
     grantId: 3670,
-    'active': true,
+    isActive: true,
     address: '0xd90f471958a7ee68ffbe585eefcb990c41bf600f',
     name: 'JanusXR',
     slug: 'https://gitcoin.co/grants/3670/janusxr',
@@ -60691,7 +60691,7 @@ export const theData = [
   },
   {
     grantId: 3694,
-    'active': true,
+    isActive: true,
     address: '0x60fa93fc1ee01688650a87d372075363cd98fcba',
     name: 'Paralelni Polis - Institute of Cryptoanarchy',
     slug: 'https://gitcoin.co/grants/3694/paralelni-polis-institute-of-cryptoanarchy',
@@ -60726,7 +60726,7 @@ export const theData = [
   },
   {
     grantId: 3718,
-    'active': true,
+    isActive: true,
     address: '0x9e4c996efd1adf643467d1a1ea51333c72a25453',
     name: 'SuperXEROX + V2 SDK',
     slug: 'https://gitcoin.co/grants/3718/superxerox-v2-sdk',
@@ -60761,7 +60761,7 @@ export const theData = [
   },
   {
     grantId: 3722,
-    'active': true,
+    isActive: true,
     address: '0x42a19cd756651a488f1899157c45af929bf3695f',
     name: 'VideoWiki - collaborative content creation',
     slug: 'https://gitcoin.co/grants/3722/videowiki-collaborative-content-creation',
@@ -60796,7 +60796,7 @@ export const theData = [
   },
   {
     grantId: 3727,
-    'active': true,
+    isActive: true,
     address: '0x1f89d0b673af2275452045e457f2b9b3b8723e5e',
     name: 'Funding for Crypto Vector Art',
     slug: 'https://gitcoin.co/grants/3727/funding-for-crypto-vector-art',
@@ -60831,7 +60831,7 @@ export const theData = [
   },
   {
     grantId: 3737,
-    'active': true,
+    isActive: true,
     address: '0xd5508273e15310217cf795f5bb7758827c76014c',
     name: 'HyperHyperSpace Protocol Fund',
     slug: 'https://gitcoin.co/grants/3737/hyperhyperspace-protocol-fund',
@@ -60866,7 +60866,7 @@ export const theData = [
   },
   {
     grantId: 3753,
-    'active': true,
+    isActive: true,
     address: '0x245bd6b5d8f494df8256ae44737a1e5d59769ab4',
     name: 'Yubiai MarketPlace funding',
     slug: 'https://gitcoin.co/grants/3753/yubiai-marketplace-funding',
@@ -60901,7 +60901,7 @@ export const theData = [
   },
   {
     grantId: 3759,
-    'active': true,
+    isActive: true,
     address: '0xccdb5a96c63885f4aa36d67de0eac7a10cb7de0c',
     name: 'Web3UIKit  - ReactJS components for your dApp',
     slug: 'https://gitcoin.co/grants/3759/web3uikit-reactjs-components-for-your-dapp',
@@ -60936,7 +60936,7 @@ export const theData = [
   },
   {
     grantId: 3765,
-    'active': true,
+    isActive: true,
     address: '0xb51d9fd1b60a03c19f012524d32e70cffa74a1f0',
     name: 'LATAM Blockchain',
     slug: 'https://gitcoin.co/grants/3765/latam-blockchain',
@@ -60971,7 +60971,7 @@ export const theData = [
   },
   {
     grantId: 3771,
-    'active': true,
+    isActive: true,
     address: '0xfc4a1488ecce21489a965736e7c22b0844a9bde6',
     name: 'WEARABLE COUTURE NFT’S FOR SOCIAL MEDIA AND METAVERSES',
     slug: 'https://gitcoin.co/grants/3771/wearable-couture-nfts-for-social-media-and-metave',
@@ -61006,7 +61006,7 @@ export const theData = [
   },
   {
     grantId: 3775,
-    'active': true,
+    isActive: true,
     address: '0xeb0e54c600ad1637d79071adde81a477cbf4e729',
     name: 'Jukebox',
     slug: 'https://gitcoin.co/grants/3775/jukebox',
@@ -61041,7 +61041,7 @@ export const theData = [
   },
   {
     grantId: 3791,
-    'active': true,
+    isActive: true,
     address: '0xc79c4043ac4b6922d7ce4bdb8352aad5a472a3a6',
     name: 'ogma Project',
     slug: 'https://gitcoin.co/grants/3791/ogma-project',
@@ -61076,7 +61076,7 @@ export const theData = [
   },
   {
     grantId: 3795,
-    'active': true,
+    isActive: true,
     address: '0x47c88bb92b409ff25f6587ea611fac4e55f76007',
     name: 'Get Atlantis Audited!',
     slug: 'https://gitcoin.co/grants/3795/get-atlantis-audited',
@@ -61111,7 +61111,7 @@ export const theData = [
   },
   {
     grantId: 3803,
-    'active': true,
+    isActive: true,
     address: '0x09fa173babff3787c14192d6c4dfb4ed4cff0bff',
     name: 'Discord bot allowing only NFTs holders to join your spaces',
     slug: 'https://gitcoin.co/grants/3803/discord-bot-allowing-only-nfts-holders-to-join-yo',
@@ -61146,7 +61146,7 @@ export const theData = [
   },
   {
     grantId: 3808,
-    'active': true,
+    isActive: true,
     address: '0x84ae2025b9620fd926d4e60673fcea2385c79d8a',
     name: 'DIMO DBC',
     slug: 'https://gitcoin.co/grants/3808/dimo-dbc',
@@ -61181,7 +61181,7 @@ export const theData = [
   },
   {
     grantId: 3810,
-    'active': true,
+    isActive: true,
     address: '0xac23662f03eb364241bc178da7abab0e4c5e4ec5',
     name: 'the Spheres of Babel',
     slug: 'https://gitcoin.co/grants/3810/the-spheres-of-babel',
@@ -61216,7 +61216,7 @@ export const theData = [
   },
   {
     grantId: 3813,
-    'active': true,
+    isActive: true,
     address: '0xb75e6a898f4d7dd32efea8d27094432b0f90618d',
     name: 'Daoboard',
     slug: 'https://gitcoin.co/grants/3813/daoboard',
@@ -61251,7 +61251,7 @@ export const theData = [
   },
   {
     grantId: 3814,
-    'active': true,
+    isActive: true,
     address: '0x88888fff15555ce2139d3873c6b441809f799c3e',
     name: 'RainbowWall Protocol',
     slug: 'https://gitcoin.co/grants/3814/rainbowwall-protocol',
@@ -61286,7 +61286,7 @@ export const theData = [
   },
   {
     grantId: 3816,
-    'active': true,
+    isActive: true,
     address: '0xc88b4ea090964434514cf4edda31cf291de2a4eb',
     name: 'The Dream DAO (by Civics Unplugged)',
     slug: 'https://gitcoin.co/grants/3816/the-dream-dao-by-civics-unplugged',
@@ -61321,7 +61321,7 @@ export const theData = [
   },
   {
     grantId: 3853,
-    'active': true,
+    isActive: true,
     address: '0xf8dbc69f9657ef4928539bb8bdae7d9a9191f286',
     name: 'Stopping Alzheimers with Light and Sound',
     slug: 'https://gitcoin.co/grants/3853/stopping-alzheimers-with-light-and-sound',
@@ -61356,7 +61356,7 @@ export const theData = [
   },
   {
     grantId: 3857,
-    'active': true,
+    isActive: true,
     address: '0x41626ba92c0c2a1ad38fc83920300434082b1870',
     name: 'L2BEAT',
     slug: 'https://gitcoin.co/grants/3857/l2beat',
@@ -61391,7 +61391,7 @@ export const theData = [
   },
   {
     grantId: 3858,
-    'active': true,
+    isActive: true,
     address: '0x7ed55d7515c719e721e80f48e33d6f26d653e550',
     name: 'Tuist - Empowering Xcode developers to build apps at scale',
     slug: 'https://gitcoin.co/grants/3858/tuist-empowering-xcode-developers-to-build-apps-a',
@@ -61426,7 +61426,7 @@ export const theData = [
   },
   {
     grantId: 3865,
-    'active': true,
+    isActive: true,
     address: '0x862f0106574509dca88fab48efaceebfc12c8d93',
     name: 'Gitvern - DAO Governance based on GitHub',
     slug: 'https://gitcoin.co/grants/3865/gitvern-dao-governance-based-on-github',
@@ -61461,7 +61461,7 @@ export const theData = [
   },
   {
     grantId: 3869,
-    'active': true,
+    isActive: true,
     address: '0x23ed7bf9234699fbf44ea0f397a036bc762f7ad2',
     name: 'Commeth',
     slug: 'https://gitcoin.co/grants/3869/commeth',
@@ -61496,7 +61496,7 @@ export const theData = [
   },
   {
     grantId: 3880,
-    'active': true,
+    isActive: true,
     address: '0x7d8023ae32270a04f319cdc293d5f21f51eef998',
     name: 'The Pacific Northwest Rural Broadband Alliance',
     slug: 'https://gitcoin.co/grants/3880/the-pacific-northwest-rural-broadband-alliance',
@@ -61531,7 +61531,7 @@ export const theData = [
   },
   {
     grantId: 3905,
-    'active': true,
+    isActive: true,
     address: '0x68bce84b278e622d4c1c20018ca4d7d17da849c4',
     name: 'Web3 tools for peer production',
     slug: 'https://gitcoin.co/grants/3905/web3-tools-for-peer-production',
@@ -61566,7 +61566,7 @@ export const theData = [
   },
   {
     grantId: 3930,
-    'active': true,
+    isActive: true,
     address: '0xda63d3b90480d8346bd85b6246222eff802d688a',
     name: 'Open Senolytics',
     slug: 'https://gitcoin.co/grants/3930/open-senolytics',
@@ -61601,7 +61601,7 @@ export const theData = [
   },
   {
     grantId: 3935,
-    'active': true,
+    isActive: true,
     address: '0xc8ccb65e315a060b6f83a81e251616b262a135de',
     name: 'Determine if use of the widely-prescribed drug cyclosporin A slows the progression of brain aging.',
     slug: 'https://gitcoin.co/grants/3935/determine-if-use-of-the-widely-prescribed-drug-cy',
@@ -61636,7 +61636,7 @@ export const theData = [
   },
   {
     grantId: 3936,
-    'active': true,
+    isActive: true,
     address: '0xc8ccb65e315a060b6f83a81e251616b262a135de',
     name: 'Longevity Wiki',
     slug: 'https://gitcoin.co/grants/3936/longevity-wiki',
@@ -61671,7 +61671,7 @@ export const theData = [
   },
   {
     grantId: 3937,
-    'active': true,
+    isActive: true,
     address: '0xc8ccb65e315a060b6f83a81e251616b262a135de',
     name: 'Participatory Evaluation of Aging with Rapamycin for Longevity (PEARL)',
     slug: 'https://gitcoin.co/grants/3937/participatory-evaluation-of-aging-with-rapamycin-',
@@ -61706,7 +61706,7 @@ export const theData = [
   },
   {
     grantId: 3944,
-    'active': true,
+    isActive: true,
     address: '0x3f4817a9c9654a159489c910a3610426905a3eab',
     name: 'Longevity Feature Film - The Last Generation to Die',
     slug: 'https://gitcoin.co/grants/3944/longevity-feature-film-the-last-generation-to-die',
@@ -61741,7 +61741,7 @@ export const theData = [
   },
   {
     grantId: 3945,
-    'active': true,
+    isActive: true,
     address: '0xd484e94c8c1ecb82fc5d4d5a0b940e193dd91ece',
     name: 'The Alliance for Longevity Initiatives',
     slug: 'https://gitcoin.co/grants/3945/the-alliance-for-longevity-initiatives',
@@ -61776,7 +61776,7 @@ export const theData = [
   },
   {
     grantId: 3946,
-    'active': true,
+    isActive: true,
     address: '0xc8ccb65e315a060b6f83a81e251616b262a135de',
     name: 'Biomimetic Vascular Model for Studying Vascular Aging and Disorders',
     slug: 'https://gitcoin.co/grants/3946/biomimetic-vascular-model-for-studying-vascular-a',
@@ -61811,7 +61811,7 @@ export const theData = [
   },
   {
     grantId: 3947,
-    'active': true,
+    isActive: true,
     address: '0xc04905c95280f6441fa8cde4ef18314a6d093f4a',
     name: 'OpenCures',
     slug: 'https://gitcoin.co/grants/3947/opencures',
@@ -61846,7 +61846,7 @@ export const theData = [
   },
   {
     grantId: 3952,
-    'active': true,
+    isActive: true,
     address: '0x5d7370fcd6e446bbc14a64c1effe5fbb1c893232',
     name: 'Decent',
     slug: 'https://gitcoin.co/grants/3952/decent',
@@ -61881,7 +61881,7 @@ export const theData = [
   },
   {
     grantId: 3970,
-    'active': true,
+    isActive: true,
     address: '0x938a59f111fcb46e7534b01fe53dd774480594bc',
     name: 'verses',
     slug: 'https://gitcoin.co/grants/3970/verses',
@@ -61916,7 +61916,7 @@ export const theData = [
   },
   {
     grantId: 3974,
-    'active': true,
+    isActive: true,
     address: '0x095f1fd53a56c01c76a2a56b7273995ce915d8c4',
     name: 'Electronic Frontier Foundation',
     slug: 'https://gitcoin.co/grants/3974/electronic-frontier-foundation',
@@ -61951,7 +61951,7 @@ export const theData = [
   },
   {
     grantId: 3994,
-    'active': true,
+    isActive: true,
     address: '0xe559e959b891b14eb5a9dde45c61b1aeb0b6df4b',
     name: 'imagine.brussels solarpunk NFT contest',
     slug: 'https://gitcoin.co/grants/3994/imaginebrussels-solarpunk-nft-contest',
@@ -61986,7 +61986,7 @@ export const theData = [
   },
   {
     grantId: 3997,
-    'active': true,
+    isActive: true,
     address: '0x676c0906c0b91fd480b79c7a0c5419c788655aa3',
     name: 'Life Noggin - Top Tier Videos to Reach Millions',
     slug: 'https://gitcoin.co/grants/3997/life-noggin-top-tier-videos-to-reach-millions',
@@ -62021,7 +62021,7 @@ export const theData = [
   },
   {
     grantId: 3998,
-    'active': true,
+    isActive: true,
     address: '0xe3bc594aeb17aaf76a19c4cd41f88240903ed5af',
     name: 'Lifespan.io Meets Web3 - Crowdsourced Clinical Trials, Inverse Quadratic Funding, and You!',
     slug: 'https://gitcoin.co/grants/3998/lifespanio-meets-web3-crowdsourced-clinical-trial',
@@ -62056,7 +62056,7 @@ export const theData = [
   },
   {
     grantId: 4006,
-    'active': true,
+    isActive: true,
     address: '0x3c8281c8786ab29bcab5b33566968f8011ea6a59',
     name: 'Incentivizing Actions That Increase and Maintain Native Ecosystems Through Tokenization',
     slug: 'https://gitcoin.co/grants/4006/incentivizing-actions-that-increase-and-maintain-',
@@ -62091,7 +62091,7 @@ export const theData = [
   },
   {
     grantId: 4007,
-    'active': true,
+    isActive: true,
     address: '0xa129c859ded70b3c28bd1a8266e7ad28060acf4f',
     name: 'CarbonLand Trust',
     slug: 'https://gitcoin.co/grants/4007/carbonland-trust',
@@ -62126,7 +62126,7 @@ export const theData = [
   },
   {
     grantId: 4012,
-    'active': true,
+    isActive: true,
     address: '0x98d163533060cc6bb66ee53c8805026457326681',
     name: 'Climate Sessions',
     slug: 'https://gitcoin.co/grants/4012/climate-sessions',
@@ -62161,7 +62161,7 @@ export const theData = [
   },
   {
     grantId: 4014,
-    'active': true,
+    isActive: true,
     address: '0xe559e959b891b14eb5a9dde45c61b1aeb0b6df4b',
     name: 'Planting fruit trees in 64 schools and 40 health centers across Tororo district in Uganda East Africa',
     slug: 'https://gitcoin.co/grants/4014/planting-fruit-trees-in-64-schools-and-40-health-',
@@ -62196,7 +62196,7 @@ export const theData = [
   },
   {
     grantId: 4017,
-    'active': true,
+    isActive: true,
     address: '0xc80e9ffcc3774f1fe5a925bda8f846fa4301eae8',
     name: 'Swell Network | Maintaining a decentralised, open, and liquid Ethereum ecosystem',
     slug: 'https://gitcoin.co/grants/4017/swell-network-maintaining-a-decentralised-open-an',
@@ -62231,7 +62231,7 @@ export const theData = [
   },
   {
     grantId: 4019,
-    'active': true,
+    isActive: true,
     address: '0x4bcd5893d3bdddd838e6415b8141249e7ba0018e',
     name: 'RainbowDAO Protocol',
     slug: 'https://gitcoin.co/grants/4019/rainbowdao-protocol',
@@ -62266,7 +62266,7 @@ export const theData = [
   },
   {
     grantId: 4024,
-    'active': true,
+    isActive: true,
     address: '0xd2b4e046b3ae52078275f44ef81bc19b4ed2872f',
     name: 'ReFi Podcast Season One',
     slug: 'https://gitcoin.co/grants/4024/refi-podcast-season-one',
@@ -62301,7 +62301,7 @@ export const theData = [
   },
   {
     grantId: 4027,
-    'active': true,
+    isActive: true,
     address: '0x498e93bc04955fcbac04bcf1a3ba792f01dbaa96',
     name: 'ENS.me',
     slug: 'https://gitcoin.co/grants/4027/ensme',
@@ -62336,7 +62336,7 @@ export const theData = [
   },
   {
     grantId: 4029,
-    'active': true,
+    isActive: true,
     address: '0xe559e959b891b14eb5a9dde45c61b1aeb0b6df4b',
     name: 'AGROFROSTRY, CLIMATE CHANGE, ECOSYSTEMS AND FORESTS',
     slug: 'https://gitcoin.co/grants/4029/agrofrostry-climate-change-ecosystems-and-forests',
@@ -62371,7 +62371,7 @@ export const theData = [
   },
   {
     grantId: 4031,
-    'active': true,
+    isActive: true,
     address: '0x148e63aac7c59357901ac10c4e018066ed522d87',
     name: 'The Lexicon',
     slug: 'https://gitcoin.co/grants/4031/the-lexicon',
@@ -62406,7 +62406,7 @@ export const theData = [
   },
   {
     grantId: 4034,
-    'active': true,
+    isActive: true,
     address: '0x9277b013ecdb1f308b41cd8bc1addc097ded37c3',
     name: 'The Humanetics Workshop',
     slug: 'https://gitcoin.co/grants/4034/the-humanetics-workshop',
@@ -62441,7 +62441,7 @@ export const theData = [
   },
   {
     grantId: 4038,
-    'active': true,
+    isActive: true,
     address: '0x9cd00daf7c75ffea43f91cc1e2408dc7998ad011',
     name: 'deth / TypeChain',
     slug: 'https://gitcoin.co/grants/4038/deth-typechain',
@@ -62476,7 +62476,7 @@ export const theData = [
   },
   {
     grantId: 4041,
-    'active': true,
+    isActive: true,
     address: '0x0b439d198fcddee951d498eba26e024635511240',
     name: 'Climate Finance DAO',
     slug: 'https://gitcoin.co/grants/4041/climate-finance-dao',
@@ -62511,7 +62511,7 @@ export const theData = [
   },
   {
     grantId: 4047,
-    'active': true,
+    isActive: true,
     address: '0xc0fc8f49e750f31f2eeccfb7a342a89cb7a3363d',
     name: 'Lifespan Extension by Claritin',
     slug: 'https://gitcoin.co/grants/4047/lifespan-extension-by-claritin',
@@ -62546,7 +62546,7 @@ export const theData = [
   },
   {
     grantId: 4048,
-    'active': true,
+    isActive: true,
     address: '0xbc7beb2d44eb0cddf6c0f2560a21475c2e2ac19c',
     name: 'Just-DNA-Seq',
     slug: 'https://gitcoin.co/grants/4048/just-dna-seq',
@@ -62581,7 +62581,7 @@ export const theData = [
   },
   {
     grantId: 4051,
-    'active': true,
+    isActive: true,
     address: '0xf08cf1fcb2769eaa60fe34b241875e4557121857',
     name: 'Oakland Privacy: Strengthening Privacy Rights Infrastructure',
     slug: 'https://gitcoin.co/grants/4051/oakland-privacy-strengthening-privacy-rights-infr',
@@ -62616,7 +62616,7 @@ export const theData = [
   },
   {
     grantId: 4052,
-    'active': true,
+    isActive: true,
     address: '0xaaf7d654f6b1543090caf9becbc49224dac8b9b0',
     name: 'Defor DeFi aggregator that everyone can participate in without ETH.',
     slug: 'https://gitcoin.co/grants/4052/defor-defi-aggregator-that-everyone-can-participa',
@@ -62651,7 +62651,7 @@ export const theData = [
   },
   {
     grantId: 4053,
-    'active': true,
+    isActive: true,
     address: '0x9934f8ccfdf5e008ac8c07bf00582a833cd33b99',
     name: 'Glosseta funding',
     slug: 'https://gitcoin.co/grants/4053/glosseta-funding',
@@ -62686,7 +62686,7 @@ export const theData = [
   },
   {
     grantId: 4054,
-    'active': true,
+    isActive: true,
     address: '0x5f0d037c2878102fcf7f6dac2b655c9338241d8f',
     name: 'Surge',
     slug: 'https://gitcoin.co/grants/4054/surge',
@@ -62721,7 +62721,7 @@ export const theData = [
   },
   {
     grantId: 4056,
-    'active': true,
+    isActive: true,
     address: '0xc6fd734790e83820e311211b6d9a682bca4ac97b',
     name: 'Building Web 4: Viable Economic Model for Funding Public Goods',
     slug: 'https://gitcoin.co/grants/4056/building-web-4-viable-economic-model-for-funding-',
@@ -62756,7 +62756,7 @@ export const theData = [
   },
   {
     grantId: 4059,
-    'active': true,
+    isActive: true,
     address: '0xeec287638b91c4de9948b610064ed796f5ab1a78',
     name: 'Qilin Protocol:  Decentralized volatility protocol that provides the ability to long volatility of any crypto asset',
     slug: 'https://gitcoin.co/grants/4059/qilin-protocol-decentralized-volatility-protocol-',
@@ -62791,7 +62791,7 @@ export const theData = [
   },
   {
     grantId: 4061,
-    'active': true,
+    isActive: true,
     address: '0x0efd0b2dab774756c04671b5d909c07f4b61efb8',
     name: 'A game for realizing desired futures — stopping coal plants, supporting communities, celebrating victories and the futures to come',
     slug: 'https://gitcoin.co/grants/4061/a-game-for-realizing-desired-futures-stopping-coa',
@@ -62826,7 +62826,7 @@ export const theData = [
   },
   {
     grantId: 4062,
-    'active': true,
+    isActive: true,
     address: '0x687844114ccc819c4262ca8ca21c27e62e44e878',
     name: 'Defluencer',
     slug: 'https://gitcoin.co/grants/4062/defluencer',
@@ -62861,7 +62861,7 @@ export const theData = [
   },
   {
     grantId: 4063,
-    'active': true,
+    isActive: true,
     address: '0x735ff6f197b0dc18ebee127dd918d2111eaf8220',
     name: 'DEGEN: The DAO Discord Administrative Bot',
     slug: 'https://gitcoin.co/grants/4063/degen-the-dao-discord-administrative-bot',
@@ -62896,7 +62896,7 @@ export const theData = [
   },
   {
     grantId: 4065,
-    'active': true,
+    isActive: true,
     address: '0xa5409ec958c83c3f309868babaca7c86dcb077c1',
     name: 'Reboot',
     slug: 'https://gitcoin.co/grants/4065/reboot',
@@ -62931,7 +62931,7 @@ export const theData = [
   },
   {
     grantId: 4066,
-    'active': true,
+    isActive: true,
     address: '0xeeabb0ec981be8121994da618af6bc26e648dfe0',
     name: 'ScribeDAO',
     slug: 'https://gitcoin.co/grants/4066/scribedao',
@@ -62966,7 +62966,7 @@ export const theData = [
   },
   {
     grantId: 4069,
-    'active': true,
+    isActive: true,
     address: '0x81e80b838e04644a93e4f3c701038889d3a1b95e',
     name: 'Algovera: A data science DAO unlocking more value from  Generative ML Models',
     slug: 'https://gitcoin.co/grants/4069/algovera-a-data-science-dao-unlocking-more-value-',
@@ -63001,7 +63001,7 @@ export const theData = [
   },
   {
     grantId: 4073,
-    'active': true,
+    isActive: true,
     address: '0x298f7f66ba43f0efecf4bc324b0016f822c783a4',
     name: 'All For Climate',
     slug: 'https://gitcoin.co/grants/4073/all-for-climate',
@@ -63036,7 +63036,7 @@ export const theData = [
   },
   {
     grantId: 4075,
-    'active': true,
+    isActive: true,
     address: '0x0cdf4a1a9fd813637e39e56807ffae0d14ec22c3',
     name: 'Voltaire DAO',
     slug: 'https://gitcoin.co/grants/4075/voltaire-dao',
@@ -63071,7 +63071,7 @@ export const theData = [
   },
   {
     grantId: 4078,
-    'active': true,
+    isActive: true,
     address: '0x0afd4375b4684deb94ad7c02dc8c955f8fef1f0f',
     name: 'Impetus Longevity Grants',
     slug: 'https://gitcoin.co/grants/4078/impetus-longevity-grants',
@@ -63106,7 +63106,7 @@ export const theData = [
   },
   {
     grantId: 4079,
-    'active': true,
+    isActive: true,
     address: '0xb19328e83e9de535867fc7b260c100f197c05029',
     name: 'WorkInPublic',
     slug: 'https://gitcoin.co/grants/4079/workinpublic',
@@ -63141,7 +63141,7 @@ export const theData = [
   },
   {
     grantId: 4080,
-    'active': true,
+    isActive: true,
     address: '0x8dc054f39fbaed15c2d521a8e228ac96f3efcb6a',
     name: 'Transformation Center in Berlin for a regenerative society',
     slug: 'https://gitcoin.co/grants/4080/transformation-center-in-berlin-for-a-regenerativ',
@@ -63176,7 +63176,7 @@ export const theData = [
   },
   {
     grantId: 4081,
-    'active': true,
+    isActive: true,
     address: '0x0afd4375b4684deb94ad7c02dc8c955f8fef1f0f',
     name: 'Smart Tanks: a scalable open science platform for longevity intervention testing in Daphnia',
     slug: 'https://gitcoin.co/grants/4081/smart-tanks-a-scalable-open-science-platform-for-',
@@ -63211,7 +63211,7 @@ export const theData = [
   },
   {
     grantId: 4082,
-    'active': true,
+    isActive: true,
     address: '0x0afd4375b4684deb94ad7c02dc8c955f8fef1f0f',
     name: 'Longevity Student Grants (by VitaDAO)',
     slug: 'https://gitcoin.co/grants/4082/longevity-student-grants-by-vitadao',
@@ -63246,7 +63246,7 @@ export const theData = [
   },
   {
     grantId: 4083,
-    'active': true,
+    isActive: true,
     address: '0x0afd4375b4684deb94ad7c02dc8c955f8fef1f0f',
     name: 'Longevity Prize (by VitaDAO)',
     slug: 'https://gitcoin.co/grants/4083/longevity-prize-by-vitadao',
@@ -63281,7 +63281,7 @@ export const theData = [
   },
   {
     grantId: 4085,
-    'active': true,
+    isActive: true,
     address: '0x9375d3e9fa7a1b9a02b4344fd731fec18072f834',
     name: 'Longevity Plan',
     slug: 'https://gitcoin.co/grants/4085/longevity-plan',
@@ -63316,7 +63316,7 @@ export const theData = [
   },
   {
     grantId: 4087,
-    'active': true,
+    isActive: true,
     address: '0xf768f5f340e89698465fc7c12f31cb485fff98d2',
     name: 'Karma - Reputation for DAO Contributors',
     slug: 'https://gitcoin.co/grants/4087/karma-reputation-for-dao-contributors',
@@ -63351,7 +63351,7 @@ export const theData = [
   },
   {
     grantId: 4089,
-    'active': true,
+    isActive: true,
     address: '0x4b442ffa64950c720ec671703b283c9a31524a3d',
     name: 'Biomarkers to measure aging - Norn Group',
     slug: 'https://gitcoin.co/grants/4089/biomarkers-to-measure-aging-norn-group',
@@ -63386,7 +63386,7 @@ export const theData = [
   },
   {
     grantId: 4091,
-    'active': true,
+    isActive: true,
     address: '0x0cb3081aaeac48c9b103bcdde457d5e3bf800259',
     name: 'SolidarityCard',
     slug: 'https://gitcoin.co/grants/4091/solidaritycard',
@@ -63421,7 +63421,7 @@ export const theData = [
   },
   {
     grantId: 4093,
-    'active': true,
+    isActive: true,
     address: '0x0ff1baa6c90480d8627b922a1e81393eb9c7ea08',
     name: 'Elephant in the Room - Green Pill Campaign',
     slug: 'https://gitcoin.co/grants/4093/elephant-in-the-room-green-pill-campaign',
@@ -63456,7 +63456,7 @@ export const theData = [
   },
   {
     grantId: 4097,
-    'active': true,
+    isActive: true,
     address: '0xbe92da96e3665eadecd90039eddb3afc132bdbe4',
     name: 'braid.science',
     slug: 'https://gitcoin.co/grants/4097/braidscience',
@@ -63491,7 +63491,7 @@ export const theData = [
   },
   {
     grantId: 4098,
-    'active': true,
+    isActive: true,
     address: '0xcbf3c13e05aa9c18ab8ecbb3302edad21c23c688',
     name: 'Indigenous Activist Fund for Fighting TMX Pipeline',
     slug: 'https://gitcoin.co/grants/4098/indigenous-activist-fund-for-fighting-tmx-pipelin',
@@ -63526,7 +63526,7 @@ export const theData = [
   },
   {
     grantId: 4100,
-    'active': true,
+    isActive: true,
     address: '0xaef0a1ba868a4ce5465ee7244408fd1bc5ea6083',
     name: 'Loop: A content aggregator for attention optimization',
     slug: 'https://gitcoin.co/grants/4100/loop-a-content-aggregator-for-attention-optimizat',
@@ -63561,7 +63561,7 @@ export const theData = [
   },
   {
     grantId: 4103,
-    'active': true,
+    isActive: true,
     address: '0x00a33c8379b03085ad0c0b4f6fb38c63deba8475',
     name: 'Supplements Death Match',
     slug: 'https://gitcoin.co/grants/4103/supplements-death-match',
@@ -63596,7 +63596,7 @@ export const theData = [
   },
   {
     grantId: 4104,
-    'active': true,
+    isActive: true,
     address: '0x84b3141cea8c3c5371a652cf3fe50aff81d79dba',
     name: 'This Week In Ethereum, NFTs, & DeFi by CryptoGucci',
     slug: 'https://gitcoin.co/grants/4104/this-week-in-ethereum-nfts-defi-by-cryptogucci',
@@ -63631,7 +63631,7 @@ export const theData = [
   },
   {
     grantId: 4105,
-    'active': true,
+    isActive: true,
     address: '0xaf98bb4bced00a17ffe020499c342cfc3511fb10',
     name: 'Justin Brams YouTube Channel & The DeFi Innovation Discord Community',
     slug: 'https://gitcoin.co/grants/4105/justin-brams-youtube-channel-the-defi-innovation-',
@@ -63666,7 +63666,7 @@ export const theData = [
   },
   {
     grantId: 4106,
-    'active': true,
+    isActive: true,
     address: '0x39388438e9a4d888829f424954769c84de592827',
     name: 'Stackup - Social Wallets',
     slug: 'https://gitcoin.co/grants/4106/stackup-social-wallets',
@@ -63701,7 +63701,7 @@ export const theData = [
   },
   {
     grantId: 4114,
-    'active': true,
+    isActive: true,
     address: '0x6dbe905b7660ba9b62c5aa360699f93759f9f15b',
     name: 'Clean Air Task Force',
     slug: 'https://gitcoin.co/grants/4114/clean-air-task-force',
@@ -63736,7 +63736,7 @@ export const theData = [
   },
   {
     grantId: 4118,
-    'active': true,
+    isActive: true,
     address: '0xc30197a252241439c432354ef89a8a245dc75531',
     name: 'The Blockchain Association (BA)',
     slug: 'https://gitcoin.co/grants/4118/the-blockchain-association-ba',
@@ -63771,7 +63771,7 @@ export const theData = [
   },
   {
     grantId: 4119,
-    'active': true,
+    isActive: true,
     address: '0x58b36156a268ec1e28ac781554c556e5152f7450',
     name: 'Kick-starting the market for future carbon',
     slug: 'https://gitcoin.co/grants/4119/kick-starting-the-market-for-future-carbon',
@@ -63806,7 +63806,7 @@ export const theData = [
   },
   {
     grantId: 4125,
-    'active': true,
+    isActive: true,
     address: '0xdf3011ee21b7407adc494fa8bfaf77f48e644101',
     name: 'Ethelo integration for Gitcoin and DAOs',
     slug: 'https://gitcoin.co/grants/4125/ethelo-integration-for-gitcoin-and-daos',
@@ -63841,7 +63841,7 @@ export const theData = [
   },
   {
     grantId: 4130,
-    'active': true,
+    isActive: true,
     address: '0x050e8c2dc9454ca53da9efdad6a93bb00c216ca0',
     name: 'Ricardian Fabric',
     slug: 'https://gitcoin.co/grants/4130/ricardian-fabric',
@@ -63876,7 +63876,7 @@ export const theData = [
   },
   {
     grantId: 4132,
-    'active': true,
+    isActive: true,
     address: '0x45c86844f2da14ae50e3dbb3cd9b83ac632bcd67',
     name: 'Our Multi Metaverse',
     slug: 'https://gitcoin.co/grants/4132/our-multi-metaverse',
@@ -63911,7 +63911,7 @@ export const theData = [
   },
   {
     grantId: 4134,
-    'active': true,
+    isActive: true,
     address: '0xd35c826bf2bed9a6a448a184026199b500d60514',
     name: 'Mirror Curator DAO',
     slug: 'https://gitcoin.co/grants/4134/mirror-curator-dao',
@@ -63946,7 +63946,7 @@ export const theData = [
   },
   {
     grantId: 4139,
-    'active': true,
+    isActive: true,
     address: '0x466ef24d68ac9b61670eee7fc2e001b951abf482',
     name: 'ETHTPS.info',
     slug: 'https://gitcoin.co/grants/4139/ethtpsinfo',
@@ -63981,7 +63981,7 @@ export const theData = [
   },
   {
     grantId: 4142,
-    'active': true,
+    isActive: true,
     address: '0x48a0f98a7b4d6823d7ecdac87cce8672130fef17',
     name: 'EducationConnect - the app that enables people to take ownership of their works, projects, and ideas through NFTs that they can sell, swap, or rent.',
     slug: 'https://gitcoin.co/grants/4142/educationconnect-the-app-that-enables-people-to-t',
@@ -64016,7 +64016,7 @@ export const theData = [
   },
   {
     grantId: 4143,
-    'active': true,
+    isActive: true,
     address: '0x8289432acd5eb0214b1c2526a5edb480aa06a9ab',
     name: 'wslyvh - useWeb3 | ETHGas | Tokenlog & more..',
     slug: 'https://gitcoin.co/grants/4143/wslyvh-useweb3-ethgas-tokenlog-more',
@@ -64051,7 +64051,7 @@ export const theData = [
   },
   {
     grantId: 4144,
-    'active': true,
+    isActive: true,
     address: '0xfd9f97126ef903872fe96ede82915f2f2b183da6',
     name: 'Hackathon DAO',
     slug: 'https://gitcoin.co/grants/4144/hackathon-dao',
@@ -64086,7 +64086,7 @@ export const theData = [
   },
   {
     grantId: 4151,
-    'active': true,
+    isActive: true,
     address: '0x0a0a82aead38896eafe0cefabf1f607ac9cd288f',
     name: 'Silent Auth: the de facto multi-factor authenticator for web3',
     slug: 'https://gitcoin.co/grants/4151/silent-auth-the-de-facto-multi-factor-authenticat',
@@ -64121,7 +64121,7 @@ export const theData = [
   },
   {
     grantId: 4152,
-    'active': true,
+    isActive: true,
     address: '0xdff6f36c0787cb822469ed0b2c59c4de551588d2',
     name: 'Multi-Transferring POAPs Tool',
     slug: 'https://gitcoin.co/grants/4152/multi-transferring-poaps-tool',
@@ -64156,7 +64156,7 @@ export const theData = [
   },
   {
     grantId: 4154,
-    'active': true,
+    isActive: true,
     address: '0x89d9dd2e85ecc305e276f51bb21fd4c708be9487',
     name: 'Lazy Trade',
     slug: 'https://gitcoin.co/grants/4154/lazy-trade',
@@ -64191,7 +64191,7 @@ export const theData = [
   },
   {
     grantId: 4155,
-    'active': true,
+    isActive: true,
     address: '0x422d5f09172e1e52c0323580761660261eaacbe0',
     name: 'On the Other Side Podcast',
     slug: 'https://gitcoin.co/grants/4155/on-the-other-side-podcast',
@@ -64226,7 +64226,7 @@ export const theData = [
   },
   {
     grantId: 4156,
-    'active': true,
+    isActive: true,
     address: '0x414531e74c58b4a5c5c998b18fbe819a70d78f30',
     name: 'Blurred Lines Community',
     slug: 'https://gitcoin.co/grants/4156/blurred-lines-community',
@@ -64261,7 +64261,7 @@ export const theData = [
   },
   {
     grantId: 4157,
-    'active': true,
+    isActive: true,
     address: '0xa1bbd8d39ed536dea030a32f3f6c5916c845a800',
     name: 'Gotchiverse Media International',
     slug: 'https://gitcoin.co/grants/4157/gotchiverse-media-international',
@@ -64296,7 +64296,7 @@ export const theData = [
   },
   {
     grantId: 4164,
-    'active': true,
+    isActive: true,
     address: '0x990542586572d53940c0998eb5cf8f062f756c18',
     name: 'Decentralised voting (decentralised tallying)',
     slug: 'https://gitcoin.co/grants/4164/decentralised-voting-decentralised-tallying',
@@ -64331,7 +64331,7 @@ export const theData = [
   },
   {
     grantId: 4165,
-    'active': true,
+    isActive: true,
     address: '0x6e5cd14de0ad04f4012d057acdb01109a8f7b676',
     name: 'Sismo - Aggregate your private reputation to your public Ethereum profile',
     slug: 'https://gitcoin.co/grants/4165/sismo-aggregate-your-private-reputation-to-your-p',
@@ -64366,7 +64366,7 @@ export const theData = [
   },
   {
     grantId: 4168,
-    'active': true,
+    isActive: true,
     address: '0x70b7c9695f1e855a069e6d7918ec304e19a81784',
     name: 'Ethropy',
     slug: 'https://gitcoin.co/grants/4168/ethropy',
@@ -64401,7 +64401,7 @@ export const theData = [
   },
   {
     grantId: 4170,
-    'active': true,
+    isActive: true,
     address: '0x4d4680e1d965273bc7b1b1f6442605fb1c278353',
     name: 'Nuggans license to BUIDL',
     slug: 'https://gitcoin.co/grants/4170/nuggans-license-to-buidl',
@@ -64436,7 +64436,7 @@ export const theData = [
   },
   {
     grantId: 4174,
-    'active': true,
+    isActive: true,
     address: '0xa5fb245acdf6a08ad8fa47b542a30068316fb2a1',
     name: 'DAO Stewards Network',
     slug: 'https://gitcoin.co/grants/4174/dao-stewards-network',
@@ -64471,7 +64471,7 @@ export const theData = [
   },
   {
     grantId: 4183,
-    'active': true,
+    isActive: true,
     address: '0xf22727dfe1e1465d5846246899f5d411ff3965fc',
     name: 'Brush: A ZK Powered Social Coordination Game',
     slug: 'https://gitcoin.co/grants/4183/brush-a-zk-powered-social-coordination-game',
@@ -64506,7 +64506,7 @@ export const theData = [
   },
   {
     grantId: 4186,
-    'active': true,
+    isActive: true,
     address: '0xbc0b437c95c7165f7d1f7c966cb2227da52a27d7',
     name: 'Kredeum : Decentralized NFTs Factory',
     slug: 'https://gitcoin.co/grants/4186/kredeum-decentralized-nfts-factory',
@@ -64541,7 +64541,7 @@ export const theData = [
   },
   {
     grantId: 4193,
-    'active': true,
+    isActive: true,
     address: '0x37628d203e6c60498d39084c81c8ea7569bdf116',
     name: 'CryptoLaw educates lawmakers on crypto, DeFi and DAOs',
     slug: 'https://gitcoin.co/grants/4193/cryptolaw-educates-lawmakers-on-crypto-defi-and-d',
@@ -64576,7 +64576,7 @@ export const theData = [
   },
   {
     grantId: 4197,
-    'active': true,
+    isActive: true,
     address: '0x79c2d72552df1c5d551b812eca906a90ce9d840a',
     name: 'basinDAO - climate/nature restoration, regeneration & conservation at scale',
     slug: 'https://gitcoin.co/grants/4197/basindao-climatenature-restoration-regeneration-c',
@@ -64611,7 +64611,7 @@ export const theData = [
   },
   {
     grantId: 4201,
-    'active': true,
+    isActive: true,
     address: '0x55b23ed53fe13060183b92979c737a8ef9a73b73',
     name: 'Spect Network',
     slug: 'https://gitcoin.co/grants/4201/spect-network',
@@ -64646,7 +64646,7 @@ export const theData = [
   },
   {
     grantId: 4203,
-    'active': true,
+    isActive: true,
     address: '0x79a375fefbf90878502eadba4a89697896b60c4d',
     name: 'Uniswap Calculator (v3)',
     slug: 'https://gitcoin.co/grants/4203/uniswap-calculator-v3',
@@ -64681,7 +64681,7 @@ export const theData = [
   },
   {
     grantId: 4213,
-    'active': true,
+    isActive: true,
     address: '0x503dd92d99679626d74e618725aca814cb583f66',
     name: 'Blaine Bublitz - ETH/ZK Infrastructure & Ecosystem developer',
     slug: 'https://gitcoin.co/grants/4213/blaine-bublitz-ethzk-infrastructure-ecosystem-dev',
@@ -64716,7 +64716,7 @@ export const theData = [
   },
   {
     grantId: 4223,
-    'active': true,
+    isActive: true,
     address: '0x75c1bd4bd04e556343dd5e2d128035685eaf7edc',
     name: 'Web3WP - bringing NFT minting to WordPress',
     slug: 'https://gitcoin.co/grants/4223/web3wp-bringing-nft-minting-to-wordpress',
@@ -64751,7 +64751,7 @@ export const theData = [
   },
   {
     grantId: 4231,
-    'active': true,
+    isActive: true,
     address: '0xe732654ba181fc97a42dc35cd137cdee2b17930f',
     name: 'Community-Led ZK Mechanics in Dark Forest',
     slug: 'https://gitcoin.co/grants/4231/community-led-zk-mechanics-in-dark-forest',
@@ -64786,7 +64786,7 @@ export const theData = [
   },
   {
     grantId: 4232,
-    'active': true,
+    isActive: true,
     address: '0x5a5f43e555ad3d98b7489e9c0e701001d501d728',
     name: 'ZK Mafia Game: Hackers vs. Devs',
     slug: 'https://gitcoin.co/grants/4232/zk-mafia-game-hackers-vs-devs',
@@ -64821,7 +64821,7 @@ export const theData = [
   },
   {
     grantId: 4234,
-    'active': true,
+    isActive: true,
     address: '0xda47bdcc48f26fb4709f90316341d9104cb1fb89',
     name: 'Impact X Crypto Masterminds',
     slug: 'https://gitcoin.co/grants/4234/impact-x-crypto-masterminds',
@@ -64856,7 +64856,7 @@ export const theData = [
   },
   {
     grantId: 4240,
-    'active': true,
+    isActive: true,
     address: '0x681044a9b8c0ec3699e763943ccda3b163df18d1',
     name: 'Moonjelly DAO: Decentralizing Ocean Conservation',
     slug: 'https://gitcoin.co/grants/4240/moonjelly-dao-decentralizing-ocean-conservation',
@@ -64891,7 +64891,7 @@ export const theData = [
   },
   {
     grantId: 4242,
-    'active': true,
+    isActive: true,
     address: '0x9e719e9cc1755c0e98f9917d7d7e52540879217d',
     name: 'analyzer.fi',
     slug: 'https://gitcoin.co/grants/4242/analyzerfi',
@@ -64926,7 +64926,7 @@ export const theData = [
   },
   {
     grantId: 4248,
-    'active': true,
+    isActive: true,
     address: '0x13a1fbdea7241ff19fc60317ebb1243f5d5cdb13',
     name: 'Moving Castles -  Portable and modular miniverses',
     slug: 'https://gitcoin.co/grants/4248/moving-castles-portable-and-modular-miniverses',
@@ -64961,7 +64961,7 @@ export const theData = [
   },
   {
     grantId: 4249,
-    'active': true,
+    isActive: true,
     address: '0xbc75450fea56d13fbe91a7a8018e7af95d4bc668',
     name: 'POZZLE PLANET - Create the planet you want',
     slug: 'https://gitcoin.co/grants/4249/pozzle-planet-create-the-planet-you-want',
@@ -64996,7 +64996,7 @@ export const theData = [
   },
   {
     grantId: 4251,
-    'active': true,
+    isActive: true,
     address: '0xec27e57371d205f9373c21efbf5b0c96d13a3247',
     name: 'Lets Unf_ck The Planet Together w/ Early-stage Climate Tech R&D',
     slug: 'https://gitcoin.co/grants/4251/lets-unf_ck-the-planet-together-w-early-stage-cli',
@@ -65031,7 +65031,7 @@ export const theData = [
   },
   {
     grantId: 4253,
-    'active': true,
+    isActive: true,
     address: '0x30195818372daabf7a92428fec8426e9d5b0c7ea',
     name: 'New York Blockchain Coalition',
     slug: 'https://gitcoin.co/grants/4253/new-york-blockchain-coalition',
@@ -65066,7 +65066,7 @@ export const theData = [
   },
   {
     grantId: 4257,
-    'active': true,
+    isActive: true,
     address: '0x03798c0d62e6a0b0548114fb6241efa07ca4122d',
     name: 'Reputable DAO',
     slug: 'https://gitcoin.co/grants/4257/reputable-dao',
@@ -65101,7 +65101,7 @@ export const theData = [
   },
   {
     grantId: 4260,
-    'active': true,
+    isActive: true,
     address: '0x099f7a6718f69290d7065736ba21c194eb08b9fc',
     name: 'Methuselah - feature film about longevity -',
     slug: 'https://gitcoin.co/grants/4260/methuselah-feature-film-about-longevity-',
@@ -65136,7 +65136,7 @@ export const theData = [
   },
   {
     grantId: 4263,
-    'active': true,
+    isActive: true,
     address: '0xf0dbde527c63b63178576578777f0b7e24755abb',
     name: 'Using ZK for game optimization in Dark Forest',
     slug: 'https://gitcoin.co/grants/4263/using-zk-for-game-optimization-in-dark-forest',
@@ -65171,7 +65171,7 @@ export const theData = [
   },
   {
     grantId: 4270,
-    'active': true,
+    isActive: true,
     address: '0x863e5cd3f747bb3e0db223e50184965355a10682',
     name: 'Open Genes — Structured data on human genes associated with aging in one place and format',
     slug: 'https://gitcoin.co/grants/4270/open-genes-structured-data-on-human-genes-associa',
@@ -65206,7 +65206,7 @@ export const theData = [
   },
   {
     grantId: 4272,
-    'active': true,
+    isActive: true,
     address: '0x5d089fd2515e4217c9b82e7ebbf7b6ab2871fd21',
     name: 'Life Dynamics',
     slug: 'https://gitcoin.co/grants/4272/life-dynamics',
@@ -65241,7 +65241,7 @@ export const theData = [
   },
   {
     grantId: 4276,
-    'active': true,
+    isActive: true,
     address: '0xf634ec94939efd57cb888fa8451c1e0d0f973c23',
     name: 'Dune Dashboards for Aztec Protocol',
     slug: 'https://gitcoin.co/grants/4276/dune-dashboards-for-aztec-protocol',
@@ -65276,7 +65276,7 @@ export const theData = [
   },
   {
     grantId: 4280,
-    'active': true,
+    isActive: true,
     address: '0x895f63111b97c7ad0d620f8610dd360a9c567f31',
     name: 'Dark Sea marketplace in Dark Forest',
     slug: 'https://gitcoin.co/grants/4280/dark-sea-marketplace-in-dark-forest',
@@ -65311,7 +65311,7 @@ export const theData = [
   },
   {
     grantId: 4281,
-    'active': true,
+    isActive: true,
     address: '0xa7476358bba1a1dc1cfa838118d638e9252c27ff',
     name: 'Open Drugs',
     slug: 'https://gitcoin.co/grants/4281/open-drugs',
@@ -65346,7 +65346,7 @@ export const theData = [
   },
   {
     grantId: 4287,
-    'active': true,
+    isActive: true,
     address: '0x47c10ce3c2bfe7f45974f0475730d8aed4b42513',
     name: 'ZK Chat and Guild System in Dark Forest',
     slug: 'https://gitcoin.co/grants/4287/zk-chat-and-guild-system-in-dark-forest',
@@ -65381,7 +65381,7 @@ export const theData = [
   },
   {
     grantId: 4288,
-    'active': true,
+    isActive: true,
     address: '0x69b630c1685b603be8fa70709f6c45695e9fc852',
     name: 'Marduk: automated knowledge extraction for longevity research',
     slug: 'https://gitcoin.co/grants/4288/marduk-automated-knowledge-extraction-for-longevi',
@@ -65416,7 +65416,7 @@ export const theData = [
   },
   {
     grantId: 4290,
-    'active': true,
+    isActive: true,
     address: '0x427759bfe7b72e06ec6c8a4da9ab1994f8315a29',
     name: 'Metacity: Take ownership of the open metaverse',
     slug: 'https://gitcoin.co/grants/4290/metacity-take-ownership-of-the-open-metaverse',
@@ -65451,7 +65451,7 @@ export const theData = [
   },
   {
     grantId: 4292,
-    'active': true,
+    isActive: true,
     address: '0x28eb75f8980a69b0315d67185904931b9ab28a73',
     name: 'Cryptostamping',
     slug: 'https://gitcoin.co/grants/4292/cryptostamping',
@@ -65486,7 +65486,7 @@ export const theData = [
   },
   {
     grantId: 4294,
-    'active': true,
+    isActive: true,
     address: '0xb9c5ed064288dc62adb6e6a0d8106fd6e71ac2a2',
     name: 'Frontpage Ping: Decentralized Real-Time Collaboration Network Protocol for Web3',
     slug: 'https://gitcoin.co/grants/4294/frontpage-ping-decentralized-real-time-collaborat',
@@ -65521,7 +65521,7 @@ export const theData = [
   },
   {
     grantId: 4296,
-    'active': true,
+    isActive: true,
     address: '0x8cfe1b95c851ece1216ec395595d8a0a071d22a7',
     name: 'Boston Matrix',
     slug: 'https://gitcoin.co/grants/4296/boston-matrix',
@@ -65556,7 +65556,7 @@ export const theData = [
   },
   {
     grantId: 4299,
-    'active': true,
+    isActive: true,
     address: '0x148d59faf10b52063071eddf4aaf63a395f2d41c',
     name: 'CyberConnect',
     slug: 'https://gitcoin.co/grants/4299/cyberconnect',
@@ -65591,7 +65591,7 @@ export const theData = [
   },
   {
     grantId: 4307,
-    'active': true,
+    isActive: true,
     address: '0x5daf1469324b8fc0886ddbf855e380130c67428d',
     name: 'DeSchool',
     slug: 'https://gitcoin.co/grants/4307/deschool',
@@ -65626,7 +65626,7 @@ export const theData = [
   },
   {
     grantId: 4310,
-    'active': true,
+    isActive: true,
     address: '0x585cd52bf0206a1ee3bcc609a06be74ae9c82bf1',
     name: 'Science Fund',
     slug: 'https://gitcoin.co/grants/4310/science-fund',
@@ -65661,7 +65661,7 @@ export const theData = [
   },
   {
     grantId: 4312,
-    'active': true,
+    isActive: true,
     address: '0x41d2a18e1ddacdabfddadb62e9aee67c63070b76',
     name: 'UniSwappeR - An R Package to interact with the Uniswap Platform',
     slug: 'https://gitcoin.co/grants/4312/uniswapper-an-r-package-to-interact-with-the-unis',
@@ -65696,7 +65696,7 @@ export const theData = [
   },
   {
     grantId: 4352,
-    'active': true,
+    isActive: true,
     address: '0x9b67d3067fa606be28e56c1ab184725c07b7b221',
     name: 'ZigZag Exchange',
     slug: 'https://gitcoin.co/grants/4352/zigzag-exchange',
@@ -65731,7 +65731,7 @@ export const theData = [
   },
   {
     grantId: 4367,
-    'active': true,
+    isActive: true,
     address: '0x9e46751763301a52b97b6e585b76d53d6cf7ba9b',
     name: 'Foresight Institute Longevity Fellowship',
     slug: 'https://gitcoin.co/grants/4367/foresight-institute-longevity-fellowship',
@@ -65766,7 +65766,7 @@ export const theData = [
   },
   {
     grantId: 0,
-    'active': false,
+    isActive: false,
     address: '0x7d655c57f71464b6f83811c55d84009cd9f5221c',
     name: 'GitCoin Grant Contract - Rounds 6 through 9',
     slug: '',
@@ -65801,7 +65801,7 @@ export const theData = [
   },
   {
     grantId: 1,
-    'active': false,
+    isActive: false,
     address: '0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6',
     name: 'GitCoin MatchPayouts - Round 8',
     slug: '',
@@ -65836,7 +65836,7 @@ export const theData = [
   },
   {
     grantId: 2,
-    'active': false,
+    isActive: false,
     address: '0xdf869fad6db91f437b59f1edefab319493d4c4ce',
     name: 'GitCoin Grant Contract - Pre Round 6',
     slug: '',
@@ -65871,7 +65871,7 @@ export const theData = [
   },
   {
     grantId: 12,
-    'active': false,
+    isActive: false,
     address: '0xde21f729137c5af1b01d73af1dc21effa2b8a0d6',
     name: 'Gitcoin Grants MultiSig (Matching Pool Fund)',
     slug: 'https://gitcoin.co/grants/12/gtcoin-grants-multisig',
@@ -65906,7 +65906,7 @@ export const theData = [
   },
   {
     grantId: 4,
-    'active': false,
+    isActive: false,
     address: '0xabea9132b05a70803a4e85094fd0e1800777fbef',
     name: 'zkSync Contract',
     slug: '',
@@ -65941,7 +65941,7 @@ export const theData = [
   },
   {
     grantId: 5,
-    'active': false,
+    isActive: false,
     address: '0xd4567069c5a1c1fc8261d8ff5c0b1d98f069cf47',
     name: 'FDD MultiSig',
     slug: '',
