@@ -6,10 +6,11 @@ package cmd
 
 import (
 	"errors"
-	"fmt"
 	"io"
+	"log"
 	"os"
 	"path"
+	"sync"
 
 	tokenomics "github.com/TrueBlocks/tokenomics.io/pkg"
 	"github.com/spf13/cobra"
@@ -21,51 +22,68 @@ type FlagFileConfig struct {
 	OutputFile     string
 }
 
+// TODO: CHAINS
+
 var flagToFileConfig = map[string]FlagFileConfig{
 	"appearances": {
-		InputDirectory: "./apps", // TODO: change it to configurable source directory
+		InputDirectory: "./apps",
 		OutputFile:     "./combined/apps.csv",
+	},
+	"logs": {
+		InputDirectory: "./logs",
+		OutputFile:     "./combined/logs.csv",
+	},
+	"neighbors": {
+		InputDirectory: "./neighbors",
+		OutputFile:     "./combined/neighbors.csv",
+	},
+	"statements": {
+		InputDirectory: "./statements",
+		OutputFile:     "./combined/statements.csv",
+	},
+	"txs": {
+		InputDirectory: "./txs",
+		OutputFile:     "./combined/txs.csv",
 	},
 }
 
 // combineCmd represents the combine command
 var combineCmd = &cobra.Command{
 	Use:   "combine",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "Combines per address data into single file",
 	RunE: func(cmd *cobra.Command, args []string) error {
-		fmt.Println("combine called")
-
-		addressesFilePath := args[0]
+		// Define where to find addresses file
+		addressesFilePath := "./addresses.txt"
 
 		if cmd.Flags().NFlag() == 0 {
 			return errors.New("at least one flag required")
 		}
 
+		// We need to build a list of used flags so that we can match flags with
+		// file configuration
 		flagsSet := []string{}
 		cmd.Flags().Visit(func(f *pflag.Flag) {
 			flagsSet = append(flagsSet, f.Name)
 		})
 
+		// Create address file reader
 		reader, err := tokenomics.ReadGrants(addressesFilePath)
 		if err != nil {
-			return err
+			log.Fatal(err)
 		}
 
+		// We will create output files and keep them in a map, so that
+		// we don't have to repeat open and close operations for each
+		// address.
 		flagToOutputFiles := map[string]*os.File{}
 		for _, flagName := range flagsSet {
 			fileConfig, ok := flagToFileConfig[flagName]
 			if !ok {
-				return fmt.Errorf("missing file configuration for flag: %s", flagName)
+				log.Fatalf("missing file configuration for flag: %s", flagName)
 			}
-			output, err := os.OpenFile(fileConfig.OutputFile, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0755)
+			output, err := os.Create(fileConfig.OutputFile)
 			if err != nil {
-				return err
+				log.Fatal(err)
 			}
 			flagToOutputFiles[flagName] = output
 			// runs at the end of the function
@@ -73,6 +91,7 @@ to quickly create a Cobra application.`,
 		}
 
 		for {
+			// Read one address
 			grant, err := reader.Read()
 			if err == io.EOF {
 				break
@@ -81,19 +100,29 @@ to quickly create a Cobra application.`,
 				return err
 			}
 
+			// For each flag, we will combine the single address file. We want to
+			// do it concurrently, because opening input file can take some time.
+			var wg sync.WaitGroup
 			for _, flagName := range flagsSet {
-				fileConfig := flagToFileConfig[flagName]
+				wg.Add(1)
+				// This go routine contains main logic
+				go func() {
+					defer wg.Done()
+					fileConfig := flagToFileConfig[flagName]
 
-				input, err := os.ReadFile(path.Join(fileConfig.InputDirectory, grant.Address) + ".csv")
-				if err != nil {
-					return err
-				}
+					input, err := os.ReadFile(path.Join(fileConfig.InputDirectory, grant.Address) + ".csv")
+					if err != nil {
+						log.Fatal(err)
+					}
 
-				output := flagToOutputFiles[flagName]
-				_, err = output.Write(input)
-				if err != nil {
-					return err
-				}
+					output := flagToOutputFiles[flagName]
+					_, err = output.Write(input)
+					if err != nil {
+						log.Fatal(err)
+					}
+				}()
+				// Wait for all go routines for this address to finish
+				wg.Wait()
 			}
 		}
 
@@ -104,14 +133,8 @@ to quickly create a Cobra application.`,
 func init() {
 	rootCmd.AddCommand(combineCmd)
 
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// combineCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// combineCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 	combineCmd.Flags().BoolP("appearances", "a", false, "Output appearances file")
+	combineCmd.Flags().BoolP("logs", "l", false, "Output logs file")
+	combineCmd.Flags().BoolP("neighbors", "n", false, "Output neighbors file")
+	combineCmd.Flags().BoolP("txs", "t", false, "Output txs file")
 }
