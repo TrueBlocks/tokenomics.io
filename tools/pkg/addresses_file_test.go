@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/TrueBlocks/tokenomics.io/pkg/types"
+	"github.com/TrueBlocks/tokenomics.io/tools/pkg/types"
 )
 
 func TestReadAddressFile(t *testing.T) {

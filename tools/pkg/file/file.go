@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/TrueBlocks/tokenomics.io/pkg/types"
+	"github.com/TrueBlocks/tokenomics.io/tools/pkg/types"
 )
 
 func LineCounts(folder, chain, addr string) (types.Counts, error) {

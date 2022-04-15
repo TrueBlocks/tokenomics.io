@@ -12,7 +12,7 @@ import (
 	"path"
 	"sync"
 
-	tokenomics "github.com/TrueBlocks/tokenomics.io/pkg"
+	tokenomics "github.com/TrueBlocks/tokenomics.io/tools/pkg"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

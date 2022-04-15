@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/TrueBlocks/tokenomics.io/pkg/types"
+	"github.com/TrueBlocks/tokenomics.io/tools/pkg/types"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/validate"
 )
 
