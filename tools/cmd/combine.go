@@ -62,9 +62,20 @@ var combineCmd = &cobra.Command{
 		// We need to build a list of used flags so that we can match flags with
 		// file configuration
 		flagsSet := []string{}
-		cmd.Flags().Visit(func(f *pflag.Flag) {
-			flagsSet = append(flagsSet, f.Name)
-		})
+		allFlag, err := cmd.Flags().GetBool("all")
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		if !allFlag {
+			cmd.Flags().Visit(func(f *pflag.Flag) {
+				flagsSet = append(flagsSet, f.Name)
+			})
+		} else {
+			for flagName := range flagToFileConfig {
+				flagsSet = append(flagsSet, flagName)
+			}
+		}
 
 		// Create address file reader
 		reader, err := tokenomics.ReadGrants(addressesFilePath)
@@ -133,6 +144,7 @@ var combineCmd = &cobra.Command{
 func init() {
 	rootCmd.AddCommand(combineCmd)
 
+	combineCmd.Flags().BoolP("all", "A", false, "Output all file")
 	combineCmd.Flags().BoolP("appearances", "a", false, "Output appearances file")
 	combineCmd.Flags().BoolP("logs", "l", false, "Output logs file")
 	combineCmd.Flags().BoolP("neighbors", "n", false, "Output neighbors file")
