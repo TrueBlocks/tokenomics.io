@@ -26,7 +26,7 @@ Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		folder := "wallets"
+		folder := "gitcoin"
 		chain := "mainnet"
 
 		grants := []types.Grant{}
@@ -44,10 +44,11 @@ to quickly create a Cobra application.`,
 				parts = append(parts, "Active")
 			}
 			if len(parts) < 5 {
-				parts = append(parts, "false")
-			}
-			if len(parts) < 6 {
-				parts = append(parts, strings.ToLower(strings.Replace(parts[2], " ", "-", -1)))
+				v := "false"
+				if strings.Contains(parts[0], "Core") {
+					v = "true"
+				}
+				parts = append(parts, v)
 			}
 
 			grant := types.Grant{
@@ -56,7 +57,6 @@ to quickly create a Cobra application.`,
 				Name:        parts[2],
 				IsActive:    parts[3] == "Active",
 				Core:        parts[4] == "true",
-				Slug:        parts[5],
 				LastUpdated: time.Now().Unix(),
 			}
 
