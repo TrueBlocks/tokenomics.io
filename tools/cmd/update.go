@@ -53,14 +53,14 @@ to quickly create a Cobra application.`,
 
 			grant := types.Grant{
 				GrantId:     parts[1],
-				Address:     parts[0],
+				Address:     strings.ToLower(parts[0]),
 				Name:        parts[2],
-				IsActive:    parts[3] == "Active",
+				IsActive:    parts[3] == "Active" || parts[3] == "true",
 				Core:        parts[4] == "true",
 				LastUpdated: time.Now().Unix(),
 			}
 
-			chainData := types.Chain{Name: "mainnet"}
+			chainData := types.Chain{ChainName: "mainnet"}
 			var err error
 			chainData.Counts, err = file.LineCounts(folder, chain, grant.Address)
 			if err != nil {
@@ -72,11 +72,17 @@ to quickly create a Cobra application.`,
 			grants = append(grants, grant)
 		}
 
-		for _, grant := range grants {
+		fmt.Println("[")
+		for i, grant := range grants {
 			if grant.Chains[0].HasRecords() {
-				fmt.Println(grant)
+				if i > 0 {
+					fmt.Println(",")
+				}
+				str := grant.String()
+				fmt.Println(str)
 			}
 		}
+		fmt.Println("]")
 	},
 }
 

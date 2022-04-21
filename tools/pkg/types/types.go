@@ -51,7 +51,7 @@ type Balance struct {
 }
 
 type Chain struct {
-	Name       string     `json:"name,omitempty"`
+	ChainName  string     `json:"chainName,omitempty"`
 	FirstApp   Appearance `json:"firstAppearance,omitempty"`
 	LatestApp  Appearance `json:"latestAppearance,omitempty"`
 	BlockRange int        `json:"blockRange,omitempty"`
