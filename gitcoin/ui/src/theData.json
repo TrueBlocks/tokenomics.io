@@ -1,0 +1,43 @@
+[
+  {
+    "grantId": "7",
+    "address": "0xaa42aa2e1888c5aa2861e970cb2720848b868c68",
+    "name": "ETH2.0 Implementers Call Notes",
+    "slug": "https://gitcoin.co/grants/7/eth20-implementers-call-notes",
+    "core": false,
+    "lastUpdated": 13843679,
+    "isActive": true,
+    "chainData": [
+      {
+        "chainName": "mainnet",
+        "fileSize": 624,
+        "blockRange": 3926169,
+        "firstAppearance": {
+          "bn": 5575333,
+          "txId": 202,
+          "timestamp": 1525744575,
+          "date": "2018-05-08 01:56:15 UTC"
+        },
+        "latestAppearance": {
+          "bn": 9501501,
+          "txId": 84,
+          "timestamp": 1581954704,
+          "date": "2020-02-17 15: 51: 44 UTC"
+        },
+        "counts": {
+          "neighborCount": 3805,
+          "logCount": 2,
+          "appearanceCount": 78,
+          "txCount": 78
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.00154728817953605
+          }
+        ],
+        "types": "txs,logs,neighbors"
+      }
+    ]
+  }
+]

@@ -6,7 +6,7 @@ import { Input, Layout, Tabs, Row, Col } from 'antd';
 import './App.css';
 import 'antd/dist/antd.css';
 
-import { theData } from './theData';
+import theData from './theData.json';
 import { columns as columnDefinitions } from './ColumnDefs';
 import { BaseTable } from './BaseTable';
 

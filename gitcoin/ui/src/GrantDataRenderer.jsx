@@ -52,7 +52,7 @@ export function GrantDataRenderer({ grantData }) {
               Appearance count
             </th>
             <td>
-              {grantData.appearanceCount}
+              {grantData.chainData[0].counts.appearanceCount}
             </td>
           </tr>
           <tr>
@@ -94,25 +94,25 @@ export function GrantDataRenderer({ grantData }) {
               Block
             </th>
             <td>
-              {grantData.firstAppearance.bn}
+              {grantData.chainData[0].firstAppearance.bn}
             </td>
             <th title='Transaction ID'>
               Transaction ID
             </th>
             <td>
-              {grantData.firstAppearance.txId}
+              {grantData.chainData[0].firstAppearance.txId}
             </td>
             <th title='Timestamp'>
               Timestamp
             </th>
             <td>
-              {grantData.firstAppearance.timestamp}
+              {grantData.chainData[0].firstAppearance.timestamp}
             </td>
             <th title='Date'>
               Date
             </th>
             <td>
-              {grantData.firstAppearance.date}
+              {grantData.chainData[0].firstAppearance.date}
             </td>
           </tr>
           <tr className='appearance-header'>
@@ -125,25 +125,25 @@ export function GrantDataRenderer({ grantData }) {
               Block
             </th>
             <td>
-              {grantData.latestAppearance.bn}
+              {grantData.chainData[0].latestAppearance.bn}
             </td>
             <th title='Transaction ID'>
               Transaction ID
             </th>
             <td>
-              {grantData.latestAppearance.txId}
+              {grantData.chainData[0].latestAppearance.txId}
             </td>
             <th title='Timestamp'>
               Timestamp
             </th>
             <td>
-              {grantData.latestAppearance.timestamp}
+              {grantData.chainData[0].latestAppearance.timestamp}
             </td>
             <th title='Date'>
               Date
             </th>
             <td>
-              {grantData.latestAppearance.date}
+              {grantData.chainData[0].latestAppearance.date}
             </td>
           </tr>
           <tr>
@@ -157,19 +157,19 @@ export function GrantDataRenderer({ grantData }) {
               Block range
             </th>
             <td>
-              {grantData.blockRange}
+              {grantData.chainData[0].blockRange}
             </td>
             <th title='File size'>
               File size
             </th>
             <td>
-              {grantData.fileSize}
+              {grantData.chainData[0].fileSize}
             </td>
             <th title='Log count'>
               Log count
             </th>
             <td>
-              {grantData.logCount}
+              {grantData.chainData[0].counts.logCount}
             </td>
           </tr>
           <tr>
@@ -177,20 +177,20 @@ export function GrantDataRenderer({ grantData }) {
               Neighbor count
             </th>
             <td>
-              {grantData.neighborCount}
+              {grantData.chainData[0].counts.neighborCount}
             </td>
             <th title='Types'>
               Types
             </th>
             <td colSpan={2}>
-              {grantData.types.split(',').map((type) => <Tag key={type}>{type}</Tag>)}
+              {grantData.chainData[0].types.split(',').map((type) => <Tag key={type}>{type}</Tag>)}
             </td>
             <th title='Balances'>
               Balances
             </th>
             <td colSpan={2}>
               <ol>
-                {grantData.balances.map((balance) => <li key={balance.asset}>{balance.asset} {balance.balance}</li>)}
+                {grantData.chainData[0].balances.map((balance) => <li key={balance.asset}>{balance.asset} {balance.balance}</li>)}
               </ol>
             </td>
           </tr>
