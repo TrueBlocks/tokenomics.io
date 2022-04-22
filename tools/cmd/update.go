@@ -5,16 +5,22 @@ Copyright © 2022 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
+	"context"
 	"fmt"
 	"log"
+	"math/big"
 	"os"
 	"strings"
 
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/file"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/monitor"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/types"
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/config"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/index"
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/rpcClient"
 	tslibPkg "github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/tslib"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/spf13/cobra"
 )
 
@@ -31,6 +37,8 @@ to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		folder := "gitcoin"
 		chain := "mainnet"
+
+		meta := rpcClient.GetMetaData("mainnet", false)
 
 		grants := []types.Grant{}
 
@@ -83,7 +91,7 @@ to quickly create a Cobra application.`,
 					fmt.Println(err)
 					os.Exit(1)
 				}
-				apps := make([]index.AppearanceRecord, mon.Count(), mon.Count())
+				apps := make([]index.AppearanceRecord, mon.Count())
 				err = mon.ReadAppearances(&apps)
 				if err != nil {
 					fmt.Println(err)
@@ -102,6 +110,10 @@ to quickly create a Cobra application.`,
 					chainData.LatestApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.LatestApp.Timestamp))
 					chainData.BlockRange = chainData.LatestApp.Bn - chainData.FirstApp.Bn + 1
 				}
+				chainData.Balances = append(chainData.Balances, types.Balance{
+					Asset:   "ETH",
+					Balance: GetBalanceInEth("mainnet", strings.ToLower(parts[0]), meta.Latest),
+				})
 			}
 			mon.Close()
 			chainData.Types = chainData.Counts.Types()
@@ -154,4 +166,35 @@ func LineCounts(folder, chain, addr string) (types.Counts, error) {
 	counts.Txs, _ = file.LineCount(folder+"exports/"+chain+"/txs/"+addr+".csv", true)
 	counts.Statements, _ = file.LineCount(folder+"exports/"+chain+"/statements/"+addr+".csv", true)
 	return counts, nil
+}
+
+// TODO: BOGUS move to package
+func ethFromWei(in big.Int) float64 {
+	inF := new(big.Float).SetInt(&in)
+	powI := new(big.Int).Exp(big.NewInt(10), big.NewInt(18), nil)
+	powF := new(big.Float).SetInt(powI)
+	out := inF.Quo(inF, powF)
+	f, _ := out.Float64()
+	return f
+}
+
+// TODO: BOGUS this should be generalized to the client itself instead of hidden in balanceClient
+// balanceClient caches the client so we can call it many times without re-dialing it every time
+var balanceClient *ethclient.Client
+var clientLoaded = false
+
+// GetBalanceInEth returns the balance of the given address at the given block
+// TODO: BOGUS blockNum is ignored
+// TODO: BOGUS what to do if we're running against a non-archive node?
+func GetBalanceInEth(chain, address string, blockNum uint64) float64 {
+	if !clientLoaded {
+		provider := config.GetRpcProvider(chain)
+		balanceClient = rpcClient.GetClient(provider)
+		clientLoaded = true
+	}
+	val, _ := balanceClient.BalanceAt(context.Background(), common.HexToAddress(address), big.NewInt(int64(blockNum)))
+	if val == nil {
+		return 0.0
+	}
+	return ethFromWei(*val)
 }
