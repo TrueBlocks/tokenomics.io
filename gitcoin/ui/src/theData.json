@@ -5,7 +5,7 @@
     "name": "ETH2.0 Implementers Call Notes",
     "slug": "https://gitcoin.co/grants/7/eth20-implementers-call-notes",
     "core": false,
-    "lastUpdated": 13843679,
+    "lastUpdated": 1650577324,
     "isActive": true,
     "chainData": [
       {
@@ -25,10 +25,11 @@
           "date": "2020-02-17 15: 51: 44 UTC"
         },
         "counts": {
-          "neighborCount": 3805,
-          "logCount": 2,
           "appearanceCount": 78,
-          "txCount": 78
+          "logCount": 2,
+          "transactionCount": 78,
+          "neighborCount": 3805,
+          "statementsCount": 130
         },
         "balances": [
           {
@@ -36,7 +37,7 @@
             "balance": 0.00154728817953605
           }
         ],
-        "types": "txs,logs,neighbors"
+        "types": "apps,txs,neighbors,statements"
       }
     ]
   }

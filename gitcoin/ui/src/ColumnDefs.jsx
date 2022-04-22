@@ -75,18 +75,18 @@ export const columns = [
   },
   {
     title: <TransactionHeader />,
-    dataIndex: 'chainData[0].counts.txCount',
-    key: 'chainData[0].counts.txCount',
+    dataIndex: 'chainData[0].counts.transactionCount',
+    key: 'chainData[0].counts.transactionCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.chainData[0].counts.txCount - a.chainData[0].counts.txCount;
+        return b.chainData[0].counts.transactionCount - a.chainData[0].counts.transactionCount;
       },
     },
     render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.chainData[0].counts.txCount} path='txs/' type='csv' />
+      return <DownloadIcon address={record.address} count={record.chainData[0].counts.transactionCount} path='txs/' type='csv' />
     },
   },
   {

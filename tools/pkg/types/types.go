@@ -54,9 +54,10 @@ type Chain struct {
 	ChainName  string     `json:"chainName,omitempty"`
 	FirstApp   Appearance `json:"firstAppearance,omitempty"`
 	LatestApp  Appearance `json:"latestAppearance,omitempty"`
+	FileSize   int64      `json:"fileSize,omitempty"`
 	BlockRange int        `json:"blockRange,omitempty"`
-	Balances   []Balance  `json:"balances,omitempty"`
 	Counts     Counts     `json:"counts,omitempty"`
+	Balances   []Balance  `json:"balances,omitempty"`
 	Types      string     `json:"types,omitempty"`
 }
 

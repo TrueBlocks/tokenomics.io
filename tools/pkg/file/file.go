@@ -66,34 +66,3 @@ func lineCount(fileName string, ignoreHeader bool) (int, error) {
 	}
 	return count, nil
 }
-
-func FolderExists(path string) bool {
-	info, err := os.Stat(path)
-	if os.IsNotExist(err) {
-		return false
-	}
-	return info.IsDir()
-}
-
-func FileExists(filename string) bool {
-	info, err := os.Stat(filename)
-	if os.IsNotExist(err) {
-		return false
-	}
-	return !info.IsDir()
-}
-
-func AsciiFileToLines(filename string) []string {
-	file, err := os.Open(filename)
-	if err != nil {
-		return []string{}
-	}
-	scanner := bufio.NewScanner(file)
-	scanner.Split(bufio.ScanLines)
-	var ret []string
-	for scanner.Scan() {
-		ret = append(ret, scanner.Text())
-	}
-	file.Close()
-	return ret
-}

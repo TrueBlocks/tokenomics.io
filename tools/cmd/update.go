@@ -11,6 +11,7 @@ import (
 	"time"
 
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/file"
+	"github.com/TrueBlocks/tokenomics.io/tools/pkg/monitor"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/types"
 	"github.com/spf13/cobra"
 )
@@ -66,6 +67,8 @@ to quickly create a Cobra application.`,
 			if err != nil {
 				log.Fatal(err)
 			}
+			mon := monitor.NewMonitor(chain, grant.Address, false)
+			chainData.FileSize = file.FileSize(mon.Path())
 			chainData.Types = chainData.Counts.Types()
 			grant.Chains = append(grant.Chains, chainData)
 
