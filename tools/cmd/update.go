@@ -7,12 +7,15 @@ package cmd
 import (
 	"fmt"
 	"log"
+	"os"
 	"strings"
 	"time"
 
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/file"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/monitor"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/types"
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/index"
+	tslibPkg "github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/tslib"
 	"github.com/spf13/cobra"
 )
 
@@ -51,6 +54,10 @@ to quickly create a Cobra application.`,
 				}
 				parts = append(parts, v)
 			}
+			slug := "https://gitcoin.co/grants/" + parts[1] + "/" + strings.ToLower(parts[2])
+			slug = strings.Replace(slug, " ", "-", -1)
+			slug = strings.Replace(slug, ".", "", -1)
+			parts = append(parts, slug)
 
 			grant := types.Grant{
 				GrantId:     parts[1],
@@ -59,6 +66,7 @@ to quickly create a Cobra application.`,
 				IsActive:    parts[3] == "Active" || parts[3] == "true",
 				Core:        parts[4] == "true",
 				LastUpdated: time.Now().Unix(),
+				Slug:        parts[5],
 			}
 
 			chainData := types.Chain{ChainName: "mainnet"}
@@ -67,8 +75,36 @@ to quickly create a Cobra application.`,
 			if err != nil {
 				log.Fatal(err)
 			}
+
 			mon := monitor.NewMonitor(chain, grant.Address, false)
 			chainData.FileSize = file.FileSize(mon.Path())
+			if file.FileExists(mon.Path()) {
+				err = mon.ReadHeader()
+				if err != nil {
+					fmt.Println(err)
+					os.Exit(1)
+				}
+				apps := make([]index.AppearanceRecord, mon.Count(), mon.Count())
+				err = mon.ReadAppearances(&apps)
+				if err != nil {
+					fmt.Println(err)
+					os.Exit(1)
+				}
+				if len(apps) > 0 {
+					chainData.FirstApp.Bn = int(apps[0].BlockNumber)
+					chainData.FirstApp.TxId = int(apps[0].TransactionId)
+					t, _ := tslibPkg.TsFromBn(chain, uint64(apps[0].BlockNumber))
+					chainData.FirstApp.Timestamp = int(t)
+					chainData.FirstApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.FirstApp.Timestamp))
+					chainData.LatestApp.Bn = int(apps[len(apps)-1].BlockNumber)
+					chainData.LatestApp.TxId = int(apps[len(apps)-1].TransactionId)
+					t, _ = tslibPkg.TsFromBn(chain, uint64(apps[len(apps)-1].BlockNumber))
+					chainData.LatestApp.Timestamp = int(t)
+					chainData.LatestApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.LatestApp.Timestamp))
+					chainData.BlockRange = chainData.LatestApp.Bn - chainData.FirstApp.Bn + 1
+				}
+			}
+			mon.Close()
 			chainData.Types = chainData.Counts.Types()
 			grant.Chains = append(grant.Chains, chainData)
 
