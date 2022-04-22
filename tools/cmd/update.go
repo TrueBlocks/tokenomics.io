@@ -9,7 +9,6 @@ import (
 	"log"
 	"os"
 	"strings"
-	"time"
 
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/file"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/monitor"
@@ -54,24 +53,24 @@ to quickly create a Cobra application.`,
 				}
 				parts = append(parts, v)
 			}
-			slug := "https://gitcoin.co/grants/" + parts[1] + "/" + strings.ToLower(parts[2])
+			slug := "https://gitcoin.co/grants/" + parts[1] + "/" + strings.Replace(strings.ToLower(parts[2]), ".", "", -1)
 			slug = strings.Replace(slug, " ", "-", -1)
-			slug = strings.Replace(slug, ".", "", -1)
 			parts = append(parts, slug)
 
 			grant := types.Grant{
-				GrantId:     parts[1],
-				Address:     strings.ToLower(parts[0]),
-				Name:        parts[2],
-				IsActive:    parts[3] == "Active" || parts[3] == "true",
-				Core:        parts[4] == "true",
-				LastUpdated: time.Now().Unix(),
+				GrantId:  parts[1],
+				Address:  strings.ToLower(parts[0]),
+				Name:     parts[2],
+				IsActive: parts[3] == "Active" || parts[3] == "true",
+				Core:     parts[4] == "true",
+				// TODO: BOGUS - fix this in production
+				LastUpdated: 0, // time.Now().Unix(),
 				Slug:        parts[5],
 			}
 
 			chainData := types.Chain{ChainName: "mainnet"}
 			var err error
-			chainData.Counts, err = file.LineCounts(folder, chain, grant.Address)
+			chainData.Counts, err = LineCounts(folder, chain, grant.Address)
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -137,4 +136,22 @@ func init() {
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
 	// updateCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+}
+
+func LineCounts(folder, chain, addr string) (types.Counts, error) {
+	if !strings.HasSuffix(folder, "/") {
+		folder += "/"
+	}
+	base := "./" + folder + "exports/" + chain
+	if !file.FolderExists(base) {
+		fmt.Println("SOMSOMTEOMTOME")
+		return types.Counts{}, fmt.Errorf("data folder (%s) not found", base)
+	}
+	counts := types.Counts{}
+	counts.Appearances, _ = file.LineCount(folder+"exports/"+chain+"/apps/"+addr+".csv", true)
+	counts.Neighbors, _ = file.LineCount(folder+"exports/"+chain+"/neighbors/"+addr+".csv", true)
+	counts.Logs, _ = file.LineCount(folder+"exports/"+chain+"/logs/"+addr+".csv", true)
+	counts.Txs, _ = file.LineCount(folder+"exports/"+chain+"/txs/"+addr+".csv", true)
+	counts.Statements, _ = file.LineCount(folder+"exports/"+chain+"/statements/"+addr+".csv", true)
+	return counts, nil
 }

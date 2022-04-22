@@ -190,7 +190,7 @@ export function GrantDataRenderer({ grantData }) {
             </th>
             <td colSpan={2}>
               <ol>
-                {grantData.chainData[0].balances.map((balance) => <li key={balance.asset}>{balance.asset} {balance.balance}</li>)}
+                {grantData.chainData[0].balances && grantData.chainData[0].balances.map((balance) => <li key={balance.asset}>{balance.asset} {balance.balance}</li>)}
               </ol>
             </td>
           </tr>

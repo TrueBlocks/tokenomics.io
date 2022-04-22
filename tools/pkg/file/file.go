@@ -3,33 +3,11 @@ package file
 import (
 	"bufio"
 	"bytes"
-	"fmt"
 	"io"
 	"os"
-	"strings"
-
-	"github.com/TrueBlocks/tokenomics.io/tools/pkg/types"
 )
 
-func LineCounts(folder, chain, addr string) (types.Counts, error) {
-	if !strings.HasSuffix(folder, "/") {
-		folder += "/"
-	}
-	base := "./" + folder + "exports/" + chain
-	if !FolderExists(base) {
-		fmt.Println("SOMSOMTEOMTOME")
-		return types.Counts{}, fmt.Errorf("data folder (%s) not found", base)
-	}
-	counts := types.Counts{}
-	counts.Appearances, _ = lineCount(folder+"exports/"+chain+"/apps/"+addr+".csv", true)
-	counts.Neighbors, _ = lineCount(folder+"exports/"+chain+"/neighbors/"+addr+".csv", true)
-	counts.Logs, _ = lineCount(folder+"exports/"+chain+"/logs/"+addr+".csv", true)
-	counts.Txs, _ = lineCount(folder+"exports/"+chain+"/txs/"+addr+".csv", true)
-	counts.Statements, _ = lineCount(folder+"exports/"+chain+"/statements/"+addr+".csv", true)
-	return counts, nil
-}
-
-func lineCount(fileName string, ignoreHeader bool) (int, error) {
+func LineCount(fileName string, ignoreHeader bool) (int, error) {
 	// fmt.Println("-------------------------------------------")
 	// fmt.Println(fileName, FileExists(fileName))
 	// fmt.Println("-------------------------------------------")
