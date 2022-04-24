@@ -6,4 +6,5 @@ cat ./exports/mainnet/raw/*.json | \
     sed 's/|/ /g' | \
     jq '.[] | "\(.admin_address)|\(.id)|\(.title)|\(.slug)|\(.active)"' | \
     sed 's/"//g' | tr '|' '\t' | \
-    sort --ignore-case
+    sort --ignore-case | \
+    grep "^0x"

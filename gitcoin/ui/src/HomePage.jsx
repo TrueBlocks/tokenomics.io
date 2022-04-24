@@ -24,6 +24,7 @@ const { Search } = Input;
 const { TabPane } = Tabs;
 
 export const HomePage = () => {
+  const [chain, setChain] = useStatePersist('@chain', "mainnet")
   const [lastTab, setLastTab] = useStatePersist('@lastTab', 1);
   const [searchText, setSearchText] = useState('');
   const {
@@ -109,6 +110,7 @@ export const HomePage = () => {
           <Row className='with-sidebar'>
             <Col span={dataRowSpan} className='col-table'>
               <BaseTable
+                chain={chain}
                 changeSort={changeSort}
                 dataSource={sortedData}
                 columns={columns}
@@ -131,6 +133,7 @@ export const HomePage = () => {
           <Row className='with-sidebar'>
             <Col span={dataRowSpan} className='col-table'>
               <BaseTable
+                chain={chain}
                 dataSource={contractData}
                 columns={columns}
                 rowKey={(record) => record.grantId}
