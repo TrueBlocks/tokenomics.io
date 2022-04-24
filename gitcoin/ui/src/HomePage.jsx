@@ -6,24 +6,25 @@ import { Input, Layout, Tabs, Row, Col } from 'antd';
 import './App.css';
 import 'antd/dist/antd.css';
 
-import { grantsData } from './grants-data';
+import theData from './theData.json';
 import { columns as columnDefinitions } from './ColumnDefs';
 import { BaseTable } from './BaseTable';
 
 import { Downloads } from './Downloads';
-import { DataDefinitions } from './DataDefinitions';
 import { ToDo } from './ToDo';
 
 import { lastUpdate } from './last-update.js';
 import { Sidebar } from './Sidebar';
 import { useGlobalState } from './GlobalState';
 import { ViewOptions } from './ViewOptions';
+import { configUrls } from './Config';
 
 const { Content } = Layout;
 const { Search } = Input;
 const { TabPane } = Tabs;
 
 export const HomePage = () => {
+  const [chain, setChain] = useStatePersist('@chain', "mainnet")
   const [lastTab, setLastTab] = useStatePersist('@lastTab', 1);
   const [searchText, setSearchText] = useState('');
   const {
@@ -38,12 +39,12 @@ export const HomePage = () => {
     console.log(value);
   };
 
-  const contractData = useMemo(() => grantsData.filter((item) => {
+  const contractData = useMemo(() => theData.filter((item) => {
     const n = item.name.toLowerCase();
     const a = item.address.toLowerCase();
     return item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
   }), [searchText]);
-  const grantData = useMemo(() => grantsData.filter((item) => {
+  const grantData = useMemo(() => theData.filter((item) => {
     const n = item.name.toLowerCase();
     const a = item.address.toLowerCase();
     return !item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
@@ -104,11 +105,12 @@ export const HomePage = () => {
           onSearch={onSearch}
           enterButton></Search>
       </div>
-      <Tabs defaultActiveKey={lastTab} onChange={tabSwitch} style={{ border: '1px dotted gray', padding: '1px' }}>
+      <Tabs defaultActiveKey={lastTab} onChange={tabSwitch} style={{ border: '1px dotted gray', padding: '1px', paddingLeft: '8px', paddingRight: '8px' }}>
         <TabPane tab={tab2Title} key='1' style={{ paddingLeft: '8px', margin: '-25px 0px 0px 0px' }}>
           <Row className='with-sidebar'>
             <Col span={dataRowSpan} className='col-table'>
               <BaseTable
+                chain={chain}
                 changeSort={changeSort}
                 dataSource={sortedData}
                 columns={columns}
@@ -131,6 +133,7 @@ export const HomePage = () => {
           <Row className='with-sidebar'>
             <Col span={dataRowSpan} className='col-table'>
               <BaseTable
+                chain={chain}
                 dataSource={contractData}
                 columns={columns}
                 rowKey={(record) => record.grantId}
@@ -148,23 +151,20 @@ export const HomePage = () => {
             }
           </Row>
         </TabPane>
-        <TabPane tab={'Downloads'} key='3' style={{ paddingLeft: '8px' }}>
+        <TabPane tab={'Data Sets'} key='3' style={{ paddingLeft: '8px' }}>
           <Downloads />
         </TabPane>
-        <TabPane tab='Data Definitions' key='4' style={{ paddingLeft: '8px' }}>
-          <DataDefinitions />
-        </TabPane>
-        <TabPane tab='Charts' key='5' style={{ paddingLeft: '8px' }}>
+        <TabPane tab='Charts' key='4' style={{ paddingLeft: '8px' }}>
           <img
             width='800px'
             alt='Unclaimed'
-            src='https://tokenomics.io/gitcoin/charts/Unclaimed%20Match%20Round%208.png'
+            src={configUrls.Charts + 'Unclaimed%20Match%20Round%208.png'}
           />
           <br />
           <br />
-          <img width='800px' alt='Count By Date' src='https://tokenomics.io/gitcoin/charts/Counts.png' />
+          <img width='800px' alt='Count By Date' src={configUrls.Charts + 'Counts.png'} />
         </TabPane>
-        <TabPane tab={'ToDo'} key='6' style={{ paddingLeft: '8px' }}>
+        <TabPane tab={'Future Work'} key='5' style={{ paddingLeft: '8px' }}>
           <ToDo />
         </TabPane>
       </Tabs>

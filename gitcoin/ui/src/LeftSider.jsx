@@ -25,15 +25,6 @@ const LeftSideItem = ({ question, answer }) => {
 export const LeftSider = () => {
   return (
     <Sider style={{ paddingLeft: '20px', paddingRight: '20px' }}>
-      {/* <LeftSideItem
-        question='Do you have an unclaimed match?'
-        answer={
-          <div>
-            {'Search for your grant to the right, then look in the '}
-            <Text type='warning'>CLR</Text> column for un-claimed matching funds.
-          </div>
-        }
-      /> */}
       <LeftSideItem
         question='What is a data pouch?'
         answer={`
@@ -45,7 +36,7 @@ export const LeftSider = () => {
         question='Why did we build this?'
         answer={`
           To demonstrate what's possible with local first software. Also, to provide others in the community an independant source of
-          transparent data about the GitCoin Grant program.
+          transparent data about the this smart contract system.
         `}
       />
       <br />

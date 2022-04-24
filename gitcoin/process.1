@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+#find exports -name "*$1*"
+#find exports -name "*$1*" -exec rm {} ';'
+
+echo "------- sorting/dups: $1 ------------------"
+cat data/exports/apps/$1.csv | tr ',' '\t' | sed 's/\"//g' | grep -v address                        >unsorted/$1.csv
+cat data/exports/apps/$1.csv | tr ',' '\t' | sed 's/\"//g' | grep -v address | sort -n -k 2 -k 3    >sorted/$1.csv
+cat data/exports/apps/$1.csv | tr ',' '\t' | sed 's/\"//g' | grep -v address | sort -n -k 2 -k 3 -u >uniq/$1.csv
+
+#tail -1 txs/$1.csv
+#chifra names $1
+#chifra explore $1
+#rndSleep 4 4
+#chifra list $1 --no_header -U
+#touch /Users/jrush/Development/trueblocks-core/build/shit/cache/mainnet/monitors/$1.last.txt
+#chifra export $1 --no_header --cache 2>/dev/null
+#chifra slurp --types ext $1 --no_header 2>/dev/null
+#chifra slurp --types int $1 --no_header 2>/dev/null
+#chifra slurp --types token $1 --no_header 2>/dev/null
+#chifra slurp --types nfts $1 --no_header 2>/dev/null
+#chifra slurp --types miner $1 --no_header 2>/dev/null
+#chifra slurp --types uncles $1 --no_header 2>/dev/null
+
+#echo $1
+#grep $1 out/*.txt | sed 's/$/ ----->/'
+#echo

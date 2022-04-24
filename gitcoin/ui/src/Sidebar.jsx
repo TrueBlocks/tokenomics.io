@@ -3,9 +3,7 @@ import { Descriptions, Button, Spin, Card } from 'antd';
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 
 import { useGlobalState } from './GlobalState';
-
-// We will use this value as base for URLs of all PNGs
-const neighborsBaseUrl = 'https://www.tokenomics.io/gitcoin/data/neighbors/';
+import { configUrls } from './Config';
 
 export function Sidebar() {
   const {
@@ -17,13 +15,14 @@ export function Sidebar() {
     name,
     address,
     appearanceCount,
+    transactionCount,
     logCount,
     neighborCount
   } = useMemo(() => selectedGrant || {}, [selectedGrant]);
   // Construct the selected grant image's URL
-  const adjSource = useMemo(() => new URL(`${address}.txt`, neighborsBaseUrl + "adjacencies/"), [address]);
-  const svgSource = useMemo(() => new URL(`${address}.svg`, neighborsBaseUrl + "images/"), [address]);
-  const pngSource = useMemo(() => new URL(`${address}.png`, neighborsBaseUrl + "images/pngs/"), [address]);
+  const adjSource = useMemo(() => new URL(`${address}.txt`, configUrls.Neighbors + "adjacencies/"), [address]);
+  const svgSource = useMemo(() => new URL(`${address}.svg`, configUrls.Neighbors + "images/"), [address]);
+  const pngSource = useMemo(() => new URL(`${address}.png`, configUrls.Neighbors + "images/pngs/"), [address]);
   const [loading, setLoading] = useState(false);
   const onCloseClick = useCallback(() => {
     setSidebarVisible(false);
@@ -49,6 +48,9 @@ export function Sidebar() {
       <Descriptions bordered column={2}>
         <Descriptions.Item label="nApps">
           {appearanceCount}
+        </Descriptions.Item>
+        <Descriptions.Item label="nTxs">
+          {transactionCount}
         </Descriptions.Item>
         <Descriptions.Item label="nLogs">
           {logCount}

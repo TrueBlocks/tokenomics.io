@@ -1,4 +1,4 @@
-# GitCoin Data Pouch
+# Data Pouch
 
 This project is an attempt to demonstrate what World-Wide, Global, Permissionless data as one finds on a blockchain means. We've used
 the TrueBlocks tools set to collect and collate information on all of the GitCoin grants. We did this without asking anyone for

@@ -1,3 +1,7 @@
+export*.gz
+GR12_user_info.csv
+gitcoin-round-12.tar.gz
+
 # temporary files
 file
 file.1

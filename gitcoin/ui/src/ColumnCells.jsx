@@ -3,19 +3,20 @@ import { Tag } from 'antd';
 import { ColumnTitle } from "./ColumnTitle";
 import { CloudDownloadOutlined, CopyTwoTone } from '@ant-design/icons';
 import { useGlobalState } from './GlobalState';
+import { configUrls } from './Config';
 
 //--------------------------------------------------
 export const DateHeader = () => (
   <ColumnTitle
     title='Last Activity'
-    tooltip='The most recent interaction this address had with a GitCoin-related contract.'
+    tooltip='The most recent interaction this address had.'
   />
 )
 export const DateCell = ({ record }) => {
   const dd = (<div>
-    {record.latestAppearance.date.substr(0, 16)}
+    {record.chainData[0].latestAppearance.date.substr(0, 16)}
     <div>
-      {dateDisplay(record.latestAppearance.bn)}
+      {dateDisplay(record.chainData[0].latestAppearance.bn)}
     </div>
   </div>
   );
@@ -23,29 +24,10 @@ export const DateCell = ({ record }) => {
 }
 
 //--------------------------------------------------
-export const TagHeader = () => (
-  <ColumnTitle
-    title='Types'
-    tooltip='The types of data to download. Includes logs, transactions, and neighbors.'
-  />
-)
-export const TagCell = ({ record }) => {
-  return (<div style={{ marginTop: '-20px' }}>
-    <div>
-      <br />
-      <Tag color='blue' key={record.address}>
-        {record.types}
-      </Tag>
-    </div>
-  </div>
-  );
-}
-
-//--------------------------------------------------
 export const NameHeader = () => (
   <ColumnTitle
     title='Name'
-    tooltip='The name and address of the grant or core contract linked either to the GitCoin grant or Etherscan.'
+    tooltip='The name and address of the grant or core contract.'
   />
 )
 export const NameCell = ({ record }) => {
@@ -56,7 +38,7 @@ export const NameCell = ({ record }) => {
   name = name.replace('&#39;', "'");
 
   const explorerAddress = localExplorer
-    ? "http://localhost:1234/dashboard/accounts?address="
+    ? "http://localhost:1234/address/"
     : 'http://etherscan.io/address/';
 
   const explorerLink = useMemo(() => (<>
@@ -95,42 +77,12 @@ export const NameCell = ({ record }) => {
 }
 
 //--------------------------------------------------
-export const MatchedHeader = () => (
-  <ColumnTitle
-    title='CLR'
-    tooltip='The match, claimed, and unclaimed amounts for the grant from Round 8. Sorts by unclaimed then match. (Some of the unmatched payouts may have gone through other channels.)'
-  />
-)
-export const MatchedCell = ({ record }) => {
-  const diff = record.matched - record.claimed > 0;
-  var unclaimed = <div style={{ border: '1px dashed orange' }}>claimed</div>;
-  if (diff)
-    unclaimed = <div style={{ border: '1px dashed orange' }}>unclaimed</div>;
-  if (record.matched === 0)
-    unclaimed = <div>-</div>;
-  const tt = (
-    <div>
-      <div>{record.matched + ' DAI'}</div>
-      <div>{record.claimed + ' DAI'}</div>
-      <div>{unclaimed}</div>
-    </div>
-  );
-  return <Cell2 text={tt} />;
-}
-
-//--------------------------------------------------
 export const BalanceHeader = () => (
   <ColumnTitle
     title='Balances'
     tooltip='The balances for the account in ETH. We will add DAI and other tokens later'
   />
 )
-export const BalanceCell = ({ record }) => {
-  if (record.balances && record.balances.length > 0) {
-    return <Cell2 text={record.balances[0].balance + ' ETH'} />
-  }
-  return <></>
-}
 
 //--------------------------------------------------
 export const AppearanceHeader = () => (
@@ -152,7 +104,7 @@ export const TransactionHeader = () => (
 export const EventLogsHeader = () => (
   <ColumnTitle
     title='Logs'
-    tooltip='The number of GitCoin related logs in which this address appears.'
+    tooltip='The number of related logs in which this address appears.'
   />
 )
 
@@ -183,7 +135,7 @@ const Cell2 = ({ text }) => {
 };
 
 const ZipLink = ({ addr }) => {
-  var link = "https://tokenomics.io/gitcoin/data/zips/" + addr + ".tar.gz";
+  var link = configUrls.Zips + addr + ".tar.gz";
   return (
     <>
       <a href={link} title="Download zip file">

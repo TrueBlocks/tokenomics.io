@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-python neighbor_networks.py $1 $2
-#open ../images/$1.svg
-# sleep 1
