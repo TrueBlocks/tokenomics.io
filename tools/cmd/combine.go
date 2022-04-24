@@ -122,6 +122,7 @@ var combineCmd = &cobra.Command{
 					fileConfig := flagToFileConfig[flagName]
 
 					input, err := os.ReadFile(path.Join(fileConfig.InputDirectory, grant.Address) + ".csv")
+					// TODO: don't fail if a file is missing
 					if err != nil {
 						log.Fatal(err)
 					}
