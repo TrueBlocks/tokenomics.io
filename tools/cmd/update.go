@@ -35,15 +35,32 @@ Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		folder := "gitcoin"
-		chain := "mainnet"
+		folder, err := cmd.Flags().GetString("folder")
+		if err != nil {
+			log.Fatal(err)
+		}
+		if len(folder) == 0 || !file.FolderExists(folder) {
+			log.Fatal("You must provide a folder")
+		}
+		chain, err := cmd.Flags().GetString("chain")
+		if err != nil {
+			log.Fatal(err)
+		}
+		if chain != "gnosis" && chain != "mainnet" {
+			log.Fatal("You must provide a valid chain (only gnosis and mainnet are currently supported.")
+		}
 
 		meta := rpcClient.GetMetaData("mainnet", false)
+		log.Println("Running at block ", meta.Latest, "on chain", chain, "and folder", folder)
 
 		grants := []types.Grant{}
 
 		lines := file.AsciiFileToLines(folder + "/addresses.txt")
 		for i, line := range lines {
+			log.Printf("%d-%s\n", i, strings.ToLower(line[0:42]))
+			// if i > 3 {
+			// 	break
+			// }
 			parts := strings.Split(line, "\t")
 			if len(parts) < 2 {
 				parts = append(parts, fmt.Sprintf("%04d", i))
@@ -139,6 +156,8 @@ to quickly create a Cobra application.`,
 func init() {
 	rootCmd.AddCommand(updateCmd)
 
+	updateCmd.Flags().StringP("chain", "c", "mainnet", "The chain to update from (default 'mainnet'")
+	updateCmd.Flags().StringP("folder", "f", "", "The local folder to process (required)")
 	// Here you will define your flags and configuration settings.
 
 	// Cobra supports Persistent Flags which will work for this command
