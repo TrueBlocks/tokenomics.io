@@ -1054,6 +1054,7 @@
 0x79c2D72552Df1C5d551B812Eca906a90Ce9D840A	4197	basinDAO - climate/nature restoration, regeneration & conservation at scale	basindao-climatenature-restoration-regeneration-c	true
 0x79Cc34069C59F9cd5445DAf65ebBf44976A462b3	1378	xWin Fund Management	xwin-fund-management	true
 0x7A0C82B43367139A5bCeFCF26e3A7415ee0E8FBc	1497	ShadowQueent	shadowqueent	true
+0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D	2382	Open Zone Finance	open-zone-finance	true
 0x7a3Fea4e37bd7759f386BbeDBE6EfCd0C40030e9	1880	The Neutralizer	the-neutralizer	true
 0x7A4a6af619BAD85C7377f32421463A7BaDC01E6B	2438	Earth Rising - The game	earth-rising-the-game	true
 0x7Aab1cda5F9C5d10DDF8231AA48d0181363efE94	1747	Untitled NFT Hackathon	untitled-nft-hackathon	true
