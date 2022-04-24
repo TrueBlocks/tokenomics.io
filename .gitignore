@@ -32,3 +32,4 @@ yarn-debug.log*
 yarn-error.log*
 gitcoin/backend/handle_pull.cpp
 theData.js
+theData.json

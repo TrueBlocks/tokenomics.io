@@ -19,6 +19,7 @@ import (
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/index"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/rpcClient"
 	tslibPkg "github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/tslib"
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/validate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/spf13/cobra"
@@ -57,11 +58,14 @@ job for ecxample.`,
 
 		lines := file.AsciiFileToLines(folder + "/addresses.txt")
 		for i, line := range lines {
-			log.Printf("%d-%s\n", i, strings.ToLower(line[0:42]))
-			// if i > 3 {
-			// 	break
-			// }
 			parts := strings.Split(line, "\t")
+			if len(parts) == 0 {
+				continue
+			}
+			if !validate.IsValidAddress(parts[0]) {
+				continue
+			}
+			log.Printf("%d-%s\n", i, strings.ToLower(parts[0]))
 			if len(parts) < 2 {
 				parts = append(parts, fmt.Sprintf("%04d", i))
 			}
@@ -140,13 +144,15 @@ job for ecxample.`,
 		}
 
 		fmt.Println("[")
-		for i, grant := range grants {
+		first := true
+		for _, grant := range grants {
 			if grant.Chains[0].HasRecords() {
-				if i > 0 {
+				if !first {
 					fmt.Println(",")
 				}
 				str := grant.String()
 				fmt.Println(str)
+				first = false
 			}
 		}
 		fmt.Println("]")
