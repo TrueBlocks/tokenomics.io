@@ -27,13 +27,13 @@ import (
 // updateCmd represents the update command
 var updateCmd = &cobra.Command{
 	Use:   "update",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
+	Short: "update each monitored group's theData.json file",
+	Long: `This routine builds the 'database' for the front end ui for each monitored
+group of addresses per chain. This means it reads the addresses.txt file and processes
+each address basically by counting how many of each of type of data is present.
 
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+The command can be run periodically (no more often that the scraper runs) by a cron
+job for ecxample.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		folder, err := cmd.Flags().GetString("folder")
 		if err != nil {
@@ -154,19 +154,9 @@ to quickly create a Cobra application.`,
 }
 
 func init() {
-	rootCmd.AddCommand(updateCmd)
-
 	updateCmd.Flags().StringP("chain", "c", "mainnet", "The chain to update from (default 'mainnet'")
 	updateCmd.Flags().StringP("folder", "f", "", "The local folder to process (required)")
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// updateCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// updateCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	rootCmd.AddCommand(updateCmd)
 }
 
 func LineCounts(folder, chain, addr string) (types.Counts, error) {
