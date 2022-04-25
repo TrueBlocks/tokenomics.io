@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"strings"
 
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/types"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/validate"
@@ -12,7 +13,9 @@ import (
 
 var requiredColumns = []string{
 	"address",
+	"id",
 	"name",
+	"active",
 }
 
 type GrantReader struct {
@@ -29,13 +32,17 @@ func (gr *GrantReader) Read() (types.Grant, error) {
 	if err != nil {
 		return types.Grant{}, err
 	}
-	if !validate.IsValidAddress(record[0]) {
-		err = fmt.Errorf("not a valid address: %s", record[0])
-		return types.Grant{}, err
-	}
 
+	isActive := record[gr.header["active"]] == "true"
+	isCore := record[gr.header["core"]] == "true"
+	isValid := validate.IsValidAddress(record[0]) && !validate.IsZeroAddress(record[0])
 	return types.Grant{
-		Address: record[gr.header["address"]],
+		Address:  strings.ToLower(record[gr.header["address"]]),
+		Name:     record[gr.header["name"]],
+		Slug:     record[gr.header["slug"]],
+		IsActive: isActive,
+		IsCore:   isCore,
+		IsValid:  isValid,
 	}, nil
 }
 

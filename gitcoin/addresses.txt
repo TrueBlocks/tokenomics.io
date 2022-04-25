@@ -1,3 +1,4 @@
+address	id	name	slug	active	core
 0x0	1519	Zcash Serverless Store (Unofficial)	zcash-serverless-store-unofficial	true
 0x0	1881	Garuda Network (DMRD)-Disaster management re==	garuda-network-dmrd-disaster-management-re	true
 0x0	1977	test grant DO NOT FUND	test-grant-do-not-fund	true
@@ -1086,7 +1087,7 @@
 0x7d3e2d29C0F77d35e470942e10aeD8f3a6A596fe	232	Raven-Anonymous decentralized message broadcasting	raven-anonymous-decentralized-message-broadcastin	true
 0x7d40d32c113f947540C073476Ce94C3923697409	2952	Aggadom - Web3 Passion Economy infrastructure	aggadom-web3-passion-economy-infrastructure	true
 0x7D568B307BA20Fcf4684fd7877A00E4d90ee9199	1729	@EmilianoBonassi - Builder - (White) Hacker	emilianobonassi-builder-white-hacker	true
-0x7d655c57f71464B6f83811C55D84009Cd9f5221C	0	GitCoin Grant Contract - Rounds 6 through 9	null	null
+0x7d655c57f71464B6f83811C55D84009Cd9f5221C	0	GitCoin Grant Contract - Rounds 6 through 9		true	true
 0x7d8023AE32270A04F319CDC293d5F21f51Eef998	3880	The Pacific Northwest Rural Broadband Alliance	the-pacific-northwest-rural-broadband-alliance	true
 0x7D8897250507462FA660c673730375E0894105b2	1606	 BetRed non-profit staking casino	betred-non-profit-staking-casino	true
 0x7DAC9Fc15C1Db4379D75A6E3f330aE849dFfcE18	855	KERNEL [Panvala League]	kernel-panvala-league	true
@@ -1446,7 +1447,7 @@
 0xAbe26fAeE77419897090bC4c5A112D463443a662	802	Metis Protocol: A Governance and Collaboration Implementation Framework for DAOs	metis-protocol-a-governance-and-collaboration-imp	true
 0xAbe26fAeE77419897090bC4c5A112D463443a662	818	Metis Protocol: A governance and collaboration implementation framework for DAOs	metis-protocol-a-governance-and-collaboration-imp	true
 0xabe47EC0E8c66d994c3b904d751392bc41742DBc	968	Dshackle - Fault Tolerant Load Balancer for Ethereum API	dshackle-fault-tolerant-load-balancer-for-ethereu	true
-0xabea9132b05a70803a4e85094fd0e1800777fbef	4	zkSync Contract	null	null
+0xabea9132b05a70803a4e85094fd0e1800777fbef	4	zkSync Contract		true	true
 0xABF026c24aD7Ef1FDcE903f72364f255ef924C37	2894	TAKSH	taksh	true
 0xABF3E252006D805Cce3C7219A929B83465F2a46e	90	Eggforce	eggforce	true
 0xABF3E252006D805Cce3C7219A929B83465F2a46e	93	foo bar	foo-bar	true
@@ -1809,7 +1810,7 @@
 0xd3F151c61815BABf4A898C82e99C4B354D5F052f	908	The Block Cafe - Community Venue in Lisbon, Portugal	the-block-cafe-community-venue-in-lisbon-portugal	true
 0xd4431481DBe7791FDC147f5F7705D5eE9196D95E	4480	Design a Omniwheel Base for the open source general robot (3D Robot)	design-a-omniwheel-base-for-the-open-source-gener	true
 0xD44AcD5A54F8D802A289c4C346D93F79177343cA	240	ethsear.ch	ethsearch	true
-0xd4567069c5a1c1fc8261d8ff5c0b1d98f069cf47	5	FDD MultiSig	null	null
+0xd4567069c5a1c1fc8261d8ff5c0b1d98f069cf47	5	FDD MultiSig		true	true
 0xd45D5CE5Ca77A453AD9638A559901389c4116205	1579	TurntableFM\n\nTurntable was a fun virtual lounge app and digital game for music discovery, and used a points system to reward DJs. 	turntablefm-turntable-was-a-fun-virtual-lounge-ap	true
 0xd461cf004EdA0DDB0028B831B62bf38b3a6D1e5A	461	Aleph.im - Decentralized open-source cloud platform	alephim-decentralized-open-source-cloud-platform	true
 0xd465484aF946Ab1f29fFAD0C6971C5FD58B7Ab7d	58	Ironbelly - Grin mobile wallet	ironbelly-grin-mobile-wallet	true
@@ -1905,7 +1906,7 @@
 0xDf6A1C0905ff1571d20D1445E9082a0cF5892650	3806	PowerSearch	powersearch	true
 0xdF6C53Df56f3992FC44195518A2d8B16306Af9ff	146	Trinity - Research for migration of Ethereum 1.x to 2.0	trinity-research-for-migration-of-ethereum-1x-to-	true
 0xdF6C53Df56f3992FC44195518A2d8B16306Af9ff	147	Trinity - Ethereum 2.0 client	trinity-ethereum-20-client	true
-0xdf869fad6db91f437b59f1edefab319493d4c4ce	2	GitCoin Grant Contract - Pre Round 6	null	null
+0xdf869fad6db91f437b59f1edefab319493d4c4ce	2	GitCoin Grant Contract - Pre Round 6		true	true
 0xDfB0b22940Cc45283D639D22ba26aa55ab8Bfee8	2073	Crypto Commons Association - support a Hub for planet regeneration!	crypto-commons-association-support-a-hub-for-plan	true
 0xdFE4719d63F8dF79b2610e49ea0398A4de274C09	1811	Portfolio 	portfolio	true
 0xDFE7fA6eA08c93dC570f158Bc5B7ea257BEb0d04	3501	Nocturnal Finance	nocturnal-finance	true
@@ -2072,7 +2073,7 @@
 0xF1F53980C49824098b78CA4c3eabD4e85b536B82	2169	BullishbearFinance	bullishbearfinance	true
 0xF223bCAEd22DDd7358c0a8279ED50bDd33C5ce9e	503	The Gathering Place: A Refuge For Rebuilding Lives	the-gathering-place-a-refuge-for-rebuilding-lives	true
 0xF22727DFe1E1465d5846246899f5D411ff3965fC	4183	Brush: A ZK Powered Social Coordination Game	brush-a-zk-powered-social-coordination-game	true
-0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6	1	GitCoin MatchPayouts - Round 8	null	null
+0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6	1	GitCoin MatchPayouts - Round 8		true	true
 0xF24Ba7799E1d3b3A5c9a9E31E8Bb35cc1d23f864	1545	gbdev	gbdev	true
 0xF2867166798B8a339cBDc8686B30626FdBf5C2eF	2309	xDeFi is a well established DeFi protocol stack.	xdefi-is-a-well-established-defi-protocol-stack	true
 0xF2F8456bcfD8b3d5f89386773a80bDFCc322a770	345	CoinJournal - Cryptocurrency News	coinjournal-cryptocurrency-news	true

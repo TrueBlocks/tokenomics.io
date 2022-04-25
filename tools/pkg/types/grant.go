@@ -70,9 +70,10 @@ type Grant struct {
 	Address     string  `json:"address,omitempty"`
 	Name        string  `json:"name,omitempty"`
 	Slug        string  `json:"slug,omitempty"`
-	Core        bool    `json:"core"`
 	LastUpdated int64   `json:"lastUpdated,omitempty"`
 	IsActive    bool    `json:"isActive,omitempty"`
+	IsCore      bool    `json:"core"`
+	IsValid     bool    `json:"isValid,omitempty"`
 	Chains      []Chain `json:"chainData,omitempty"`
 }
 

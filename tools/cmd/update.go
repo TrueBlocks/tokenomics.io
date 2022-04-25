@@ -36,20 +36,7 @@ each address basically by counting how many of each of type of data is present.
 The command can be run periodically (no more often that the scraper runs) by a cron
 job for ecxample.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		folder, err := cmd.Flags().GetString("folder")
-		if err != nil {
-			log.Fatal(err)
-		}
-		if len(folder) == 0 || !file.FolderExists(folder) {
-			log.Fatal("You must provide a folder")
-		}
-		chain, err := cmd.Flags().GetString("chain")
-		if err != nil {
-			log.Fatal(err)
-		}
-		if chain != "gnosis" && chain != "mainnet" {
-			log.Fatal("You must provide a valid chain (only gnosis and mainnet are currently supported.")
-		}
+		folder, chain := getFolderAndChain()
 
 		meta := rpcClient.GetMetaData("mainnet", false)
 		log.Println("Running at block ", meta.Latest, "on chain", chain, "and folder", folder)
@@ -160,8 +147,6 @@ job for ecxample.`,
 }
 
 func init() {
-	updateCmd.Flags().StringP("chain", "c", "mainnet", "The chain to update from (default 'mainnet'")
-	updateCmd.Flags().StringP("folder", "f", "", "The local folder to process (required)")
 	rootCmd.AddCommand(updateCmd)
 }
 
