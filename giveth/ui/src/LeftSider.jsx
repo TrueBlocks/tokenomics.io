@@ -25,15 +25,6 @@ const LeftSideItem = ({ question, answer }) => {
 export const LeftSider = () => {
   return (
     <Sider style={{ paddingLeft: '20px', paddingRight: '20px' }}>
-      {/* <LeftSideItem
-        question='Do you have an unclaimed match?'
-        answer={
-          <div>
-            {'Search for your grant to the right, then look in the '}
-            <Text type='warning'>CLR</Text> column for un-claimed matching funds.
-          </div>
-        }
-      /> */}
       <LeftSideItem
         question='What is a data pouch?'
         answer={`

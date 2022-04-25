@@ -1,0 +1,23 @@
+name: Build
+on:
+  push:
+    branches:
+      - 'master'
+jobs:
+  RemoteBuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build tokenomics.io
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.TESTING_HOST }}
+          username: ${{ secrets.TESTING_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          command_timeout: 40m
+          script_stop: true
+          script: |
+            rm -rf build
+            mkdir build
+            cd build
+            git clone --quiet https://github.com/${{ github.repository }} .
+            bash scripts/build.sh gitcoin,giveth ~/build

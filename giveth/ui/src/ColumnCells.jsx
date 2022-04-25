@@ -14,32 +14,13 @@ export const DateHeader = () => (
 )
 export const DateCell = ({ record }) => {
   const dd = (<div>
-    {record.latestAppearance.date.substr(0, 16)}
+    {record.chainData[0].latestAppearance.date.substr(0, 16)}
     <div>
-      {dateDisplay(record.latestAppearance.bn)}
+      {dateDisplay(record.chainData[0].latestAppearance.bn)}
     </div>
   </div>
   );
   return <Cell2 text={dd} />;
-}
-
-//--------------------------------------------------
-export const TagHeader = () => (
-  <ColumnTitle
-    title='Types'
-    tooltip='The types of data to download. Includes logs, transactions, and neighbors.'
-  />
-)
-export const TagCell = ({ record }) => {
-  return (<div style={{ marginTop: '-20px' }}>
-    <div>
-      <br />
-      <Tag color='blue' key={record.address}>
-        {record.types}
-      </Tag>
-    </div>
-  </div>
-  );
 }
 
 //--------------------------------------------------
@@ -93,30 +74,6 @@ export const NameCell = ({ record }) => {
       </div>
     </div>
   );
-}
-
-//--------------------------------------------------
-export const MatchedHeader = () => (
-  <ColumnTitle
-    title='CLR'
-    tooltip='The match, claimed, and unclaimed amounts for the grant from Round 8. Sorts by unclaimed then match. (Some of the unmatched payouts may have gone through other channels.)'
-  />
-)
-export const MatchedCell = ({ record }) => {
-  const diff = record.matched - record.claimed > 0;
-  var unclaimed = <div style={{ border: '1px dashed orange' }}>claimed</div>;
-  if (diff)
-    unclaimed = <div style={{ border: '1px dashed orange' }}>unclaimed</div>;
-  if (record.matched === 0)
-    unclaimed = <div>-</div>;
-  const tt = (
-    <div>
-      <div>{record.matched + ' DAI'}</div>
-      <div>{record.claimed + ' DAI'}</div>
-      <div>{unclaimed}</div>
-    </div>
-  );
-  return <Cell2 text={tt} />;
 }
 
 //--------------------------------------------------

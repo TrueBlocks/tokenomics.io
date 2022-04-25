@@ -9,7 +9,7 @@ import { Button, Tag, Tooltip } from 'antd';
 
 import './GrantDataRenderer.css';
 
-export function GrantDataRenderer({ grantData }) {
+export function GrantDataRenderer({ chain, grantData }) {
   const renderBoolean = (boolean) => boolean
     ? <Tooltip title="Yes"><CheckCircleTwoTone twoToneColor="#52c41a" /></Tooltip>
     : <Tooltip title="No"><CloseCircleTwoTone twoToneColor="#eb2f96" /></Tooltip>
@@ -24,6 +24,11 @@ export function GrantDataRenderer({ grantData }) {
       <CopyTwoTone />
     </Button>
   );
+
+  var chainData = grantData.chainData[0]
+  if (!chainData) {
+    return <div>Cannot display empty record</div>
+  }
 
   return (
     <section className='grant-data-renderer'>
@@ -40,19 +45,19 @@ export function GrantDataRenderer({ grantData }) {
               Active?
             </th>
             <td>
-              {renderBoolean(grantData.active)}
+              {renderBoolean(grantData.isActive)}
             </td>
             <th title='Core'>
               Core
             </th>
             <td>
-            {renderBoolean(grantData.core)}
+              {renderBoolean(grantData.core)}
             </td>
             <th title='Appearance count'>
               Appearance count
             </th>
             <td>
-              {grantData.appearanceCount}
+              {chainData.counts.appearanceCount}
             </td>
           </tr>
           <tr>
@@ -94,25 +99,25 @@ export function GrantDataRenderer({ grantData }) {
               Block
             </th>
             <td>
-              {grantData.firstAppearance.bn}
+              {chainData.firstAppearance.bn}
             </td>
             <th title='Transaction ID'>
               Transaction ID
             </th>
             <td>
-              {grantData.firstAppearance.txId}
+              {chainData.firstAppearance.txId}
             </td>
             <th title='Timestamp'>
               Timestamp
             </th>
             <td>
-              {grantData.firstAppearance.timestamp}
+              {chainData.firstAppearance.timestamp}
             </td>
             <th title='Date'>
               Date
             </th>
             <td>
-              {grantData.firstAppearance.date}
+              {chainData.firstAppearance.date}
             </td>
           </tr>
           <tr className='appearance-header'>
@@ -125,25 +130,25 @@ export function GrantDataRenderer({ grantData }) {
               Block
             </th>
             <td>
-              {grantData.latestAppearance.bn}
+              {chainData.latestAppearance.bn}
             </td>
             <th title='Transaction ID'>
               Transaction ID
             </th>
             <td>
-              {grantData.latestAppearance.txId}
+              {chainData.latestAppearance.txId}
             </td>
             <th title='Timestamp'>
               Timestamp
             </th>
             <td>
-              {grantData.latestAppearance.timestamp}
+              {chainData.latestAppearance.timestamp}
             </td>
             <th title='Date'>
               Date
             </th>
             <td>
-              {grantData.latestAppearance.date}
+              {chainData.latestAppearance.date}
             </td>
           </tr>
           <tr>
@@ -157,19 +162,19 @@ export function GrantDataRenderer({ grantData }) {
               Block range
             </th>
             <td>
-              {grantData.blockRange}
+              {chainData.blockRange}
             </td>
             <th title='File size'>
               File size
             </th>
             <td>
-              {grantData.fileSize}
+              {chainData.fileSize}
             </td>
             <th title='Log count'>
               Log count
             </th>
             <td>
-              {grantData.logCount}
+              {chainData.counts.logCount}
             </td>
           </tr>
           <tr>
@@ -177,35 +182,21 @@ export function GrantDataRenderer({ grantData }) {
               Neighbor count
             </th>
             <td>
-              {grantData.neighborCount}
+              {chainData.counts.neighborCount}
             </td>
             <th title='Types'>
               Types
             </th>
-            <td colSpan={5}>
-              {grantData.types.split(',').map((type) => <Tag key={type}>{type}</Tag>)}
+            <td colSpan={2}>
+              {chainData.types.split(',').map((type) => <Tag key={type}>{type}</Tag>)}
             </td>
-          </tr>
-          <tr>
             <th title='Balances'>
               Balances
             </th>
-            <td colSpan={3}>
+            <td colSpan={2}>
               <ol>
-                {grantData.balances.map((balance) => <li key={balance.asset}>{balance.asset} {balance.balance}</li>)}
+                {chainData.balances && chainData.balances.map((balance) => <li key={balance.asset}>{balance.asset} {balance.balance}</li>)}
               </ol>
-            </td>
-            <th title='Matched'>
-              Matched
-            </th>
-            <td>
-              {grantData.matched}
-            </td>
-            <th title='Claimed'>
-              Claimed
-            </th>
-            <td>
-              {grantData.claimed}
             </td>
           </tr>
         </tbody>

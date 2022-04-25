@@ -1,6 +1,5 @@
 import { DownloadIcon } from './Utils';
 import { DateHeader, DateCell, NameHeader, NameCell, BalanceHeader, AppearanceHeader, TransactionHeader, EventLogsHeader, NeighborsHeader } from "./ColumnCells"
-// TagHeader, TagCell, MatchedHeader, MatchedCell
 
 export const columns = [
   {
@@ -10,21 +9,12 @@ export const columns = [
     width: '8%',
     showSorterTooltip: false,
     sorter: {
-      compare: (a, b) => a.latestAppearance.bn - b.latestAppearance.bn,
+      compare: (a, b) => a.chainData[0].latestAppearance.bn - b.chainData[0].latestAppearance.bn,
     },
     render: (u, record) => {
       return <DateCell record={record} />
     },
   },
-  // {
-  //   title: <TagHeader />,
-  //   dataIndex: 'types',
-  //   key: 'types',
-  //   width: '8%',
-  //   render: (u, record) => {
-  //     return (<TagCell record={record} />);
-  //   },
-  // },
   {
     title: <NameHeader />,
     dataIndex: 'name',
@@ -38,27 +28,6 @@ export const columns = [
       return <NameCell record={record} />
     },
   },
-  // {
-  //   title: <MatchedHeader />,
-  //   dataIndex: 'matched',
-  //   key: 'matched',
-  //   width: '6%',
-  //   align: 'right',
-  //   showSorterTooltip: false,
-  //   sorter: {
-  //     compare: function (a, b) {
-  //       const unclaimedA = a.matched - a.claimed;
-  //       const unclaimedB = b.matched - b.claimed;
-  //       const diff = unclaimedB - unclaimedA;
-  //       if (diff === 0)
-  //         return (a.matched - b.matched)
-  //       return diff;
-  //     },
-  //   },
-  //   render: (u, record) => {
-  //     return <MatchedCell record={record} />
-  //   },
-  // },
   {
     title: <BalanceHeader />,
     dataIndex: 'balance',
@@ -68,15 +37,15 @@ export const columns = [
     showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
-        return b.balances[0].balance - a.balances[0].balance;
+        return b.chainData[0].balances[0].balance - a.chainData[0].balances[0].balance;
       },
     },
     render: function (text, record) {
-      if (record.balances && record.balances.length > 0) {
+      if (record.chainData[0].balances && record.chainData[0].balances.length > 0) {
         return (
           <>
-            {record.balances[0].balance + ' ETH'}
-            <DownloadIcon address={record.address} count={''} path='statements/balances/' type='csv' />
+            {record.chainData[0].balances[0].balance + ' ETH'}
+            < DownloadIcon address={record.address} count={''} path='statements/balances/' type='csv' />
           </>
         )
       }
@@ -85,71 +54,71 @@ export const columns = [
   },
   {
     title: <AppearanceHeader />,
-    dataIndex: 'appearanceCount',
-    key: 'appearanceCount',
+    dataIndex: 'chainData[0].counts.appearanceCount',
+    key: 'chainData[0].counts.appearanceCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.appearanceCount - a.appearanceCount;
+        return b.chainData[0].counts.appearanceCount - a.chainData[0].counts.appearanceCount;
       },
     },
     render: function (text, record) {
       return (
         <>
-          {record.firstAppearance.bn}.{record.firstAppearance.txId}
-          <DownloadIcon address={record.address} count={record.appearanceCount} path='apps/' type='csv' />
+          {record.chainData[0].firstAppearance.bn}.{record.chainData[0].firstAppearance.txId}
+          <DownloadIcon address={record.address} count={record.chainData[0].counts.appearanceCount} path='apps/' type='csv' />
         </>
       )
     },
   },
   {
     title: <TransactionHeader />,
-    dataIndex: 'appearanceCount',
-    key: 'appearanceCount',
+    dataIndex: 'chainData[0].counts.transactionCount',
+    key: 'chainData[0].counts.transactionCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.appearanceCount - a.appearanceCount;
+        return b.chainData[0].counts.transactionCount - a.chainData[0].counts.transactionCount;
       },
     },
     render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.appearanceCount} path='txs/' type='csv' />
+      return <DownloadIcon address={record.address} count={record.chainData[0].counts.transactionCount} path='txs/' type='csv' />
     },
   },
   {
     title: <EventLogsHeader />,
-    dataIndex: 'logCount',
-    key: 'logCount',
+    dataIndex: 'chainData[0].counts.logCount',
+    key: 'chainData[0].counts.logCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.logCount - a.logCount;
+        return b.chainData[0].counts.logCount - a.chainData[0].counts.logCount;
       },
     },
     render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.logCount} path='logs/' type='csv' />;
+      return <DownloadIcon address={record.address} count={record.chainData[0].counts.logCount} path='logs/' type='csv' />;
     },
   },
   {
     title: <NeighborsHeader />,
-    dataIndex: 'neighborCount',
-    key: 'neighborCount',
+    dataIndex: 'chainData[0].counts.neighborCount',
+    key: 'chainData[0].counts.neighborCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.neighborCount - a.neighborCount;
+        return b.chainData[0].counts.neighborCount - a.chainData[0].counts.neighborCount;
       },
     },
     render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.neighborCount} path='neighbors/' type='csv' />;
+      return <DownloadIcon address={record.address} count={record.chainData[0].counts.neighborCount} path='neighbors/' type='csv' />;
     },
   },
 ];

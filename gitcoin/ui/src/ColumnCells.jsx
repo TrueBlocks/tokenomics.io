@@ -14,9 +14,9 @@ export const DateHeader = () => (
 )
 export const DateCell = ({ record }) => {
   const dd = (<div>
-    {record.latestAppearance.date.substr(0, 16)}
+    {record.chainData[0].latestAppearance.date.substr(0, 16)}
     <div>
-      {dateDisplay(record.latestAppearance.bn)}
+      {dateDisplay(record.chainData[0].latestAppearance.bn)}
     </div>
   </div>
   );

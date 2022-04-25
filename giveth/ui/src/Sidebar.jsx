@@ -15,6 +15,7 @@ export function Sidebar() {
     name,
     address,
     appearanceCount,
+    transactionCount,
     logCount,
     neighborCount
   } = useMemo(() => selectedGrant || {}, [selectedGrant]);
@@ -47,6 +48,9 @@ export function Sidebar() {
       <Descriptions bordered column={2}>
         <Descriptions.Item label="nApps">
           {appearanceCount}
+        </Descriptions.Item>
+        <Descriptions.Item label="nTxs">
+          {transactionCount}
         </Descriptions.Item>
         <Descriptions.Item label="nLogs">
           {logCount}
