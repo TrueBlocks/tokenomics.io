@@ -46,10 +46,10 @@ func (gr *GrantReader) Read() (types.Grant, error) {
 	}, nil
 }
 
-func ReadGrants(path string) (grantReader GrantReader, err error) {
+func ReadGrants(path string) (GrantReader, error) {
 	file, err := os.Open(path)
 	if err != nil {
-		return
+		return GrantReader{}, err
 	}
 
 	reader := csv.NewReader(file)
@@ -58,24 +58,25 @@ func ReadGrants(path string) (grantReader GrantReader, err error) {
 	// read header
 	headerRow, err := reader.Read()
 	if err != nil {
-		return
+		return GrantReader{}, err
 	}
 	header := map[string]int{}
 	for index, columnName := range headerRow {
 		header[columnName] = index
 	}
-	// make sure the header is correct
+
 	for _, required := range requiredColumns {
 		_, ok := header[required]
 		if !ok {
 			err = fmt.Errorf(`required column "%s" missing in file %s`, required, path)
-			return
+			return GrantReader{}, err
 		}
 	}
 
-	return GrantReader{
+	grantReader := GrantReader{
 		file:      file,
 		header:    header,
 		csvReader: *reader,
-	}, nil
+	}
+	return grantReader, nil
 }

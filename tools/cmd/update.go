@@ -36,7 +36,7 @@ each address basically by counting how many of each of type of data is present.
 The command can be run periodically (no more often that the scraper runs) by a cron
 job for ecxample.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		folder, chain := getFolderAndChain()
+		folder, chain, format := getOptions()
 
 		meta := rpcClient.GetMetaData("mainnet", false)
 		log.Println("Running at block ", meta.Latest, "on chain", chain, "and folder", folder)
@@ -78,7 +78,7 @@ job for ecxample.`,
 				Address:  strings.ToLower(parts[0]),
 				Name:     parts[2],
 				IsActive: parts[3] == "Active" || parts[3] == "true",
-				Core:     parts[4] == "true",
+				IsCore:   parts[4] == "true",
 				// TODO: BOGUS - fix this in production
 				LastUpdated: 0, // time.Now().Unix(),
 				Slug:        parts[5],
@@ -86,7 +86,7 @@ job for ecxample.`,
 
 			chainData := types.Chain{ChainName: "mainnet"}
 			var err error
-			chainData.Counts, err = LineCounts(folder, chain, grant.Address)
+			chainData.Counts, err = LineCounts(folder, chain, format, grant.Address)
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -150,7 +150,7 @@ func init() {
 	rootCmd.AddCommand(updateCmd)
 }
 
-func LineCounts(folder, chain, addr string) (types.Counts, error) {
+func LineCounts(folder, chain, format, addr string) (types.Counts, error) {
 	if !strings.HasSuffix(folder, "/") {
 		folder += "/"
 	}
@@ -160,11 +160,11 @@ func LineCounts(folder, chain, addr string) (types.Counts, error) {
 		return types.Counts{}, fmt.Errorf("data folder (%s) not found", base)
 	}
 	counts := types.Counts{}
-	counts.Appearances, _ = file.LineCount(folder+"exports/"+chain+"/apps/"+addr+".csv", true)
-	counts.Neighbors, _ = file.LineCount(folder+"exports/"+chain+"/neighbors/"+addr+".csv", true)
-	counts.Logs, _ = file.LineCount(folder+"exports/"+chain+"/logs/"+addr+".csv", true)
-	counts.Txs, _ = file.LineCount(folder+"exports/"+chain+"/txs/"+addr+".csv", true)
-	counts.Statements, _ = file.LineCount(folder+"exports/"+chain+"/statements/"+addr+".csv", true)
+	counts.Appearances, _ = file.LineCount(folder+"exports/"+chain+"/apps/"+addr+"."+format, true)
+	counts.Neighbors, _ = file.LineCount(folder+"exports/"+chain+"/neighbors/"+addr+"."+format, true)
+	counts.Logs, _ = file.LineCount(folder+"exports/"+chain+"/logs/"+addr+"."+format, true)
+	counts.Txs, _ = file.LineCount(folder+"exports/"+chain+"/txs/"+addr+"."+format, true)
+	counts.Statements, _ = file.LineCount(folder+"exports/"+chain+"/statements/"+addr+"."+format, true)
 	return counts, nil
 }
 

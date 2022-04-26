@@ -3,7 +3,6 @@
 echo "combining logs..."
 
 echo "\"address\",\"blockNumber\",\"transactionIndex\",\"logIndex\",\"emitter\",\"topic0\",\"topic1\",\"topic2\",\"topic3\",\"data\",\"type\",\"compressedLog\",\"timestamp\"" >combined/logs.csv
-echo "\"blockNumber\",\"transactionIndex\",\"logIndex\",\"timestamp\",\"address\",\"compressedLog\""  >combined/logs_articulated.csv
 
 # ./combine_logs.1.sh 0x7a250d5630b4cf539739df2c5dacb4c659f2488d
 ./combine_logs.1.sh 0x0000000fcdf5ba49794f4151d6daff4505bc47d1
