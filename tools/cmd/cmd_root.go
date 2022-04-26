@@ -1,14 +1,8 @@
 package cmd
 
 import (
-	"log"
 	"os"
-	"path"
-	"strings"
 
-	"github.com/TrueBlocks/tokenomics.io/tools/pkg/file"
-	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/colors"
-	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/validate"
 	"github.com/spf13/cobra"
 )
 
@@ -34,59 +28,4 @@ func init() {
 	rootCmd.MarkPersistentFlagRequired("folder")
 	rootCmd.CompletionOptions.DisableDefaultCmd = true
 	cobra.EnableCommandSorting = false
-}
-
-// getFolderAndChain returns the folder to process and the chain from the rootCmd. Note this function
-// calls Fatal on error, therefore it does not return an error
-func getOptions() (string, string, string) {
-	folder, err := rootCmd.PersistentFlags().GetString("folder")
-	if err != nil {
-		log.Fatal(err)
-	}
-	cwd, _ := os.Getwd()
-	folderPath := path.Join(cwd, folder)
-	if len(folder) == 0 || !file.FolderExists(folderPath) {
-		log.Fatal("You must provide a folder: ", folder)
-	}
-
-	chain, err := rootCmd.PersistentFlags().GetString("chain")
-	if err != nil {
-		log.Fatal(err)
-	}
-	err = validate.ValidateEnum("chain", chain, "[mainnet|gnosis]")
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	format, err := rootCmd.PersistentFlags().GetString("fmt")
-	if err != nil {
-		log.Fatal(err)
-	}
-	if len(format) > 0 {
-		err = validate.ValidateEnum("fmt", format, "[txt|csv|json]")
-		if err != nil {
-			log.Fatal(err)
-		}
-	} else {
-		format = "txt"
-	}
-
-	return folder, chain, format
-}
-
-var dataTypes = []string{
-	"apps",
-	"txs",
-	"logs",
-	"neighbors",
-	// "neighbors/adjacencies",
-	"statements",
-	// "statements/balances",
-	// "statements/tx_counts",
-}
-
-func colorHelp(helpIn string) string {
-	ret := strings.Replace(helpIn, "{", colors.Cyan, -1)
-	ret = strings.Replace(ret, "}", colors.Off, -1)
-	return ret
 }

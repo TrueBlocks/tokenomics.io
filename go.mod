@@ -44,4 +44,5 @@ require (
 
 replace (
 	github.com/TrueBlocks/tokenomics.io/pkg/types => ./pkg/types
+	github.com/TrueBlocks/tokenomics.io/internal => ./internal
 )

@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"github.com/TrueBlocks/tokenomics.io/tools/internal"
 	"github.com/spf13/cobra"
 )
 
@@ -18,8 +19,8 @@ job for ecxample.
 var updateCmd = &cobra.Command{
 	Use:   useUpdate,
 	Short: shortUpdate,
-	Long:  colorHelp(longUpdate),
-	RunE:  runUpdate,
+	Long:  internal.ColorHelp(longUpdate),
+	RunE:  internal.RunUpdate,
 }
 
 func init() {

@@ -1,8 +1,4 @@
-/*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
-
-*/
-package cmd
+package internal
 
 import (
 	"context"
@@ -25,8 +21,8 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func runUpdate(cmd *cobra.Command, args []string) error {
-	folder, chain, format := getOptions()
+func RunUpdate(cmd *cobra.Command, args []string) error {
+	folder, chain, format := getOptions(cmd.Parent())
 
 	meta := rpcClient.GetMetaData("mainnet", false)
 	log.Println("Running at block ", meta.Latest, "on chain", chain, "and folder", folder)

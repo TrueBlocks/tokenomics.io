@@ -1,4 +1,4 @@
-package cmd
+package internal
 
 import (
 	"io"
@@ -13,8 +13,8 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func runCombine(cmd *cobra.Command, args []string) error {
-	folder, chain, format := getOptions()
+func RunCombine(cmd *cobra.Command, args []string) error {
+	folder, chain, format := getOptions(cmd.Parent())
 
 	addressFn := path.Join(folder, "./addresses.txt")
 	if !file.FileExists(addressFn) {

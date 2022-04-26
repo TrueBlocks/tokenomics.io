@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"github.com/TrueBlocks/tokenomics.io/tools/internal"
 	"github.com/spf13/cobra"
 )
 
@@ -17,8 +18,8 @@ files so the entire database can be downloaded from a single file.
 var compressCmd = &cobra.Command{
 	Use:   useCompress,
 	Short: shortCompress,
-	Long:  colorHelp(longCompress),
-	RunE:  runCompress,
+	Long:  internal.ColorHelp(longCompress),
+	RunE:  internal.RunCompress,
 }
 
 func init() {

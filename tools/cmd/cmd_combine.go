@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"github.com/TrueBlocks/tokenomics.io/tools/internal"
 	"github.com/spf13/cobra"
 )
 
@@ -15,8 +16,8 @@ are placed in {./<folder>/exports/<chain>/combined/}.
 var combineCmd = &cobra.Command{
 	Use:   useCombine,
 	Short: shortCombine,
-	Long:  colorHelp(longCombine),
-	RunE:  runCombine,
+	Long:  internal.ColorHelp(longCombine),
+	RunE:  internal.RunCombine,
 }
 
 func init() {

@@ -1,4 +1,4 @@
-package cmd
+package internal
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func runPost(cmd *cobra.Command, args []string) error {
+func RunPost(cmd *cobra.Command, args []string) error {
 	fmt.Println("postprocess called")
 	return nil
 }
