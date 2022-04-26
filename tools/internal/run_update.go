@@ -69,29 +69,31 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 				fmt.Println(err)
 				os.Exit(1)
 			}
-			apps := make([]index.AppearanceRecord, mon.Count())
-			err = mon.ReadAppearances(&apps)
-			if err != nil {
-				fmt.Println(err)
-				os.Exit(1)
+			if chainData.Counts.Appearances > 0 {
+				apps := make([]index.AppearanceRecord, mon.Count())
+				err = mon.ReadAppearances(&apps)
+				if err != nil {
+					fmt.Println(err)
+					os.Exit(1)
+				}
+				if len(apps) > 0 {
+					chainData.FirstApp.Bn = int(apps[0].BlockNumber)
+					chainData.FirstApp.TxId = int(apps[0].TransactionId)
+					t, _ := tslibPkg.TsFromBn(chain, uint64(apps[0].BlockNumber))
+					chainData.FirstApp.Timestamp = int(t)
+					chainData.FirstApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.FirstApp.Timestamp))
+					chainData.LatestApp.Bn = int(apps[len(apps)-1].BlockNumber)
+					chainData.LatestApp.TxId = int(apps[len(apps)-1].TransactionId)
+					t, _ = tslibPkg.TsFromBn(chain, uint64(apps[len(apps)-1].BlockNumber))
+					chainData.LatestApp.Timestamp = int(t)
+					chainData.LatestApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.LatestApp.Timestamp))
+					chainData.BlockRange = chainData.LatestApp.Bn - chainData.FirstApp.Bn + 1
+				}
+				chainData.Balances = append(chainData.Balances, types.Balance{
+					Asset:   "ETH",
+					Balance: GetBalanceInEth("mainnet", grant.Address, meta.Latest),
+				})
 			}
-			if len(apps) > 0 {
-				chainData.FirstApp.Bn = int(apps[0].BlockNumber)
-				chainData.FirstApp.TxId = int(apps[0].TransactionId)
-				t, _ := tslibPkg.TsFromBn(chain, uint64(apps[0].BlockNumber))
-				chainData.FirstApp.Timestamp = int(t)
-				chainData.FirstApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.FirstApp.Timestamp))
-				chainData.LatestApp.Bn = int(apps[len(apps)-1].BlockNumber)
-				chainData.LatestApp.TxId = int(apps[len(apps)-1].TransactionId)
-				t, _ = tslibPkg.TsFromBn(chain, uint64(apps[len(apps)-1].BlockNumber))
-				chainData.LatestApp.Timestamp = int(t)
-				chainData.LatestApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.LatestApp.Timestamp))
-				chainData.BlockRange = chainData.LatestApp.Bn - chainData.FirstApp.Bn + 1
-			}
-			chainData.Balances = append(chainData.Balances, types.Balance{
-				Asset:   "ETH",
-				Balance: GetBalanceInEth("mainnet", grant.Address, meta.Latest),
-			})
 		}
 		mon.Close()
 		chainData.Types = chainData.Counts.Types()
@@ -127,10 +129,12 @@ func LineCounts(folder, chain, format, addr string) (types.Counts, error) {
 	}
 	counts := types.Counts{}
 	counts.Appearances, _ = file.LineCount(folder+"exports/"+chain+"/apps/"+addr+"."+format, true)
-	counts.Neighbors, _ = file.LineCount(folder+"exports/"+chain+"/neighbors/"+addr+"."+format, true)
-	counts.Logs, _ = file.LineCount(folder+"exports/"+chain+"/logs/"+addr+"."+format, true)
-	counts.Txs, _ = file.LineCount(folder+"exports/"+chain+"/txs/"+addr+"."+format, true)
-	counts.Statements, _ = file.LineCount(folder+"exports/"+chain+"/statements/"+addr+"."+format, true)
+	if counts.Appearances > 0 {
+		counts.Neighbors, _ = file.LineCount(folder+"exports/"+chain+"/neighbors/"+addr+"."+format, true)
+		counts.Logs, _ = file.LineCount(folder+"exports/"+chain+"/logs/"+addr+"."+format, true)
+		counts.Txs, _ = file.LineCount(folder+"exports/"+chain+"/txs/"+addr+"."+format, true)
+		counts.Statements, _ = file.LineCount(folder+"exports/"+chain+"/statements/"+addr+"."+format, true)
+	}
 	return counts, nil
 }
 
