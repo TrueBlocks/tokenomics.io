@@ -9,6 +9,7 @@ import (
 
 	tokenomics "github.com/TrueBlocks/tokenomics.io/tools/pkg"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/file"
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/logger"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/validate"
 	"github.com/spf13/cobra"
 )
@@ -78,7 +79,7 @@ func RunCompress(cmd *cobra.Command, args []string) error {
 		}
 		os.Remove(strings.Replace(tarFn, ".tar.gz", "", -1)) // remove the now empty folder
 
-		log.Println("Compressed", len(files), "files for address", grant.Address, "(size:", totalSize, ")")
+		logger.Log(logger.Info, "Compressed", len(files), "files for address", grant.Address, "(size:", totalSize, ")")
 	}
 
 	return nil

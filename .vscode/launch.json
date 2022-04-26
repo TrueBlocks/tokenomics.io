@@ -37,6 +37,22 @@
             ],
         },
         {
+            "name": "Debug update",
+            "type": "go",
+            "request": "launch",
+            "program": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "update",
+                "--folder",
+                "giveth",
+                "--chain",
+                "mainnet",
+                "--fmt",
+                "csv"
+            ],
+        },
+        {
             "name": "Launch Package",
             "type": "go",
             "request": "launch",

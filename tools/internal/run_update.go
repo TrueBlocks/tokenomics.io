@@ -3,16 +3,20 @@ package internal
 import (
 	"context"
 	"fmt"
+	"io"
 	"log"
 	"math/big"
 	"os"
+	"path"
 	"strings"
 
+	tokenomics "github.com/TrueBlocks/tokenomics.io/tools/pkg"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/file"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/monitor"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/types"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/config"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/index"
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/logger"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/rpcClient"
 	tslibPkg "github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/tslib"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/validate"
@@ -24,54 +28,34 @@ import (
 func RunUpdate(cmd *cobra.Command, args []string) error {
 	folder, chain, format := getOptions(cmd.Parent())
 
+	addressFn := path.Join(folder, "./addresses.txt")
+	if !file.FileExists(addressFn) {
+		return validate.Usage("Cannot find address file {0}", addressFn)
+	}
+
+	// Define where to find addresses file
+	grantReader, err := tokenomics.ReadGrants(addressFn)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	meta := rpcClient.GetMetaData("mainnet", false)
-	log.Println("Running at block ", meta.Latest, "on chain", chain, "and folder", folder)
-
 	grants := []types.Grant{}
-
-	lines := file.AsciiFileToLines(folder + "/addresses.txt")
-	for i, line := range lines {
-		parts := strings.Split(line, "\t")
-		if len(parts) == 0 {
+	for {
+		grant, err := grantReader.Read()
+		if err == io.EOF {
+			break
+		}
+		if err != nil {
+			log.Fatal(err)
+		}
+		if !grant.IsValid {
 			continue
 		}
-		if !validate.IsValidAddress(parts[0]) {
-			continue
-		}
-		log.Printf("%d-%s\n", i, strings.ToLower(parts[0]))
-		if len(parts) < 2 {
-			parts = append(parts, fmt.Sprintf("%04d", i))
-		}
-		if len(parts) < 3 {
-			parts = append(parts, "Name "+parts[1])
-		}
-		if len(parts) < 4 {
-			parts = append(parts, "Active")
-		}
-		if len(parts) < 5 {
-			v := "false"
-			if strings.Contains(parts[0], "Core") {
-				v = "true"
-			}
-			parts = append(parts, v)
-		}
-		slug := "https://gitcoin.co/grants/" + parts[1] + "/" + strings.Replace(strings.ToLower(parts[2]), ".", "", -1)
-		slug = strings.Replace(slug, " ", "-", -1)
-		parts = append(parts, slug)
 
-		grant := types.Grant{
-			GrantId:  parts[1],
-			Address:  strings.ToLower(parts[0]),
-			Name:     parts[2],
-			IsActive: parts[3] == "Active" || parts[3] == "true",
-			IsCore:   parts[4] == "true",
-			// TODO: BOGUS - fix this in production
-			LastUpdated: 0, // time.Now().Unix(),
-			Slug:        parts[5],
-		}
+		logger.Log(logger.Info, fmt.Sprintf("Updated data for %s", grant.Address))
 
 		chainData := types.Chain{ChainName: "mainnet"}
-		var err error
 		chainData.Counts, err = LineCounts(folder, chain, format, grant.Address)
 		if err != nil {
 			log.Fatal(err)
@@ -106,7 +90,7 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 			}
 			chainData.Balances = append(chainData.Balances, types.Balance{
 				Asset:   "ETH",
-				Balance: GetBalanceInEth("mainnet", strings.ToLower(parts[0]), meta.Latest),
+				Balance: GetBalanceInEth("mainnet", grant.Address, meta.Latest),
 			})
 		}
 		mon.Close()

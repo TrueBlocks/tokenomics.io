@@ -9,6 +9,7 @@ import (
 
 	tokenomics "github.com/TrueBlocks/tokenomics.io/tools/pkg"
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/file"
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/logger"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/validate"
 	"github.com/spf13/cobra"
 )
@@ -52,7 +53,7 @@ func RunCombine(cmd *cobra.Command, args []string) error {
 			continue
 		}
 
-		log.Println("Combining data from", grant.Address)
+		logger.Log(logger.Info, "Combining data from", grant.Address)
 
 		// For each data type, we combine the individual files for the current grant. We
 		// do it concurrently, because opening input files takes time.
