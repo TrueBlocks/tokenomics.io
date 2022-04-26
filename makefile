@@ -1,4 +1,4 @@
 # Make the tool
-all: **/*.go
+all:
 	@go build -v
 	@mv tokenomics.io nomics
