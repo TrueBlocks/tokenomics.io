@@ -21,6 +21,22 @@
             ],
         },
         {
+            "name": "Debug compress",
+            "type": "go",
+            "request": "launch",
+            "program": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "compress",
+                "--folder",
+                "wallets",
+                "--chain",
+                "mainnet",
+                "--fmt",
+                "txt"
+            ],
+        },
+        {
             "name": "Launch Package",
             "type": "go",
             "request": "launch",
