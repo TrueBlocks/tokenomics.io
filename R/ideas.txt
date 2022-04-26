@@ -1,5 +1,0 @@
-Total number of addresses
-
-Total number of uniq addresses
-
-Distribution of the number of times an address appears
