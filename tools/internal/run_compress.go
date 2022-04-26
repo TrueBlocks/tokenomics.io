@@ -66,18 +66,19 @@ func RunCompress(cmd *cobra.Command, args []string) error {
 		}
 
 		tarFn := path.Join(folder, "./exports", chain, "zips", grant.Address+".tar.gz")
-		out, err := os.Create(tarFn)
+		out, err := os.OpenFile(tarFn, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0666)
 		if err != nil {
 			log.Fatalln("Error writing archive:", err)
 		}
-		defer out.Close()
 
 		// Create the archive and write the output to the "out" Writer
 		err = file.CreateArchive(files, out, true, zipFolder)
 		if err != nil {
 			log.Fatalln("Error creating archive:", err)
 		}
-		os.Remove(strings.Replace(tarFn, ".tar.gz", "", -1)) // remove the now empty folder
+		theFolder := strings.Replace(tarFn, ".tar.gz", "", -1)
+		os.Remove(theFolder) // remove the now empty folder
+		out.Close()          // do not defer, we want to close it now
 
 		logger.Log(logger.Info, "Compressed", len(files), "files for address", grant.Address, "(size:", totalSize, ")")
 	}

@@ -1,4 +1,4 @@
-address	id	name	slug	active	core
+address	grantId	name	slug	active	core
 0x0	1519	Zcash Serverless Store (Unofficial)	zcash-serverless-store-unofficial	true	false
 0x0	1881	Garuda Network (DMRD)-Disaster management re==	garuda-network-dmrd-disaster-management-re	true	false
 0x0	1977	test grant DO NOT FUND	test-grant-do-not-fund	true	false

@@ -13,7 +13,7 @@ import (
 
 var requiredColumns = []string{
 	"address",
-	"id",
+	"grantId",
 	"name",
 	"active",
 }
@@ -38,6 +38,7 @@ func (gr *GrantReader) Read() (types.Grant, error) {
 	isValid := validate.IsValidAddress(record[0]) && !validate.IsZeroAddress(record[0])
 	return types.Grant{
 		Address:  strings.ToLower(record[gr.header["address"]]),
+		GrantId:  record[gr.header["grantId"]],
 		Name:     record[gr.header["name"]],
 		Slug:     record[gr.header["slug"]],
 		IsActive: isActive,
@@ -78,5 +79,6 @@ func ReadGrants(path string) (GrantReader, error) {
 		header:    header,
 		csvReader: *reader,
 	}
+
 	return grantReader, nil
 }

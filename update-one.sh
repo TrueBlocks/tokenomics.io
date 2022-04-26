@@ -24,10 +24,11 @@ echo "Format: " $FMT
 
 echo "Running ./update-$folder.sh at " `date`
 
-# cd $FOLDER
-# pwd
-# RUN_ONCE=true chifra scrape monitors --chain $CHAIN --file commands.fil --fmt $FMT
-# cd - 2>&1 >/dev/null
+cd $FOLDER
+pwd
+RUN_ONCE=true chifra scrape monitors --chain $CHAIN --file commands.fil --fmt $FMT
+cd - 2>&1 >/dev/null
+
 ./nomics combine --folder $FOLDER --chain $CHAIN --fmt $FMT
 ./nomics compress --folder $FOLDER --chain $CHAIN --fmt $FMT
 ./nomics update --folder $FOLDER --chain $CHAIN --fmt $FMT | jq >$FOLDER/ui/src/theData.json
