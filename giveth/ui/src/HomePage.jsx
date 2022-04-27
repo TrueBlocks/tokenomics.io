@@ -24,13 +24,14 @@ const { Search } = Input;
 const { TabPane } = Tabs;
 
 export const HomePage = () => {
-  const [chain, setChain] = useStatePersist('@chain', "mainnet")
   const [lastTab, setLastTab] = useStatePersist('@lastTab', 1);
   const [searchText, setSearchText] = useState('');
   const {
     selectGrant,
     sidebarEnabled,
     sidebarVisible,
+    showZero,
+    chain,
     setSidebarVisible,
   } = useGlobalState();
 
@@ -39,16 +40,20 @@ export const HomePage = () => {
     console.log(value);
   };
 
-  const contractData = useMemo(() => theData.filter((item) => {
+  const coreData = useMemo(() => theData.filter((item) => {
     const n = item.name.toLowerCase();
     const a = item.address.toLowerCase();
-    return item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
-  }), [searchText]);
+    const show = showZero || item.chainData[0].counts.appearanceCount > 0;
+    return show && item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
+  }), [searchText, showZero]);
+
   const grantData = useMemo(() => theData.filter((item) => {
     const n = item.name.toLowerCase();
     const a = item.address.toLowerCase();
-    return !item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
-  }), [searchText]);
+    const show = showZero || item.chainData[0].counts.appearanceCount > 0;
+    return show && !item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
+  }), [searchText, showZero]);
+
   const columns = useMemo(() => columnDefinitions, []);
   // Sidebar visibility
   const sidebarShown = useMemo(() => sidebarEnabled && sidebarVisible, [sidebarEnabled, sidebarVisible]);
@@ -90,8 +95,9 @@ export const HomePage = () => {
     setSortOrder(order)
   }, [setSortField, setSortOrder])
 
-  const tab1Title = 'Core Contracts (' + contractData.length + ')';
+  const tab1Title = 'Core Contracts (' + coreData.length + ')';
   const tab2Title = 'Individual Grants (' + grantData.length + ')';
+
   return (
     <Content>
       <ViewOptions />
@@ -134,7 +140,7 @@ export const HomePage = () => {
             <Col span={dataRowSpan} className='col-table'>
               <BaseTable
                 chain={chain}
-                dataSource={contractData}
+                dataSource={coreData}
                 columns={columns}
                 rowKey={(record) => record.grantId}
                 onSelectionChange={onSelectionChange}

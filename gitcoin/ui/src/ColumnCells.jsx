@@ -13,6 +13,9 @@ export const DateHeader = () => (
   />
 )
 export const DateCell = ({ record }) => {
+  if (record.chainData[0].counts.appearanceCount === 0) {
+    return <div>N/A</div>
+  }
   const dd = (<div>
     {record.chainData[0].latestAppearance.date.substr(0, 16)}
     <div>

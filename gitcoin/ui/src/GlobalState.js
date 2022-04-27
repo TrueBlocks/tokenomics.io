@@ -1,12 +1,16 @@
 import React, { useReducer, useContext, useMemo, createContext, useEffect, useCallback } from 'react';
 
 export const actionSetLocalExplorer = 'SET_LOCAL_EXPLORER';
+export const actionSetShowZero = 'SET_SHOW_ZERO';
+export const actionSetChain = 'SET_CHAIN';
 export const actionSelectGrant = 'SELECT_GRANT';
 export const actionSidebarVisible = 'SIDEBAR_VISIBLE';
 export const actionSidebarEnabled = 'SIDEBAR_ENABLED';
 
 const initialState = {
     localExplorer: false,
+    showZero: false,
+    chain: "mainnet",
     selectedGrant: {},
     sidebarVisible: false,
     sidebarEnabled: true,
@@ -20,6 +24,16 @@ const GlobalStateReducer = (state, action) => {
             return {
                 ...state,
                 localExplorer: action.value
+            };
+        case actionSetShowZero:
+            return {
+                ...state,
+                showZero: action.value
+            };
+        case actionSetChain:
+            return {
+                ...state,
+                chain: action.value
             };
         case actionSelectGrant:
             return {
@@ -57,6 +71,8 @@ export const useGlobalState = () => {
     const [state, dispatch] = useContext(GlobalStateContext);
 
     const setLocalExplorer = useCallback((value) => dispatch({ type: actionSetLocalExplorer, value }), [dispatch]);
+    const setShowZero = useCallback((value) => dispatch({ type: actionSetShowZero, value }), [dispatch]);
+    const setChain = useCallback((value) => dispatch({ type: actionSetChain, value }), [dispatch]);
     const selectGrant = useCallback((value) => dispatch({ type: actionSelectGrant, value }), [dispatch]);
     const setSidebarVisible = useCallback((value) => dispatch({ type: actionSidebarVisible, value }), [dispatch]);
     const setSidebarEnabled = useCallback((value) => dispatch({ type: actionSidebarEnabled, value }), [dispatch]);
@@ -64,6 +80,10 @@ export const useGlobalState = () => {
     return {
         localExplorer: state.localExplorer,
         setLocalExplorer,
+        showZero: state.showZero,
+        setShowZero,
+        chain: state.chain,
+        setChain,
         selectedGrant: state.selectedGrant,
         selectGrant,
         sidebarVisible: state.sidebarVisible,

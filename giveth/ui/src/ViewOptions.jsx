@@ -9,20 +9,40 @@ export function ViewOptions() {
     sidebarEnabled,
     setSidebarEnabled,
     localExplorer,
-    setLocalExplorer
+    setLocalExplorer,
+    showZero,
+    setShowZero,
+    chain,
+    setChain,
   } = useGlobalState();
 
   const onExplorerClick = useCallback((checked) => setLocalExplorer(checked), [setLocalExplorer]);
   const onSidebarClick = useCallback((checked) => setSidebarEnabled(checked), [setSidebarEnabled]);
+  const onShowZero = useCallback((checked) => setShowZero(checked), [setShowZero]);
+  const onChain = useCallback((checked) => setChain(checked ? "mainnet" : "gnosis"), [setChain]);
 
   return (
     <div className='view-options'>
+      <Switch
+        checked={showZero}
+        onChange={onShowZero}
+      />
+      <span onClick={() => onShowZero(!showZero)}>
+        Show zeros
+      </span>
+      <Switch
+        checked={chain === "mainnet"}
+        onChange={onChain}
+      />
+      <span onClick={() => onChain(chain === "mainnet")}>
+        Show gnosis
+      </span>
       <Switch
         checked={localExplorer}
         onChange={onExplorerClick}
       />
       <span onClick={() => onExplorerClick(!localExplorer)}>
-        Use local TrueBlocks Explorer
+        Local explorer
       </span>
       <Switch
         defaultChecked={true}
@@ -30,7 +50,7 @@ export function ViewOptions() {
         onChange={onSidebarClick}
       />
       <span onClick={() => onSidebarClick(!sidebarEnabled)}>
-        Enable Sidebar
+        Show sidebar
       </span>
     </div>
   );
