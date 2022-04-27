@@ -35,12 +35,13 @@ func (gr *GrantReader) Read() (types.Grant, error) {
 
 	isActive := record[gr.header["active"]] == "true"
 	isCore := record[gr.header["core"]] == "true"
-	isValid := validate.IsValidAddress(record[0]) && !validate.IsZeroAddress(record[0])
+	isValid := validate.IsValidAddress(record[gr.header["address"]]) && !validate.IsZeroAddress(record[gr.header["address"]])
 	return types.Grant{
 		Address:  strings.ToLower(record[gr.header["address"]]),
 		GrantId:  record[gr.header["grantId"]],
 		Name:     record[gr.header["name"]],
 		Slug:     record[gr.header["slug"]],
+		Tag:      record[gr.header["tag"]],
 		IsActive: isActive,
 		IsCore:   isCore,
 		IsValid:  isValid,

@@ -17,7 +17,7 @@ import (
 func RunCombine(cmd *cobra.Command, args []string) error {
 	folder, chain, format := getOptions(cmd.Parent())
 
-	addressFn := path.Join(folder, "./addresses.txt")
+	addressFn := path.Join(folder, "./addresses.tsv")
 	if !file.FileExists(addressFn) {
 		return validate.Usage("Cannot find address file {0}", addressFn)
 	}

@@ -28,7 +28,7 @@ import (
 func RunUpdate(cmd *cobra.Command, args []string) error {
 	folder, chain, format := getOptions(cmd.Parent())
 
-	addressFn := path.Join(folder, "./addresses.txt")
+	addressFn := path.Join(folder, "./addresses.tsv")
 	if !file.FileExists(addressFn) {
 		return validate.Usage("Cannot find address file {0}", addressFn)
 	}
@@ -39,20 +39,44 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 		log.Fatal(err)
 	}
 
+	type Counters struct {
+		nRead      int
+		nProcessed int
+	}
+	counter := Counters{}
+
 	meta := rpcClient.GetMetaData("mainnet", false)
+
+	// 	dataFile := path.Join(folder, "ui/src/theData.json")
+	// // ReadJSONManifest reads manifest in JSON format
+	// func ReadJSONManifest(reader io.Reader) (*Manifest, error) {
+	// 	decoder := json.NewDecoder(reader)
+	// 	manifest := &Manifest{}
+
+	// 	err := decoder.Decode(manifest)
+
+	// 	return manifest, err
+	// }
+
+	skipped := []types.Grant{}
 	grants := []types.Grant{}
+
 	for {
 		grant, err := grantReader.Read()
 		if err == io.EOF {
 			break
 		}
+
+		counter.nRead++
 		if err != nil {
 			log.Fatal(err)
 		}
 		if !grant.IsValid {
+			skipped = append(skipped, grant)
 			continue
 		}
 
+		counter.nProcessed++
 		logger.Log(logger.Info, fmt.Sprintf("Updated data for %s", grant.Address))
 
 		chainData := types.Chain{ChainName: "mainnet"}
@@ -69,6 +93,7 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 				fmt.Println(err)
 				os.Exit(1)
 			}
+
 			if chainData.Counts.Appearances > 0 {
 				apps := make([]index.AppearanceRecord, mon.Count())
 				err = mon.ReadAppearances(&apps)
@@ -95,6 +120,7 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 				})
 			}
 		}
+
 		mon.Close()
 		chainData.Types = chainData.Counts.Types()
 		grant.Chains = append(grant.Chains, chainData)
@@ -115,6 +141,12 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 		}
 	}
 	fmt.Println("]")
+
+	logger.Log(logger.Info, "nRead:", counter.nRead, "nProcessed:", counter.nProcessed)
+	for sk := range skipped {
+		fmt.Println("\t", sk)
+	}
+
 	return nil
 }
 
@@ -122,13 +154,18 @@ func LineCounts(folder, chain, format, addr string) (types.Counts, error) {
 	if !strings.HasSuffix(folder, "/") {
 		folder += "/"
 	}
-	base := "./" + folder + "exports/" + chain
+
+	fileName := addr + "." + format
+
+	base := path.Join(folder, "exports", chain)
 	if !file.FolderExists(base) {
-		fmt.Println("SOMSOMTEOMTOME")
 		return types.Counts{}, fmt.Errorf("data folder (%s) not found", base)
 	}
+
 	counts := types.Counts{}
-	counts.Appearances, _ = file.LineCount(folder+"exports/"+chain+"/apps/"+addr+"."+format, true)
+	counts.Appearances, _ = file.LineCount(path.Join(base, "apps", fileName), true)
+	// fmt.Println(path.Join(base, "apps", fileName), counts.Appearances)
+
 	if counts.Appearances > 0 {
 		counts.Neighbors, _ = file.LineCount(folder+"exports/"+chain+"/neighbors/"+addr+"."+format, true)
 		counts.Logs, _ = file.LineCount(folder+"exports/"+chain+"/logs/"+addr+"."+format, true)

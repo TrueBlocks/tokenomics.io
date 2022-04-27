@@ -70,6 +70,7 @@ type Grant struct {
 	Address     string  `json:"address,omitempty"`
 	Name        string  `json:"name,omitempty"`
 	Slug        string  `json:"slug,omitempty"`
+	Tag         string  `json:"tag,omitempty"`
 	LastUpdated int64   `json:"lastUpdated,omitempty"`
 	IsActive    bool    `json:"isActive,omitempty"`
 	IsCore      bool    `json:"core"`

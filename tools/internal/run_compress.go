@@ -18,7 +18,7 @@ func RunCompress(cmd *cobra.Command, args []string) error {
 	folder, chain, format := getOptions(cmd.Parent())
 	zipFolder := path.Join(folder, "./exports", chain, "zips")
 
-	addressFn := path.Join(folder, "./addresses.txt")
+	addressFn := path.Join(folder, "./addresses.tsv")
 	if !file.FileExists(addressFn) {
 		return validate.Usage("Cannot find address file {0}", addressFn)
 	}

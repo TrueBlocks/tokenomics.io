@@ -205,13 +205,13 @@ func addressFromPath(path string) (string, error) {
 var SentinalAddr = common.HexToAddress("0xdeaddeaddeaddeaddeaddeaddeaddeaddeaddead")
 
 // ListMonitors puts a list of Monitors into the monitorChannel. The list of monitors is built from
-// a file called addresses.txt in the current folder or, if not present, from existing monitors
+// a file called addresses.tsv in the current folder or, if not present, from existing monitors
 func ListMonitors(chain, folder string, monitorChan chan<- Monitor) {
 	defer func() {
 		monitorChan <- Monitor{Address: SentinalAddr}
 	}()
 
-	info, err := os.Stat("./addresses.txt")
+	info, err := os.Stat("./addresses.tsv")
 	if err == nil {
 		// If the shorthand file exists in the current folder, use it...
 		lines := file.AsciiFileToLines(info.Name())
@@ -228,7 +228,7 @@ func ListMonitors(chain, folder string, monitorChan chan<- Monitor) {
 				}
 			}
 		}
-		fmt.Println("Found", len(lines), "unique addresses in ./addresses.txt")
+		fmt.Println("Found", len(lines), "unique addresses in ./addresses.tsv")
 		return
 	}
 

@@ -45,7 +45,7 @@
             "args": [
                 "update",
                 "--folder",
-                "giveth",
+                "gitcoin",
                 "--chain",
                 "mainnet",
                 "--fmt",
