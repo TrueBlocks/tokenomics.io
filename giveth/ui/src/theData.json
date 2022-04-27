@@ -1,9 +1,9 @@
 [
   {
-    "grantId": "0008",
+    "grantId": " ",
     "address": "0x014797cc3d15f6ea6bb220a32a465ac8f7a5e3b8",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -41,10 +41,10 @@
     ]
   },
   {
-    "grantId": "0015",
+    "grantId": " ",
     "address": "0x02c2ec416601daf7eb2c69c8ed3000457945fa20",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -81,10 +81,10 @@
     ]
   },
   {
-    "grantId": "0020",
+    "grantId": " ",
     "address": "0x0442a9abbc93058a873c371f21cc366338254a88",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -105,11 +105,11 @@
         "fileSize": 112,
         "blockRange": 76693,
         "counts": {
-          "appearanceCount": 15,
-          "logCount": 22,
-          "transactionCount": 15,
-          "neighborCount": 1242,
-          "statementsCount": 22
+          "appearanceCount": 13,
+          "logCount": 19,
+          "transactionCount": 13,
+          "neighborCount": 237,
+          "statementsCount": 19
         },
         "balances": [
           {
@@ -122,10 +122,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x0a53cc58afa401a87d0961fcdd5007ce532c6937",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -163,10 +163,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x0c64d4070dc13303d6ae6326a9e408a37f7d6b56",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -203,10 +203,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x0eed1566f46b0421d53d2143a3957bb22016ef4b",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -244,10 +244,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x0ff1baa6c90480d8627b922a1e81393eb9c7ea08",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -265,14 +265,14 @@
           "timestamp": 1649314467,
           "date": "2022-04-07 06:54:27 UTC"
         },
-        "fileSize": 376,
+        "fileSize": 192,
         "blockRange": 818865,
         "counts": {
-          "appearanceCount": 27,
-          "logCount": 35,
-          "transactionCount": 27,
-          "neighborCount": 763,
-          "statementsCount": 39
+          "appearanceCount": 23,
+          "logCount": 27,
+          "transactionCount": 23,
+          "neighborCount": 716,
+          "statementsCount": 32
         },
         "balances": [
           {
@@ -285,10 +285,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x10e1439455bd2624878b243819e31cfee9eb721c",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -309,11 +309,11 @@
         "fileSize": 6792,
         "blockRange": 283772,
         "counts": {
-          "appearanceCount": 871,
-          "logCount": 914,
-          "transactionCount": 871,
-          "neighborCount": 4543,
-          "statementsCount": 1017
+          "appearanceCount": 848,
+          "logCount": 891,
+          "transactionCount": 848,
+          "neighborCount": 4441,
+          "statementsCount": 989
         },
         "balances": [
           {
@@ -326,10 +326,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x1251a94b6d800979d2d933b8bd5914b892772ac6",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -367,10 +367,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x14d85661080be5bcbb27d66a694f45032fa9fe36",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -408,10 +408,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x152ca22ca7120c5d5bd01a08023962252784fc83",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -448,10 +448,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x1ad44446a588010ab6b741cd0201b92f84b597bb",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -472,11 +472,11 @@
         "fileSize": 120,
         "blockRange": 736284,
         "counts": {
-          "appearanceCount": 15,
-          "logCount": 26,
-          "transactionCount": 15,
-          "neighborCount": 244,
-          "statementsCount": 24
+          "appearanceCount": 14,
+          "logCount": 24,
+          "transactionCount": 14,
+          "neighborCount": 240,
+          "statementsCount": 22
         },
         "balances": [
           {
@@ -489,10 +489,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x1bdd93f2dce2b4746f5caccb4ff417353d432135",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -529,10 +529,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x1de498918d04b8bf162210103cdd547f73387b2e",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -570,10 +570,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x1fd6783a30cf3dabf703dd03e53badcfd85bc360",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -611,10 +611,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x21e0ca21f517a26db49ec8fcf05fceabbabe98fa",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -635,11 +635,11 @@
         "fileSize": 112,
         "blockRange": 2552429,
         "counts": {
-          "appearanceCount": 14,
+          "appearanceCount": 13,
           "logCount": 4,
-          "transactionCount": 14,
-          "neighborCount": 63,
-          "statementsCount": 18
+          "transactionCount": 13,
+          "neighborCount": 61,
+          "statementsCount": 17
         },
         "balances": [
           {
@@ -652,20 +652,20 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x22d2aa904a8b61154c1bf4d2d5600ca0ede39603",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 13196576,
-          "txId": 104,
-          "timestamp": 1631257706,
-          "date": "2021-09-10 07:08:26 UTC"
+          "bn": 13190665,
+          "txId": 82,
+          "timestamp": 1631179001,
+          "date": "2021-09-09 09:16:41 UTC"
         },
         "latestAppearance": {
           "bn": 14477306,
@@ -673,8 +673,8 @@
           "timestamp": 1648505699,
           "date": "2022-03-28 22:14:59 UTC"
         },
-        "fileSize": 3160,
-        "blockRange": 1280731,
+        "fileSize": 1584,
+        "blockRange": 1286642,
         "counts": {
           "appearanceCount": 197,
           "logCount": 240,
@@ -693,10 +693,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x22d7ed6c3cf8c9a603d98452b20d9fbb237e4818",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -734,10 +734,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x236daa98f115caa9991a3894ae387cdc13eaad1b",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -775,10 +775,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x2510586027328c872651e887e69bb261e3d8ed73",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -816,10 +816,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x271cd5391016eb621ab3f9c0c70f5cf91dfd3fb0",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -857,10 +857,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x298f7f66ba43f0efecf4bc324b0016f822c783a4",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -873,19 +873,19 @@
           "date": "2021-12-06 03:51:01 UTC"
         },
         "latestAppearance": {
-          "bn": 14442371,
-          "txId": 89,
-          "timestamp": 1648036272,
-          "date": "2022-03-23 11:51:12 UTC"
+          "bn": 14453125,
+          "txId": 47,
+          "timestamp": 1648180387,
+          "date": "2022-03-25 03:53:07 UTC"
         },
-        "fileSize": 536,
-        "blockRange": 692380,
+        "fileSize": 272,
+        "blockRange": 703134,
         "counts": {
-          "appearanceCount": 36,
-          "logCount": 54,
-          "transactionCount": 36,
-          "neighborCount": 655,
-          "statementsCount": 56
+          "appearanceCount": 33,
+          "logCount": 48,
+          "transactionCount": 33,
+          "neighborCount": 623,
+          "statementsCount": 50
         },
         "balances": [
           {
@@ -898,10 +898,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x2bf034eccebc8cd60dab9c249b6c2996dcb7d8ec",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -922,11 +922,11 @@
         "fileSize": 4296,
         "blockRange": 3058362,
         "counts": {
-          "appearanceCount": 539,
-          "logCount": 690,
-          "transactionCount": 539,
-          "neighborCount": 7221,
-          "statementsCount": 825
+          "appearanceCount": 536,
+          "logCount": 687,
+          "transactionCount": 536,
+          "neighborCount": 7211,
+          "statementsCount": 821
         },
         "balances": [
           {
@@ -939,10 +939,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x2c0d12ecee29f36c39510ac41d6dd1287d4fbf8a",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -980,10 +980,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x2e6fdac4f7778e902cc6cf632f58bc20afa8718f",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1020,10 +1020,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x2eb64d574183d2bdf19ef5df5827ccfb6e68839c",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1061,20 +1061,20 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x308fd8fb79379dead5a360ffb6dd2d1aff9f5ee4",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 12657922,
-          "txId": 10,
-          "timestamp": 1624012406,
-          "date": "2021-06-18 10:33:26 UTC"
+          "bn": 12639094,
+          "txId": 62,
+          "timestamp": 1623760824,
+          "date": "2021-06-15 12:40:24 UTC"
         },
         "latestAppearance": {
           "bn": 14537259,
@@ -1082,8 +1082,8 @@
           "timestamp": 1649314467,
           "date": "2022-04-07 06:54:27 UTC"
         },
-        "fileSize": 504,
-        "blockRange": 1879338,
+        "fileSize": 256,
+        "blockRange": 1898166,
         "counts": {
           "appearanceCount": 31,
           "logCount": 39,
@@ -1102,10 +1102,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x32cefb2dc869bbfe636f7547cda43f561bf88d5a",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1123,14 +1123,14 @@
           "timestamp": 1648540521,
           "date": "2022-03-29 07:55:21 UTC"
         },
-        "fileSize": 5208,
+        "fileSize": 2608,
         "blockRange": 7914320,
         "counts": {
-          "appearanceCount": 326,
+          "appearanceCount": 325,
           "logCount": 360,
-          "transactionCount": 326,
-          "neighborCount": 6257,
-          "statementsCount": 502
+          "transactionCount": 325,
+          "neighborCount": 6248,
+          "statementsCount": 501
         },
         "balances": [
           {
@@ -1143,20 +1143,20 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x3953017af23ab99a7d40f3d26f1595f27c91345f",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 9485992,
-          "txId": 135,
-          "timestamp": 1581748189,
-          "date": "2020-02-15 06:29:49 UTC"
+          "bn": 9462484,
+          "txId": 118,
+          "timestamp": 1581434770,
+          "date": "2020-02-11 15:26:10 UTC"
         },
         "latestAppearance": {
           "bn": 14562936,
@@ -1164,8 +1164,8 @@
           "timestamp": 1649660409,
           "date": "2022-04-11 07:00:09 UTC"
         },
-        "fileSize": 6376,
-        "blockRange": 5076945,
+        "fileSize": 3192,
+        "blockRange": 5100453,
         "counts": {
           "appearanceCount": 398,
           "logCount": 315,
@@ -1184,10 +1184,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x3aa599fb8003b94666c9d66db43d859ef5eea29f",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1225,10 +1225,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x3d5ed926948bbece27e7755334555db12daf2806",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1265,10 +1265,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x3eb9162f2b2b62ea6de2a6f5987408cc35b51583",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1289,11 +1289,11 @@
         "fileSize": 2224,
         "blockRange": 3341922,
         "counts": {
-          "appearanceCount": 284,
-          "logCount": 304,
-          "transactionCount": 284,
-          "neighborCount": 4129,
-          "statementsCount": 424
+          "appearanceCount": 277,
+          "logCount": 296,
+          "transactionCount": 277,
+          "neighborCount": 4083,
+          "statementsCount": 413
         },
         "balances": [
           {
@@ -1306,10 +1306,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x3f6a132a0e4ebc4c09eec906e172106a32885792",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1347,10 +1347,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x41cb654d1f47913acab158a8199191d160dabe4a",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1371,11 +1371,11 @@
         "fileSize": 24,
         "blockRange": 622160,
         "counts": {
-          "appearanceCount": 6,
-          "logCount": 6,
-          "transactionCount": 6,
-          "neighborCount": 22,
-          "statementsCount": 8
+          "appearanceCount": 2,
+          "logCount": 1,
+          "transactionCount": 2,
+          "neighborCount": 5,
+          "statementsCount": 3
         },
         "balances": [
           {
@@ -1388,10 +1388,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x42d95ebce0972b91ec2109158b6a7717d87cce14",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1428,10 +1428,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x43e9a8e64d02a0b1208227beecd6e95fd710da9b",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1469,10 +1469,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x48b8cb893429d97f3fecbfe6301bda1c6936d8d9",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1510,10 +1510,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x49b41ffb3a8f9dc3dc8df8d8e9ea5b7d43445c7f",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1550,10 +1550,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x4bbeeb066ed09b7aed07bf39eee0460dfa261520",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1574,11 +1574,11 @@
         "fileSize": 7064,
         "blockRange": 9475711,
         "counts": {
-          "appearanceCount": 909,
-          "logCount": 412,
-          "transactionCount": 909,
-          "neighborCount": 20875,
-          "statementsCount": 1147
+          "appearanceCount": 882,
+          "logCount": 408,
+          "transactionCount": 882,
+          "neighborCount": 19952,
+          "statementsCount": 1116
         },
         "balances": [
           {
@@ -1591,10 +1591,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x4d9339dd97db55e3b9bcbe65de39ff9c04d1c2cd",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1612,14 +1612,14 @@
           "timestamp": 1649505575,
           "date": "2022-04-09 11:59:35 UTC"
         },
-        "fileSize": 1384,
+        "fileSize": 696,
         "blockRange": 960761,
         "counts": {
-          "appearanceCount": 92,
-          "logCount": 166,
-          "transactionCount": 92,
-          "neighborCount": 1452,
-          "statementsCount": 121
+          "appearanceCount": 86,
+          "logCount": 160,
+          "transactionCount": 86,
+          "neighborCount": 1420,
+          "statementsCount": 115
         },
         "balances": [
           {
@@ -1632,10 +1632,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x500358904d2c8711a027ea61630013fe3a5f185a",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1673,10 +1673,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x50a0bcf71cb17be5c2335d8c5172ef1d8b82db8c",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1714,10 +1714,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x513adc80b5830ca58d51cf75fbdf3fc6e465c27d",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1754,10 +1754,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x5141970563c7d70a129a05f575e9e34df4bd81d8",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1795,10 +1795,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x5219ffb88175588510e9752a1ecaa3cd217ca783",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1836,10 +1836,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x54c8c89cc6ba1ff4062834c4ff5a869ffd8c5b6b",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1877,10 +1877,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x5a9ce898f0b03c5a3cd2d0c727efdd0555c86f81",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1898,14 +1898,14 @@
           "timestamp": 1648868948,
           "date": "2022-04-02 03:09:08 UTC"
         },
-        "fileSize": 23944,
+        "fileSize": 11976,
         "blockRange": 4096661,
         "counts": {
-          "appearanceCount": 1500,
-          "logCount": 1938,
-          "transactionCount": 1500,
-          "neighborCount": 39277,
-          "statementsCount": 2128
+          "appearanceCount": 1496,
+          "logCount": 1928,
+          "transactionCount": 1496,
+          "neighborCount": 39257,
+          "statementsCount": 2122
         },
         "balances": [
           {
@@ -1918,10 +1918,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x5b0f8d8f47e3fdf7ee1c337abca19dbba98524e6",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1959,10 +1959,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x5b36399504a64c6d5d6671586761b631792fd938",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -1999,10 +1999,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x5cf4a8055e6aa83f5e356d17d4e40288ef788c39",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2039,10 +2039,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x5e7172df892abd9ea3e669823955e52d59ee13cf",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2080,10 +2080,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x5fff94e8585a12a13b46177110a8812b6db92f87",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2096,13 +2096,13 @@
           "date": "2020-12-12 11:42:43 UTC"
         },
         "latestAppearance": {
-          "bn": 14438473,
-          "txId": 32,
-          "timestamp": 1647983438,
-          "date": "2022-03-22 21:10:38 UTC"
+          "bn": 14438996,
+          "txId": 69,
+          "timestamp": 1647990574,
+          "date": "2022-03-22 23:09:34 UTC"
         },
-        "fileSize": 12712,
-        "blockRange": 3000586,
+        "fileSize": 6360,
+        "blockRange": 3001109,
         "counts": {
           "appearanceCount": 794,
           "logCount": 1035,
@@ -2121,10 +2121,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x60a9372862bd752cd02d9ae482f94cd2fe92a0bf",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2162,10 +2162,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x60b214e74b347e8595a336af3762d6a8eaf3fc42",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2202,10 +2202,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x672d05743d41815325a9af4f92fbe57c306f17be",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2242,10 +2242,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x681044a9b8c0ec3699e763943ccda3b163df18d1",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2263,7 +2263,7 @@
           "timestamp": 1649679283,
           "date": "2022-04-11 12:14:43 UTC"
         },
-        "fileSize": 760,
+        "fileSize": 384,
         "blockRange": 791031,
         "counts": {
           "appearanceCount": 47,
@@ -2283,10 +2283,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x6886b39650553da57bab8457a0c065fc0044f3e8",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2324,10 +2324,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x6a5704a2dd938ffb2cdfa8f55d39bffd37e6d494",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2364,10 +2364,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x6d97d65adff6771b31671443a6b9512104312d3d",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2388,11 +2388,11 @@
         "fileSize": 4408,
         "blockRange": 7487451,
         "counts": {
-          "appearanceCount": 552,
-          "logCount": 845,
-          "transactionCount": 552,
-          "neighborCount": 5684,
-          "statementsCount": 933
+          "appearanceCount": 550,
+          "logCount": 839,
+          "transactionCount": 550,
+          "neighborCount": 5674,
+          "statementsCount": 931
         },
         "balances": [
           {
@@ -2405,10 +2405,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x6e8873085530406995170da467010565968c7c62",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2429,11 +2429,11 @@
         "fileSize": 48,
         "blockRange": 475852,
         "counts": {
-          "appearanceCount": 6,
-          "logCount": 11,
-          "transactionCount": 6,
-          "neighborCount": 50,
-          "statementsCount": 7
+          "appearanceCount": 5,
+          "logCount": 9,
+          "transactionCount": 5,
+          "neighborCount": 43,
+          "statementsCount": 6
         },
         "balances": [
           {
@@ -2445,10 +2445,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x7554f10da3ed7128300577e55abcd8f8835bcee4",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2469,11 +2469,11 @@
         "fileSize": 168,
         "blockRange": 2542295,
         "counts": {
-          "appearanceCount": 21,
+          "appearanceCount": 20,
           "logCount": 12,
-          "transactionCount": 21,
-          "neighborCount": 83,
-          "statementsCount": 25
+          "transactionCount": 20,
+          "neighborCount": 81,
+          "statementsCount": 24
         },
         "balances": [
           {
@@ -2486,10 +2486,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x7a12d81dd3b83450b46c56779c88a63d6f7ace77",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2526,10 +2526,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x7b2957d554645b29ab99264f6a67cac36a9cb991",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2566,10 +2566,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x7d7f2082ae3a75a881e478cf90880bacfaebe4fe",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2606,10 +2606,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x7e53b3fa9820970d2b91d6907cb25ca975a77b17",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2646,10 +2646,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x809c9f8dd8ca93a41c3adca4972fa234c28f7714",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2670,11 +2670,11 @@
         "fileSize": 2784,
         "blockRange": 7983170,
         "counts": {
-          "appearanceCount": 353,
-          "logCount": 557,
-          "transactionCount": 353,
-          "neighborCount": 3132,
-          "statementsCount": 602
+          "appearanceCount": 347,
+          "logCount": 550,
+          "transactionCount": 347,
+          "neighborCount": 3106,
+          "statementsCount": 591
         },
         "balances": [
           {
@@ -2687,20 +2687,20 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x8110d1d04ac316fdcace8f24fd60c86b810ab15a",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 9740582,
-          "txId": 39,
-          "timestamp": 1585140959,
-          "date": "2020-03-25 12:55:59 UTC"
+          "bn": 9725077,
+          "txId": 161,
+          "timestamp": 1584930921,
+          "date": "2020-03-23 02:35:21 UTC"
         },
         "latestAppearance": {
           "bn": 14530172,
@@ -2708,14 +2708,14 @@
           "timestamp": 1649218670,
           "date": "2022-04-06 04:17:50 UTC"
         },
-        "fileSize": 40344,
-        "blockRange": 4789591,
+        "fileSize": 20176,
+        "blockRange": 4805096,
         "counts": {
-          "appearanceCount": 2530,
-          "logCount": 4048,
-          "transactionCount": 2530,
-          "neighborCount": 59063,
-          "statementsCount": 4331
+          "appearanceCount": 2521,
+          "logCount": 4031,
+          "transactionCount": 2521,
+          "neighborCount": 58987,
+          "statementsCount": 4315
         },
         "balances": [
           {
@@ -2728,10 +2728,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x81360a0a15710a64d0b921122660e287beb7743f",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2768,10 +2768,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x8142afbe26f2d0f5b27e7b7937789dd68cddcd7e",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2808,10 +2808,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x81a8e13382d20cf24f44f50b6643064cd7a71a84",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2849,10 +2849,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x844eb918a06d376c498d85fb71625f14439e466e",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2890,10 +2890,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x85d00ff860df462b30221a52940b512ccffb99b9",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2931,10 +2931,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x861b77244ec2ad1bf3bd5509a77febf949ed1397",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2971,10 +2971,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x8760e565273b47195f76a22455ce0b68a11af5b5",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -2995,11 +2995,11 @@
         "fileSize": 13208,
         "blockRange": 4154257,
         "counts": {
-          "appearanceCount": 1657,
-          "logCount": 2317,
-          "transactionCount": 1657,
-          "neighborCount": 25920,
-          "statementsCount": 2773
+          "appearanceCount": 1650,
+          "logCount": 2302,
+          "transactionCount": 1650,
+          "neighborCount": 23686,
+          "statementsCount": 2762
         },
         "balances": [
           {
@@ -3012,10 +3012,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x8ba6cd4f47e0ad7240287a292cdfe22a4d50e075",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3053,10 +3053,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x8e115aa1cb49e2014d6f4a66fb1badb3073c28ed",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3094,10 +3094,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x8ff210ce2b58d5d942802dcfa48c03dfad951ba6",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3134,10 +3134,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x90b31c07fb0310b4b0d88368169dad8fe0cbb6da",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3175,10 +3175,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x96b7e3059563acc03af3a6e2de8f623364aaae0a",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3199,11 +3199,11 @@
         "fileSize": 64,
         "blockRange": 553168,
         "counts": {
-          "appearanceCount": 8,
-          "logCount": 5,
-          "transactionCount": 8,
-          "neighborCount": 22,
-          "statementsCount": 13
+          "appearanceCount": 7,
+          "logCount": 4,
+          "transactionCount": 7,
+          "neighborCount": 19,
+          "statementsCount": 11
         },
         "balances": [
           {
@@ -3216,10 +3216,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0x97fb4845bf7bd7156b30ef09ae94419956fe3a90",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3256,10 +3256,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xa032518dc6e76dc7b269901a2a1fcc4065a154bb",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3296,10 +3296,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xa0527ba80d811cd45d452481caf902dfd6f5b8c2",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3317,7 +3317,7 @@
           "timestamp": 1649122039,
           "date": "2022-04-05 01:27:19 UTC"
         },
-        "fileSize": 22008,
+        "fileSize": 11008,
         "blockRange": 5392813,
         "counts": {
           "appearanceCount": 1375,
@@ -3337,10 +3337,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xa36a5453be6ef6f3739e8a9b0c656b328ae099f3",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3378,10 +3378,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xa57c16b323e93621c7916f34be49310eec8e6ec6",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3419,10 +3419,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xa96589c35668a2c6eeb3f3b5a42b214042c01ddd",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3459,10 +3459,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xab2456b5758c0d7f4272151efb56cb7643ca7e30",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3499,10 +3499,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xb1e102c943d7bde5fe1cd33c03d8ce184df50069",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3539,10 +3539,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xb2645970941b45f508b5333c1d628ad619adde20",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3580,10 +3580,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xb968749ddb25f0bc0b241c3b68e588455222b8d8",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3621,10 +3621,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xba0fee8490118fc4f46bd0974d7bf93d0e2f1064",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3642,14 +3642,14 @@
           "timestamp": 1648644290,
           "date": "2022-03-30 12:44:50 UTC"
         },
-        "fileSize": 6152,
+        "fileSize": 3080,
         "blockRange": 4760368,
         "counts": {
-          "appearanceCount": 389,
-          "logCount": 447,
-          "transactionCount": 389,
-          "neighborCount": 10943,
-          "statementsCount": 604
+          "appearanceCount": 384,
+          "logCount": 443,
+          "transactionCount": 384,
+          "neighborCount": 10917,
+          "statementsCount": 596
         },
         "balances": [
           {
@@ -3662,10 +3662,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xbac78374f87d02d3b0d6faf82d8794201d40b35b",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3686,11 +3686,11 @@
         "fileSize": 824,
         "blockRange": 653632,
         "counts": {
-          "appearanceCount": 105,
+          "appearanceCount": 102,
           "logCount": 19,
-          "transactionCount": 105,
-          "neighborCount": 755,
-          "statementsCount": 114
+          "transactionCount": 102,
+          "neighborCount": 749,
+          "statementsCount": 111
         },
         "balances": [
           {
@@ -3703,10 +3703,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xbadcddea250f1e317ba59999232464933c4e8d90",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3724,7 +3724,7 @@
           "timestamp": 1649594210,
           "date": "2022-04-10 12:36:50 UTC"
         },
-        "fileSize": 4360,
+        "fileSize": 2184,
         "blockRange": 5197912,
         "counts": {
           "appearanceCount": 272,
@@ -3744,10 +3744,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xbdaf85b594c7cb802ecbbcf0c64e0959b6cf3629",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3785,10 +3785,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xbe784db8cb6909a6ff24aad9a39dad7e87642902",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3826,10 +3826,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xc172542e7f4f625bb0301f0bafc423092d9cac71",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3846,7 +3846,7 @@
           "timestamp": 1648155383,
           "date": "2022-03-24 20:56:23 UTC"
         },
-        "fileSize": 2872,
+        "fileSize": 1440,
         "blockRange": 5365964,
         "counts": {
           "appearanceCount": 179,
@@ -3866,10 +3866,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xc28f18ee5fdac73a7f0d35567163f9124061af63",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3906,10 +3906,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xc4fcbcd7c1f300ddcbc4cd2fc8c9efba390fe0a3",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3947,10 +3947,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xc61799b2604a2c4b34376bdad040754031ac5822",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -3988,10 +3988,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xc70bb1b4aa3986572ab6fe8c3247e613e1d23a3c",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4029,10 +4029,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xc7d8f5f7beff6f69d97afc3ce01196272e47e9b0",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4070,10 +4070,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xcc16478712932ab5144cc6e0ea2af6c84452d185",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4111,20 +4111,20 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xcca88b952976da313fb928111f2d5c390ee0d723",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 11421387,
-          "txId": 79,
-          "timestamp": 1607552683,
-          "date": "2020-12-09 22:24:43 UTC"
+          "bn": 11417638,
+          "txId": 92,
+          "timestamp": 1607503250,
+          "date": "2020-12-09 08:40:50 UTC"
         },
         "latestAppearance": {
           "bn": 14443930,
@@ -4132,14 +4132,14 @@
           "timestamp": 1648057025,
           "date": "2022-03-23 17:37:05 UTC"
         },
-        "fileSize": 4456,
-        "blockRange": 3022544,
+        "fileSize": 2232,
+        "blockRange": 3026293,
         "counts": {
-          "appearanceCount": 280,
+          "appearanceCount": 278,
           "logCount": 302,
-          "transactionCount": 280,
-          "neighborCount": 7792,
-          "statementsCount": 397
+          "transactionCount": 278,
+          "neighborCount": 7784,
+          "statementsCount": 395
         },
         "balances": [
           {
@@ -4152,10 +4152,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xd164af956e0f34be07a86752fe43ae788f647531",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4173,7 +4173,7 @@
           "timestamp": 1645274562,
           "date": "2022-02-19 12:42:42 UTC"
         },
-        "fileSize": 3640,
+        "fileSize": 1824,
         "blockRange": 1626028,
         "counts": {
           "appearanceCount": 227,
@@ -4193,10 +4193,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xd202d0725edec7247c3c972aa827a6723bf51013",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4234,10 +4234,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xdac88d49f2667d86ab6b32c411ff3088bde9e70c",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4275,10 +4275,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xdb95757ab85cec8cee888f0166e4f248329dd315",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4316,10 +4316,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xded96ea34aa89cff62d0f131e92ac2d506d02a5e",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4356,10 +4356,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xdf8f53b9f83e611e1154402992c6f6cb7daf246c",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4380,11 +4380,11 @@
         "fileSize": 4416,
         "blockRange": 6408411,
         "counts": {
-          "appearanceCount": 554,
-          "logCount": 841,
-          "transactionCount": 554,
-          "neighborCount": 6189,
-          "statementsCount": 885
+          "appearanceCount": 551,
+          "logCount": 837,
+          "transactionCount": 551,
+          "neighborCount": 6173,
+          "statementsCount": 879
         },
         "balances": [
           {
@@ -4397,10 +4397,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xdfb0b22940cc45283d639d22ba26aa55ab8bfee8",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4418,7 +4418,7 @@
           "timestamp": 1647302767,
           "date": "2022-03-15 00:06:07 UTC"
         },
-        "fileSize": 696,
+        "fileSize": 352,
         "blockRange": 2357674,
         "counts": {
           "appearanceCount": 43,
@@ -4438,10 +4438,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xe3f738ff9fa4e157cab12ee6f1847f680495229a",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4479,10 +4479,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xe5f470e376554fb613a43fde223e40a3bb338765",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4503,11 +4503,11 @@
         "fileSize": 2800,
         "blockRange": 3504165,
         "counts": {
-          "appearanceCount": 351,
-          "logCount": 396,
-          "transactionCount": 351,
-          "neighborCount": 4685,
-          "statementsCount": 507
+          "appearanceCount": 349,
+          "logCount": 393,
+          "transactionCount": 349,
+          "neighborCount": 4680,
+          "statementsCount": 503
         },
         "balances": [
           {
@@ -4520,10 +4520,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xe71212b20052f361b3e879dfbf66f237fad24a2e",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4560,10 +4560,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xeafff6db1965886348657e79195eb6f1a84657eb",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4600,10 +4600,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xedd425359fb15e894c639b6a74112954486146b9",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4641,10 +4641,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xf11704511975cc5908f6dbd89be922f5c86c1055",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4665,11 +4665,11 @@
         "fileSize": 568,
         "blockRange": 1618131,
         "counts": {
-          "appearanceCount": 76,
-          "logCount": 73,
-          "transactionCount": 76,
-          "neighborCount": 643,
-          "statementsCount": 95
+          "appearanceCount": 70,
+          "logCount": 72,
+          "transactionCount": 70,
+          "neighborCount": 618,
+          "statementsCount": 89
         },
         "balances": [
           {
@@ -4682,10 +4682,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xf4d7c96f1124a60e355b23aea65641191583e54d",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4723,10 +4723,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xf503017d7baf7fbc0fff7492b751025c6a78179b",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4747,16 +4747,16 @@
         "fileSize": 18144,
         "blockRange": 5700364,
         "counts": {
-          "appearanceCount": 2277,
-          "logCount": 3255,
-          "transactionCount": 2277,
-          "neighborCount": 42003,
-          "statementsCount": 3152
+          "appearanceCount": 2267,
+          "logCount": 3242,
+          "transactionCount": 2267,
+          "neighborCount": 41898,
+          "statementsCount": 3132
         },
         "balances": [
           {
             "asset": "ETH",
-            "balance": 7.779878623962495
+            "balance": 7.25310607254268
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -4764,10 +4764,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xf632ce27ea72dea30d30c1a9700b6b3bceaa05cf",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4805,10 +4805,10 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xfbdb4927415b604d463a63b30b1acb6c741545aa",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
@@ -4846,20 +4846,20 @@
     ]
   },
   {
-    "grantId": "X",
+    "grantId": " ",
     "address": "0xfc0881db3e06b764e87e8a59c212f3417d2fe65d",
     "name": "X",
-    "slug": "X",
+    "isActive": true,
     "core": false,
     "isValid": true,
     "chainData": [
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 11793281,
-          "txId": 49,
-          "timestamp": 1612488248,
-          "date": "2021-02-05 01:24:08 UTC"
+          "bn": 11778176,
+          "txId": 312,
+          "timestamp": 1612287090,
+          "date": "2021-02-02 17:31:30 UTC"
         },
         "latestAppearance": {
           "bn": 14439527,
@@ -4868,7 +4868,7 @@
           "date": "2022-03-23 01:06:51 UTC"
         },
         "fileSize": 704,
-        "blockRange": 2646247,
+        "blockRange": 2661352,
         "counts": {
           "appearanceCount": 87,
           "logCount": 92,
