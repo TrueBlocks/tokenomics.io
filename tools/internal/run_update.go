@@ -2,8 +2,10 @@ package internal
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"io"
+	"io/ioutil"
 	"log"
 	"math/big"
 	"os"
@@ -28,6 +30,15 @@ import (
 func RunUpdate(cmd *cobra.Command, args []string) error {
 	folder, chain, format := getOptions(cmd.Parent())
 
+	// Get some data we're going to need. Current state of the chain...
+	meta := rpcClient.GetMetaData("mainnet", false)
+
+	// ...list of existing grants
+	grantMap, err := readExistingGrants(folder)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	addressFn := path.Join(folder, "./addresses.tsv")
 	if !file.FileExists(addressFn) {
 		return validate.Usage("Cannot find address file {0}", addressFn)
@@ -45,21 +56,7 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 	}
 	counter := Counters{}
 
-	meta := rpcClient.GetMetaData("mainnet", false)
-
-	// 	dataFile := path.Join(folder, "ui/src/theData.json")
-	// // ReadJSONManifest reads manifest in JSON format
-	// func ReadJSONManifest(reader io.Reader) (*Manifest, error) {
-	// 	decoder := json.NewDecoder(reader)
-	// 	manifest := &Manifest{}
-
-	// 	err := decoder.Decode(manifest)
-
-	// 	return manifest, err
-	// }
-
 	skipped := []types.Grant{}
-	grants := []types.Grant{}
 
 	for {
 		grant, err := grantReader.Read()
@@ -125,20 +122,18 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 		chainData.Types = chainData.Counts.Types()
 		grant.Chains = append(grant.Chains, chainData)
 
-		grants = append(grants, grant)
+		grantMap[grant.Address] = grant
 	}
 
 	fmt.Println("[")
 	first := true
-	for _, grant := range grants {
-		if grant.Chains[0].HasRecords() {
-			if !first {
-				fmt.Println(",")
-			}
-			str := grant.String()
-			fmt.Println(str)
-			first = false
+	for _, grant := range grantMap {
+		if !first {
+			fmt.Println(",")
 		}
+		str := grant.String()
+		fmt.Println(str)
+		first = false
 	}
 	fmt.Println("]")
 
@@ -204,4 +199,20 @@ func GetBalanceInEth(chain, address string, blockNum uint64) float64 {
 		return 0.0
 	}
 	return ethFromWei(*val)
+}
+
+func readExistingGrants(folder string) (map[string]types.Grant, error) {
+	theMap := map[string]types.Grant{}
+
+	path := path.Join(folder, "ui/src/theData.json")
+	bytes, _ := ioutil.ReadFile(path)
+
+	grants := []types.Grant{}
+	_ = json.Unmarshal([]byte(bytes), &grants)
+
+	for _, grant := range grants {
+		theMap[grant.Address] = grant
+	}
+
+	return theMap, nil
 }
