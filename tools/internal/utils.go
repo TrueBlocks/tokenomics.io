@@ -14,7 +14,7 @@ import (
 
 // getFolderAndChain returns the folder to process and the chain from the rootCmd. Note this function
 // calls Fatal on error, therefore it does not return an error
-func getOptions(cmd *cobra.Command) (string, string, string) {
+func getOptions(cmd *cobra.Command) (string, []string, string) {
 	folder, err := cmd.PersistentFlags().GetString("folder")
 	if err != nil {
 		log.Fatal(err)
@@ -25,11 +25,11 @@ func getOptions(cmd *cobra.Command) (string, string, string) {
 		log.Fatal("You must provide a folder: ", folder)
 	}
 
-	chain, err := cmd.PersistentFlags().GetString("chain")
+	chains, err := cmd.PersistentFlags().GetStringArray("chain")
 	if err != nil {
 		log.Fatal(err)
 	}
-	err = validate.ValidateEnum("chain", chain, "[mainnet|gnosis]")
+	err = validate.ValidateEnumSlice("chain", chains, "[mainnet|gnosis]")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -47,7 +47,7 @@ func getOptions(cmd *cobra.Command) (string, string, string) {
 		format = "txt"
 	}
 
-	return folder, chain, format
+	return folder, chains, format
 }
 
 func ColorHelp(helpIn string) string {

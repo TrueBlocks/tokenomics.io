@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"log"
 	"math/big"
-	"os"
 	"path"
+	"sort"
 	"strings"
 
 	tokenomics "github.com/TrueBlocks/tokenomics.io/tools/pkg"
@@ -28,10 +28,7 @@ import (
 )
 
 func RunUpdate(cmd *cobra.Command, args []string) error {
-	folder, chain, format := getOptions(cmd.Parent())
-
-	// Get some data we're going to need. Current state of the chain...
-	meta := rpcClient.GetMetaData("mainnet", false)
+	folder, chains, format := getOptions(cmd.Parent())
 
 	// ...list of existing grants
 	grantMap, err := readExistingGrants(folder)
@@ -44,19 +41,18 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 		return validate.Usage("Cannot find address file {0}", addressFn)
 	}
 
-	// Define where to find addresses file
-	grantReader, err := tokenomics.ReadGrants(addressFn)
-	if err != nil {
-		log.Fatal(err)
-	}
-
 	type Counters struct {
 		nRead      int
 		nProcessed int
 	}
 	counter := Counters{}
-
 	skipped := []types.Grant{}
+
+	// Define where to find addresses file
+	grantReader, err := tokenomics.ReadGrants(addressFn)
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	for {
 		grant, err := grantReader.Read()
@@ -76,58 +72,74 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 		counter.nProcessed++
 		logger.Log(logger.Info, fmt.Sprintf("Updated data for %s", grant.Address))
 
-		chainData := types.Chain{ChainName: "mainnet"}
-		chainData.Counts, err = LineCounts(folder, chain, format, grant.Address)
-		if err != nil {
-			log.Fatal(err)
-		}
+		for _, chain := range chains {
+			// Get some data we're going to need. Current state of the chain...
+			meta := rpcClient.GetMetaData(chain, false)
 
-		mon := monitor.NewMonitor(chain, grant.Address, false)
-		chainData.FileSize = file.FileSize(mon.Path())
-		if file.FileExists(mon.Path()) {
-			err = mon.ReadHeader()
+			chainData := types.Chain{ChainName: chain}
+			chainData.Counts, err = LineCounts(folder, chain, format, grant.Address)
 			if err != nil {
-				fmt.Println(err)
-				os.Exit(1)
+				log.Fatal(err)
 			}
 
-			if chainData.Counts.Appearances > 0 {
-				apps := make([]index.AppearanceRecord, mon.Count())
-				err = mon.ReadAppearances(&apps)
+			mon := monitor.NewMonitor(chain, grant.Address, false)
+			chainData.FileSize = file.FileSize(mon.Path())
+			if file.FileExists(mon.Path()) {
+				err = mon.ReadHeader()
 				if err != nil {
-					fmt.Println(err)
-					os.Exit(1)
+					log.Fatal(err)
 				}
-				if len(apps) > 0 {
-					chainData.FirstApp.Bn = int(apps[0].BlockNumber)
-					chainData.FirstApp.TxId = int(apps[0].TransactionId)
-					t, _ := tslibPkg.TsFromBn(chain, uint64(apps[0].BlockNumber))
-					chainData.FirstApp.Timestamp = int(t)
-					chainData.FirstApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.FirstApp.Timestamp))
-					chainData.LatestApp.Bn = int(apps[len(apps)-1].BlockNumber)
-					chainData.LatestApp.TxId = int(apps[len(apps)-1].TransactionId)
-					t, _ = tslibPkg.TsFromBn(chain, uint64(apps[len(apps)-1].BlockNumber))
-					chainData.LatestApp.Timestamp = int(t)
-					chainData.LatestApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.LatestApp.Timestamp))
-					chainData.BlockRange = chainData.LatestApp.Bn - chainData.FirstApp.Bn + 1
+
+				if chainData.Counts.Appearances > 0 {
+					apps := make([]index.AppearanceRecord, mon.Count())
+					err = mon.ReadAppearances(&apps)
+					if err != nil {
+						log.Fatal(err)
+					}
+
+					if len(apps) > 0 {
+						chainData.FirstApp.Bn = int(apps[0].BlockNumber)
+						chainData.FirstApp.TxId = int(apps[0].TransactionId)
+						t, _ := tslibPkg.TsFromBn(chain, uint64(apps[0].BlockNumber))
+						chainData.FirstApp.Timestamp = int(t)
+						chainData.FirstApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.FirstApp.Timestamp))
+						chainData.LatestApp.Bn = int(apps[len(apps)-1].BlockNumber)
+						chainData.LatestApp.TxId = int(apps[len(apps)-1].TransactionId)
+						t, _ = tslibPkg.TsFromBn(chain, uint64(apps[len(apps)-1].BlockNumber))
+						chainData.LatestApp.Timestamp = int(t)
+						chainData.LatestApp.Date, _ = tslibPkg.DateFromTs(uint64(chainData.LatestApp.Timestamp))
+						chainData.BlockRange = chainData.LatestApp.Bn - chainData.FirstApp.Bn + 1
+					}
+
+					chainData.Balances = append(chainData.Balances, types.Balance{
+						Asset:   "ETH",
+						Balance: GetBalanceInEth(chain, grant.Address, meta.Latest),
+					})
 				}
-				chainData.Balances = append(chainData.Balances, types.Balance{
-					Asset:   "ETH",
-					Balance: GetBalanceInEth("mainnet", grant.Address, meta.Latest),
-				})
 			}
+
+			mon.Close()
+			chainData.Types = chainData.Counts.Types()
+			grant.Chains = append(grant.Chains, chainData)
+			grantMap[grant.Key] = grant
 		}
-
-		mon.Close()
-		chainData.Types = chainData.Counts.Types()
-		grant.Chains = append(grant.Chains, chainData)
-
-		grantMap[grant.Address] = grant
 	}
 
-	fmt.Println("[")
-	first := true
+	sorted := []types.Grant{}
 	for _, grant := range grantMap {
+		sorted = append(sorted, grant)
+	}
+
+	sort.Slice(sorted, func(i, j int) bool {
+		if sorted[i].Address == sorted[j].Address {
+			return sorted[i].GrantId < sorted[j].GrantId
+		}
+		return sorted[i].Address < sorted[j].Address
+	})
+
+	first := true
+	fmt.Println("[")
+	for _, grant := range sorted {
 		if !first {
 			fmt.Println(",")
 		}
@@ -139,7 +151,7 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 
 	logger.Log(logger.Info, "nRead:", counter.nRead, "nProcessed:", counter.nProcessed)
 	for sk := range skipped {
-		fmt.Println("\t", sk)
+		logger.Log(logger.Info, "\t", sk)
 	}
 
 	return nil
@@ -159,8 +171,6 @@ func LineCounts(folder, chain, format, addr string) (types.Counts, error) {
 
 	counts := types.Counts{}
 	counts.Appearances, _ = file.LineCount(path.Join(base, "apps", fileName), true)
-	// fmt.Println(path.Join(base, "apps", fileName), counts.Appearances)
-
 	if counts.Appearances > 0 {
 		counts.Neighbors, _ = file.LineCount(folder+"exports/"+chain+"/neighbors/"+addr+"."+format, true)
 		counts.Logs, _ = file.LineCount(folder+"exports/"+chain+"/logs/"+addr+"."+format, true)
@@ -182,19 +192,19 @@ func ethFromWei(in big.Int) float64 {
 
 // TODO: BOGUS this should be generalized to the client itself instead of hidden in balanceClient
 // balanceClient caches the client so we can call it many times without re-dialing it every time
-var balanceClient *ethclient.Client
-var clientLoaded = false
+var balanceClient = make(map[string]*ethclient.Client)
+var clientLoaded = make(map[string]bool)
 
 // GetBalanceInEth returns the balance of the given address at the given block
 // TODO: BOGUS blockNum is ignored
 // TODO: BOGUS what to do if we're running against a non-archive node?
 func GetBalanceInEth(chain, address string, blockNum uint64) float64 {
-	if !clientLoaded {
+	if !clientLoaded[chain] {
 		provider := config.GetRpcProvider(chain)
-		balanceClient = rpcClient.GetClient(provider)
-		clientLoaded = true
+		balanceClient[chain] = rpcClient.GetClient(provider)
+		clientLoaded[chain] = true
 	}
-	val, _ := balanceClient.BalanceAt(context.Background(), common.HexToAddress(address), big.NewInt(int64(blockNum)))
+	val, _ := balanceClient[chain].BalanceAt(context.Background(), common.HexToAddress(address), big.NewInt(int64(blockNum)))
 	if val == nil {
 		return 0.0
 	}
@@ -211,7 +221,8 @@ func readExistingGrants(folder string) (map[string]types.Grant, error) {
 	_ = json.Unmarshal([]byte(bytes), &grants)
 
 	for _, grant := range grants {
-		theMap[grant.Address] = grant
+		grant.Key = grant.Address + "_" + grant.GrantId
+		theMap[grant.Key] = grant
 	}
 
 	return theMap, nil

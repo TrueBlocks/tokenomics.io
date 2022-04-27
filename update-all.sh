@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# ./update-one.sh wallets mainnet txt
-./update-one.sh giveth gnosis csv
-./update-one.sh giveth mainnet csv
-./update-one.sh gitcoin mainnet csv
+# ./update-one.sh wallets "gnosis --chain mainnet" txt
+./update-one.sh giveth  "gnosis --chain mainnet" csv
+./update-one.sh gitcoin "mainnet"                csv

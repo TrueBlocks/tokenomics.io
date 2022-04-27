@@ -30,6 +30,11 @@ export function GrantDataRenderer({ chain, grantData }) {
     return <div>Cannot display empty record</div>
   }
 
+  var slug = "https://gitcoin.co/grants/" +
+    grantData.grantId +
+    "/" +
+    grantData.name.replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
+
   return (
     <section className='grant-data-renderer'>
       <table>
@@ -80,10 +85,10 @@ export function GrantDataRenderer({ chain, grantData }) {
               Slug
             </th>
             <td colSpan={3}>
-              {grantData.slug
+              {slug
                 ? (<>
-                  {grantData.slug}
-                  {renderCopyToClipboard(grantData.slug)}
+                  {slug}
+                  {renderCopyToClipboard(slug)}
                 </>)
                 : null
               }

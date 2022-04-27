@@ -45,9 +45,9 @@
             "args": [
                 "update",
                 "--folder",
-                "gitcoin",
+                "wallets",
                 "--chain",
-                "mainnet",
+                "mainnet,gnosis",
                 "--fmt",
                 "csv"
             ],

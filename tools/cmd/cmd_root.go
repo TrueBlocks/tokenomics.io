@@ -23,7 +23,7 @@ func Execute() {
 
 func init() {
 	rootCmd.PersistentFlags().StringP("folder", "f", "", "The local folder to process")
-	rootCmd.PersistentFlags().StringP("chain", "c", "mainnet", "The chain to update from")
+	rootCmd.PersistentFlags().StringArrayP("chain", "c", []string{"mainnet"}, "The chain to update from")
 	rootCmd.PersistentFlags().StringP("fmt", "x", "txt", "The format of the data files to process")
 	rootCmd.MarkPersistentFlagRequired("folder")
 	rootCmd.CompletionOptions.DisableDefaultCmd = true

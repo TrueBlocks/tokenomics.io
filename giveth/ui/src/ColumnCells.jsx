@@ -58,7 +58,12 @@ export const NameCell = ({ record }) => {
     </div>
   </>), [copied, explorerAddress, record.address]);
 
-  if (!record.slug)
+  var slug = "https://gitcoin.co/grants/" +
+    record.grantId +
+    "/" +
+    record.name.replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
+
+  if (!slug)
     return (
       <div>
         {name} <ZipLink addr={record.address} />
@@ -69,7 +74,7 @@ export const NameCell = ({ record }) => {
   return (
     <div>
       <div>
-        <a target={'top'} href={record.slug}>
+        <a target={'top'} href={slug}>
           {name}
         </a> <ZipLink addr={record.address} />
         <br />

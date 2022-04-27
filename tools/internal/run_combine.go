@@ -15,99 +15,99 @@ import (
 )
 
 func RunCombine(cmd *cobra.Command, args []string) error {
-	folder, chain, format := getOptions(cmd.Parent())
+	folder, chains, format := getOptions(cmd.Parent())
 
 	addressFn := path.Join(folder, "./addresses.tsv")
 	if !file.FileExists(addressFn) {
 		return validate.Usage("Cannot find address file {0}", addressFn)
 	}
 
-	// Define where to find addresses file
-	grantReader, err := tokenomics.ReadGrants(addressFn)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	// Create a map of open output files so we don't have to re-open and close for each grant.
-	typeToFileMap := map[string]*os.File{}
-	for _, dataType := range dataTypes {
-		outputPath := path.Join(folder, "./exports", chain, "combined", dataType) + "." + format
-		output, err := os.Create(outputPath)
+	for _, chain := range chains {
+		grantReader, err := tokenomics.ReadGrants(addressFn)
 		if err != nil {
 			log.Fatal(err)
 		}
-		typeToFileMap[dataType] = output
-		defer output.Close() // note that this closes when the function goes out of scope, not this code block
-	}
 
-	headerWritten := make(map[string]bool, len(dataTypes))
-	for {
-		grant, err := grantReader.Read()
-		if err == io.EOF {
-			break
-		}
-		if err != nil {
-			log.Fatal(err)
-		}
-		if !grant.IsValid {
-			continue
-		}
-
-		logger.Log(logger.Info, "Combining data from", grant.Address)
-
-		// For each data type, we combine the individual files for the current grant. We
-		// do it concurrently, because opening input files takes time.
-		var wg sync.WaitGroup
+		// Create a map of open output files so we don't have to re-open and close for each grant.
+		typeToFileMap := map[string]*os.File{}
 		for _, dataType := range dataTypes {
-			wg.Add(1)
-			go func() {
-				defer wg.Done()
+			outputPath := path.Join(folder, "./exports", chain, "combined", dataType) + "." + format
+			output, err := os.Create(outputPath)
+			if err != nil {
+				log.Fatal(err)
+			}
+			typeToFileMap[chain+"_"+dataType] = output
+			defer output.Close() // note that this closes when the function goes out of scope, not this code block
+		}
 
-				inputPath := path.Join(folder, "./exports", chain, dataType, grant.Address) + "." + format
-				outputFile := typeToFileMap[dataType]
+		headerWritten := make(map[string]bool, len(dataTypes)*len(chains))
+		for {
+			grant, err := grantReader.Read()
+			if err == io.EOF {
+				break
+			}
+			if err != nil {
+				log.Fatal(err)
+			}
+			if !grant.IsValid {
+				continue
+			}
 
-				if file.FileExists(inputPath) {
-					lines := file.AsciiFileToLines(inputPath)
-					for i, line := range lines {
-						line += "\n"
-						if i == 0 {
-							if !headerWritten[dataType] {
+			logger.Log(logger.Info, "Combining data from", grant.Address)
+
+			// For each data type, we combine the individual files for the current grant. We
+			// do it concurrently, because opening input files takes time.
+			var wg sync.WaitGroup
+			for _, dataType := range dataTypes {
+				wg.Add(1)
+				go func() {
+					defer wg.Done()
+
+					inputPath := path.Join(folder, "./exports", chain, dataType, grant.Address) + "." + format
+					outputFile := typeToFileMap[chain+"_"+dataType]
+
+					if file.FileExists(inputPath) {
+						lines := file.AsciiFileToLines(inputPath)
+						for i, line := range lines {
+							line += "\n"
+							if i == 0 {
+								if !headerWritten[chain+"_"+dataType] {
+									if dataType != "apps" {
+										if format == "txt" {
+											line = "address\t" + line
+										} else {
+											line = "\"address\"," + line
+										}
+									}
+									_, err = outputFile.WriteString(line)
+									if err != nil {
+										log.Fatal(err)
+									}
+									headerWritten[chain+"_"+dataType] = true
+								}
+							} else {
 								if dataType != "apps" {
+									// Generally speaking, the per-address data files do not contain
+									// the address itself (it's in the name of the file). We add that
+									// here when we combine the data.
+									// TODO: Should be just store the data in the file directly and remove this?
 									if format == "txt" {
-										line = "address\t" + line
+										line = grant.Address + "\t" + line
 									} else {
-										line = "\"address\"," + line
+										line = "\"" + grant.Address + "\"," + line
 									}
 								}
 								_, err = outputFile.WriteString(line)
 								if err != nil {
 									log.Fatal(err)
 								}
-								headerWritten[dataType] = true
-							}
-						} else {
-							if dataType != "apps" {
-								// Generally speaking, the per-address data files do not contain
-								// the address itself (it's in the name of the file). We add that
-								// here when we combine the data.
-								// TODO: Should be just store the data in the file directly and remove this?
-								if format == "txt" {
-									line = grant.Address + "\t" + line
-								} else {
-									line = "\"" + grant.Address + "\"," + line
-								}
-							}
-							_, err = outputFile.WriteString(line)
-							if err != nil {
-								log.Fatal(err)
 							}
 						}
 					}
-				}
-			}()
-			wg.Wait()
+				}()
+				wg.Wait()
+			}
 		}
 	}
-
 	return nil
 }

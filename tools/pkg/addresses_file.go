@@ -40,11 +40,11 @@ func (gr *GrantReader) Read() (types.Grant, error) {
 		Address:  strings.ToLower(record[gr.header["address"]]),
 		GrantId:  record[gr.header["grantId"]],
 		Name:     record[gr.header["name"]],
-		Slug:     record[gr.header["slug"]],
 		Tag:      record[gr.header["tag"]],
 		IsActive: isActive,
 		IsCore:   isCore,
 		IsValid:  isValid,
+		Key:      strings.ToLower(record[gr.header["address"]]) + "_" + record[gr.header["grantId"]],
 	}, nil
 }
 

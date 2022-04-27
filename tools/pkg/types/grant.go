@@ -46,8 +46,8 @@ type Appearance struct {
 }
 
 type Balance struct {
-	Asset   string  `json:"asset,omitempty"`
-	Balance float64 `json:"balance,omitempty"`
+	Asset   string  `json:"asset"`
+	Balance float64 `json:"balance"`
 }
 
 type Chain struct {
@@ -69,13 +69,13 @@ type Grant struct {
 	GrantId     string  `json:"grantId,omitempty"`
 	Address     string  `json:"address,omitempty"`
 	Name        string  `json:"name,omitempty"`
-	Slug        string  `json:"slug,omitempty"`
 	Tag         string  `json:"tag,omitempty"`
 	LastUpdated int64   `json:"lastUpdated,omitempty"`
 	IsActive    bool    `json:"isActive,omitempty"`
 	IsCore      bool    `json:"core"`
 	IsValid     bool    `json:"isValid,omitempty"`
 	Chains      []Chain `json:"chainData,omitempty"`
+	Key         string  `json:"-"`
 }
 
 func (g Grant) String() string {
