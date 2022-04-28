@@ -16,7 +16,7 @@ import { lastUpdate } from './last-update.js';
 import { Sidebar } from './Sidebar';
 import { useGlobalState, useGlobalGrantsData, getChainData } from './GlobalState';
 import { ViewOptions } from './ViewOptions';
-import { configUrls } from './Config';
+import { config } from './Config';
 
 const { Content } = Layout;
 const { Search } = Input;
@@ -166,11 +166,11 @@ export const HomePage = () => {
           <img
             width='800px'
             alt='Unclaimed'
-            src={configUrls.Charts + 'Unclaimed%20Match%20Round%208.png'}
+            src={config.Urls.Charts + 'Unclaimed%20Match%20Round%208.png'}
           />
           <br />
           <br />
-          <img width='800px' alt='Count By Date' src={configUrls.Charts + 'Counts.png'} />
+          <img width='800px' alt='Count By Date' src={config.Urls.Charts + 'Counts.png'} />
         </TabPane>
         <TabPane tab={'Future Work'} key='5' style={{ paddingLeft: '8px' }}>
           <ToDo />

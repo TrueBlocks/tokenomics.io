@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { ColumnTitle } from "./ColumnTitle";
 import { CloudDownloadOutlined, CopyTwoTone } from '@ant-design/icons';
 import { useGlobalState, getChainData } from './GlobalState';
-import { configUrls } from './Config';
+import { config } from './Config';
 
 //--------------------------------------------------
 export const DateHeader = () => (
@@ -143,7 +143,7 @@ const Cell2 = ({ text }) => {
 };
 
 const ZipLink = ({ addr }) => {
-  var link = configUrls.Zips + addr + ".tar.gz";
+  var link = config.Urls.Data + "zips/" + addr + ".tar.gz";
   return (
     <>
       <a href={link} title="Download zip file">

@@ -3,7 +3,7 @@ import { Descriptions, Button, Spin, Card } from 'antd';
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 
 import { useGlobalState } from './GlobalState';
-import { configUrls } from './Config';
+import { config } from './Config';
 
 export function Sidebar() {
   const {
@@ -19,10 +19,13 @@ export function Sidebar() {
     logCount,
     neighborCount
   } = useMemo(() => selectedGrant || {}, [selectedGrant]);
+
+  var neighborBase = config.Urls.Data + "neighbors/"
+
   // Construct the selected grant image's URL
-  const adjSource = useMemo(() => new URL(`${address}.txt`, configUrls.Neighbors + "adjacencies/"), [address]);
-  const svgSource = useMemo(() => new URL(`${address}.svg`, configUrls.Neighbors + "images/"), [address]);
-  const pngSource = useMemo(() => new URL(`${address}.png`, configUrls.Neighbors + "images/pngs/"), [address]);
+  const adjSource = useMemo(() => new URL(`${address}.txt`, neighborBase + "adjacencies/"), [address, neighborBase]);
+  const svgSource = useMemo(() => new URL(`${address}.svg`, neighborBase + "images/"), [address, neighborBase]);
+  const pngSource = useMemo(() => new URL(`${address}.png`, neighborBase + "images/pngs/"), [address, neighborBase]);
   const [loading, setLoading] = useState(false);
   const onCloseClick = useCallback(() => {
     setSidebarVisible(false);

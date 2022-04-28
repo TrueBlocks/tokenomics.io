@@ -3,7 +3,7 @@ import React from "react"
 const fq1 = 'What is this website?';
 const fa1 = (
   <div>
-    {`This websites gives access to two datasets. First, every log on any of the GitCoin Grant smart
+    {`This websites gives access to two datasets. First, every log on any of the smart
     contracts. And second, corresponding data for the individual grant. The website is an experiment
     in live monitoring and presenting chain data for a large collection of related addresses at a
     minimal cost. The permissionless nature of the data and the fact that we run locally on desktop
@@ -14,7 +14,7 @@ const fa1 = (
 const fq2 = 'May I download the entire data set in a single file?';
 const fa2 = (
   <div>
-    {`All donations and payouts are available by downloading the data from the GitCoin Grant contracts on the `}<i>{`Dontation Contracts`}</i>{` tab.`}
+    {`All donations and payouts are available by downloading the data from the contracts on the `}<i>{`Dontation Contracts`}</i>{` tab.`}
   </div>
 );
 
@@ -62,7 +62,7 @@ const fa6 = (
     expanded the idea into `}
     <i>ecosystem accounting</i>
     {` which means accounting for community-wide
-    constellations of inter-related addresses such as the GitCoin grant community. Get in touch with us
+    constellations of inter-related addresses such as the community. Get in touch with us
     for more information.`}
   </div>
 );
