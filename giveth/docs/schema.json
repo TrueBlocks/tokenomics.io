@@ -1,0 +1,550 @@
+type Query {
+  user(userId: Int!): User
+  userByAddress(address: String!): User
+  projects(
+    skip: Int = 0
+    take: Int = 10
+    orderBy: OrderBy = { field: QualityScore, direction: DESC }
+    searchTerm: String
+    category: String
+    filterBy: FilterBy = { field: null, value: null }
+    admin: Float
+    connectedWalletUserId: Int
+  ): AllProjects!
+  topProjects(
+    skip: Int = 0
+    take: Int = 10
+    orderBy: OrderBy = { field: QualityScore, direction: DESC }
+    searchTerm: String
+    category: String
+    filterBy: FilterBy = { field: null, value: null }
+    admin: Float
+    connectedWalletUserId: Int
+  ): TopProjects!
+  project(id: ID = 0): [Project!]!
+  projectById(connectedWalletUserId: Int, id: Float!): Project!
+  projectBySlug(connectedWalletUserId: Int, slug: String!): Project!
+  getProjectUpdates(
+    orderBy: OrderBy = { field: CreationAt, direction: DESC }
+    connectedWalletUserId: Int
+    take: Int = 10
+    skip: Int = 0
+    projectId: Int!
+  ): [ProjectUpdate!]!
+  getProjectsRecipients: [String!]!
+  getPurpleList: [String!]!
+  getProjectAcceptTokens(projectId: Float!): [Token!]!
+  getProjectReactions(projectId: Float!): [Reaction!]!
+  walletAddressIsValid(address: String!): Boolean!
+  isValidTitleForProject(projectId: Float, title: String!): Boolean!
+  projectByAddress(connectedWalletUserId: Int, address: String!): Project
+  projectsByUserId(
+    orderBy: OrderBy = { field: CreationDate, direction: DESC }
+    connectedWalletUserId: Int
+    skip: Float = 0
+    take: Float = 10
+    userId: Int!
+  ): AllProjects
+  similarProjectsBySlug(
+    skip: Int = 0
+    take: Int = 10
+    slug: String!
+  ): AllProjects
+  likedProjectsByUserId(
+    skip: Int = 0
+    take: Int = 10
+    userId: Int!
+  ): AllProjects
+  me: User
+  myProjects: [Project!]
+  setProjectBankAccount(
+    refreshUrl: String!
+    returnUrl: String!
+    projectId: Float!
+  ): String!
+  getStripeProjectDonationSession(
+    successUrl: String!
+    cancelUrl: String!
+    anonymous: Boolean!
+    donateToGiveth: Boolean!
+    amount: Float!
+    projectId: Float!
+  ): StripeDonationSession!
+  getStripeProjectDonations(projectId: Float!): StripeDonationInfo!
+  getStripeDonationPDF(sessionId: Float!): StripeDonationPDF!
+  categories: [Category!]
+  donations(toDate: String, fromDate: String): [Donation!]
+  donationsFromWallets(fromWalletAddresses: [String!]!): [Donation!]
+  donationsToWallets(toWalletAddresses: [String!]!): [Donation!]
+  donationsByProjectId(
+    orderBy: SortBy = { field: CreationDate, direction: DESC }
+    searchTerm: String
+    projectId: Int!
+    traceable: Boolean = false
+    skip: Int = 0
+    take: Int = 10
+  ): PaginateDonations
+  tokens: [Token!]
+  donationsByDonor: [Donation!]
+  donationsByUserId(
+    skip: Int = 0
+    take: Int = 10
+    orderBy: SortBy = { field: CreationDate, direction: DESC }
+    userId: Int!
+  ): UserDonations
+  getStatusReasons(statusId: Float): [ProjectStatusReason!]!
+}
+
+type User {
+  id: ID!
+  role: String
+  email: String
+  firstName: String
+  lastName: String
+  name: String
+  walletAddress: String
+  password: String
+  encryptedPassword: String
+  avatar: String
+  url: String
+  location: String
+  dId: String
+  projects: [Project!]!
+  accountVerifications: [AccountVerification!]
+  totalDonated: Float
+  totalReceived: Float
+  projectStatusHistories: [ProjectStatusHistory!]
+  projectsCount: Int
+  donationsCount: Int
+  likedProjectsCount: Int
+}
+
+type Project {
+  id: ID!
+  title: String!
+  slug: String
+  slugHistory: [String!]
+  admin: String
+  description: String
+  traceCampaignId: String
+  givingBlocksId: String
+  changeId: String
+  website: String
+  youtube: String
+  organisationId: Float
+  creationDate: DateTime
+  updatedAt: DateTime
+  organization: Organization!
+  coOrdinates: String
+  image: String
+  impactLocation: String
+  categories: [Category!]
+  balance: Float
+  stripeAccountId: String
+  walletAddress: String!
+  verified: Boolean!
+  isImported: Boolean
+  giveBacks: Boolean!
+  donations: [Donation!]
+  qualityScore: Float
+  users: [User!]
+  status: ProjectStatus!
+  statusHistory: [ProjectStatusHistory!]
+  totalDonations: Float!
+  totalTraceDonations: Float!
+  totalReactions: Int
+  totalProjectUpdates: Int
+  listed: Boolean
+  adminUser: User
+  prevStatusId: Int
+  reaction: Reaction
+}
+
+# The javascript `Date` as string. Type represents date and time as the ISO Date string.
+scalar DateTime
+
+type Organization {
+  id: ID!
+  name: String!
+  label: String!
+  website: String!
+  supportCustomTokens: Boolean!
+  projects: [Project!]
+  tokens: [Token!]
+}
+
+type Token {
+  id: ID!
+  name: String!
+  symbol: String!
+  address: String!
+  mainnetAddress: String
+  networkId: Float!
+  decimals: Float!
+  isGivbackEligible: Boolean
+}
+
+type Category {
+  id: ID!
+  name: String!
+  value: String
+  source: String
+}
+
+type Donation {
+  id: ID!
+  transactionId: String!
+  nonce: Float
+  transactionNetworkId: Float!
+  isProjectVerified: Boolean!
+  status: String!
+  verifyErrorMessage: String
+  speedup: Boolean!
+  isFiat: Boolean!
+  toWalletAddress: String!
+  fromWalletAddress: String!
+  tokenAddress: String
+  currency: String!
+  anonymous: Boolean
+  amount: Float!
+  valueEth: Float
+  valueUsd: Float
+  priceEth: Float
+  priceUsd: Float
+  project: Project!
+  user: User
+  createdAt: DateTime!
+  donationType: String
+  transakStatus: String
+  transakTransactionLink: String
+  segmentNotified: Boolean
+  isTokenEligibleForGivback: Boolean
+}
+
+type ProjectStatus {
+  id: ID!
+  symbol: String!
+  name: String!
+  description: String!
+  projects: [Project!]
+  reasons: [ProjectStatusReason!]
+  projectStatusHistories: [ProjectStatusReason!]
+}
+
+type ProjectStatusReason {
+  id: ID!
+  description: String!
+  status: ProjectStatus!
+}
+
+type ProjectStatusHistory {
+  id: ID!
+  project: Project!
+  status: ProjectStatus!
+  prevStatus: ProjectStatus!
+  reason: ProjectStatusReason!
+  user: User!
+  description: String
+  createdAt: DateTime!
+}
+
+type Reaction {
+  id: ID!
+  projectUpdateId: ID
+  userId: ID!
+  reaction: String!
+  projectId: ID
+}
+
+type AccountVerification {
+  id: ID!
+  platform: String!
+  dId: String!
+  protocol: String!
+  claim: String!
+  attestation: String!
+  user: User!
+}
+
+type AllProjects {
+  projects: [Project!]!
+  totalCount: Int!
+  categories: [Category!]
+}
+
+input OrderBy {
+  field: OrderField!
+  direction: OrderDirection!
+}
+
+# Order by field
+enum OrderField {
+  CreationDate
+  CreationAt
+  UpdatedAt
+  Balance
+  QualityScore
+  Verified
+  Reactions
+  Traceable
+  Donations
+  TraceDonations
+  AcceptGiv
+}
+
+# Order direction
+enum OrderDirection {
+  ASC
+  DESC
+}
+
+input FilterBy {
+  field: FilterField
+  value: Boolean
+}
+
+# Filter by field
+enum FilterField {
+  Verified
+  AcceptGiv
+  Traceable
+}
+
+type TopProjects {
+  projects: [Project!]!
+  totalCount: Int!
+}
+
+type ProjectUpdate {
+  id: ID!
+  title: String!
+  projectId: ID!
+  userId: ID!
+  content: String!
+  createdAt: DateTime!
+  isMain: Boolean!
+  totalReactions: Int
+  reaction: Reaction
+}
+
+type StripeDonationSession {
+  sessionId: String!
+  accountId: String!
+}
+
+type StripeDonationInfo {
+  donations: [StripeTransaction!]!
+  totalDonors: Float!
+}
+
+type StripeTransaction {
+  id: ID!
+  projectId: Float!
+  status: String!
+  sessionId: String
+  donorCustomerId: String
+  donorName: String
+  donorEmail: String
+  createdAt: DateTime!
+  amount: Float
+  donateToGiveth: Boolean
+  anonymous: Boolean!
+  currency: String!
+}
+
+type StripeDonationPDF {
+  pdf: String!
+  data: StripeDonationPDFData!
+}
+
+type StripeDonationPDFData {
+  id: String!
+  createdAt: String!
+  donor: String!
+  projectName: String!
+  status: String!
+  amount: Float!
+  currency: String!
+  donorName: String!
+  donorEmail: String!
+  projectDonation: Float!
+  givethDonation: Float!
+  processingFee: Float!
+}
+
+type PaginateDonations {
+  donations: [Donation!]
+  totalCount: Float
+  totalUsdBalance: Float
+  totalEthBalance: Float
+}
+
+input SortBy {
+  field: SortField!
+  direction: SortDirection!
+}
+
+# Sort by field
+enum SortField {
+  CreationDate
+  TokenAmount
+  UsdAmount
+}
+
+# Sort direction
+enum SortDirection {
+  ASC
+  DESC
+}
+
+type UserDonations {
+  donations: [Donation!]!
+  totalCount: Int!
+}
+
+type Mutation {
+  updateUser(
+    avatar: String
+    url: String
+    email: String
+    location: String
+    lastName: String
+    firstName: String
+  ): Boolean!
+  addUserVerification(
+    verifications: [AccountVerificationInput!]!
+    dId: String
+  ): Boolean!
+  updateProject(
+    newProjectData: CreateProjectInput!
+    projectId: Float!
+  ): Project!
+  uploadImage(imageUpload: ImageUpload!): ImageResponse!
+  createProject(project: CreateProjectInput!): Project!
+  addProjectUpdate(
+    content: String!
+    title: String!
+    projectId: Float!
+  ): ProjectUpdate!
+  editProjectUpdate(
+    content: String!
+    title: String!
+    updateId: Float!
+  ): ProjectUpdate!
+  deleteProjectUpdate(updateId: Float!): Boolean!
+  deactivateProject(reasonId: Float, projectId: Float!): Boolean!
+  activateProject(projectId: Float!): Boolean!
+  triggerNotification(trigger: Boolean!): Boolean!
+  validateToken(token: String!): Boolean
+  login(loginType: String, password: String!, email: String!): LoginResponse
+  loginWallet(
+    networkId: Float!
+    avatar: String
+    name: String
+    email: String
+    hostname: String!
+    signature: String!
+    walletAddress: String!
+  ): LoginResponse
+  register(data: RegisterInput!): User!
+  upload(fileUpload: FileUploadInputType!): String
+  traceImageUpload(traceFileUpload: TraceFileUploadInputType!): String
+  getTokenPrice(chainId: Float!, symbol: String!): [Float!]!
+  saveDonation(
+    transakStatus: String
+    transakId: String
+    chainId: Float!
+    projectId: Float!
+    token: String!
+    anonymous: Boolean
+    tokenAddress: String
+    transactionNetworkId: Float!
+    transactionId: String
+    amount: Float!
+    toAddress: String!
+    fromAddress: String!
+  ): Float!
+  likeProjectUpdate(projectUpdateId: Int!): Reaction!
+  unlikeProjectUpdate(reactionId: Int!): Boolean!
+  likeProject(projectId: Int!): Reaction!
+  unlikeProject(reactionId: Int!): Boolean!
+  confirmUser(token: String!): Boolean!
+}
+
+input AccountVerificationInput {
+  platform: String
+  dId: String
+  protocol: String
+  claim: String
+  attestation: String
+}
+
+input CreateProjectInput {
+  title: String!
+  admin: String
+  description: String
+  categories: [String!] = []
+  image: String
+  impactLocation: String
+  organisationId: Float
+  coOrdinates: String
+  walletAddress: String
+  isDraft: Boolean = false
+}
+
+type ImageResponse {
+  url: String!
+  projectId: Float
+  projectImageId: Float!
+}
+
+input ImageUpload {
+  image: Upload
+  projectId: Float
+}
+
+# The `Upload` scalar type represents a file upload.
+scalar Upload
+
+type LoginResponse {
+  user: User!
+  token: String!
+}
+
+input RegisterInput {
+  password: String!
+  firstName: String!
+  lastName: String!
+  email: String!
+}
+
+input FileUploadInputType {
+  image: Upload!
+}
+
+input TraceFileUploadInputType {
+  fileDataBase64: String!
+  user: String!
+  entityId: String!
+  imageOwnerType: TraceImageOwnerType!
+  password: String!
+}
+
+# The entity (e.g. user, trace, campaign, or community) type owns the image
+enum TraceImageOwnerType {
+  USER
+  TRACE
+  CAMPAIGN
+  DAC
+}
+
+type Subscription {
+  newNotification: Notification!
+}
+
+type Notification {
+  id: ID!
+  message: String
+  date: DateTime!
+}
+
