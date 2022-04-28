@@ -54,7 +54,7 @@ export const columns = [
         return (
           <>
             {chainData.balances[0].balance + ' ETH'}
-            < DownloadIcon address={grantData.address} count={''} path='statements/balances/' type='csv' />
+            < DownloadIcon grantData={grantData} count={''} path='statements/balances/' type='csv' />
           </>
         )
       }
@@ -78,7 +78,7 @@ export const columns = [
       return (
         <>
           {chainData.firstAppearance.bn}.{chainData.firstAppearance.txId}
-          <DownloadIcon address={grantData.address} count={chainData.counts.appearanceCount} path='apps/' type='csv' />
+          <DownloadIcon grantData={grantData} count={chainData.counts.appearanceCount} path='apps/' type='csv' />
         </>
       )
     },
@@ -98,7 +98,7 @@ export const columns = [
     render: function (text, grantData) {
       const chainData = getChainData(grantData)
       return (
-        <DownloadIcon address={grantData.address} count={chainData.counts.transactionCount} path='txs/' type='csv' />
+        <DownloadIcon grantData={grantData} count={chainData.counts.transactionCount} path='txs/' type='csv' />
       );
     },
   },
@@ -117,7 +117,7 @@ export const columns = [
     render: function (text, grantData) {
       const chainData = getChainData(grantData)
       return (
-        <DownloadIcon address={grantData.address} count={chainData.counts.logCount} path='logs/' type='csv' />
+        <DownloadIcon grantData={grantData} count={chainData.counts.logCount} path='logs/' type='csv' />
       );
     },
   },
@@ -136,7 +136,7 @@ export const columns = [
     render: function (text, grantData) {
       const chainData = getChainData(grantData)
       return (
-        <DownloadIcon address={grantData.address} count={chainData.counts.neighborCount} path='neighbors/' type='csv' />
+        <DownloadIcon grantData={grantData} count={chainData.counts.neighborCount} path='neighbors/' type='csv' />
       );
     },
   },
