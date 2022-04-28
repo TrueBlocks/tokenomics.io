@@ -6,7 +6,6 @@ import { Input, Layout, Tabs, Row, Col } from 'antd';
 import './App.css';
 import 'antd/dist/antd.css';
 
-import theData from './theData.json';
 import { columns as columnDefinitions } from './ColumnDefs';
 import { BaseTable } from './BaseTable';
 
@@ -15,7 +14,7 @@ import { ToDo } from './ToDo';
 
 import { lastUpdate } from './last-update.js';
 import { Sidebar } from './Sidebar';
-import { useGlobalState } from './GlobalState';
+import { useGlobalState, useGlobalGrantsData, getChainData } from './GlobalState';
 import { ViewOptions } from './ViewOptions';
 import { configUrls } from './Config';
 
@@ -40,22 +39,25 @@ export const HomePage = () => {
     console.log(value);
   };
 
-  const coreData = useMemo(() => theData.filter((item) => {
-    const n = item.name.toLowerCase();
-    const a = item.address.toLowerCase();
-    const show = showZero || item.chainData[0].counts.appearanceCount > 0;
-    return show && item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
-  }), [searchText, showZero]);
+  const grantsData = useGlobalGrantsData()
 
-  const grantData = useMemo(() => theData.filter((item) => {
-    const n = item.name.toLowerCase();
-    const a = item.address.toLowerCase();
-    const show = showZero || item.chainData[0].counts.appearanceCount > 0;
-    return show && !item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
-  }), [searchText, showZero]);
+  const coreData = useMemo(() => grantsData.filter((grantData) => {
+    grantData['curChain'] = chain
+    const n = grantData.name.toLowerCase();
+    const a = grantData.address.toLowerCase();
+    const show = showZero || getChainData(grantData).counts.appearanceCount > 0;
+    return show && grantData.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
+  }), [searchText, showZero, chain, grantsData]);
+
+  const grantData = useMemo(() => grantsData.filter((grantData) => {
+    grantData['curChain'] = chain
+    const n = grantData.name.toLowerCase();
+    const a = grantData.address.toLowerCase();
+    const show = showZero || getChainData(grantData).counts.appearanceCount > 0;
+    return show && !grantData.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
+  }), [searchText, showZero, chain, grantsData]);
 
   const columns = useMemo(() => columnDefinitions, []);
-  // Sidebar visibility
   const sidebarShown = useMemo(() => sidebarEnabled && sidebarVisible, [sidebarEnabled, sidebarVisible]);
   const dataRowSpan = useMemo(() => sidebarShown ? 17 : 24, [sidebarShown]);
   const sideRowSpan = 24 - dataRowSpan

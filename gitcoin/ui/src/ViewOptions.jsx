@@ -19,7 +19,7 @@ export function ViewOptions() {
   const onExplorerClick = useCallback((checked) => setLocalExplorer(checked), [setLocalExplorer]);
   const onSidebarClick = useCallback((checked) => setSidebarEnabled(checked), [setSidebarEnabled]);
   const onShowZero = useCallback((checked) => setShowZero(checked), [setShowZero]);
-  const onChain = useCallback((checked) => setChain(checked ? "mainnet" : "gnosis"), [setChain]);
+  const onChain = useCallback((checked) => setChain(checked ? "gnosis" : "mainnet"), [setChain]);
 
   return (
     <div className='view-options'>
@@ -31,10 +31,10 @@ export function ViewOptions() {
         Show zeros
       </span>
       <Switch
-        checked={chain === "mainnet"}
+        checked={chain === "gnosis"}
         onChange={onChain}
       />
-      <span onClick={() => onChain(chain === "mainnet")}>
+      <span onClick={() => onChain(chain === "gnosis")}>
         Show gnosis
       </span>
       <Switch

@@ -139,7 +139,10 @@ func RunUpdate(cmd *cobra.Command, args []string) error {
 
 	first := true
 	fmt.Println("[")
-	for _, grant := range sorted {
+	for i, grant := range sorted {
+		if len(strings.Trim(grant.GrantId, " ")) == 0 {
+			grant.GrantId = fmt.Sprintf("%04d", i)
+		}
 		if !first {
 			fmt.Println(",")
 		}

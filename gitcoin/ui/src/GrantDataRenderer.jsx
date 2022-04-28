@@ -6,6 +6,7 @@ import {
   CopyTwoTone,
 } from '@ant-design/icons'
 import { Button, Tag, Tooltip } from 'antd';
+import { getChainData } from './GlobalState';
 
 import './GrantDataRenderer.css';
 
@@ -25,7 +26,7 @@ export function GrantDataRenderer({ chain, grantData }) {
     </Button>
   );
 
-  var chainData = grantData.chainData[0]
+  var chainData = getChainData(grantData)
   if (!chainData) {
     return <div>Cannot display empty record</div>
   }

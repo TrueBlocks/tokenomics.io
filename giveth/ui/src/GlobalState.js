@@ -1,4 +1,5 @@
 import React, { useReducer, useContext, useMemo, createContext, useEffect, useCallback } from 'react';
+import grantsData from './theData.json';
 
 export const actionSetLocalExplorer = 'SET_LOCAL_EXPLORER';
 export const actionSetShowZero = 'SET_SHOW_ZERO';
@@ -92,3 +93,18 @@ export const useGlobalState = () => {
         setSidebarEnabled,
     };
 };
+
+export const useGlobalGrantsData = () => {
+    return grantsData
+}
+
+export const getChainData = (grantData) => {
+    var chain = grantData.curChain;
+    if (!grantData.chainData) return grantData.chainData[0];
+    for (var i = 0; i < grantData.chainData.length; i++) {
+        if (grantData.chainData[i].chainName === chain) {
+            return grantData.chainData[i]
+        }
+    }
+    return grantData.chainData[0]
+}

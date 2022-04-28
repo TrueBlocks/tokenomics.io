@@ -1,5 +1,6 @@
 import { DownloadIcon } from './Utils';
 import { DateHeader, DateCell, NameHeader, NameCell, BalanceHeader, AppearanceHeader, TransactionHeader, EventLogsHeader, NeighborsHeader } from "./ColumnCells"
+import { getChainData } from './GlobalState';
 
 export const columns = [
   {
@@ -9,10 +10,12 @@ export const columns = [
     width: '8%',
     showSorterTooltip: false,
     sorter: {
-      compare: (a, b) => a.chainData[0].latestAppearance.bn - b.chainData[0].latestAppearance.bn,
+      compare: function (a, b) {
+        return getChainData(a).latestAppearance.bn - getChainData(b).latestAppearance.bn;
+      },
     },
-    render: (u, record) => {
-      return <DateCell record={record} />
+    render: (u, grantData) => {
+      return <DateCell grantData={grantData} />
     },
   },
   {
@@ -24,8 +27,8 @@ export const columns = [
     sorter: {
       compare: (a, b) => a.address - b.address,
     },
-    render: function (u, record) {
-      return <NameCell record={record} />
+    render: function (u, grantData) {
+      return <NameCell grantData={grantData} />
     },
   },
   {
@@ -37,15 +40,21 @@ export const columns = [
     showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
-        return b.chainData[0].balances[0].balance - a.chainData[0].balances[0].balance;
+        var chainDataA = getChainData(a)
+        var chainDataB = getChainData(b)
+        if (chainDataA.balances.length === 0 || chainDataB.balances.length === 0) {
+          return 0;
+        }
+        return chainDataB.balances[0].balance - chainDataA.balances[0].balance;
       },
     },
-    render: function (text, record) {
-      if (record.chainData[0].balances && record.chainData[0].balances.length > 0) {
+    render: function (text, grantData) {
+      const chainData = getChainData(grantData)
+      if (chainData.balances && chainData.balances.length > 0) {
         return (
           <>
-            {record.chainData[0].balances[0].balance + ' ETH'}
-            < DownloadIcon address={record.address} count={''} path='statements/balances/' type='csv' />
+            {chainData.balances[0].balance + ' ETH'}
+            < DownloadIcon address={grantData.address} count={''} path='statements/balances/' type='csv' />
           </>
         )
       }
@@ -54,71 +63,81 @@ export const columns = [
   },
   {
     title: <AppearanceHeader />,
-    dataIndex: 'chainData[0].counts.appearanceCount',
-    key: 'chainData[0].counts.appearanceCount',
+    dataIndex: 'chainData.counts.appearanceCount',
+    key: 'chainData.counts.appearanceCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.chainData[0].counts.appearanceCount - a.chainData[0].counts.appearanceCount;
+        return getChainData(b).counts.appearanceCount - getChainData(a).counts.appearanceCount;
       },
     },
-    render: function (text, record) {
+    render: function (text, grantData) {
+      const chainData = getChainData(grantData)
       return (
         <>
-          {record.chainData[0].firstAppearance.bn}.{record.chainData[0].firstAppearance.txId}
-          <DownloadIcon address={record.address} count={record.chainData[0].counts.appearanceCount} path='apps/' type='csv' />
+          {chainData.firstAppearance.bn}.{chainData.firstAppearance.txId}
+          <DownloadIcon address={grantData.address} count={chainData.counts.appearanceCount} path='apps/' type='csv' />
         </>
       )
     },
   },
   {
     title: <TransactionHeader />,
-    dataIndex: 'chainData[0].counts.transactionCount',
-    key: 'chainData[0].counts.transactionCount',
+    dataIndex: 'chainData.counts.transactionCount',
+    key: 'chainData.counts.transactionCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.chainData[0].counts.transactionCount - a.chainData[0].counts.transactionCount;
+        return getChainData(b).counts.transactionCount - getChainData(a).counts.transactionCount;
       },
     },
-    render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.chainData[0].counts.transactionCount} path='txs/' type='csv' />
+    render: function (text, grantData) {
+      const chainData = getChainData(grantData)
+      return (
+        <DownloadIcon address={grantData.address} count={chainData.counts.transactionCount} path='txs/' type='csv' />
+      );
     },
   },
   {
     title: <EventLogsHeader />,
-    dataIndex: 'chainData[0].counts.logCount',
-    key: 'chainData[0].counts.logCount',
+    dataIndex: 'chainData.counts.logCount',
+    key: 'chainData.counts.logCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.chainData[0].counts.logCount - a.chainData[0].counts.logCount;
+        return getChainData(b).counts.logCount - getChainData(a).counts.logCount;
       },
     },
-    render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.chainData[0].counts.logCount} path='logs/' type='csv' />;
+    render: function (text, grantData) {
+      const chainData = getChainData(grantData)
+      return (
+        <DownloadIcon address={grantData.address} count={chainData.counts.logCount} path='logs/' type='csv' />
+      );
     },
   },
   {
     title: <NeighborsHeader />,
-    dataIndex: 'chainData[0].counts.neighborCount',
-    key: 'chainData[0].counts.neighborCount',
+    dataIndex: 'chainData.counts.neighborCount',
+    key: 'chainData.counts.neighborCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.chainData[0].counts.neighborCount - a.chainData[0].counts.neighborCount;
+        return getChainData(b).counts.neighborCount - getChainData(a).counts.neighborCount;
       },
     },
-    render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.chainData[0].counts.neighborCount} path='neighbors/' type='csv' />;
+    render: function (text, grantData) {
+      const chainData = getChainData(grantData)
+      return (
+        <DownloadIcon address={grantData.address} count={chainData.counts.neighborCount} path='neighbors/' type='csv' />
+      );
     },
   },
 ];

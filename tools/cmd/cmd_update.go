@@ -6,7 +6,7 @@ import (
 )
 
 const useUpdate = "update"
-const shortUpdate = "update each monitored group's theData.json file"
+const shortUpdate = "update each monitored data file"
 const longUpdate = `
 This routine builds the 'database' for the front end ui for each monitored
 group of addresses per chain. This means it reads the addresses.tsv file and processes
