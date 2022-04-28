@@ -303,7 +303,7 @@ address	grantId	name	tag	active	core
 0x22b5de197d8a8ca13e361c268f58baf088ac4dc0	0443	Cretter - solving critical thinking and debates on the internet	31-Gitcoin:Grants	true	false
 0x22d2aa904a8b61154c1bf4d2d5600ca0ede39603	3386	The CatalanDAO - Building the first digital nation DAO!	31-Gitcoin:Grants	true	false
 0x22de936854e40350d01f47724fd047d4de0f26a1	1010	Synergy of Serra	31-Gitcoin:Grants	true	false
-0x230fc981f7cae90cfc4ed4c18f7c178b239e5f9f	3004	Moonshot Collective	31-Gitcoin:Grants	true	false
+0x230fc981f7cae90cfc4ed4c18f7c178b239e5f9f	core-3004	Moonshot Collective Multisig	31-Gitcoin:Workstreams	true	true
 0x232e7a04a30f1f6f30e895a42c4358a1af36b976	2232	coinerchat--chat at blockchain	31-Gitcoin:Grants	true	false
 0x2333fcc3833d2e951ce8e821235ed3b729141996	2844	🏡nftstory - Open Source EVM NFT Storytelling Tools for Creators	31-Gitcoin:Grants	true	false
 0x23612f09f5bb9c3d455fbb3c4a7d1708d555994c	2070	Gitconnect  — Low cost solution of small stablecoin from ETH layer2 to CEX	31-Gitcoin:Grants	true	false
@@ -775,6 +775,7 @@ address	grantId	name	tag	active	core
 0x5d99805ca2867f22a318c4e6b0dc5c0eac457386	2323	Dark Forest	31-Gitcoin:Grants	true	false
 0x5daf1469324b8fc0886ddbf855e380130c67428d	4307	DeSchool	31-Gitcoin:Grants	true	false
 0x5dd3fb53db9045497449484baf026a24c817e10e	1671	The Blockchain School	31-Gitcoin:Grants	true	false
+0x5dd4721bb322499616d827be45c93f55d9181bc3	core-0006	DAO Ops Multisig	31-Gitcoin:Workstreams	true	true
 0x5dfa5db515748f3e2bcc8677a9332f4affad5a5e	2271	"Kotal - Open source alternative to Infura, AlchemyAPI, QuickNode, BisonTrails."	31-Gitcoin:Grants	true	false
 0x5e03a5a4784bbd887aff75dc6eef78f4a41d76d1	3982	Ethernal	31-Gitcoin:Grants	true	false
 0x5e2f7df8ba0276645bdc880e8bcbb9505e0a18b4	2204	r/NFT	31-Gitcoin:Grants	true	false
@@ -971,6 +972,7 @@ address	grantId	name	tag	active	core
 0x751502ebbd7d0a3ba5750baccdff8aae656db48d	0986	Dean	31-Gitcoin:Grants	true	false
 0x7538b8240a93b99de5c19976e695931a96e3cb13	0736	GoTrace	31-Gitcoin:Grants	true	false
 0x7541e31ea1635e3c6e927447e5c9a48b60ac5c8c	0192	Unikeys	31-Gitcoin:Grants	true	false
+0x756239e5b7d2aa6f3da0594b296952121fb71606	core-0007	dCompass Multisig	31-Gitcoin:Workstreams	true	true
 0x758ba0f64f9498996368fcd7696cd962bc19fe87	0824	A Platform to Catalyze Achievement of Legislation Objectives	31-Gitcoin:Grants	true	false
 0x7595680fe36ee82fa8d000ac3f2756dcbfb5d18f	2136	Crypto Oracle	31-Gitcoin:Grants	true	false
 0x75bb1efc6607780a9dcb80d69e134aa5fb03467a	3458	Crypto Communities	31-Gitcoin:Grants	true	false
@@ -1043,7 +1045,7 @@ address	grantId	name	tag	active	core
 0x7d3e2d29c0f77d35e470942e10aed8f3a6a596fe	0232	Raven-Anonymous decentralized message broadcasting	31-Gitcoin:Grants	true	false
 0x7d40d32c113f947540c073476ce94c3923697409	2952	Aggadom - Web3 Passion Economy infrastructure	31-Gitcoin:Grants	true	false
 0x7d568b307ba20fcf4684fd7877a00e4d90ee9199	1729	@EmilianoBonassi - Builder - (White) Hacker	31-Gitcoin:Grants	true	false
-0x7d655c57f71464b6f83811c55d84009cd9f5221c	0001	GitCoin Grant Contract - Rounds 6 through 9	31-Gitcoin:Core	true	true
+0x7d655c57f71464b6f83811c55d84009cd9f5221c	core-0001	GitCoin Grant Contract - Rounds 6 through 9	31-Gitcoin:Core	true	true
 0x7d8023ae32270a04f319cdc293d5f21f51eef998	3880	The Pacific Northwest Rural Broadband Alliance	31-Gitcoin:Grants	true	false
 0x7d8897250507462fa660c673730375e0894105b2	1606	 BetRed non-profit staking casino	31-Gitcoin:Grants	true	false
 0x7dac9fc15c1db4379d75a6e3f330ae849dffce18	0855	KERNEL [Panvala League]	31-Gitcoin:Grants	true	false
@@ -1204,6 +1206,7 @@ address	grantId	name	tag	active	core
 0x924b575917f822e32e88b7e7171fe0c00c70f401	1640	Ideamarket.io	31-Gitcoin:Grants	true	false
 0x9277b013ecdb1f308b41cd8bc1addc097ded37c3	4034	The Humanetics Workshop	31-Gitcoin:Grants	true	false
 0x92ef46b42da0314687409bd575b30f0ebab92208	2127	Tiles	31-Gitcoin:Grants	true	false
+0x931896a8a9313f622a2afca76d1471b97955e551	core-0008	dGrants Multisig	31-Gitcoin:Workstreams	true	true
 0x934b510d4c9103e6a87aef13b816fb080286d649	0159	"Mask Network - The Portal to the New, Open Internet. (Legacy)"	31-Gitcoin:Grants	true	false
 0x9374f7ae1c74d28a3b81ebb3cba40542e1120b86	3078	BigBounty	31-Gitcoin:Grants	true	false
 0x9375d3e9fa7a1b9a02b4344fd731fec18072f834	4085	Longevity Plan	31-Gitcoin:Grants	true	false
@@ -1374,6 +1377,7 @@ address	grantId	name	tag	active	core
 0xa7499aa6464c078eeb940da2fc95c6acd010c3cc	0578	Open Source Covid Ventilators + Masks	31-Gitcoin:Grants	true	false
 0xa76e5098b362532988b20c078712220859fe169e	1966	Xops	31-Gitcoin:Grants	true	false
 0xa78edd98d7ab5caca5236fc3999d4ee9868795fe	0739	System Of Autonomous Global Education — S.A.G.E. 	31-Gitcoin:Grants	true	false
+0xa7ac9f7087d7197e0047db9a90562a1364bf897d	core-0009	PFG Multisig	31-Gitcoin:Workstreams	true	true
 0xa7dda301970378bb12c28c4214cdfdb6fe44636c	4597	Proof of Integrity	31-Gitcoin:Grants	true	false
 0xa807e1f9afc48423b36b8384cf05d1172519ef1e	0682	Children's Heart Unit Fund (CHUF)	31-Gitcoin:Grants	true	false
 0xa84944735b66e957fe385567dcc85975022fe68a	0111	Research Grant:  Swarm Scraper for Verified Smart Contracts	31-Gitcoin:Grants	true	false
@@ -1403,7 +1407,7 @@ address	grantId	name	tag	active	core
 0xabe26faee77419897090bc4c5a112d463443a662	0818	Metis Protocol: A governance and collaboration implementation framework for DAOs	31-Gitcoin:Grants	true	false
 0xabe26faee77419897090bc4c5a112d463443a662	1362	MetisDAO	31-Gitcoin:Grants	true	false
 0xabe47ec0e8c66d994c3b904d751392bc41742dbc	0968	Dshackle - Fault Tolerant Load Balancer for Ethereum API	31-Gitcoin:Grants	true	false
-0xabea9132b05a70803a4e85094fd0e1800777fbef	0004	zkSync Contract	31-Gitcoin:Core	true	true
+0xabea9132b05a70803a4e85094fd0e1800777fbef	core-0004	zkSync Contract	31-Gitcoin:Core	true	true
 0xabf026c24ad7ef1fdce903f72364f255ef924c37	2894	TAKSH	31-Gitcoin:Grants	true	false
 0xabf3e252006d805cce3c7219a929b83465f2a46e	0090	Eggforce	31-Gitcoin:Grants	true	false
 0xabf3e252006d805cce3c7219a929b83465f2a46e	0093	foo bar	31-Gitcoin:Grants	true	false
@@ -1615,6 +1619,7 @@ address	grantId	name	tag	active	core
 0xc21b25479ce9fed4a5bb9c66833e33c50b0e044a	1331	Boost Blocks by Broke	31-Gitcoin:Grants	true	false
 0xc22e8d32d3146efc54088f39ec9c29eaf3905b1d	3090	"Atelio : creating open  , blockchain based digital supply network."	31-Gitcoin:Grants	true	false
 0xc2373689538848d7dcbfe9f29384b158863c4ae7	2116	funny	31-Gitcoin:Grants	true	false
+0xc23da3ca9300571b9cf43298228353cbb3e1b4c0	core-0010	MMM Multisig	31-Gitcoin:Workstreams	true	true
 0xc23f65b2c9869482204b2af68f1c6002983c7fc3	1232	BullionsChain	31-Gitcoin:Grants	true	false
 0xc291aa03d4a0782a60d38701d0e9fade5a938d01	3091	Blockchain Infrastructure Carbon Offset Working Group (BICOWG)	31-Gitcoin:Grants	true	false
 0xc29fb1d0c0ad2078e909b0bd629b512eb6bcb008	1642	Gitcoin Champions Program	31-Gitcoin:Grants	true	false
@@ -1766,7 +1771,7 @@ address	grantId	name	tag	active	core
 0xd3f151c61815babf4a898c82e99c4b354d5f052f	0908	"The Block Cafe - Community Venue in Lisbon, Portugal"	31-Gitcoin:Grants	true	false
 0xd4431481dbe7791fdc147f5f7705d5ee9196d95e	4480	Design a Omniwheel Base for the open source general robot (3D Robot)	31-Gitcoin:Grants	true	false
 0xd44acd5a54f8d802a289c4c346d93f79177343ca	0240	ethsear.ch	31-Gitcoin:Grants	true	false
-0xd4567069c5a1c1fc8261d8ff5c0b1d98f069cf47	0005	FDD MultiSig	31-Gitcoin:Core	true	true
+0xd4567069c5a1c1fc8261d8ff5c0b1d98f069cf47	core-0005	FDD Multisig	31-Gitcoin:Workstreams	true	true
 0xd45d5ce5ca77a453ad9638a559901389c4116205	1579	"TurntableFM\n\nTurntable was a fun virtual lounge app and digital game for music discovery, and used a points system to reward DJs. "	31-Gitcoin:Grants	true	false
 0xd461cf004eda0ddb0028b831b62bf38b3a6d1e5a	0461	Aleph.im - Decentralized open-source cloud platform	31-Gitcoin:Grants	true	false
 0xd465484af946ab1f29ffad0c6971c5fd58b7ab7d	0058	Ironbelly - Grin mobile wallet	31-Gitcoin:Grants	true	false
@@ -1843,7 +1848,7 @@ address	grantId	name	tag	active	core
 0xddcbb11c175bfd52636bd18d880f760970b47aa9	1169	wiflo :: global aura UI for spirit	31-Gitcoin:Grants	true	false
 0xdde104d6c45906399c61aadca2d460b68ce27897	2924	Put International Carbon Markets On Ethereum With Blockchain For Climate Foundation	31-Gitcoin:Grants	true	false
 0xddfc2e10702d8a781727a34d83b3bb3ca94a3e91	0455	Floflis OS	31-Gitcoin:Grants	true	false
-0xde21f729137c5af1b01d73af1dc21effa2b8a0d6	0012	Gitcoin Grants Official Matching Pool Fund	31-Gitcoin:Core	true	true
+0xde21f729137c5af1b01d73af1dc21effa2b8a0d6	core-0012	Gitcoin Grants Official Matching Pool Fund	31-Gitcoin:Core	true	true
 0xde68f19f19d7bbb7fe44cf1e63f5a6f115069181	0884	Across Boundaries	31-Gitcoin:Grants	true	false
 0xde68f19f19d7bbb7fe44cf1e63f5a6f115069181	0892	BAND   Black Artist’ Network in Dialogue	31-Gitcoin:Grants	true	false
 0xde68f19f19d7bbb7fe44cf1e63f5a6f115069181	0894	Black Boys Code	31-Gitcoin:Grants	true	false
@@ -1861,7 +1866,7 @@ address	grantId	name	tag	active	core
 0xdf6a1c0905ff1571d20d1445e9082a0cf5892650	3806	PowerSearch	31-Gitcoin:Grants	true	false
 0xdf6c53df56f3992fc44195518a2d8b16306af9ff	0146	Trinity - Research for migration of Ethereum 1.x to 2.0	31-Gitcoin:Grants	true	false
 0xdf6c53df56f3992fc44195518a2d8b16306af9ff	0147	Trinity - Ethereum 2.0 client	31-Gitcoin:Grants	true	false
-0xdf869fad6db91f437b59f1edefab319493d4c4ce	0003	GitCoin Grant Contract - Pre Round 6	31-Gitcoin:Core	true	true
+0xdf869fad6db91f437b59f1edefab319493d4c4ce	core-0003	GitCoin Grant Contract - Pre Round 6	31-Gitcoin:Core	true	true
 0xdfb0b22940cc45283d639d22ba26aa55ab8bfee8	2073	Crypto Commons Association - support a Hub for planet regeneration!	31-Gitcoin:Grants	true	false
 0xdfe4719d63f8df79b2610e49ea0398a4de274c09	1811	Portfolio 	31-Gitcoin:Grants	true	false
 0xdfe7fa6ea08c93dc570f158bc5b7ea257beb0d04	3501	Nocturnal Finance	31-Gitcoin:Grants	true	false
@@ -2028,7 +2033,7 @@ address	grantId	name	tag	active	core
 0xf1f53980c49824098b78ca4c3eabd4e85b536b82	2169	BullishbearFinance	31-Gitcoin:Grants	true	false
 0xf223bcaed22ddd7358c0a8279ed50bdd33c5ce9e	0503	The Gathering Place: A Refuge For Rebuilding Lives	31-Gitcoin:Grants	true	false
 0xf22727dfe1e1465d5846246899f5d411ff3965fc	4183	Brush: A ZK Powered Social Coordination Game	31-Gitcoin:Grants	true	false
-0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6	0002	GitCoin MatchPayouts - Round 8	31-Gitcoin:Core	true	true
+0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6	core-0002	GitCoin MatchPayouts - Round 8	31-Gitcoin:Core	true	true
 0xf24ba7799e1d3b3a5c9a9e31e8bb35cc1d23f864	1545	gbdev	31-Gitcoin:Grants	true	false
 0xf2867166798b8a339cbdc8686b30626fdbf5c2ef	2309	xDeFi is a well established DeFi protocol stack.	31-Gitcoin:Grants	true	false
 0xf2f8456bcfd8b3d5f89386773a80bdfcc322a770	0345	CoinJournal - Cryptocurrency News	31-Gitcoin:Grants	true	false
