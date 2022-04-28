@@ -160,7 +160,7 @@ export const HomePage = () => {
           </Row>
         </TabPane>
         <TabPane tab={'Data Sets'} key='3' style={{ paddingLeft: '8px' }}>
-          <Downloads />
+          <Downloads chain={chain} />
         </TabPane>
         <TabPane tab='Charts' key='4' style={{ paddingLeft: '8px' }}>
           <img

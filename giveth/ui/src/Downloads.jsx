@@ -4,9 +4,9 @@ import { config } from './Config';
 
 const { Link } = Typography;
 
-export const Downloads = () => {
+export const Downloads = ({ chain }) => {
   var base = "https://github.com/TrueBlocks/tokenomics.io/tree/master/gitcoin/exports/mainnet/"
-  var zipsBase = config.Urls.Data + "zips/";
+  var zipsBase = config.Urls.Data + chain + "/zips/";
   return (
     <div style={{ textAlign: 'left' }}>
       <center>

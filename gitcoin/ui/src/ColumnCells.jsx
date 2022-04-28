@@ -66,7 +66,7 @@ export const NameCell = ({ grantData }) => {
   if (!slug)
     return (
       <div>
-        {name} <ZipLink addr={grantData.address} />
+        {name} <ZipLink grantData={grantData} />
         <br />
         {explorerLink}
       </div>
@@ -76,7 +76,7 @@ export const NameCell = ({ grantData }) => {
       <div>
         <a target={'top'} href={slug}>
           {name}
-        </a> <ZipLink addr={grantData.address} />
+        </a> <ZipLink grantData={grantData} />
         <br />
         {explorerLink}
       </div>
@@ -142,8 +142,8 @@ const Cell2 = ({ text }) => {
   );
 };
 
-const ZipLink = ({ addr }) => {
-  var link = config.Urls.Data + "zips/" + addr + ".tar.gz";
+const ZipLink = ({ grantData }) => {
+  var link = config.Urls.Data + grantData.curChain + "/zips/" + grantData.address + ".tar.gz";
   return (
     <>
       <a href={link} title="Download zip file">
