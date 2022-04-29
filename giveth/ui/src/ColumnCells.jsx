@@ -13,7 +13,7 @@ export const DateHeader = () => (
 )
 export const DateCell = ({ grantData }) => {
   var chainData = getChainData(grantData);
-  if (chainData.counts.appearanceCount === 0) {
+  if (chainData.counts.appearanceCount === 0 || !chainData.latestAppearance || !chainData.latestAppearance.date) {
     return <div>N/A</div>
   }
   const dd = (<div>
