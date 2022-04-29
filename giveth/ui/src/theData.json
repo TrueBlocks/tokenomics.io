@@ -165,13 +165,13 @@
           "date": "2022-03-06 18:59:35 UTC"
         },
         "latestAppearance": {
-          "bn": 21576121,
-          "txId": 3,
-          "timestamp": 1649641880,
-          "date": "2022-04-11 01:51:20 UTC"
+          "bn": 21870533,
+          "txId": 4,
+          "timestamp": 1651156150,
+          "date": "2022-04-28 14:29:10 UTC"
         },
-        "fileSize": 48,
-        "blockRange": 603073,
+        "fileSize": 56,
+        "blockRange": 897485,
         "counts": {
           "appearanceCount": 6,
           "logCount": 6,
@@ -289,6 +289,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 144,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -299,15 +300,34 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 13747963,
+          "txId": 304,
+          "timestamp": 1638734034,
+          "date": "2021-12-05 19:53:54 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14316890,
+          "txId": 123,
+          "timestamp": 1646348749,
+          "date": "2022-03-03 23:05:49 UTC"
+        },
+        "fileSize": 136,
+        "blockRange": 568928,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 16,
+          "logCount": 21,
+          "transactionCount": 16,
+          "neighborCount": 100,
+          "statementsCount": 26
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.43736617044429416
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       }
     ]
   },
@@ -366,13 +386,13 @@
           "date": "2021-10-30 10:09:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21404326,
-          "txId": 14,
-          "timestamp": 1648780410,
-          "date": "2022-04-01 02:33:30 UTC"
+          "bn": 21828737,
+          "txId": 5,
+          "timestamp": 1650934275,
+          "date": "2022-04-26 00:51:15 UTC"
         },
-        "fileSize": 88,
-        "blockRange": 2583195,
+        "fileSize": 96,
+        "blockRange": 3007606,
         "counts": {
           "appearanceCount": 11,
           "logCount": 8,
@@ -656,6 +676,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 40,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -666,15 +687,34 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 13767411,
+          "txId": 349,
+          "timestamp": 1639002195,
+          "date": "2021-12-08 22:23:15 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14626353,
+          "txId": 5,
+          "timestamp": 1650517439,
+          "date": "2022-04-21 05:03:59 UTC"
+        },
+        "fileSize": 440,
+        "blockRange": 858943,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 54,
+          "logCount": 69,
+          "transactionCount": 54,
+          "neighborCount": 1645,
+          "statementsCount": 86
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.13472882522481835
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       }
     ]
   },
@@ -880,12 +920,13 @@
           "date": "2022-02-14 15:55:00 UTC"
         },
         "latestAppearance": {
-          "bn": 21557461,
-          "timestamp": 1649548395,
-          "date": "2022-04-09 23:53:15 UTC"
+          "bn": 21874936,
+          "txId": 5,
+          "timestamp": 1651179765,
+          "date": "2022-04-28 21:02:45 UTC"
         },
-        "fileSize": 320,
-        "blockRange": 920097,
+        "fileSize": 376,
+        "blockRange": 1237572,
         "counts": {
           "appearanceCount": 45,
           "logCount": 46,
@@ -910,13 +951,13 @@
           "date": "2022-03-12 00:22:08 UTC"
         },
         "latestAppearance": {
-          "bn": 14445363,
-          "txId": 127,
-          "timestamp": 1648075896,
-          "date": "2022-03-23 22:51:36 UTC"
+          "bn": 14668674,
+          "txId": 124,
+          "timestamp": 1651091742,
+          "date": "2022-04-27 20:35:42 UTC"
         },
-        "fileSize": 112,
-        "blockRange": 76693,
+        "fileSize": 136,
+        "blockRange": 300004,
         "counts": {
           "appearanceCount": 16,
           "logCount": 23,
@@ -1365,9 +1406,20 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
-        "fileSize": 8,
+        "firstAppearance": {
+          "bn": 14672739,
+          "txId": 307,
+          "timestamp": 1651147326,
+          "date": "2022-04-28 12:02:06 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14672798,
+          "txId": 64,
+          "timestamp": 1651148296,
+          "date": "2022-04-28 12:18:16 UTC"
+        },
+        "fileSize": 32,
+        "blockRange": 60,
         "counts": {
           "appearanceCount": 3,
           "logCount": 4,
@@ -1398,6 +1450,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -1410,6 +1463,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -1660,13 +1714,13 @@
           "date": "2021-12-20 21:55:45 UTC"
         },
         "latestAppearance": {
-          "bn": 20774523,
+          "bn": 21877251,
           "txId": 4,
-          "timestamp": 1645561705,
-          "date": "2022-02-22 20:28:25 UTC"
+          "timestamp": 1651192100,
+          "date": "2022-04-29 00:28:20 UTC"
         },
-        "fileSize": 64,
-        "blockRange": 1091447,
+        "fileSize": 72,
+        "blockRange": 2194175,
         "counts": {
           "appearanceCount": 7,
           "logCount": 6,
@@ -1752,13 +1806,13 @@
           "date": "2021-04-05 21:03:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21458210,
-          "txId": 7,
-          "timestamp": 1649051465,
-          "date": "2022-04-04 05:51:05 UTC"
+          "bn": 21815276,
+          "txId": 10,
+          "timestamp": 1650863095,
+          "date": "2022-04-25 05:04:55 UTC"
         },
-        "fileSize": 488,
-        "blockRange": 6071203,
+        "fileSize": 504,
+        "blockRange": 6428269,
         "counts": {
           "appearanceCount": 62,
           "logCount": 48,
@@ -2245,6 +2299,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -2257,6 +2312,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -2470,13 +2526,13 @@
           "date": "2022-02-23 23:52:05 UTC"
         },
         "latestAppearance": {
-          "bn": 21402476,
-          "txId": 33,
-          "timestamp": 1648770640,
-          "date": "2022-03-31 23:50:40 UTC"
+          "bn": 21880121,
+          "txId": 5,
+          "timestamp": 1651207410,
+          "date": "2022-04-29 04:43:30 UTC"
         },
-        "fileSize": 192,
-        "blockRange": 608949,
+        "fileSize": 328,
+        "blockRange": 1086594,
         "counts": {
           "appearanceCount": 32,
           "logCount": 42,
@@ -2501,13 +2557,13 @@
           "date": "2022-03-15 00:17:32 UTC"
         },
         "latestAppearance": {
-          "bn": 14405015,
-          "txId": 79,
-          "timestamp": 1647533245,
-          "date": "2022-03-17 16:07:25 UTC"
+          "bn": 14677207,
+          "txId": 7,
+          "timestamp": 1651208119,
+          "date": "2022-04-29 04:55:19 UTC"
         },
-        "fileSize": 64,
-        "blockRange": 17069,
+        "fileSize": 96,
+        "blockRange": 289261,
         "counts": {
           "appearanceCount": 10,
           "logCount": 6,
@@ -2518,7 +2574,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 0.00733582628381304
+            "balance": 0.00369120261068704
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -2722,13 +2778,13 @@
           "date": "2021-12-01 02:08:31 UTC"
         },
         "latestAppearance": {
-          "bn": 14537259,
-          "txId": 76,
-          "timestamp": 1649314467,
-          "date": "2022-04-07 06:54:27 UTC"
+          "bn": 14654900,
+          "txId": 212,
+          "timestamp": 1650904977,
+          "date": "2022-04-25 16:42:57 UTC"
         },
-        "fileSize": 376,
-        "blockRange": 818865,
+        "fileSize": 232,
+        "blockRange": 936506,
         "counts": {
           "appearanceCount": 28,
           "logCount": 39,
@@ -2870,6 +2926,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -2882,6 +2939,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -2910,13 +2968,13 @@
           "date": "2022-02-02 13:36:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21606823,
-          "txId": 5,
-          "timestamp": 1649797355,
-          "date": "2022-04-12 21:02:35 UTC"
+          "bn": 21890146,
+          "txId": 2,
+          "timestamp": 1651260985,
+          "date": "2022-04-29 19:36:25 UTC"
         },
-        "fileSize": 168,
-        "blockRange": 1176162,
+        "fileSize": 232,
+        "blockRange": 1459485,
         "counts": {
           "appearanceCount": 26,
           "logCount": 53,
@@ -2927,7 +2985,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 0.19850450444928566
+            "balance": 0.19733125258928566
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -3076,13 +3134,13 @@
           "date": "2022-02-26 01:30:50 UTC"
         },
         "latestAppearance": {
-          "bn": 21587603,
-          "txId": 4,
-          "timestamp": 1649699375,
-          "date": "2022-04-11 17:49:35 UTC"
+          "bn": 21876711,
+          "txId": 14,
+          "timestamp": 1651189225,
+          "date": "2022-04-28 23:40:25 UTC"
         },
-        "fileSize": 2600,
-        "blockRange": 760003,
+        "fileSize": 2816,
+        "blockRange": 1049111,
         "counts": {
           "appearanceCount": 347,
           "logCount": 358,
@@ -3107,13 +3165,13 @@
           "date": "2022-02-25 10:22:03 UTC"
         },
         "latestAppearance": {
-          "bn": 14558446,
-          "txId": 131,
-          "timestamp": 1649600653,
-          "date": "2022-04-10 14:24:13 UTC"
+          "bn": 14669768,
+          "txId": 86,
+          "timestamp": 1651106937,
+          "date": "2022-04-28 00:48:57 UTC"
         },
-        "fileSize": 6792,
-        "blockRange": 283772,
+        "fileSize": 7024,
+        "blockRange": 395094,
         "counts": {
           "appearanceCount": 877,
           "logCount": 920,
@@ -3476,10 +3534,10 @@
       {
         "chainName": "gnosis",
         "firstAppearance": {
-          "bn": 15178167,
-          "txId": 1,
-          "timestamp": 1616600325,
-          "date": "2021-03-24 15:38:45 UTC"
+          "bn": 15180498,
+          "txId": 6,
+          "timestamp": 1616612090,
+          "date": "2021-03-24 18:54:50 UTC"
         },
         "latestAppearance": {
           "bn": 21365941,
@@ -3488,7 +3546,7 @@
           "date": "2022-03-29 20:24:55 UTC"
         },
         "fileSize": 3920,
-        "blockRange": 6187775,
+        "blockRange": 6185444,
         "counts": {
           "appearanceCount": 489,
           "logCount": 325,
@@ -4085,6 +4143,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -4097,6 +4156,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -4157,6 +4217,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -4167,15 +4228,34 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 11813068,
+          "txId": 167,
+          "timestamp": 1612750750,
+          "date": "2021-02-08 02:19:10 UTC"
+        },
+        "latestAppearance": {
+          "bn": 13870373,
+          "txId": 187,
+          "timestamp": 1640382014,
+          "date": "2021-12-24 21:40:14 UTC"
+        },
+        "fileSize": 40,
+        "blockRange": 2057306,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 4,
+          "logCount": 1,
+          "transactionCount": 4,
+          "neighborCount": 25,
+          "statementsCount": 5
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.9976588590615652
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       }
     ]
   },
@@ -4488,6 +4568,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 32,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -4498,15 +4579,34 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 11905215,
+          "txId": 59,
+          "timestamp": 1613975015,
+          "date": "2021-02-22 06:23:35 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14409746,
+          "txId": 255,
+          "timestamp": 1647597592,
+          "date": "2022-03-18 09:59:52 UTC"
+        },
+        "fileSize": 40,
+        "blockRange": 2504532,
         "counts": {
-          "appearanceCount": 0,
+          "appearanceCount": 4,
           "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "transactionCount": 4,
+          "neighborCount": 8,
+          "statementsCount": 4
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 3.7156175282432646
+          }
+        ],
+        "types": "apps,txs,neighbors,statements"
       }
     ]
   },
@@ -4861,13 +4961,13 @@
           "date": "2022-02-01 20:41:30 UTC"
         },
         "latestAppearance": {
-          "bn": 21577621,
-          "txId": 2,
-          "timestamp": 1649649405,
-          "date": "2022-04-11 03:56:45 UTC"
+          "bn": 21873292,
+          "txId": 9,
+          "timestamp": 1651170985,
+          "date": "2022-04-28 18:36:25 UTC"
         },
-        "fileSize": 1472,
-        "blockRange": 1159132,
+        "fileSize": 1816,
+        "blockRange": 1454803,
         "counts": {
           "appearanceCount": 226,
           "logCount": 41,
@@ -4892,13 +4992,13 @@
           "date": "2021-11-30 03:34:31 UTC"
         },
         "latestAppearance": {
-          "bn": 14448795,
-          "txId": 121,
-          "timestamp": 1648122831,
-          "date": "2022-03-24 11:53:51 UTC"
+          "bn": 14593525,
+          "txId": 100,
+          "timestamp": 1650073865,
+          "date": "2022-04-16 01:51:05 UTC"
         },
-        "fileSize": 120,
-        "blockRange": 736284,
+        "fileSize": 128,
+        "blockRange": 881014,
         "counts": {
           "appearanceCount": 15,
           "logCount": 26,
@@ -5354,6 +5454,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -5366,6 +5467,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -5505,13 +5607,13 @@
           "date": "2022-03-29 22:06:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21568196,
-          "txId": 3,
-          "timestamp": 1649602185,
-          "date": "2022-04-10 14:49:45 UTC"
+          "bn": 21825935,
+          "txId": 2,
+          "timestamp": 1650919470,
+          "date": "2022-04-25 20:44:30 UTC"
         },
-        "fileSize": 48,
-        "blockRange": 201042,
+        "fileSize": 96,
+        "blockRange": 458781,
         "counts": {
           "appearanceCount": 11,
           "logCount": 10,
@@ -5874,13 +5976,13 @@
           "date": "2021-06-18 09:20:50 UTC"
         },
         "latestAppearance": {
-          "bn": 21622242,
-          "txId": 8,
-          "timestamp": 1649878110,
-          "date": "2022-04-13 19:28:30 UTC"
+          "bn": 21774259,
+          "txId": 14,
+          "timestamp": 1650650420,
+          "date": "2022-04-22 18:00:20 UTC"
         },
-        "fileSize": 744,
-        "blockRange": 4985390,
+        "fileSize": 752,
+        "blockRange": 5137407,
         "counts": {
           "appearanceCount": 93,
           "logCount": 161,
@@ -6090,6 +6192,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -6102,6 +6205,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -6352,13 +6456,13 @@
           "date": "2021-04-10 15:18:00 UTC"
         },
         "latestAppearance": {
-          "bn": 21601078,
-          "txId": 16,
-          "timestamp": 1649767470,
-          "date": "2022-04-12 12:44:30 UTC"
+          "bn": 21881861,
+          "txId": 4,
+          "timestamp": 1651216725,
+          "date": "2022-04-29 07:18:45 UTC"
         },
-        "fileSize": 1712,
-        "blockRange": 6134005,
+        "fileSize": 1848,
+        "blockRange": 6414788,
         "counts": {
           "appearanceCount": 226,
           "logCount": 169,
@@ -6383,13 +6487,13 @@
           "date": "2021-03-10 05:49:22 UTC"
         },
         "latestAppearance": {
-          "bn": 14561418,
-          "txId": 85,
-          "timestamp": 1649640390,
-          "date": "2022-04-11 01:26:30 UTC"
+          "bn": 14584381,
+          "txId": 213,
+          "timestamp": 1649950358,
+          "date": "2022-04-14 15:32:38 UTC"
         },
-        "fileSize": 112,
-        "blockRange": 2552429,
+        "fileSize": 120,
+        "blockRange": 2575392,
         "counts": {
           "appearanceCount": 14,
           "logCount": 4,
@@ -6531,6 +6635,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 40,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -6543,6 +6648,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -6608,13 +6714,13 @@
           "date": "2021-12-24 18:15:55 UTC"
         },
         "latestAppearance": {
-          "bn": 21494150,
-          "txId": 9,
-          "timestamp": 1649231445,
-          "date": "2022-04-06 07:50:45 UTC"
+          "bn": 21850580,
+          "txId": 11,
+          "timestamp": 1651050425,
+          "date": "2022-04-27 09:07:05 UTC"
         },
-        "fileSize": 488,
-        "blockRange": 1744690,
+        "fileSize": 520,
+        "blockRange": 2101120,
         "counts": {
           "appearanceCount": 64,
           "logCount": 66,
@@ -6633,10 +6739,10 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 13196576,
-          "txId": 104,
-          "timestamp": 1631257706,
-          "date": "2021-09-10 07:08:26 UTC"
+          "bn": 13190665,
+          "txId": 82,
+          "timestamp": 1631179001,
+          "date": "2021-09-09 09:16:41 UTC"
         },
         "latestAppearance": {
           "bn": 14477306,
@@ -6644,8 +6750,8 @@
           "timestamp": 1648505699,
           "date": "2022-03-28 22:14:59 UTC"
         },
-        "fileSize": 3160,
-        "blockRange": 1280731,
+        "fileSize": 1584,
+        "blockRange": 1286642,
         "counts": {
           "appearanceCount": 197,
           "logCount": 240,
@@ -6681,13 +6787,13 @@
           "date": "2021-10-30 10:00:50 UTC"
         },
         "latestAppearance": {
-          "bn": 21512109,
-          "txId": 2,
-          "timestamp": 1649321325,
-          "date": "2022-04-07 08:48:45 UTC"
+          "bn": 21869253,
+          "txId": 9,
+          "timestamp": 1651149235,
+          "date": "2022-04-28 12:33:55 UTC"
         },
-        "fileSize": 232,
-        "blockRange": 2691068,
+        "fileSize": 240,
+        "blockRange": 3048212,
         "counts": {
           "appearanceCount": 29,
           "logCount": 25,
@@ -6706,19 +6812,19 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 13831889,
-          "txId": 76,
-          "timestamp": 1639867290,
-          "date": "2021-12-18 22:41:30 UTC"
-        },
-        "latestAppearance": {
           "bn": 13766777,
           "txId": 278,
           "timestamp": 1638993776,
           "date": "2021-12-08 20:02:56 UTC"
         },
+        "latestAppearance": {
+          "bn": 13831889,
+          "txId": 76,
+          "timestamp": 1639867290,
+          "date": "2021-12-18 22:41:30 UTC"
+        },
         "fileSize": 24,
-        "blockRange": -65111,
+        "blockRange": 65113,
         "counts": {
           "appearanceCount": 2,
           "logCount": 0,
@@ -6786,6 +6892,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 16,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -6798,6 +6905,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -6974,12 +7082,13 @@
           "date": "2021-10-29 22:06:25 UTC"
         },
         "latestAppearance": {
-          "bn": 21583731,
-          "timestamp": 1649680010,
-          "date": "2022-04-11 12:26:50 UTC"
+          "bn": 21667586,
+          "txId": 2,
+          "timestamp": 1650105765,
+          "date": "2022-04-16 10:42:45 UTC"
         },
-        "fileSize": 248,
-        "blockRange": 2770110,
+        "fileSize": 256,
+        "blockRange": 2853965,
         "counts": {
           "appearanceCount": 31,
           "logCount": 25,
@@ -6998,10 +7107,10 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 5642080,
-          "txId": 18,
-          "timestamp": 1526757306,
-          "date": "2018-05-19 19:15:06 UTC"
+          "bn": 5618446,
+          "txId": 141,
+          "timestamp": 1526395980,
+          "date": "2018-05-15 14:53:00 UTC"
         },
         "latestAppearance": {
           "bn": 14424248,
@@ -7010,7 +7119,7 @@
           "date": "2022-03-20 16:06:29 UTC"
         },
         "fileSize": 1024,
-        "blockRange": 8782169,
+        "blockRange": 8805803,
         "counts": {
           "appearanceCount": 127,
           "logCount": 110,
@@ -7040,19 +7149,19 @@
       {
         "chainName": "gnosis",
         "firstAppearance": {
-          "bn": 21040694,
-          "txId": 2,
-          "timestamp": 1646939875,
-          "date": "2022-03-10 19:17:55 UTC"
+          "bn": 21038259,
+          "txId": 1,
+          "timestamp": 1646926980,
+          "date": "2022-03-10 15:43:00 UTC"
         },
         "latestAppearance": {
-          "bn": 21560697,
-          "txId": 12,
-          "timestamp": 1649564625,
-          "date": "2022-04-10 04:23:45 UTC"
+          "bn": 21888299,
+          "txId": 1,
+          "timestamp": 1651251345,
+          "date": "2022-04-29 16:55:45 UTC"
         },
-        "fileSize": 168,
-        "blockRange": 520004,
+        "fileSize": 232,
+        "blockRange": 850041,
         "counts": {
           "appearanceCount": 25,
           "logCount": 20,
@@ -7070,9 +7179,20 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
-        "fileSize": 8,
+        "firstAppearance": {
+          "bn": 14657736,
+          "txId": 158,
+          "timestamp": 1650942829,
+          "date": "2022-04-26 03:13:49 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14659120,
+          "txId": 47,
+          "timestamp": 1650961900,
+          "date": "2022-04-26 08:31:40 UTC"
+        },
+        "fileSize": 32,
+        "blockRange": 1385,
         "counts": {
           "appearanceCount": 3,
           "logCount": 2,
@@ -7140,6 +7260,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -7152,6 +7273,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -7390,19 +7512,19 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 13715282,
-          "txId": 391,
-          "timestamp": 1638282372,
-          "date": "2021-11-30 14:26:12 UTC"
-        },
-        "latestAppearance": {
           "bn": 13707499,
           "txId": 62,
           "timestamp": 1638173914,
           "date": "2021-11-29 08:18:34 UTC"
         },
+        "latestAppearance": {
+          "bn": 13736933,
+          "txId": 124,
+          "timestamp": 1638580490,
+          "date": "2021-12-04 01:14:50 UTC"
+        },
         "fileSize": 40,
-        "blockRange": -7782,
+        "blockRange": 29435,
         "counts": {
           "appearanceCount": 4,
           "logCount": 1,
@@ -7433,6 +7555,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -7445,6 +7568,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -7726,19 +7850,19 @@
       {
         "chainName": "gnosis",
         "firstAppearance": {
-          "bn": 19725831,
-          "txId": 11,
-          "timestamp": 1640251355,
-          "date": "2021-12-23 09:22:35 UTC"
+          "bn": 19769439,
+          "txId": 5,
+          "timestamp": 1640469735,
+          "date": "2021-12-25 22:02:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21144931,
-          "txId": 14,
-          "timestamp": 1647463640,
-          "date": "2022-03-16 20:47:20 UTC"
+          "bn": 21873270,
+          "txId": 17,
+          "timestamp": 1651170865,
+          "date": "2022-04-28 18:34:25 UTC"
         },
-        "fileSize": 136,
-        "blockRange": 1419101,
+        "fileSize": 144,
+        "blockRange": 2103832,
         "counts": {
           "appearanceCount": 17,
           "logCount": 16,
@@ -7911,6 +8035,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 24,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -7923,6 +8048,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -8284,13 +8410,13 @@
           "date": "2022-02-12 19:05:50 UTC"
         },
         "latestAppearance": {
-          "bn": 20757959,
-          "txId": 4,
-          "timestamp": 1645475220,
-          "date": "2022-02-21 20:27:00 UTC"
+          "bn": 21765414,
+          "txId": 2,
+          "timestamp": 1650604745,
+          "date": "2022-04-22 05:19:05 UTC"
         },
-        "fileSize": 24,
-        "blockRange": 152688,
+        "fileSize": 32,
+        "blockRange": 1160143,
         "counts": {
           "appearanceCount": 3,
           "logCount": 3,
@@ -8315,13 +8441,13 @@
           "date": "2021-12-06 03:51:01 UTC"
         },
         "latestAppearance": {
-          "bn": 14442371,
-          "txId": 89,
-          "timestamp": 1648036272,
-          "date": "2022-03-23 11:51:12 UTC"
+          "bn": 14597234,
+          "txId": 112,
+          "timestamp": 1650124064,
+          "date": "2022-04-16 15:47:44 UTC"
         },
-        "fileSize": 536,
-        "blockRange": 692380,
+        "fileSize": 296,
+        "blockRange": 847243,
         "counts": {
           "appearanceCount": 36,
           "logCount": 54,
@@ -8801,13 +8927,13 @@
           "date": "2020-12-19 04:39:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21560533,
-          "txId": 7,
-          "timestamp": 1649563800,
-          "date": "2022-04-10 04:10:00 UTC"
+          "bn": 21870301,
+          "txId": 19,
+          "timestamp": 1651154890,
+          "date": "2022-04-28 14:08:10 UTC"
         },
-        "fileSize": 4952,
-        "blockRange": 7971228,
+        "fileSize": 4976,
+        "blockRange": 8280996,
         "counts": {
           "appearanceCount": 621,
           "logCount": 967,
@@ -8832,13 +8958,13 @@
           "date": "2020-12-19 04:52:29 UTC"
         },
         "latestAppearance": {
-          "bn": 14539968,
-          "txId": 249,
-          "timestamp": 1649351228,
-          "date": "2022-04-07 17:07:08 UTC"
+          "bn": 14678971,
+          "txId": 263,
+          "timestamp": 1651232477,
+          "date": "2022-04-29 11:41:17 UTC"
         },
-        "fileSize": 4296,
-        "blockRange": 3058362,
+        "fileSize": 4328,
+        "blockRange": 3197365,
         "counts": {
           "appearanceCount": 539,
           "logCount": 690,
@@ -8910,13 +9036,13 @@
           "date": "2021-04-08 17:26:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21568527,
-          "txId": 3,
-          "timestamp": 1649603840,
-          "date": "2022-04-10 15:17:20 UTC"
+          "bn": 21876742,
+          "txId": 1,
+          "timestamp": 1651189390,
+          "date": "2022-04-28 23:43:10 UTC"
         },
-        "fileSize": 472,
-        "blockRange": 6133271,
+        "fileSize": 560,
+        "blockRange": 6441486,
         "counts": {
           "appearanceCount": 68,
           "logCount": 44,
@@ -9612,13 +9738,13 @@
           "date": "2022-01-04 21:09:10 UTC"
         },
         "latestAppearance": {
-          "bn": 21575883,
-          "txId": 8,
-          "timestamp": 1649640685,
-          "date": "2022-04-11 01:31:25 UTC"
+          "bn": 21843098,
+          "txId": 7,
+          "timestamp": 1651010720,
+          "date": "2022-04-26 22:05:20 UTC"
         },
-        "fileSize": 256,
-        "blockRange": 1639942,
+        "fileSize": 272,
+        "blockRange": 1907157,
         "counts": {
           "appearanceCount": 33,
           "logCount": 58,
@@ -9754,6 +9880,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -9766,6 +9893,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -9788,19 +9916,19 @@
       {
         "chainName": "gnosis",
         "firstAppearance": {
-          "bn": 19748260,
-          "txId": 17,
-          "timestamp": 1640363750,
-          "date": "2021-12-24 16:35:50 UTC"
+          "bn": 19742569,
+          "txId": 4,
+          "timestamp": 1640335245,
+          "date": "2021-12-24 08:40:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21560713,
-          "txId": 16,
-          "timestamp": 1649564705,
-          "date": "2022-04-10 04:25:05 UTC"
+          "bn": 21776270,
+          "txId": 4,
+          "timestamp": 1650660505,
+          "date": "2022-04-22 20:48:25 UTC"
         },
-        "fileSize": 808,
-        "blockRange": 1812454,
+        "fileSize": 816,
+        "blockRange": 2033702,
         "counts": {
           "appearanceCount": 101,
           "logCount": 76,
@@ -10121,6 +10249,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -10133,6 +10262,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -10526,6 +10656,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -10538,6 +10669,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -10677,13 +10809,13 @@
           "date": "2021-02-26 02:19:50 UTC"
         },
         "latestAppearance": {
-          "bn": 21590559,
-          "txId": 7,
-          "timestamp": 1649714160,
-          "date": "2022-04-11 21:56:00 UTC"
+          "bn": 21859537,
+          "txId": 5,
+          "timestamp": 1651097785,
+          "date": "2022-04-27 22:16:25 UTC"
         },
-        "fileSize": 968,
-        "blockRange": 6856126,
+        "fileSize": 1072,
+        "blockRange": 7125104,
         "counts": {
           "appearanceCount": 133,
           "logCount": 160,
@@ -10708,13 +10840,13 @@
           "date": "2018-10-23 00:42:01 UTC"
         },
         "latestAppearance": {
-          "bn": 14479904,
-          "txId": 264,
-          "timestamp": 1648540521,
-          "date": "2022-03-29 07:55:21 UTC"
+          "bn": 14581374,
+          "txId": 100,
+          "timestamp": 1649909938,
+          "date": "2022-04-14 04:18:58 UTC"
         },
-        "fileSize": 5208,
-        "blockRange": 7914320,
+        "fileSize": 2616,
+        "blockRange": 8015790,
         "counts": {
           "appearanceCount": 326,
           "logCount": 360,
@@ -10750,13 +10882,13 @@
           "date": "2021-12-19 14:18:40 UTC"
         },
         "latestAppearance": {
-          "bn": 20857205,
-          "txId": 11,
-          "timestamp": 1645992375,
-          "date": "2022-02-27 20:06:15 UTC"
+          "bn": 21875087,
+          "txId": 1,
+          "timestamp": 1651180560,
+          "date": "2022-04-28 21:16:00 UTC"
         },
-        "fileSize": 328,
-        "blockRange": 1195405,
+        "fileSize": 336,
+        "blockRange": 2213287,
         "counts": {
           "appearanceCount": 40,
           "logCount": 52,
@@ -11656,13 +11788,13 @@
           "date": "2021-02-21 00:39:30 UTC"
         },
         "latestAppearance": {
-          "bn": 21552709,
-          "txId": 2,
-          "timestamp": 1649524490,
-          "date": "2022-04-09 17:14:50 UTC"
+          "bn": 21875172,
+          "txId": 3,
+          "timestamp": 1651181025,
+          "date": "2022-04-28 21:23:45 UTC"
         },
-        "fileSize": 808,
-        "blockRange": 6903540,
+        "fileSize": 896,
+        "blockRange": 7226003,
         "counts": {
           "appearanceCount": 110,
           "logCount": 239,
@@ -11681,10 +11813,10 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 9485992,
-          "txId": 135,
-          "timestamp": 1581748189,
-          "date": "2020-02-15 06:29:49 UTC"
+          "bn": 9462484,
+          "txId": 118,
+          "timestamp": 1581434770,
+          "date": "2020-02-11 15:26:10 UTC"
         },
         "latestAppearance": {
           "bn": 14562936,
@@ -11692,8 +11824,8 @@
           "timestamp": 1649660409,
           "date": "2022-04-11 07:00:09 UTC"
         },
-        "fileSize": 6376,
-        "blockRange": 5076945,
+        "fileSize": 3192,
+        "blockRange": 5100453,
         "counts": {
           "appearanceCount": 398,
           "logCount": 315,
@@ -11798,6 +11930,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -11810,6 +11943,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -12060,13 +12194,13 @@
           "date": "2021-10-23 09:18:25 UTC"
         },
         "latestAppearance": {
-          "bn": 20725899,
-          "txId": 4,
-          "timestamp": 1645307375,
-          "date": "2022-02-19 21:49:35 UTC"
+          "bn": 21765318,
+          "txId": 10,
+          "timestamp": 1650604240,
+          "date": "2022-04-22 05:10:40 UTC"
         },
-        "fileSize": 176,
-        "blockRange": 2010751,
+        "fileSize": 184,
+        "blockRange": 3050170,
         "counts": {
           "appearanceCount": 22,
           "logCount": 15,
@@ -12202,6 +12336,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -12214,6 +12349,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -12533,6 +12669,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -12545,6 +12682,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -12697,6 +12835,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 56,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -12709,6 +12848,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -12811,13 +12951,13 @@
           "date": "2021-11-12 01:32:10 UTC"
         },
         "latestAppearance": {
-          "bn": 21535960,
-          "txId": 1,
-          "timestamp": 1649440655,
-          "date": "2022-04-08 17:57:35 UTC"
+          "bn": 21765411,
+          "txId": 3,
+          "timestamp": 1650604730,
+          "date": "2022-04-22 05:18:50 UTC"
         },
-        "fileSize": 408,
-        "blockRange": 2510520,
+        "fileSize": 440,
+        "blockRange": 2739971,
         "counts": {
           "appearanceCount": 54,
           "logCount": 112,
@@ -12836,19 +12976,19 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 11213165,
-          "txId": 90,
-          "timestamp": 1604790499,
-          "date": "2020-11-07 23:08:19 UTC"
+          "bn": 11211473,
+          "txId": 58,
+          "timestamp": 1604767786,
+          "date": "2020-11-07 16:49:46 UTC"
         },
         "latestAppearance": {
-          "bn": 14555086,
+          "bn": 14613981,
           "txId": 52,
-          "timestamp": 1649554889,
-          "date": "2022-04-10 01:41:29 UTC"
+          "timestamp": 1650350066,
+          "date": "2022-04-19 06:34:26 UTC"
         },
-        "fileSize": 2224,
-        "blockRange": 3341922,
+        "fileSize": 2280,
+        "blockRange": 3402509,
         "counts": {
           "appearanceCount": 284,
           "logCount": 304,
@@ -12953,6 +13093,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -12965,6 +13106,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -12988,6 +13130,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -13000,6 +13143,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -13060,6 +13204,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -13070,15 +13215,34 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 14656219,
+          "txId": 169,
+          "timestamp": 1650922628,
+          "date": "2022-04-25 21:37:08 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14656265,
+          "txId": 21,
+          "timestamp": 1650923300,
+          "date": "2022-04-25 21:48:20 UTC"
+        },
+        "fileSize": 32,
+        "blockRange": 47,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 3,
+          "logCount": 2,
+          "transactionCount": 3,
+          "neighborCount": 10,
+          "statementsCount": 3
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       }
     ]
   },
@@ -13094,19 +13258,19 @@
       {
         "chainName": "gnosis",
         "firstAppearance": {
-          "bn": 19837727,
-          "txId": 3,
-          "timestamp": 1640814345,
-          "date": "2021-12-29 21:45:45 UTC"
+          "bn": 19834042,
+          "txId": 9,
+          "timestamp": 1640795850,
+          "date": "2021-12-29 16:37:30 UTC"
         },
         "latestAppearance": {
-          "bn": 21154268,
-          "txId": 2,
-          "timestamp": 1647510365,
-          "date": "2022-03-17 09:46:05 UTC"
+          "bn": 21866080,
+          "txId": 6,
+          "timestamp": 1651132345,
+          "date": "2022-04-28 07:52:25 UTC"
         },
-        "fileSize": 152,
-        "blockRange": 1316542,
+        "fileSize": 200,
+        "blockRange": 2032039,
         "counts": {
           "appearanceCount": 24,
           "logCount": 23,
@@ -13242,6 +13406,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 32,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -13254,6 +13419,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -13277,6 +13443,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -13289,6 +13456,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -13576,13 +13744,13 @@
           "date": "2021-11-12 16:36:00 UTC"
         },
         "latestAppearance": {
-          "bn": 21619705,
-          "txId": 2,
-          "timestamp": 1649865270,
-          "date": "2022-04-13 15:54:30 UTC"
+          "bn": 21886294,
+          "txId": 3,
+          "timestamp": 1651240605,
+          "date": "2022-04-29 13:56:45 UTC"
         },
-        "fileSize": 9672,
-        "blockRange": 2583427,
+        "fileSize": 11264,
+        "blockRange": 2850016,
         "counts": {
           "appearanceCount": 1399,
           "logCount": 3416,
@@ -13607,13 +13775,13 @@
           "date": "2021-12-22 18:37:45 UTC"
         },
         "latestAppearance": {
-          "bn": 14478798,
-          "txId": 39,
-          "timestamp": 1648526008,
-          "date": "2022-03-29 03:53:28 UTC"
+          "bn": 14619112,
+          "txId": 210,
+          "timestamp": 1650419643,
+          "date": "2022-04-20 01:54:03 UTC"
         },
-        "fileSize": 24,
-        "blockRange": 622160,
+        "fileSize": 56,
+        "blockRange": 762474,
         "counts": {
           "appearanceCount": 6,
           "logCount": 6,
@@ -13655,9 +13823,20 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
-        "fileSize": 8,
+        "firstAppearance": {
+          "bn": 14672651,
+          "txId": 102,
+          "timestamp": 1651145918,
+          "date": "2022-04-28 11:38:38 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14672672,
+          "txId": 70,
+          "timestamp": 1651146207,
+          "date": "2022-04-28 11:43:27 UTC"
+        },
+        "fileSize": 32,
+        "blockRange": 22,
         "counts": {
           "appearanceCount": 3,
           "logCount": 2,
@@ -14062,13 +14241,13 @@
           "date": "2021-12-23 02:23:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21046199,
-          "txId": 4,
-          "timestamp": 1646968105,
-          "date": "2022-03-11 03:08:25 UTC"
+          "bn": 21875087,
+          "txId": 1,
+          "timestamp": 1651180560,
+          "date": "2022-04-28 21:16:00 UTC"
         },
-        "fileSize": 520,
-        "blockRange": 1325388,
+        "fileSize": 528,
+        "blockRange": 2154276,
         "counts": {
           "appearanceCount": 64,
           "logCount": 80,
@@ -14389,6 +14568,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -14401,6 +14581,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -14831,6 +15012,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 112,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -14843,6 +15025,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -15475,13 +15658,13 @@
           "date": "2018-02-02 00:44:59 UTC"
         },
         "latestAppearance": {
-          "bn": 14490100,
-          "txId": 21,
-          "timestamp": 1648677873,
-          "date": "2022-03-30 22:04:33 UTC"
+          "bn": 14675071,
+          "txId": 19,
+          "timestamp": 1651179281,
+          "date": "2022-04-28 20:54:41 UTC"
         },
-        "fileSize": 7064,
-        "blockRange": 9475711,
+        "fileSize": 7288,
+        "blockRange": 9660682,
         "counts": {
           "appearanceCount": 909,
           "logCount": 412,
@@ -15807,19 +15990,19 @@
       {
         "chainName": "gnosis",
         "firstAppearance": {
-          "bn": 19746075,
-          "txId": 4,
-          "timestamp": 1640352805,
-          "date": "2021-12-24 13:33:25 UTC"
+          "bn": 19734769,
+          "txId": 6,
+          "timestamp": 1640296180,
+          "date": "2021-12-23 21:49:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21620104,
-          "txId": 6,
-          "timestamp": 1649867270,
-          "date": "2022-04-13 16:27:50 UTC"
+          "bn": 21887103,
+          "txId": 3,
+          "timestamp": 1651244960,
+          "date": "2022-04-29 15:09:20 UTC"
         },
-        "fileSize": 14896,
-        "blockRange": 1874030,
+        "fileSize": 16312,
+        "blockRange": 2152335,
         "counts": {
           "appearanceCount": 1931,
           "logCount": 1957,
@@ -15844,13 +16027,13 @@
           "date": "2021-11-10 20:28:39 UTC"
         },
         "latestAppearance": {
-          "bn": 14551387,
-          "txId": 205,
-          "timestamp": 1649505575,
-          "date": "2022-04-09 11:59:35 UTC"
+          "bn": 14668524,
+          "txId": 117,
+          "timestamp": 1651089555,
+          "date": "2022-04-27 19:59:15 UTC"
         },
-        "fileSize": 1384,
-        "blockRange": 960761,
+        "fileSize": 776,
+        "blockRange": 1077898,
         "counts": {
           "appearanceCount": 96,
           "logCount": 173,
@@ -16144,13 +16327,13 @@
           "date": "2021-05-13 15:06:25 UTC"
         },
         "latestAppearance": {
-          "bn": 21580516,
-          "txId": 1,
-          "timestamp": 1649663905,
-          "date": "2022-04-11 07:58:25 UTC"
+          "bn": 21849870,
+          "txId": 20,
+          "timestamp": 1651046660,
+          "date": "2022-04-27 08:04:20 UTC"
         },
-        "fileSize": 936,
-        "blockRange": 5546831,
+        "fileSize": 968,
+        "blockRange": 5816185,
         "counts": {
           "appearanceCount": 120,
           "logCount": 273,
@@ -16562,19 +16745,19 @@
       {
         "chainName": "gnosis",
         "firstAppearance": {
-          "bn": 14897218,
-          "txId": 3,
-          "timestamp": 1615159685,
-          "date": "2021-03-07 23:28:05 UTC"
+          "bn": 14900077,
+          "txId": 1,
+          "timestamp": 1615175565,
+          "date": "2021-03-08 03:52:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21601405,
-          "txId": 6,
-          "timestamp": 1649769200,
-          "date": "2022-04-12 13:13:20 UTC"
+          "bn": 21880846,
+          "txId": 2,
+          "timestamp": 1651211295,
+          "date": "2022-04-29 05:48:15 UTC"
         },
-        "fileSize": 1672,
-        "blockRange": 6704188,
+        "fileSize": 1808,
+        "blockRange": 6980770,
         "counts": {
           "appearanceCount": 224,
           "logCount": 194,
@@ -16599,13 +16782,13 @@
           "date": "2021-06-18 21:18:37 UTC"
         },
         "latestAppearance": {
-          "bn": 14424248,
-          "txId": 176,
-          "timestamp": 1647792389,
-          "date": "2022-03-20 16:06:29 UTC"
+          "bn": 14673322,
+          "txId": 311,
+          "timestamp": 1651155288,
+          "date": "2022-04-28 14:14:48 UTC"
         },
-        "fileSize": 80,
-        "blockRange": 1763487,
+        "fileSize": 96,
+        "blockRange": 2012561,
         "counts": {
           "appearanceCount": 11,
           "logCount": 10,
@@ -16932,6 +17115,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 24,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -16944,6 +17128,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -17411,6 +17596,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -17423,6 +17609,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -17895,13 +18082,13 @@
           "date": "2021-03-07 18:27:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21537450,
-          "txId": 5,
-          "timestamp": 1649448110,
-          "date": "2022-04-08 20:01:50 UTC"
+          "bn": 21877252,
+          "txId": 4,
+          "timestamp": 1651192105,
+          "date": "2022-04-29 00:28:25 UTC"
         },
-        "fileSize": 1904,
-        "blockRange": 6643571,
+        "fileSize": 1984,
+        "blockRange": 6983373,
         "counts": {
           "appearanceCount": 246,
           "logCount": 212,
@@ -17926,13 +18113,13 @@
           "date": "2020-07-06 19:04:34 UTC"
         },
         "latestAppearance": {
-          "bn": 14504281,
-          "txId": 813,
-          "timestamp": 1648868948,
-          "date": "2022-04-02 03:09:08 UTC"
+          "bn": 14611151,
+          "txId": 231,
+          "timestamp": 1650311903,
+          "date": "2022-04-18 19:58:23 UTC"
         },
-        "fileSize": 23944,
-        "blockRange": 4096661,
+        "fileSize": 12008,
+        "blockRange": 4203531,
         "counts": {
           "appearanceCount": 1500,
           "logCount": 1938,
@@ -18388,6 +18575,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -18400,6 +18588,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -18663,6 +18852,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -18675,6 +18865,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -18925,13 +19116,13 @@
           "date": "2021-04-21 18:51:35 UTC"
         },
         "latestAppearance": {
-          "bn": 21560680,
-          "txId": 12,
-          "timestamp": 1649564535,
-          "date": "2022-04-10 04:22:15 UTC"
+          "bn": 21869017,
+          "txId": 6,
+          "timestamp": 1651147960,
+          "date": "2022-04-28 12:12:40 UTC"
         },
-        "fileSize": 1528,
-        "blockRange": 5901544,
+        "fileSize": 1568,
+        "blockRange": 6209881,
         "counts": {
           "appearanceCount": 195,
           "logCount": 140,
@@ -18973,7 +19164,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 0.9121849499763938
+            "balance": 0.9291849499763938
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -19030,6 +19221,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -19042,6 +19234,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -19749,6 +19942,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -19761,6 +19955,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -19821,6 +20016,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -19833,6 +20029,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -20582,13 +20779,13 @@
           "date": "2022-01-11 05:07:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21578431,
-          "txId": 2,
-          "timestamp": 1649653455,
-          "date": "2022-04-11 05:04:15 UTC"
+          "bn": 21872664,
+          "txId": 16,
+          "timestamp": 1651167655,
+          "date": "2022-04-28 17:40:55 UTC"
         },
-        "fileSize": 144,
-        "blockRange": 1533373,
+        "fileSize": 176,
+        "blockRange": 1827606,
         "counts": {
           "appearanceCount": 21,
           "logCount": 20,
@@ -20613,13 +20810,13 @@
           "date": "2021-12-09 21:03:21 UTC"
         },
         "latestAppearance": {
-          "bn": 14564343,
-          "txId": 45,
-          "timestamp": 1649679283,
-          "date": "2022-04-11 12:14:43 UTC"
+          "bn": 14678623,
+          "txId": 235,
+          "timestamp": 1651227723,
+          "date": "2022-04-29 10:22:03 UTC"
         },
-        "fileSize": 760,
-        "blockRange": 791031,
+        "fileSize": 408,
+        "blockRange": 905311,
         "counts": {
           "appearanceCount": 48,
           "logCount": 62,
@@ -20729,13 +20926,13 @@
           "date": "2022-02-17 20:26:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21128073,
-          "txId": 6,
-          "timestamp": 1647379160,
-          "date": "2022-03-15 21:19:20 UTC"
+          "bn": 21759319,
+          "txId": 19,
+          "timestamp": 1650572395,
+          "date": "2022-04-21 20:19:55 UTC"
         },
-        "fileSize": 56,
-        "blockRange": 436714,
+        "fileSize": 88,
+        "blockRange": 1067960,
         "counts": {
           "appearanceCount": 10,
           "logCount": 11,
@@ -20760,13 +20957,13 @@
           "date": "2021-11-30 05:38:49 UTC"
         },
         "latestAppearance": {
-          "bn": 14302931,
-          "txId": 85,
-          "timestamp": 1646161918,
-          "date": "2022-03-01 19:11:58 UTC"
+          "bn": 14656512,
+          "txId": 287,
+          "timestamp": 1650926456,
+          "date": "2022-04-25 22:40:56 UTC"
         },
-        "fileSize": 168,
-        "blockRange": 589856,
+        "fileSize": 176,
+        "blockRange": 943437,
         "counts": {
           "appearanceCount": 21,
           "logCount": 9,
@@ -21056,6 +21253,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -21068,6 +21266,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -21631,12 +21830,13 @@
           "date": "2020-09-07 22:55:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21623579,
-          "timestamp": 1649884830,
-          "date": "2022-04-13 21:20:30 UTC"
+          "bn": 21775020,
+          "txId": 4,
+          "timestamp": 1650654235,
+          "date": "2022-04-22 19:03:55 UTC"
         },
-        "fileSize": 3104,
-        "blockRange": 9736815,
+        "fileSize": 3128,
+        "blockRange": 9888256,
         "counts": {
           "appearanceCount": 390,
           "logCount": 604,
@@ -21661,13 +21861,13 @@
           "date": "2019-01-08 12:49:22 UTC"
         },
         "latestAppearance": {
-          "bn": 14518811,
-          "txId": 60,
-          "timestamp": 1649065757,
-          "date": "2022-04-04 09:49:17 UTC"
+          "bn": 14657011,
+          "txId": 117,
+          "timestamp": 1650933654,
+          "date": "2022-04-26 00:40:54 UTC"
         },
-        "fileSize": 4408,
-        "blockRange": 7487451,
+        "fileSize": 4432,
+        "blockRange": 7625651,
         "counts": {
           "appearanceCount": 553,
           "logCount": 845,
@@ -21943,13 +22143,13 @@
           "date": "2022-01-25 02:35:20 UTC"
         },
         "latestAppearance": {
-          "bn": 21601544,
-          "txId": 4,
-          "timestamp": 1649769930,
-          "date": "2022-04-12 13:25:30 UTC"
+          "bn": 21885335,
+          "txId": 3,
+          "timestamp": 1651235420,
+          "date": "2022-04-29 12:30:20 UTC"
         },
-        "fileSize": 2352,
-        "blockRange": 1316914,
+        "fileSize": 2656,
+        "blockRange": 1600705,
         "counts": {
           "appearanceCount": 329,
           "logCount": 337,
@@ -21974,13 +22174,13 @@
           "date": "2022-01-25 02:42:56 UTC"
         },
         "latestAppearance": {
-          "bn": 14548025,
-          "txId": 118,
-          "timestamp": 1649460274,
-          "date": "2022-04-08 23:24:34 UTC"
+          "bn": 14610486,
+          "txId": 56,
+          "timestamp": 1650302535,
+          "date": "2022-04-18 17:22:15 UTC"
         },
-        "fileSize": 48,
-        "blockRange": 475852,
+        "fileSize": 56,
+        "blockRange": 538313,
         "counts": {
           "appearanceCount": 6,
           "logCount": 11,
@@ -22750,6 +22950,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 40,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -22762,6 +22963,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -23044,6 +23246,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -23056,6 +23259,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -23158,13 +23362,13 @@
           "date": "2021-04-05 19:38:05 UTC"
         },
         "latestAppearance": {
-          "bn": 21568526,
-          "txId": 3,
-          "timestamp": 1649603835,
-          "date": "2022-04-10 15:17:15 UTC"
+          "bn": 21883146,
+          "txId": 1,
+          "timestamp": 1651223565,
+          "date": "2022-04-29 09:12:45 UTC"
         },
-        "fileSize": 6384,
-        "blockRange": 6182494,
+        "fileSize": 6864,
+        "blockRange": 6497114,
         "counts": {
           "appearanceCount": 850,
           "logCount": 1896,
@@ -23189,13 +23393,13 @@
           "date": "2021-03-01 20:05:51 UTC"
         },
         "latestAppearance": {
-          "bn": 14496676,
-          "txId": 377,
-          "timestamp": 1648766434,
-          "date": "2022-03-31 22:40:34 UTC"
+          "bn": 14584591,
+          "txId": 163,
+          "timestamp": 1649953213,
+          "date": "2022-04-14 16:20:13 UTC"
         },
-        "fileSize": 168,
-        "blockRange": 2542295,
+        "fileSize": 176,
+        "blockRange": 2630210,
         "counts": {
           "appearanceCount": 21,
           "logCount": 12,
@@ -23485,6 +23689,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -23497,6 +23702,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -23816,6 +24022,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -23828,6 +24035,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -24521,13 +24729,13 @@
           "date": "2021-12-31 12:31:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21568536,
-          "txId": 6,
-          "timestamp": 1649603885,
-          "date": "2022-04-10 15:18:05 UTC"
+          "bn": 21872859,
+          "txId": 2,
+          "timestamp": 1651168685,
+          "date": "2022-04-28 17:58:05 UTC"
         },
-        "fileSize": 432,
-        "blockRange": 1703722,
+        "fileSize": 488,
+        "blockRange": 2008045,
         "counts": {
           "appearanceCount": 60,
           "logCount": 59,
@@ -24793,6 +25001,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -24805,6 +25014,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -25720,13 +25930,13 @@
           "date": "2020-11-07 15:38:10 UTC"
         },
         "latestAppearance": {
-          "bn": 21577625,
-          "txId": 4,
-          "timestamp": 1649649425,
-          "date": "2022-04-11 03:57:05 UTC"
+          "bn": 21888089,
+          "txId": 5,
+          "timestamp": 1651250210,
+          "date": "2022-04-29 16:36:50 UTC"
         },
-        "fileSize": 2912,
-        "blockRange": 8672196,
+        "fileSize": 3312,
+        "blockRange": 8982660,
         "counts": {
           "appearanceCount": 412,
           "logCount": 323,
@@ -25745,19 +25955,19 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 9740582,
-          "txId": 39,
-          "timestamp": 1585140959,
-          "date": "2020-03-25 12:55:59 UTC"
+          "bn": 9725077,
+          "txId": 161,
+          "timestamp": 1584930921,
+          "date": "2020-03-23 02:35:21 UTC"
         },
         "latestAppearance": {
-          "bn": 14530172,
-          "txId": 13,
-          "timestamp": 1649218670,
-          "date": "2022-04-06 04:17:50 UTC"
+          "bn": 14619057,
+          "txId": 81,
+          "timestamp": 1650418913,
+          "date": "2022-04-20 01:41:53 UTC"
         },
-        "fileSize": 40344,
-        "blockRange": 4789591,
+        "fileSize": 20248,
+        "blockRange": 4893981,
         "counts": {
           "appearanceCount": 2530,
           "logCount": 4048,
@@ -25830,13 +26040,12 @@
           "date": "2022-01-05 17:23:30 UTC"
         },
         "latestAppearance": {
-          "bn": 21543456,
-          "txId": 2,
-          "timestamp": 1649478165,
-          "date": "2022-04-09 04:22:45 UTC"
+          "bn": 21876585,
+          "timestamp": 1651188545,
+          "date": "2022-04-28 23:29:05 UTC"
         },
-        "fileSize": 2232,
-        "blockRange": 1593050,
+        "fileSize": 2312,
+        "blockRange": 1926179,
         "counts": {
           "appearanceCount": 287,
           "logCount": 790,
@@ -25977,13 +26186,13 @@
           "date": "2021-11-23 17:45:05 UTC"
         },
         "latestAppearance": {
-          "bn": 21432032,
-          "txId": 6,
-          "timestamp": 1648920475,
-          "date": "2022-04-02 17:27:55 UTC"
+          "bn": 21871763,
+          "txId": 4,
+          "timestamp": 1651162820,
+          "date": "2022-04-28 16:20:20 UTC"
         },
-        "fileSize": 264,
-        "blockRange": 2210895,
+        "fileSize": 280,
+        "blockRange": 2650626,
         "counts": {
           "appearanceCount": 34,
           "logCount": 31,
@@ -26711,6 +26920,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -26723,6 +26933,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -26899,13 +27110,13 @@
           "date": "2021-01-26 08:23:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21587547,
-          "txId": 4,
-          "timestamp": 1649699095,
-          "date": "2022-04-11 17:44:55 UTC"
+          "bn": 21888346,
+          "txId": 7,
+          "timestamp": 1651251605,
+          "date": "2022-04-29 17:00:05 UTC"
         },
-        "fileSize": 5768,
-        "blockRange": 7364101,
+        "fileSize": 5936,
+        "blockRange": 7664900,
         "counts": {
           "appearanceCount": 740,
           "logCount": 1803,
@@ -26930,13 +27141,13 @@
           "date": "2020-07-05 22:28:19 UTC"
         },
         "latestAppearance": {
-          "bn": 14556356,
-          "txId": 30,
-          "timestamp": 1649572462,
-          "date": "2022-04-10 06:34:22 UTC"
+          "bn": 14661919,
+          "txId": 215,
+          "timestamp": 1651000798,
+          "date": "2022-04-26 19:19:58 UTC"
         },
-        "fileSize": 13208,
-        "blockRange": 4154257,
+        "fileSize": 13272,
+        "blockRange": 4259820,
         "counts": {
           "appearanceCount": 1658,
           "logCount": 2318,
@@ -27194,13 +27405,13 @@
           "date": "2021-12-29 20:44:05 UTC"
         },
         "latestAppearance": {
-          "bn": 21040678,
-          "txId": 1,
-          "timestamp": 1646939790,
-          "date": "2022-03-10 19:16:30 UTC"
+          "bn": 21776118,
+          "txId": 2,
+          "timestamp": 1650659740,
+          "date": "2022-04-22 20:35:40 UTC"
         },
-        "fileSize": 72,
-        "blockRange": 1203687,
+        "fileSize": 104,
+        "blockRange": 1939127,
         "counts": {
           "appearanceCount": 12,
           "logCount": 8,
@@ -27355,6 +27566,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -27367,6 +27579,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -27691,13 +27904,13 @@
           "date": "2021-03-26 09:29:35 UTC"
         },
         "latestAppearance": {
-          "bn": 21615027,
-          "txId": 5,
-          "timestamp": 1649840675,
-          "date": "2022-04-13 09:04:35 UTC"
+          "bn": 21873298,
+          "txId": 11,
+          "timestamp": 1651171025,
+          "date": "2022-04-28 18:37:05 UTC"
         },
-        "fileSize": 232,
-        "blockRange": 6407124,
+        "fileSize": 256,
+        "blockRange": 6665395,
         "counts": {
           "appearanceCount": 31,
           "logCount": 21,
@@ -27870,6 +28083,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -27882,6 +28096,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -28021,13 +28236,13 @@
           "date": "2021-03-28 12:42:30 UTC"
         },
         "latestAppearance": {
-          "bn": 21480423,
-          "txId": 4,
-          "timestamp": 1649162740,
-          "date": "2022-04-05 12:45:40 UTC"
+          "bn": 21717281,
+          "txId": 2,
+          "timestamp": 1650354430,
+          "date": "2022-04-19 07:47:10 UTC"
         },
-        "fileSize": 584,
-        "blockRange": 6236030,
+        "fileSize": 624,
+        "blockRange": 6472888,
         "counts": {
           "appearanceCount": 77,
           "logCount": 142,
@@ -28046,10 +28261,10 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 9560564,
-          "txId": 94,
-          "timestamp": 1582739017,
-          "date": "2020-02-26 17:43:37 UTC"
+          "bn": 9543227,
+          "txId": 8,
+          "timestamp": 1582508337,
+          "date": "2020-02-24 01:38:57 UTC"
         },
         "latestAppearance": {
           "bn": 12102929,
@@ -28058,7 +28273,7 @@
           "date": "2021-03-24 17:26:49 UTC"
         },
         "fileSize": 200,
-        "blockRange": 2542366,
+        "blockRange": 2559703,
         "counts": {
           "appearanceCount": 24,
           "logCount": 16,
@@ -28200,6 +28415,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -28212,6 +28428,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -28357,9 +28574,20 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
-        "fileSize": 8,
+        "firstAppearance": {
+          "bn": 14672745,
+          "txId": 91,
+          "timestamp": 1651147412,
+          "date": "2022-04-28 12:03:32 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14672798,
+          "txId": 82,
+          "timestamp": 1651148296,
+          "date": "2022-04-28 12:18:16 UTC"
+        },
+        "fileSize": 32,
+        "blockRange": 54,
         "counts": {
           "appearanceCount": 3,
           "logCount": 4,
@@ -28457,19 +28685,19 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 13508158,
-          "txId": 190,
-          "timestamp": 1635457172,
-          "date": "2021-10-28 21:39:32 UTC"
-        },
-        "latestAppearance": {
           "bn": 13506283,
           "txId": 443,
           "timestamp": 1635431598,
           "date": "2021-10-28 14:33:18 UTC"
         },
+        "latestAppearance": {
+          "bn": 13508158,
+          "txId": 190,
+          "timestamp": 1635457172,
+          "date": "2021-10-28 21:39:32 UTC"
+        },
         "fileSize": 24,
-        "blockRange": -1874,
+        "blockRange": 1876,
         "counts": {
           "appearanceCount": 2,
           "logCount": 0,
@@ -28611,6 +28839,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 128,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -28623,6 +28852,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -28650,13 +28880,13 @@
           "date": "2021-12-27 00:03:20 UTC"
         },
         "latestAppearance": {
-          "bn": 21592496,
-          "txId": 1,
-          "timestamp": 1649723890,
-          "date": "2022-04-12 00:38:10 UTC"
+          "bn": 21887359,
+          "txId": 12,
+          "timestamp": 1651246315,
+          "date": "2022-04-29 15:31:55 UTC"
         },
-        "fileSize": 1248,
-        "blockRange": 1804877,
+        "fileSize": 1480,
+        "blockRange": 2099740,
         "counts": {
           "appearanceCount": 180,
           "logCount": 113,
@@ -28675,10 +28905,10 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 14424248,
-          "txId": 176,
-          "timestamp": 1647792389,
-          "date": "2022-03-20 16:06:29 UTC"
+          "bn": 14418636,
+          "txId": 167,
+          "timestamp": 1647716287,
+          "date": "2022-03-19 18:58:07 UTC"
         },
         "latestAppearance": {
           "bn": 14490075,
@@ -28687,7 +28917,7 @@
           "date": "2022-03-30 21:57:30 UTC"
         },
         "fileSize": 40,
-        "blockRange": 65828,
+        "blockRange": 71440,
         "counts": {
           "appearanceCount": 4,
           "logCount": 2,
@@ -28903,6 +29133,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -28915,6 +29146,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -29134,9 +29366,20 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
-        "fileSize": 8,
+        "firstAppearance": {
+          "bn": 14672762,
+          "txId": 366,
+          "timestamp": 1651147711,
+          "date": "2022-04-28 12:08:31 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14673051,
+          "txId": 67,
+          "timestamp": 1651151650,
+          "date": "2022-04-28 13:14:10 UTC"
+        },
+        "fileSize": 32,
+        "blockRange": 290,
         "counts": {
           "appearanceCount": 3,
           "logCount": 4,
@@ -29278,6 +29521,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -29290,6 +29534,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -29313,6 +29558,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -29325,6 +29571,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -29494,13 +29741,13 @@
           "date": "2022-01-15 22:12:17 UTC"
         },
         "latestAppearance": {
-          "bn": 14565882,
-          "txId": 94,
-          "timestamp": 1649700184,
-          "date": "2022-04-11 18:03:04 UTC"
+          "bn": 14578390,
+          "txId": 113,
+          "timestamp": 1649869966,
+          "date": "2022-04-13 17:12:46 UTC"
         },
-        "fileSize": 64,
-        "blockRange": 553168,
+        "fileSize": 72,
+        "blockRange": 565676,
         "counts": {
           "appearanceCount": 8,
           "logCount": 5,
@@ -29974,6 +30221,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 112,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -29986,6 +30234,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -30564,6 +30813,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -30576,6 +30826,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -30973,13 +31224,13 @@
           "date": "2021-03-30 21:05:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21524425,
-          "txId": 2,
-          "timestamp": 1649382960,
-          "date": "2022-04-08 01:56:00 UTC"
+          "bn": 21875042,
+          "txId": 6,
+          "timestamp": 1651180320,
+          "date": "2022-04-28 21:12:00 UTC"
         },
-        "fileSize": 6016,
-        "blockRange": 6239806,
+        "fileSize": 6048,
+        "blockRange": 6590423,
         "counts": {
           "appearanceCount": 754,
           "logCount": 135,
@@ -31009,7 +31260,7 @@
           "timestamp": 1649122039,
           "date": "2022-04-05 01:27:19 UTC"
         },
-        "fileSize": 22008,
+        "fileSize": 11008,
         "blockRange": 5392813,
         "counts": {
           "appearanceCount": 1375,
@@ -31263,6 +31514,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -31275,6 +31527,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -31525,13 +31778,13 @@
           "date": "2021-12-24 16:36:50 UTC"
         },
         "latestAppearance": {
-          "bn": 21575532,
-          "txId": 9,
-          "timestamp": 1649638930,
-          "date": "2022-04-11 01:02:10 UTC"
+          "bn": 21872708,
+          "txId": 7,
+          "timestamp": 1651167890,
+          "date": "2022-04-28 17:44:50 UTC"
         },
-        "fileSize": 464,
-        "blockRange": 1827261,
+        "fileSize": 520,
+        "blockRange": 2124437,
         "counts": {
           "appearanceCount": 64,
           "logCount": 82,
@@ -31778,6 +32031,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -31790,6 +32044,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -31886,13 +32141,13 @@
           "date": "2021-12-25 11:23:46 UTC"
         },
         "latestAppearance": {
-          "bn": 14313550,
-          "txId": 290,
-          "timestamp": 1646304241,
-          "date": "2022-03-03 10:44:01 UTC"
+          "bn": 14316534,
+          "txId": 58,
+          "timestamp": 1646343999,
+          "date": "2022-03-03 21:46:39 UTC"
         },
         "fileSize": 40,
-        "blockRange": 439516,
+        "blockRange": 442500,
         "counts": {
           "appearanceCount": 4,
           "logCount": 1,
@@ -31923,6 +32178,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -31935,6 +32191,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -32938,6 +33195,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -32950,6 +33208,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -33052,13 +33311,13 @@
           "date": "2021-07-01 16:56:50 UTC"
         },
         "latestAppearance": {
-          "bn": 21580490,
-          "txId": 1,
-          "timestamp": 1649663775,
-          "date": "2022-04-11 07:56:15 UTC"
+          "bn": 21758419,
+          "txId": 4,
+          "timestamp": 1650567615,
+          "date": "2022-04-21 19:00:15 UTC"
         },
-        "fileSize": 1080,
-        "blockRange": 4719250,
+        "fileSize": 1096,
+        "blockRange": 4897179,
         "counts": {
           "appearanceCount": 136,
           "logCount": 267,
@@ -33643,13 +33902,13 @@
           "date": "2021-12-23 02:23:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21510136,
+          "bn": 21875184,
           "txId": 3,
-          "timestamp": 1649311455,
-          "date": "2022-04-07 06:04:15 UTC"
+          "timestamp": 1651181085,
+          "date": "2022-04-28 21:24:45 UTC"
         },
-        "fileSize": 40,
-        "blockRange": 1789325,
+        "fileSize": 48,
+        "blockRange": 2154373,
         "counts": {
           "appearanceCount": 4,
           "logCount": 2,
@@ -34525,6 +34784,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 72,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -34535,15 +34795,34 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 13995313,
+          "txId": 210,
+          "timestamp": 1642051832,
+          "date": "2022-01-13 05:30:32 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14671275,
+          "txId": 233,
+          "timestamp": 1651127545,
+          "date": "2022-04-28 06:32:25 UTC"
+        },
+        "fileSize": 320,
+        "blockRange": 675963,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 39,
+          "logCount": 37,
+          "transactionCount": 39,
+          "neighborCount": 190,
+          "statementsCount": 47
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.10486736838664108
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       }
     ]
   },
@@ -34602,13 +34881,12 @@
           "date": "2022-01-03 15:08:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21112704,
-          "txId": 2,
-          "timestamp": 1647301925,
-          "date": "2022-03-14 23:52:05 UTC"
+          "bn": 21880209,
+          "timestamp": 1651207895,
+          "date": "2022-04-29 04:51:35 UTC"
         },
-        "fileSize": 584,
-        "blockRange": 1197140,
+        "fileSize": 656,
+        "blockRange": 1964645,
         "counts": {
           "appearanceCount": 72,
           "logCount": 125,
@@ -34966,6 +35244,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -34978,6 +35257,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -35297,6 +35577,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 40,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -35309,6 +35590,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -35369,6 +35651,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 232,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -35379,15 +35662,34 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 14340960,
+          "txId": 171,
+          "timestamp": 1646672573,
+          "date": "2022-03-07 17:02:53 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14481510,
+          "txId": 190,
+          "timestamp": 1648562539,
+          "date": "2022-03-29 14:02:19 UTC"
+        },
+        "fileSize": 72,
+        "blockRange": 140551,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 8,
+          "logCount": 9,
+          "transactionCount": 8,
+          "neighborCount": 82,
+          "statementsCount": 15
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.0836625957340227
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       }
     ]
   },
@@ -35663,6 +35965,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -35675,6 +35978,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -35925,13 +36229,13 @@
           "date": "2021-12-08 19:50:15 UTC"
         },
         "latestAppearance": {
-          "bn": 20153934,
-          "txId": 3,
-          "timestamp": 1642423845,
-          "date": "2022-01-17 12:50:45 UTC"
+          "bn": 21872114,
+          "txId": 1,
+          "timestamp": 1651164725,
+          "date": "2022-04-28 16:52:05 UTC"
         },
-        "fileSize": 72,
-        "blockRange": 675338,
+        "fileSize": 88,
+        "blockRange": 2393518,
         "counts": {
           "appearanceCount": 10,
           "logCount": 10,
@@ -36108,13 +36412,13 @@
           "date": "2020-04-02 01:12:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21602529,
-          "txId": 3,
-          "timestamp": 1649775135,
-          "date": "2022-04-12 14:52:15 UTC"
+          "bn": 21882080,
+          "txId": 4,
+          "timestamp": 1651217890,
+          "date": "2022-04-29 07:38:10 UTC"
         },
-        "fileSize": 2112,
-        "blockRange": 12404717,
+        "fileSize": 2200,
+        "blockRange": 12684268,
         "counts": {
           "appearanceCount": 273,
           "logCount": 211,
@@ -36139,13 +36443,13 @@
           "date": "2020-03-23 10:41:33 UTC"
         },
         "latestAppearance": {
-          "bn": 14487620,
-          "txId": 99,
-          "timestamp": 1648644290,
-          "date": "2022-03-30 12:44:50 UTC"
+          "bn": 14626420,
+          "txId": 308,
+          "timestamp": 1650518336,
+          "date": "2022-04-21 05:18:56 UTC"
         },
-        "fileSize": 6152,
-        "blockRange": 4760368,
+        "fileSize": 3120,
+        "blockRange": 4899168,
         "counts": {
           "appearanceCount": 389,
           "logCount": 447,
@@ -36287,6 +36591,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 24,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -36299,6 +36604,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -36438,13 +36744,13 @@
           "date": "2021-11-09 04:03:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21516537,
-          "txId": 1,
-          "timestamp": 1649343490,
-          "date": "2022-04-07 14:58:10 UTC"
+          "bn": 21637780,
+          "txId": 4,
+          "timestamp": 1649956385,
+          "date": "2022-04-14 17:13:05 UTC"
         },
-        "fileSize": 288,
-        "blockRange": 2540648,
+        "fileSize": 312,
+        "blockRange": 2661891,
         "counts": {
           "appearanceCount": 38,
           "logCount": 39,
@@ -36469,13 +36775,13 @@
           "date": "2021-10-28 13:13:12 UTC"
         },
         "latestAppearance": {
-          "bn": 14159574,
-          "txId": 200,
-          "timestamp": 1644245580,
-          "date": "2022-02-07 14:53:00 UTC"
+          "bn": 14578810,
+          "txId": 52,
+          "timestamp": 1649875305,
+          "date": "2022-04-13 18:41:45 UTC"
         },
-        "fileSize": 824,
-        "blockRange": 653632,
+        "fileSize": 848,
+        "blockRange": 1072868,
         "counts": {
           "appearanceCount": 105,
           "logCount": 19,
@@ -36548,13 +36854,13 @@
           "date": "2020-10-22 12:59:30 UTC"
         },
         "latestAppearance": {
-          "bn": 21608680,
-          "txId": 3,
-          "timestamp": 1649807155,
-          "date": "2022-04-12 23:45:55 UTC"
+          "bn": 21842220,
+          "txId": 12,
+          "timestamp": 1651006065,
+          "date": "2022-04-26 20:47:45 UTC"
         },
-        "fileSize": 976,
-        "blockRange": 8965771,
+        "fileSize": 1040,
+        "blockRange": 9199311,
         "counts": {
           "appearanceCount": 129,
           "logCount": 256,
@@ -36584,7 +36890,7 @@
           "timestamp": 1649594210,
           "date": "2022-04-10 12:36:50 UTC"
         },
-        "fileSize": 4360,
+        "fileSize": 2184,
         "blockRange": 5197912,
         "counts": {
           "appearanceCount": 272,
@@ -37250,13 +37556,13 @@
           "date": "2021-05-11 03:28:00 UTC"
         },
         "latestAppearance": {
-          "bn": 21576316,
-          "txId": 2,
-          "timestamp": 1649642855,
-          "date": "2022-04-11 02:07:35 UTC"
+          "bn": 21844549,
+          "txId": 3,
+          "timestamp": 1651018525,
+          "date": "2022-04-27 00:15:25 UTC"
         },
-        "fileSize": 736,
-        "blockRange": 5584629,
+        "fileSize": 864,
+        "blockRange": 5852862,
         "counts": {
           "appearanceCount": 107,
           "logCount": 189,
@@ -37656,13 +37962,13 @@
           "date": "2022-02-24 15:38:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21531632,
-          "txId": 2,
-          "timestamp": 1649419005,
-          "date": "2022-04-08 11:56:45 UTC"
+          "bn": 21724673,
+          "txId": 3,
+          "timestamp": 1650391550,
+          "date": "2022-04-19 18:05:50 UTC"
         },
-        "fileSize": 544,
-        "blockRange": 727242,
+        "fileSize": 600,
+        "blockRange": 920283,
         "counts": {
           "appearanceCount": 74,
           "logCount": 181,
@@ -37780,6 +38086,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -37792,6 +38099,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -37929,7 +38237,7 @@
           "timestamp": 1648155383,
           "date": "2022-03-24 20:56:23 UTC"
         },
-        "fileSize": 2872,
+        "fileSize": 1440,
         "blockRange": 5365964,
         "counts": {
           "appearanceCount": 179,
@@ -38169,13 +38477,13 @@
           "date": "2022-03-16 08:28:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21298850,
-          "txId": 2,
-          "timestamp": 1648237485,
-          "date": "2022-03-25 19:44:45 UTC"
+          "bn": 21868931,
+          "txId": 1,
+          "timestamp": 1651147505,
+          "date": "2022-04-28 12:05:05 UTC"
         },
-        "fileSize": 24,
-        "blockRange": 162773,
+        "fileSize": 32,
+        "blockRange": 732854,
         "counts": {
           "appearanceCount": 3,
           "logCount": 2,
@@ -38668,13 +38976,13 @@
           "date": "2022-01-10 23:09:30 UTC"
         },
         "latestAppearance": {
-          "bn": 21578461,
-          "txId": 3,
-          "timestamp": 1649653605,
-          "date": "2022-04-11 05:06:45 UTC"
+          "bn": 21760653,
+          "txId": 6,
+          "timestamp": 1650579450,
+          "date": "2022-04-21 22:17:30 UTC"
         },
-        "fileSize": 120,
-        "blockRange": 1537693,
+        "fileSize": 144,
+        "blockRange": 1719885,
         "counts": {
           "appearanceCount": 17,
           "logCount": 28,
@@ -38699,13 +39007,13 @@
           "date": "2021-08-21 23:33:41 UTC"
         },
         "latestAppearance": {
-          "bn": 13077576,
-          "txId": 190,
-          "timestamp": 1629667830,
-          "date": "2021-08-22 21:30:30 UTC"
+          "bn": 13079032,
+          "txId": 214,
+          "timestamp": 1629687108,
+          "date": "2021-08-23 02:51:48 UTC"
         },
         "fileSize": 104,
-        "blockRange": 5934,
+        "blockRange": 7390,
         "counts": {
           "appearanceCount": 12,
           "logCount": 6,
@@ -38847,6 +39155,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -38859,6 +39168,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -38919,6 +39229,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -38931,6 +39242,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -39070,13 +39382,13 @@
           "date": "2021-07-05 21:56:20 UTC"
         },
         "latestAppearance": {
-          "bn": 21594297,
-          "txId": 3,
-          "timestamp": 1649732900,
-          "date": "2022-04-12 03:08:20 UTC"
+          "bn": 21874178,
+          "txId": 7,
+          "timestamp": 1651175720,
+          "date": "2022-04-28 19:55:20 UTC"
         },
-        "fileSize": 1512,
-        "blockRange": 4665901,
+        "fileSize": 1568,
+        "blockRange": 4945782,
         "counts": {
           "appearanceCount": 194,
           "logCount": 232,
@@ -39175,6 +39487,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 32,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -39187,6 +39500,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -39548,13 +39862,13 @@
           "date": "2021-03-24 15:16:55 UTC"
         },
         "latestAppearance": {
-          "bn": 21398442,
+          "bn": 21825910,
           "txId": 13,
-          "timestamp": 1648749345,
-          "date": "2022-03-31 17:55:45 UTC"
+          "timestamp": 1650919335,
+          "date": "2022-04-25 20:42:15 UTC"
         },
-        "fileSize": 1352,
-        "blockRange": 6220537,
+        "fileSize": 1360,
+        "blockRange": 6648005,
         "counts": {
           "appearanceCount": 169,
           "logCount": 174,
@@ -39579,13 +39893,13 @@
           "date": "2021-03-23 18:35:15 UTC"
         },
         "latestAppearance": {
-          "bn": 14171822,
-          "txId": 165,
-          "timestamp": 1644408567,
-          "date": "2022-02-09 12:09:27 UTC"
+          "bn": 14668687,
+          "txId": 121,
+          "timestamp": 1651091899,
+          "date": "2022-04-27 20:38:19 UTC"
         },
-        "fileSize": 1272,
-        "blockRange": 2075038,
+        "fileSize": 1280,
+        "blockRange": 2571903,
         "counts": {
           "appearanceCount": 159,
           "logCount": 155,
@@ -39616,6 +39930,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -39628,6 +39943,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -40543,13 +40859,13 @@
           "date": "2021-03-29 12:46:55 UTC"
         },
         "latestAppearance": {
-          "bn": 21540093,
-          "txId": 34,
-          "timestamp": 1649461345,
-          "date": "2022-04-08 23:42:25 UTC"
+          "bn": 21724782,
+          "txId": 2,
+          "timestamp": 1650392095,
+          "date": "2022-04-19 18:14:55 UTC"
         },
-        "fileSize": 528,
-        "blockRange": 6278506,
+        "fileSize": 536,
+        "blockRange": 6463195,
         "counts": {
           "appearanceCount": 66,
           "logCount": 28,
@@ -40568,19 +40884,19 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 11421387,
-          "txId": 79,
-          "timestamp": 1607552683,
-          "date": "2020-12-09 22:24:43 UTC"
+          "bn": 11417638,
+          "txId": 92,
+          "timestamp": 1607503250,
+          "date": "2020-12-09 08:40:50 UTC"
         },
         "latestAppearance": {
-          "bn": 14443930,
-          "txId": 192,
-          "timestamp": 1648057025,
-          "date": "2022-03-23 17:37:05 UTC"
+          "bn": 14600132,
+          "txId": 77,
+          "timestamp": 1650162239,
+          "date": "2022-04-17 02:23:59 UTC"
         },
-        "fileSize": 4456,
-        "blockRange": 3022544,
+        "fileSize": 2248,
+        "blockRange": 3182495,
         "counts": {
           "appearanceCount": 280,
           "logCount": 302,
@@ -40616,13 +40932,13 @@
           "date": "2022-04-01 04:27:10 UTC"
         },
         "latestAppearance": {
-          "bn": 21558522,
-          "txId": 2,
-          "timestamp": 1649553720,
-          "date": "2022-04-10 01:22:00 UTC"
+          "bn": 21760297,
+          "txId": 7,
+          "timestamp": 1650577565,
+          "date": "2022-04-21 21:46:05 UTC"
         },
-        "fileSize": 72,
-        "blockRange": 152905,
+        "fileSize": 152,
+        "blockRange": 354680,
         "counts": {
           "appearanceCount": 18,
           "logCount": 44,
@@ -40666,6 +40982,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -40678,6 +40995,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -41223,7 +41541,7 @@
           "timestamp": 1645274562,
           "date": "2022-02-19 12:42:42 UTC"
         },
-        "fileSize": 3640,
+        "fileSize": 1824,
         "blockRange": 1626028,
         "counts": {
           "appearanceCount": 227,
@@ -41606,6 +41924,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -41618,6 +41937,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -41752,6 +42072,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 32,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -41764,6 +42085,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -42083,6 +42405,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -42095,6 +42418,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -42377,6 +42701,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -42389,6 +42714,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -42676,13 +43002,13 @@
           "date": "2021-12-02 15:54:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21534958,
-          "txId": 22,
-          "timestamp": 1649435645,
-          "date": "2022-04-08 16:34:05 UTC"
+          "bn": 21878929,
+          "txId": 5,
+          "timestamp": 1651201045,
+          "date": "2022-04-29 02:57:25 UTC"
         },
-        "fileSize": 192,
-        "blockRange": 2162047,
+        "fileSize": 216,
+        "blockRange": 2506018,
         "counts": {
           "appearanceCount": 25,
           "logCount": 13,
@@ -42984,6 +43310,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -42996,6 +43323,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -43024,13 +43352,13 @@
           "date": "2021-12-23 03:15:05 UTC"
         },
         "latestAppearance": {
-          "bn": 21563615,
+          "bn": 21851183,
           "txId": 6,
-          "timestamp": 1649579230,
-          "date": "2022-04-10 08:27:10 UTC"
+          "timestamp": 1651053610,
+          "date": "2022-04-27 10:00:10 UTC"
         },
-        "fileSize": 224,
-        "blockRange": 1842190,
+        "fileSize": 248,
+        "blockRange": 2129758,
         "counts": {
           "appearanceCount": 30,
           "logCount": 37,
@@ -43314,6 +43642,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -43326,6 +43655,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -43853,13 +44183,13 @@
           "date": "2021-04-13 15:35:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21620183,
-          "txId": 6,
-          "timestamp": 1649867665,
-          "date": "2022-04-13 16:34:25 UTC"
+          "bn": 21835083,
+          "txId": 7,
+          "timestamp": 1650967945,
+          "date": "2022-04-26 10:12:25 UTC"
         },
-        "fileSize": 1184,
-        "blockRange": 6101321,
+        "fileSize": 1208,
+        "blockRange": 6316221,
         "counts": {
           "appearanceCount": 150,
           "logCount": 339,
@@ -43889,7 +44219,7 @@
           "timestamp": 1647302767,
           "date": "2022-03-15 00:06:07 UTC"
         },
-        "fileSize": 696,
+        "fileSize": 352,
         "blockRange": 2357674,
         "counts": {
           "appearanceCount": 43,
@@ -44364,6 +44694,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -44376,6 +44707,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -44440,13 +44772,13 @@
           "date": "2021-04-15 04:31:00 UTC"
         },
         "latestAppearance": {
-          "bn": 21598487,
-          "txId": 4,
-          "timestamp": 1649753865,
-          "date": "2022-04-12 08:57:45 UTC"
+          "bn": 21852091,
+          "txId": 3,
+          "timestamp": 1651058425,
+          "date": "2022-04-27 11:20:25 UTC"
         },
-        "fileSize": 328,
-        "blockRange": 6053109,
+        "fileSize": 368,
+        "blockRange": 6306713,
         "counts": {
           "appearanceCount": 45,
           "logCount": 38,
@@ -44508,6 +44840,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -44520,6 +44853,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -44714,13 +45048,13 @@
           "date": "2021-12-23 03:15:05 UTC"
         },
         "latestAppearance": {
-          "bn": 21578422,
-          "txId": 2,
-          "timestamp": 1649653410,
-          "date": "2022-04-11 05:03:30 UTC"
+          "bn": 21858781,
+          "txId": 26,
+          "timestamp": 1651093795,
+          "date": "2022-04-27 21:09:55 UTC"
         },
-        "fileSize": 184,
-        "blockRange": 1856997,
+        "fileSize": 208,
+        "blockRange": 2137356,
         "counts": {
           "appearanceCount": 25,
           "logCount": 40,
@@ -44875,6 +45209,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -44887,6 +45222,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -45224,6 +45560,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -45236,6 +45573,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -45745,13 +46083,13 @@
           "date": "2021-12-08 19:30:25 UTC"
         },
         "latestAppearance": {
-          "bn": 21564010,
+          "bn": 21884659,
           "txId": 3,
-          "timestamp": 1649581210,
-          "date": "2022-04-10 09:00:10 UTC"
+          "timestamp": 1651231795,
+          "date": "2022-04-29 11:29:55 UTC"
         },
-        "fileSize": 120,
-        "blockRange": 2085639,
+        "fileSize": 128,
+        "blockRange": 2406288,
         "counts": {
           "appearanceCount": 14,
           "logCount": 11,
@@ -45837,13 +46175,13 @@
           "date": "2022-01-12 22:52:05 UTC"
         },
         "latestAppearance": {
-          "bn": 21432245,
-          "txId": 8,
-          "timestamp": 1648921540,
-          "date": "2022-04-02 17:45:40 UTC"
+          "bn": 21765409,
+          "txId": 12,
+          "timestamp": 1650604720,
+          "date": "2022-04-22 05:18:40 UTC"
         },
-        "fileSize": 120,
-        "blockRange": 1357410,
+        "fileSize": 128,
+        "blockRange": 1690574,
         "counts": {
           "appearanceCount": 15,
           "logCount": 18,
@@ -46275,6 +46613,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -46287,6 +46626,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -46315,13 +46655,13 @@
           "date": "2021-03-27 17:50:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21567166,
-          "txId": 1,
-          "timestamp": 1649597035,
-          "date": "2022-04-10 13:23:55 UTC"
+          "bn": 21857232,
+          "txId": 6,
+          "timestamp": 1651085610,
+          "date": "2022-04-27 18:53:30 UTC"
         },
-        "fileSize": 4616,
-        "blockRange": 6336271,
+        "fileSize": 5000,
+        "blockRange": 6626337,
         "counts": {
           "appearanceCount": 624,
           "logCount": 1707,
@@ -47567,6 +47907,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -47579,6 +47920,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -47713,6 +48055,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -47725,6 +48068,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -48048,13 +48392,13 @@
           "date": "2020-09-09 15:56:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21610136,
-          "txId": 4,
-          "timestamp": 1649814835,
-          "date": "2022-04-13 01:53:55 UTC"
+          "bn": 21888089,
+          "txId": 5,
+          "timestamp": 1651250210,
+          "date": "2022-04-29 16:36:50 UTC"
         },
-        "fileSize": 2352,
-        "blockRange": 9694017,
+        "fileSize": 2480,
+        "blockRange": 9971970,
         "counts": {
           "appearanceCount": 296,
           "logCount": 472,
@@ -48065,7 +48409,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 3230.8599842061285
+            "balance": 3339.4201166289245
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -48079,13 +48423,13 @@
           "date": "2019-11-01 20:18:58 UTC"
         },
         "latestAppearance": {
-          "bn": 14649747,
-          "txId": 164,
-          "timestamp": 1650834760,
-          "date": "2022-04-24 21:12:40 UTC"
+          "bn": 14675071,
+          "txId": 19,
+          "timestamp": 1651179281,
+          "date": "2022-04-28 20:54:41 UTC"
         },
-        "fileSize": 18224,
-        "blockRange": 5795025,
+        "fileSize": 18272,
+        "blockRange": 5820349,
         "counts": {
           "appearanceCount": 2282,
           "logCount": 3274,
@@ -48096,7 +48440,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 7.251781236034084
+            "balance": 7.2367818463685225
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -48375,6 +48719,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -48387,6 +48732,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -48928,6 +49274,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -48940,6 +49287,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -49338,13 +49686,13 @@
           "date": "2021-03-05 11:25:20 UTC"
         },
         "latestAppearance": {
-          "bn": 21618838,
-          "txId": 5,
-          "timestamp": 1649860710,
-          "date": "2022-04-13 14:38:30 UTC"
+          "bn": 21875087,
+          "txId": 2,
+          "timestamp": 1651180560,
+          "date": "2022-04-28 21:16:00 UTC"
         },
-        "fileSize": 1328,
-        "blockRange": 6760825,
+        "fileSize": 1384,
+        "blockRange": 7017074,
         "counts": {
           "appearanceCount": 171,
           "logCount": 267,
@@ -49363,10 +49711,10 @@
       {
         "chainName": "mainnet",
         "firstAppearance": {
-          "bn": 11793281,
-          "txId": 49,
-          "timestamp": 1612488248,
-          "date": "2021-02-05 01:24:08 UTC"
+          "bn": 11778176,
+          "txId": 312,
+          "timestamp": 1612287090,
+          "date": "2021-02-02 17:31:30 UTC"
         },
         "latestAppearance": {
           "bn": 14439527,
@@ -49375,7 +49723,7 @@
           "date": "2022-03-23 01:06:51 UTC"
         },
         "fileSize": 704,
-        "blockRange": 2646247,
+        "blockRange": 2661352,
         "counts": {
           "appearanceCount": 87,
           "logCount": 92,
@@ -50090,6 +50438,7 @@
         "chainName": "gnosis",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
@@ -50102,6 +50451,7 @@
         "chainName": "mainnet",
         "firstAppearance": {},
         "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 0,
           "logCount": 0,
