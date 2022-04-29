@@ -14,13 +14,14 @@ export function Sidebar() {
   const {
     name,
     address,
+    curChain,
     appearanceCount,
     transactionCount,
     logCount,
     neighborCount
   } = useMemo(() => selectedGrant || {}, [selectedGrant]);
 
-  var neighborBase = config.Urls.Data + "neighbors/"
+  var neighborBase = config.Urls.Data + curChain + "/neighbors/"
 
   // Construct the selected grant image's URL
   const adjSource = useMemo(() => new URL(`${address}.txt`, neighborBase + "adjacencies/"), [address, neighborBase]);
