@@ -173,12 +173,12 @@ func LineCounts(folder, chain, format, addr string) (types.Counts, error) {
 	}
 
 	counts := types.Counts{}
-	counts.Appearances, _ = file.LineCount(path.Join(base, "apps", fileName), true)
+	counts.Appearances, _ = file.WordCount(path.Join(base, "apps", fileName), true)
 	if counts.Appearances > 0 {
-		counts.Neighbors, _ = file.LineCount(folder+"exports/"+chain+"/neighbors/"+addr+"."+format, true)
-		counts.Logs, _ = file.LineCount(folder+"exports/"+chain+"/logs/"+addr+"."+format, true)
-		counts.Txs, _ = file.LineCount(folder+"exports/"+chain+"/txs/"+addr+"."+format, true)
-		counts.Statements, _ = file.LineCount(folder+"exports/"+chain+"/statements/"+addr+"."+format, true)
+		counts.Neighbors, _ = file.WordCount(folder+"exports/"+chain+"/neighbors/"+addr+"."+format, true)
+		counts.Logs, _ = file.WordCount(folder+"exports/"+chain+"/logs/"+addr+"."+format, true)
+		counts.Txs, _ = file.WordCount(folder+"exports/"+chain+"/txs/"+addr+"."+format, true)
+		counts.Statements, _ = file.WordCount(folder+"exports/"+chain+"/statements/"+addr+"."+format, true)
 	}
 	return counts, nil
 }

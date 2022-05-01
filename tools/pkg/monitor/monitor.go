@@ -9,13 +9,15 @@ import (
 	"errors"
 	"fmt"
 	"io/fs"
+	"log"
 	"os"
 	"path/filepath"
 	"strings"
 
-	"github.com/TrueBlocks/tokenomics.io/tools/pkg/file"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/config"
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/file"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/index"
+	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/logger"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/validate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
@@ -215,20 +217,22 @@ func ListMonitors(chain, folder string, monitorChan chan<- Monitor) {
 	if err == nil {
 		// If the shorthand file exists in the current folder, use it...
 		lines := file.AsciiFileToLines(info.Name())
+		logger.Log(logger.Info, "Found", len(lines), "unique addresses in ./addresses.tsv")
 		addrMap := make(map[string]bool)
 		for _, line := range lines {
 			if !strings.HasPrefix(line, "#") {
-				parts := strings.Split(line, ",")
+				parts := strings.Split(line, "\t")
 				if len(parts) > 0 {
 					addr := parts[0]
 					if !addrMap[addr] && validate.IsValidAddress(parts[0]) && !validate.IsZeroAddress(parts[0]) {
 						monitorChan <- NewMonitor(chain, parts[0], true /* create */)
 					}
 					addrMap[addr] = true
+				} else {
+					log.Panic("Invalid line in file", info.Name())
 				}
 			}
 		}
-		fmt.Println("Found", len(lines), "unique addresses in ./addresses.tsv")
 		return
 	}
 
@@ -260,7 +264,8 @@ func (mon *Monitor) MoveToProduction() error {
 	}
 
 	if before != after {
-		fmt.Printf("%d duplicates removed.", (before - after))
+		msg := fmt.Sprintf("%s %d duplicates removed.", mon.GetAddrStr(), (before - after))
+		logger.Log(logger.Warning, msg)
 	}
 
 	oldPath := mon.Path()

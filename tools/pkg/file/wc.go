@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func LineCount(fileName string, ignoreHeader bool) (int, error) {
+func WordCount(fileName string, ignoreHeader bool) (int, error) {
 	// fmt.Println("-------------------------------------------")
 	// fmt.Println(fileName, FileExists(fileName))
 	// fmt.Println("-------------------------------------------")

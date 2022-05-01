@@ -1829,6 +1829,7 @@ address	grantId	name	tag	active	core
 0xdba411d32793e057cb69658cf0d16b55dffb652a	0065	urllib3 - Python HTTP Library	31-Gitcoin:Grants	true	false
 0xdbb16c68aa373229db9f37d85087264361691ab9	3457	eth-wizard: An Ethereum validator installation wizard	31-Gitcoin:Grants	true	false
 0xdbbb8f8eff9e4d52d1f18070f098b5ab4c2ead04	1402	El Dorado	31-Gitcoin:Grants	true	false
+0xdbd27635a534a3d3169ef0498beb56fb9c937489	core-0014	GitCoin DAO Governor	31-Gitcoin:Grants	true	true
 0xdbe9f117be2636f934cb2f6ee5bfa4d8d91be45d	0812	National Black Chamber of Commerce	31-Gitcoin:Grants	true	false
 0xdc2eb16e22eb5df0abbdc22c1136fd49fd8761cb	0953	Cryptocrow.net	31-Gitcoin:Grants	true	false
 0xdc58f594e82f7592163687915f61b031d2102fdb	3631	Stendhal's tools	31-Gitcoin:Grants	true	false
