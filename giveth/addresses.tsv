@@ -391,7 +391,7 @@ address	grantId	name	tag	active	core
 0x4C5cEB2978551B15EB5181D635eAA2c6eed899aa	868	Community Partners	31-Contracts:Giveth	true	false
 0x4d5E8e62991A58F06211bB4e8DF8C481590495eC	394	The American Society for the Prevention of Cruelty to Animals (ASPCA)	31-Contracts:Giveth	true	false
 0x4D6993c00fF505aD5799f805Ae98a1e23353aC73	373	Waters Edge Church	31-Contracts:Giveth	true	false
-0x4d9339dd97db55e3b9bcbe65de39ff9c04d1c2cd	1	The Giveth Community of Makers	31-Contracts:Giveth	true	false
+0x4d9339dd97db55e3b9bcbe65de39ff9c04d1c2cd	core-0001	The Giveth Community of Makers	31-Contracts:Core	true	true
 0x4Df2298F7D2e8F841A2FE72B2439cA952FCCA45F	1153	Home and Family Society Christchurch	31-Contracts:Giveth	true	false
 0x4DfE853434294e50C212eB6fDc305090801b9CB7	647	Women's Entrepreneurship Day Organization Celebration	31-Contracts:Giveth	true	false
 0x4Ebf65942f16f8DBB58a0520BC81F482BFC5Ab84	1347	Worlds Aquarium	31-Contracts:Giveth	true	false
@@ -1155,6 +1155,7 @@ address	grantId	name	tag	active	core
 0xeBE9a58e7186F83F18fa21750cc7cbC3b4F50f2D	942	W. Haywood Burns Institute	31-Contracts:Giveth	true	false
 0xec67312a71392C43d3980287C36e19D7a3d356fE	576	Médecins Sans Frontières Australia	31-Contracts:Giveth	true	false
 0xec86d3854592C9AdC7287203e16e383d55186132	1315	Wild Spirit Wolf Sanctuary	31-Contracts:Giveth	true	false
+0xecb179ea5910d652eda6988e919c7930f5ffcf11	core-0002	otc.giv.eth	31-Contracts:Core	true	true
 0xeCdDe25e659E702F2FAec5ac980BcA231F235147	966	Experience Camps	31-Contracts:Giveth	true	false
 0xeD086AA86EFfA9Cb9C805f1ACCA80b8075468D9C	698	Cornerstone Chapel	31-Contracts:Giveth	true	false
 0xed197BFf5F607C2a5D6Aa902B5E70E1379D411f3	1123	Deaf Child Hope International	31-Contracts:Giveth	true	false
@@ -1226,6 +1227,7 @@ address	grantId	name	tag	active	core
 0xf8D129D36e2A0Dc09346456bf04dDA1D84EbE8f9	740	Envision Unlimited	31-Contracts:Giveth	true	false
 0xF8f46060583d77f1dA48b8946546681AC34993DD	1041	Feed the Children	31-Contracts:Giveth	true	false
 0xf91135B9c7c3909588Fa0f886f34Bb2B4a53E49F	587	Greater Tacoma Community Foundation	31-Contracts:Giveth	true	false
+0xf924ff0f192f0c7c073161e0d62ce7635114e74f	core-0002	liquidity.giv.eth	31-Contracts:Core	true	true
 0xf94e6348789Ec98C3991bC5Bb031856A7335D144	1040	Vibrant Emotional Health	31-Contracts:Giveth	true	false
 0xf958fEcD2691F4Df8b5c67B8C9D6D9df6D2012A3	1110	WFAE	31-Contracts:Giveth	true	false
 0xF9609D1bB50E34E7ef7f8B054317a118b462a55B	1743	Catholic Schools Foundation	31-Contracts:Giveth	true	false
