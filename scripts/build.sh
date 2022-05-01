@@ -23,7 +23,9 @@ echo "Building tokenomics.io into $TARGET..."
 
 for dir in ${SUBDIRS//,/ }
 do
+    echo "--------------------------------------------"
     echo "Building $dir"
+    echo "--------------------------------------------"
     cd $dir/ui
     yarn
     yarn build

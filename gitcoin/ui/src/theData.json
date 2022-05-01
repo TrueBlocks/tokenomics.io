@@ -2288,7 +2288,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 2.450493801539039
+            "balance": 2.441495254467689
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -2329,7 +2329,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 2.450493801539039
+            "balance": 2.441495254467689
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -2370,7 +2370,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 2.450493801539039
+            "balance": 2.441495254467689
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -2411,7 +2411,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 2.450493801539039
+            "balance": 2.441495254467689
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -2452,7 +2452,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 2.450493801539039
+            "balance": 2.441495254467689
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -2493,7 +2493,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 2.450493801539039
+            "balance": 2.441495254467689
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -2534,7 +2534,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 2.450493801539039
+            "balance": 2.441495254467689
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -6638,7 +6638,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 1.206952278885552
+            "balance": 1.1843782784587598
           }
         ],
         "types": "apps,txs,neighbors,statements"
@@ -15343,7 +15343,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 5.818796840135661
+            "balance": 5.685257278939912
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -15385,7 +15385,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 5.818796840135661
+            "balance": 5.685257278939912
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -26269,7 +26269,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 0.1760374793009408
+            "balance": 0.1764374793009408
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -26311,7 +26311,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 0.1760374793009408
+            "balance": 0.1764374793009408
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -44277,7 +44277,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 1.9835003743820356
+            "balance": 7.533500374382036
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -44319,7 +44319,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 1.9835003743820356
+            "balance": 7.533500374382036
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -47912,7 +47912,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 20.708972605335386
+            "balance": 1.8731554821907146
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -53268,7 +53268,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 0.011469379545139626
+            "balance": 0.000245590884525
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -61576,7 +61576,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 0.26897000405828875
+            "balance": 0.21360967693380045
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -65248,7 +65248,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 0.8586661547067163
+            "balance": 0.5580489511598978
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -65290,7 +65290,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 0.8586661547067163
+            "balance": 0.5580489511598978
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -72261,7 +72261,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 1.6490336932484615
+            "balance": 1.650324170440409
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -76760,7 +76760,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 2352.5364140912934
+            "balance": 2352.5364340912934
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
