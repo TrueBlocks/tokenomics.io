@@ -710,6 +710,7 @@ address	grantId	name	tag	active	core
 0x8f3868aAEBC99F63950b4b495C17904BB0eaf52e	594	Women for Afghan Women	31-Contracts:Giveth	true	false
 0x8f9a223FDB02f57455BB2CFAFf6c3C16d2ee3608	915	Water Wells for Africa	31-Contracts:Giveth	true	false
 0x8fF210cE2B58D5d942802dCFa48c03dfAD951bA6	1332	Typhoon Rai Relief and Recovery Fund for the Philippines	31-Contracts:Giveth	true	false
+0x900dB999074d9277c5DA2A43F252D74366230DA0	core-0004	The Giveth Token	31-Contracts:Core	true	true
 0x9020C377bB59B6c217d271Cf8F27370f31295CD4	543	The Hunger Project	31-Contracts:Giveth	true	false
 0x903CbeF362A48b55818f234b262290295cd2FBC5	1592	Asbury Woods	31-Contracts:Giveth	true	false
 0x904D6DD1602369E40F7214545C881243120bB03D	476	Rethink Food	31-Contracts:Giveth	true	false
