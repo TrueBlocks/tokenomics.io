@@ -1,6 +1,6 @@
 import { DownloadIcon } from './Utils';
 import { DateHeader, DateCell, NameHeader, NameCell, BalanceHeader, AppearanceHeader, TransactionHeader, EventLogsHeader, NeighborsHeader } from "./ColumnCells"
-// TagHeader, TagCell, MatchedHeader, MatchedCell
+import { getChainData } from './GlobalState';
 
 export const columns = [
   {
@@ -10,21 +10,14 @@ export const columns = [
     width: '8%',
     showSorterTooltip: false,
     sorter: {
-      compare: (a, b) => a.latestAppearance.bn - b.latestAppearance.bn,
+      compare: function (a, b) {
+        return getChainData(a).latestAppearance.bn - getChainData(b).latestAppearance.bn;
+      },
     },
-    render: (u, record) => {
-      return <DateCell record={record} />
+    render: (u, grantData) => {
+      return <DateCell grantData={grantData} />
     },
   },
-  // {
-  //   title: <TagHeader />,
-  //   dataIndex: 'types',
-  //   key: 'types',
-  //   width: '8%',
-  //   render: (u, record) => {
-  //     return (<TagCell record={record} />);
-  //   },
-  // },
   {
     title: <NameHeader />,
     dataIndex: 'name',
@@ -34,31 +27,10 @@ export const columns = [
     sorter: {
       compare: (a, b) => a.address - b.address,
     },
-    render: function (u, record) {
-      return <NameCell record={record} />
+    render: function (u, grantData) {
+      return <NameCell grantData={grantData} />
     },
   },
-  // {
-  //   title: <MatchedHeader />,
-  //   dataIndex: 'matched',
-  //   key: 'matched',
-  //   width: '6%',
-  //   align: 'right',
-  //   showSorterTooltip: false,
-  //   sorter: {
-  //     compare: function (a, b) {
-  //       const unclaimedA = a.matched - a.claimed;
-  //       const unclaimedB = b.matched - b.claimed;
-  //       const diff = unclaimedB - unclaimedA;
-  //       if (diff === 0)
-  //         return (a.matched - b.matched)
-  //       return diff;
-  //     },
-  //   },
-  //   render: (u, record) => {
-  //     return <MatchedCell record={record} />
-  //   },
-  // },
   {
     title: <BalanceHeader />,
     dataIndex: 'balance',
@@ -68,15 +40,21 @@ export const columns = [
     showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
-        return b.balances[0].balance - a.balances[0].balance;
+        var chainDataA = getChainData(a)
+        var chainDataB = getChainData(b)
+        if (chainDataA.balances.length === 0 || chainDataB.balances.length === 0) {
+          return 0;
+        }
+        return chainDataB.balances[0].balance - chainDataA.balances[0].balance;
       },
     },
-    render: function (text, record) {
-      if (record.balances && record.balances.length > 0) {
+    render: function (text, grantData) {
+      const chainData = getChainData(grantData)
+      if (chainData.balances && chainData.balances.length > 0) {
         return (
           <>
-            {record.balances[0].balance + ' ETH'}
-            <DownloadIcon address={record.address} count={''} path='statements/balances/' type='csv' />
+            {chainData.balances[0].balance + ' ETH'}
+            < DownloadIcon grantData={grantData} count={''} path='statements/balances/' type='csv' />
           </>
         )
       }
@@ -85,71 +63,81 @@ export const columns = [
   },
   {
     title: <AppearanceHeader />,
-    dataIndex: 'appearanceCount',
-    key: 'appearanceCount',
+    dataIndex: 'chainData.counts.appearanceCount',
+    key: 'chainData.counts.appearanceCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.appearanceCount - a.appearanceCount;
+        return getChainData(b).counts.appearanceCount - getChainData(a).counts.appearanceCount;
       },
     },
-    render: function (text, record) {
+    render: function (text, grantData) {
+      const chainData = getChainData(grantData)
       return (
         <>
-          {record.firstAppearance.bn}.{record.firstAppearance.txId}
-          <DownloadIcon address={record.address} count={record.appearanceCount} path='apps/' type='csv' />
+          {chainData.firstAppearance.bn}.{chainData.firstAppearance.txId}
+          <DownloadIcon grantData={grantData} count={chainData.counts.appearanceCount} path='apps/' type='csv' />
         </>
       )
     },
   },
   {
     title: <TransactionHeader />,
-    dataIndex: 'appearanceCount',
-    key: 'appearanceCount',
+    dataIndex: 'chainData.counts.transactionCount',
+    key: 'chainData.counts.transactionCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.appearanceCount - a.appearanceCount;
+        return getChainData(b).counts.transactionCount - getChainData(a).counts.transactionCount;
       },
     },
-    render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.appearanceCount} path='txs/' type='csv' />
+    render: function (text, grantData) {
+      const chainData = getChainData(grantData)
+      return (
+        <DownloadIcon grantData={grantData} count={chainData.counts.transactionCount} path='txs/' type='csv' />
+      );
     },
   },
   {
     title: <EventLogsHeader />,
-    dataIndex: 'logCount',
-    key: 'logCount',
+    dataIndex: 'chainData.counts.logCount',
+    key: 'chainData.counts.logCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.logCount - a.logCount;
+        return getChainData(b).counts.logCount - getChainData(a).counts.logCount;
       },
     },
-    render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.logCount} path='logs/' type='csv' />;
+    render: function (text, grantData) {
+      const chainData = getChainData(grantData)
+      return (
+        <DownloadIcon grantData={grantData} count={chainData.counts.logCount} path='logs/' type='csv' />
+      );
     },
   },
   {
     title: <NeighborsHeader />,
-    dataIndex: 'neighborCount',
-    key: 'neighborCount',
+    dataIndex: 'chainData.counts.neighborCount',
+    key: 'chainData.counts.neighborCount',
     width: '6%',
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return b.neighborCount - a.neighborCount;
+        return getChainData(b).counts.neighborCount - getChainData(a).counts.neighborCount;
       },
     },
-    render: function (text, record) {
-      return <DownloadIcon address={record.address} count={record.neighborCount} path='neighbors/' type='csv' />;
+    render: function (text, grantData) {
+      const chainData = getChainData(grantData)
+      return (
+        <DownloadIcon grantData={grantData} count={chainData.counts.neighborCount} path='neighbors/' type='csv' />
+      );
     },
   },
 ];

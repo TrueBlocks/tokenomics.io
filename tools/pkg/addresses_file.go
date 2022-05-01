@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"strings"
 
 	"github.com/TrueBlocks/tokenomics.io/tools/pkg/types"
 	"github.com/TrueBlocks/trueblocks-core/src/apps/chifra/pkg/validate"
@@ -12,7 +13,9 @@ import (
 
 var requiredColumns = []string{
 	"address",
+	"grantId",
 	"name",
+	"active",
 }
 
 type GrantReader struct {
@@ -29,46 +32,56 @@ func (gr *GrantReader) Read() (types.Grant, error) {
 	if err != nil {
 		return types.Grant{}, err
 	}
-	if !validate.IsValidAddress(record[0]) {
-		err = fmt.Errorf("not a valid address: %s", record[0])
-		return types.Grant{}, err
-	}
 
+	isActive := record[gr.header["active"]] == "true"
+	isCore := record[gr.header["core"]] == "true"
+	isValid := validate.IsValidAddress(record[gr.header["address"]]) && !validate.IsZeroAddress(record[gr.header["address"]])
 	return types.Grant{
-		Address: record[gr.header["address"]],
+		Address:  strings.ToLower(record[gr.header["address"]]),
+		GrantId:  record[gr.header["grantId"]],
+		Name:     record[gr.header["name"]],
+		Tag:      record[gr.header["tag"]],
+		IsActive: isActive,
+		IsCore:   isCore,
+		IsValid:  isValid,
+		Key:      strings.ToLower(record[gr.header["address"]]) + "_" + record[gr.header["grantId"]],
 	}, nil
 }
 
-func ReadGrants(path string) (grantReader GrantReader, err error) {
+func NewGrantReader(path string) (GrantReader, error) {
 	file, err := os.Open(path)
 	if err != nil {
-		return
+		return GrantReader{}, err
 	}
 
 	reader := csv.NewReader(file)
 	reader.Comma = '\t'
+	if strings.HasSuffix(path, ".csv") {
+		reader.Comma = ','
+	}
 
-	// read header
 	headerRow, err := reader.Read()
 	if err != nil {
-		return
+		return GrantReader{}, err
 	}
 	header := map[string]int{}
 	for index, columnName := range headerRow {
 		header[columnName] = index
 	}
-	// make sure the header is correct
+
 	for _, required := range requiredColumns {
 		_, ok := header[required]
 		if !ok {
 			err = fmt.Errorf(`required column "%s" missing in file %s`, required, path)
-			return
+			return GrantReader{}, err
 		}
 	}
 
-	return GrantReader{
+	gr := GrantReader{
 		file:      file,
 		header:    header,
 		csvReader: *reader,
-	}, nil
+	}
+
+	return gr, nil
 }

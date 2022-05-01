@@ -21,7 +21,7 @@ The data format for a log is:
 
 ### How this Data is Created
 
-Two different data sets are created from the log data. The first contains just the raw log data from the chain. The second, called `articulated` shows the 'meaning' of the log data by converting the raw data into human readable text. The `articulated` data is presented on the website and is stored in a folder called `./logs/articulated`. The articulated data is more useful.
+The log data set contains the raw log data from the chain. Articulated logs (stored in a field called compressedLog shows the 'meaning' of the log data by converting the raw byte data into human readable text. The articulated data is more useful.
 
 The chifra command used to create this data is found in [../export_logs.1.sh](../export_logs.1.sh) and is called for each address.
 
@@ -41,7 +41,6 @@ chifra export \
     --emitter $pay_rnd_10 \
     --fmt csv $addr >/tmp/$addr.csv
 cat /tmp/$addr.csv | cut -f1-10 -d, >logs/$addr.csv
-cat /tmp/$addr.csv | cut -f1-5,11-2000 -d, >logs/articulated/$addr.csv
 ```
 
 

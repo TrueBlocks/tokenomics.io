@@ -5,7 +5,7 @@ import './App.css';
 import 'antd/dist/antd.css';
 
 import { faq_title, faq_text } from './FAQ.jsx';
-import { configUrls } from './Config';
+import { config } from './Config';
 
 const { Sider } = Layout;
 
@@ -29,7 +29,7 @@ export const RightSider = () => {
     <Sider style={{ backgroundColor: 'lightblue' }}>
       <MyCard>
         <div style={{ fontSize: '12pt', fontWeight: '800' }}>
-          <a rel='noreferrer' target='_blank' href={configUrls.TrueBlocks}>
+          <a rel='noreferrer' target='_blank' href={config.Urls.TrueBlocks}>
             Donate to the TrueBlocks Grant
           </a>
         </div>

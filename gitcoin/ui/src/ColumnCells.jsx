@@ -1,9 +1,8 @@
 import React, { useMemo, useState } from 'react';
-import { Tag } from 'antd';
 import { ColumnTitle } from "./ColumnTitle";
 import { CloudDownloadOutlined, CopyTwoTone } from '@ant-design/icons';
-import { useGlobalState } from './GlobalState';
-import { configUrls } from './Config';
+import { useGlobalState, getChainData } from './GlobalState';
+import { config } from './Config';
 
 //--------------------------------------------------
 export const DateHeader = () => (
@@ -12,11 +11,15 @@ export const DateHeader = () => (
     tooltip='The most recent interaction this address had.'
   />
 )
-export const DateCell = ({ record }) => {
+export const DateCell = ({ grantData }) => {
+  var chainData = getChainData(grantData);
+  if (chainData.counts.appearanceCount === 0) {
+    return <div>N/A</div>
+  }
   const dd = (<div>
-    {record.chainData[0].latestAppearance.date.substr(0, 16)}
+    {chainData.latestAppearance.date.substr(0, 16)}
     <div>
-      {dateDisplay(record.chainData[0].latestAppearance.bn)}
+      {dateDisplay(chainData.latestAppearance.bn)}
     </div>
   </div>
   );
@@ -30,11 +33,11 @@ export const NameHeader = () => (
     tooltip='The name and address of the grant or core contract.'
   />
 )
-export const NameCell = ({ record }) => {
+export const NameCell = ({ grantData }) => {
   const [copied, setCopied] = useState(false);
   const { localExplorer } = useGlobalState();
 
-  let name = !!record.grantId ? record.name + ' (#' + record.grantId + ')' : record.name;
+  let name = !!grantData.grantId ? grantData.name + ' (#' + grantData.grantId + ')' : grantData.name;
   name = name.replace('&#39;', "'");
 
   const explorerAddress = localExplorer
@@ -42,23 +45,28 @@ export const NameCell = ({ record }) => {
     : 'http://etherscan.io/address/';
 
   const explorerLink = useMemo(() => (<>
-    <a target={'top'} href={explorerAddress + record.address}>
-      {record.address}
+    <a target={'top'} href={explorerAddress + grantData.address}>
+      {grantData.address}
     </a>{' '}
     <CopyTwoTone onClick={() => {
-      navigator.clipboard.writeText(record.address); setCopied(true); setTimeout(() => {
+      navigator.clipboard.writeText(grantData.address); setCopied(true); setTimeout(() => {
         setCopied(false)
       }, 500)
     }} />
     <div style={{ display: "inline", fontStyle: "italic", fontSize: "small", color: 'red' }}>{' '}
       {copied ? " *copied*" : ""}
     </div>
-  </>), [copied, explorerAddress, record.address]);
+  </>), [copied, explorerAddress, grantData.address]);
 
-  if (!record.slug)
+  var slug = "https://gitcoin.co/grants/" +
+    grantData.grantId +
+    "/" +
+    grantData.name.replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
+
+  if (!slug)
     return (
       <div>
-        {name} <ZipLink addr={record.address} />
+        {name} <ZipLink grantData={grantData} />
         <br />
         {explorerLink}
       </div>
@@ -66,9 +74,9 @@ export const NameCell = ({ record }) => {
   return (
     <div>
       <div>
-        <a target={'top'} href={record.slug}>
+        <a target={'top'} href={slug}>
           {name}
-        </a> <ZipLink addr={record.address} />
+        </a> <ZipLink grantData={grantData} />
         <br />
         {explorerLink}
       </div>
@@ -134,8 +142,8 @@ const Cell2 = ({ text }) => {
   );
 };
 
-const ZipLink = ({ addr }) => {
-  var link = configUrls.Zips + addr + ".tar.gz";
+const ZipLink = ({ grantData }) => {
+  var link = config.Urls.Data + grantData.curChain + "/zips/" + grantData.address + ".tar.gz";
   return (
     <>
       <a href={link} title="Download zip file">

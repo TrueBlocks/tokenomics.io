@@ -6,7 +6,6 @@ import { Input, Layout, Tabs, Row, Col } from 'antd';
 import './App.css';
 import 'antd/dist/antd.css';
 
-import { theData } from './theData';
 import { columns as columnDefinitions } from './ColumnDefs';
 import { BaseTable } from './BaseTable';
 
@@ -15,9 +14,9 @@ import { ToDo } from './ToDo';
 
 import { lastUpdate } from './last-update.js';
 import { Sidebar } from './Sidebar';
-import { useGlobalState } from './GlobalState';
+import { useGlobalState, useGlobalGrantsData, getChainData } from './GlobalState';
 import { ViewOptions } from './ViewOptions';
-import { configUrls } from './Config';
+import { config } from './Config';
 
 const { Content } = Layout;
 const { Search } = Input;
@@ -30,6 +29,8 @@ export const HomePage = () => {
     selectGrant,
     sidebarEnabled,
     sidebarVisible,
+    showZero,
+    chain,
     setSidebarVisible,
   } = useGlobalState();
 
@@ -38,18 +39,25 @@ export const HomePage = () => {
     console.log(value);
   };
 
-  const contractData = useMemo(() => theData.filter((item) => {
-    const n = item.name.toLowerCase();
-    const a = item.address.toLowerCase();
-    return item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
-  }), [searchText]);
-  const grantData = useMemo(() => theData.filter((item) => {
-    const n = item.name.toLowerCase();
-    const a = item.address.toLowerCase();
-    return !item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
-  }), [searchText]);
+  const grantsData = useGlobalGrantsData()
+
+  const coreData = useMemo(() => grantsData.filter((grantData) => {
+    grantData['curChain'] = chain
+    const n = grantData.name.toLowerCase();
+    const a = grantData.address.toLowerCase();
+    const show = showZero || getChainData(grantData).counts.appearanceCount > 0;
+    return show && grantData.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
+  }), [searchText, showZero, chain, grantsData]);
+
+  const grantData = useMemo(() => grantsData.filter((grantData) => {
+    grantData['curChain'] = chain
+    const n = grantData.name.toLowerCase();
+    const a = grantData.address.toLowerCase();
+    const show = showZero || getChainData(grantData).counts.appearanceCount > 0;
+    return show && !grantData.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
+  }), [searchText, showZero, chain, grantsData]);
+
   const columns = useMemo(() => columnDefinitions, []);
-  // Sidebar visibility
   const sidebarShown = useMemo(() => sidebarEnabled && sidebarVisible, [sidebarEnabled, sidebarVisible]);
   const dataRowSpan = useMemo(() => sidebarShown ? 17 : 24, [sidebarShown]);
   const sideRowSpan = 24 - dataRowSpan
@@ -89,8 +97,9 @@ export const HomePage = () => {
     setSortOrder(order)
   }, [setSortField, setSortOrder])
 
-  const tab1Title = 'Core Contracts (' + contractData.length + ')';
+  const tab1Title = 'Core Contracts (' + coreData.length + ')';
   const tab2Title = 'Individual Grants (' + grantData.length + ')';
+
   return (
     <Content>
       <ViewOptions />
@@ -109,6 +118,7 @@ export const HomePage = () => {
           <Row className='with-sidebar'>
             <Col span={dataRowSpan} className='col-table'>
               <BaseTable
+                chain={chain}
                 changeSort={changeSort}
                 dataSource={sortedData}
                 columns={columns}
@@ -131,7 +141,8 @@ export const HomePage = () => {
           <Row className='with-sidebar'>
             <Col span={dataRowSpan} className='col-table'>
               <BaseTable
-                dataSource={contractData}
+                chain={chain}
+                dataSource={coreData}
                 columns={columns}
                 rowKey={(record) => record.grantId}
                 onSelectionChange={onSelectionChange}
@@ -149,17 +160,17 @@ export const HomePage = () => {
           </Row>
         </TabPane>
         <TabPane tab={'Data Sets'} key='3' style={{ paddingLeft: '8px' }}>
-          <Downloads />
+          <Downloads chain={chain} />
         </TabPane>
         <TabPane tab='Charts' key='4' style={{ paddingLeft: '8px' }}>
           <img
             width='800px'
             alt='Unclaimed'
-            src={configUrls.Charts + 'Unclaimed%20Match%20Round%208.png'}
+            src={config.Urls.Charts + 'Unclaimed%20Match%20Round%208.png'}
           />
           <br />
           <br />
-          <img width='800px' alt='Count By Date' src={configUrls.Charts + 'Counts.png'} />
+          <img width='800px' alt='Count By Date' src={config.Urls.Charts + 'Counts.png'} />
         </TabPane>
         <TabPane tab={'Future Work'} key='5' style={{ paddingLeft: '8px' }}>
           <ToDo />

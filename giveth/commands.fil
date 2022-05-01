@@ -1,5 +1,5 @@
---appearances --fmt csv
---articulate --cache --cache_traces --fmt csv
---logs --relevant --fmt csv
---neighbors --fmt csv
---statements --fmt csv
+--appearances
+--articulate --cache --cache_traces
+--logs --relevant
+--neighbors
+--statements

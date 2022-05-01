@@ -1,0 +1,7 @@
+curl \
+    --location \
+    --request POST \
+    --header 'Content-Type: application/json' \
+    --data-raw \
+        '{ "query": "{projectByAddress(address: \"0x10E1439455BD2624878b243819E31CfEE9eb721C\" ) {title,listed,description,id,slug,slugHistory,walletAddress,slugHistory}}", "variables": {}}' \
+        'https://mainnet.serve.giveth.io/graphql'

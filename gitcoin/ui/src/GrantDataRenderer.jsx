@@ -6,6 +6,7 @@ import {
   CopyTwoTone,
 } from '@ant-design/icons'
 import { Button, Tag, Tooltip } from 'antd';
+import { getChainData } from './GlobalState';
 
 import './GrantDataRenderer.css';
 
@@ -25,10 +26,15 @@ export function GrantDataRenderer({ chain, grantData }) {
     </Button>
   );
 
-  var chainData = grantData.chainData[0]
+  var chainData = getChainData(grantData)
   if (!chainData) {
     return <div>Cannot display empty record</div>
   }
+
+  var slug = "https://gitcoin.co/grants/" +
+    grantData.grantId +
+    "/" +
+    grantData.name.replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
 
   return (
     <section className='grant-data-renderer'>
@@ -80,10 +86,10 @@ export function GrantDataRenderer({ chain, grantData }) {
               Slug
             </th>
             <td colSpan={3}>
-              {grantData.slug
+              {slug
                 ? (<>
-                  {grantData.slug}
-                  {renderCopyToClipboard(grantData.slug)}
+                  {slug}
+                  {renderCopyToClipboard(slug)}
                 </>)
                 : null
               }

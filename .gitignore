@@ -1,6 +1,5 @@
+nomics
 tokenomics.io
-update
-makefile
 wallets
 
 getem*sh
@@ -30,5 +29,4 @@ backups
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-gitcoin/backend/handle_pull.cpp
-theData.js
+*backend*
