@@ -23,11 +23,6 @@ func RunCombine(cmd *cobra.Command, args []string) error {
 	}
 
 	for _, chain := range chains {
-		grantReader, err := tokenomics.ReadGrants(addressFn)
-		if err != nil {
-			log.Fatal(err)
-		}
-
 		// Create a map of open output files so we don't have to re-open and close for each grant.
 		typeToFileMap := map[string]*os.File{}
 		for _, dataType := range dataTypes {
@@ -40,9 +35,16 @@ func RunCombine(cmd *cobra.Command, args []string) error {
 			defer output.Close() // note that this closes when the function goes out of scope, not this code block
 		}
 
+		// an array to help us know if we've written the file's header
 		headerWritten := make(map[string]bool, len(dataTypes)*len(chains))
+
+		gr, err := tokenomics.NewGrantReader(addressFn)
+		if err != nil {
+			log.Fatal(err)
+		}
+
 		for {
-			grant, err := grantReader.Read()
+			grant, err := gr.Read()
 			if err == io.EOF {
 				break
 			}
@@ -67,6 +69,7 @@ func RunCombine(cmd *cobra.Command, args []string) error {
 					outputFile := typeToFileMap[chain+"_"+dataType]
 
 					if file.FileExists(inputPath) {
+
 						lines := file.AsciiFileToLines(inputPath)
 						for i, line := range lines {
 							line += "\n"

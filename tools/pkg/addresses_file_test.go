@@ -8,7 +8,7 @@ import (
 )
 
 func TestReadAddressFile(t *testing.T) {
-	reader, err := ReadGrants("./testdata/addresses.tsv")
+	reader, err := NewGrantReader("./testdata/addresses.tsv")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -40,7 +40,7 @@ func TestReadAddressFile(t *testing.T) {
 }
 
 func TestReadAddressFile_Invalid(t *testing.T) {
-	reader, err := ReadGrants("./testdata/addresses_invalid.tsv")
+	reader, err := NewGrantReader("./testdata/addresses_invalid.tsv")
 	if err != nil {
 		t.Fatal(err)
 	}

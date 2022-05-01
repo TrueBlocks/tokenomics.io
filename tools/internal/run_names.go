@@ -30,13 +30,13 @@ func RunNames(cmd *cobra.Command, args []string) error {
 	}
 
 	// Define where to find addresses file
-	grantReader, err := tokenomics.ReadGrants(addressFn)
+	gr, err := tokenomics.NewGrantReader(addressFn)
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	for {
-		grant, err := grantReader.Read()
+		grant, err := gr.Read()
 		if err == io.EOF {
 			break
 		}

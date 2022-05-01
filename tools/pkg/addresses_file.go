@@ -48,7 +48,7 @@ func (gr *GrantReader) Read() (types.Grant, error) {
 	}, nil
 }
 
-func ReadGrants(path string) (GrantReader, error) {
+func NewGrantReader(path string) (GrantReader, error) {
 	file, err := os.Open(path)
 	if err != nil {
 		return GrantReader{}, err
@@ -56,8 +56,10 @@ func ReadGrants(path string) (GrantReader, error) {
 
 	reader := csv.NewReader(file)
 	reader.Comma = '\t'
+	if strings.HasSuffix(path, ".csv") {
+		reader.Comma = ','
+	}
 
-	// read header
 	headerRow, err := reader.Read()
 	if err != nil {
 		return GrantReader{}, err
@@ -75,11 +77,11 @@ func ReadGrants(path string) (GrantReader, error) {
 		}
 	}
 
-	grantReader := GrantReader{
+	gr := GrantReader{
 		file:      file,
 		header:    header,
 		csvReader: *reader,
 	}
 
-	return grantReader, nil
+	return gr, nil
 }
