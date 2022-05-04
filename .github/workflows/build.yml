@@ -20,4 +20,4 @@ jobs:
             mkdir build
             cd build
             git clone --quiet https://github.com/${{ github.repository }} .
-            bash scripts/build.sh gitcoin,giveth $HOME/build-test
+            bash scripts/build.sh gitcoin,giveth /var/www/tokenomics.io/html-built
