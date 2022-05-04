@@ -2,7 +2,8 @@ name: Build
 on:
   push:
     branches:
-      - 'gh_workflow'
+      - 'master'
+  workflow_dispatch:
 jobs:
   RemoteBuild:
     runs-on: ubuntu-latest
