@@ -287,16 +287,33 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21120938,
+          "txId": 5,
+          "timestamp": 1647343220,
+          "date": "2022-03-15 11:20:20 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21829703,
+          "timestamp": 1650939380,
+          "date": "2022-04-26 02:16:20 UTC"
+        },
         "fileSize": 144,
+        "blockRange": 708766,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 17,
+          "logCount": 14,
+          "transactionCount": 17,
+          "neighborCount": 62,
+          "statementsCount": 31
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 210
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -674,16 +691,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21659900,
+          "txId": 21,
+          "timestamp": 1650067225,
+          "date": "2022-04-16 00:00:25 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21846538,
+          "txId": 2,
+          "timestamp": 1651029045,
+          "date": "2022-04-27 03:10:45 UTC"
+        },
         "fileSize": 40,
+        "blockRange": 186639,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 4,
+          "logCount": 4,
+          "transactionCount": 4,
+          "neighborCount": 16,
+          "statementsCount": 8
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -920,13 +955,13 @@
           "date": "2022-02-14 15:55:00 UTC"
         },
         "latestAppearance": {
-          "bn": 21874936,
-          "txId": 5,
-          "timestamp": 1651179765,
-          "date": "2022-04-28 21:02:45 UTC"
+          "bn": 21905330,
+          "txId": 7,
+          "timestamp": 1651338205,
+          "date": "2022-04-30 17:03:25 UTC"
         },
-        "fileSize": 376,
-        "blockRange": 1237572,
+        "fileSize": 384,
+        "blockRange": 1267966,
         "counts": {
           "appearanceCount": 45,
           "logCount": 46,
@@ -1714,13 +1749,13 @@
           "date": "2021-12-20 21:55:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21877251,
-          "txId": 4,
-          "timestamp": 1651192100,
-          "date": "2022-04-29 00:28:20 UTC"
+          "bn": 21899299,
+          "txId": 13,
+          "timestamp": 1651307490,
+          "date": "2022-04-30 08:31:30 UTC"
         },
-        "fileSize": 72,
-        "blockRange": 2194175,
+        "fileSize": 80,
+        "blockRange": 2216223,
         "counts": {
           "appearanceCount": 7,
           "logCount": 6,
@@ -1806,13 +1841,13 @@
           "date": "2021-04-05 21:03:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21815276,
-          "txId": 10,
-          "timestamp": 1650863095,
-          "date": "2022-04-25 05:04:55 UTC"
+          "bn": 21904416,
+          "txId": 6,
+          "timestamp": 1651333525,
+          "date": "2022-04-30 15:45:25 UTC"
         },
-        "fileSize": 504,
-        "blockRange": 6428269,
+        "fileSize": 512,
+        "blockRange": 6517409,
         "counts": {
           "appearanceCount": 62,
           "logCount": 48,
@@ -2557,13 +2592,13 @@
           "date": "2022-03-15 00:17:32 UTC"
         },
         "latestAppearance": {
-          "bn": 14677207,
-          "txId": 7,
-          "timestamp": 1651208119,
-          "date": "2022-04-29 04:55:19 UTC"
+          "bn": 14680502,
+          "txId": 258,
+          "timestamp": 1651252733,
+          "date": "2022-04-29 17:18:53 UTC"
         },
-        "fileSize": 96,
-        "blockRange": 289261,
+        "fileSize": 104,
+        "blockRange": 292556,
         "counts": {
           "appearanceCount": 10,
           "logCount": 6,
@@ -3134,19 +3169,19 @@
           "date": "2022-02-26 01:30:50 UTC"
         },
         "latestAppearance": {
-          "bn": 21876711,
-          "txId": 14,
-          "timestamp": 1651189225,
-          "date": "2022-04-28 23:40:25 UTC"
+          "bn": 21912212,
+          "txId": 9,
+          "timestamp": 1651373405,
+          "date": "2022-05-01 02:50:05 UTC"
         },
-        "fileSize": 2816,
-        "blockRange": 1049111,
+        "fileSize": 2840,
+        "blockRange": 1084612,
         "counts": {
-          "appearanceCount": 347,
-          "logCount": 358,
-          "transactionCount": 347,
-          "neighborCount": 1347,
-          "statementsCount": 613
+          "appearanceCount": 348,
+          "logCount": 359,
+          "transactionCount": 348,
+          "neighborCount": 1351,
+          "statementsCount": 615
         },
         "balances": [
           {
@@ -3165,13 +3200,13 @@
           "date": "2022-02-25 10:22:03 UTC"
         },
         "latestAppearance": {
-          "bn": 14669768,
-          "txId": 86,
-          "timestamp": 1651106937,
-          "date": "2022-04-28 00:48:57 UTC"
+          "bn": 14685654,
+          "txId": 82,
+          "timestamp": 1651322601,
+          "date": "2022-04-30 12:43:21 UTC"
         },
-        "fileSize": 7024,
-        "blockRange": 395094,
+        "fileSize": 7040,
+        "blockRange": 410980,
         "counts": {
           "appearanceCount": 877,
           "logCount": 920,
@@ -3182,7 +3217,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 290.1255419244387
+            "balance": 290.2255419244387
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -3872,13 +3907,13 @@
           "date": "2021-07-15 02:12:40 UTC"
         },
         "latestAppearance": {
-          "bn": 20839693,
-          "txId": 8,
-          "timestamp": 1645901630,
-          "date": "2022-02-26 18:53:50 UTC"
+          "bn": 21905382,
+          "txId": 4,
+          "timestamp": 1651338465,
+          "date": "2022-04-30 17:07:45 UTC"
         },
-        "fileSize": 168,
-        "blockRange": 3763788,
+        "fileSize": 176,
+        "blockRange": 4829477,
         "counts": {
           "appearanceCount": 20,
           "logCount": 20,
@@ -4235,13 +4270,13 @@
           "date": "2021-02-08 02:19:10 UTC"
         },
         "latestAppearance": {
-          "bn": 13870373,
-          "txId": 187,
-          "timestamp": 1640382014,
-          "date": "2021-12-24 21:40:14 UTC"
+          "bn": 14681111,
+          "txId": 125,
+          "timestamp": 1651260825,
+          "date": "2022-04-29 19:33:45 UTC"
         },
-        "fileSize": 40,
-        "blockRange": 2057306,
+        "fileSize": 48,
+        "blockRange": 2868044,
         "counts": {
           "appearanceCount": 4,
           "logCount": 1,
@@ -4566,16 +4601,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21564022,
+          "txId": 3,
+          "timestamp": 1649581270,
+          "date": "2022-04-10 09:01:10 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21872728,
+          "txId": 4,
+          "timestamp": 1651167995,
+          "date": "2022-04-28 17:46:35 UTC"
+        },
         "fileSize": 32,
+        "blockRange": 308707,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 3,
+          "logCount": 1,
+          "transactionCount": 3,
+          "neighborCount": 8,
+          "statementsCount": 4
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 70
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -6633,16 +6686,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21576293,
+          "txId": 6,
+          "timestamp": 1649642740,
+          "date": "2022-04-11 02:05:40 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21873072,
+          "txId": 8,
+          "timestamp": 1651169820,
+          "date": "2022-04-28 18:17:00 UTC"
+        },
         "fileSize": 40,
+        "blockRange": 296780,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 4,
+          "logCount": 3,
+          "transactionCount": 4,
+          "neighborCount": 14,
+          "statementsCount": 7
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 100
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -6890,16 +6961,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21638484,
+          "txId": 5,
+          "timestamp": 1649959905,
+          "date": "2022-04-14 18:11:45 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21638484,
+          "txId": 5,
+          "timestamp": 1649959905,
+          "date": "2022-04-14 18:11:45 UTC"
+        },
         "fileSize": 16,
+        "blockRange": 1,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 1,
+          "logCount": 1,
+          "transactionCount": 1,
+          "neighborCount": 4,
+          "statementsCount": 2
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -7082,13 +7171,13 @@
           "date": "2021-10-29 22:06:25 UTC"
         },
         "latestAppearance": {
-          "bn": 21667586,
-          "txId": 2,
-          "timestamp": 1650105765,
-          "date": "2022-04-16 10:42:45 UTC"
+          "bn": 21897994,
+          "txId": 6,
+          "timestamp": 1651300855,
+          "date": "2022-04-30 06:40:55 UTC"
         },
-        "fileSize": 256,
-        "blockRange": 2853965,
+        "fileSize": 264,
+        "blockRange": 3084373,
         "counts": {
           "appearanceCount": 31,
           "logCount": 25,
@@ -7856,13 +7945,13 @@
           "date": "2021-12-25 22:02:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21873270,
-          "txId": 17,
-          "timestamp": 1651170865,
-          "date": "2022-04-28 18:34:25 UTC"
+          "bn": 21898017,
+          "txId": 9,
+          "timestamp": 1651300980,
+          "date": "2022-04-30 06:43:00 UTC"
         },
-        "fileSize": 144,
-        "blockRange": 2103832,
+        "fileSize": 152,
+        "blockRange": 2128579,
         "counts": {
           "appearanceCount": 17,
           "logCount": 16,
@@ -8033,16 +8122,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21450612,
+          "txId": 1,
+          "timestamp": 1649013455,
+          "date": "2022-04-03 19:17:35 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21668363,
+          "txId": 3,
+          "timestamp": 1650109650,
+          "date": "2022-04-16 11:47:30 UTC"
+        },
         "fileSize": 24,
+        "blockRange": 217752,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 2,
+          "logCount": 2,
+          "transactionCount": 2,
+          "neighborCount": 8,
+          "statementsCount": 4
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -8927,24 +9034,23 @@
           "date": "2020-12-19 04:39:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21870301,
-          "txId": 19,
-          "timestamp": 1651154890,
-          "date": "2022-04-28 14:08:10 UTC"
+          "bn": 21908141,
+          "timestamp": 1651352540,
+          "date": "2022-04-30 21:02:20 UTC"
         },
-        "fileSize": 4976,
-        "blockRange": 8280996,
+        "fileSize": 5016,
+        "blockRange": 8318836,
         "counts": {
-          "appearanceCount": 621,
-          "logCount": 967,
-          "transactionCount": 621,
-          "neighborCount": 6519,
-          "statementsCount": 1202
+          "appearanceCount": 625,
+          "logCount": 971,
+          "transactionCount": 625,
+          "neighborCount": 6535,
+          "statementsCount": 1210
         },
         "balances": [
           {
             "asset": "ETH",
-            "balance": 119.89051939362159
+            "balance": 119.8903099622578
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -9036,13 +9142,13 @@
           "date": "2021-04-08 17:26:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21876742,
-          "txId": 1,
-          "timestamp": 1651189390,
-          "date": "2022-04-28 23:43:10 UTC"
+          "bn": 21897951,
+          "txId": 3,
+          "timestamp": 1651300630,
+          "date": "2022-04-30 06:37:10 UTC"
         },
-        "fileSize": 560,
-        "blockRange": 6441486,
+        "fileSize": 568,
+        "blockRange": 6462695,
         "counts": {
           "appearanceCount": 68,
           "logCount": 44,
@@ -12833,16 +12939,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 20823503,
+          "txId": 6,
+          "timestamp": 1645817870,
+          "date": "2022-02-25 19:37:50 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21776118,
+          "txId": 2,
+          "timestamp": 1650659740,
+          "date": "2022-04-22 20:35:40 UTC"
+        },
         "fileSize": 56,
+        "blockRange": 952616,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 6,
+          "logCount": 6,
+          "transactionCount": 6,
+          "neighborCount": 24,
+          "statementsCount": 12
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -13215,20 +13339,9 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {
-          "bn": 14656219,
-          "txId": 169,
-          "timestamp": 1650922628,
-          "date": "2022-04-25 21:37:08 UTC"
-        },
-        "latestAppearance": {
-          "bn": 14656265,
-          "txId": 21,
-          "timestamp": 1650923300,
-          "date": "2022-04-25 21:48:20 UTC"
-        },
-        "fileSize": 32,
-        "blockRange": 47,
+        "firstAppearance": {},
+        "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 3,
           "logCount": 2,
@@ -13264,13 +13377,13 @@
           "date": "2021-12-29 16:37:30 UTC"
         },
         "latestAppearance": {
-          "bn": 21866080,
+          "bn": 21898021,
           "txId": 6,
-          "timestamp": 1651132345,
-          "date": "2022-04-28 07:52:25 UTC"
+          "timestamp": 1651301000,
+          "date": "2022-04-30 06:43:20 UTC"
         },
-        "fileSize": 200,
-        "blockRange": 2032039,
+        "fileSize": 208,
+        "blockRange": 2063980,
         "counts": {
           "appearanceCount": 24,
           "logCount": 23,
@@ -13288,20 +13401,9 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {
-          "bn": 13894486,
-          "txId": 11,
-          "timestamp": 1640704685,
-          "date": "2021-12-28 15:18:05 UTC"
-        },
-        "latestAppearance": {
-          "bn": 14488107,
-          "txId": 190,
-          "timestamp": 1648650867,
-          "date": "2022-03-30 14:34:27 UTC"
-        },
-        "fileSize": 88,
-        "blockRange": 593622,
+        "firstAppearance": {},
+        "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 10,
           "logCount": 3,
@@ -13404,16 +13506,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 20236534,
+          "txId": 8,
+          "timestamp": 1642837325,
+          "date": "2022-01-22 07:42:05 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21668658,
+          "txId": 2,
+          "timestamp": 1650111125,
+          "date": "2022-04-16 12:12:05 UTC"
+        },
         "fileSize": 32,
+        "blockRange": 1432125,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 3,
+          "logCount": 3,
+          "transactionCount": 3,
+          "neighborCount": 12,
+          "statementsCount": 6
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -13744,24 +13864,24 @@
           "date": "2021-11-12 16:36:00 UTC"
         },
         "latestAppearance": {
-          "bn": 21886294,
-          "txId": 3,
-          "timestamp": 1651240605,
-          "date": "2022-04-29 13:56:45 UTC"
+          "bn": 21906335,
+          "txId": 1,
+          "timestamp": 1651343355,
+          "date": "2022-04-30 18:29:15 UTC"
         },
-        "fileSize": 11264,
-        "blockRange": 2850016,
+        "fileSize": 11456,
+        "blockRange": 2870057,
         "counts": {
-          "appearanceCount": 1399,
-          "logCount": 3416,
-          "transactionCount": 1399,
-          "neighborCount": 26184,
-          "statementsCount": 2916
+          "appearanceCount": 1421,
+          "logCount": 3466,
+          "transactionCount": 1421,
+          "neighborCount": 26352,
+          "statementsCount": 2963
         },
         "balances": [
           {
             "asset": "ETH",
-            "balance": 446.34618838395795
+            "balance": 447.08724016895695
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -15010,16 +15130,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 13650642,
+          "txId": 1,
+          "timestamp": 1608662325,
+          "date": "2020-12-22 18:38:45 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21769093,
+          "txId": 20,
+          "timestamp": 1650624355,
+          "date": "2022-04-22 10:45:55 UTC"
+        },
         "fileSize": 112,
+        "blockRange": 8118452,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 13,
+          "logCount": 24,
+          "transactionCount": 13,
+          "neighborCount": 221,
+          "statementsCount": 28
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.14740569409372567
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -15979,12 +16117,12 @@
     ]
   },
   {
-    "grantId": "1",
+    "grantId": "core-0001",
     "address": "0x4d9339dd97db55e3b9bcbe65de39ff9c04d1c2cd",
     "name": "The Giveth Community of Makers",
-    "tag": "31-Contracts:Giveth",
+    "tag": "31-Contracts:Core",
     "isActive": true,
-    "core": false,
+    "core": true,
     "isValid": true,
     "chainData": [
       {
@@ -15996,24 +16134,24 @@
           "date": "2021-12-23 21:49:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21887103,
-          "txId": 3,
-          "timestamp": 1651244960,
-          "date": "2022-04-29 15:09:20 UTC"
+          "bn": 21917575,
+          "txId": 4,
+          "timestamp": 1651400865,
+          "date": "2022-05-01 10:27:45 UTC"
         },
-        "fileSize": 16312,
-        "blockRange": 2152335,
+        "fileSize": 16344,
+        "blockRange": 2182807,
         "counts": {
-          "appearanceCount": 1931,
-          "logCount": 1957,
-          "transactionCount": 1931,
-          "neighborCount": 6582,
-          "statementsCount": 2414
+          "appearanceCount": 1934,
+          "logCount": 1960,
+          "transactionCount": 1934,
+          "neighborCount": 6593,
+          "statementsCount": 2419
         },
         "balances": [
           {
             "asset": "ETH",
-            "balance": 2517.63433
+            "balance": 2517.93433
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -16027,13 +16165,13 @@
           "date": "2021-11-10 20:28:39 UTC"
         },
         "latestAppearance": {
-          "bn": 14668524,
-          "txId": 117,
-          "timestamp": 1651089555,
-          "date": "2022-04-27 19:59:15 UTC"
+          "bn": 14690943,
+          "txId": 145,
+          "timestamp": 1651394166,
+          "date": "2022-05-01 08:36:06 UTC"
         },
-        "fileSize": 776,
-        "blockRange": 1077898,
+        "fileSize": 792,
+        "blockRange": 1100317,
         "counts": {
           "appearanceCount": 96,
           "logCount": 173,
@@ -16217,13 +16355,13 @@
           "date": "2021-12-23 02:23:40 UTC"
         },
         "latestAppearance": {
-          "bn": 20153808,
-          "txId": 3,
-          "timestamp": 1642423215,
-          "date": "2022-01-17 12:40:15 UTC"
+          "bn": 21897942,
+          "txId": 2,
+          "timestamp": 1651300580,
+          "date": "2022-04-30 06:36:20 UTC"
         },
-        "fileSize": 48,
-        "blockRange": 432997,
+        "fileSize": 56,
+        "blockRange": 2177131,
         "counts": {
           "appearanceCount": 5,
           "logCount": 4,
@@ -17113,16 +17251,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 20064126,
+          "txId": 2,
+          "timestamp": 1641974325,
+          "date": "2022-01-12 07:58:45 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21874134,
+          "txId": 8,
+          "timestamp": 1651175490,
+          "date": "2022-04-28 19:51:30 UTC"
+        },
         "fileSize": 24,
+        "blockRange": 1810009,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 2,
+          "logCount": 2,
+          "transactionCount": 2,
+          "neighborCount": 8,
+          "statementsCount": 4
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -18734,20 +18890,9 @@
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {
-          "bn": 14021057,
-          "txId": 145,
-          "timestamp": 1642396512,
-          "date": "2022-01-17 05:15:12 UTC"
-        },
-        "latestAppearance": {
-          "bn": 14021080,
-          "txId": 42,
-          "timestamp": 1642396750,
-          "date": "2022-01-17 05:19:10 UTC"
-        },
-        "fileSize": 32,
-        "blockRange": 24,
+        "firstAppearance": {},
+        "latestAppearance": {},
+        "fileSize": 8,
         "counts": {
           "appearanceCount": 3,
           "logCount": 2,
@@ -19147,13 +19292,13 @@
           "date": "2021-03-15 17:48:30 UTC"
         },
         "latestAppearance": {
-          "bn": 14169897,
-          "txId": 122,
-          "timestamp": 1644383315,
-          "date": "2022-02-09 05:08:35 UTC"
+          "bn": 14681656,
+          "txId": 342,
+          "timestamp": 1651268379,
+          "date": "2022-04-29 21:39:39 UTC"
         },
-        "fileSize": 320,
-        "blockRange": 2125279,
+        "fileSize": 328,
+        "blockRange": 2637038,
         "counts": {
           "appearanceCount": 39,
           "logCount": 34,
@@ -21830,24 +21975,24 @@
           "date": "2020-09-07 22:55:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21775020,
-          "txId": 4,
-          "timestamp": 1650654235,
-          "date": "2022-04-22 19:03:55 UTC"
+          "bn": 21897951,
+          "txId": 3,
+          "timestamp": 1651300630,
+          "date": "2022-04-30 06:37:10 UTC"
         },
-        "fileSize": 3128,
-        "blockRange": 9888256,
+        "fileSize": 3160,
+        "blockRange": 10011187,
         "counts": {
-          "appearanceCount": 390,
-          "logCount": 604,
-          "transactionCount": 390,
-          "neighborCount": 7127,
-          "statementsCount": 595
+          "appearanceCount": 393,
+          "logCount": 608,
+          "transactionCount": 393,
+          "neighborCount": 7140,
+          "statementsCount": 601
         },
         "balances": [
           {
             "asset": "ETH",
-            "balance": 31.043278996877202
+            "balance": 31.042902214157557
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -22143,13 +22288,13 @@
           "date": "2022-01-25 02:35:20 UTC"
         },
         "latestAppearance": {
-          "bn": 21885335,
-          "txId": 3,
-          "timestamp": 1651235420,
-          "date": "2022-04-29 12:30:20 UTC"
+          "bn": 21914508,
+          "txId": 15,
+          "timestamp": 1651385165,
+          "date": "2022-05-01 06:06:05 UTC"
         },
-        "fileSize": 2656,
-        "blockRange": 1600705,
+        "fileSize": 2664,
+        "blockRange": 1629878,
         "counts": {
           "appearanceCount": 329,
           "logCount": 337,
@@ -22948,16 +23093,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21431773,
+          "txId": 14,
+          "timestamp": 1648919180,
+          "date": "2022-04-02 17:06:20 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21869231,
+          "txId": 4,
+          "timestamp": 1651149115,
+          "date": "2022-04-28 12:31:55 UTC"
+        },
         "fileSize": 40,
+        "blockRange": 437459,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 4,
+          "logCount": 3,
+          "transactionCount": 4,
+          "neighborCount": 14,
+          "statementsCount": 7
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 10
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -23362,13 +23525,13 @@
           "date": "2021-04-05 19:38:05 UTC"
         },
         "latestAppearance": {
-          "bn": 21883146,
-          "txId": 1,
-          "timestamp": 1651223565,
-          "date": "2022-04-29 09:12:45 UTC"
+          "bn": 21905390,
+          "txId": 3,
+          "timestamp": 1651338505,
+          "date": "2022-04-30 17:08:25 UTC"
         },
-        "fileSize": 6864,
-        "blockRange": 6497114,
+        "fileSize": 6872,
+        "blockRange": 6519358,
         "counts": {
           "appearanceCount": 850,
           "logCount": 1896,
@@ -26040,23 +26203,24 @@
           "date": "2022-01-05 17:23:30 UTC"
         },
         "latestAppearance": {
-          "bn": 21876585,
-          "timestamp": 1651188545,
-          "date": "2022-04-28 23:29:05 UTC"
+          "bn": 21906266,
+          "txId": 1,
+          "timestamp": 1651342990,
+          "date": "2022-04-30 18:23:10 UTC"
         },
-        "fileSize": 2312,
-        "blockRange": 1926179,
+        "fileSize": 2328,
+        "blockRange": 1955860,
         "counts": {
-          "appearanceCount": 287,
-          "logCount": 790,
-          "transactionCount": 287,
-          "neighborCount": 2816,
-          "statementsCount": 644
+          "appearanceCount": 288,
+          "logCount": 791,
+          "transactionCount": 288,
+          "neighborCount": 2825,
+          "statementsCount": 645
         },
         "balances": [
           {
             "asset": "ETH",
-            "balance": 4.974368994314944
+            "balance": 4.97425300181462
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -27110,24 +27274,24 @@
           "date": "2021-01-26 08:23:40 UTC"
         },
         "latestAppearance": {
-          "bn": 21888346,
-          "txId": 7,
-          "timestamp": 1651251605,
-          "date": "2022-04-29 17:00:05 UTC"
+          "bn": 21898137,
+          "txId": 4,
+          "timestamp": 1651301580,
+          "date": "2022-04-30 06:53:00 UTC"
         },
-        "fileSize": 5936,
-        "blockRange": 7664900,
+        "fileSize": 6032,
+        "blockRange": 7674691,
         "counts": {
-          "appearanceCount": 740,
-          "logCount": 1803,
-          "transactionCount": 740,
-          "neighborCount": 9170,
-          "statementsCount": 1348
+          "appearanceCount": 751,
+          "logCount": 1831,
+          "transactionCount": 751,
+          "neighborCount": 9273,
+          "statementsCount": 1374
         },
         "balances": [
           {
             "asset": "ETH",
-            "balance": 5.965387804563205
+            "balance": 5.961046005926629
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -27904,24 +28068,24 @@
           "date": "2021-03-26 09:29:35 UTC"
         },
         "latestAppearance": {
-          "bn": 21873298,
-          "txId": 11,
-          "timestamp": 1651171025,
-          "date": "2022-04-28 18:37:05 UTC"
+          "bn": 21905567,
+          "txId": 1,
+          "timestamp": 1651339390,
+          "date": "2022-04-30 17:23:10 UTC"
         },
-        "fileSize": 256,
-        "blockRange": 6665395,
+        "fileSize": 280,
+        "blockRange": 6697664,
         "counts": {
-          "appearanceCount": 31,
-          "logCount": 21,
-          "transactionCount": 31,
-          "neighborCount": 129,
-          "statementsCount": 46
+          "appearanceCount": 33,
+          "logCount": 23,
+          "transactionCount": 33,
+          "neighborCount": 137,
+          "statementsCount": 50
         },
         "balances": [
           {
             "asset": "ETH",
-            "balance": 100.79777607429234
+            "balance": 0.7976235902915253
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -28716,6 +28880,79 @@
     ]
   },
   {
+    "grantId": "core-0004",
+    "address": "0x900db999074d9277c5da2a43f252d74366230da0",
+    "name": "The Giveth Token",
+    "tag": "31-Contracts:Core",
+    "isActive": true,
+    "core": true,
+    "isValid": true,
+    "chainData": [
+      {
+        "chainName": "gnosis",
+        "firstAppearance": {
+          "bn": 19611189,
+          "txId": 1,
+          "timestamp": 1639667545,
+          "date": "2021-12-16 15:12:25 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21811028,
+          "txId": 2,
+          "timestamp": 1650840645,
+          "date": "2022-04-24 22:50:45 UTC"
+        },
+        "fileSize": 512,
+        "blockRange": 2199840,
+        "counts": {
+          "appearanceCount": 63,
+          "logCount": 1,
+          "transactionCount": 63,
+          "neighborCount": 820,
+          "statementsCount": 63
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
+      },
+      {
+        "chainName": "mainnet",
+        "firstAppearance": {
+          "bn": 13816800,
+          "txId": 218,
+          "timestamp": 1639666178,
+          "date": "2021-12-16 14:49:38 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14668687,
+          "txId": 121,
+          "timestamp": 1651091899,
+          "date": "2022-04-27 20:38:19 UTC"
+        },
+        "fileSize": 24376,
+        "blockRange": 851888,
+        "counts": {
+          "appearanceCount": 3046,
+          "logCount": 3946,
+          "transactionCount": 3046,
+          "neighborCount": 22558,
+          "statementsCount": 3046
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
+      }
+    ]
+  },
+  {
     "grantId": "543",
     "address": "0x9020c377bb59b6c217d271cf8f27370f31295cd4",
     "name": "The Hunger Project",
@@ -28837,29 +29074,65 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21658453,
+          "txId": 1,
+          "timestamp": 1650059935,
+          "date": "2022-04-15 21:58:55 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21888916,
+          "txId": 4,
+          "timestamp": 1651254640,
+          "date": "2022-04-29 17:50:40 UTC"
+        },
         "fileSize": 128,
+        "blockRange": 230464,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 15,
+          "logCount": 13,
+          "transactionCount": 15,
+          "neighborCount": 81,
+          "statementsCount": 24
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.5713378536229878
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
-        "firstAppearance": {},
-        "latestAppearance": {},
-        "fileSize": 8,
+        "firstAppearance": {
+          "bn": 14680502,
+          "txId": 258,
+          "timestamp": 1651252733,
+          "date": "2022-04-29 17:18:53 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14680502,
+          "txId": 258,
+          "timestamp": 1651252733,
+          "date": "2022-04-29 17:18:53 UTC"
+        },
+        "fileSize": 16,
+        "blockRange": 1,
         "counts": {
-          "appearanceCount": 0,
+          "appearanceCount": 1,
           "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "transactionCount": 1,
+          "neighborCount": 2,
+          "statementsCount": 1
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.002
+          }
+        ],
+        "types": "apps,txs,neighbors,statements"
       }
     ]
   },
@@ -28880,13 +29153,13 @@
           "date": "2021-12-27 00:03:20 UTC"
         },
         "latestAppearance": {
-          "bn": 21887359,
-          "txId": 12,
-          "timestamp": 1651246315,
-          "date": "2022-04-29 15:31:55 UTC"
+          "bn": 21912073,
+          "txId": 6,
+          "timestamp": 1651372685,
+          "date": "2022-05-01 02:38:05 UTC"
         },
-        "fileSize": 1480,
-        "blockRange": 2099740,
+        "fileSize": 1488,
+        "blockRange": 2124454,
         "counts": {
           "appearanceCount": 180,
           "logCount": 113,
@@ -30219,16 +30492,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
-        "fileSize": 112,
+        "firstAppearance": {
+          "bn": 21347775,
+          "txId": 5,
+          "timestamp": 1648494575,
+          "date": "2022-03-28 19:09:35 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21918404,
+          "txId": 7,
+          "timestamp": 1651405115,
+          "date": "2022-05-01 11:38:35 UTC"
+        },
+        "fileSize": 120,
+        "blockRange": 570630,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 14,
+          "logCount": 13,
+          "transactionCount": 14,
+          "neighborCount": 54,
+          "statementsCount": 27
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 5
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -34782,16 +35073,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
-        "fileSize": 72,
+        "firstAppearance": {
+          "bn": 19978084,
+          "txId": 1,
+          "timestamp": 1641541965,
+          "date": "2022-01-07 07:52:45 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21905355,
+          "txId": 5,
+          "timestamp": 1651338330,
+          "date": "2022-04-30 17:05:30 UTC"
+        },
+        "fileSize": 80,
+        "blockRange": 1927272,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 9,
+          "logCount": 9,
+          "transactionCount": 9,
+          "neighborCount": 36,
+          "statementsCount": 18
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -34802,13 +35111,13 @@
           "date": "2022-01-13 05:30:32 UTC"
         },
         "latestAppearance": {
-          "bn": 14671275,
-          "txId": 233,
-          "timestamp": 1651127545,
-          "date": "2022-04-28 06:32:25 UTC"
+          "bn": 14681608,
+          "txId": 291,
+          "timestamp": 1651267585,
+          "date": "2022-04-29 21:26:25 UTC"
         },
-        "fileSize": 320,
-        "blockRange": 675963,
+        "fileSize": 336,
+        "blockRange": 686296,
         "counts": {
           "appearanceCount": 39,
           "logCount": 37,
@@ -35575,16 +35884,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21668936,
+          "txId": 2,
+          "timestamp": 1650112515,
+          "date": "2022-04-16 12:35:15 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21841539,
+          "txId": 5,
+          "timestamp": 1651002385,
+          "date": "2022-04-26 19:46:25 UTC"
+        },
         "fileSize": 40,
+        "blockRange": 172604,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 4,
+          "logCount": 4,
+          "transactionCount": 4,
+          "neighborCount": 16,
+          "statementsCount": 8
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -35649,16 +35976,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21362022,
+          "txId": 2,
+          "timestamp": 1648565880,
+          "date": "2022-03-29 14:58:00 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21873047,
+          "txId": 7,
+          "timestamp": 1651169685,
+          "date": "2022-04-28 18:14:45 UTC"
+        },
         "fileSize": 232,
+        "blockRange": 511026,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 28,
+          "logCount": 21,
+          "transactionCount": 28,
+          "neighborCount": 127,
+          "statementsCount": 45
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 398.5636775369397
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -36412,13 +36757,13 @@
           "date": "2020-04-02 01:12:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21882080,
-          "txId": 4,
-          "timestamp": 1651217890,
-          "date": "2022-04-29 07:38:10 UTC"
+          "bn": 21905428,
+          "txId": 2,
+          "timestamp": 1651338695,
+          "date": "2022-04-30 17:11:35 UTC"
         },
-        "fileSize": 2200,
-        "blockRange": 12684268,
+        "fileSize": 2208,
+        "blockRange": 12707616,
         "counts": {
           "appearanceCount": 273,
           "logCount": 211,
@@ -36589,16 +36934,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21668398,
+          "txId": 4,
+          "timestamp": 1650109825,
+          "date": "2022-04-16 11:50:25 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21873221,
+          "txId": 20,
+          "timestamp": 1651170605,
+          "date": "2022-04-28 18:30:05 UTC"
+        },
         "fileSize": 24,
+        "blockRange": 204824,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 2,
+          "logCount": 2,
+          "transactionCount": 2,
+          "neighborCount": 8,
+          "statementsCount": 4
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -37962,13 +38325,13 @@
           "date": "2022-02-24 15:38:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21724673,
-          "txId": 3,
-          "timestamp": 1650391550,
-          "date": "2022-04-19 18:05:50 UTC"
+          "bn": 21904362,
+          "txId": 4,
+          "timestamp": 1651333255,
+          "date": "2022-04-30 15:40:55 UTC"
         },
-        "fileSize": 600,
-        "blockRange": 920283,
+        "fileSize": 608,
+        "blockRange": 1099972,
         "counts": {
           "appearanceCount": 74,
           "logCount": 181,
@@ -39485,16 +39848,34 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21244515,
+          "txId": 6,
+          "timestamp": 1647961810,
+          "date": "2022-03-22 15:10:10 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21829709,
+          "txId": 5,
+          "timestamp": 1650939415,
+          "date": "2022-04-26 02:16:55 UTC"
+        },
         "fileSize": 32,
+        "blockRange": 585195,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 3,
+          "logCount": 2,
+          "transactionCount": 3,
+          "neighborCount": 10,
+          "statementsCount": 5
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 100
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -39862,24 +40243,24 @@
           "date": "2021-03-24 15:16:55 UTC"
         },
         "latestAppearance": {
-          "bn": 21825910,
-          "txId": 13,
-          "timestamp": 1650919335,
-          "date": "2022-04-25 20:42:15 UTC"
+          "bn": 21905566,
+          "txId": 2,
+          "timestamp": 1651339385,
+          "date": "2022-04-30 17:23:05 UTC"
         },
-        "fileSize": 1360,
-        "blockRange": 6648005,
+        "fileSize": 1384,
+        "blockRange": 6727661,
         "counts": {
-          "appearanceCount": 169,
-          "logCount": 174,
-          "transactionCount": 169,
-          "neighborCount": 1101,
-          "statementsCount": 285
+          "appearanceCount": 171,
+          "logCount": 177,
+          "transactionCount": 171,
+          "neighborCount": 1117,
+          "statementsCount": 289
         },
         "balances": [
           {
             "asset": "ETH",
-            "balance": 435.6399336932638
+            "balance": 520.9948140879187
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -42070,16 +42451,33 @@
     "chainData": [
       {
         "chainName": "gnosis",
-        "firstAppearance": {},
-        "latestAppearance": {},
+        "firstAppearance": {
+          "bn": 21828708,
+          "timestamp": 1650934125,
+          "date": "2022-04-26 00:48:45 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21877287,
+          "txId": 1,
+          "timestamp": 1651192290,
+          "date": "2022-04-29 00:31:30 UTC"
+        },
         "fileSize": 32,
+        "blockRange": 48580,
         "counts": {
-          "appearanceCount": 0,
-          "logCount": 0,
-          "transactionCount": 0,
-          "neighborCount": 0,
-          "statementsCount": 0
-        }
+          "appearanceCount": 3,
+          "logCount": 3,
+          "transactionCount": 3,
+          "neighborCount": 12,
+          "statementsCount": 6
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       },
       {
         "chainName": "mainnet",
@@ -43002,13 +43400,13 @@
           "date": "2021-12-02 15:54:15 UTC"
         },
         "latestAppearance": {
-          "bn": 21878929,
-          "txId": 5,
-          "timestamp": 1651201045,
-          "date": "2022-04-29 02:57:25 UTC"
+          "bn": 21898057,
+          "txId": 7,
+          "timestamp": 1651301180,
+          "date": "2022-04-30 06:46:20 UTC"
         },
-        "fileSize": 216,
-        "blockRange": 2506018,
+        "fileSize": 224,
+        "blockRange": 2525146,
         "counts": {
           "appearanceCount": 25,
           "logCount": 13,
@@ -46175,13 +46573,13 @@
           "date": "2022-01-12 22:52:05 UTC"
         },
         "latestAppearance": {
-          "bn": 21765409,
-          "txId": 12,
-          "timestamp": 1650604720,
-          "date": "2022-04-22 05:18:40 UTC"
+          "bn": 21898070,
+          "txId": 2,
+          "timestamp": 1651301245,
+          "date": "2022-04-30 06:47:25 UTC"
         },
-        "fileSize": 128,
-        "blockRange": 1690574,
+        "fileSize": 136,
+        "blockRange": 1823235,
         "counts": {
           "appearanceCount": 15,
           "logCount": 18,
@@ -46449,6 +46847,79 @@
           "neighborCount": 0,
           "statementsCount": 0
         }
+      }
+    ]
+  },
+  {
+    "grantId": "core-0002",
+    "address": "0xecb179ea5910d652eda6988e919c7930f5ffcf11",
+    "name": "otc.giv.eth",
+    "tag": "31-Contracts:Core",
+    "isActive": true,
+    "core": true,
+    "isValid": true,
+    "chainData": [
+      {
+        "chainName": "gnosis",
+        "firstAppearance": {
+          "bn": 19757229,
+          "txId": 2,
+          "timestamp": 1640408645,
+          "date": "2021-12-25 05:04:05 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21913953,
+          "txId": 5,
+          "timestamp": 1651382315,
+          "date": "2022-05-01 05:18:35 UTC"
+        },
+        "fileSize": 1288,
+        "blockRange": 2156725,
+        "counts": {
+          "appearanceCount": 160,
+          "logCount": 285,
+          "transactionCount": 160,
+          "neighborCount": 902,
+          "statementsCount": 333
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.18952664801051994
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
+      },
+      {
+        "chainName": "mainnet",
+        "firstAppearance": {
+          "bn": 13839476,
+          "txId": 184,
+          "timestamp": 1639968661,
+          "date": "2021-12-20 02:51:01 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14555022,
+          "txId": 298,
+          "timestamp": 1649554138,
+          "date": "2022-04-10 01:28:58 UTC"
+        },
+        "fileSize": 104,
+        "blockRange": 715547,
+        "counts": {
+          "appearanceCount": 12,
+          "logCount": 20,
+          "transactionCount": 12,
+          "neighborCount": 57,
+          "statementsCount": 22
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0.13578339326015532
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       }
     ]
   },
@@ -48423,13 +48894,13 @@
           "date": "2019-11-01 20:18:58 UTC"
         },
         "latestAppearance": {
-          "bn": 14675071,
-          "txId": 19,
-          "timestamp": 1651179281,
-          "date": "2022-04-28 20:54:41 UTC"
+          "bn": 14688003,
+          "txId": 229,
+          "timestamp": 1651354277,
+          "date": "2022-04-30 21:31:17 UTC"
         },
-        "fileSize": 18272,
-        "blockRange": 5820349,
+        "fileSize": 18304,
+        "blockRange": 5833281,
         "counts": {
           "appearanceCount": 2282,
           "logCount": 3274,
@@ -48440,7 +48911,7 @@
         "balances": [
           {
             "asset": "ETH",
-            "balance": 7.2367818463685225
+            "balance": 7.204213825035073
           }
         ],
         "types": "apps,logs,txs,neighbors,statements"
@@ -49184,6 +49655,79 @@
           "neighborCount": 0,
           "statementsCount": 0
         }
+      }
+    ]
+  },
+  {
+    "grantId": "core-0002",
+    "address": "0xf924ff0f192f0c7c073161e0d62ce7635114e74f",
+    "name": "liquidity.giv.eth",
+    "tag": "31-Contracts:Core",
+    "isActive": true,
+    "core": true,
+    "isValid": true,
+    "chainData": [
+      {
+        "chainName": "gnosis",
+        "firstAppearance": {
+          "bn": 19564387,
+          "txId": 8,
+          "timestamp": 1639432950,
+          "date": "2021-12-13 22:02:30 UTC"
+        },
+        "latestAppearance": {
+          "bn": 21770897,
+          "txId": 1,
+          "timestamp": 1650633550,
+          "date": "2022-04-22 13:19:10 UTC"
+        },
+        "fileSize": 152,
+        "blockRange": 2206511,
+        "counts": {
+          "appearanceCount": 18,
+          "logCount": 46,
+          "transactionCount": 18,
+          "neighborCount": 204,
+          "statementsCount": 33
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
+      },
+      {
+        "chainName": "mainnet",
+        "firstAppearance": {
+          "bn": 13596450,
+          "txId": 58,
+          "timestamp": 1636654396,
+          "date": "2021-11-11 18:13:16 UTC"
+        },
+        "latestAppearance": {
+          "bn": 14610493,
+          "txId": 77,
+          "timestamp": 1650302594,
+          "date": "2022-04-18 17:23:14 UTC"
+        },
+        "fileSize": 144,
+        "blockRange": 1014044,
+        "counts": {
+          "appearanceCount": 17,
+          "logCount": 31,
+          "transactionCount": 17,
+          "neighborCount": 101,
+          "statementsCount": 26
+        },
+        "balances": [
+          {
+            "asset": "ETH",
+            "balance": 0
+          }
+        ],
+        "types": "apps,logs,txs,neighbors,statements"
       }
     ]
   },
@@ -50351,13 +50895,13 @@
           "date": "2022-01-31 20:22:45 UTC"
         },
         "latestAppearance": {
-          "bn": 21499394,
-          "txId": 5,
-          "timestamp": 1649257710,
-          "date": "2022-04-06 15:08:30 UTC"
+          "bn": 21918412,
+          "txId": 6,
+          "timestamp": 1651405155,
+          "date": "2022-05-01 11:39:15 UTC"
         },
-        "fileSize": 72,
-        "blockRange": 1098403,
+        "fileSize": 80,
+        "blockRange": 1517421,
         "counts": {
           "appearanceCount": 8,
           "logCount": 7,
