@@ -47,7 +47,7 @@
                 "--folder",
                 "wallets",
                 "--chain",
-                "mainnet,gnosis",
+                "mainnet",
                 "--fmt",
                 "csv"
             ],
