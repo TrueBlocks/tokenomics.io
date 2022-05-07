@@ -1,6 +1,7 @@
 ### Network Graphs
 
-Using the `neighbors` files in the folder above this one, this Python script (thanks in large part to nollied#6773) genates network graphs, images of the same, and adjacency lists.
+Using the `neighbors` files in the folder above this one, this Python script (thanks in large part to nollied#6773) 
+genates network graphs, images of the same, and adjacency lists.
 
 This data is very much a work in progress.
 
@@ -16,7 +17,7 @@ This data is alpha status and may be (and probably is) incomplete.
 ```
 python -m venv env
 source env/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.fil
 python neighbor_networks.py <address>
 ```
 
