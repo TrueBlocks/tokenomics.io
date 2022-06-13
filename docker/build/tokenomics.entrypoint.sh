@@ -4,7 +4,7 @@ export NOMICS_DIR=/root/tokenomics.io
 
 echo "Container started, updating websites"
 
-bash /etc/periodic/15min/update_websites.sh
+bash /etc/periodic/15min/update_webistes.sh
 
 if [ $? -gt 0 ]
 then

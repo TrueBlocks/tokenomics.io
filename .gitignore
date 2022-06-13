@@ -8,6 +8,9 @@ fix*sh
 save
 backups
 
+# docker
+docker/.env
+
 # dependencies
 /node_modules
 /.pnp

@@ -24,6 +24,7 @@ RUN apk --no-cache add gzip bash curl nano
 # Copy files from builder
 COPY --from=builder /root/tokenomics.io/nomics /usr/local/bin
 COPY --from=builder /root/tokenomics.io /root/tokenomics.io
+COPY --from=builder /root/tokenomics.io/docker/cron_tasks /etc/periodic
 
 WORKDIR /root/tokenomics.io
 

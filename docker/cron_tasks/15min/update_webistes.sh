@@ -19,4 +19,12 @@ then
 fi
 
 bash $NOMICS_DIR/scripts/update.sh
+STATUS=$?
+
+if [ $STATUS -gt 0 ]
+then
+    echo "Error while updating the data, exiting"
+    exit 1
+fi
+
 bash $NOMICS_DIR/scripts/build.sh $WEBSITES $HTML_DIR
