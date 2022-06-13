@@ -2,7 +2,7 @@
 FROM golang:1.18-alpine as builder
 
 # Install build depenedencies
-RUN apk --no-cache add make
+RUN apk --no-cache add make git gcc linux-headers libc-dev
 
 # Set workdir
 WORKDIR /root
@@ -13,7 +13,7 @@ ARG UPSTREAM_VER=master
 # Clone and build tokenomics tool
 RUN git clone -b "${UPSTREAM_VER}" --single-branch --progress --depth 1 \
         https://github.com/TrueBlocks/tokenomics.io.git  && \
-        cd tokenomics && make
+        cd tokenomics.io && make
 
 # Switch to alpine container
 FROM alpine:latest
