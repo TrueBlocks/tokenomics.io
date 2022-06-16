@@ -1,0 +1,13 @@
+[chains]
+
+[chains.mainnet]
+chainId = "1"
+pinGateway = "https://ipfs.unchainedindex.io/ipfs/"
+rpcProvider = "http://erigon.dappnode:8545"
+symbol = "ETH"
+
+[chains.gnosis]
+chainId = "100"
+pinGateway = "https://gnosis.unchainedindex.io/ipfs/"
+rpcProvider = "https://rpc.gnosischain.com"
+symbol = "XDAI"
