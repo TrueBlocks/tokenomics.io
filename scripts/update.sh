@@ -6,7 +6,7 @@ then
     exit 1
 fi
 
-WHEN_RESPONSE=`curl "localhost:8080/when?blocks=latest&fmt=txt&noHeader"`
+WHEN_RESPONSE=`curl "$CHIFRA_URL/when?blocks=latest&fmt=txt&noHeader"`
 CURL_EXIT=$?
 
 if [ $CURL_EXIT -gt 0 ]
