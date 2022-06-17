@@ -221,7 +221,10 @@ func readExistingGrants(folder string) (map[string]types.Grant, error) {
 	bytes, _ := ioutil.ReadFile(path)
 
 	grants := []types.Grant{}
-	_ = json.Unmarshal([]byte(bytes), &grants)
+	err := json.Unmarshal([]byte(bytes), &grants)
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	for _, grant := range grants {
 		grant.Key = grant.Address + "_" + grant.GrantId
