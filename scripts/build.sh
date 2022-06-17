@@ -27,8 +27,10 @@ do
     echo "Building $dir"
     echo "--------------------------------------------"
     cd $dir/ui
-    yarn
-    yarn build
+    # TODO: REMOVE THIS
+    tail -f /dev/null
+    # yarn
+    # yarn build
     echo "Copying over the artifacts..."
 
     if [ ! -d $TARGET/$dir ]
