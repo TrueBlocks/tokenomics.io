@@ -19,7 +19,7 @@ RUN git clone -b "${UPSTREAM_VER}" --single-branch --progress --depth 1 \
 FROM alpine:latest
 
 # Install binary dependencies and nice to haves
-RUN apk --no-cache add gzip bash curl jq nano
+RUN apk --no-cache add gzip bash curl jq yarn nano
 
 # Copy files from builder
 COPY --from=builder /root/tokenomics.io/nomics /usr/local/bin
