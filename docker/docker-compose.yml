@@ -1,0 +1,51 @@
+name: Tokenomics
+services:
+  core:
+    image: trueblocks-core:latest
+    ports:
+      - "8080:8080"
+    env_file: .env
+    volumes:
+      - Index:/index
+      - Cache:/cache
+
+  monitor_giveth:
+    depends_on:
+      - core
+    restart: unless-stopped
+    image: trueblocks-monitors:latest
+    env_file: .env
+    environment:
+      MONITORS_WATCH_FILE:
+        --appearances
+        --articulate --cache --cache_traces
+        --logs --relevant
+        --neighbors
+        --statements
+    volumes:
+      - Index:/index
+      - Cache:/cache
+      - giveth_exports:/exports
+      - ../giveth:/addresses:ro
+
+  tokenomics:
+    depends_on:
+      - core
+      - monitor_giveth
+    image: tokenomics:latest
+    build: ./build
+    env_file: .env
+    deploy:
+      restart_policy:
+        condition: always
+        delay: 30m
+    volumes:
+      - giveth_exports:/root/tokenomics.io/giveth/exports:ro
+      - Output:/html
+
+volumes:
+  Index:
+  Cache:
+  Output:
+  giveth_exports:
+  giveth_addresses:
