@@ -16,7 +16,7 @@ services:
     image: trueblocks-monitors:latest
     env_file: .env
     environment:
-      MONITORS_WATCH_FILE:
+      MONITORS_WATCH_FILE: |-
         --appearances
         --articulate --cache --cache_traces
         --logs --relevant
