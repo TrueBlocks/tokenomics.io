@@ -30,9 +30,12 @@ update_project() {
         echo "Chain:  " $CHAIN
         echo "Format: " $FMT
 
+        TEMP_FILE=/tmp/data-${RANDOM}.json
+
         nomics combine --folder $FOLDER --chain $CHAIN --fmt $FMT
         nomics compress --folder $FOLDER --chain $CHAIN --fmt $FMT
-        nomics update --folder $FOLDER --chain $CHAIN --fmt $FMT | jq > $NOMICS_DIR/$FOLDER/ui/src/theData.json
+        nomics update --folder $FOLDER --chain $CHAIN --fmt $FMT > $TEMP_FILE
+        cat $TEMP_FILE | jq > $NOMICS_DIR/$FOLDER/ui/src/theData.json
     done
 }
 
