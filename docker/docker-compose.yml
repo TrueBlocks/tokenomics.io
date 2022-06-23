@@ -9,7 +9,46 @@ services:
       - Index:/index
       - Cache:/cache
 
-  monitor_giveth:
+  # monitor_giveth_mainnet:
+  #   depends_on:
+  #     - core
+  #   restart: unless-stopped
+  #   image: trueblocks-monitors:latest
+  #   env_file: .env
+  #   environment:
+  #     MONITORS_WATCH_FILE: |-
+  #       --appearances
+  #       --articulate --cache --cache_traces
+  #       --logs --relevant
+  #       --neighbors
+  #       --statements
+  #   volumes:
+  #     - Index:/index
+  #     - Cache:/cache
+  #     - giveth_exports:/exports
+  #     - ../giveth:/addresses:ro
+
+  # monitor_giveth_gnosis:
+  #   depends_on:
+  #     - core
+  #   restart: unless-stopped
+  #   image: trueblocks-monitors:latest
+  #   env_file: .env
+  #   environment:
+  #     MONITORS_WATCH_ARGS: --chain gnosis
+  #     MONITORS_WATCH_FILE: |-
+  #       --appearances
+  #       --articulate --cache --cache_traces
+  #       --logs --relevant
+  #       --neighbors
+  #       --statements
+  #   volumes:
+  #     - Index:/index
+  #     - Cache:/cache
+  #     - giveth_exports_gnosis:/exports
+  #     - ../giveth:/addresses:ro
+
+  monitor_gitcoin:
     depends_on:
       - core
     restart: unless-stopped
@@ -19,33 +58,49 @@ services:
       MONITORS_WATCH_FILE: |-
         --appearances
         --articulate --cache --cache_traces
-        --logs --relevant
+        --logs --relevant --emitter 0xdf869fad6db91f437b59f1edefab319493d4c4ce --emitter 0x7d655c57f71464b6f83811c55d84009cd9f5221c --emitter 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6 --emitter 0x3342e3737732d879743f2682a3953a730ae4f47c --emitter 0x3ebaffe01513164e638480404c651e885cca0aa4
         --neighbors
         --statements
     volumes:
       - Index:/index
       - Cache:/cache
-      - giveth_exports:/exports
-      - ../giveth:/addresses:ro
+      - gitcoin_exports:/exports
+      - ../gitcoin:/addresses:ro
 
   tokenomics:
     depends_on:
       - core
-      - monitor_giveth
+      # - monitor_giveth_mainnet
+      # - monitor_giveth_gnosis
+      - monitor_gitcoin
     image: tokenomics:latest
     build: ./build
     env_file: .env
     deploy:
       restart_policy:
-        condition: always
-        delay: 30m
+        condition: on-failure # TODO: restart every 30 minutes
+        # delay: 30m
     volumes:
-      - giveth_exports:/root/tokenomics.io/giveth/exports:ro
+      - giveth_exports:/root/tokenomics.io/giveth/exports/mainnet:ro
+      - giveth_exports_gnosis:/root/tokenomics.io/giveth/exports/gnosis:ro
+      - gitcoin_exports:/root/tokenomics.io/gitcoin/exports
       - Output:/html
+
+  lighttpd:
+    image: sebp/lighttpd
+    volumes:
+      - Output:/var/www/localhost/htdocs:ro
+    ports:
+      - "8090:80"
+    tty: true
+
 
 volumes:
   Index:
   Cache:
   Output:
   giveth_exports:
-  giveth_addresses:
+  giveth_exports_gnosis:
+  # giveth_addresses:
+  gitcoin_exports:
+  # gitcoin_addresses:
