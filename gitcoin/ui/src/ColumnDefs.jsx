@@ -1,5 +1,5 @@
 import { DownloadIcon } from './Utils';
-import { DateHeader, DateCell, NameHeader, NameCell, BalanceHeader, AppearanceHeader, TransactionHeader, EventLogsHeader, NeighborsHeader } from "./ColumnCells"
+import { DateHeader, DateCell, NameHeader, NameCell, BalanceHeader, AppearanceHeader, TransactionHeader, EventLogsHeader, NeighborsHeader, SuspiciousHeader } from "./ColumnCells"
 import { getChainData } from './GlobalState';
 
 export const columns = [
@@ -139,5 +139,15 @@ export const columns = [
         <DownloadIcon grantData={grantData} count={chainData.counts.neighborCount} path='neighbors/' type='csv' />
       );
     },
+  },
+  {
+    title: <SuspiciousHeader />,
+    render(text, record, index) {
+      const icon = (index + 1) % 5 === 0
+        ? <span>😡</span>
+        : null;
+
+      return <div className='column-suspicious'>{icon}</div>
+    }
   },
 ];

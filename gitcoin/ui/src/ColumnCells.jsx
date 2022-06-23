@@ -125,6 +125,14 @@ export const NeighborsHeader = () => (
 )
 
 //--------------------------------------------------
+export const SuspiciousHeader = () => (
+  <ColumnTitle
+    title='Suspicious'
+    tooltip='Does this address looks suspicious?'
+  />
+)
+
+//--------------------------------------------------
 const dateDisplay = (block) => {
   if (block === '0')
     return '';
