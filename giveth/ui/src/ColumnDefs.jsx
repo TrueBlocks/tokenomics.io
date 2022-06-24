@@ -2,6 +2,9 @@ import { DownloadIcon } from './Utils';
 import { DateHeader, DateCell, NameHeader, NameCell, BalanceHeader, AppearanceHeader, TransactionHeader, EventLogsHeader, NeighborsHeader, SuspiciousHeader } from "./ColumnCells"
 import { getChainData } from './GlobalState';
 
+// To mocked predicate to tell if an address is suspicious
+const mockedIsSuspicious = (index) => (index + 1) % 5 === 0;
+
 export const columns = [
   {
     title: <DateHeader />,
@@ -27,8 +30,12 @@ export const columns = [
     sorter: {
       compare: (a, b) => a.address - b.address,
     },
-    render: function (u, grantData) {
-      return <NameCell grantData={grantData} />
+    render: function (u, grantData, index) {
+      const overrideName = mockedIsSuspicious(index)
+        ? "Name has been changed to protect the innocent"
+        : false;
+
+      return <NameCell grantData={grantData} overrideName={overrideName} />
     },
   },
   {
@@ -142,8 +149,9 @@ export const columns = [
   },
   {
     title: <SuspiciousHeader />,
+    width: '2%',
     render(text, record, index) {
-      const icon = (index + 1) % 5 === 0
+      const icon = mockedIsSuspicious(index)
         ? <span>😡</span>
         : null;
 
