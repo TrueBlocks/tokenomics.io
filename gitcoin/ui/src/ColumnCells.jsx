@@ -33,7 +33,7 @@ export const NameHeader = () => (
     tooltip='The name and address of the grant or core contract.'
   />
 )
-export const NameCell = ({ grantData, overrideName }) => {
+export const NameCell = ({ grantData }) => {
   const [copied, setCopied] = useState(false);
   const { localExplorer } = useGlobalState();
 
@@ -63,11 +63,10 @@ export const NameCell = ({ grantData, overrideName }) => {
     "/" +
     grantData.name.replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
 
-  if (!slug || overrideName) {
-    const nameToShow = overrideName || name;
+  if (!slug) {
     return (
       <div>
-        {nameToShow} <ZipLink grantData={grantData} />
+        {name} <ZipLink grantData={grantData} />
         <br />
         {explorerLink}
       </div>

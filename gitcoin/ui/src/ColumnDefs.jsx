@@ -147,15 +147,4 @@ export const columns = [
       );
     },
   },
-  {
-    title: <SuspiciousHeader />,
-    width: '2%',
-    render(text, record, index) {
-      const icon = mockedIsSuspicious(index)
-        ? <span>😡</span>
-        : null;
-
-      return <div className='column-suspicious'>{icon}</div>
-    }
-  },
 ];
