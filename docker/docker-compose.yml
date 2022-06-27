@@ -13,7 +13,7 @@ services:
   #   depends_on:
   #     - core
   #   restart: unless-stopped
-  #   image: trueblocks-monitors:latest
+  #   image: trueblocks-monitor:latest
   #   env_file: .env
   #   environment:
   #     MONITORS_WATCH_FILE: |-
@@ -32,7 +32,7 @@ services:
   #   depends_on:
   #     - core
   #   restart: unless-stopped
-  #   image: trueblocks-monitors:latest
+  #   image: trueblocks-monitor:latest
   #   env_file: .env
   #   environment:
   #     MONITORS_WATCH_ARGS: --chain gnosis
@@ -52,7 +52,7 @@ services:
     depends_on:
       - core
     restart: unless-stopped
-    image: trueblocks-monitors:latest
+    image: trueblocks-monitor:latest
     env_file: .env
     environment:
       MONITORS_WATCH_FILE: |-
