@@ -17,7 +17,7 @@ then
     exit $CURL_EXIT
 fi
 
-WHEN=`echo $WHEN_RESPONSE | cut -f1,3 | tr '\t' ' ' | sed 's/^/export const lastUpdate = \"Last updated at block: /' | sed 's/$/\";/'`
+WHEN=`echo $WHEN_RESPONSE | cut -d ' ' -f1,3 | tr '\t' ' ' | sed 's/^/export const lastUpdate = \"Last updated at block: /' | sed 's/$/\";/'`
 
 update_project() {
     FOLDER=$1
@@ -36,6 +36,7 @@ update_project() {
         nomics compress --folder $FOLDER --chain $CHAIN --fmt $FMT
         nomics update --folder $FOLDER --chain $CHAIN --fmt $FMT > $TEMP_FILE
         cat $TEMP_FILE | jq > $NOMICS_DIR/$FOLDER/ui/src/theData.json
+        echo $WHEN > $NOMICS_DIR/$FOLDER/ui/src/last-update.js
     done
 }
 
