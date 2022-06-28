@@ -81,8 +81,8 @@ services:
         condition: on-failure # TODO: restart every 30 minutes
         # delay: 30m
     volumes:
-      - giveth_exports:/root/tokenomics.io/giveth/exports/mainnet:ro
-      - giveth_exports_gnosis:/root/tokenomics.io/giveth/exports/gnosis:ro
+      - giveth_exports:/root/tokenomics.io/giveth/exports/mainnet
+      - giveth_exports_gnosis:/root/tokenomics.io/giveth/exports/gnosis
       - gitcoin_exports:/root/tokenomics.io/gitcoin/exports
       - Output:/html
 

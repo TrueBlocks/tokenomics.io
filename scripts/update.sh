@@ -22,7 +22,7 @@ WHEN=`echo $WHEN_RESPONSE | cut -d ' ' -f1,3 | tr '\t' ' ' | sed 's/^/export con
 update_project() {
     FOLDER=$1
     CHAINS=${2:-mainnet}
-    FMT=${3:-json}
+    FMT=${3:-csv}
 
     for CHAIN in ${CHAINS//,/ }
     do
