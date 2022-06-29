@@ -17,7 +17,7 @@ export const DateCell = ({ grantData }) => {
     return <div>N/A</div>
   }
   const dd = (<div>
-    {(chainData.latestAppearance.date || '').substr(0, 16)}
+    {chainData.latestAppearance.date.substr(0, 16)}
     <div>
       {dateDisplay(chainData.latestAppearance.bn)}
     </div>
