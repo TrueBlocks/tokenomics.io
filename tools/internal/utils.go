@@ -63,6 +63,6 @@ var dataTypes = []string{
 	"neighbors",
 	// "neighbors/adjacencies",
 	"statements",
-	// "statements/balances",
-	// "statements/tx_counts",
+	"statements/balances",
+	"statements/tx_counts",
 }
