@@ -35,7 +35,11 @@ update_statement_data() {
 
         cat $FILE | cut -d, -f1,2,3,4,5,6,9,25,26,30-33 > ${EXPORTS_DIR}/statements/balances/${FILE_NAME}
         echo "count,assetAddr,assetSymbol" > ${EXPORTS_DIR}/statements/tx_counts/${FILE_NAME}
+
+        # Some datasets don't have assetAddr, so grep can fail
+        set +e
         cat ${EXPORTS_DIR}/statements/balances/${FILE_NAME} | grep -v assetAddr | cut -d, -f1,2 | sort | uniq -c | sort -n -r | sed 's/ //g' | sed 's/"/,/g' | cut -d, -f1,2,5 | tee -a ${EXPORTS_DIR}/statements/tx_counts/${FILE_NAME}
+        set -e
     done
 }
 
