@@ -20,6 +20,32 @@ fi
 WHEN=`echo $WHEN_RESPONSE | cut -d ' ' -f1,3 | tr '\t' ' ' | sed 's/^/export const lastUpdate = \"Last updated at block: /' | sed 's/$/\";/'`
 
 update_statement_data() {
+    EXPORTS_DIR=$1
+    ADDRESS=$2
+    FILE_NAME=$3
+
+    mkdir -p ${EXPORTS_DIR}/zips/${ADDRESS}/statements
+    mkdir -p ${EXPORTS_DIR}/combined/statements
+
+    cat $FILE | cut -d, -f1,2,3,4,5,6,9,25,26,30-33 > ${EXPORTS_DIR}/statements/balances/${FILE_NAME}
+    echo "count,assetAddr,assetSymbol" > ${EXPORTS_DIR}/statements/tx_counts/${FILE_NAME}
+
+    # Some datasets don't have assetAddr, so grep can fail
+    set +e
+    cat ${EXPORTS_DIR}/statements/balances/${FILE_NAME} | grep -v assetAddr | cut -d, -f1,2 | sort | uniq -c | sort -n -r | sed 's/ //g' | sed 's/"/,/g' | cut -d, -f1,2,5 | tee -a ${EXPORTS_DIR}/statements/tx_counts/${FILE_NAME}
+    set -e
+}
+
+update_images() {
+    EXPORTS_DIR=$1
+    ADDRESS=$2
+
+    cd ${EXPORTS_DIR}/neighbors/networks
+    python ./neighbor_networks.py $ADDRESS
+    cd -
+}
+
+update_per_file_data()
     FOLDER=$1
     CHAIN=$2
 
@@ -30,16 +56,8 @@ update_statement_data() {
         FILE_NAME=`echo $FILE | sed 's;.*/;;g'`
         ADDRESS=`echo $FILE_NAME | sed 's/.csv//'`
 
-        mkdir -p ${EXPORTS_DIR}/zips/${ADDRESS}/statements
-        mkdir -p ${EXPORTS_DIR}/combined/statements
-
-        cat $FILE | cut -d, -f1,2,3,4,5,6,9,25,26,30-33 > ${EXPORTS_DIR}/statements/balances/${FILE_NAME}
-        echo "count,assetAddr,assetSymbol" > ${EXPORTS_DIR}/statements/tx_counts/${FILE_NAME}
-
-        # Some datasets don't have assetAddr, so grep can fail
-        set +e
-        cat ${EXPORTS_DIR}/statements/balances/${FILE_NAME} | grep -v assetAddr | cut -d, -f1,2 | sort | uniq -c | sort -n -r | sed 's/ //g' | sed 's/"/,/g' | cut -d, -f1,2,5 | tee -a ${EXPORTS_DIR}/statements/tx_counts/${FILE_NAME}
-        set -e
+        update_statement_data $EXPORTS_DIR $ADDRESS $FILE_NAME
+        update_images $EXPORTS_DIR $ADDRESS
     done
 }
 
@@ -56,7 +74,7 @@ update_project() {
 
         TEMP_FILE=/tmp/data-${RANDOM}.json
 
-        update_statement_data $FOLDER $CHAIN
+        update_per_file_data $FOLDER $CHAIN
 
         nomics combine --folder $FOLDER --chain $CHAIN --fmt $FMT
         nomics compress --folder $FOLDER --chain $CHAIN --fmt $FMT
