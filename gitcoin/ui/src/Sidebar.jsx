@@ -24,9 +24,9 @@ export function Sidebar() {
   var neighborBase = config.Urls.Data + curChain + "/neighbors/"
 
   // Construct the selected grant image's URL
-  const adjSource = useMemo(() => new URL(`${address}.txt`, neighborBase + "adjacencies/"), [address, neighborBase]);
-  const svgSource = useMemo(() => new URL(`${address}.svg`, neighborBase + "images/"), [address, neighborBase]);
-  const pngSource = useMemo(() => new URL(`${address}.png`, neighborBase + "images/pngs/"), [address, neighborBase]);
+  const adjSource = useMemo(() => new URL(`${address}.txt`, neighborBase + "adjacencies/", window.location), [address, neighborBase]);
+  const svgSource = useMemo(() => new URL(`${address}.svg`, neighborBase + "images/", window.location), [address, neighborBase]);
+  const pngSource = useMemo(() => new URL(`${address}.png`, neighborBase + "images/pngs/", window.location), [address, neighborBase]);
   const [loading, setLoading] = useState(false);
   const onCloseClick = useCallback(() => {
     setSidebarVisible(false);
