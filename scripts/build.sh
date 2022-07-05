@@ -31,11 +31,7 @@ do
     yarn build
     echo "Copying over the artifacts..."
 
-    if [ ! -d $TARGET/$dir ]
-    then
-        mkdir -p $TARGET/$dir/charts/
-    fi
-
+    mkdir -p $TARGET/$dir/charts/
     cp -pr build/* $TARGET/$dir/
     cd -
     cp -pr charts/* $TARGET/$dir/charts/
