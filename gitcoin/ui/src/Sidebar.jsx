@@ -21,7 +21,7 @@ export function Sidebar() {
     neighborCount
   } = useMemo(() => selectedGrant || {}, [selectedGrant]);
 
-  var neighborBase = config.Urls.Data + curChain + "/neighbors/"
+  const neighborBase = useMemo(() => new URL(config.Urls.Data + curChain + "/neighbors/", window.location), [curChain]);
 
   // Construct the selected grant image's URL
   const adjSource = useMemo(() => new URL(`${address}.txt`, neighborBase + "adjacencies/", window.location), [address, neighborBase]);
