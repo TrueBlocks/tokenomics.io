@@ -71,6 +71,10 @@ update_project() {
         nomics update --folder $FOLDER --chain $CHAIN --fmt $FMT > $TEMP_FILE
         cat $TEMP_FILE | jq > $NOMICS_DIR/$FOLDER/ui/src/theData.json
         echo $WHEN > $NOMICS_DIR/$FOLDER/ui/src/last-update.js
+
+        echo "Copying static data"
+        mkdir -p /html/gitcoin/data/
+        cp -rv $NOMICS_DIR/$FOLDER/exports/$CHAIN /html/gitcoin/data/$CHAIN
     done
 }
 
