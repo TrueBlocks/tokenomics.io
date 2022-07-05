@@ -34,13 +34,21 @@ then
     exit 1
 fi
 
-bash $NOMICS_DIR/scripts/update.sh
-STATUS=$?
+start() {
+    bash $NOMICS_DIR/scripts/update.sh
+    STATUS=$?
 
-if [ $STATUS -gt 0 ]
-then
-    echo "Error while updating the data, exiting"
-    exit 1
-fi
+    if [ $STATUS -gt 0 ]
+    then
+        echo "Error while updating the data, exiting"
+        exit 1
+    fi
 
-bash $NOMICS_DIR/scripts/build.sh $WEBSITES $HTML_DIR
+    bash $NOMICS_DIR/scripts/build.sh $WEBSITES $HTML_DIR
+}
+
+while true
+do
+    start
+    sleep 1800 # 30 mins
+done
