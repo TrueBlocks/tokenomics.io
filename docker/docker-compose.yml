@@ -74,7 +74,7 @@ services:
       # - monitor_giveth_gnosis
       - monitor_gitcoin
     image: tokenomics:latest
-    build: ./build
+    build: ./tokenomics/build
     env_file: .env
     deploy:
       restart_policy:
@@ -84,6 +84,22 @@ services:
       - giveth_exports:/root/tokenomics.io/giveth/exports/mainnet
       - giveth_exports_gnosis:/root/tokenomics.io/giveth/exports/gnosis
       - gitcoin_exports:/root/tokenomics.io/gitcoin/exports
+      - Output:/html
+
+  networks:
+    depends_on:
+      - core
+      - monitor_gitcoin
+    image: networks:latest
+    build: ./networks/build
+    env_file: .env
+    deploy:
+      restart_policy:
+        condition: on-failure
+    volumes:
+      - giveth_exports:/exports/giveth/mainnet
+      - giveth_exports_gnosis:/exports/giveth/gnosis
+      - gitcoin_exports:/exports/gitcoin
       - Output:/html
 
   lighttpd:

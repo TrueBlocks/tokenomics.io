@@ -36,15 +36,6 @@ update_statement_data() {
     set -e
 }
 
-update_images() {
-    EXPORTS_DIR=$1
-    ADDRESS=$2
-
-    cd ${EXPORTS_DIR}/neighbors/networks
-    python ./neighbor_networks.py $ADDRESS
-    cd -
-}
-
 update_per_file_data() {
     FOLDER=$1
     CHAIN=$2
@@ -57,7 +48,6 @@ update_per_file_data() {
         ADDRESS=`echo $FILE_NAME | sed 's/.csv//'`
 
         update_statement_data $EXPORTS_DIR $ADDRESS $FILE_NAME
-        update_images $EXPORTS_DIR $ADDRESS
     done
 }
 
