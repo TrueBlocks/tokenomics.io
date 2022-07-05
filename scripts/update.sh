@@ -45,7 +45,7 @@ update_images() {
     cd -
 }
 
-update_per_file_data()
+update_per_file_data() {
     FOLDER=$1
     CHAIN=$2
 
