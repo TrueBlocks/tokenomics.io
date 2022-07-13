@@ -33,7 +33,7 @@ export const NameHeader = () => (
     tooltip='The name and address of the grant or core contract.'
   />
 )
-export const NameCell = ({ grantData }) => {
+export const NameCell = ({ grantData, overrideName }) => {
   const [copied, setCopied] = useState(false);
   const { localExplorer } = useGlobalState();
 
@@ -63,14 +63,17 @@ export const NameCell = ({ grantData }) => {
     "/" +
     grantData.name.replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
 
-  if (!slug)
+  if (!slug || overrideName) {
+    const nameToShow = overrideName || name;
     return (
       <div>
-        {name} <ZipLink grantData={grantData} />
+        {nameToShow} <ZipLink grantData={grantData} />
         <br />
         {explorerLink}
       </div>
     );
+  }
+
   return (
     <div>
       <div>
@@ -121,6 +124,14 @@ export const NeighborsHeader = () => (
   <ColumnTitle
     title='Neighbors'
     tooltip='The list of addresses that appear in the same transactions as this grant.'
+  />
+)
+
+//--------------------------------------------------
+export const SuspiciousHeader = () => (
+  <ColumnTitle
+    title='Suspicious'
+    tooltip='Does this address look suspicious?'
   />
 )
 

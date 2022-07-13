@@ -79,6 +79,10 @@ header a.install-tb {
   white-space: nowrap;
 }
 
+.main-rows .column-suspicious {
+  font-size: xx-large;
+}
+
 .with-sidebar {
   text-align: left;
 }

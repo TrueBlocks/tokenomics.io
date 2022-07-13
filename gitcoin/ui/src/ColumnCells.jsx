@@ -63,7 +63,7 @@ export const NameCell = ({ grantData }) => {
     "/" +
     grantData.name.replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
 
-  if (!slug)
+  if (!slug) {
     return (
       <div>
         {name} <ZipLink grantData={grantData} />
@@ -71,6 +71,8 @@ export const NameCell = ({ grantData }) => {
         {explorerLink}
       </div>
     );
+  }
+
   return (
     <div>
       <div>
@@ -121,6 +123,14 @@ export const NeighborsHeader = () => (
   <ColumnTitle
     title='Neighbors'
     tooltip='The list of addresses that appear in the same transactions as this grant.'
+  />
+)
+
+//--------------------------------------------------
+export const SuspiciousHeader = () => (
+  <ColumnTitle
+    title='Suspicious'
+    tooltip='Does this address look suspicious?'
   />
 )
 
