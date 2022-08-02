@@ -41,4 +41,4 @@ WORKDIR /root/tokenomics.io
 # EXPOSE ${SERVE_PORT}
 
 # Run entrypoint script
-ENTRYPOINT bash ./docker/tokenomics/build/tokenomics.entrypoint.sh
+ENTRYPOINT bash docker/tokenomics/build/tokenomics.entrypoint.sh

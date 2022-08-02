@@ -1,7 +1,7 @@
 name: Tokenomics
 services:
   core:
-    image: trueblocks-core:latest
+    image: trueblocks/core:develop
     ports:
       - "8080:8080"
     env_file: .env
@@ -52,7 +52,7 @@ services:
     depends_on:
       - core
     restart: unless-stopped
-    image: trueblocks-monitor:latest
+    image: trueblocks/monitors-watch:develop
     env_file: .env
     environment:
       MONITORS_WATCH_FILE: |-
@@ -74,7 +74,10 @@ services:
       # - monitor_giveth_gnosis
       - monitor_gitcoin
     image: tokenomics:latest
-    build: ./tokenomics/build
+    build:
+      context: ./tokenomics/build
+      args:
+        UPSTREAM_VER: docker
     env_file: .env
     deploy:
       restart_policy:
@@ -86,21 +89,22 @@ services:
       - gitcoin_exports:/root/tokenomics.io/gitcoin/exports
       - Output:/html
 
-  networks:
-    depends_on:
-      - core
-      - monitor_gitcoin
-    image: networks:latest
-    build: ./networks/build
-    env_file: .env
-    deploy:
-      restart_policy:
-        condition: on-failure
-    volumes:
-      - giveth_exports:/exports/giveth/mainnet
-      - giveth_exports_gnosis:/exports/giveth/gnosis
-      - gitcoin_exports:/exports/gitcoin
-      - Output:/html
+  # Commented out for local performance
+  # networks:
+  #   depends_on:
+  #     - core
+  #     - monitor_gitcoin
+  #   image: networks:latest
+  #   build: ./networks/build
+  #   env_file: .env
+  #   deploy:
+  #     restart_policy:
+  #       condition: on-failure
+  #   volumes:
+  #     - giveth_exports:/exports/giveth/mainnet
+  #     - giveth_exports_gnosis:/exports/giveth/gnosis
+  #     - gitcoin_exports:/exports/gitcoin
+  #     - Output:/html
 
   lighttpd:
     image: sebp/lighttpd
