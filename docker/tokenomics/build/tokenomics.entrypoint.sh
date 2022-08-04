@@ -40,12 +40,31 @@ start() {
 
     if [ $STATUS -gt 0 ]
     then
-        echo "Error while updating the data, exiting"
+        echo "Error while updating the data"
         exit 1
     fi
-
-    bash $NOMICS_DIR/scripts/build.sh $WEBSITES $HTML_DIR
 }
+
+build_website() {
+    # If the website has already been built, we don't need to do anything
+    if [ -f /html/index.html ]
+    then
+        return
+    fi
+
+    echo "Building website"
+
+    cd $NOMICS_DIR/ui
+    yarn build
+    # Do not copy development data mocks
+    cp -v `find build/ -type f` /html
+    cp -rv build/static /html
+    cd -
+
+    echo "Website built"
+}
+
+build_website
 
 while true
 do

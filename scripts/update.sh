@@ -17,7 +17,7 @@ then
     exit $CURL_EXIT
 fi
 
-WHEN=`echo $WHEN_RESPONSE | cut -d ' ' -f1,3 | tr '\t' ' ' | sed 's/^/export const lastUpdate = \"Last updated at block: /' | sed 's/$/\";/'`
+WHEN=`echo $WHEN_RESPONSE | cut -d ' ' -f1,3 | tr '\t' ' ' | sed 's/^/[/' | sed 's/ /, "/' | sed 's/$/\"]/'`
 
 update_statement_data() {
     EXPORTS_DIR=$1
@@ -69,11 +69,12 @@ update_project() {
         nomics combine --folder $FOLDER --chain $CHAIN --fmt $FMT
         nomics compress --folder $FOLDER --chain $CHAIN --fmt $FMT
         nomics update --folder $FOLDER --chain $CHAIN --fmt $FMT > $TEMP_FILE
-        cat $TEMP_FILE | jq > $NOMICS_DIR/$FOLDER/ui/src/theData.json
-        echo $WHEN > $NOMICS_DIR/$FOLDER/ui/src/last-update.js
+        cat $TEMP_FILE | jq > /html/$FOLDER/data/$CHAIN/theData.json
+
+        echo $WHEN > /html/$FOLDER/data/lastUpdate.json
 
         echo "Copying static data"
-        mkdir -p /html/gitcoin/data/
+        mkdir -p /html/$FOLDER/data/$CHAIN
         cp -rv $NOMICS_DIR/$FOLDER/exports/$CHAIN /html/gitcoin/data/$CHAIN
     done
 }
