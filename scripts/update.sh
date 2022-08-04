@@ -23,9 +23,9 @@ update_statement_data() {
     EXPORTS_DIR=$1
     ADDRESS=$2
     FILE_NAME=$3
+    FILE=$4
 
     mkdir -p ${EXPORTS_DIR}/zips/${ADDRESS}/statements
-    mkdir -p ${EXPORTS_DIR}/combined/statements
 
     cat $FILE | cut -d, -f1,2,3,4,5,6,9,25,26,30-33 > ${EXPORTS_DIR}/statements/balances/${FILE_NAME}
     echo "count,assetAddr,assetSymbol" > ${EXPORTS_DIR}/statements/tx_counts/${FILE_NAME}
@@ -47,7 +47,7 @@ update_per_file_data() {
         FILE_NAME=`echo $FILE | sed 's;.*/;;g'`
         ADDRESS=`echo $FILE_NAME | sed 's/.csv//'`
 
-        update_statement_data $EXPORTS_DIR $ADDRESS $FILE_NAME
+        update_statement_data $EXPORTS_DIR $ADDRESS $FILE_NAME $FILE
     done
 }
 
@@ -63,6 +63,8 @@ update_project() {
         echo "Format: " $FMT
 
         TEMP_FILE=/tmp/data-${RANDOM}.json
+
+        mkdir -p $FOLDER/exports/$CHAIN/combined/statements/{balances,tx_counts}
 
         update_per_file_data $FOLDER $CHAIN
 
