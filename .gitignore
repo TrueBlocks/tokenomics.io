@@ -22,6 +22,10 @@ docker/.env
 # production
 /build
 
+# UI
+/ui/node_modules
+/ui/build
+
 # misc
 .DS_Store
 .env.local
