@@ -217,7 +217,7 @@ func GetBalanceInEth(chain, address string, blockNum uint64) float64 {
 func readExistingGrants(folder string) (map[string]types.Grant, error) {
 	theMap := map[string]types.Grant{}
 
-	path := path.Join(folder, "ui/src/theData.json")
+	path := path.Join(folder, "theData.json")
 	bytes, _ := ioutil.ReadFile(path)
 
 	grants := []types.Grant{}
