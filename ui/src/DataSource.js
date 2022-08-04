@@ -11,7 +11,7 @@ export async function loadData(project, chain) {
 
     const dataDirectory = config.buildPath(project, 'data');
     const response = await fetch(
-        new URL(`${dataDirectory}${chain}/theData.json`, window.location)
+        new URL(`${dataDirectory}theData.json`, window.location)
     );
     const data = await response.json();
 

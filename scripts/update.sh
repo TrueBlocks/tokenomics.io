@@ -65,18 +65,18 @@ update_project() {
         TEMP_FILE=/tmp/data-${RANDOM}.json
 
         mkdir -p $FOLDER/exports/$CHAIN/combined/statements/{balances,tx_counts}
+        mkdir -p /html/$FOLDER/data/$CHAIN
 
         update_per_file_data $FOLDER $CHAIN
 
         nomics combine --folder $FOLDER --chain $CHAIN --fmt $FMT
         nomics compress --folder $FOLDER --chain $CHAIN --fmt $FMT
         nomics update --folder $FOLDER --chain $CHAIN --fmt $FMT > $TEMP_FILE
-        cat $TEMP_FILE | jq > /html/$FOLDER/data/$CHAIN/theData.json
+        cat $TEMP_FILE | jq > /html/$FOLDER/data/theData.json
 
         echo $WHEN > /html/$FOLDER/data/lastUpdate.json
 
         echo "Copying static data"
-        mkdir -p /html/$FOLDER/data/$CHAIN
         cp -rv $NOMICS_DIR/$FOLDER/exports/$CHAIN /html/gitcoin/data/$CHAIN
     done
 }

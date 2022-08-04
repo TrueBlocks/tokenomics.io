@@ -27,7 +27,7 @@ function App() {
       navigate(`/${project}`, { replace: true });
     }
     setProject(projectParam || project);
-  }, [navigate, project, projectParam]);
+  }, [navigate, project, projectParam, setProject]);
 
   return (
       <Layout className='App' style={{ backgroundColor: '#e7dddc' }}>
