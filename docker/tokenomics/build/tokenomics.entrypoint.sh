@@ -55,8 +55,11 @@ build_website() {
     echo "Building website"
 
     cd $NOMICS_DIR/ui
+    yarn
     yarn build
+
     # Do not copy development data mocks
+    echo "Copying over the artifacts..."
     cp -v `find build/ -type f` /html
     cp -rv build/static /html
     cd -
