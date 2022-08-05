@@ -77,7 +77,7 @@ update_project() {
         echo $WHEN > /html/$FOLDER/data/lastUpdate.json
 
         echo "Copying static data"
-        cp -rv $NOMICS_DIR/$FOLDER/exports/$CHAIN /html/gitcoin/data/$CHAIN
+        cp -rv $NOMICS_DIR/$FOLDER/exports/$CHAIN /html/gitcoin/data/
     done
 }
 
