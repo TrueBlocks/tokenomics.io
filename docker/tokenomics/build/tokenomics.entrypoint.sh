@@ -72,5 +72,5 @@ build_website
 while true
 do
     start
-    sleep 1800 # 30 mins
+    sleep $NOMICS_SLEEP
 done

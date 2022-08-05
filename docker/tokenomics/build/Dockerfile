@@ -41,4 +41,6 @@ WORKDIR /root/tokenomics.io
 # EXPOSE ${SERVE_PORT}
 
 # Run entrypoint script
+# Default sleep time is 30 mins (= 1800 seconds)
+ENV NOMICS_SLEEP=1800
 ENTRYPOINT bash docker/tokenomics/build/tokenomics.entrypoint.sh
