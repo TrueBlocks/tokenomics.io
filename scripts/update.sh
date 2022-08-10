@@ -64,6 +64,7 @@ update_project() {
 
         TEMP_FILE=/tmp/data-${RANDOM}.json
 
+        mkdir -p $FOLDER/exports/$CHAIN/combined/zips
         mkdir -p $FOLDER/exports/$CHAIN/combined/statements/{balances,tx_counts}
         mkdir -p /html/$FOLDER/data/$CHAIN
 

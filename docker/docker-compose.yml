@@ -110,6 +110,7 @@ services:
     image: sebp/lighttpd
     volumes:
       - Output:/var/www/localhost/htdocs:ro
+      - ./lighttpd:/etc/lighttpd
     ports:
       - "8090:80"
     tty: true
