@@ -17,8 +17,8 @@ import (
 )
 
 func compressCombined(folder string, chain string, format string) error {
-	inputDir := path.Join(folder, chain, "combined")
-	outputPath := path.Join(folder, chain, "zips/combined")
+	inputDir := path.Join(folder, "./exports", chain, "combined")
+	outputPath := path.Join(folder, "./exports", chain, "zips/combined")
 	err := file.EstablishFolder(outputPath)
 	if err != nil {
 		return err
