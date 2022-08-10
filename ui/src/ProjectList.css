@@ -1,0 +1,22 @@
+main.project-list {
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 70vw;
+    max-width: 600px;
+}
+
+main.project-list li {
+    margin-bottom: .25em;
+}
+
+@media(prefers-color-scheme: dark) {
+    main.project-list {
+        background: black;
+        color: hsl(210, 17.4%, 82%);
+    }
+
+    main.project-list a {
+        color: hsl(25, 70%, 45%);
+    }
+}

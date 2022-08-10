@@ -20,12 +20,8 @@ function App() {
   const { setProject, project } = useGlobalState();
   const { project: projectParam } = useParams();
 
-  // Set the project from URL parameter or, if missing, change
-  // the URL so that it has the default project
+  // Set the project from the URL parameter
   useEffect(() => {
-    if (!projectParam) {
-      navigate(`/${project}`, { replace: true });
-    }
     setProject(projectParam || project);
   }, [navigate, project, projectParam, setProject]);
 

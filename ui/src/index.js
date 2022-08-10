@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import ProjectList from './ProjectList';
 import { GlobalStateProvider } from './GlobalState';
 
 ReactDOM.render(
@@ -17,7 +18,7 @@ ReactDOM.render(
       <Routes>
         <Route
           path="/"
-          element={<App />}
+          element={<ProjectList />}
         />
         <Route
           path="/:project"
