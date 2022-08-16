@@ -1,4 +1,3 @@
-#
 # Latest golang as builder
 FROM golang:1.18-alpine as builder
 
@@ -31,14 +30,6 @@ COPY --from=builder /root/tokenomics.io /root/tokenomics.io
 COPY trueBlocks.toml /root/.local/share/trueblocks/
 
 WORKDIR /root/tokenomics.io
-
-# Testing
-# COPY test/core-test.entrypoint.sh /root
-# RUN chmod +x /root/core-test.entrypoint.sh
-
-# Expose ports
-# ARG SERVE_PORT=8080
-# EXPOSE ${SERVE_PORT}
 
 # Run entrypoint script
 # Default sleep time is 30 mins (= 1800 seconds)

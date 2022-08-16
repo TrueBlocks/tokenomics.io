@@ -16,6 +16,7 @@ update_per_file_data() {
     # Turn filenames into addresses
     find $EXPORTS_DIR/statements -type f -name *.csv | xargs basename -a -s .csv > /tmp/addresses
 
+    mkdir -p ${EXPORTS_DIR}/neighbors/networks
     cd ${EXPORTS_DIR}/neighbors/networks
     cat /tmp/addresses | parallel --jobs 200% "python /app/neighbor_networks.py"
 }
@@ -46,9 +47,12 @@ start() {
     done
 }
 
+echo "Images will be built in 20 minutes"
+sleep 1200
+
 while true
 do
     start
-    echo "Images built, sleeping for 15 minutes"
-    sleep 900
+    echo "Images built. Will wait 50 minutes"
+    sleep 3000
 done
