@@ -8,7 +8,8 @@ then
     exit 1
 fi
 
-WHEN_RESPONSE=`curl "$CHIFRA_URL/when?blocks=latest&fmt=txt&noHeader"`
+CORE_HOST="${CORE_URL:-http://core}:${CORE_PORT:-8080}"
+WHEN_RESPONSE=`curl "${CORE_HOST}/when?blocks=latest&fmt=txt&noHeader"`
 CURL_EXIT=$?
 
 if [ $CURL_EXIT -gt 0 ]
