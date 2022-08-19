@@ -66,7 +66,6 @@ update_project() {
         TEMP_FILE=/tmp/data-${RANDOM}.json
 
         mkdir -p $FOLDER/exports/$CHAIN/zips/combined
-        # mkdir -p $FOLDER/exports/$CHAIN/combined/zips
         mkdir -p $FOLDER/exports/$CHAIN/combined/statements/{balances,tx_counts}
         mkdir -p /html/$FOLDER/data/$CHAIN
 
@@ -90,11 +89,6 @@ do
     WEBSITE_UP=`echo $WEBSITE | tr '[:lower:]' '[:upper:]'`
     varname="NOMICS_${WEBSITE_UP}_CHAINS"
     CHAINS="${!varname}"
-    # if [ -z "$CHAINS" ]
-    # then
-    #     echo "Env variable $varname missing"
-    #     exit 1
-    # fi
 
     update_project $WEBSITE $CHAINS
 done

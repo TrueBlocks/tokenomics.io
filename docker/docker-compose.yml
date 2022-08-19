@@ -45,7 +45,7 @@ services:
     volumes:
       - Index:/index
       - Cache:/cache
-      - giveth_exports_gnosis:/exports
+      - giveth_exports:/exports
       - ../giveth:/addresses:ro
 
   monitor_gitcoin:
@@ -83,11 +83,11 @@ services:
       restart_policy:
         condition: on-failure
     volumes:
-      - giveth_exports:/root/tokenomics.io/giveth/exports/mainnet
-      - giveth_exports_gnosis:/root/tokenomics.io/giveth/exports/gnosis
+      - giveth_exports:/root/tokenomics.io/giveth/exports
       - gitcoin_exports:/root/tokenomics.io/gitcoin/exports
       - Output:/html
 
+  # TODO: Rename it
   networks:
     depends_on:
       - core
@@ -99,8 +99,7 @@ services:
       restart_policy:
         condition: on-failure
     volumes:
-      - giveth_exports:/exports/giveth/mainnet
-      - giveth_exports_gnosis:/exports/giveth/gnosis
+      - giveth_exports:/exports/giveth
       - gitcoin_exports:/exports/gitcoin
       - Output:/html
 
@@ -119,7 +118,6 @@ volumes:
   Cache:
   Output:
   giveth_exports:
-  giveth_exports_gnosis:
   giveth_addresses:
   gitcoin_exports:
   gitcoin_addresses:
