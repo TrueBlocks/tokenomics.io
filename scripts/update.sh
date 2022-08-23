@@ -74,7 +74,10 @@ update_project() {
         nomics combine --folder $FOLDER --chain $CHAIN --fmt $FMT
         nomics compress --folder $FOLDER --chain $CHAIN --fmt $FMT
         nomics update --folder $FOLDER --chain $CHAIN --fmt $FMT > $TEMP_FILE
-        cat $TEMP_FILE | jq > /html/$FOLDER/data/theData.json
+        cat $TEMP_FILE | jq > $NOMICS_DIR/$FOLDER/theData.json
+
+        echo "Copying data file"
+        cp $NOMICS_DIR/$FOLDER/theData.json /html/$FOLDER/data/theData.json
 
         echo $WHEN > /html/$FOLDER/data/lastUpdate.json
 
