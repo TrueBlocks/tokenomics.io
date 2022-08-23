@@ -83,6 +83,8 @@ update_project() {
 
         echo "Copying static data"
         cp -rv $NOMICS_DIR/$FOLDER/exports/$CHAIN /html/gitcoin/data/
+
+        rm $TEMP_FILE
     done
 }
 
