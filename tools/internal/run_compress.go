@@ -33,13 +33,16 @@ func compressCombined(folder string, chain string, format string) error {
 			return nil
 		}
 
-		if filepath.Ext(fp) != format {
+		formatExt := "." + format
+
+		if filepath.Ext(fp) != formatExt {
 			return nil
 		}
 
-		// inputPaths = append(inputPaths, path)
+		logger.Log(logger.Info, "Compressing combined file:", entry.Name())
+
 		name := filepath.Base(fp)
-		outName := strings.Replace(name, format, ".tar.gz", 1)
+		outName := strings.Replace(name, formatExt, ".tar.gz", 1)
 		outFile, err := os.Create(path.Join(outputPath, outName))
 		defer outFile.Close()
 		if err != nil {
