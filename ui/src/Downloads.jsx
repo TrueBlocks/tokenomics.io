@@ -21,11 +21,11 @@ export const Downloads = ({ chain }) => {
           <b>Download zip files of:</b>
           <ul>
             <li>All data for [ <a target="top" href={zipsBase + "combined/"}>all addresses</a> ]</li>
-            <li>Appearances for [ <a target="top" href={zipsBase + "combined/apps.csv.gz"}>all addresses</a> ]</li>
-            <li>Transactions for [ <a target="top" href={zipsBase + "combined/txs.csv.gz"}>all addresses</a> ]</li>
-            <li>Logs for [ <a target="top" href={zipsBase + "combined/logs.csv.gz"}>all addresses</a> ]</li >
-            <li>Neighbors for [ <a target="top" href={zipsBase + "combined/neighbors.csv.gz"}>all addresses</a> ]</li >
-            <li>Statements for [ <a target="top" href={zipsBase + "combined/statements.csv.gz"}>raw data</a> | <a target="top" href={zipsBase + "combined/statements_balances.csv.gz"} > summaries</a > | <a target="top" href={zipsBase + "combined/statements_tx_counts.csv.gz"}>asset tx counts</a> ]</li >
+            <li>Appearances for [ <a target="top" href={zipsBase + "combined/apps.csv.tar.gz"}>all addresses</a> ]</li>
+            <li>Transactions for [ <a target="top" href={zipsBase + "combined/txs.csv.tar.gz"}>all addresses</a> ]</li>
+            <li>Logs for [ <a target="top" href={zipsBase + "combined/logs.csv.tar.gz"}>all addresses</a> ]</li >
+            <li>Neighbors for [ <a target="top" href={zipsBase + "combined/neighbors.csv.tar.gz"}>all addresses</a> ]</li >
+            <li>Statements for [ <a target="top" href={zipsBase + "combined/statements.csv.tar.gz"}>raw data</a> | <a target="top" href={zipsBase + "combined/statements_balances.csv.tar.gz"} > summaries</a > | <a target="top" href={zipsBase + "combined/statements_tx_counts.csv.tar.gz"}>asset tx counts</a> ]</li >
           </ul >
         </div >
 

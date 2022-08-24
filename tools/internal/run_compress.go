@@ -52,7 +52,7 @@ func compressCombined(folder string, chain string, format string) error {
 			[]string{fp},
 			outFile,
 			false,
-			"",
+			inputDir,
 		)
 		if err != nil {
 			return err
