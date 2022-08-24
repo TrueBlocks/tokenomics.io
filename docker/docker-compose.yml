@@ -1,7 +1,12 @@
 name: Tokenomics
+x-logging: &default-logging
+  options:
+    max-size: "10m"
+    max-file: "3"
 services:
   core:
     image: trueblocks/core:develop
+    logging: *default-logging
     ports:
       - "8080:8080"
     env_file: .env
@@ -14,6 +19,7 @@ services:
       - core
     restart: unless-stopped
     image: trueblocks/monitors-watch:develop
+    logging: *default-logging
     env_file: .env
     environment:
       MONITORS_WATCH_FILE: |-
@@ -33,6 +39,7 @@ services:
       - core
     restart: unless-stopped
     image: trueblocks/monitors-watch:develop
+    logging: *default-logging
     env_file: .env
     environment:
       MONITORS_WATCH_ARGS: --chain gnosis
@@ -53,6 +60,7 @@ services:
       - core
     restart: unless-stopped
     image: trueblocks/monitors-watch:develop
+    logging: *default-logging
     env_file: .env
     environment:
       MONITORS_WATCH_FILE: |-
@@ -74,6 +82,7 @@ services:
       - monitor_giveth_gnosis
       - monitor_gitcoin
     image: tokenomics:latest
+    logging: *default-logging
     build:
       context: ./tokenomics/build
       args:
@@ -88,12 +97,13 @@ services:
       - Output:/html
 
   # TODO: Rename it
-  networks:
+  analysis:
     depends_on:
       - core
       - monitor_gitcoin
-    image: networks:latest
-    build: ./networks/build
+    image: analysis:latest
+    logging: *default-logging
+    build: ./analysis/build
     env_file: .env
     deploy:
       restart_policy:
@@ -105,6 +115,7 @@ services:
 
   lighttpd:
     image: sebp/lighttpd
+    logging: *default-logging
     volumes:
       - Output:/var/www/localhost/htdocs:ro
       - ./lighttpd:/etc/lighttpd

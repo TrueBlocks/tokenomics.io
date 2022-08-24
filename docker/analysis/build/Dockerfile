@@ -16,5 +16,5 @@ COPY --from=tokenomics:latest /root/tokenomics.io/scripts/networks /app
 RUN pip install -r /app/requirements.fil
 ENV PATH="/venv/bin:$PATH"
 
-COPY networks.entrypoint.sh .
-ENTRYPOINT bash ./networks.entrypoint.sh
+COPY analysis.entrypoint.sh .
+ENTRYPOINT bash ./analysis.entrypoint.sh
