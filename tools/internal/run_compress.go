@@ -42,7 +42,7 @@ func compressCombined(folder string, chain string, format string) error {
 		logger.Log(logger.Info, "Compressing combined file:", entry.Name())
 
 		name := filepath.Base(fp)
-		outName := strings.Replace(name, formatExt, ".tar.gz", 1)
+		outName := name + ".tar.gz"
 		outFile, err := os.Create(path.Join(outputPath, outName))
 		defer outFile.Close()
 		if err != nil {
