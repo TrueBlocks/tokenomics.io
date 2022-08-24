@@ -96,7 +96,6 @@ services:
       - gitcoin_exports:/root/tokenomics.io/gitcoin/exports
       - Output:/html
 
-  # TODO: Rename it
   analysis:
     depends_on:
       - core
