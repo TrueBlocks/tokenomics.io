@@ -57,32 +57,38 @@ update_project() {
     CHAINS=${2:-mainnet}
     FMT=${3:-csv}
 
+    chainsArg=""
+
     for CHAIN in ${CHAINS//,/ }
     do
-        echo "Folder: " $FOLDER
-        echo "Chain:  " $CHAIN
-        echo "Format: " $FMT
-
-        TEMP_FILE=/tmp/data-${RANDOM}.json
-
         mkdir -p $FOLDER/exports/$CHAIN/zips/combined
         mkdir -p $FOLDER/exports/$CHAIN/combined/statements/{balances,tx_counts}
         mkdir -p /html/$FOLDER/data/$CHAIN
-
+        chainsArg="$chainsArg $CHAIN"
         update_per_file_data $FOLDER $CHAIN
+    done
 
-        nomics combine --folder $FOLDER --chain $CHAIN --fmt $FMT
-        nomics compress --folder $FOLDER --chain $CHAIN --fmt $FMT
-        nomics update --folder $FOLDER --chain $CHAIN --fmt $FMT > $TEMP_FILE
-        cat $TEMP_FILE | jq > $NOMICS_DIR/$FOLDER/theData.json
+    echo "Folder: " $FOLDER
+    echo "Chain:  " $chainArg
+    echo "Format: " $FMT
 
-        echo "Copying data file"
-        cp $NOMICS_DIR/$FOLDER/theData.json /html/$FOLDER/data/theData.json
+    TEMP_FILE=/tmp/data-${RANDOM}.json
 
-        echo $WHEN > /html/$FOLDER/data/lastUpdate.json
+    nomics combine --folder $FOLDER --chain $chainArg --fmt $FMT
+    nomics compress --folder $FOLDER --chain $chainArg --fmt $FMT
+    nomics update --folder $FOLDER --chain $chainArg --fmt $FMT > $TEMP_FILE
+    cat $TEMP_FILE | jq > $NOMICS_DIR/$FOLDER/theData.json
 
+    echo "Copying data file"
+    cp $NOMICS_DIR/$FOLDER/theData.json /html/$FOLDER/data/theData.json
+
+    echo $WHEN > /html/$FOLDER/data/lastUpdate.json
+
+    for CHAIN in ${CHAINS//,/ }
+    do
         echo "Copying static data"
         cp -rv $NOMICS_DIR/$FOLDER/exports/$CHAIN /html/$FOLDER/data/
+    done
 
         rm $TEMP_FILE
     done
