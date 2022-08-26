@@ -64,9 +64,10 @@ update_project() {
         mkdir -p $FOLDER/exports/$CHAIN/zips/combined
         mkdir -p $FOLDER/exports/$CHAIN/combined/statements/{balances,tx_counts}
         mkdir -p /html/$FOLDER/data/$CHAIN
-        chainsArg="$chainsArg $CHAIN"
         update_per_file_data $FOLDER $CHAIN
-    done
+
+        chainsArg="$chainsArg $CHAIN"
+    done <<< "$chainsArg"
 
     echo "Folder: " $FOLDER
     echo "Chain:  " $chainArg
@@ -90,8 +91,7 @@ update_project() {
         cp -rv $NOMICS_DIR/$FOLDER/exports/$CHAIN /html/$FOLDER/data/
     done
 
-        rm $TEMP_FILE
-    done
+    rm $TEMP_FILE
 }
 
 for WEBSITE in ${WEBSITES//,/ }
