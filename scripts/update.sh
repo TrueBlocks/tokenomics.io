@@ -57,7 +57,7 @@ update_project() {
     CHAINS=${2:-mainnet}
     FMT=${3:-csv}
 
-    chainsArg=""
+    chainArg=`echo $CHAINS | sed -e 's/,/ --chain /'`
 
     for CHAIN in ${CHAINS//,/ }
     do
@@ -65,9 +65,7 @@ update_project() {
         mkdir -p $FOLDER/exports/$CHAIN/combined/statements/{balances,tx_counts}
         mkdir -p /html/$FOLDER/data/$CHAIN
         update_per_file_data $FOLDER $CHAIN
-
-        chainsArg="$chainsArg $CHAIN"
-    done <<< "$chainsArg"
+    done
 
     echo "Folder: " $FOLDER
     echo "Chain:  " $chainArg
