@@ -19,6 +19,7 @@ No. It's an experiment trying to figure out what types of organizations can exis
 
 This is the structure of the folders along with a short explanation of each.
 
+```
 .
 ├── ./ui
 │
@@ -35,3 +36,4 @@ This is the structure of the folders along with a short explanation of each.
     ├── ./gitcoin
     ├── ./giveth
     └── ./clrfund
+```
