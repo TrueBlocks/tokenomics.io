@@ -1,0 +1,133 @@
+name: Tokenomics
+x-logging: &default-logging
+  options:
+    max-size: "10m"
+    max-file: "3"
+services:
+  core:
+    image: trueblocks/core:develop
+    logging: *default-logging
+    ports:
+      - "8080:8080"
+    env_file: .env
+    volumes:
+      - Index:/index
+      - Cache:/cache
+
+  monitor_giveth_mainnet:
+    depends_on:
+      - core
+    restart: unless-stopped
+    image: trueblocks/monitors-watch:develop
+    logging: *default-logging
+    env_file: .env
+    environment:
+      MONITORS_WATCH_FILE: |-
+        --appearances
+        --articulate --cache --cache_traces
+        --logs --relevant
+        --neighbors
+        --statements
+    volumes:
+      - Index:/index
+      - Cache:/cache
+      - giveth_exports:/exports
+      - ../giveth:/addresses:ro
+
+  monitor_giveth_gnosis:
+    depends_on:
+      - core
+    restart: unless-stopped
+    image: trueblocks/monitors-watch:develop
+    logging: *default-logging
+    env_file: .env
+    environment:
+      MONITORS_WATCH_ARGS: --chain gnosis
+      MONITORS_WATCH_FILE: |-
+        --appearances
+        --articulate --cache --cache_traces
+        --logs --relevant
+        --neighbors
+        --statements
+    volumes:
+      - Index:/index
+      - Cache:/cache
+      - giveth_exports:/exports
+      - ../giveth:/addresses:ro
+
+  monitor_gitcoin:
+    depends_on:
+      - core
+    restart: unless-stopped
+    image: trueblocks/monitors-watch:develop
+    logging: *default-logging
+    env_file: .env
+    environment:
+      MONITORS_WATCH_FILE: |-
+        --appearances
+        --articulate --cache --cache_traces
+        --logs --relevant --emitter 0xdf869fad6db91f437b59f1edefab319493d4c4ce --emitter 0x7d655c57f71464b6f83811c55d84009cd9f5221c --emitter 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6 --emitter 0x3342e3737732d879743f2682a3953a730ae4f47c --emitter 0x3ebaffe01513164e638480404c651e885cca0aa4
+        --neighbors
+        --statements
+    volumes:
+      - Index:/index
+      - Cache:/cache
+      - gitcoin_exports:/exports
+      - ../gitcoin:/addresses:ro
+
+  tokenomics:
+    depends_on:
+      - core
+      - monitor_giveth_mainnet
+      - monitor_giveth_gnosis
+      - monitor_gitcoin
+    image: tokenomics:latest
+    logging: *default-logging
+    build:
+      context: ./tokenomics/build
+      args:
+        UPSTREAM_VER: docker
+    env_file: .env
+    deploy:
+      restart_policy:
+        condition: on-failure
+    volumes:
+      - giveth_exports:/root/tokenomics.io/giveth/exports
+      - gitcoin_exports:/root/tokenomics.io/gitcoin/exports
+      - Output:/html
+
+  analysis:
+    depends_on:
+      - core
+      - monitor_gitcoin
+    image: analysis:latest
+    logging: *default-logging
+    build: ./analysis/build
+    env_file: .env
+    deploy:
+      restart_policy:
+        condition: on-failure
+    volumes:
+      - giveth_exports:/exports/giveth
+      - gitcoin_exports:/exports/gitcoin
+      - Output:/html
+
+  lighttpd:
+    image: sebp/lighttpd
+    logging: *default-logging
+    volumes:
+      - Output:/var/www/localhost/htdocs:ro
+      - ./lighttpd:/etc/lighttpd
+    ports:
+      - "8090:80"
+    tty: true
+
+
+volumes:
+  Index:
+  Cache:
+  Output:
+  giveth_exports:
+  giveth_addresses:
+  gitcoin_exports:
+  gitcoin_addresses:
