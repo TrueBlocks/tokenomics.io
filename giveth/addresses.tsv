@@ -1,0 +1,1265 @@
+address	grantId	name	tag	active	core
+0x001baE3291DB1f401771a1EAA8F0078534177BCC	1671	Sansum Diabetes Research Institute	31-Contracts:Giveth	true	false
+0x0038Eb9084eA8Aa63DCB8FBDD63D8862f5BBb3a0	1636	The Turing Trust	31-Contracts:Giveth	true	false
+0x006CFc89E7F521Ce3290b200df9530DcE911b896	1228	St. Ignatius Martyr Catholic Church	31-Contracts:Giveth	true	false
+0x009a82e5762189384bf2880A2D21F75e209eEE12	430	UNRWA USA	31-Contracts:Giveth	true	false
+0x00D7e52CB140df6ab91291e289318aD62A18f80C	1580	ReFi In The Classroom	31-Contracts:Giveth	true	false
+0x0109c0fAAE3F358Bce232dFf482E2d6ECa1F4dAb	661	FARE - Food Allergy Research & Education	31-Contracts:Giveth	true	false
+0x010f0C8B31bA0CeFE2764c373fa23e8635BeCb60	967	Lutheran World Relief	31-Contracts:Giveth	true	false
+0x012546D756867d4A88cd3322bBb72d787E49EBF3	1642	MetaGame	31-Contracts:Giveth	true	false
+0x013E247651A601535eDA98528b2961813406d96e	1558	Free Arts NYC	31-Contracts:Giveth	true	false
+0x014797cc3D15f6ea6Bb220a32A465aC8f7a5E3B8	180	FUTURO NATIVO	31-Contracts:Giveth	true	false
+0x01ca185fdCf1c2001c24e7E2362d3Fc1b570ead3	860	National Association of Free and Charitable Clinics	31-Contracts:Giveth	true	false
+0x01d6c3dB752551baf985F5Fc7d47dB6F5c9b3A7B	812	The Jerusalem Hills Therapeutic Centers	31-Contracts:Giveth	true	false
+0x01dA64059bc5A81EC78362505fAf7bB459c575E4	1152	CARITAS Aotearoa New Zealand	31-Contracts:Giveth	true	false
+0x0240626490620f3B80Bd7cfb1687309704fbBdd3	1634	LGBTQ Freedom Fund	31-Contracts:Giveth	true	false
+0x0249317d94b3B85ac198cFD1232C351C551a8d41	1412	Autism Alliance of Michigan (AAoM)	31-Contracts:Giveth	true	false
+0x024Bd890B037AdBBfe1545d595490F65361c4A66	1105	Clearway Clinic	31-Contracts:Giveth	true	false
+0x02B1cb4dE1AF0D10a53d0EfC243E56F6bAa39c1a	1258	basinDAO	31-Contracts:Giveth	true	false
+0x02C2EC416601daF7eB2C69C8ED3000457945FA20	119	Merijaan — for a plastic free world	31-Contracts:Giveth	true	false
+0x02e0ea1bd6BBD1f5A30B51903B5987f187a2DfCc	1012	Childrens Cancer Association	31-Contracts:Giveth	true	false
+0x033618a08649300184eC221C6d825416dBEE8F92	1003	World Vision	31-Contracts:Giveth	true	false
+0x041360E9E4A7681517C069e65F0958B14f95Db89	372	Special Olympics North Carolina	31-Contracts:Giveth	true	false
+0x0442A9aBbc93058a873c371F21CC366338254A88	1352	OurVerse and the SolarPunk awakening	31-Contracts:Giveth	true	false
+0x049b5A412dB2977b6AB2134e298f651034B3180b	1403	International Development Enterprises	31-Contracts:Giveth	true	false
+0x04b2Dd00Ec20dbeDe360fc4aF4444e55cdD57d20	463	Oxfam America	31-Contracts:Giveth	true	false
+0x05D3E6f7f7328f4c87F4FF89268B1F1A503088cE	1064	Si-Yo Music Society Foundation, Inc.	31-Contracts:Giveth	true	false
+0x06A6b5DecccCC499Ed51d0906053FeC4c4899fbd	673	Amref Health Africa, Inc.	31-Contracts:Giveth	true	false
+0x06EFeC8393e024558c23E00b012A6151E9c5bc48	1404	Americans for the Arts	31-Contracts:Giveth	true	false
+0x071757E79B09EF3ca930648B06c33043d62A4Bbc	1143	New Being Project	31-Contracts:Giveth	true	false
+0x07D4c14C5f8FaC015f054c426c4F682ef49c9c0A	1206	CMT 43B Research Foundation	31-Contracts:Giveth	true	false
+0x07fC5D528844f0411a00Fce12b72271A58f83675	1014	Nonviolent Peaceforce	31-Contracts:Giveth	true	false
+0x083D0ff690af8ACDE7dF721a1D1F62f7F8645a90	473	Habitat for Humanity Maui	31-Contracts:Giveth	true	false
+0x085Ae5895753bA4Fc8B5B1F0239E9eB4f14F7139	928	Hello World	31-Contracts:Giveth	true	false
+0x0879D3c6FE71e123e183BdB296A39a2Df1993510	564	Self Enhancement, Inc.	31-Contracts:Giveth	true	false
+0x08Fd7a45BB51940767C6885a75949b9eeb79d704	666	JOY International	31-Contracts:Giveth	true	false
+0x0920F7D9b6CA1b8222EA4Ca926F92A283dD96912	1737	PAI	31-Contracts:Giveth	true	false
+0x092f6454679593901e0FA790b10384f8ba9ee167	1060	Association of Migraine Disorders	31-Contracts:Giveth	true	false
+0x0953F66Bb1Dc5701c3c25d76725e421e9C034B07	710	Starlight Children's Foundation	31-Contracts:Giveth	true	false
+0x09552a20042744E87710333272cd5A71cCca215d	498	Sharsheret	31-Contracts:Giveth	true	false
+0x0970Fd24648AB2FA078d40baF6bc77717f40eEad	1067	Crossroads Christian Church	31-Contracts:Giveth	true	false
+0x09A5f1c472A26245F860FA18EB47D0d97f34F91E	642	Children's Tumor Foundation	31-Contracts:Giveth	true	false
+0x09F5F9e061687149D33BdA977c430d421c2dD802	1499	Barbells for Boobs	31-Contracts:Giveth	true	false
+0x0a182Ac4b71700F68a54C6882A48fE8F653c6eBe	1159	Eartheart Commons Local Youth Scholarships	31-Contracts:Giveth	true	false
+0x0a298Fb8b2CE916Afa9a42882f12C80556Bc409b	1507	Trunks Up	31-Contracts:Giveth	true	false
+0x0a53CC58Afa401A87d0961fcDD5007cE532c6937	66	Sage to Saddle	31-Contracts:Giveth	true	false
+0x0B77a2CDdb3aA4a5410BdBF6813c09Db2ABF74a2	753	Colorectal Cancer Alliance	31-Contracts:Giveth	true	false
+0x0B868895c0ae8C3DAf7ee32047CFe2EDC3f3F8c4	1080	Celebration Nation Inc	31-Contracts:Giveth	true	false
+0x0b9d405a7A762Fc42352a73D151e7007b603a58C	805	Project Chimps	31-Contracts:Giveth	true	false
+0x0ba64C4144EFBbba77ba1202197F63463F7B29AD	874	4MYCITY INC.	31-Contracts:Giveth	true	false
+0x0be1a0339D3476D452c97bb0b12BaC6C7a509394	1034	Urantia Foundation	31-Contracts:Giveth	true	false
+0x0c5392a51c4268e5840a4aab02F9a7598920Ac01	1113	Simone’s Kids	31-Contracts:Giveth	true	false
+0x0c55a7B0440910C5659c9E135D1fD4Ef3390787F	411	Harper's Playground	31-Contracts:Giveth	true	false
+0x0C64d4070dC13303d6ae6326A9E408A37f7D6b56	870	Forgotten Animals	31-Contracts:Giveth	true	false
+0x0C6b8F85bbFcDfeFeaF615Ab696F2988440C7C7C	552	Sostento	31-Contracts:Giveth	true	false
+0x0Cb4083d06D1DAD770b3aF65339154687D26729d	1011	Make-A-Wish Southern Florida	31-Contracts:Giveth	true	false
+0x0Cb57bA0d69AB6E870C6e1dD6F36A46415d09Ba3	464	Berkeley Existential Risk Initiative	31-Contracts:Giveth	true	false
+0x0cd56B93c1922Aa2D6a62113EDEa8EC2e472de66	1696	Fabien Cousteau Ocean Learning Center	31-Contracts:Giveth	true	false
+0x0D0318d2634237044fe04dec66094D2A633C2a8c	1279	Bondh E Shams	31-Contracts:Giveth	true	false
+0x0D073E6a0c2f4736775aC45f034ba5eE79619982	393	Divya Jyoti Jagrati Kendra	31-Contracts:Giveth	true	false
+0x0D1ee7D9570D4206e558C336ccf2BDB132b83eDf	1099	Huru International	31-Contracts:Giveth	true	false
+0x0d8dd32514F4B6d89c5EdF4b551a1041eCAfBaA1	852	Feeding Texas	31-Contracts:Giveth	true	false
+0x0e2d3A569c14cde6f638d3FDad1C2f166d957f91	1082	ActionAid USA	31-Contracts:Giveth	true	false
+0x0eEd1566f46B0421D53D2143A3957bb22016EF4B	55	Colorado Multiversity	31-Contracts:Giveth	true	false
+0x0F4D7C9AFcA8D2a2f204a53AEe286B6E57540086	949	mRelief	31-Contracts:Giveth	true	false
+0x0F662ecc281bCb7A24E9B68a0b8F61bB3c7Bfe09	1426	Lighthouse MI	31-Contracts:Giveth	true	false
+0x0f73CdFA757943092d3471DDe20F05455cbE15cF	532	Rainforest Rescue	31-Contracts:Giveth	true	false
+0x0fE26Ae6E529e777E6be070885BdAfe53C7f9291	1097	Bradley Angle	31-Contracts:Giveth	true	false
+0x0ff1bAA6c90480d8627B922A1E81393EB9C7eA08	1328	Climate Solutions Communications and Public Outreach	31-Contracts:Giveth	true	false
+0x0FF735d77661a282Ea6a0D299e760d646E9AA372	611	Diocese of Marquette	31-Contracts:Giveth	true	false
+0x1000114f61E475281e70eE112592f23B5ea2294c	789	Community Foundation for San Benito County	31-Contracts:Giveth	true	false
+0x10068AaAeEAC5c0db53Ebb364e7BA93A9a3C9c8B	627	Center for Global Impact	31-Contracts:Giveth	true	false
+0x1010006de7348eFa3da04d3E1ba7c550604d120a	1739	U.S.-Ukraine Foundation	31-Contracts:Giveth	true	false
+0x1079F830C09A886122eA11b46f450d9e4C4c0150	1415	ReVillaging Mutual Mentorships Program	31-Contracts:Giveth	true	false
+0x108078624ccAAB5171C33c43eCeA6CbF36CC0B75	452	International Rhino Foundation	31-Contracts:Giveth	true	false
+0x109e56bDDD1d229e8c12AFEdb388dfBC0329bF55	785	PAWS	31-Contracts:Giveth	true	false
+0x10a7f1F4faBFEad6eB19Ba5f857e80A233e1574d	1121	The Chicago Center	31-Contracts:Giveth	true	false
+0x10E1439455BD2624878b243819E31CfEE9eb721C	1542	Unchain Fund	31-Contracts:Giveth	true	false
+0x1100d5647582a89614204dc790E3ee000770220F	719	Chef Ann Foundation	31-Contracts:Giveth	true	false
+0x115A47E6292309D1137178e7F347B1170228D9d5	1594	The Bee Conservancy	31-Contracts:Giveth	true	false
+0x116B7dd036b7EF4F28935c870F0D65535357eDc1	1560	The Farmlink Project	31-Contracts:Giveth	true	false
+0x1170546B9708c020d044aB89AfC4Ac05614Ed404	939	SOS Children's Villages\n	31-Contracts:Giveth	true	false
+0x11742f68357e61502cf33C17ED4491471ba8F35e	517	Gorilla Doctors	31-Contracts:Giveth	true	false
+0x1178fA3C2b202DF43D79f0B7A114b0C0Bd4AB4D4	1077	Autism Research Institute	31-Contracts:Giveth	true	false
+0x119812ef1De7ce002f5584D2a0Bec2e02603e5bA	853	LogOut Centre for Digital Wellbeing	31-Contracts:Giveth	true	false
+0x11CC47A0355fA25CfA1f79502E7eAC5a5f6b9Cc1	1016	Make-A-Wish Connecticut	31-Contracts:Giveth	true	false
+0x122bcC526c7a9cD0Ea0565e5F6122C4Ff2e84fd2	1346	Freedom Community Center	31-Contracts:Giveth	true	false
+0x1251A94b6d800979d2d933b8Bd5914b892772Ac6	48	Commons Stack Community Fund - Panvala League	31-Contracts:Giveth	true	false
+0x128B8a297a5D506Eed359b1193667977fbC583dc	623	Mercy for Animals	31-Contracts:Giveth	true	false
+0x12c0e1fE9521c0535F7d5b5F6D52fe29a5e090c6	685	Project Transitions	31-Contracts:Giveth	true	false
+0x134BE73E63F94bB28254CC263c1C383689513524	646	SERV International	31-Contracts:Giveth	true	false
+0x136d6abA15147CB96626690b81e7742011A1769D	1210	Community Foundation for the Alleghenies	31-Contracts:Giveth	true	false
+0x13D49E1bec6b9d480e33084C29d668DBB934441b	704	Rainforest Partnership	31-Contracts:Giveth	true	false
+0x14b2cB1859df15259aB800505d42eeE8f29E732B	374	Emergence Church	31-Contracts:Giveth	true	false
+0x14C31144ffFf2c3E3e1Cfa194007F17a4cB46274	435	Arbor Day Foundation	31-Contracts:Giveth	true	false
+0x14D85661080Be5BCbB27D66a694f45032fa9fe36	118	PositiveBlockchain.io	31-Contracts:Giveth	true	false
+0x152Ca22cA7120c5d5bd01a08023962252784Fc83	367	Desai Foundation	31-Contracts:Giveth	true	false
+0x155A2A69371F55BD69F9E42102Ad5AE9768D4FA5	837	SolarBuddy	31-Contracts:Giveth	true	false
+0x1580da59C172197Ff1522AeF642b988B0de7BadE	1081	IDinsight	31-Contracts:Giveth	true	false
+0x15A2e004305D6ab91e64a95ABE6D2CDe8a8ceE54	717	Hope For Paws	31-Contracts:Giveth	true	false
+0x15DED649483452DAC13a241FB37d6144047cAfEe	1656	SAM, Inc.	31-Contracts:Giveth	true	false
+0x1606Ae3C3d2AB35c2bd66Fa687F104519D403cd8	1767	The Roman Catholic Archbishop of San Francisco	31-Contracts:Giveth	true	false
+0x160707bb3890F96a1E74Da9D6C8855f1AC30C53b	1632	The Catholic Foundation of Northern CO	31-Contracts:Giveth	true	false
+0x16204069922fc4242FbbC5c664970c9601015865	1476	ReFiClassroom	31-Contracts:Giveth	true	false
+0x1621C53692fF3a832a6555da168329f2c5FD43aB	570	Abiding Harvest UMC	31-Contracts:Giveth	true	false
+0x168d48Ec0cDA4b6e03d1C3448FBA9D761ce7BB45	566	ZERO - The End of Prostate Cancer	31-Contracts:Giveth	true	false
+0x16A03f29D029e14FDEBC1C559EA04F26116e6472	613	Rainforest Foundation US	31-Contracts:Giveth	true	false
+0x16a53C489b2aFE4003cB1D8ad69B24F938a8bE4c	981	Over and Above Africa Foundation	31-Contracts:Giveth	true	false
+0x16b4c2738786b9319b8Edbe5f65Af24035c75E5D	616	MiraCosta College Foundation	31-Contracts:Giveth	true	false
+0x174Ef0702dF8680FE6bC48c1fbc30F69a5DebD2C	365	The Doe Fund, Inc.	31-Contracts:Giveth	true	false
+0x17A0B025990a324DBA1b4d74C4cccad8e4B749a2	1293	Kennedy Children's Center	31-Contracts:Giveth	true	false
+0x17a9547e709848b084945aFD8F71D63B5A574091	503	Mission: Cure	31-Contracts:Giveth	true	false
+0x18075A06a90e9bDfD77DA63CB1dc7336d1aB0122	1504	ChangemakerXchange	31-Contracts:Giveth	true	false
+0x18574656F1710dA99f1407ED1b4Bc9a8bebB262C	1552	Anu Family Services	31-Contracts:Giveth	true	false
+0x18Cd976A675C2Dd1b0aB682b6324f63df9447eB5	684	Animal Ethics	31-Contracts:Giveth	true	false
+0x193ba092E8ca5E6ce550B53e60EbE219Bcf164bE	964	Southern Coalition for Social Justice	31-Contracts:Giveth	true	false
+0x198530a8Fc8521b745eF2F1fB8c6AD9EcB969278	589	SOS Kinderdorf	31-Contracts:Giveth	true	false
+0x19910E174Dc5C297E7F6E2Dd40BfecfBe2274264	470	Berkeley-East Bay Humane Society	31-Contracts:Giveth	true	false
+0x1a10157190e851DF9947eD7255eC4D543154c6d7	697	The Chinati Foundation	31-Contracts:Giveth	true	false
+0x1A16B77fA06fdE7E0945110400396b950De7e845	1137	Inspire Church	31-Contracts:Giveth	true	false
+0x1A4bC0e2e9Af1AA88b13FeF4745f18952943502b	583	Club Esteem	31-Contracts:Giveth	true	false
+0x1A62c07A61e17414Cf5eC66AF7dc97f3ef03F0e3	1018	Allegheny Land Trust	31-Contracts:Giveth	true	false
+0x1aD44446A588010AB6b741cd0201b92f84B597bB	1439	1Hive Gardens	31-Contracts:Giveth	true	false
+0x1b0D0B69D2e940C04F85F7D092c183746149EDb9	1548	Movers and Shakers	31-Contracts:Giveth	true	false
+0x1B0E6BdCAffC677C4a9ff6b6f00D44b2e5E05dBc	1002	Foundation for Economic Education	31-Contracts:Giveth	true	false
+0x1B415eC11276f385db867e631c5C9692f3088112	795	Austin Disaster Relief Network	31-Contracts:Giveth	true	false
+0x1b4FD38177D343388Dd83Dd08c7aC8882Ce57809	943	Second Chance Rescue NYC (Inc)	31-Contracts:Giveth	true	false
+0x1b74091B4F39cFCFbA9E2eDa98121cE7D7675688	1142	Kids’ Food Basket	31-Contracts:Giveth	true	false
+0x1B996a1e93CcAEA76D02221132711a66ED355953	847	Citizens' Climate Education	31-Contracts:Giveth	true	false
+0x1BDd93F2DCe2b4746f5caCCb4fF417353d432135	932	TWLOHA	31-Contracts:Giveth	true	false
+0x1c1601D1c749405C1FE338f16Eb7D8067252B677	971	Ocean Defenders Alliance	31-Contracts:Giveth	true	false
+0x1C47317527c084a3947DFE124C0A07a184DD9676	1547	Liberty Resources, Inc.	31-Contracts:Giveth	true	false
+0x1C55D6601515D670E46023560fDa4bb353065517	665	Southeastern Guide Dogs, Inc.	31-Contracts:Giveth	true	false
+0x1CD80Cc741e19666158E3fdC94d46DF78A513Aef	1631	Dream Machine Tour	31-Contracts:Giveth	true	false
+0x1CDdee0d25A0DE8CB00f82b21beA3AA913464e86	1725	Lupus Canada	31-Contracts:Giveth	true	false
+0x1d22e34fe9ca09AF708dAF1Fa3ACc1b7CF4cfF1d	557	Mothers and Children Fund (by The Life You Can Save)	31-Contracts:Giveth	true	false
+0x1d2E392d81A800440E7849e05DcA87816B729C85	1488	Phoenix Children's Hospital	31-Contracts:Giveth	true	false
+0x1d93348c6051201b16a8db0E55c6c878a6fA3906	501	Jackson Interfaith Shelter	31-Contracts:Giveth	true	false
+0x1de498918d04B8Bf162210103CDd547f73387B2E	136	CREATING THE PERFECT VILLAGES IN BURUNDI	31-Contracts:Giveth	true	false
+0x1E122586A5530c1fd770Ee1bd973759CD8E55e6e	953	The Water Project	31-Contracts:Giveth	true	false
+0x1E1dEe1a47B6D4dD5122C6Cd7483dDBB1F42BdCe	783	Sammy Tippit Ministries	31-Contracts:Giveth	true	false
+0x1E5b209B5efD83Bb079fEf6CBAc54F9eac587951	925	Develop Africa	31-Contracts:Giveth	true	false
+0x1EacF0Af9C2C78DdE82e7aA12d559E84fBB2A25A	829	Mothers and Children Fund Australia (by The Life You Can Save)	31-Contracts:Giveth	true	false
+0x1ECD77b606f8cA74350C95F15ccB8607CF7572f2	593	Water.org	31-Contracts:Giveth	true	false
+0x1f4d209Eeb68d87c44cb5DD0Ee8c445d3C989903	1588	The Anti-Recidivism Coalition (ARC)	31-Contracts:Giveth	true	false
+0x1F66A7d4c209678b6A804D8a6dcAC302e39E59F3	1480	The Greg Hill Foundation	31-Contracts:Giveth	true	false
+0x1F73604186908a4A2f12D0dA3De06B7F60C0E07b	1200	United Plant Savers	31-Contracts:Giveth	true	false
+0x1fD6783a30CF3DaBF703DD03e53BAdcfD85bc360	286	Pevensey Community Orchard	31-Contracts:Giveth	true	false
+0x20030d3f583e322FD262D8b01b8f56A4a545Dfe9	779	Partnership to End Addiction	31-Contracts:Giveth	true	false
+0x2058e6AC4A4cd4451D0dd9B85Aba45CD7388dB10	825	Action Against Hunger Canada	31-Contracts:Giveth	true	false
+0x205A3F416BD7FfEB829D31965De5C1384954FaD6	609	Coral Restoration Foundation	31-Contracts:Giveth	true	false
+0x2091d743c3111491B82e678b63e4340802358f27	397	High Desert Museum	31-Contracts:Giveth	true	false
+0x209a8D9eC2734813C23D855513f6DDd1C8f9dBA1	1734	Choose Love	31-Contracts:Giveth	true	false
+0x20e2b60EadC59ca6D62dCa23587bA1DcBE65E13A	401	Hospice of Santa Cruz County	31-Contracts:Giveth	true	false
+0x20F721B8116F89E7a4Eb83f13753Ee84D0662601	888	Jewish National Fund	31-Contracts:Giveth	true	false
+0x20F972Ef9A00490a126bdd3580a6641Fa63DCfA7	1037	The Story of Stuff Project	31-Contracts:Giveth	true	false
+0x2104e01a3cA6B5eb55c0c3a2d76ef0554482f65F	1411	International Fund for Animal Welfare (IFAW)	31-Contracts:Giveth	true	false
+0x219FF04eE88Ce5A7F5f1E43Ec67c24a8600b05Fe	376	Food for the Hungry	31-Contracts:Giveth	true	false
+0x21C565e752e3Ff2bb75283d1eB850fc8fCBFb9a8	659	Children's Heart Unit Fund (CHUF)	31-Contracts:Giveth	true	false
+0x21e0Ca21F517a26db49Ec8FCf05FCeAbBABe98FA	34	Free The Food	31-Contracts:Giveth	true	false
+0x220a878c530B50000cBeB2C7564fbF762c9bB183	1665	Gbowee Peace Foundation Africa-USA	31-Contracts:Giveth	true	false
+0x228F9317124efDA746C3D1E08eEB6c8D64eC4b57	378	Chrysalis	31-Contracts:Giveth	true	false
+0x22A261f96C1D4df680493b2Fe9b38D35a81c3BC1	979	National Black Chamber of Commerce	31-Contracts:Giveth	true	false
+0x22b7F4EE41E2a42247241e4368eB393EE1262f0B	1685	Diversify and Democratize Philanthropy	31-Contracts:Giveth	true	false
+0x22d1902a6E4C5bb6cD254b0d3335FC2022D5f1c5	1019	Canteen Australia	31-Contracts:Giveth	true	false
+0x22D2aA904A8b61154c1bf4D2d5600ca0eDe39603	1180	CatalanDAO	31-Contracts:Giveth	true	false
+0x22D7ed6c3cF8c9a603d98452B20d9Fbb237e4818	281	GWF Giving Tuesday 2021	31-Contracts:Giveth	true	false
+0x22f2430bCF53E3ca87ceAc10EF2030e7EE45b18C	1127	Lone Star Legal Aid	31-Contracts:Giveth	true	false
+0x230F969C7DC23A435015cFf0cD452CBb0C939825	1653	ORGO App development fund	31-Contracts:Giveth	true	false
+0x233f70C87b09459f83910C999851E8b8Eec0B0b3	820	Space for Giants USA	31-Contracts:Giveth	true	false
+0x234f5244207714b1AF350A033eb9B66fCd0BcB1E	1544	Rhizome	31-Contracts:Giveth	true	false
+0x2359C4CBb91FAa8412e10B078D5eAa465347cE6E	830	Lifesaving Interventions Fund Australia (by The Life You Can Save)	31-Contracts:Giveth	true	false
+0x235D6D8e0CCBfE286Fc3B282c55e1E75474c01cD	766	The Atlas Society	31-Contracts:Giveth	true	false
+0x236dAA98f115caa9991A3894ae387CDc13eaaD1B	251	GRACEaid	31-Contracts:Giveth	true	false
+0x2386dEB40AD4A6bFfA1720a167974417Ffd52f25	114	Gaia Gives	31-Contracts:Giveth	true	false
+0x23c008176a932Fc6786F995D50f4Ef27aD30268f	1509	United Macedonian Diaspora	31-Contracts:Giveth	true	false
+0x24413683cD1666DFe6B0BD9255FE8A7C73a4c3f2	1777	Know Your Rights Camp (KYRC)	31-Contracts:Giveth	true	false
+0x245AA4896D1c747C0c2D18FE32eDebe568606679	1146	Clean Coalition	31-Contracts:Giveth	true	false
+0x2483537B2bfAF088331e9Bff9cf9990d2b7082eB	1310	Emmanuel Mercy Mission	31-Contracts:Giveth	true	false
+0x249A7EEDc853b3c9Ef165cA312eC60606d418f16	986	Meals on Wheels of Alameda County	31-Contracts:Giveth	true	false
+0x24Bc9c41352dBEb370da9B5fa8Ee6De346912274	1035	Marine Toys for Tots Foundation	31-Contracts:Giveth	true	false
+0x24E6e6914F37d1D9590540066d0263fb3DC9113E	676	Re:wild	31-Contracts:Giveth	true	false
+0x2510586027328c872651E887E69bb261E3d8ed73	317	The 21 Day Mental Balance Challenge aka Meditate 2 Earn	31-Contracts:Giveth	true	false
+0x2567c9DfD51088901aC797f7AAe8aCA69c65b0fb	1735	Project Healing Waters Fly Fishing	31-Contracts:Giveth	true	false
+0x25a0d03d3050D17700A6f42504859Fa5855F79aB	884	Us4Warriors	31-Contracts:Giveth	true	false
+0x25E0620F07c65a91AD95B022c4F8494b5880c61B	424	International Bear Association	31-Contracts:Giveth	true	false
+0x265b1947A32E4c957De798d68300CACfC3E1114d	352	United Way of Greater Atlanta	31-Contracts:Giveth	true	false
+0x266c51ff7c0e22ED5b4D1138E054f7c9e3530048	1196	Harbor Care	31-Contracts:Giveth	true	false
+0x26b2f6C30088784F931DAEBe0CF44f53375a367c	525	PS1 Pluralisitic School	31-Contracts:Giveth	true	false
+0x26E239b30B002E3c6d135C4366f562aD272b5cc8	382	KIPP Foundation	31-Contracts:Giveth	true	false
+0x26effF0377D246194075661bdf0CC25969118F25	643	Medical Students for Choice	31-Contracts:Giveth	true	false
+0x271cd5391016eb621aB3f9c0c70F5cF91DFd3FB0	1162	GoodDollar	31-Contracts:Giveth	true	false
+0x27a1bE64ED504f6835a64d6F216e2D647C94a6e8	711	GLOBAL Church	31-Contracts:Giveth	true	false
+0x27CF883442bDec0f4440163111Bf1d6FbfE3545b	431	The Fred Hollows Foundation	31-Contracts:Giveth	true	false
+0x27D18C5b2c042ABA2eE445b1B652916fd19E8987	1289	Dar-us-Salaam	31-Contracts:Giveth	true	false
+0x28266D5aB03cB0e05a34Ca5cd739ddDA145Be645	1445	Giving Scholastic Materials To Most Vulnerable children	31-Contracts:Giveth	true	false
+0x28318F2718fD18b37364Ac264Bc6403dCC0D8b52	1000	Muttville Senior Dog Rescue	31-Contracts:Giveth	true	false
+0x2832cA9D0A156062669B904356333FD5d2AbB56a	755	Children of Fallen Patriots Foundation	31-Contracts:Giveth	true	false
+0x2835188ba64175d36BA428D4Bfb786a30B99aC05	641	Coalition for Radical Life Extension	31-Contracts:Giveth	true	false
+0x283E402A356b86f67F37F64392fD2CFBd93675F0	772	Georgia-Alabama Land Trust, Inc.	31-Contracts:Giveth	true	false
+0x28595d2660846DF8D60A0e72F37977ccd967D51b	1223	United Sikhs	31-Contracts:Giveth	true	false
+0x28790D6D9723F6520f2C53c658F68479Ba725f96	671	NorthStar Pet Rescue	31-Contracts:Giveth	true	false
+0x28E90255c12509cE1C8adDAcD220082E1c98de8a	472	Arch Grants	31-Contracts:Giveth	true	false
+0x2936E5Bf43946Cb8987A0876F0BE11F52c86FE22	1277	The Blexit Foundation, Inc.	31-Contracts:Giveth	true	false
+0x29374334510077a0beAB97FC67b1d01094485119	695	No Longer Bound	31-Contracts:Giveth	true	false
+0x298F7F66bA43f0EfeCf4bc324b0016F822c783A4	1241	All for Climate DAO	31-Contracts:Giveth	true	false
+0x2a113fDc2F9621F922360979ED8F09d1c7C95367	539	The Bail Project	31-Contracts:Giveth	true	false
+0x2a7D43ad2Bc842f990a4381217CCA077E4898560	385	Comunidad Connect	31-Contracts:Giveth	true	false
+0x2a8B0D412f90B39A364A98d2Eb67184D12f15714	1078	Restorative Justice for Oakland Youth (RJOY)	31-Contracts:Giveth	true	false
+0x2A9965b98B0d3B79742370461B1831C821CDa2eB	728	Arizona Coalition to End Sexual and Domestic Violence	31-Contracts:Giveth	true	false
+0x2AB4f79C232b40AacE43fC5E2E7Df98FfD255eD6	461	National Immigration Law Center	31-Contracts:Giveth	true	false
+0x2AB5b3Dbf8294c84fa9C477E11EaD252b381CAFd	738	Sea Shepherd Conservation Society	31-Contracts:Giveth	true	false
+0x2aC01A70F68D30fcEE49707314F0460d7AAF43CD	412	Convoy of Hope	31-Contracts:Giveth	true	false
+0x2AE60879E39d3AACe69FE1161c0206D52d3f296B	555	Gold for Kids - Fight Pediatric Cancer!	31-Contracts:Giveth	true	false
+0x2B03B3B7D8d9C8D91aA381799AdF221Bad977aF1	712	Grace Church	31-Contracts:Giveth	true	false
+0x2b0cA995C459dBAf1380C24a1BE4E331F96e09E7	1039	Born Free USA	31-Contracts:Giveth	true	false
+0x2b2573738b0c0266D8Dec90b4Ad955e56aD8BA33	794	Table Community Church	31-Contracts:Giveth	true	false
+0x2bcAcC3c4cE93b188F9250673d1f03e7871257bc	1275	Boys & Girls Club of Greenwich	31-Contracts:Giveth	true	false
+0x2Bf034ecCEbc8CD60Dab9c249b6c2996Dcb7D8EC	308	Moloch Cloudship	31-Contracts:Giveth	true	false
+0x2bF9779E32a1E068D8fe18CCd68468100De05e70	1557	Hydrocephalus Association	31-Contracts:Giveth	true	false
+0x2C0d12Ecee29f36c39510Ac41d6dd1287D4Fbf8A	2	Bridging Digital Communities	31-Contracts:Giveth	true	false
+0x2c133eD50Ff52E2DF64ab5348EE574f95C1ef7b0	1626	Sea Turtle Conservancy	31-Contracts:Giveth	true	false
+0x2c2EaeB92CB4127D6b6B746Bb98131c290f27824	1227	Evangel Church	31-Contracts:Giveth	true	false
+0x2c70D3410a9746391da16dED06B15597e84929B3	628	Every Shelter	31-Contracts:Giveth	true	false
+0x2c8725B5f324b7828Cf984374e781465e116ce7F	1460	Refugee Women's Alliance (ReWA)	31-Contracts:Giveth	true	false
+0x2Ca0e13B06C79aB73B3Acfc20dc2a73e2a2f3Bc1	722	Creative Clay, Inc.	31-Contracts:Giveth	true	false
+0x2CBc87CE96550ec8cd95Be93c3B063514AF0640f	1461	The Pad Project	31-Contracts:Giveth	true	false
+0x2ce0682d846808Ce086BC18A6c1713a1c3a76514	690	Opportunity Through Entrepreneurship Foundation	31-Contracts:Giveth	true	false
+0x2D254b1B712fc89Ecd369DB83eAFA7776540A5c7	454	Designs for Dignity	31-Contracts:Giveth	true	false
+0x2d37deaa4Db66762FAb8aFcaE9557f7b601bF370	1448	World Stop Stuttering Association	31-Contracts:Giveth	true	false
+0x2d8549b425a76F4c7965Ffe69a097eFc2DdBfD68	1207	Middle East Media Research Institute (MEMRI)	31-Contracts:Giveth	true	false
+0x2D8d439C2217Fd92226bBB31a2AFBF7231691A8d	1406	LAVA, Inc.	31-Contracts:Giveth	true	false
+0x2Da02d0BeAAc9DCCF750180f865d126E3AdB8452	441	Community of Grace Lutheran Church	31-Contracts:Giveth	true	false
+0x2dd19B1355C5C3863C5Fac494298B62B7122B75d	970	NextStep Fitness, Inc.	31-Contracts:Giveth	true	false
+0x2e08c940E94A2aC04cf67691Fd24bC7EF36e89D9	1296	Siskin Children's Institute	31-Contracts:Giveth	true	false
+0x2E402b752DE4A5a63Db5c928EEE017FA5568fA68	504	Fargo Air Museum	31-Contracts:Giveth	true	false
+0x2e4fc99E2aD1aD55600f3FC3482F5d05996616B8	1520	Women for Women International	31-Contracts:Giveth	true	false
+0x2e67b3F69C4D7c9169e456BA9b6AcB694465c589	1059	Korean American Community Foundation San Francisco	31-Contracts:Giveth	true	false
+0x2E6FdaC4f7778e902cC6cf632f58bc20AfA8718F	1161	Rios Limpios Grey Water Filters Costa Rica	31-Contracts:Giveth	true	false
+0x2E71f84B995CA30D51BFE8c55E5A67441B94FC02	694	Center for Independent Thought - Stossel	31-Contracts:Giveth	true	false
+0x2e86D580e81D423Ea6A53F20507853e5E9c360B4	1669	(CCCF) Chaffee County Community Foundation	31-Contracts:Giveth	true	false
+0x2E978B4818f0dE4A85527210137866Fb2F4088e2	1724	N.J Community Development Corporation	31-Contracts:Giveth	true	false
+0x2eb64d574183D2bdF19Ef5DF5827ccFB6E68839c	310	Red Armonia	31-Contracts:Giveth	true	false
+0x2ece0F102aaFec2Ee46c18A68330452306C2EdC0	519	Boys & Girls Club of Worcester	31-Contracts:Giveth	true	false
+0x2eE6279Ac48F840EaE7e42bA2d8f55f866f64C86	1131	Days for Girls International	31-Contracts:Giveth	true	false
+0x2f0a4DE8DdA1D861C0d71291af268807f1EB4eA7	514	The Center for Courageous Kids	31-Contracts:Giveth	true	false
+0x2F0f2997397A758bde6cc9dB97144dC3A90E752c	487	IMANA	31-Contracts:Giveth	true	false
+0x2F1Dc10f11aeCaEb37afbc461360E05faB253005	1061	The Water Trust	31-Contracts:Giveth	true	false
+0x2f5103116F279907D181AE59de65E5e3068Ed2a1	1107	Children of Promise, NYC	31-Contracts:Giveth	true	false
+0x2f8CB6DE12FCa3520706183cb54ad2A0f56716E4	793	buildOn	31-Contracts:Giveth	true	false
+0x2f8F492E173EebA88C92b49C888d71Fc5761DADD	1746	T.D. Jakes Foundation	31-Contracts:Giveth	true	false
+0x2fe5f9246955D30F609C25c16d74223BC85A2173	1458	Israel on Campus Coalition	31-Contracts:Giveth	true	false
+0x30362516B598427624934F7c88e121f159ce6924	1378	Texas Suicide Prevention Collaborative	31-Contracts:Giveth	true	false
+0x30794bC45983bA2E28325D4AA4687314Cc3C4e22	882	Family Promise - Greater Phoenix	31-Contracts:Giveth	true	false
+0x308b7AA362e47F1fABf45bAeF6d9AF302B71df23	1622	Shining Hope for Communities (SHOFCO)	31-Contracts:Giveth	true	false
+0x30cd3E1e1dA2EC44d340a3DE36502b19175829f1	1518	K9s For Warriors	31-Contracts:Giveth	true	false
+0x3105A699F339c662237E7638dD72FF9F20C6bc43	601	Feeding America	31-Contracts:Giveth	true	false
+0x3106592648D602d0278c3ecf7D3744a7A0C475AA	1046	Two Cities Church	31-Contracts:Giveth	true	false
+0x317236e9d9aaAd04f4c84BaBcfEcE768C17eAd51	1022	Chesapeake Bay Foundation	31-Contracts:Giveth	true	false
+0x31a95BC206be55A188c5B328eB1cf36C64937396	1100	Lady Freethinker	31-Contracts:Giveth	true	false
+0x31bd08AfeB82dFEdB5a0a0c6CdCe43200387E91F	479	Philabundance	31-Contracts:Giveth	true	false
+0x3220DD5c810e5dD58183e807C6a195efF1cF4824	1690	Haiti Health Promise / CRUDEM Fnd	31-Contracts:Giveth	true	false
+0x326E3Fe9071d270bB9f87A8b4ABf18CebcDFf0d6	770	iMentor	31-Contracts:Giveth	true	false
+0x32b365b7E664Be419eF4187638f41d3544BCD08e	1514	Lawyers for Good Government (L4GG)	31-Contracts:Giveth	true	false
+0x32CcFfEECEAA2ce5b3Ef21898b63E95c95d1137d	358	Familial Dysautonomia Foundation	31-Contracts:Giveth	true	false
+0x32cEfb2dC869BBfe636f7547CDa43f561Bf88d5A	70	Ethereum for Farsi speaking population	31-Contracts:Giveth	true	false
+0x33150D52AACd9eEEBDeE680f3217435415d284b0	1158	Donation for Malaysia Flood Victims	31-Contracts:Giveth	true	false
+0x33eeecf895854Fd2C872e83bA5B10aE01c51911F	688	Pathways Vermont	31-Contracts:Giveth	true	false
+0x34624b17C9A8837279779991721E4347fccA7b77	954	Good+Foundation	31-Contracts:Giveth	true	false
+0x346d63A5403F79E924d920Ac7092c9ba6b921F88	757	Little Smiles, Inc.	31-Contracts:Giveth	true	false
+0x3524C87603456F9fA8f4BCdF2e13d8947a935E9c	548	American Foundation for Children with AIDS (AFCA)	31-Contracts:Giveth	true	false
+0x354DA4eCE5184ff9a595fD15c00e24c9df1D9155	413	Church of the Advent Hope	31-Contracts:Giveth	true	false
+0x355b32FCc4F0D388EcbB4a4C347051608709fEB6	1234	Covenant House	31-Contracts:Giveth	true	false
+0x35b370Cca242d62Ce5D2c871B359DCdE9AEF5796	832	Monroe County Education Foundation	31-Contracts:Giveth	true	false
+0x35Cd90b01F7d4b0B61cDe303a798a9ce8704E8C0	507	Alveus Sanctuary	31-Contracts:Giveth	true	false
+0x3656C9D0dc5BD3556a8395C0aADD5A90E8cace17	731	StartOut	31-Contracts:Giveth	true	false
+0x365ecE633308ff6040bb7D0c2A91a565A8be5b83	1430	Internet Security Research Group	31-Contracts:Giveth	true	false
+0x36745b77EaACab9FE695d80FcBa09CB21a6cE8a2	1522	North Central Church	31-Contracts:Giveth	true	false
+0x367C63A38Fcfe07F49Ac0752e7dc4e2c1AA6931B	1124	The Special Operations Association of America (SOAA)	31-Contracts:Giveth	true	false
+0x36CbB6487d36D309BED852Bc7DD688AFAc9dd98A	1104	Vietnamese Baptist Church of Garland	31-Contracts:Giveth	true	false
+0x370D5d877833E5DF7917dE95650FCB9ca9F9aa5D	1204	Lifting Hands International	31-Contracts:Giveth	true	false
+0x373483a546e5212B0d009db1dbF0d14DAFf80F9a	911	Luminus Network for New Americans	31-Contracts:Giveth	true	false
+0x375646f548F31f4267E26a0A2fa4c07c6d534811	838	Space For Humanity	31-Contracts:Giveth	true	false
+0x37c15c8F27782b68e2870D41A3BAB72494e35170	664	Lotus Campaign	31-Contracts:Giveth	true	false
+0x37Cd79425C6214900A784F55d23Ea65C1c6382ab	686	Game to Grow	31-Contracts:Giveth	true	false
+0x37eE16Ec1380f6DD5c3aE00Ed3464c1A0c578F21	687	National Park Rescue	31-Contracts:Giveth	true	false
+0x389523195832f82FE13f4F4A0A49012640e62B9B	1303	More Too Life	31-Contracts:Giveth	true	false
+0x3919c0233FB1D7dC2759A9156f2C6b3BF25bEBFe	778	The Grey Muzzle Organization	31-Contracts:Giveth	true	false
+0x3923a5A7255d828C406Cf7A8f3D964d2F882751E	962	Cure JM Foundation	31-Contracts:Giveth	true	false
+0x3923D9cA21C6c929Dca6ce59B5C702fdb637f9C4	1366	Vagabond Missions	31-Contracts:Giveth	true	false
+0x3953017AF23aB99a7d40f3D26F1595f27c91345f	302	GiveStation	31-Contracts:Giveth	true	false
+0x3975e336B80A43383cEAB3807C6a456D3C18E4aC	1369	Flatirons Community Church	31-Contracts:Giveth	true	false
+0x39a42400C7FCD324c5e2E988F313C75006488BDa	1590	Playing For Change Foundation	31-Contracts:Giveth	true	false
+0x39b56607bA7dCbD0ae955028617cbf4eD60E9E39	1692	India Partners	31-Contracts:Giveth	true	false
+0x39c65efA2f2B129f9BBbb6f368409C5b4b6302Ef	1375	Southern Utah University	31-Contracts:Giveth	true	false
+0x3a51f9c2d0dd2888eA72442B3368D4399a073061	784	The Life You Can Save Australia	31-Contracts:Giveth	true	false
+0x3a5aa43c85Ec838c3b33FA1c2b0ed5095Ed182A7	730	Tesla Science Center at Wardenclyffe	31-Contracts:Giveth	true	false
+0x3a829C9e2EfEfA8392A4c64Aa2C8c0a4702696BF	1567	Association on American Indian Affairs	31-Contracts:Giveth	true	false
+0x3A9291029b9a615e8acEDedD2381C4aec6a51573	1639	Institute for Shipboard Education (Semester at Sea)	31-Contracts:Giveth	true	false
+0x3A9B2FD8eEb04951dD73f9bAFf288E12F71b7FD9	649	Swaminarayan Gurukul Rajkot Sansthan	31-Contracts:Giveth	true	false
+0x3AA599FB8003B94666c9D66Db43D859ef5EEa29f	280	Crypto Family Bridge	31-Contracts:Giveth	true	false
+0x3ab997d20321d60a213FbFb595f61EaB6f5eaf5f	523	Harvest New Beginnings	31-Contracts:Giveth	true	false
+0x3B56c96e11FD90D85Cbb2bC5ED17eB83615c0C6c	1189	Partners In Health	31-Contracts:Giveth	true	false
+0x3b69052A855B241e099CB69D20e3182E5Fa52414	1768	Feeding Pets of the Homeless	31-Contracts:Giveth	true	false
+0x3bB1C8D41c819AE21da56C2EF2B44fDA4ff32b58	637	Mission K9 Rescue	31-Contracts:Giveth	true	false
+0x3Bd2789C10c30235c220f08aC2aFC8d13784bb8E	380	Eyebeam	31-Contracts:Giveth	true	false
+0x3bd42B5243AF6449fC1B9651c1e3f5C355e02405	1371	OH WOW Center for Science & Technology	31-Contracts:Giveth	true	false
+0x3c03b4183Dc3614De3ECAFbB653e62098c4e3Ba4	466	MATTER	31-Contracts:Giveth	true	false
+0x3C3880D20a8CFfc4C22f881AD39a7876FCdf5553	1283	Gold Coast Veterans Foundation	31-Contracts:Giveth	true	false
+0x3Ccbbb99F5DF3A6aD37dA224bea7BbD5C8B9C2Ff	1497	Bay United Methodist Church	31-Contracts:Giveth	true	false
+0x3cEcF8cE3FFF17213F49f5cB3b91becD3C23c565	920	Center for Policing Equity	31-Contracts:Giveth	true	false
+0x3Cf7B673a7cbE454139A8B65d14EDFf68d29BE0a	1208	The Future of Freedom Foundation	31-Contracts:Giveth	true	false
+0x3D1AA20dBEA84dB03c8D7f1782Ce2679ced44505	1754	Center for New Data	31-Contracts:Giveth	true	false
+0x3D5Ed926948bbeCe27E7755334555db12DaF2806	395	Keep A Breast Foundation	31-Contracts:Giveth	true	false
+0x3d679A474d3D4c7f11D934ea4f48d7Fe1Ae5ae65	846	Leadership Enterprise for a Diverse America	31-Contracts:Giveth	true	false
+0x3D7bed53b056b271492993F4E7391e7A9B31AFbB	1673	VegFund	31-Contracts:Giveth	true	false
+0x3E3F20F55E27cb8c99090112E5e3AbB09e184d6C	1536	The Living Library Fundraising	31-Contracts:Giveth	true	false
+0x3e865F93e9516622a4C08AF4aA462A02EB0a8769	871	Fabretto Children's Foundation	31-Contracts:Giveth	true	false
+0x3E984efcFE6B49D4e5c46a1489a6384b773BDd61	1058	Community Access	31-Contracts:Giveth	true	false
+0x3eb9162f2b2B62ea6de2A6f5987408Cc35B51583	1331	NFThub Panvala League	31-Contracts:Giveth	true	false
+0x3ecAF5FFcF2a060af42c4e8b444b4B7C56FCA165	682	Ally Global Foundation	31-Contracts:Giveth	true	false
+0x3ECfcAB57804aa043eD371dF51D270d89a75F9FB	935	Rocky Mountain Public Media	31-Contracts:Giveth	true	false
+0x3EcFdC32e2832bFbD53e2674FFb4E29B99B156DD	1695	Human-I-T	31-Contracts:Giveth	true	false
+0x3F101e4653c353417bb33245352299d295f357DA	1705	Women’s Refugee Commission	31-Contracts:Giveth	true	false
+0x3f2B21cc22b4E9b2e7DdC6A3AfB6b83f9688dCB4	1545	Mustard Seed Communities	31-Contracts:Giveth	true	false
+0x3f3a506e55750E89486076B341925f2c132bCf69	1750	Emmanuel Cancer Foundation	31-Contracts:Giveth	true	false
+0x3F6A132a0E4ebC4C09EEC906e172106a32885792	1254	Territorial Regeneration in Barichara Colombia	31-Contracts:Giveth	true	false
+0x3f747bdcfFB4Ac078121f9e567e372292Bfe5d27	348	The Discalced Hermits of Our Lady of Mount Carmel	31-Contracts:Giveth	true	false
+0x3F769e8E1C6e8a115734A58F910012D8D989EbD9	1020	Skateistan	31-Contracts:Giveth	true	false
+0x40041Fb323D6362f8A2374323FE5Cc3a68996175	290	Greyston Foundation	31-Contracts:Giveth	true	false
+0x40b2f5B60DE58042B6d2D3D6D1887b90eb479544	1693	Common Sense Media	31-Contracts:Giveth	true	false
+0x40b74adaf783788aE88e85AfE44cf0417a105326	862	Habitat for Humanity Australia	31-Contracts:Giveth	true	false
+0x40C867b76BD08521575fd653fDa70bae46459f6f	1220	Juma Ventures	31-Contracts:Giveth	true	false
+0x40F5d6f16676250d76582D2A2d244FFd7003799C	1309	Minority Humanitarian Foundation	31-Contracts:Giveth	true	false
+0x40f618aa1E41F3EB71a1552f17aEa56634501D93	902	Movement for Black Lives	31-Contracts:Giveth	true	false
+0x4122D15450877672dEC1a63b255f15F24fC0974b	1199	Reporters Without Borders	31-Contracts:Giveth	true	false
+0x4122fC23378716ab65DC8c42c037713d83E8D651	1109	Donate Attention	31-Contracts:Giveth	true	false
+0x41462Eab609d9a8eB5650a0F92dD1A41FbeFD809	364	Restore Native Plants, Wildlife and Landmark Structures Inc.	31-Contracts:Giveth	true	false
+0x41CB654D1F47913ACAB158a8199191D160DAbe4A	1172	Coletivo XV	31-Contracts:Giveth	true	false
+0x41e40175908C61dD5e31288D2B2F8177fA40356B	396	WONDER Foundation	31-Contracts:Giveth	true	false
+0x41F9A570DC72cf7bf5f164F255FaCeC72296997d	828	St. Jude Children's Research Hospital	31-Contracts:Giveth	true	false
+0x427A3e25B008a5ccfdD6A34BdE60a84379CFC519	1174	Open Dharma Foundation	31-Contracts:Giveth	true	false
+0x4286F0681F996a0e76D5E6504e6d7ade97366832	1549	Warrior Angels Foundation	31-Contracts:Giveth	true	false
+0x42c5775a3D54b971BEadf79B34B407C05AFb56b6	1139	Jacksonville Humane Society	31-Contracts:Giveth	true	false
+0x42d95EBce0972B91Ec2109158b6a7717d87cCe14	469	Global Hope India	31-Contracts:Giveth	true	false
+0x432869D3CcF686b90E717247AC15C5bCC714Dd87	1129	Urban Teachers	31-Contracts:Giveth	true	false
+0x4372198C5E3a61bB6E6ffAF155cABcc12819A320	897	PHIUS	31-Contracts:Giveth	true	false
+0x43A926daED327A8154a151202F4483b4A646092F	607	First Responders Children's Foundation	31-Contracts:Giveth	true	false
+0x43DB7DA716A642837a30924FD2F93f0ae65EC5e8	1074	Community Housing Coalition of Madison County	31-Contracts:Giveth	true	false
+0x43E9A8e64d02a0b1208227BEecd6e95FD710dA9B	335	Afroecuadorian Arts and Heritage Museum	31-Contracts:Giveth	true	false
+0x43fD1007e2aBbefEF5F81Bd560781491C92688A4	1429	The Sentencing Project	31-Contracts:Giveth	true	false
+0x448B6bFcDdfe2dB4DBbc1c5F2C12afF8fFa7725c	995	Third Wave Volunteers	31-Contracts:Giveth	true	false
+0x44946B3a45B8418b98f39778E252055C1A1E18F2	835	Science Friday	31-Contracts:Giveth	true	false
+0x453b6BB5bDF9C16BB62bCbcF4A3e7b94B0e64C14	425	Great River Children's Museum	31-Contracts:Giveth	true	false
+0x455b985FB75C317140887Db3bFffeC83a3cD442f	635	Animal Equality	31-Contracts:Giveth	true	false
+0x45639770bA44fCd5f278E8576a122D06AadD132F	1284	Boys & Girls Club of Meriden	31-Contracts:Giveth	true	false
+0x4596Cc09Ad47567cb0945F0f3EDbD96d32E95C92	1043	Connecticut Science Center	31-Contracts:Giveth	true	false
+0x45a79499F8326bdA8e102C8F3CF8c85336597481	1687	Gift of Life Marrow Registry	31-Contracts:Giveth	true	false
+0x45b7E5321244ed14F9f6dAeb33335dC9F9A3F190	1136	Life Extension Advocacy Foundation	31-Contracts:Giveth	true	false
+0x45bcB8E3081fe171a4C2170F5f4c87FB30ABdd8D	493	Best Friends Animal Society	31-Contracts:Giveth	true	false
+0x4673a01E9D3924Cdd09d8E1396EBCe2eD6213DA1	482	Fox West Theatre Alliance	31-Contracts:Giveth	true	false
+0x46755046E498C9C881078cf24373c0661ca6378E	1638	Los Angeles Fire Department Foundation	31-Contracts:Giveth	true	false
+0x46F0576150636e52b9cD032b6A1d0B6eE4f86D49	499	The Sophia Way	31-Contracts:Giveth	true	false
+0x47241b93DDE8756D6e0B4883eD40E5293dA62fe7	528	Christian Appalachian Project	31-Contracts:Giveth	true	false
+0x472507ad78595ec189f4B7A6f2bc5C595148E96b	951	Junior Achievement of Northern California	31-Contracts:Giveth	true	false
+0x472ca54D214883f1a4D38BFd17547d52d0dFd52e	708	Jewish Community Foundation of San Diego	31-Contracts:Giveth	true	false
+0x4760FDa134FDCD3E0EFA7145544183a99C0a4293	1513	NW Association for Blind Athletes	31-Contracts:Giveth	true	false
+0x47b33F935Df85e650bD32F31e09FAE7b5975B9bF	768	Beyond Conflict	31-Contracts:Giveth	true	false
+0x4851b90773BC5ba79353fC4C7f70C18576495851	776	New Hour	31-Contracts:Giveth	true	false
+0x4854169D1f789f5faC335cCB9acea2566C66982F	1719	The Dandelion Foundation	31-Contracts:Giveth	true	false
+0x48966CFB35cd6E11728F3B9F6bd023ef51b1Ff33	1516	Institute for Social Policy and Understanding	31-Contracts:Giveth	true	false
+0x48B7FB130B6aD39EbA4afBF7D0EFBB8379b63231	407	Tŷ Krishna Cymru	31-Contracts:Giveth	true	false
+0x48d17CD131926D8Cd73Dfc55c6220b006ccdaf00	679	Wildlife SOS	31-Contracts:Giveth	true	false
+0x48d3A57171C829f232a4A6974C8522821E767817	714	Veterans Yoga Project	31-Contracts:Giveth	true	false
+0x48E44EA9032461B32dAbE4eF32921a695d89C0f9	573	Second Harvest Heartland	31-Contracts:Giveth	true	false
+0x493F40A8949Afd00296Eaf5cba0c555BD581cB64	1659	Soles4Souls, Inc.	31-Contracts:Giveth	true	false
+0x49821a606bE3e9B394e3161196DBbc64C09d50f5	608	Project Sanctuary	31-Contracts:Giveth	true	false
+0x49aE1e55d4292A0B67a97074B376109BF932A267	1345	Open Medicine Foundation Canada	31-Contracts:Giveth	true	false
+0x49b41FFB3a8f9Dc3DC8dF8d8E9ea5B7D43445c7f	535	F Cancer	31-Contracts:Giveth	true	false
+0x49b48EC418FAE5F89da007afFb4c0c746Bb9eF81	1316	Children of Armenia Fund	31-Contracts:Giveth	true	false
+0x49F20Ec6248DD6055a4dbe4b1EDDEde64c7ab038	574	RAPP	31-Contracts:Giveth	true	false
+0x4Ac010321E887F03BA168c3fa212D1c2803668A5	927	The Leukemia & Lymphoma Society	31-Contracts:Giveth	true	false
+0x4B3bDbA2ee9cba935cb8c206FbA4B0b1F3E37fed	861	The Air Care Alliance	31-Contracts:Giveth	true	false
+0x4B83639dFA7d8C9F1BC9701aF9E9FDF75740DD7e	1044	Kids Cancer Alliance	31-Contracts:Giveth	true	false
+0x4B9Afd5eda3D4D42197Bd1acFAf12AEa1827cacE	1341	PathStone Foundation	31-Contracts:Giveth	true	false
+0x4bbeEB066eD09B7AEd07bF39EEe0460DFa261520	30	MyCrypto	31-Contracts:Giveth	true	false
+0x4bc5eeFe8709471F34f4bEf9E169e5Ab764082DF	626	BISSELL Pet Foundation	31-Contracts:Giveth	true	false
+0x4bf452a5020EbF93fBB2c2b8a29385ff22E04aa7	1596	Boys and Girls Clubs of Greater Houston, Inc	31-Contracts:Giveth	true	false
+0x4bf63905ea7b05890115bacC115dD77997F206Be	1118	WholeSchool Mindfulness, Inc.	31-Contracts:Giveth	true	false
+0x4c135Cc04DAa206475091Cb2636Abe6977eAE348	912	National Society of Black Engineers	31-Contracts:Giveth	true	false
+0x4c3B97c30b426Eb36fD102E91d867903B087984d	792	The Everglades Foundation	31-Contracts:Giveth	true	false
+0x4C5cEB2978551B15EB5181D635eAA2c6eed899aa	868	Community Partners	31-Contracts:Giveth	true	false
+0x4d5E8e62991A58F06211bB4e8DF8C481590495eC	394	The American Society for the Prevention of Cruelty to Animals (ASPCA)	31-Contracts:Giveth	true	false
+0x4D6993c00fF505aD5799f805Ae98a1e23353aC73	373	Waters Edge Church	31-Contracts:Giveth	true	false
+0x4d9339dd97db55e3b9bcbe65de39ff9c04d1c2cd	core-0001	The Giveth Community of Makers	31-Contracts:Core	true	true
+0x4Df2298F7D2e8F841A2FE72B2439cA952FCCA45F	1153	Home and Family Society Christchurch	31-Contracts:Giveth	true	false
+0x4DfE853434294e50C212eB6fDc305090801b9CB7	647	Women's Entrepreneurship Day Organization Celebration	31-Contracts:Giveth	true	false
+0x4Ebf65942f16f8DBB58a0520BC81F482BFC5Ab84	1347	Worlds Aquarium	31-Contracts:Giveth	true	false
+0x4f8D3f134025377c3E1aafa26BD96CCAA7dA95dc	1229	Red Cloud Renewable	31-Contracts:Giveth	true	false
+0x500358904d2c8711A027ea61630013fE3A5F185A	162	The Learning Village Project	31-Contracts:Giveth	true	false
+0x50321806a71caeB9C30BB4bcB1414d6D7F9049eB	1550	Adult Congenital Heart Association	31-Contracts:Giveth	true	false
+0x50a0bcf71Cb17bE5C2335d8C5172Ef1d8b82Db8C	127	NjombeBeyond	31-Contracts:Giveth	true	false
+0x50AaaE7B111BF87972a824D60afE601f42423Da7	1559	The Source LGBT+ Center	31-Contracts:Giveth	true	false
+0x50f61FA269c72e5B21D272a075dF0fa6aC7b8d28	849	The REAL Bark	31-Contracts:Giveth	true	false
+0x513AdC80B5830Ca58d51CF75fBdf3Fc6e465c27d	384	Maya’s Hope Foundation, Inc	31-Contracts:Giveth	true	false
+0x5145b8b84cEE860deb02AA56344b7405FcD5B5A4	881	Musicians Making A Difference - MMAD	31-Contracts:Giveth	true	false
+0x514Eb93b6467c6571c772D5c4604CccbCDFC1084	1459	Accion Opportunity Fund	31-Contracts:Giveth	true	false
+0x51733B77bBa1765c5fF72909D21205f92AF52AdF	1298	Desert X	31-Contracts:Giveth	true	false
+0x517451E1607858297646F1C8bCa2085457867d13	603	Women's Earth Alliance	31-Contracts:Giveth	true	false
+0x51E91DF853dC9E135fccA4478608FF9632FDaEEF	957	WaterAid America	31-Contracts:Giveth	true	false
+0x5216022947e0b652b12Ae209Ec9d94Abd0de6627	1193	The International Christian Church, Inc.	31-Contracts:Giveth	true	false
+0x5219ffb88175588510e9752A1ecaA3cd217ca783	29	Bloom Network	31-Contracts:Giveth	true	false
+0x5267b5f2f45A5D30f046dF5A7FbE17f72c319252	1117	Lucky to Ride	31-Contracts:Giveth	true	false
+0x52F2d5cE2d0B48BAc863CE5B1a21E846cAB861E9	1428	Guide Dogs for the Blind	31-Contracts:Giveth	true	false
+0x532DdFF4251009443d44Bd24a0E936c6b5cC89eF	1672	Impact Justice	31-Contracts:Giveth	true	false
+0x5334DeeeFF35cBE77264636e9246ff5b587bA6ce	450	Humane Society for Southwest Washington	31-Contracts:Giveth	true	false
+0x5365877A1e7Ee3095EdFEe4a613Ed1671b53728a	1377	Indiana Sports Corporation	31-Contracts:Giveth	true	false
+0x5374c73BD851a99F80B284431e31D16422ee37c9	651	Trans Lifeline	31-Contracts:Giveth	true	false
+0x538f022f50038994F7A04A58F5004C1B98ed41a4	652	Alexander Youth Network	31-Contracts:Giveth	true	false
+0x53a396356cEfeAE92E2fE7F85f1C874EbD74f298	433	Miles4Migrants	31-Contracts:Giveth	true	false
+0x53c4b80EA12BFf59D13BDAF3343E8BF8F45c12da	1186	Regen Tulum	31-Contracts:Giveth	true	false
+0x53EAD4d1E4C4dF98A7D884dd6f6806c73F0EFB1E	786	Crypto Kids Camp	31-Contracts:Giveth	true	false
+0x53Fe314ff41F941449C6D2376B14e00227533D8f	725	Feed My Hungry Children	31-Contracts:Giveth	true	false
+0x544672B7DC92d8B24AA801b7385129618e9a039e	1197	Bellevue Arts Museum	31-Contracts:Giveth	true	false
+0x5520228bbEA6Ccc011C3904370FBE89111d82D27	598	Sea Shepherd UK	31-Contracts:Giveth	true	false
+0x55208242b476A07097692d6FaDFADEaE3a09E0c4	590	Transgender Legal Defense and Education Fund	31-Contracts:Giveth	true	false
+0x553F978dd108B553554FFC5dD993f21A3835221D	739	Planet Water Foundation	31-Contracts:Giveth	true	false
+0x55BE88124cb8bae5A0261E16B4AFD90803499Acd	788	The Sloth Conservation Foundation	31-Contracts:Giveth	true	false
+0x5684afd3dA95db98dFbfAb54d3e611620d1E5148	571	A Leg To Stand On	31-Contracts:Giveth	true	false
+0x569c16AE9Fa75BF6B99Ec589e5fB4112072B0e1b	669	Meals on Wheels WSD	31-Contracts:Giveth	true	false
+0x569D741736aA4A780CB77fB19c2373C131b4cf65	496	Franklin County Humane Society,Inc/ Planned Pethood Clinic & Adoption Center	31-Contracts:Giveth	true	false
+0x5749fbf506F37Ad6B9Bff927a2E54251185D3Ab4	636	Fruit Tree Planting Foundation	31-Contracts:Giveth	true	false
+0x57560fC4A3c619b982681B93c5fD2e5C29578AfC	547	Invest in Kids	31-Contracts:Giveth	true	false
+0x575A8a82f3349BDa3eC02CdB357368C75b454Ca8	1748	Potential Church	31-Contracts:Giveth	true	false
+0x575C9B85D5538538E20cB65b3838A0A724A48F74	1008	Feeding Southwest Virginia	31-Contracts:Giveth	true	false
+0x57719e83e0cB35840c331535f0755E8784865A8a	1379	St. Louise Parish	31-Contracts:Giveth	true	false
+0x579DaDeac63468560Eb47488639d837905Bf495C	1116	California Rangeland Trust	31-Contracts:Giveth	true	false
+0x57adf882E403b22F160E708471Cb0E34A608ec54	1587	Real Escape from the Sex Trade	31-Contracts:Giveth	true	false
+0x57E22C6375609A1841e48E0E06A1C47868851D2a	1108	Emerald Foundation	31-Contracts:Giveth	true	false
+0x58C11D9CDAC729260BA4F93A02ae083eC4a680d8	987	Muscular Dystrophy Association	31-Contracts:Giveth	true	false
+0x58e275e069782a27c3f2e20466e67A3D245419Cf	1314	The Community Foundation of Southern New Mexico	31-Contracts:Giveth	true	false
+0x5925BDF36b5B6Cb7cb64EedAeA00f89de6cf685e	908	GO2 Foundation for Lung Cancer	31-Contracts:Giveth	true	false
+0x59EcD5be43AE7793370E24826e658193076c19bd	580	CARE	31-Contracts:Giveth	true	false
+0x5A38239eA4aDA948cF1E0370Fb90077662777e4C	516	Heal + Thrive Global	31-Contracts:Giveth	true	false
+0x5a51C51042f47de62447881319b77bC75dFc3bFc	1452	Kindred Way	31-Contracts:Giveth	true	false
+0x5a7502cE3d6128bC9A96E2d3Bf7541256d6fC389	1032	Wisdom International	31-Contracts:Giveth	true	false
+0x5A9CE898f0B03c5A3Cd2d0c727efdD0555C86f81	1471	Shenanigan	31-Contracts:Giveth	true	false
+0x5ab135764369C66A19218980F802E7Ada81AE88B	1056	Women’s Audio Mission	31-Contracts:Giveth	true	false
+0x5b2869fc650D01099f3f81a83D2E9928FB837BCe	597	amfAR, The Foundation for AIDS Research	31-Contracts:Giveth	true	false
+0x5b36399504A64C6D5d6671586761b631792fD938	375	The Teen Project, Inc.	31-Contracts:Giveth	true	false
+0x5b4C8A6f8921Efb25499C5831cECC1852D384e54	1368	Anchor Point Church	31-Contracts:Giveth	true	false
+0x5B4D95F6695093E636f948Ef1DFEC92cDE48f028	1373	Kidney Cancer Association	31-Contracts:Giveth	true	false
+0x5B54D3aE276B08ce93d799E6a7b47279eCcd0966	1628	Intelligence Squared U.S.	31-Contracts:Giveth	true	false
+0x5b81fF08adABc486D18aEdFA67121BCE113295E5	1093	Ovarian Cancer Research Alliance	31-Contracts:Giveth	true	false
+0x5BB0Fa68E1947f70418756059f8A6389a4Ce9d28	584	Xavier Catholic School	31-Contracts:Giveth	true	false
+0x5BB86C08272dcA843F9c3AD147974C975370e700	756	P4 Childhood Cancer Foundation	31-Contracts:Giveth	true	false
+0x5bDFeeda1A9eB50C74a5B359AE68c599C153649A	368	Cascades Raptor Center	31-Contracts:Giveth	true	false
+0x5C1135e5c2665821E0DB72Cf2e8197d470472182	474	BRAC USA	31-Contracts:Giveth	true	false
+0x5C2584Dc4C8140da28787A5D4e9d7Dc579101353	1706	Only One, Inc	31-Contracts:Giveth	true	false
+0x5C3Fadbf6126c11e4314863CeeEFeeede2c6E459	1668	NAMI Seattle	31-Contracts:Giveth	true	false
+0x5C477fAcC56840752A5ea7285b5443bf33D8F57d	565	Make-A-Wish Colorado	31-Contracts:Giveth	true	false
+0x5c49B3922974BE7C50499fd798AeF75521F3Cfe0	937	Mobile Surgery International	31-Contracts:Giveth	true	false
+0x5cf4a8055E6aA83F5e356d17d4E40288EF788C39	453	Martha's Kitchen	31-Contracts:Giveth	true	false
+0x5D323C084DB9800e0cC99Df1FCECAB5024b335de	1589	Ama International	31-Contracts:Giveth	true	false
+0x5d48F5cFd2ca14978b3F5183dBF1277749aF86D8	810	1517	31-Contracts:Giveth	true	false
+0x5dc035B1b98B3dD24f156C052A721748769A2ac3	1727	Oak Valley College	31-Contracts:Giveth	true	false
+0x5dCbD0125A7Bceb564c5eFCeD998DB015225B12A	1212	Purple Maia Foundation	31-Contracts:Giveth	true	false
+0x5e1B65ce1f639b99EeFC5c82B1677917615B6Cd5	585	Food For Life Global-Americas	31-Contracts:Giveth	true	false
+0x5E1f118B26E2BB0212E4fE4Ad523B286f2B497A0	414	World Help Inc	31-Contracts:Giveth	true	false
+0x5e2B311c92d1BB2d281af41E28145c18abAC47A5	438	Catherine Violet Hubbard Animal Sanctuary	31-Contracts:Giveth	true	false
+0x5e34395E0f70E576079b2404832D0fE31697eD5F	1132	Heaven on Earth - Cat Rescue	31-Contracts:Giveth	true	false
+0x5E4E505a714aDF104C74ADcF33C0251ee3276d58	803	Social Good Fund	31-Contracts:Giveth	true	false
+0x5e7172df892abd9EA3E669823955E52D59Ee13cF	69	Free Solidity Development Course in Farsi	31-Contracts:Giveth	true	false
+0x5Ea6a77c7372f9222B4f8dA065FAD73A198EACcA	1085	Marine Megafauna Foundation	31-Contracts:Giveth	true	false
+0x5Ea7D38a7Ad76C73Be5605Bdc4e882917f1bf64E	1774	Project South Institution for the Elimination of Poverty & Genocide	31-Contracts:Giveth	true	false
+0x5EbbFE158dC33FEfc22f009c7559BBa2327a7dcC	1527	A Child's Hope Int'l	31-Contracts:Giveth	true	false
+0x5f3216BBa025C3490420c3eD930F377926ABB3c9	1348	Opulent Philanthropy Inc	31-Contracts:Giveth	true	false
+0x5F3eAdE0c86C412c34a4FDC20E08167710A6444F	1434	Community Foundation of Utah	31-Contracts:Giveth	true	false
+0x5F9511a3CF95B50464246B8a345d516B5508b54A	749	Ronald McDonald House Charities Detroit	31-Contracts:Giveth	true	false
+0x60b214e74b347e8595A336aF3762d6a8Eaf3FC42	387	The Campbell Center	31-Contracts:Giveth	true	false
+0x60d6153f5BE8CcAdb2a468a7107f69AF05E3dC65	467	God's Love We Deliver	31-Contracts:Giveth	true	false
+0x60E45238E90706A7DacabeAdE1d697FAD154D589	445	Equal Rights Advocates	31-Contracts:Giveth	true	false
+0x61A338eD6aCc0eB5183328dA4EFbe16Cab61D3d1	1409	CPL - Choice, Passion, Life	31-Contracts:Giveth	true	false
+0x61Bfbb304365ef3CC11C42936Ab25910682e1C4f	1133	YWCA Tri-County Area	31-Contracts:Giveth	true	false
+0x61F8377ef6c6e39A91E73F7c03dd293f91520A1D	569	The Healing Place, Inc.	31-Contracts:Giveth	true	false
+0x6249ae2d68687337494a7fe3EBDa894311dE8A5D	1280	American Society of Neuroradiology	31-Contracts:Giveth	true	false
+0x624D36cda67e8b40582667E1D0fC305eE0E60356	1495	The Religious Coalition	31-Contracts:Giveth	true	false
+0x625f2fCbA1f0cb3E5a4D84dC9d91298C556b4181	758	The MND And Me Foundation Limited	31-Contracts:Giveth	true	false
+0x6282edDDb5dE496936BC7772B1647c794ca38A2c	1221	Scratch Foundation	31-Contracts:Giveth	true	false
+0x629F91d470a5Fc8270E6C2BA2C5c2eAf4218D961	1667	The Born Free Foundation	31-Contracts:Giveth	true	false
+0x62E4b2859C187b136EE108E1274bFE4D62eCC6A3	444	Council of Korean Americans	31-Contracts:Giveth	true	false
+0x62FC4064eD4C81fA9A3c3428f6b216dae8C754c4	1203	Chattanooga Area Food Bank, Inc.	31-Contracts:Giveth	true	false
+0x63D6956390888Bcb92730Dfe36bAF47e8dE2d20C	1017	Children's Hospital Colorado Foundation	31-Contracts:Giveth	true	false
+0x63EaEa8e643C51D15A9fE5cA844487bb812ae9D8	1700	Be Team International	31-Contracts:Giveth	true	false
+0x640d2c84F080145654ADA44BD13F63F0D6E05348	562	Pediatric Brain Tumor Foundation	31-Contracts:Giveth	true	false
+0x640E9b5490d1B9B4d86b5721323Dd69e70E835b5	1769	Danbury Hospital & New Milford Hospital Foundation	31-Contracts:Giveth	true	false
+0x6418E4B13C294df6f4d85f8b4Ec5bc6CCb1fb129	866	Historic Hawaii Theatre	31-Contracts:Giveth	true	false
+0x6486bafeAE9766c26C7B4c9f55A089b0Dbf323A1	869	Kessler Foundation	31-Contracts:Giveth	true	false
+0x649859641661C4BC7482bb7B5441C4cB3E989d35	510	Boys & Girls Clubs of Santa Monica	31-Contracts:Giveth	true	false
+0x64d5F461BB2B58F6B3A777a0B58A035ffF5E41de	963	Children In Harmony: Amani Project	31-Contracts:Giveth	true	false
+0x64ea03f63965ef5b7576CE6edE7f087b8B578d56	622	The Believe In Tomorrow Children's House at Johns Hopkins	31-Contracts:Giveth	true	false
+0x655de84129Fa5F96d6aaDd5f5B5eA5DAee1d8771	691	Virunga National Park	31-Contracts:Giveth	true	false
+0x659090120dC67d5b042FEB125E98b7f4204c96CC	797	Dolly Parton's Imagination Library	31-Contracts:Giveth	true	false
+0x65Cbe2Cd12D17E248aCFbe4b981d29a516EAc4a4	560	Oregon Humane Society	31-Contracts:Giveth	true	false
+0x6602925E711495713094bdcEfb7cBB41038602de	1103	Free The Girls	31-Contracts:Giveth	true	false
+0x66444611ecCEeBD3D0826a1cb8dE01eB1A18E10c	1512	Berkshire Natural Resources Council	31-Contracts:Giveth	true	false
+0x668F4eB6b997f05dE2da75ebaBB829C853220D69	591	Sigma Chi Foundation	31-Contracts:Giveth	true	false
+0x669eb9F4b8e72b3BBE9ebEab517904E38Bc1D079	1554	Brownstone Institute	31-Contracts:Giveth	true	false
+0x66Ba93dE1c47D314587E827f8881831B119Fc9F6	839	Chabad House of Kansas City	31-Contracts:Giveth	true	false
+0x66D3Cca7B538d2141a75B69D7Dd5c6750cd909f6	471	Jackson Health Foundation	31-Contracts:Giveth	true	false
+0x671d2489A70D747112D4493C998F68dabb482186	1297	Habitat for Humanity of Chester County	31-Contracts:Giveth	true	false
+0x672965707b164c2588549403eC9D7E7D78832B89	586	The Mississauga Food Bank	31-Contracts:Giveth	true	false
+0x672BF31Bd0D936B3fBa2de4A62f78dF5fbF6B061	455	Global Liberty Alliance	31-Contracts:Giveth	true	false
+0x672D05743d41815325a9Af4f92FBe57c306F17Be	357	Austin Life Church	31-Contracts:Giveth	true	false
+0x67f76c20c5C718D741616E2942a75412dD4cC6AB	791	Unbound	31-Contracts:Giveth	true	false
+0x681044A9b8c0Ec3699e763943ccDA3B163dF18d1	1351	Moonjelly DAO	31-Contracts:Giveth	true	false
+0x68131bF170731fDF0CA340a898470233e1b165E2	696	APOPO US	31-Contracts:Giveth	true	false
+0x682B0d077667064b1E496AeE5a9C02B799ACD478	1511	The Ohio University Foundation	31-Contracts:Giveth	true	false
+0x6886b39650553DA57Bab8457a0c065FC0044F3E8	1335	C3 Mobility DAO	31-Contracts:Giveth	true	false
+0x68975540f3af02438D8c2a4F8c0aF341ec9d5431	563	African Wildlife Foundation	31-Contracts:Giveth	true	false
+0x68e79903E588a9F3Fb43905c43d993F441d43A03	910	Africa Development Promise	31-Contracts:Giveth	true	false
+0x68F7054BA40B82A88e053d527cc8141987a3566c	625	Remote Area Medical - RAM	31-Contracts:Giveth	true	false
+0x68fa4ea5C8969122375F149889730756B195b158	1213	A Just Harvest	31-Contracts:Giveth	true	false
+0x6903d300af8F011a9a483eFbFD0817D56Baf1Dc9	873	Bethel Church Austin, Inc	31-Contracts:Giveth	true	false
+0x69193a543C945C3AB63FD1c148AA9890Bb189b63	620	Kent School	31-Contracts:Giveth	true	false
+0x692048d34c9685741d5C4b741488deb499F361e7	787	Council for Economic Education	31-Contracts:Giveth	true	false
+0x69c1Bd7ce899506355Cc2d8152788027a9093445	1699	Mercy Ships	31-Contracts:Giveth	true	false
+0x6A1FBC4455b5Fdc280afAe16a7eeFc1FeF52436b	417	WEFOREST	31-Contracts:Giveth	true	false
+0x6a5704A2dd938FFB2Cdfa8F55d39BFfd37e6D494	449	Yad Ezra V'Shulamit	31-Contracts:Giveth	true	false
+0x6a8a82568ADC7345ECD915784930C92D6006456D	1666	K9 Rescue International	31-Contracts:Giveth	true	false
+0x6a982f917AD7c41FF20f3B9c8716285129EB1c1e	399	International FOP Association	31-Contracts:Giveth	true	false
+0x6Ab1A443c31647436af3286fa211dCe32AD92A92	619	Hudson River Park Friends	31-Contracts:Giveth	true	false
+0x6aF776192647516383354874E54979F397bD1688	1027	Alzheimers Association	31-Contracts:Giveth	true	false
+0x6AFA2465a3c0047D7656E9A0b66B7DdF872C87aC	918	The Adventure Project	31-Contracts:Giveth	true	false
+0x6B411bF3fC7Ac2946b6bdfC9da0F26BFf08DF06f	1230	Regenerative Resources	31-Contracts:Giveth	true	false
+0x6Bd695Ca70979e402581896BAec3Fa58A61D8147	956	The Gathering Place	31-Contracts:Giveth	true	false
+0x6c10f420Ab61bE30F3a27F12fCA23727796b5E53	492	Sound Off	31-Contracts:Giveth	true	false
+0x6c2DF2233332165D1E0410967FE6801630aF994E	1151	Voices for Children	31-Contracts:Giveth	true	false
+0x6C607a7A23Aa44775AeD44E8402E24B23D528988	965	Lionsberg	31-Contracts:Giveth	true	false
+0x6d1492643F7A9d999568D6225A4835a367116264	1664	Food Share of Ventura County	31-Contracts:Giveth	true	false
+0x6D8b58414A6c1DF1A181f1789176B22f6189Ee56	624	Code to Inspire	31-Contracts:Giveth	true	false
+0x6D97d65aDfF6771b31671443a6b9512104312d3D	12	Life - New Creation Association	31-Contracts:Giveth	true	false
+0x6Db5b661D8539323Fc00c91037BFc24161E237dF	377	HANDY	31-Contracts:Giveth	true	false
+0x6DDb91684dB2C2771549E2EAaeBE3620b3bFB53f	1050	Action Against Hunger USA	31-Contracts:Giveth	true	false
+0x6DF686Cf002eF516023Fae8147D31EebA55823aa	572	Lunar Startups	31-Contracts:Giveth	true	false
+0x6E5537D68501B9BA611001bEf4bA9f063b087c7e	422	Fair Count	31-Contracts:Giveth	true	false
+0x6E5C4f40DD8Ff1cc52f81A13B2F356A978768416	1169	Diamante Valley Commons San Salvador Road	31-Contracts:Giveth	true	false
+0x6e67432315A03Ce5d4DC8aC09032203Ce7feD2CD	748	Immigration Institute of the Bay Area	31-Contracts:Giveth	true	false
+0x6e8873085530406995170da467010565968c7c62	1443	Giveth Matching Pool	31-Contracts:Giveth	true	false
+0x6E89497f965Ed87Ad198d2C157bD290396f97dbb	329	Das Hallo Projekt	31-Contracts:Giveth	true	false
+0x6Ed5D450856AD628CCCB5F3C2E0ED24CD55Ddbb3	799	Financial Inclusion and Freedom Fund (by The Life You Can Save)	31-Contracts:Giveth	true	false
+0x6EF5cBf599F5945Cb3E7633f0d7ae5f4349b4BA5	660	Big Green	31-Contracts:Giveth	true	false
+0x6f2F927fBE35f4aEbc683fD17999020f1e9c0fE8	1524	Eye to Eye	31-Contracts:Giveth	true	false
+0x6fe629cBbCF23360C1AD3F2d997232C8E3C7A175	1487	SouthBrook Christian Church	31-Contracts:Giveth	true	false
+0x7026fdB25453c1a4992b999070d5FC8472A95bE2	631	Alliance for Cancer Gene Therapy	31-Contracts:Giveth	true	false
+0x704D60F6132e332e363F52b44B6f8477cF8e29e1	1437	Propel Digital Transformation Fellowship	31-Contracts:Giveth	true	false
+0x70A68A29bAC0b3c85BEd4B47bB3a639F0f245e70	1004	Allergy & Asthma Network	31-Contracts:Giveth	true	false
+0x70BeF6E69dB770E786cE8de654cDD48D63440B69	1089	AdoptAClassroom.org	31-Contracts:Giveth	true	false
+0x70e251189d7f2afEe1c98aFFB45Dbea2C9a500A3	653	Human Rights Data Analysis Group, a project of Community Partners	31-Contracts:Giveth	true	false
+0x70E50cEB5DbCc0a43364a226D9a4f54d52Ab2Fea	1029	Michigan Donor Family Council	31-Contracts:Giveth	true	false
+0x71135690Bd870C843109EC7C9a1D288F3cda5e35	1562	Habitat for Humanity NYC & Westchester	31-Contracts:Giveth	true	false
+0x712A899502CA10564693D8aD08900E0a285ADcBf	1399	Boys and Girls Clubs of Broward County (BGCBC)	31-Contracts:Giveth	true	false
+0x716A665ae29385BA3B053B56a7bbce80aD399D5d	1087	PathForward	31-Contracts:Giveth	true	false
+0x719A7c9E8E39D446f25FEc9c19127c4ADbfa0694	1214	Acts for Water	31-Contracts:Giveth	true	false
+0x71F5a2bFF31Df7Cff50Cfc8Eb6168612aA93CbAE	905	Tunapanda Institute	31-Contracts:Giveth	true	false
+0x71ff44f3b1bF9EAB39872c9d3F5Ffdd211e2c8be	568	Dogs for Better Lives	31-Contracts:Giveth	true	false
+0x7205947de0E2bce571dCa39cF2d0c65C66674433	370	Primate Rescue Center	31-Contracts:Giveth	true	false
+0x7267eA68ea5368bB697bE8A78f2842cf965F3817	938	Justice Committee	31-Contracts:Giveth	true	false
+0x726E50A92325Cc744d7d8946847C46e40415ECC1	1357	Salu pa Tur	31-Contracts:Giveth	true	false
+0x72F1824B0F63fb0eFe6C29927F3C5c7c21C5D299	1433	Honnold Foundation	31-Contracts:Giveth	true	false
+0x73BA961c7cA309A94571fE5165534D96A671516F	1094	Family and Children's Association	31-Contracts:Giveth	true	false
+0x7401808f8619D1fc9e87Dd39b2A1e6dB3f614E74	859	Rising Tide Montessori	31-Contracts:Giveth	true	false
+0x7429643e2a7482f225dF2eC563848a6378C3ACde	1423	Golden State Ballet Foundation	31-Contracts:Giveth	true	false
+0x74318425541A72A55d6b3603bb626f61a5d0Bf4E	1286	Avenues Early Childhood Services, Inc.	31-Contracts:Giveth	true	false
+0x74b8D98E1921c2BdEeC542827fD4D976c99f0116	914	Sky Mountain Wild Horse Sanctuary	31-Contracts:Giveth	true	false
+0x74E575735289D61DBdCB78599A821cAF38260e0f	1431	Life Saver Dogs	31-Contracts:Giveth	true	false
+0x74E8B2569bd26289e2b41D6D018dD0373eE3235E	1775	Camino Health Center	31-Contracts:Giveth	true	false
+0x75072923883A89C7dF67580423e99d7C9033CE79	1342	Chazaq Organization USA	31-Contracts:Giveth	true	false
+0x752d6247cC7007978Be1c0F6f7b73c7ab1c09b12	950	Liberty In North Korea	31-Contracts:Giveth	true	false
+0x7554f10Da3Ed7128300577e55abCd8F8835BCee4	9	Diamante Bridge Collective	31-Contracts:Giveth	true	false
+0x755D4c686b9ae88c988429E21903eA80FF5edB34	1083	Baker Industries, Inc.	31-Contracts:Giveth	true	false
+0x761d23D85b5C94C33952f0feA28578d3A9c647CF	490	Tierra del Sol	31-Contracts:Giveth	true	false
+0x764a577296c904D7a1F62C0CC1FdCF4444a6114c	872	OutRight Action International	31-Contracts:Giveth	true	false
+0x767b11F3BcaaF831436e7F1fDa809e73E3Fa299B	1098	Apex for Youth	31-Contracts:Giveth	true	false
+0x76B907902BFe70B0E6B13c998D36FFb257125164	1073	Buried Alive Project	31-Contracts:Giveth	true	false
+0x76bA4a838895EBeB5AD439F2332Ab19A9Ebc886E	638	Prager University Foundation	31-Contracts:Giveth	true	false
+0x77466bF3eF2b5578c67FCEc159A4FA0E51B39F1E	459	Advocates for Children CASA	31-Contracts:Giveth	true	false
+0x77C43355B7Ed5771e1eb6404939Cc3F10C08457D	1703	NephCure Kidney International	31-Contracts:Giveth	true	false
+0x77CC7e6E01818A0064Fc222013F2BEf0d2903112	418	Association for Creatine Deficiencies	31-Contracts:Giveth	true	false
+0x786Cd5A908A711fdA194d61A49b80458113bF138	509	Trinity Academy	31-Contracts:Giveth	true	false
+0x78798271f6E0706702a1bE16DBA25224a0c4Acc4	1486	LUNGevity Foundation	31-Contracts:Giveth	true	false
+0x788F31554b886EDbbB23784B3C34dCC27fEC4A63	522	Miriam's Kitchen	31-Contracts:Giveth	true	false
+0x78b864BBdFb460661e756A3D37eBDD02f9d1E718	960	Fireside Project	31-Contracts:Giveth	true	false
+0x792188DD21A9A8cb2557A9d65Df4AE5b13A91876	875	Glioblastoma Research Organization - Brain Cancer	31-Contracts:Giveth	true	false
+0x793045aA40720E22F67bC132A93189930b10011a	1149	Childhood Leukemia Foundation	31-Contracts:Giveth	true	false
+0x79453E49253f014e5a7cAC0dE45A2bA4Cb232881	802	Integro Foundation	31-Contracts:Giveth	true	false
+0x7951C1bD28D2458cA97b182F515990b629A45580	1741	The Giving Grove	31-Contracts:Giveth	true	false
+0x79ABAe3456c5071a016c65663cB63E473eD82025	1066	Stichting The Ocean Cleanup	31-Contracts:Giveth	true	false
+0x79AD1c1935962f22381C4095918Ed84505e0B64a	610	World Central Kitchen	31-Contracts:Giveth	true	false
+0x79B835F4e729cA1bB545B93651fA9Abe71cA92F0	1453	Make-A-Wish Greater Bay Area	31-Contracts:Giveth	true	false
+0x79dE9c4352D6aE67735819A36681eed59748ba1f	1247	Story Blanket	31-Contracts:Giveth	true	false
+0x79Fd4A97e0B7949B12Eec28634185A9E512cFe68	903	World in Need International	31-Contracts:Giveth	true	false
+0x7a05A7A2654B4202Efaa99F188659A938678D538	856	#MEAction	31-Contracts:Giveth	true	false
+0x7A12d81Dd3b83450B46C56779C88A63d6F7acE77	436	Pathfinders for Autism	31-Contracts:Giveth	true	false
+0x7a47d061A6628aA1324b49A2B331cE921bd8517d	1195	Dazzle Africa	31-Contracts:Giveth	true	false
+0x7A487B399fe88424ADa06b3f5F8c69c2494A617c	1215	New World Symphony	31-Contracts:Giveth	true	false
+0x7A916486433b77E02733a06f908BBD99Ea3827Ad	654	Out of Eden Walk	31-Contracts:Giveth	true	false
+0x7ADb68DAaE82d48Df40bfCb13E8E1bBeD4d3E768	1591	Unique Care Connect, Inc.	31-Contracts:Giveth	true	false
+0x7aF2D904094957F521177873Eee8eBD2e5509C82	850	Fred Hutchinson Cancer Research Center	31-Contracts:Giveth	true	false
+0x7af5B02baA34D3076742424525253fD415E3B069	537	Ceres	31-Contracts:Giveth	true	false
+0x7B2957D554645B29Ab99264f6a67CAc36a9cb991	369	Pure Earth	31-Contracts:Giveth	true	false
+0x7b2f20350703DDa592f01D0fE7e37161893E61a9	512	American Folk Art Museum	31-Contracts:Giveth	true	false
+0x7Ba6Bc0D069cBC4Aa44544Feb1faFf6fa9F46fe5	948	United Way Worldwide	31-Contracts:Giveth	true	false
+0x7bb6a810b4b32e0b38ECDEbE0516F750650d3754	670	Hands of The Carpenter	31-Contracts:Giveth	true	false
+0x7BC1f30fFEAeEE36bAF17EA421830281B148b397	1171	Trustlines Network	31-Contracts:Giveth	true	false
+0x7bc8c26E28c9C7C65A0Fc74EDb1A97892085E1E8	443	Hydrating Humanity	31-Contracts:Giveth	true	false
+0x7bd36426304335accCeEbB1E83fA7FA352B0118f	760	Coalition of Parents in Esports	31-Contracts:Giveth	true	false
+0x7c1885F63ddA7e24E05DB0cAf6e84B57A3e40CF2	1086	Humanity Rises	31-Contracts:Giveth	true	false
+0x7c64b7c3DC0561c1a0042B296BF7Db7156cAaBa5	1435	Arizona Burn Foundation	31-Contracts:Giveth	true	false
+0x7cbE9D8768E9A2b7a2D4633758dCEBd6b8B7B8dC	363	Southern Connecticut State University Foundation, Inc.	31-Contracts:Giveth	true	false
+0x7cC4F9837a852D16A15b318A776069748E2bDE1A	1660	Animal Free Research UK	31-Contracts:Giveth	true	false
+0x7CceD98EeF262B7B24265DC7743218Bf80Ec6411	1753	Boys and Girls Clubs of Martin County	31-Contracts:Giveth	true	false
+0x7cD760957ea52f2682f92A484EC4BbCec4955925	1317	LegacyTree Foundation	31-Contracts:Giveth	true	false
+0x7CF46304cc3F163C20c7A181d82a62279D333f7A	1141	Stone Soup Cafe, Inc.	31-Contracts:Giveth	true	false
+0x7d4FF0b0407a7E923Bfeb797fAd7aC9c88A7EB51	997	Wolf Conservation Center	31-Contracts:Giveth	true	false
+0x7D7356EB46dF499B5E6b178521194A7Cf6A027df	750	United Way Miami	31-Contracts:Giveth	true	false
+0x7d7f2082AE3A75A881e478Cf90880BACFAEBE4fE	355	Jewish Federation of Northern New Jersey, Inc.	31-Contracts:Giveth	true	false
+0x7D8D4461Afecb2c4003db5505BE944C662D490D9	356	Fort Worth Zoo	31-Contracts:Giveth	true	false
+0x7DAcA38Bb90A5e72d5A76dB283182cDE792157Fb	1450	Nu Deco Ensemble	31-Contracts:Giveth	true	false
+0x7dcC5F65934E35da027c485151D953CB6eAf9906	640	KidsTLC, Inc.	31-Contracts:Giveth	true	false
+0x7e065A7AdE7Cc6d33a82773c9A4c3605D5b0976A	763	Cambridge Muslim College	31-Contracts:Giveth	true	false
+0x7E53b3fa9820970D2b91d6907cb25CA975A77B17	1226	The Family Giving Tree	31-Contracts:Giveth	true	false
+0x7e61ff3Be59a897F219BD0816eeA24ef36f9CD65	1630	Big Life Foundation USA	31-Contracts:Giveth	true	false
+0x7e865FE2b0549b9325F4657d535A1352284D67ec	1633	Whale and Dolphin Conservation (WDC North America)	31-Contracts:Giveth	true	false
+0x7ec955Dff4a0be1FA345955f3415226c57855e2f	752	Autism Speaks	31-Contracts:Giveth	true	false
+0x7ece0bf4660A8495612c6F15c852a3A7091c1B3F	1070	Teen Challenge of Arizona	31-Contracts:Giveth	true	false
+0x7ED3322B16fba22fAf7bdEdafb273a5F4ddB559a	1285	Radiant Church	31-Contracts:Giveth	true	false
+0x7Edff7D58a218693F82117c12BBD25Bb530899DA	1095	International Child Art Foundation	31-Contracts:Giveth	true	false
+0x7eE425b4859889736dfBA381Ff32BB073D24710D	1084	Pancreatic Cancer Cure Foundation	31-Contracts:Giveth	true	false
+0x7F698f6Dc743ada6f899a0EB30FCd73Fc1de3447	451	Property and Environment Research Center (PERC)	31-Contracts:Giveth	true	false
+0x7Fa6FE1A4685162918406672191b258F9ecC484B	605	YMCA of Rock River Valley	31-Contracts:Giveth	true	false
+0x800080657c2e71F471bF6C6dbb8FFEe440649A1A	985	Animal Charity Evaluators	31-Contracts:Giveth	true	false
+0x809eae4CBaaD5A5303baC0E06c1eB32dC0A18c5f	1374	Christ Greenfield	31-Contracts:Giveth	true	false
+0x80a8C023Fd3a12ba76919660093983abdF160958	581	92nd Street Y	31-Contracts:Giveth	true	false
+0x8105F3f77E19714F880F759Dc51a0702cb5A9ce7	533	Zero Abuse Project	31-Contracts:Giveth	true	false
+0x8110d1D04ac316fdCACe8f24fD60C86b810AB15A	3	Commons Stack Community - Iteration 0	31-Contracts:Giveth	true	false
+0x812880662d2121440EC041971afBDaA48FA66adB	988	Nashville Community Bail Fund	31-Contracts:Giveth	true	false
+0x8142afBE26F2D0f5b27E7B7937789dD68CdDCd7e	1417	Music Hive Community	31-Contracts:Giveth	true	false
+0x814CFfAD2E04936Cd9255f75877867242eE7AE75	976	New Civil Liberties Alliance	31-Contracts:Giveth	true	false
+0x8187AC6AFE10CCffc2932729bFA595fEA97edB11	1198	Opportunity International Inc	31-Contracts:Giveth	true	false
+0x8192F3C99d663493Bf25330CE933d8207a747e54	309	Meta Gamma Delta 1M Fund for Women in Web3	31-Contracts:Giveth	true	false
+0x81a738E9fca569706BCF0ca15F95524Ce71Df435	1282	Neurodiversity Education Research Center	31-Contracts:Giveth	true	false
+0x821F350e38bE67600FB368514052152C7b46b3ED	775	Dian Fossey Gorilla Fund	31-Contracts:Giveth	true	false
+0x82Ddfb71a5dDcD94d28A67AF146486ac2d1a426c	630	Nicklaus Children's Hospital Foundation	31-Contracts:Giveth	true	false
+0x836b655e516B92877F4B71deDBF7367b3dFb8A56	1566	Boys Hope Girls Hope	31-Contracts:Giveth	true	false
+0x837650Ac9C1a22D54bA46f508079dc8dc02EB10a	1570	Love146	31-Contracts:Giveth	true	false
+0x838eFB6Ea75B1E62AF2ae4A4fd25D5Ba668E9147	604	Max Planck Florida Institute for Neuroscience	31-Contracts:Giveth	true	false
+0x839F2e15b39E88cEF6F2044940b321Fc7471c5C5	534	Junior Achievement of Arizona	31-Contracts:Giveth	true	false
+0x83AEFdB1E6AD3695C921ccd324aD7c523667f041	1463	Certified Humane®	31-Contracts:Giveth	true	false
+0x83cbd18Edc61343147F87B0Ca970d8385BC5B342	1376	The Jewish Home Foundation	31-Contracts:Giveth	true	false
+0x83fa0BEA9924a77dcde1fc628D27b69829FB4cC8	701	Other Ones Foundation, Inc.	31-Contracts:Giveth	true	false
+0x845533131d2cF45AEFdfCaB0bb4006279f8E8EB2	386	The Catholic Foundation of Greater Philadelphia	31-Contracts:Giveth	true	false
+0x846EC88B462B51A6a3281b2D6E6A0c78D4fE3337	761	Oceanic Society	31-Contracts:Giveth	true	false
+0x84beB78aFDAc64EA05628B00CC844Fb8f35e1A0F	486	Griot Arts Inc	31-Contracts:Giveth	true	false
+0x84bF96B00905ecfd592e6009b41B424360f36e67	1024	Giraffe Laugh Early Learning Centers	31-Contracts:Giveth	true	false
+0x84Ee81B7ace8eb7Ef8596B75318EB68f4C051507	1478	Companions for Heroes	31-Contracts:Giveth	true	false
+0x855197a4fd2361AD370adFf1890cD0Fd03e311EE	858	Food System 6 Accelerator, Inc.	31-Contracts:Giveth	true	false
+0x855f15560c4401FAA110fCB29fbBF70B8645cAAa	1599	GoodWorld Ukraine Relief	31-Contracts:Giveth	true	false
+0x861b77244Ec2ad1BF3bd5509A77FEBf949ed1397	448	Zero Foodprint	31-Contracts:Giveth	true	false
+0x86627bcC38dC7557fA5Ccba72E58a46F90e0236f	1745	Food Lifeline	31-Contracts:Giveth	true	false
+0x86Db31F9FA4A0E51a15435E4AF77E7E0F633a41F	1663	Neisnesiotukas (Preemie)	31-Contracts:Giveth	true	false
+0x86F3d6cD75Cc560D3a24f1fBA407E8d5865BAb8f	804	Community Foundation of Western Nevada	31-Contracts:Giveth	true	false
+0x86FEB646Bc3cB3558633Ce50D5B646deCdd56067	978	Hearts & Homes for Refugees	31-Contracts:Giveth	true	false
+0x8735a93837E5aB391b8aAdB00621E43a9Ed1b455	588	The University of Alabama	31-Contracts:Giveth	true	false
+0x8760E565273B47195F76A22455Ce0B68A11aF5B5	1582	PoignART	31-Contracts:Giveth	true	false
+0x87CAd4Cf4E17224B75d449237E7671D93A8d318b	477	All Star Code	31-Contracts:Giveth	true	false
+0x889170204Aa3faF872bD11d455ec47003137AE53	1211	Big Brothers Big Sisters of Metropolitan Chicago	31-Contracts:Giveth	true	false
+0x889899A002252F0f0a67624FBdEB20bf68325fd3	1492	Embarc Collective	31-Contracts:Giveth	true	false
+0x88B893751e6d7d92CeB1D6944E9317476a04F316	1049	5 Gyres	31-Contracts:Giveth	true	false
+0x88d2241616c7Ed979f48b9537e5c0845db3452fc	1036	Arsht Center	31-Contracts:Giveth	true	false
+0x88f4382EA4b12868C2607fE27843AB37830ACFe4	549	Operation Broken Silence	31-Contracts:Giveth	true	false
+0x89257176a3731FD6a5cb73624F010c802af5844a	1260	Perma Vida Foundation	31-Contracts:Giveth	true	false
+0x899406EC2d0B79eF90072b747583B74E2A74553d	901	Operation Smile	31-Contracts:Giveth	true	false
+0x89FcB782963098C5E325a62d852E689c4326EA41	764	Wright-Way Rescue	31-Contracts:Giveth	true	false
+0x8A308915f091a71106857ebE80d8DBee4E132cB0	1421	Good Sports	31-Contracts:Giveth	true	false
+0x8A5B37ab684b075c5ED7672ce3F3Cb22e9C7D34f	1701	Children Change Colombia	31-Contracts:Giveth	true	false
+0x8AA3E4D9F8E815BCb8A6CD129053686D5144b3a4	727	MusiCounts	31-Contracts:Giveth	true	false
+0x8ABDD6027c11Df79ae85dcE093925f961BB3AD35	1307	Identity 2020 Systems	31-Contracts:Giveth	true	false
+0x8B0Acb1A793CDa4198864F6B177d1cE99b557daC	360	Elizabeth Glaser Pediatric AIDS Foundation	31-Contracts:Giveth	true	false
+0x8b4C3d29E92c9Ea267C153D052b30A7beefBd7D2	692	Behind the Scenes Foundation	31-Contracts:Giveth	true	false
+0x8B675D9929D4344F51fBEF2D51D8219D80E21072	1009	Fisher House Foundation	31-Contracts:Giveth	true	false
+0x8B86F8a7DCDE9ca325c45047d57Ab68e2078b400	734	Poly Prep Country Day School	31-Contracts:Giveth	true	false
+0x8b9CC83D0cA70E38A1Dd94695BA0796C0eEea4C1	1597	Range of Motion Project	31-Contracts:Giveth	true	false
+0x8Ba373cA7E94769FDB4aa53490Cba1a300cF4c32	702	Committee to Protect Journalists	31-Contracts:Giveth	true	false
+0x8ba6Cd4F47E0AD7240287a292cdFE22A4D50e075	1384	BrightID Proof of Uniqueness	31-Contracts:Giveth	true	false
+0x8c172EfC135c83e72f752af42Dc5615e00737635	1134	Western Pennsylvania School for Blind Children	31-Contracts:Giveth	true	false
+0x8Cbc126d83B8B7Ed4DF3138302C1aA8E197d1123	800	Fund for Wild Nature	31-Contracts:Giveth	true	false
+0x8cE094c2c7484110d3918B0a9b1893a6A80bcf16	515	Hoyleton Youth & Family Services	31-Contracts:Giveth	true	false
+0x8d90DbE37951C14ce73dc5185bB7a4E0D8339EBf	1688	A Kid Again	31-Contracts:Giveth	true	false
+0x8db602Ee2DB47Ffeb77F127E92A471bC3A5DfBDE	814	Little Sisters of the Poor Baltimore, Inc.	31-Contracts:Giveth	true	false
+0x8dE78A2ba93001e60D6B24D4bF8c497b50C6DeC7	715	Church on the Rock	31-Contracts:Giveth	true	false
+0x8e01609dC5557216C01d9F3dE92d960ffEb71075	1069	Prairie View A&M Foundation	31-Contracts:Giveth	true	false
+0x8E115aa1cB49e2014d6f4A66fB1BADB3073c28Ed	60	Ekoharita	31-Contracts:Giveth	true	false
+0x8e3F9F73354790EE5A19cCf121d5b7b4c7b30785	746	Cuddles for Clefts	31-Contracts:Giveth	true	false
+0x8e48c1Da11514338B2c1992b0173faDFe1726580	602	Big Brothers Big Sisters of Miami	31-Contracts:Giveth	true	false
+0x8E6EF7F3a91f264aE9560EcAE31d10558D08eD64	996	Notes for Notes, Inc.	31-Contracts:Giveth	true	false
+0x8eE80ab84f5C51581844378366F581EF0427752C	1731	Penny Appeal	31-Contracts:Giveth	true	false
+0x8EEFdf7e0112c278a1023c59E887a679A2111069	721	African Enterprise	31-Contracts:Giveth	true	false
+0x8f008b4b2807CcaDc9619FCC321A0856A6ac17e5	1641	Unsilenced Voices	31-Contracts:Giveth	true	false
+0x8F262F78Dd7254E3A91C54e9D6Df21A4e3dba3FF	864	Pad for Hope	31-Contracts:Giveth	true	false
+0x8f3868aAEBC99F63950b4b495C17904BB0eaf52e	594	Women for Afghan Women	31-Contracts:Giveth	true	false
+0x8f9a223FDB02f57455BB2CFAFf6c3C16d2ee3608	915	Water Wells for Africa	31-Contracts:Giveth	true	false
+0x8fF210cE2B58D5d942802dCFa48c03dfAD951bA6	1332	Typhoon Rai Relief and Recovery Fund for the Philippines	31-Contracts:Giveth	true	false
+0x900dB999074d9277c5DA2A43F252D74366230DA0	core-0004	The Giveth Token	31-Contracts:Core	true	true
+0x9020C377bB59B6c217d271Cf8F27370f31295CD4	543	The Hunger Project	31-Contracts:Giveth	true	false
+0x903CbeF362A48b55818f234b262290295cd2FBC5	1592	Asbury Woods	31-Contracts:Giveth	true	false
+0x904D6DD1602369E40F7214545C881243120bB03D	476	Rethink Food	31-Contracts:Giveth	true	false
+0x906EE371F138C68c6Ca5Ef964fC391D9B629b2Ac	1758	Caretakers of the Environment Costa Rica FMTV	31-Contracts:Giveth	true	false
+0x90b31c07Fb0310B4b0d88368169dAD8fe0Cbb6da	1181	Gitcoin Grants Matching Pool	31-Contracts:Giveth	true	false
+0x914777e5a2d77B550007d23dEB3FB7124BEA53A8	769	Breaking Ground	31-Contracts:Giveth	true	false
+0x914d053FCE7356cc4766cA729e2f08c0892BFC21	816	FINCA	31-Contracts:Giveth	true	false
+0x91f3cb346a9C95BCbBf864144fb066afb940EBB4	974	China Digital Times	31-Contracts:Giveth	true	false
+0x92A105E11857184D57EA65E1f81e350485E4563c	458	Williams Syndrome Association	31-Contracts:Giveth	true	false
+0x931dd2A6b077e750e296D30Ea6Fb1f76440B1398	1405	Children's Museum of Richmond	31-Contracts:Giveth	true	false
+0x935DC39A510378C6Bf09A3B86A312A6c9913B1e5	1772	Norwalk Hospital Foundation	31-Contracts:Giveth	true	false
+0x940863EE769199E7cAF8097dDc3BD49863890887	747	International Crisis Group	31-Contracts:Giveth	true	false
+0x94398561d627fD004D55ad1b6b90c764Be4A4fE9	895	Sands	31-Contracts:Giveth	true	false
+0x947633a01e848f95159f15EDfd21a9faAD80D391	1053	The Sanneh Foundation	31-Contracts:Giveth	true	false
+0x949402c896d9cd3f0Aec2FdBd82Cfac66A3A3041	842	Shania Kids Can	31-Contracts:Giveth	true	false
+0x952D3AF4E489DDC141B4562cacE36a5064994B4D	1301	White Horse Inn	31-Contracts:Giveth	true	false
+0x9534F75a730E6E51F46C57C2dD0305532B8338cd	675	Too Young to Wed	31-Contracts:Giveth	true	false
+0x9557E2A7027363E93eE29bEf5703C26524794e9D	742	Safe Children Coalition, Inc.	31-Contracts:Giveth	true	false
+0x957F72B8C2258D80F1Aa6F8fc50848aFf4dD2531	877	Gabrielle's Angel Foundation for Cancer Research	31-Contracts:Giveth	true	false
+0x95Bc825C196F42c13b0fd5d636251005F3756809	1640	Blockchain Education Network	31-Contracts:Giveth	true	false
+0x95C359645D6E403a10FbeC844Ae6c5a0d06BE827	1723	United Way of Massachusetts Bay	31-Contracts:Giveth	true	false
+0x95e1C6BB8D67556E4F42741029C84f61eCb3DD0f	1694	Bluecoats	31-Contracts:Giveth	true	false
+0x95eA3F9a5aC1567b21A43d70B2Aa11d2c39AAEB5	1045	Danita’s Children	31-Contracts:Giveth	true	false
+0x968B76a20f34bB65D70cBd02777395458e89789d	1528	Jawonio	31-Contracts:Giveth	true	false
+0x96B514aa2286a1DBb45E98DeE77c0CE4B96D342f	887	RAICES	31-Contracts:Giveth	true	false
+0x96B7E3059563AcC03Af3A6E2dE8F623364aAaE0a	1264	The River	31-Contracts:Giveth	true	false
+0x971B460476E368F651CCDE1F9DE66AA5b59B59a1	408	Red Bucket Equine Rescue	31-Contracts:Giveth	true	false
+0x9721644eba60113ae998502B5B6A50CD43275A7f	427	Siskiyou Land Trust	31-Contracts:Giveth	true	false
+0x9727D6Cc5ADD3b92F10eCE1C24E5034426d0dd6E	662	Institute for Justice	31-Contracts:Giveth	true	false
+0x9789089FFF0d558c1F81470cA9Ab3b9457316905	1005	KABOOM!	31-Contracts:Giveth	true	false
+0x97AE6F47076B4D957Fb95D2480882dEa44Ecd557	1047	Pediatric Cancer Research Foundation	31-Contracts:Giveth	true	false
+0x97c308c830b1BA67C01C8a12d7bE26Fc830BB8F6	1670	ROUTT COUNTY UNITED WAY	31-Contracts:Giveth	true	false
+0x97Fb4845bf7bD7156B30ef09AE94419956FE3A90	104	Support Civichub Decentralised Learning Community   PANVALA LEAGUE	31-Contracts:Giveth	true	false
+0x9840f55CCD01207124b6030804CB9E67f258ea51	843	LIVEFREE	31-Contracts:Giveth	true	false
+0x98BFe1f1A0c40CCa6D01C85D78253becCE306Db3	917	Mona Foundation	31-Contracts:Giveth	true	false
+0x9947973A5fB0742c798a0E8353dA5ABB58042961	667	Dysautonomia International	31-Contracts:Giveth	true	false
+0x996010416e45cA73A9AF09d4DEE8D45b8119F0dF	460	Prevent Cancer Foundation	31-Contracts:Giveth	true	false
+0x996191089A4DAB21B773A550f568796441816972	1710	Bruno Piu Escolinha de Skate	31-Contracts:Giveth	true	false
+0x998e54912478af94E960c87EB5C290036c9CecE9	972	The Roberto Clemente Health Clinic	31-Contracts:Giveth	true	false
+0x99D4305Bbdcdb5A5aA99ee0f195707C1aCC0Be82	526	Movember USA	31-Contracts:Giveth	true	false
+0x99D86b47e16dE49461534764D4BcB07D88A2d179	567	Paramount and State Theatres	31-Contracts:Giveth	true	false
+0x9A2e4692B6A932FeC8A569AF4B81411165d9D593	941	International Medical Corps	31-Contracts:Giveth	true	false
+0x9AC3fDAF3F909516d9c29656eDeBC1dcCd09b3f0	916	Mercy Home for Boys & Girls	31-Contracts:Giveth	true	false
+0x9b0C734714A45DbF3294627aA0cf417e0AC49f64	383	The Mandala School, Inc.	31-Contracts:Giveth	true	false
+0x9b0f0C7024A9138882Ae50AbADE2d3b6eA738C24	1551	Believers Stewardship Services, Inc	31-Contracts:Giveth	true	false
+0x9C02B51594577BbbD39A6dFEeF205bDD974bD409	1128	Evidence Action	31-Contracts:Giveth	true	false
+0x9C50bbeB14F70144DCe6c12BcE874a610FdBb271	1398	El Pozo de Vida	31-Contracts:Giveth	true	false
+0x9C72005c3Bb9CB021E4FbaC461035B900Ab6cd2a	806	Creative Waves Foundation	31-Contracts:Giveth	true	false
+0x9C92De5596c0cc31D29cbef685D028c73422bc3D	678	Epilepsy Foundation of America	31-Contracts:Giveth	true	false
+0x9d349243672ab9D683464D50F1F849FF260f43c0	854	Direct Relief	31-Contracts:Giveth	true	false
+0x9D8B895049CaD4Cf33b1C2f5eF2D64a99D813e56	1304	Cicero Institute	31-Contracts:Giveth	true	false
+0x9DC78C6B84D87b8DE7894f8d1E89d2074ff04560	773	Urban Ed Academy	31-Contracts:Giveth	true	false
+0x9E726590084fe4639DD98e59610b03A94b368627	420	Thousand Currents	31-Contracts:Giveth	true	false
+0x9ec6e9A59faDA28E456D7D42CE6dcEcA2fB725ed	1733	Girl Scouts of Northeast Texas	31-Contracts:Giveth	true	false
+0x9f1B4d00c82Ba86Cb813D31Cf1669Ae9d6cEf72b	1523	Dallas Pets Alive	31-Contracts:Giveth	true	false
+0x9F4440bbb1A9f1ffbb923E2dF8b811B45b003e32	844	Special Olympics Illinois	31-Contracts:Giveth	true	false
+0x9f575C93Ea104f43D8B01E43fA9d193e9e9836f9	416	Greater Vancouver Food Bank	31-Contracts:Giveth	true	false
+0x9fB1694302C2Dc776BA865FD655309fe08B6d6E4	823	Society for Science	31-Contracts:Giveth	true	false
+0x9fb9CDEBD1B013aefF450D2aa5C708e0f7311F4d	1216	ABARA Borderland Connections	31-Contracts:Giveth	true	false
+0x9FE377d42832B1807Ed05cE4eF0f662Cc64c52ad	349	Giant Steps Therapeutic Equestrian Center	31-Contracts:Giveth	true	false
+0xA032518dc6E76DC7B269901a2a1Fcc4065a154Bb	125	Spread the Love Commission	31-Contracts:Giveth	true	false
+0xa037b51fBF0754eD7b70F0d3567C57aA43B990e5	1455	Acres of Hope	31-Contracts:Giveth	true	false
+0xA04edf745c7Ef900fAc01C58BBF4AcF6e9BDc4C0	648	San Diego Oasis	31-Contracts:Giveth	true	false
+0xa0527bA80D811cd45d452481Caf902DFd6F5b8c2	72	The Commons Simulator: Level Up!	31-Contracts:Giveth	true	false
+0xa0D075B77f148DbF0EDdf735754A97C55B3f4737	1621	Endeavor Therapeutic Horsemanship	31-Contracts:Giveth	true	false
+0xa0Fb5d293BB7756cf31dDA7693294248b1EAE9af	513	Roadrunner Food Bank, Inc.	31-Contracts:Giveth	true	false
+0xa105f825F9f5c14E88a330447b982b541DC72Ae5	880	Alex's Lemonade Stand Foundation	31-Contracts:Giveth	true	false
+0xA152f4adBd9D14a38130e329944deEc58174dF8E	1290	Pilgrim Lutheran Christian Church and School	31-Contracts:Giveth	true	false
+0xa193bc75a556461F5AE0d61F428ba3ea43d84874	1454	ADF FOUNDATION	31-Contracts:Giveth	true	false
+0xA20eE17d4B585b7Da197F65e3A32cAC2F8a64eE5	421	Children’s Cancer Cause	31-Contracts:Giveth	true	false
+0xa230A02D7fCA2E2c9E44E11993D6f5e18cf7F197	1728	Fresno Rescue Mission	31-Contracts:Giveth	true	false
+0xA24EF0BC30C3D976e0a9d2e5F96Ba6eE537867E6	1407	Equality California Institute	31-Contracts:Giveth	true	false
+0xA2538a5b3cAAB7e942596c79e1848aA00A06f2c4	801	The Barstool Fund	31-Contracts:Giveth	true	false
+0xa27b920493F85a4C1540CaB83c0561e49d6466C6	735	Restore Children & Family Services	31-Contracts:Giveth	true	false
+0xa27c5A8a3bdF78997420C2C9CE285f0f48EE88D2	663	Southwest Autism Research & Resource Center	31-Contracts:Giveth	true	false
+0xA2D1dAC5c42Bb04Ce2BbDFB0E05aD158296B049d	1090	Infinite Family	31-Contracts:Giveth	true	false
+0xA35Cdf3928b51074dD2e39f3eC0D084A576689c9	614	Brain & Behavior Research Foundation	31-Contracts:Giveth	true	false
+0xA36a5453Be6Ef6f3739E8A9B0C656B328Ae099f3	1160	RECenter the Resource    Recycling Center   San Salvador	31-Contracts:Giveth	true	false
+0xa3AF80Fa2B02b4E2499eF48C6256f77D86b3F578	980	Ugandan Water Project	31-Contracts:Giveth	true	false
+0xa42d38a25Cba2a44a8eb5381068Aa3dAE3ba2813	896	Carbon Offsets To Alleviate Poverty (COTAP)	31-Contracts:Giveth	true	false
+0xA4ABB4CEf4A6bFfDA03423b384b3816d056142cc	405	Inly School	31-Contracts:Giveth	true	false
+0xa52F0Eacc4Aea10F4aaA9F38aE77E7d07e53e721	999	Solar Electric Light Fund	31-Contracts:Giveth	true	false
+0xA54dDF837EA95718D0218c56eaCD093D71845e2E	1042	Dave Thomas Foundation for Adoption	31-Contracts:Giveth	true	false
+0xA56A4b92cb458cFB0eC7A9609f476bdCfcDf7466	1729	Variety - The Children's Charity of Victoria	31-Contracts:Giveth	true	false
+0xa576837e083fDA0ff09656E9FFcf279a422bC8A6	606	FOUR PAWS USA	31-Contracts:Giveth	true	false
+0xa57C16B323e93621C7916f34be49310eEC8E6Ec6	305	Science Fund DApp development	31-Contracts:Giveth	true	false
+0xA59Fce2982057310f8E753058db1fD5065b8c612	1770	Shed NYC, Inc.	31-Contracts:Giveth	true	false
+0xA5db54C331B8Ac65073bA75083F4110d4aF6B04a	894	Emet Outreach	31-Contracts:Giveth	true	false
+0xa5fA6272F97d874c07880af5eC2E8C241cD6DD0f	818	Hoops Family Children's Hospital	31-Contracts:Giveth	true	false
+0xa66B6899318581558A339D11AE38643BC0BAF457	798	Many Hopes	31-Contracts:Giveth	true	false
+0xA66F63bfCeE932dfbC6cDfd34e538681640ed98E	540	Public Employees for Environmental Responsibility	31-Contracts:Giveth	true	false
+0xA6AaBfC58c6c94c7f2fA5439D0950732dD458a57	940	Justice and Care	31-Contracts:Giveth	true	false
+0xa6Aae954c2F9BEc8CD36D75E0CC7A109c0453299	1424	Coalition for the Homeless, Inc.	31-Contracts:Giveth	true	false
+0xa6abCBFBfa59BE7ae7Ff0ADdd133Ff43a2dB980D	1493	The KANPE Foundation Inc	31-Contracts:Giveth	true	false
+0xa6C043eA5e9B319e90b30fB547dF24D1e588f361	521	Hands of Peace	31-Contracts:Giveth	true	false
+0xA6e05b7DB6696EAecC0dB0dd527114894B100A9E	511	Shamrock Way Inc	31-Contracts:Giveth	true	false
+0xA6e454E522c7C7acEEc0093473DECE08e5015A86	681	Minneapolis Heart Institute Foundation	31-Contracts:Giveth	true	false
+0xA705FDf0c6147A8EA482585EDc18d2bD76C6b9A4	1521	Center for Contemplative Research	31-Contracts:Giveth	true	false
+0xa72B7C85C8Ee0Dbf726dba6e7a4B922A2a7CA54A	618	The Reason Foundation	31-Contracts:Giveth	true	false
+0xA73171c9c0B3A1cD6aA80a63F7bCD25FdE07fBde	1508	Ocean Conservancy	31-Contracts:Giveth	true	false
+0xa76C8B9Da6d73FA90709977Fa06F839a29441a6d	544	Friends of Bonobos	31-Contracts:Giveth	true	false
+0xA789EFBc8acE98541700716e9A058225E613E7f6	633	NAMI	31-Contracts:Giveth	true	false
+0xA78Be199306DDCdAFD6C028916aDA8940F8aad71	743	Feeding America's Hungry Children	31-Contracts:Giveth	true	false
+0xa795B4add0510730d62CFDCE04D3d744709d2bAc	1125	Ollie Hinkle Heart Foundation	31-Contracts:Giveth	true	false
+0xA810D4Be35A015810322F32cc64097b77ACf1E1F	500	Health Leads	31-Contracts:Giveth	true	false
+0xa825AD2ca6fC41FDD372C51aa34315950C05ADe1	923	FORCE - Facing Our Risk of Cancer Empowered	31-Contracts:Giveth	true	false
+0xA88957cF2A25489414F83594AB911E97FBc7b566	848	League of Women Voters of California Education Fund	31-Contracts:Giveth	true	false
+0xA8E01B0f08cAD8aC0d685C782e8B624031a25900	1655	St. Xavier High School	31-Contracts:Giveth	true	false
+0xa960FF3212E12E6cC523b49af83D095D27c1e97f	973	Dolphin Project	31-Contracts:Giveth	true	false
+0xA96589c35668a2C6eeb3f3b5a42B214042C01dDD	400	One Tree Planted, Inc	31-Contracts:Giveth	true	false
+0xA9E465856f1e52150297345d0B7E3C0DBA5215Ec	1654	Fashion Fights Cancer	31-Contracts:Giveth	true	false
+0xaA244039aB420b7CB751f98766eba704f9623FCC	906	Family Promise	31-Contracts:Giveth	true	false
+0xaA258DA932f302b38C5F1Effa546b518163C0c0E	1422	The Dinner Party Labs	31-Contracts:Giveth	true	false
+0xAA8B0434d10389AA3E6B1096b8629E70FA88532A	1747	The Bowery Mission	31-Contracts:Giveth	true	false
+0xaAd9E94cB780d82489ba18C7A0F4cC81b4020ECa	1410	Cornerstone	31-Contracts:Giveth	true	false
+0xaB1F0eAf25cC759703e289eD7FD9B6bf3F51a7Ce	707	Global Heritage Fund	31-Contracts:Giveth	true	false
+0xAb2456B5758C0d7f4272151eFb56cb7643CA7E30	171	Njombe Innovation Academy     Panvala League	31-Contracts:Giveth	true	false
+0xab93A44606034b87648EEc0eB11b6fb2e8c604bD	993	Malala Fund	31-Contracts:Giveth	true	false
+0xaB9af01915B71F688804528343432b5EF87E23Ad	530	Manny Pacquiao Foundation	31-Contracts:Giveth	true	false
+0xABa1e3c4BBf1572Ba3aD237af7AF8E29F498b4Ad	1637	Del-Mar-Va Council, Boy Scouts of America	31-Contracts:Giveth	true	false
+0xAC0ccd2112f7026c0AdfA4077D1EC93AAdCEf836	1313	Helping Up Mission	31-Contracts:Giveth	true	false
+0xaC3bc780eA5A3F0fdfA32B79bE1050fACB442b01	554	Howard Brain Sciences Foundation	31-Contracts:Giveth	true	false
+0xAD65764412a831A534f30556152bEb38aa9c9802	809	The SAFE Alliance	31-Contracts:Giveth	true	false
+0xaD769152058B40915d6354d48eDDD7942eb148F3	595	Novick Cardiac Alliance	31-Contracts:Giveth	true	false
+0xAd7f67560Ac20c9592C5Ffc0E925af2EaC0CF055	599	Open Medicine Foundation	31-Contracts:Giveth	true	false
+0xAD83d27577aFe8b4403506334a7474345dc6374f	541	Camphill Village Copake	31-Contracts:Giveth	true	false
+0xAD93b5d249Ccff8839b988A2e43AA1ad3f5a6e3D	885	American Cancer Society	31-Contracts:Giveth	true	false
+0xada2c4733ABFef93F6802c5A643237F056841f4f	478	Dollar For	31-Contracts:Giveth	true	false
+0xadbC41bCDe77E475F4C15fB00D84b09A9C828f4F	1072	Common Threads	31-Contracts:Giveth	true	false
+0xaeA18F390444252A1A4aE0b4924bD6d28A2E5d09	456	SOME (So Others Might Eat)	31-Contracts:Giveth	true	false
+0xaEb8786ab8609cFf3eeDA59F93248f705cCea471	946	Eve's Place	31-Contracts:Giveth	true	false
+0xAeDcE1eFe450809e69e90F3Efe44d44B1928b656	328	The Wellness Bus	31-Contracts:Giveth	true	false
+0xaEE2B4a9066B3c46604E02cDf8bE43A8D16F08a1	889	Wild Tomorrow Fund	31-Contracts:Giveth	true	false
+0xaeEE83cEEF2CE659b204a559e61eB597496a9059	726	Do Good Shit	31-Contracts:Giveth	true	false
+0xaf769D3767d0A7392388C92D785C6E52Df07351C	878	Salina Rescue Mission	31-Contracts:Giveth	true	false
+0xAFeB24C011BDFE05C34121c6F8eBBb581d24c5D5	1555	Mind Medicine Australia	31-Contracts:Giveth	true	false
+0xafF08e2eCA78aE499C854847aF909e08869C0e85	1568	Charcot-Marie-Tooth Association	31-Contracts:Giveth	true	false
+0xb010896AdD1613b6305a4a4Bb1B1Dd36Ba512e31	495	First Graduate	31-Contracts:Giveth	true	false
+0xB0127cF423bf59f07B0ef1AE3e6f5082FC4B9FbE	361	The Foundation for Enhancing Communities	31-Contracts:Giveth	true	false
+0xb0232765E4e3023A990079a551dF7F734Ab98C93	1564	San Diego Zoo Wildlife Alliance	31-Contracts:Giveth	true	false
+0xb0351c5859b0B648DC0e521aE8590FE9779bD8F1	680	Buckhead Christian Ministry	31-Contracts:Giveth	true	false
+0xb0513FcB4698Bd349A0cB44aE2A304CA8d59eDa6	546	BANANAS	31-Contracts:Giveth	true	false
+0xb094125755d97DAA9489365c1079436aAca9d087	518	Students for Life of America	31-Contracts:Giveth	true	false
+0xB0a247C96AF282148277E2DAB51FFf89c8db12E4	1235	Family Services of Northeast Wisconsin, Inc.	31-Contracts:Giveth	true	false
+0xb0c6eEBEE33dE8F590fFD62A41CC898EeB576FAB	475	World Relief	31-Contracts:Giveth	true	false
+0xB0CA0B7529AAc68F7dE5F3F908D71735505fc3f3	1122	Wine to Water	31-Contracts:Giveth	true	false
+0xb0eE3B82e662aBb8175aA79eb4b432aAa274FD77	867	Getting Out and Staying Out	31-Contracts:Giveth	true	false
+0xb12128c60e974DccFE37005fA4c2F41602f841A8	924	1000 Dreams Fund	31-Contracts:Giveth	true	false
+0xB157355c7B8267C794E186143984BcaEd3889210	961	Stack Up	31-Contracts:Giveth	true	false
+0xB18Af415A80c358BD215c0E024af31Db34F5a94d	1278	DeliverFund	31-Contracts:Giveth	true	false
+0xb1914ED80b7eE71240edc8017a0e8B163DC4Cc5c	1451	W. M. Keck Observatory	31-Contracts:Giveth	true	false
+0xB1A7dE3Cdf0B7FEF01e1BA754126d705d69851E2	658	Mountain States Legal Foundation	31-Contracts:Giveth	true	false
+0xb1e102C943D7BDE5fe1Cd33C03D8cE184Df50069	406	Mercy Housing	31-Contracts:Giveth	true	false
+0xB20F984652915b3Aac89824D8cE1c46C1080D80B	410	Black Voters Matter Fund	31-Contracts:Giveth	true	false
+0xb2108A2C8c695E9a6502D7D437F71d0532972bA4	1613	Cannabis Genome DAO	31-Contracts:Giveth	true	false
+0xB240be9b27c303E6C6F6BF48d6F054e9636D4E48	398	Northern Cincinnati Foundation	31-Contracts:Giveth	true	false
+0xB2645970941b45F508b5333c1D628Ad619aDde20	1397	Smart Native Bee Shelter	31-Contracts:Giveth	true	false
+0xB26730D677aE43E2a405894fd5186534f617B1aE	930	Urban Upbound	31-Contracts:Giveth	true	false
+0xb302909cA57e339aE8E59ff288dd00298E887485	485	St. Joseph's Hospitals Foundation	31-Contracts:Giveth	true	false
+0xB32eE058e2A0A1AB313E932246EC8dF327c37d86	446	Songs For Kids	31-Contracts:Giveth	true	false
+0xb3aA5A32035933bDe96b69cdC900951adf85e974	1479	Family Programs Hawaii	31-Contracts:Giveth	true	false
+0xB3B76fe06842335D976Bd2D857BdEd801adbb4B2	1052	Sandy Hook Promise Foundation	31-Contracts:Giveth	true	false
+0xB3f2C1FE9B69629eA109e77a77f13dFfC4079a17	371	Boulder JCC	31-Contracts:Giveth	true	false
+0xb41fCfFAcCDA84478dcc63804b9D5Fc265e2f718	674	La Croix United Methodist Church	31-Contracts:Giveth	true	false
+0xb47376E4fdFd2B2DE7346f1Ad7f0f5F8296FFf3F	811	The Freedom ROC	31-Contracts:Giveth	true	false
+0xb478d4FFd06CA9928F9E3Da6BF34a5AA055b149f	1738	Imagine LA	31-Contracts:Giveth	true	false
+0xB4aC828De7349447226fC8403aCEDdc72c1b225C	650	Save the Chimps, Inc.	31-Contracts:Giveth	true	false
+0xB4e9Dd62818927d44264840efBdcA0ccE33F6C61	1489	ILGA-Europe	31-Contracts:Giveth	true	false
+0xb4EB55D6A1567bFED4Ef8961cFf20baB2fdcB8E4	716	Room to Read	31-Contracts:Giveth	true	false
+0xB517845C3913ea75B5ed2373Ae89A010400E6EFd	1625	Franciscan University of Steubenville	31-Contracts:Giveth	true	false
+0xb57bA768Fe205e741473618d9294eADA8A03132e	754	Women's Center of Greater Danbury, Inc.	31-Contracts:Giveth	true	false
+0xB5C0671FC118fB0bcDB237538B189cA297C8B72C	644	Mad Anthonys Children's Hope House	31-Contracts:Giveth	true	false
+0xB5FCA157615Cef39154d2e11311A3b04cABCff20	520	Blue Ridge Conservancy	31-Contracts:Giveth	true	false
+0xb6458AEdc6145f46F1Df3f60A4bB9bFC3Da6463D	845	Project Sunshine	31-Contracts:Giveth	true	false
+0xb6615ebC95Cb072774Af1a346C522Ed8D8B541b2	1764	IDPs LIBERATION	31-Contracts:Giveth	true	false
+0xB67923F2e0E2DDDd55a32030514108b9F6ca00bA	703	University of Arizona Foundation	31-Contracts:Giveth	true	false
+0xB6989F472Bef8931e6Ca882b1f875539b7D5DA19	1711	Giveth Magical Terrace	31-Contracts:Giveth	true	false
+0xb6b3A341Cb87Cc11b8495b4e959f90B07D97eEF3	379	Zoe Empowers	31-Contracts:Giveth	true	false
+0xB6E41baB6fcC63967D84e30F57b818FF3cB91Df3	442	Northwest Georgia Council, Boy Scouts of America	31-Contracts:Giveth	true	false
+0xb6e921614ac702b3a5849A3D7A3fe59074925BB5	1449	Hollywood Food Coalition	31-Contracts:Giveth	true	false
+0xb702E6E3fbd91cC292f29eE60A4Ea37d5F9F3652	645	Little Footprints Big Steps	31-Contracts:Giveth	true	false
+0xb754009fA99aB56C399c79d631f37fd4d192fB06	542	National Kidney Foundation, Inc	31-Contracts:Giveth	true	false
+0xB7F684131EDF5B9efA547b6CefC74779dBa2C774	1306	Calvary Chapel Lowcountry	31-Contracts:Giveth	true	false
+0xb80eb8F6e775F6AF24E7f92eD2A7DB74E11fBcdb	1595	Chimp Haven	31-Contracts:Giveth	true	false
+0xb85eD224A148b58F18fE9b0a6fEC9B01BAFbbe5C	1744	Lifesavers Wild Horse Rescue	31-Contracts:Giveth	true	false
+0xB8723E4eDdE1777B7607E8Db71E4Bc7A075bC478	1593	Good Tutors	31-Contracts:Giveth	true	false
+0xB884B82F77f1eE8ad9ceF76eE015D92a57A13a03	381	Boys & Girls Club of Greater Lowell	31-Contracts:Giveth	true	false
+0xB885e918025c74C6Ef98DF42412d9798c887A980	1205	House on Fire	31-Contracts:Giveth	true	false
+0xB8d095Fa1ee212EC3B22Ee4eFcefA7965C2964db	683	The Beacon House Association of San Pedro	31-Contracts:Giveth	true	false
+0xB933B9dFbFeF757b7601151741A7a0f247fe591e	1222	Lifesong Church	31-Contracts:Giveth	true	false
+0xb9640F76D79b128faAdDec3F2FE873d6A02f8054	1288	Roald Dahl's Marvellous Children's Charity	31-Contracts:Giveth	true	false
+0xb968749DDb25f0bC0b241C3b68E588455222b8d8	330	Help cancer patients get access to emotional healing	31-Contracts:Giveth	true	false
+0xb99edad3eE7f0E5Ae020937B26179eb33dAF621E	1494	Arlington Free Clinic	31-Contracts:Giveth	true	false
+0xb9F2C834F716fDB390D07fD0e57e5fD0b346EA55	559	Institute of Contemporary Art, San Diego	31-Contracts:Giveth	true	false
+0xb9f7d7dE3DA254fbE63D1Cd20e30c67F71BC1245	481	Teaching Matters, Inc	31-Contracts:Giveth	true	false
+0xba0FEE8490118FC4f46Bd0974D7BF93d0e2f1064	164	Grassroots Economics Community Currency	31-Contracts:Giveth	true	false
+0xba15846086102CfC630ea3b33ef2926bc66B07a1	494	GRACE INTERNATIONAL, INC.	31-Contracts:Giveth	true	false
+0xBA2a09D35f596846E8F39e6121B6560fde625115	551	Students For Liberty, Inc.	31-Contracts:Giveth	true	false
+0xbA60B5eBfFB8a8Bcbb97e4301362E6612E654386	771	Mwana Villages	31-Contracts:Giveth	true	false
+0xba791689F78818feC3901836A7bd9dB4581d4d5E	1571	Sex Workers Outreach Project	31-Contracts:Giveth	true	false
+0xba7Cf8A33A641251F3f9E9C63A446ba865040FC0	1051	Maya Health Alliance Wuqu' Kawoq Guatemala	31-Contracts:Giveth	true	false
+0xBa8F52289CBFc00f773E9Ad15dd7150eD8052B6C	527	Kabbalah Centre International	31-Contracts:Giveth	true	false
+0xBABb7E80679D7F8BC4bFae61b29AB843BD82619F	934	Third Millennium Alliance	31-Contracts:Giveth	true	false
+0xBAC78374F87D02d3b0d6FAf82d8794201D40b35B	295	DeSciWorld	31-Contracts:Giveth	true	false
+0xbAdae117aE321aF58abf475F873a11E4C1d3E58A	1311	Be The Match Foundation	31-Contracts:Giveth	true	false
+0xBADCdDEA250f1e317Ba59999232464933C4E8D90	1257	Fusion	31-Contracts:Giveth	true	false
+0xBAE1Fe0c08D23cf724f5FF8Ad1Fb5F9aC1173C31	899	No Kid Hungry	31-Contracts:Giveth	true	false
+0xBAe53303eD031a7d6eE925D6874daC004a55A513	977	YMCA of Greater St. Petersburg	31-Contracts:Giveth	true	false
+0xBB0bFD61344de3015c599B0F9A21043051526e33	921	Bethany International	31-Contracts:Giveth	true	false
+0xbB1172434745fb35143118A77eC53aA0E711aB72	1543	Mission 22	31-Contracts:Giveth	true	false
+0xBB52E391AEdB1Fcab3b717e21046A475bAc924da	900	Pencils of Promise	31-Contracts:Giveth	true	false
+0xBB570190ccf6ADcC4357A1a48B071C690331d05E	718	Musicians On Call	31-Contracts:Giveth	true	false
+0xbb5B17D8fAC04e707f8d9f624553DCA289081242	689	Southern CC Inc	31-Contracts:Giveth	true	false
+0xBC524e0B62CA1E2A2411Ef1856e2E6A2B955946C	354	YMCA of the Suncoast	31-Contracts:Giveth	true	false
+0xbc802530e123A8c5238a63D1e6Ae44f57674cA8F	1112	Continuum of Care	31-Contracts:Giveth	true	false
+0xBCfcd5B886b6c83614521Cae745eA95bB2f811cB	632	Project Phil	31-Contracts:Giveth	true	false
+0xbD62E9Ec5a6441780095f4b2E768Df3Aa1C24C44	982	Helping Hand For Relief and Development, Inc	31-Contracts:Giveth	true	false
+0xbD8c701D24796170b29dAE3a0A98aBAa3ba1341e	1138	Utah Food Bank	31-Contracts:Giveth	true	false
+0xBda18753430BEd2DB323C532b59ADf7A1f959C05	577	All Hands and Hearts Smart Response, Inc.	31-Contracts:Giveth	true	false
+0xbdB7622C95bEb587b0C9c537d16cf2Ee949A2E04	1658	Mission Santa Maria, Inc	31-Contracts:Giveth	true	false
+0xBE1E1275Fa0ca882d3519A9675d8dfaBd627B1C9	351	Christ Pacific Church	31-Contracts:Giveth	true	false
+0xBE3ee6F7Fb046E6Bc5c6E9C10489702F3DB1052e	553	Catholic Relief Services	31-Contracts:Giveth	true	false
+0xBE58B9CEFad635E74907bBcCB4645D833813a806	879	World Orphans	31-Contracts:Giveth	true	false
+0xBe784DB8CB6909a6ff24AAD9a39dAd7E87642902	101	The Frankie Fund	31-Contracts:Giveth	true	false
+0xBEDcEC4165B0f22AEd90df9C7717aB84AC91404a	1021	San Diego Humane Society	31-Contracts:Giveth	true	false
+0xbF1Be83b9b47221B6F3D3F609d5382062617a556	1054	Mobilize Love	31-Contracts:Giveth	true	false
+0xbf9915b8606Be4cad9aBC09f6C5A4766fb2804b3	841	Skagit Gleaners	31-Contracts:Giveth	true	false
+0xbfaCCdBa0E73E7B8a086A462fDE7430d5EF8A6a6	1629	Diabetes Research Institute Foundation	31-Contracts:Giveth	true	false
+0xBFbf9795AA0183490abb5ECDDACf422309eC58bb	898	The Skatepark Project	31-Contracts:Giveth	true	false
+0xbFC80C20e885cEa0D2E3DE37Af09F19f0d879CF5	1400	Public Policy and Education Fund of New York	31-Contracts:Giveth	true	false
+0xc00F55599244B13192E800876c265deA6FC59BBE	1498	DomesticShelters.org	31-Contracts:Giveth	true	false
+0xC0235100336251104e799d180045d5c3Ad4A4Dd6	1425	Neighborhood Cats	31-Contracts:Giveth	true	false
+0xC058a4CadFC4a049965ADFD6887ba48831c48F21	994	For Freedom International	31-Contracts:Giveth	true	false
+0xC07d6DdB4330BB23d7175E069Fd2C53fdAC15E9E	1541	Vladimir Skate Film Festival	31-Contracts:Giveth	true	false
+0xc0A6c78c88753ad6c9d868F741dbC922B608a484	767	Global Sanctuary for Elephants	31-Contracts:Giveth	true	false
+0xC0B093CA706d0eD9087b7CeEb17627d41fE16c9C	1111	Stand Up To Cancer	31-Contracts:Giveth	true	false
+0xc0C61d0f411d9F2c0E7E2De473F80FAC8bc96105	1707	Aquanauts Adaptive Aquatics	31-Contracts:Giveth	true	false
+0xc0d066aeC2B4b134AA6BFFf7Af79EDd3B9C1Fb6a	545	Catholic Charities USA	31-Contracts:Giveth	true	false
+0xC12e41Cf1887065349B09460042BDe868d6B5D28	550	Team Rubicon	31-Contracts:Giveth	true	false
+0xc172542e7F4F625Bb0301f0BafC423092d9cAc71	49	Amw Fund	31-Contracts:Giveth	true	false
+0xc1E451B47Bd95E10E62323053C0282ed70c03B6E	538	Humane Society of Utah	31-Contracts:Giveth	true	false
+0xC2379fCDB9d5c9856a0a440D65a69b36cfa7b207	362	YouthHope	31-Contracts:Giveth	true	false
+0xc23bd70F9a9960b4A055A36C0064a32B7224fA07	409	USA Clay Target League	31-Contracts:Giveth	true	false
+0xC25C4A4d305Ee8c0b62D7378c4C2ab32a235344f	437	New Zealand Plunket Trust	31-Contracts:Giveth	true	false
+0xC28f18Ee5FDac73a7F0D35567163f9124061af63	1150	Give Big TX Crypto Fund	31-Contracts:Giveth	true	false
+0xc2d02c7b780CdabFce21d9349b375828438B9430	1324	Refugee Women Empowerment	31-Contracts:Giveth	true	false
+0xc2e1b249975D370017725E6C88B6191b7826CF83	1485	Achieva	31-Contracts:Giveth	true	false
+0xc3F1e427258147FC1200943AE67BEbc442a82A93	822	Reach Out and Read Colorado	31-Contracts:Giveth	true	false
+0xC3fdfe835697B0D95d944B9c22d8D9Fd72b9cCf9	484	FSHD Global Research Foundation	31-Contracts:Giveth	true	false
+0xc3FF2C38CfCF0cEaA0fd46c0789F7071916457f1	1119	Court Watch NOLA	31-Contracts:Giveth	true	false
+0xC4369Ac1205aB24DcA2b7E9ABE237EB4b3d7C413	904	Fistula Foundation	31-Contracts:Giveth	true	false
+0xC46320Fe0D33bC73a1eFD979F7925e55dA22c256	419	The Ellen Fund	31-Contracts:Giveth	true	false
+0xC471f3AE3ca4A7468e975DeE3A59CCAd9c25a78E	353	SynGAP Research Fund (SRF)	31-Contracts:Giveth	true	false
+0xc4a2f1EC6925bBE2fE884cC1f196F30D853a3C6F	617	Share Tanzania	31-Contracts:Giveth	true	false
+0xc4aa3E608AEb9ad1abB7083b7297D69122B75272	1231	Santa Cruz Mountains Trail Stewardship	31-Contracts:Giveth	true	false
+0xc4CE0DF339E05aC934F4836688F3297fA5688514	693	Nia Tero Foundation	31-Contracts:Giveth	true	false
+0xc4D258db826966DB9036216Ae34471e0644222Bc	529	Beyond Housing	31-Contracts:Giveth	true	false
+0xC4f7601E2b3EF845d1c49EF36CB737D0e183389D	480	The Wayuu Taya Foundation	31-Contracts:Giveth	true	false
+0xC4FcBcD7C1F300DdCbC4Cd2fC8C9EFba390fE0A3	1184	CAHUITA ROOTS Regenerative Development Project	31-Contracts:Giveth	true	false
+0xc511543B93dCaACf8fB0cB6F62A9f7C80e725703	1281	Good Samaritan Boys Ranch	31-Contracts:Giveth	true	false
+0xc529E9A9281C36ea6Fe0cc37F5Fa8cf50dA21F63	1343	Thaki	31-Contracts:Giveth	true	false
+0xc56DE1c21a2A3d16F97Ee88caC7848ceCc34726E	762	Animal Haven	31-Contracts:Giveth	true	false
+0xC584E5f22653B248c6DeEC31C75566bB218C7d53	1771	MANNA FoodBank, Inc.	31-Contracts:Giveth	true	false
+0xc5e617F465bD929024d8B2520C8b47b24035F8Da	851	Rapha International	31-Contracts:Giveth	true	false
+0xc5f519a08B70f9A51606c5dD95Ebb881Dfd5E554	1742	Alliance for Safety and Justice	31-Contracts:Giveth	true	false
+0xc5FC0E94A7B512912936ba932B04B856D835A2CB	497	Beverly Bootstraps	31-Contracts:Giveth	true	false
+0xc6029992E15a93C96b044FcFaF060d2d03c93966	1662	Psychedelic Science Funders Collaborative	31-Contracts:Giveth	true	false
+0xC6055bE8996aD6da60269949b95744131BF1595c	1484	FOXG1 Research Foundation	31-Contracts:Giveth	true	false
+0xC61799b2604A2c4b34376BdAD040754031AC5822	177	Feed the Hungry in Chilliwack BC Canada	31-Contracts:Giveth	true	false
+0xc6213a9f874E4576f3663F05936cFDd2cCE82b1e	955	EB Research Partnership	31-Contracts:Giveth	true	false
+0xC6215DAf13472Ee1c030Fc7D9976d7e44Ab5000C	1679	CORDIAL WORLD app	31-Contracts:Giveth	true	false
+0xc6963A801E480ed570f3490A6e6375567e3Bf050	1048	Lupus Foundation of America	31-Contracts:Giveth	true	false
+0xC6D9070d3cE0E6488d320E20Da5F0Fa124B4D3FE	1367	Berea College	31-Contracts:Giveth	true	false
+0xc75FE5699c5C7e81773B9bD78e36669D96a1f1A4	876	American Friends of Leket Israel	31-Contracts:Giveth	true	false
+0xC785ffC5Dd002778959B7C71067E40Ca58738f9b	890	Enders Island	31-Contracts:Giveth	true	false
+0xC7877FC4868C912839eb648adB747eaA94EAd487	1092	Conservation Earth / Wildmind	31-Contracts:Giveth	true	false
+0xC78c88b9dFc8BA6b46e425EC1078874D886Fd286	392	Forward Justice	31-Contracts:Giveth	true	false
+0xc7BA01C800A5c8a542C29b107eB7937e53FBd386	1031	OURChurch Foundation	31-Contracts:Giveth	true	false
+0xc7c358930De0C9D855399D531e3c427E0DC79e29	1218	Metropolitan Ministries	31-Contracts:Giveth	true	false
+0xc7d3F63580537e71212108a175be54d5BeF7C4e5	936	Suncoast Community Church	31-Contracts:Giveth	true	false
+0xc7D8F5f7bEfF6F69d97AFC3cE01196272E47E9B0	45	Patagonia Wildfire Emergency	31-Contracts:Giveth	true	false
+0xc8168Db69eE7a29D4e0FB978c2D35F07afea260E	1732	Global Empowerment Mission	31-Contracts:Giveth	true	false
+0xC83788AFd4280B9ddfeDA4313E393C0e8435FE51	508	Zaytuna College	31-Contracts:Giveth	true	false
+0xC8771Afd1a8af2eD12eDdaB94eB55C863e4Cd84B	1065	Maui Humane Society	31-Contracts:Giveth	true	false
+0xC88200dD4Fb772d6aD998EbA545d0393Ed467D32	366	North Shore Animal League America	31-Contracts:Giveth	true	false
+0xC8bBcab86625Ef179F9580Db50a941B57D139fD3	840	Myanmar Hope Christian Mission	31-Contracts:Giveth	true	false
+0xC98B548E6CCD78483b650ed296FcA48eeed036dF	428	Museum of the Moving Image	31-Contracts:Giveth	true	false
+0xc9bc38130D153439335d450221FaCb8D39788DAE	1491	CityBridge Education	31-Contracts:Giveth	true	false
+0xc9dCe56bb499cF4Dec997b075e379cE0325F84B8	615	University of Maryland College Park Foundation	31-Contracts:Giveth	true	false
+0xC9f3158f17227FD793Aa9Ed1625A7eA09c80317D	1563	Archdiocese of Atlanta	31-Contracts:Giveth	true	false
+0xca09f1F9D0560bf9879711e62f191Ea2FFedf079	1295	University of Austin	31-Contracts:Giveth	true	false
+0xcA28Cf0367B1FFA09229BD88c9b13B01F6407344	1657	Lee Health Foundation	31-Contracts:Giveth	true	false
+0xCa2F199eb0177241c6Dd32A66d9Ea98320933212	672	Cure Rare Disease	31-Contracts:Giveth	true	false
+0xCa5D3bbec09548b31d18395c6ad529FC30e63DA5	733	International OCD Foundation (IOCDF)	31-Contracts:Giveth	true	false
+0xca6b2d466Db363292970CE7bDE8165FA0eb9321e	491	Omni Nano	31-Contracts:Giveth	true	false
+0xCA9C75A2157Fd1231fC7Acb77450e55d21A35170	668	Texas Public Policy Foundation	31-Contracts:Giveth	true	false
+0xcaB4c6CfD5d17E57FC629d1B05C658a4C905C2f7	1627	Friends of Yad Sarah	31-Contracts:Giveth	true	false
+0xCb42688d2d64Dc9Eb53335EbB6D86cf44074d9Cf	790	Karam Foundation	31-Contracts:Giveth	true	false
+0xcb42B7500bde664751A213eEa1c1a683a6871DCF	944	The Seasteading Institute	31-Contracts:Giveth	true	false
+0xCb44eD45dBd0Fa899753d57003B789859cFb20e2	945	Action For Solidarity	31-Contracts:Giveth	true	false
+0xCB90dc28962B76B2956eF1e0Be0B70d4e8212314	465	She’s the First	31-Contracts:Giveth	true	false
+0xcbC0F0C0d09d6d19D7CAC36ec299437373ce1c19	827	When We Band Together	31-Contracts:Giveth	true	false
+0xcC16478712932aB5144CC6E0eA2Af6C84452D185	240	MCON Drinks with DAOs Happy Hour	31-Contracts:Giveth	true	false
+0xcC75b83AE688769E72f3D65861A2878Bc8Eb4809	1661	Accompany Capital	31-Contracts:Giveth	true	false
+0xCc8991A9b8C42ac3823E3c52d80f96272a2dc1Ea	596	King County Library System Foundation	31-Contracts:Giveth	true	false
+0xCCa88b952976DA313Fb928111f2D5c390eE0D723	31	Women of Crypto Art (WOCA)	31-Contracts:Giveth	true	false
+0xCd0ffDFD36aE66110706F68c3DDe6926d2366737	1577	Medical NGO that Grows Cannabis in Brazil Needs Help	31-Contracts:Giveth	true	false
+0xCda8f3CCc484457468D67A6D75Ba5505e6BcE26D	1776	Kevin Love Fund (KLF)	31-Contracts:Giveth	true	false
+0xCdBaFaAC668fE4D6c2249c44f9CF87F98b782c81	991	Orangutan Outreach	31-Contracts:Giveth	true	false
+0xcE3F289Ada15aF17693755C9232EA98F675eE643	713	Luther High School	31-Contracts:Giveth	true	false
+0xcE83141e0c5bF307EC1440FDf49fbF4639a10BAe	1312	Our Cannabis	31-Contracts:Giveth	true	false
+0xCed9aEa1D19087DF9b24409a2FAeAA71e89FAbAa	909	Trees for the Future	31-Contracts:Giveth	true	false
+0xCf9f21d74e5bA110ee8B6c3a643Bf001d545936E	1344	American Friends of Latet Israeli Humanitarian Aid	31-Contracts:Giveth	true	false
+0xd0149288B01f1e9b558bA2Fc7EcAA761048f628A	998	Cedars Home for Children	31-Contracts:Giveth	true	false
+0xD058D8a45391A6dcb5b979FDb59F69b51Bda710f	432	Dreams for Schools	31-Contracts:Giveth	true	false
+0xd06F927799FC529923B3107Adc57c709AB3E3C8d	1477	Young America's Foundation	31-Contracts:Giveth	true	false
+0xd072282a9a4Af9F5522A70a8afE4649725730EE3	983	Talbot Mentors	31-Contracts:Giveth	true	false
+0xD0ca23a55bE1488112786D6268d51bed8EB83524	1130	Glenrose Rehabilitation Hospital Foundation	31-Contracts:Giveth	true	false
+0xd0D465525B8f4daa8dd3fc841D05E568f7FFA2bd	429	CE - Clean Energy. Bright Futures.	31-Contracts:Giveth	true	false
+0xD0E2B58E6d4da04365D35726aA3c4b1f07FD1BC4	389	Garden Church	31-Contracts:Giveth	true	false
+0xD0f6eBb70a2C66Cd13c2a5d0c38c0fF109D669af	1372	Compassion Without Borders	31-Contracts:Giveth	true	false
+0xD164AF956E0f34Be07a86752fe43AE788F647531	1178	Ethereum Colombia	31-Contracts:Giveth	true	false
+0xD1a43cadA83ff4227fCe3FA3a1a61e3DED47c9c2	833	RUN Ministries	31-Contracts:Giveth	true	false
+0xd202D0725Edec7247C3C972AA827a6723BF51013	1319	Taiba NFT Galleria	31-Contracts:Giveth	true	false
+0xD26858088BcCf268D5c61C9c9298507dCDEE590C	1071	American Liver Foundation	31-Contracts:Giveth	true	false
+0xD28D66B6f4097d401558AFaA7f8Bb3Ab2626f2E1	736	The Justin Wren Foundation dba Fight For The Forgotten	31-Contracts:Giveth	true	false
+0xD2b1A34ccFbcdBcDAbE951bD4db0583424B3fa8A	1135	Drugs & Diagnostics for Tropical Diseases	31-Contracts:Giveth	true	false
+0xd2c60d9b97Ef34F1076CD2051D62dE6564B00d43	502	Kindness.org	31-Contracts:Giveth	true	false
+0xD2Cca77F696b9234d100E30839479a318Ae35c33	989	Chicago Community Bond Fund	31-Contracts:Giveth	true	false
+0xd2d2D1176FF2DBb3FB9f8FB54ddBb63bb5714135	931	BethanyKids	31-Contracts:Giveth	true	false
+0xd2d53310c19fFD3D8e3AD2f6b10e16E718263e59	1144	Wheen Bee Foundation	31-Contracts:Giveth	true	false
+0xd301538E26346e5f1Df0C9DbBe7d28ad064883cd	1698	Sentinels of Freedom Scholarship Foundation	31-Contracts:Giveth	true	false
+0xd306A9BA016a5e6A83802C150Aa4C1A8FBdeA676	561	Edinburgh Dog and Cat Home	31-Contracts:Giveth	true	false
+0xd314d7Beaf7eeF86B5240F8d53fA6796e2c27dC6	907	Presence Point, Inc.	31-Contracts:Giveth	true	false
+0xd32D7Dfce2b3e52f97Ac3d52b978a53Bc9bd5C18	426	America's Charities	31-Contracts:Giveth	true	false
+0xD3A8518a8e75a6c9317027aBd29847eA1965F2b1	1714	Strengthening the Citizen Water Observatories Network	31-Contracts:Giveth	true	false
+0xd3Db59FfbeE7a32B80e00DE81d2A4792C019C2FE	1401	Semper K9 Assistance Dogs	31-Contracts:Giveth	true	false
+0xD3F63195A21a59d235d94c7262A489702C13521e	350	Occidental Arts And Ecology Center	31-Contracts:Giveth	true	false
+0xd433B6c5A16e772a48b86d5F2868902a69C11780	893	Animal Welfare League of Arlington	31-Contracts:Giveth	true	false
+0xd45F2928FfA98f1e166370b7a98E09633b5b6dC1	391	Blankets of Hope	31-Contracts:Giveth	true	false
+0xD504CD27D00e7890ca58f05c0a8d1D6956849e7D	947	Hope for Haiti	31-Contracts:Giveth	true	false
+0xD581236D022273142A533aa9070d9AaD47d697df	1302	Santa Paula Animal Rescue Center	31-Contracts:Giveth	true	false
+0xd595f5e0e7927c04C9D3B1bBE01465612044E72B	1038	Carver Foundation of Norwalk	31-Contracts:Giveth	true	false
+0xD605B70251290Dc86a560cD1C101d7165a3B5a64	958	Good360	31-Contracts:Giveth	true	false
+0xD6848dc8A7d48aE6483BFbB3DDF8dAaaF32993d0	1689	Air Force Association	31-Contracts:Giveth	true	false
+0xd6A53C63994D526A17c26b6B967C80Dd46F93455	969	Wolf Trap Animal Rescue	31-Contracts:Giveth	true	false
+0xd6BD0E9B4eF6080A263B3f946835162509f18708	359	Napa Land Trust	31-Contracts:Giveth	true	false
+0xD78693344f0EB7D84306822E4733F05CddFbEe69	975	EngenderHealth	31-Contracts:Giveth	true	false
+0xD7b55Ee129d62DfAFe97A12ef3a6723af7Ffe57F	462	Untermyer Gardens Conservancy	31-Contracts:Giveth	true	false
+0xD806d5a04e2d548355fd37bE6829f01E813D1fD9	531	Safecast Global Inc	31-Contracts:Giveth	true	false
+0xd812b72986DaCb4897d5a308b273e037e98DC4B1	751	Friends of the Lobkowicz Collections	31-Contracts:Giveth	true	false
+0xd85AaA6aDEEE01e9415C3792F31AA7878c89D818	1276	Corazon Latino	31-Contracts:Giveth	true	false
+0xD8611dE611c11B55F3a72E7D35CeD9E2462760D4	1726	Chimpanzee Sanctuary Northwest	31-Contracts:Giveth	true	false
+0xd8caE4fCb87DcdEf1918D4A81389A1BC5db2147F	865	Mental Health America	31-Contracts:Giveth	true	false
+0xD8E8f71b79fd6406436a15b4D4414240bc816178	774	Child Rescue Coalition	31-Contracts:Giveth	true	false
+0xD93b983BFD09025741b4Ff06DCf787877b715E5a	1623	LifeBUILDERS	31-Contracts:Giveth	true	false
+0xd96DD54F1b888e1aa84334a00E88c2B3d43c7ee1	1519	Cadets Arts & Entertainment, Inc.	31-Contracts:Giveth	true	false
+0xD96E692F20b13304bA236b47376F833006e043E7	1294	Turlock Christian School	31-Contracts:Giveth	true	false
+0xd978fDCE66bAF9A58612DEc80D118B1F84A5D13B	1300	Shri Ram Chandra Mission	31-Contracts:Giveth	true	false
+0xD99C831d3c2987c079c5126f5DABCD4eed288e25	819	NACDD	31-Contracts:Giveth	true	false
+0xD9bb4e3B8eF8c15357402F7FA3B061C31c78DAFf	297	Regenerating Sonora	31-Contracts:Giveth	true	false
+0xd9ea11756AEeA53fbe123E5B565cc772345C0b97	1510	Pasadena Humane	31-Contracts:Giveth	true	false
+0xda1b12caD6A11A500e0436D9a5d6196cBA655375	657	RefugePoint	31-Contracts:Giveth	true	false
+0xda4FAB111ebDC94e34e7cA6879045619C0F05A23	759	Florence Immigrant & Refugee Rights Project	31-Contracts:Giveth	true	false
+0xdA503Eef0326DB7b28C0962A5a45af3Bf7e0c1D8	1490	The Lantern Network	31-Contracts:Giveth	true	false
+0xdAb614F326C8c308D7a80B0690413eeB1BDD48Ba	720	ELIC	31-Contracts:Giveth	true	false
+0xDac88D49f2667d86Ab6b32C411fF3088BDE9e70c	303	RIP Medical Debt	31-Contracts:Giveth	true	false
+0xDB2A7549b7bb6252f21a7D591640a1508cB60E6F	1752	United Way of the CSRA	31-Contracts:Giveth	true	false
+0xdb95757Ab85CEc8ceE888f0166E4f248329DD315	311	EspacoVoa	31-Contracts:Giveth	true	false
+0xDc1E6f3D31dF6741c41483Ec55B7283dD11Dfb8D	1028	SEE Turtles	31-Contracts:Giveth	true	false
+0xdC70CCe1B23504a4c0112b4b0f120f7cd08b13f6	1030	Tutapona	31-Contracts:Giveth	true	false
+0xDC7589F5cf6d119D43446Caf76A090b7a3a5DEb9	1062	JCVision and Associates	31-Contracts:Giveth	true	false
+0xdc95A36Bd6eBEf62c69BEf552bf17AeD888c43c0	777	First Descents	31-Contracts:Giveth	true	false
+0xdcA321caE24F54Ab3ACD11D1329fA4f061f6A195	1556	Quad City Animal Welfare Center	31-Contracts:Giveth	true	false
+0xdd4E5C73004Bf5BBD865337d104cebBcd1E72587	857	Learn Fresh	31-Contracts:Giveth	true	false
+0xdD59C26a0D2AC8B30647cB0ce16797b9E69b2806	1751	Black Jaguar Foundation	31-Contracts:Giveth	true	false
+0xDd6F15361e1cF8C6A28e0Ac832176dEd503e9e2E	612	National Embryo Donation Center	31-Contracts:Giveth	true	false
+0xDDAb8608A81AAd44BF73c8d4C40b6909E1F2a461	807	Albuquerque Community Foundation	31-Contracts:Giveth	true	false
+0xDDD9798132591Fa20E88c94992Ac551e113AA042	1340	Leap Lab	31-Contracts:Giveth	true	false
+0xDe1d8f45Ed74CB6dCDE721bd80892AEDaF2456F4	558	Lifesaving Interventions Fund (by The Life You Can Save)	31-Contracts:Giveth	true	false
+0xdE94AB042f5877b97887E5bd07a712ec6d36d187	656	ICNA Relief USA	31-Contracts:Giveth	true	false
+0xdeB05c8e26603AfFEb61B5290D40A2F8DDdbEa33	1225	Boys & Girls Clubs of Northwest Georgia	31-Contracts:Giveth	true	false
+0xdEBC2a745E220f62f745319788b1DC47C7FAe64e	1525	BLOOM Charity	31-Contracts:Giveth	true	false
+0xDeD96EA34aa89cff62D0f131E92AC2d506D02a5E	388	Child’s Dream Association	31-Contracts:Giveth	true	false
+0xdf28E7e40a3f92D40d991a67590BC9a9C46c0B75	705	Hope for Justice	31-Contracts:Giveth	true	false
+0xdf4BfFFa88595afe2D2707a843FfA3eF49b87B8F	1598	The Matthews House	31-Contracts:Giveth	true	false
+0xdf4c7cC539FFA8e47f5475BB634aba8CD4910f1e	1546	Ligonier Ministries	31-Contracts:Giveth	true	false
+0xdf6eAa0663773f32abcA120E507FD892aEa79B13	824	Diversity in Blockchain	31-Contracts:Giveth	true	false
+0xDfAe185f0F9F01a1f15d1591203E0f022ec02a8A	1076	Boys & Girls Clubs of the Los Angeles Harbor	31-Contracts:Giveth	true	false
+0xDfB0b22940Cc45283D639D22ba26aa55ab8Bfee8	85	Crypto Commons Association	31-Contracts:Giveth	true	false
+0xDfdd852B7C32bD51d0a4ae6c8a7316BF83863d99	130	PositiveBlockchain.io	31-Contracts:Giveth	true	false
+0xdfF86A328F4843CA3023b121623023246a6413f9	1370	HSLDA	31-Contracts:Giveth	true	false
+0xE0001FA9636B160816ac7C85342e252a4694fD88	821	Big Brothers Big Sisters of Eastern Missouri	31-Contracts:Giveth	true	false
+0xe00FbE3218E6f0Afa71E4A90cb512A480E4F38e6	926	All Hands and Hearts through Happy Hearts Indonesia	31-Contracts:Giveth	true	false
+0xE0461eaD70987A6633AC8Ba01E5569044caB0d92	737	Human Relief Foundation	31-Contracts:Giveth	true	false
+0xE0b9d421c7aBBa8Cec333dfb2daa1F4452D08643	815	Bowery Residents Committee (BRC)	31-Contracts:Giveth	true	false
+0xe14553edc4A5Cd78f3b16b31264D9F56d44B1f07	244	UPF COIN	31-Contracts:Giveth	true	false
+0xe1d32F324656adF4ED8491Aff0BCBfc83f2bb066	579	Chai Lifeline	31-Contracts:Giveth	true	false
+0xE241dC249A9992BcE50C40AC99ceFA9422cA853A	1148	Civics Unplugged	31-Contracts:Giveth	true	false
+0xE24FFE043E2C991c0dA2D98F8d2A92DCE74246D4	724	Equity and Transformation (EAT)	31-Contracts:Giveth	true	false
+0xE2b4aC120518c9a7FDd14E6a4D55196E45139892	933	New Saint Andrews College	31-Contracts:Giveth	true	false
+0xE3439eA6DcF20BEd0BEE0D2fd482F5C27d0bc482	1697	Project Hawai’i	31-Contracts:Giveth	true	false
+0xE3482ed97A28AA538bAfF2C9255f6461B47E50e0	415	Merakey Foundation	31-Contracts:Giveth	true	false
+0xe3f738ff9fA4E157cAB12EE6f1847F680495229A	14	Permaculture Action Network	31-Contracts:Giveth	true	false
+0xe402c568eAD8C282854870fA23C0daD774186609	1740	Education Reimagined	31-Contracts:Giveth	true	false
+0xe425be08752cD42E8A2A24b0C6A1937Dc5486d3E	929	Signal Technology Foundation	31-Contracts:Giveth	true	false
+0xe43ecC65034B7f499B2AF0DC5Bc8dCE40d5Dd8BB	488	Breakthrough	31-Contracts:Giveth	true	false
+0xe451193D784796d030651faD20561e3bac86BfB5	1236	Osmotic Funding	31-Contracts:Giveth	true	false
+0xe460B2e27279e1C9Ad5f2E1D161F47B7c23c1532	836	STOMP Out Bullying	31-Contracts:Giveth	true	false
+0xe49D0c4AF537448fA8BEEf68c6df97bF07ad62fA	326	Endangered Tokens Foundation	31-Contracts:Giveth	true	false
+0xE4CEae632AE4d13C97F79c2dE84574aEd8f8085e	1145	GraceFirst Church	31-Contracts:Giveth	true	false
+0xE53c1c874838937c8F987966401965791825Cad8	468	Catholic Community Services of Western Washington	31-Contracts:Giveth	true	false
+0xE625E9384072e55d83e339764f669720A92A6A9f	826	EcoHealth Alliance	31-Contracts:Giveth	true	false
+0xE666Cf02bAA7813Bb808C0104876D0b57Bc5456d	1749	Aish	31-Contracts:Giveth	true	false
+0xE71212B20052F361b3E879DFbF66f237fad24A2e	1292	Center for Effective Philanthropy	31-Contracts:Giveth	true	false
+0xE71fe5A28CdE9fA1923DdcfBBEBB3de00941ac26	1120	Moneythink	31-Contracts:Giveth	true	false
+0xE74C718280fdf718486C85529732647D102cFDC0	1007	WILD Foundation	31-Contracts:Giveth	true	false
+0xe75996eE61426a9AdF35eab11d4B9f37C77f3911	1154	Students Run Philly Style	31-Contracts:Giveth	true	false
+0xE79A2afc6dFeEc41627f7a12CEc1195920502a11	1427	Stichting Wildlife Friends International	31-Contracts:Giveth	true	false
+0xe82bf79E67986f57F779e30139134914Ffd0f451	506	Woodlawn United	31-Contracts:Giveth	true	false
+0xe84117afB5bc58Fcb9DA0912fBd0a65e1923b4B9	1023	VMI Foundation	31-Contracts:Giveth	true	false
+0xe85255D67FA96298c9C15f987F8e0143973D101C	447	Little Pink Houses- Breast Cancer Family Retreats	31-Contracts:Giveth	true	false
+0xE85539B72E48C5721BC86ED797BD3498C74dc4f3	1702	University of Missouri-Columbia	31-Contracts:Giveth	true	false
+0xE85653209A17AdB1916bFC47ECdEdA9E16Dba7E6	639	The Resting Place Church	31-Contracts:Giveth	true	false
+0xE884470c36023a720752ef700431e4931e44592a	390	Providence Portland Medical Foundation	31-Contracts:Giveth	true	false
+0xE8B00b695DfEA5B9c98e9a0C6d9F18751e153Ef8	1224	S.T.A.R.T. Rescue	31-Contracts:Giveth	true	false
+0xe8Fafa4d56D2592f769dfdd6b7D026313fE815CB	404	Moynihan Scholarship Fund	31-Contracts:Giveth	true	false
+0xE91905B190Dc012714Ed50AC8fCC45c7DF39d6f3	765	Rockflower Partners	31-Contracts:Giveth	true	false
+0xE91ef1C50fB9B7FA9D0FCa290F73b7E4E422eDb8	834	The Actors Fund	31-Contracts:Giveth	true	false
+0xe9814cfC22868Cb74a95Efae4E02C4561042DB46	1526	WildAid	31-Contracts:Giveth	true	false
+0xE9973f6e41d466f2ad25964DCe83dd70258bb8f3	913	First Responders Resiliency Inc	31-Contracts:Giveth	true	false
+0xE9e50e779fCcEe0C12d970CB651FFba0d7002296	655	Wilson Disease Association	31-Contracts:Giveth	true	false
+0xEa3DeaC05a9706aA015466C7788002341534C33c	592	SBP	31-Contracts:Giveth	true	false
+0xEAb50ea531E113E8bFC5578F0d8b358F4ad77F3b	1219	Wings For Life Spinal Cord Research Foundation	31-Contracts:Giveth	true	false
+0xEAB51Eea4fC5d53696d4df76782f94896E565fa3	600	People for the Ethical Treatment of Animals (PETA)	31-Contracts:Giveth	true	false
+0xEAc5e70E0635bf365B65f4126b9EAe8ac3F684C3	831	Count Basie Center for the Arts	31-Contracts:Giveth	true	false
+0xeAD91eb40ee6d7A2eE7798D0Dff5CcB708fcc13b	313	ROCK YOUR LIFE Mentoring	31-Contracts:Giveth	true	false
+0xeae91294BEDC281039029955e3e55e0A889f4Ca9	1561	Global Genes	31-Contracts:Giveth	true	false
+0xeafFF6dB1965886348657E79195EB6f1A84657eB	1350	EVMcrispr	31-Contracts:Giveth	true	false
+0xEB59F90f3543d3674698f2170ECE926340995cFA	1102	Museum of Chinese in America	31-Contracts:Giveth	true	false
+0xEBB38ff197beF5292Fd4A8A83b18f822c9AFf419	524	Project Sweetie Pie	31-Contracts:Giveth	true	false
+0xebc61E972fed8626dCE1E791016D1344A776F94f	505	Cancer Alliance of Help & Hope	31-Contracts:Giveth	true	false
+0xeBE9a58e7186F83F18fa21750cc7cbC3b4F50f2D	942	W. Haywood Burns Institute	31-Contracts:Giveth	true	false
+0xec67312a71392C43d3980287C36e19D7a3d356fE	576	Médecins Sans Frontières Australia	31-Contracts:Giveth	true	false
+0xec86d3854592C9AdC7287203e16e383d55186132	1315	Wild Spirit Wolf Sanctuary	31-Contracts:Giveth	true	false
+0xecb179ea5910d652eda6988e919c7930f5ffcf11	core-0002	otc.giv.eth	31-Contracts:Core	true	true
+0xeCdDe25e659E702F2FAec5ac980BcA231F235147	966	Experience Camps	31-Contracts:Giveth	true	false
+0xeD086AA86EFfA9Cb9C805f1ACCA80b8075468D9C	698	Cornerstone Chapel	31-Contracts:Giveth	true	false
+0xed197BFf5F607C2a5D6Aa902B5E70E1379D411f3	1123	Deaf Child Hope International	31-Contracts:Giveth	true	false
+0xEd2Cb13Da3747c771E0ee9B5633651F1769e2E04	992	The Cure Starts Now	31-Contracts:Giveth	true	false
+0xeD7F9baF24e99473F5c25e666d10CE997b12Cb65	1704	University at Albany Foundation	31-Contracts:Giveth	true	false
+0xEDD425359FB15e894c639B6A74112954486146B9	10	Diamante Luz Center for Regenerative Living	31-Contracts:Giveth	true	false
+0xeDe207AF75671565Ae7fF575BBa166bEB83C78db	699	Parity.org	31-Contracts:Giveth	true	false
+0xeDFC223888DBD0f55F56EFFDD4B7158561453e16	817	Innovation Studio	31-Contracts:Giveth	true	false
+0xEe3152bFE48b2b32aff85aF9F7AEE49e1e1B5838	729	Faith Baptist Church	31-Contracts:Giveth	true	false
+0xeE37F4CCFfa8465015be4653BeB0f891fae068a0	796	The Life You Can Save	31-Contracts:Giveth	true	false
+0xeE72ed98392FA1428D991839F0ef4cBEf983570C	1057	CODESPA America	31-Contracts:Giveth	true	false
+0xee7C707ceF7f2CDe99284d2f785A700a468743f7	883	American Foundation for Suicide Prevention	31-Contracts:Giveth	true	false
+0xEE9B9677B1802AA1aF8b1d49F70E834DBF1b3d95	1233	The Legal Aid Society of Roanoke Valley	31-Contracts:Giveth	true	false
+0xeEa414C73977cE600c76951C2bB352aE9496949a	745	Am Shalom	31-Contracts:Giveth	true	false
+0xEeF44602C94220EcDE7999D17f7108a9b3f775DB	1457	TLC for Kids	31-Contracts:Giveth	true	false
+0xEf45037CA7d8531104323D0D0E1eC73D902565fa	634	National Pediatric Cancer Foundation	31-Contracts:Giveth	true	false
+0xEf61488Ce0b8F26418fA89a039aBe8852c12Afac	1565	Northeast Christian Church	31-Contracts:Giveth	true	false
+0xEf61BeCBAdf396EF234312BB4DE53913E36Ef6De	1305	Coastal Community Church	31-Contracts:Giveth	true	false
+0xef67981D66De3ea5AAa0f7dA419AE92ba8085dC0	629	4KIDS, Inc.	31-Contracts:Giveth	true	false
+0xEf74D4eC09514Fe209A39A262C8f172b0d1A1aFE	1190	New York City Urban Debate League	31-Contracts:Giveth	true	false
+0xefa7cE8a9E2a505A25314524e8242a96Ab813c97	855	Cato Institute	31-Contracts:Giveth	true	false
+0xeFB03Ca07A546Deb60C81b0F8aC65E014b78Bd32	741	Community Action Partnership of Orange County (CAP OC)	31-Contracts:Giveth	true	false
+0xefD3ec6feE171F3111B3512888Fda9098864DaFF	709	Ruth Ellis Center	31-Contracts:Giveth	true	false
+0xf0097778b7b4F3941949e8fdD18D17fC00141aDE	1462	Mountaineer Food Bank	31-Contracts:Giveth	true	false
+0xF069B95adc849d82D5F44a093f8b19b544B531Be	700	Foodbank of Southeastern Virginia and the Eastern Shore	31-Contracts:Giveth	true	false
+0xf09bdAE2BF2b44F97eCf178b568ac9B1e3d3CD2b	1291	Meeting Street Schools	31-Contracts:Giveth	true	false
+0xF0d552c88c848E984d7Cca52Fc2f559D28561eAF	1096	National Alliance for Eating Disorders	31-Contracts:Giveth	true	false
+0xf0eE6D77629Fa143a4afe72A48909a11965Fb38D	1026	Financial Inclusion and Freedom Fund Australia (by The Life You Can Save)	31-Contracts:Giveth	true	false
+0xf1279516D1feA563F3B92756E03e60aa8243B11f	922	Surfrider Foundation	31-Contracts:Giveth	true	false
+0xF12C60EAB212f4e754ab7501d70BdB7F70BeA9a3	578	Camp Ramah in Wisconsin	31-Contracts:Giveth	true	false
+0xF180fD87D97f2543146Ac14e418C9450322cEb6f	1010	Manifestations Worldwide Inc.	31-Contracts:Giveth	true	false
+0xF215939D32243bb1BbFdCB59C39a7DC54288FC44	1217	The Community Foundation of Frederick County Maryland	31-Contracts:Giveth	true	false
+0xf21882fF226831994F1B6044ED591Dbd42700861	744	Computers 2 Kids	31-Contracts:Giveth	true	false
+0xf25E4159787D333b21f6849e101aaa541Ab4ADE5	434	Great Lakes Center for the Arts	31-Contracts:Giveth	true	false
+0xF272962B322a047b25574B3eebaba487294ad3E1	1553	Cure DuChenne	31-Contracts:Giveth	true	false
+0xF2996b7Ab103BaC5820e806f84561489E05cf285	1006	Project HOPE	31-Contracts:Giveth	true	false
+0xf2aC5757F8557f3C4B8cb3824936D7A0d5cBC687	1232	American Heart Association	31-Contracts:Giveth	true	false
+0xF2adE2C146f788f95Ccd37d23f58A03124D0D5aE	1299	International Anti-Poaching Foundation	31-Contracts:Giveth	true	false
+0xf3177632468c931eDa113F120CC9F5eC4dfd66C7	1730	Nativity of the Theotokos Greek Orthodox Monastery	31-Contracts:Giveth	true	false
+0xf324ee8693fFa8244fCE28D5294056DaAB864030	919	Responsive to Our Community	31-Contracts:Giveth	true	false
+0xF33a2Be2e05771a42dC121496432fa48928093EF	483	Baitulmaal, Inc.	31-Contracts:Giveth	true	false
+0xf378c29f454E40882adA465A8428da5c17BF5fc7	575	The Jewish Board	31-Contracts:Giveth	true	false
+0xf37c3Ed51122531632DF5197e658F19554668f97	1736	National Zakat Foundation	31-Contracts:Giveth	true	false
+0xf37ce8f9a22ae8cF6d20b61bcC9b64B74514A754	813	Kiss the Ground	31-Contracts:Giveth	true	false
+0xF3976cc986287D639961cE1920af8106827813b7	1191	National Cryptologic Foundation	31-Contracts:Giveth	true	false
+0xf3d28C930acCE23432cbd5d4cb66A765C06Ab658	1482	RED USA	31-Contracts:Giveth	true	false
+0xf487DF23d1353aA9F8f446ae5723e51348204E52	863	Heart Kids NZ	31-Contracts:Giveth	true	false
+0xF4cfd2954a47102630B5285c05c2848449220CC9	1033	Epic Church	31-Contracts:Giveth	true	false
+0xF4d7C96F1124A60E355B23Aea65641191583E54D	265	Mutual Aid and Civil Defense by Cut The Plastic	31-Contracts:Giveth	true	false
+0xF4DAB081e1f5A52A44D8A7933c6B484D699544d8	1402	Cure Sanfilippo Foundation	31-Contracts:Giveth	true	false
+0xf503017D7baF7FBC0fff7492b751025c6A78179b	1164	TrueBlocks Indexer	31-Contracts:Giveth	true	false
+0xf50ab2136921aAAa01cEdF443d174A04159E95D0	1202	Susan G. Komen	31-Contracts:Giveth	true	false
+0xf53f71AEcFbE3F574eab711c36d1C50C31A63533	1432	Society of St. Andrew	31-Contracts:Giveth	true	false
+0xf55D28248f0Cb323c5bF766D80D27Ee186C6ca3A	1624	Alight	31-Contracts:Giveth	true	false
+0xF567F4D27F71A16D9f31f24164a2AC3fF1eb5dF7	1013	Holy Trinity Church and School, Georgetown	31-Contracts:Giveth	true	false
+0xf6720dA71c4FEF57d4e6E147f2A40f096361cD82	402	PETS FOR VETS	31-Contracts:Giveth	true	false
+0xF6be641f6F50FEB7710695Ba9C3009578b64CeC7	1201	Grameen Foundation USA	31-Contracts:Giveth	true	false
+0xF6f2f028D064a9CEB8Ba9457F75A118a8c4aC72c	1447	Upward Bound House	31-Contracts:Giveth	true	false
+0xF6f712e8590b41Ee0AE1959C6A71E677BA357091	1691	Big Brothers Big Sisters of Metro Atlanta	31-Contracts:Giveth	true	false
+0xF713deFed548e7aCAC03e348F78a2C322040bd31	1569	We Share Hope	31-Contracts:Giveth	true	false
+0xF745774C9e51e79c156E33926f368a859D670380	1515	Regents School of Austin	31-Contracts:Giveth	true	false
+0xf74FA34aBD5f7BA13eeeaa3657058B3A722A9bBE	1635	Baylor College of Medicine	31-Contracts:Giveth	true	false
+0xf7566a4b3eb9F67c1f3F935f44C02C5D3F5CE4cd	1339	Orbis International	31-Contracts:Giveth	true	false
+0xF77F1AD52Db14d85ffA2E6453FE672a5e1C9717C	1126	Blessings of Hope	31-Contracts:Giveth	true	false
+0xF79F808DeBf499471658583Aed7bfcde00710362	556	Unstoppable Foundation	31-Contracts:Giveth	true	false
+0xF8536E7541a9305bff09909b6FF4F22e8481ce3B	1079	Larimer Humane Society	31-Contracts:Giveth	true	false
+0xf87E9AE72c4B22431e81a45b2EcFFE57e678Dd6D	1481	Cornerstone Community Church	31-Contracts:Giveth	true	false
+0xF8Ab2F347005f1E7023a3C86D41f0582b04D8926	782	Life Romania	31-Contracts:Giveth	true	false
+0xf8D129D36e2A0Dc09346456bf04dDA1D84EbE8f9	740	Envision Unlimited	31-Contracts:Giveth	true	false
+0xF8f46060583d77f1dA48b8946546681AC34993DD	1041	Feed the Children	31-Contracts:Giveth	true	false
+0xf91135B9c7c3909588Fa0f886f34Bb2B4a53E49F	587	Greater Tacoma Community Foundation	31-Contracts:Giveth	true	false
+0xf924ff0f192f0c7c073161e0d62ce7635114e74f	core-0002	liquidity.giv.eth	31-Contracts:Core	true	true
+0xf94e6348789Ec98C3991bC5Bb031856A7335D144	1040	Vibrant Emotional Health	31-Contracts:Giveth	true	false
+0xf958fEcD2691F4Df8b5c67B8C9D6D9df6D2012A3	1110	WFAE	31-Contracts:Giveth	true	false
+0xF9609D1bB50E34E7ef7f8B054317a118b462a55B	1743	Catholic Schools Foundation	31-Contracts:Giveth	true	false
+0xF99cC05Cb9C0bF9192f0b7FA94D0459Cff24a6e0	1496	GRACE Gorillas	31-Contracts:Giveth	true	false
+0xF99D7b873B0d1cBaE56A9CE7A921C758a36DB59F	959	NTEN	31-Contracts:Giveth	true	false
+0xf9bc239B3FC0cCcAD3c93a1C0E65122Da3501FD1	952	Wall Street Bound	31-Contracts:Giveth	true	false
+0xfa35AA29fE6619B5571Da619e2A06bdab6e5ABF1	677	NEXT for AUTISM	31-Contracts:Giveth	true	false
+0xFa500Bf498aC18E2F581fc9fcc0Ec2ca7a09930b	423	Family Services of Greater Vancouver	31-Contracts:Giveth	true	false
+0xFa73AA10B93062e5f55d57c9F3fFAf07F4508A18	1088	St. Labre Indian School	31-Contracts:Giveth	true	false
+0xFB4c6632B3dA46DE4F8ff4d2530b95C134AcBA98	403	The Foundation for Living Beauty	31-Contracts:Giveth	true	false
+0xFb8F54700Ec4c651b8F6f6a72312816e6b2a1a15	1308	Wrestle Like A Girl	31-Contracts:Giveth	true	false
+0xfbCec543166dC6fd2A5d348825c0C844586d2A6F	891	NC Coastal Land Trust	31-Contracts:Giveth	true	false
+0xfBfA0ceF609bb162125DC94E58B22960c3fF9769	1114	Young Center for Immigrant Children's Rights	31-Contracts:Giveth	true	false
+0xfC0881dB3E06b764E87E8A59C212f3417D2FE65D	1168	Mafia Creativa din Romania Jius Valley development	31-Contracts:Giveth	true	false
+0xfc0966BcdA19c21101C6f0eF00a708a1CeaEb7F6	984	Sage Institute	31-Contracts:Giveth	true	false
+0xfc0AFF37867944a11484aC6b3734Fc0CA3EeA0Bf	808	The Museum of Flight	31-Contracts:Giveth	true	false
+0xFc16F548e9bAb13F4c5341227623C422024daBA5	536	The Advocates	31-Contracts:Giveth	true	false
+0xFc1d92aed3C2808eeB37Da2F00693345C2bd042a	1147	Action Tutoring	31-Contracts:Giveth	true	false
+0xFC33bD00E661d3E9e63C1582125181b0083367cD	582	Pittsburgh Botanic Garden	31-Contracts:Giveth	true	false
+0xfC34D26f4dEf7bB08a67530A129c3f49492f066f	1194	Westside Future Fund	31-Contracts:Giveth	true	false
+0xfC7900AdF02b27F0De9F0Fe8647F6873361aa79e	457	1300KOALAZ	31-Contracts:Giveth	true	false
+0xfCecD66d29a8A58Dd8F881865bC1EA3370705C4e	1517	HeadCount	31-Contracts:Giveth	true	false
+0xfD17A643f6B91E063ae06536d9974E43D38700E6	1287	Mental Health Minnesota	31-Contracts:Giveth	true	false
+0xFd2c3681c3177440f3FBa803f7455b17dB32d1D6	440	Santa Fe Animal Shelter	31-Contracts:Giveth	true	false
+0xfD39856A0A997EEE67d5E59Be2acbFaF970593C3	1456	Moore Institute for Plastic Pollution Research	31-Contracts:Giveth	true	false
+0xfd5271217fd4e2Ac231bb7AFc3F0194dC4154001	892	Upbring	31-Contracts:Giveth	true	false
+0xfD6F1cEfc34aCF98F37CC5a7106220488335b6FB	1001	Unison Fund	31-Contracts:Giveth	true	false
+0xFE14ab6d9448d391057016fa0FaF987eA4BffB11	1015	Habitat for Humanity of Bucks County	31-Contracts:Giveth	true	false
+0xfE5Cc51744A479CeE5a3D8F7a8c2dc73d4ad3C9f	1413	The nsoro Educational Foundation	31-Contracts:Giveth	true	false
+0xFEaE7D7342AFc8Dc72D293C8DC846d0af4a0FbDc	781	Veterans Bridge Home	31-Contracts:Giveth	true	false
+0xfECEC08a258542d0a8571243c23b95a5921094de	1436	Universidade Libertaria	31-Contracts:Giveth	true	false
+0xfEfa33CE2f7C3d49b358AE3A270D21CF2d463028	1209	Ghetto Film School US	31-Contracts:Giveth	true	false
+0xFf71dD938a229C9f9960C2D142dFA16BF8D32fEd	1773	Muscular Dystrophy Association	31-Contracts:Giveth	true	false
+0xfFcDE4d0229dE35bA9262D96B1F75268C627a97D	1068	Trees, Water & People	31-Contracts:Giveth	true	false

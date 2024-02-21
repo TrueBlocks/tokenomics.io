@@ -1,15 +1,15 @@
-gitcoin/data
-giveth/data
-.vscode
-nomics
-tokenomics.io
-wallets
+export*.gz
+GR12_user_info.csv
+gitcoin-round-12.tar.gz
 
-getem*sh
-fix*sh
+# temporary files
+file
+file.1
+x
+shit
 
-save
-backups
+# data and build artifacts
+objs/*
 
 # dependencies
 /node_modules
@@ -32,4 +32,3 @@ backups
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-*backend*

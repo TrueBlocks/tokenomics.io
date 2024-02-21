@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Tokenomics.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website and research platform associated with TrueBlocks. We're trying to show people what's possible when the world finally has globally accessible permissionless data. We no longer have to "ask permission" to the see the books of our charitable organizations.
 
-## Available Scripts
+"Isn't this a privacy invasion?"
 
-In the project directory, you can run:
+No. It's an experiment trying to figure out what types of organizations can exist in a world where anyone can "look into the books." This is a natural thing that happens with permissionless blockchains.
 
-### `yarn start`
+## Current Experiments
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Ecosystem-Wide Accounting]
+  - [GitCoin](./gitcoin)
+  - [Giveth](./giveth)
+  - [CLRFund](./clrfund)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [R Scripts Investigating Other Things](https://github.com/TrueBlocks/tokenomics)
 
-### `yarn test`
+## Folder Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is the structure of the folders along with a short explanation of each.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+.
+├── ./ui
+│
+│ A react application for showing the various data
+│
+├── ./R
+│
+│ R scripts for playing around with the data
+│
+└── ./data
+    │
+    │ collections of scraped data and exports for various ecosystems
+    │
+    ├── ./gitcoin
+    ├── ./giveth
+    └── ./clrfund
+```

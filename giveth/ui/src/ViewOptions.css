@@ -1,0 +1,14 @@
+.view-options {
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+}
+
+.view-options .ant-switch {
+    margin: auto 4px auto 16px;
+}
+
+.view-options .ant-switch ~ span {
+    cursor: pointer;
+}
